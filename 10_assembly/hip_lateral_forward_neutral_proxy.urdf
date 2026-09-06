@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="hip_lateral_forward_envelope_proxy">
+  <link name="world" />
+  <link name="hip_0">
+    <visual>
+      <geometry>
+        <box size="0.053 0.053 0.0402" />
+      </geometry>
+      <material name="m0">
+        <color rgba="0.25 0.55 0.85 0.7" />
+      </material>
+    </visual>
+  </link>
+  <joint name="fixed_0" type="fixed">
+    <parent link="world" />
+    <child link="hip_0" />
+    <origin xyz="0.0 0.055 0.17989999999999998" rpy="0 0 0" />
+  </joint>
+  <link name="hip_1">
+    <visual>
+      <geometry>
+        <box size="0.0402 0.053 0.053" />
+      </geometry>
+      <material name="m1">
+        <color rgba="0.25 0.55 0.85 0.7" />
+      </material>
+    </visual>
+  </link>
+  <joint name="fixed_1" type="fixed">
+    <parent link="world" />
+    <child link="hip_1" />
+    <origin xyz="-0.0251 0.11 0.205" rpy="0 0 0" />
+  </joint>
+  <link name="hip_2">
+    <visual>
+      <geometry>
+        <box size="0.053 0.0402 0.053" />
+      </geometry>
+      <material name="m2">
+        <color rgba="0.25 0.55 0.85 0.7" />
+      </material>
+    </visual>
+  </link>
+  <joint name="fixed_2" type="fixed">
+    <parent link="world" />
+    <child link="hip_2" />
+    <origin xyz="0.055 0.0849 0.205" rpy="0 0 0" />
+  </joint>
+</robot>

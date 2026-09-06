@@ -1,0 +1,168 @@
+{
+  "version": "v0.18",
+  "scope": "Current study artifacts and workflow records only; full backup is in checkpoints",
+  "artifacts": [
+    {
+      "artifact_id": "RC-ART-1800",
+      "study_id": "RC-STUDY-0018",
+      "path": "prompts/robot_master_prompt.md",
+      "sha256": "28a7924e18f4cfd7100999ee129888855cc95c002e241de697ec4bc81b11f177",
+      "bytes": 22218,
+      "status": "draft"
+    },
+    {
+      "artifact_id": "RC-ART-1801",
+      "study_id": "RC-STUDY-0018",
+      "path": "03_system/body_integration_v18.json",
+      "sha256": "ac398794d44ba52867a4cf65dc6ed2238310de3cda7fd99d905f565b250c3b78",
+      "bytes": 2025,
+      "status": "draft"
+    },
+    {
+      "artifact_id": "RC-ART-1802",
+      "study_id": "RC-STUDY-0018",
+      "path": "04_kinematics/body_contacts_v18.py",
+      "sha256": "ed568e01f3764d3739a0f2f40d4f789ad05b7ad8ddaeebafc6952c28a70fbb7d",
+      "bytes": 3595,
+      "status": "draft"
+    },
+    {
+      "artifact_id": "RC-ART-1803",
+      "study_id": "RC-STUDY-0018",
+      "path": "04_kinematics/body_contacts_v18.json",
+      "sha256": "ec2baadef088a0c1b38ecfb30d73fa11455ddf06b4eabac0e5797cf52155dfcf",
+      "bytes": 49049,
+      "status": "draft"
+    },
+    {
+      "artifact_id": "RC-ART-1804",
+      "study_id": "RC-STUDY-0018",
+      "path": "09_cad/leg_reuse_v18.py",
+      "sha256": "a8318217d3e66c8fa09b580b4ade536e33a0bf5cef1fcf1956d35f7addb5f563",
+      "bytes": 1765,
+      "status": "draft"
+    },
+    {
+      "artifact_id": "RC-ART-1805",
+      "study_id": "RC-STUDY-0018",
+      "path": "09_cad/body_integration_v18.py",
+      "sha256": "773aa92a197f7a6ec23b0e19e24985e827cbde62cd3368f5d053e9e0e62251ab",
+      "bytes": 10707,
+      "status": "draft"
+    },
+    {
+      "artifact_id": "RC-ART-1806",
+      "study_id": "RC-STUDY-0018",
+      "path": "09_cad/body_v18/body_results.json",
+      "sha256": "d828d2e523bf359a6ccd282e566350202eba5561e4d3eef972de993d717f803b",
+      "bytes": 76454,
+      "status": "draft"
+    },
+    {
+      "artifact_id": "RC-ART-1807",
+      "study_id": "RC-STUDY-0018",
+      "path": "09_cad/body_v18/stand_baseline.FCStd",
+      "sha256": "45fbb2a52bb06a8eb8f5e470487663393f70ca7660823c321cf073e5f9c0d0a2",
+      "bytes": 2417935,
+      "status": "draft"
+    },
+    {
+      "artifact_id": "RC-ART-1808",
+      "study_id": "RC-STUDY-0018",
+      "path": "09_cad/body_v18/stand_narrow.FCStd",
+      "sha256": "a6c62ed90a4c4c7cfc9798a452711c1f715ed5b7fa274c52611e64c828e2a92b",
+      "bytes": 2422308,
+      "status": "draft"
+    },
+    {
+      "artifact_id": "RC-ART-1809",
+      "study_id": "RC-STUDY-0018",
+      "path": "09_cad/body_v18/kneeling_contact_probe.FCStd",
+      "sha256": "6967f1993428e48436f4d30c602da2de01d2a5d70d5cf7c5a12107e4f738b6dc",
+      "bytes": 2512647,
+      "status": "draft"
+    },
+    {
+      "artifact_id": "RC-ART-1810",
+      "study_id": "RC-STUDY-0018",
+      "path": "03_system/electronics_repack_v18.json",
+      "sha256": "6c602a291e0a98a2f22e3e6f3d0493dcac79087606dbd103e92acf2b2a8883a7",
+      "bytes": 1025,
+      "status": "draft"
+    },
+    {
+      "artifact_id": "RC-ART-1811",
+      "study_id": "RC-STUDY-0018",
+      "path": "09_cad/repack_electronics_v18.py",
+      "sha256": "c809e1e2f16f0519ed8b3a4a6c5e4d39b6bc38746f36459148cfc71df3e9939f",
+      "bytes": 4234,
+      "status": "draft"
+    },
+    {
+      "artifact_id": "RC-ART-1812",
+      "study_id": "RC-STUDY-0018",
+      "path": "09_cad/body_v18/electronics_repack_results.json",
+      "sha256": "8df48c41476393aaf704dd13ccdb334f952c2c39dbe285166bb209879f76fd3b",
+      "bytes": 7711,
+      "status": "draft"
+    },
+    {
+      "artifact_id": "RC-ART-1813",
+      "study_id": "RC-STUDY-0018",
+      "path": "09_cad/body_v18/stand_electronics_repack.FCStd",
+      "sha256": "6c5706cd93ba772ab17bf90d453d845d83f2444fba0158c685a50700826ac147",
+      "bytes": 2730388,
+      "status": "draft"
+    },
+    {
+      "artifact_id": "RC-ART-1814",
+      "study_id": "RC-STUDY-0018",
+      "path": "tools/software_policy.md",
+      "sha256": "aadccf520b4bb23f6c8e822b3658e1011f433668e05de435b7f3eadd34885737",
+      "bytes": 931,
+      "status": "draft"
+    },
+    {
+      "artifact_id": "RC-ART-1815",
+      "study_id": "RC-STUDY-0018",
+      "path": "deliverables/body_review_v18.md",
+      "sha256": "473dae43b6c04b897c497a902f6718ac1750fd0762039cd8664816342e552e56",
+      "bytes": 7822,
+      "status": "draft"
+    },
+    {
+      "artifact_id": "RC-ART-1816",
+      "study_id": "RC-STUDY-0018",
+      "path": "26_plm/lifecycle_workflow.md",
+      "sha256": "e07a74e1fb1e07d1a4c16793898fcbf46c82cd2d975e4ca19715a14e892db55d",
+      "bytes": 4407,
+      "status": "draft"
+    },
+    {
+      "artifact_id": "RC-ART-1817",
+      "study_id": "RC-STUDY-0018",
+      "path": "26_plm/registry.json",
+      "sha256": "76b62f3d150676fa13acc7ed3d79530f3bccd8546259ab5b240932ff84491c39",
+      "bytes": 1377,
+      "status": "draft"
+    },
+    {
+      "artifact_id": "RC-ART-1818",
+      "study_id": "RC-STUDY-0018",
+      "path": "11_verification/cae_plan_v18.json",
+      "sha256": "67f70e280229d60e24cec74544a9cf3641285f2d206a1ba669dfca4f08d78b3d",
+      "bytes": 1719,
+      "status": "draft"
+    },
+    {
+      "artifact_id": "RC-ART-1819",
+      "study_id": "RC-STUDY-0018",
+      "path": "27_mes/work_order_template.json",
+      "sha256": "9ea4334cb277bef04dd2d0e134403153b3803eba7ffa3688e6d490c8018dd498",
+      "bytes": 1367,
+      "status": "draft"
+    }
+  ],
+  "engineering_release": false,
+  "mes_dispatched": false
+}

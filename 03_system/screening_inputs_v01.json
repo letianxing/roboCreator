@@ -1,0 +1,58 @@
+{
+  "version": "0.1",
+  "status": "screening_only_not_manufacturing_release",
+  "metadata_defaults": {
+    "owner": "robot",
+    "source_type": "assumed",
+    "source_ref": "engineering screening v0.1; not measured",
+    "status": "provisional",
+    "uncertainty": "not quantified; sensitivity ranges are not confidence intervals",
+    "updated_on": "2026-09-06",
+    "conditions": "simplified quasi-static or explicitly stated idealized models"
+  },
+  "parameters": [
+    {"parameter_id":"budget", "value":5000, "unit":"CNY", "source_type":"requirement", "status":"confirmed", "source_ref":"user: budget within 5000"},
+    {"parameter_id":"runtime", "value":20, "unit":"min", "source_type":"requirement", "status":"confirmed", "source_ref":"user: 20 minutes mixed use"},
+    {"parameter_id":"height", "value":0.4, "unit":"m"},
+    {"parameter_id":"sole_height", "value":0.025, "unit":"m"},
+    {"parameter_id":"thigh", "value":0.09, "unit":"m"},
+    {"parameter_id":"shin", "value":0.09, "unit":"m"},
+    {"parameter_id":"torso_to_head_base", "value":0.095, "unit":"m"},
+    {"parameter_id":"head_height", "value":0.10, "unit":"m"},
+    {"parameter_id":"shoulder_height", "value":0.295, "unit":"m"},
+    {"parameter_id":"upper_arm", "value":0.08, "unit":"m"},
+    {"parameter_id":"forearm", "value":0.08, "unit":"m"},
+    {"parameter_id":"grip_extension", "value":0.04, "unit":"m"},
+    {"parameter_id":"bottle_mass", "value":0.58, "unit":"kg", "conditions":"550 mL water plus assumed 30 g bottle/cap"},
+    {"parameter_id":"bottle_grasp_height", "value":0.13, "unit":"m", "conditions":"assumed contact height above table"},
+    {"parameter_id":"arm_mass_each", "value":0.18, "unit":"kg", "conditions":"includes assigned motor/structure mass; not added again to robot mass"},
+    {"parameter_id":"arm_com_horizontal", "value":0.085, "unit":"m"},
+    {"parameter_id":"bottle_lever", "value":0.15, "unit":"m"},
+    {"parameter_id":"grip_mu", "value":0.4, "unit":"1"},
+    {"parameter_id":"grip_force_factor", "value":2, "unit":"1", "conditions":"provisional factor on normal force, not validated"},
+    {"parameter_id":"joint_force_lever", "value":0.06, "unit":"m", "conditions":"illustrative GRF lever, not exact knee geometry"},
+    {"parameter_id":"actuator_mass", "value":0.055, "unit":"kg", "source_type":"datasheet", "source_ref":"https://www.feetechrc.com/products.html?keyword=STS3215", "conditions":"STS3215 C018; homogeneous comparison only"},
+    {"parameter_id":"servo_reference_price", "value":118, "unit":"CNY", "source_type":"datasheet", "source_ref":"https://www.waveshare.net/left_column/Add-on-Module.htm", "status":"catalog_price_not_checkout_quote"}
+  ],
+  "mass_allowances_kg": {
+    "printed_frames_and_grippers":0.40,
+    "battery":0.22,
+    "onboard_compute_and_power_electronics":0.18,
+    "audio_and_speaker":0.08,
+    "vision_and_its_cable":0.13,
+    "bearings_fasteners_wiring_contact_pads":0.12,
+    "costume_and_mass_contingency":0.15
+  },
+  "cost_allowances_cny_excluding_actuators_and_camera": {
+    "onboard_compute_bus_imu_contact_sensing":650,
+    "battery_charge_power_protection":400,
+    "outsourced_prints_standard_parts_costume":650,
+    "shipping_spares_rework":700
+  },
+  "notes": [
+    "Mass/cost allowances are engineering placeholders, not quotes, CAD masses, or verified minima.",
+    "Camera is priced separately; previously purchased mic purchase price is not charged again, missing adapters must be covered.",
+    "Geometry uses X forward, Y left, Z up. Assumes coaxial ideal joints; packaging offsets not resolved.",
+    "Metadata defaults apply to each parameter unless overridden. Maps inherit assumed metadata with units in their keys."
+  ]
+}

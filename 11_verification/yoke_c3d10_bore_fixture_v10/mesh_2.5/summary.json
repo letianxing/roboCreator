@@ -1,0 +1,16 @@
+{
+  "h_mm": 2.5,
+  "fixture": "bolt_bores",
+  "nodes": 33085,
+  "elements": 17638,
+  "min_gauss_jacobian": 0.0012365298706611717,
+  "mesh_volume_mm3": 37721.191131383726,
+  "max_u_mm": 1.8384473080242276,
+  "load_weighted_uz_mm": -1.0256620251710458,
+  "peak_vm_MPa": 151.39665883937593,
+  "peak_element": 14040,
+  "force_residual_N": 0.0005152162382147792,
+  "moment_residual_Nmm": 0.025473881940538737,
+  "energy_relative_error": 1.0332038056686251e-05,
+  "load_area_mm2": 1844.8895453990453
+}

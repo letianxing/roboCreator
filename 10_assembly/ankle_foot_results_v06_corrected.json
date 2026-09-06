@@ -1,0 +1,265 @@
+{
+  "status": "v06_unit_and_support_audit_corrected_not_manufacturing",
+  "configs": [
+    {
+      "name": "wide_ak40_ankle",
+      "hip_y_m": 0.13,
+      "ankle_y_m": 0.13,
+      "foot_length_m": 0.12,
+      "foot_width_m": 0.055,
+      "outer_width_m": 0.315,
+      "ankle_module_mm": [
+        53,
+        53,
+        40.2
+      ],
+      "sole_mm": 3,
+      "proxy_boxes": [
+        {
+          "name": "ankle_pitch",
+          "center": [
+            0,
+            0.13,
+            0.0231
+          ],
+          "half": [
+            0.0265,
+            0.0265,
+            0.0201
+          ]
+        },
+        {
+          "name": "ankle_roll",
+          "center": [
+            0,
+            0.1565,
+            0.0231
+          ],
+          "half": [
+            0.0265,
+            0.0265,
+            0.0201
+          ]
+        },
+        {
+          "name": "foot_shell",
+          "center": [
+            0,
+            0.13,
+            0.0015
+          ],
+          "half": [
+            0.06,
+            0.0275,
+            0.0015
+          ]
+        }
+      ],
+      "box_clearance_violations": [
+        [
+          "ankle_pitch",
+          "ankle_roll"
+        ],
+        [
+          "ankle_pitch",
+          "foot_shell"
+        ],
+        [
+          "ankle_roll",
+          "foot_shell"
+        ]
+      ],
+      "strict_penetrations": [
+        [
+          "ankle_pitch",
+          "ankle_roll"
+        ]
+      ],
+      "dual_support_margin_m": 0.06,
+      "notes": [
+        "ankle modules use supplied cuboid dimensions only",
+        "foot support is rectangular and assumes full flat contact",
+        "does not include motor shaft, brackets, bearings, fasteners, wiring or shoe shell"
+      ],
+      "single_support_margin_com_at_robot_center_m": -0.10250000000000001,
+      "single_support_margin_com_over_foot_center_m": 0.0275,
+      "height_ankle_module_top_m": 0.0432
+    },
+    {
+      "name": "compact_sts_ankle",
+      "hip_y_m": 0.095,
+      "ankle_y_m": 0.095,
+      "foot_length_m": 0.105,
+      "foot_width_m": 0.05,
+      "outer_width_m": 0.24,
+      "ankle_module_mm": [
+        45.2,
+        24.7,
+        35
+      ],
+      "sole_mm": 3,
+      "proxy_boxes": [
+        {
+          "name": "ankle_pitch",
+          "center": [
+            0,
+            0.095,
+            0.0205
+          ],
+          "half": [
+            0.022600000000000002,
+            0.01235,
+            0.0175
+          ]
+        },
+        {
+          "name": "ankle_roll",
+          "center": [
+            0,
+            0.10735,
+            0.0205
+          ],
+          "half": [
+            0.022600000000000002,
+            0.01235,
+            0.0175
+          ]
+        },
+        {
+          "name": "foot_shell",
+          "center": [
+            0,
+            0.095,
+            0.0015
+          ],
+          "half": [
+            0.0525,
+            0.025,
+            0.0015
+          ]
+        }
+      ],
+      "box_clearance_violations": [
+        [
+          "ankle_pitch",
+          "ankle_roll"
+        ],
+        [
+          "ankle_pitch",
+          "foot_shell"
+        ],
+        [
+          "ankle_roll",
+          "foot_shell"
+        ]
+      ],
+      "strict_penetrations": [
+        [
+          "ankle_pitch",
+          "ankle_roll"
+        ]
+      ],
+      "dual_support_margin_m": 0.0525,
+      "notes": [
+        "ankle modules use supplied cuboid dimensions only",
+        "foot support is rectangular and assumes full flat contact",
+        "does not include motor shaft, brackets, bearings, fasteners, wiring or shoe shell"
+      ],
+      "single_support_margin_com_at_robot_center_m": -0.07,
+      "single_support_margin_com_over_foot_center_m": 0.025,
+      "height_ankle_module_top_m": 0.038000000000000006
+    },
+    {
+      "name": "compact_sts_ankle_narrow",
+      "hip_y_m": 0.08,
+      "ankle_y_m": 0.08,
+      "foot_length_m": 0.1,
+      "foot_width_m": 0.045,
+      "outer_width_m": 0.20500000000000002,
+      "ankle_module_mm": [
+        45.2,
+        24.7,
+        35
+      ],
+      "sole_mm": 3,
+      "proxy_boxes": [
+        {
+          "name": "ankle_pitch",
+          "center": [
+            0,
+            0.08,
+            0.0205
+          ],
+          "half": [
+            0.022600000000000002,
+            0.01235,
+            0.0175
+          ]
+        },
+        {
+          "name": "ankle_roll",
+          "center": [
+            0,
+            0.09235,
+            0.0205
+          ],
+          "half": [
+            0.022600000000000002,
+            0.01235,
+            0.0175
+          ]
+        },
+        {
+          "name": "foot_shell",
+          "center": [
+            0,
+            0.08,
+            0.0015
+          ],
+          "half": [
+            0.05,
+            0.0225,
+            0.0015
+          ]
+        }
+      ],
+      "box_clearance_violations": [
+        [
+          "ankle_pitch",
+          "ankle_roll"
+        ],
+        [
+          "ankle_pitch",
+          "foot_shell"
+        ],
+        [
+          "ankle_roll",
+          "foot_shell"
+        ]
+      ],
+      "strict_penetrations": [
+        [
+          "ankle_pitch",
+          "ankle_roll"
+        ]
+      ],
+      "dual_support_margin_m": 0.05,
+      "notes": [
+        "ankle modules use supplied cuboid dimensions only",
+        "foot support is rectangular and assumes full flat contact",
+        "does not include motor shaft, brackets, bearings, fasteners, wiring or shoe shell"
+      ],
+      "single_support_margin_com_at_robot_center_m": -0.0575,
+      "single_support_margin_com_over_foot_center_m": 0.0225,
+      "height_ankle_module_top_m": 0.038000000000000006
+    }
+  ],
+  "decision_rule": "candidate requires no proxy box conflict; width is reported, not optimized",
+  "limitations": [
+    "Ankle roll axis and module orientation are idealized",
+    "No leg IK, torque, impact, friction, COM shift or swept collision",
+    "Foot width/length are packaging dimensions, not traction dimensions",
+    "A conflict may be due to conservative overlap, no conflict is not proof of clearance",
+    "Hard-surface landing and aerial dynamics remain unresolved"
+  ]
+}

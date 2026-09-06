@@ -1,0 +1,15 @@
+{
+  "h_mm": 1.8,
+  "nodes": 65178,
+  "elements": 37044,
+  "min_gauss_jacobian": 0.619055306745651,
+  "mesh_volume_mm3": 37721.23078561718,
+  "max_u_mm": 1.281633958472032,
+  "load_weighted_uz_mm": -0.708302736522544,
+  "peak_vm_MPa": 160.86196735123386,
+  "peak_element": 34477,
+  "force_residual_N": 5.638317892278843e-05,
+  "moment_residual_Nmm": 0.0016810553669432096,
+  "energy_relative_error": 3.208486657277022e-06,
+  "load_area_mm2": 1844.8892511719664
+}

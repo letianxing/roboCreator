@@ -1,0 +1,133 @@
+{
+  "status": "equivalent_connector_sensitivity_only",
+  "source_mesh": "G:\\Golands\\roboCreator\\11_verification\\yoke_c3d10_v10\\mesh_1.8\\mesh.msh",
+  "mesh_size_mm": 1.8,
+  "reference": {
+    "E_MPa": 210000.0,
+    "nu": 0.3,
+    "nominal_d_mm": 2.5,
+    "pitch_mm": 0.45,
+    "effective_length_mm": 6.0,
+    "area_mm2": 3.390795089543035
+  },
+  "results": [
+    {
+      "factor": 0.05,
+      "equivalent_total_stiffness_per_bolt_N_per_mm": [
+        5933.891406700312,
+        2282.265925653966,
+        2282.265925653966
+      ],
+      "max_u_mm": 2.1285775189865483,
+      "load_weighted_uz_mm": -1.1993853684270055,
+      "peak_vm_MPa": 173.13490003548068,
+      "bolt_reaction_vectors_N": [
+        [
+          -0.3552844888490274,
+          -25.327241623392972,
+          34.0952436517701
+        ],
+        [
+          -60.97127284992938,
+          -25.229020393630133,
+          -47.30565265389265
+        ],
+        [
+          61.326556511524146,
+          44.19563304217264,
+          -6.907846291683501
+        ]
+      ],
+      "bearing_reaction_N": [
+        0.0008680566165750331,
+        6.360867715745696,
+        120.11787088021819
+      ],
+      "force_residual_N": 0.000978191079724006,
+      "moment_residual_Nmm": 0.04163150575685252,
+      "connector_equilibrium_max_error_N": 0.0018794829479713813,
+      "energy_relative_error": 5.48993365644943e-06
+    },
+    {
+      "factor": 0.2,
+      "equivalent_total_stiffness_per_bolt_N_per_mm": [
+        23735.565626801246,
+        9129.063702615864,
+        9129.063702615864
+      ],
+      "max_u_mm": 2.0607795131624345,
+      "load_weighted_uz_mm": -1.1559436917832207,
+      "peak_vm_MPa": 173.81218560869456,
+      "bolt_reaction_vectors_N": [
+        [
+          1.790777773675139,
+          -32.91243537200774,
+          25.544032552900298
+        ],
+        [
+          -92.36498169986692,
+          -32.53568383553511,
+          -57.345869490085995
+        ],
+        [
+          90.57420333978364,
+          35.432964633463484,
+          -17.08824229517223
+        ]
+      ],
+      "bearing_reaction_N": [
+        0.00018724942942767095,
+        30.014928344760033,
+        148.8905131267129
+      ],
+      "force_residual_N": 0.000523724259251642,
+      "moment_residual_Nmm": 0.016376952536480825,
+      "connector_equilibrium_max_error_N": 0.0007377321631277089,
+      "energy_relative_error": 5.610501316102461e-06
+    },
+    {
+      "factor": 1.0,
+      "equivalent_total_stiffness_per_bolt_N_per_mm": [
+        118677.82813400622,
+        45645.31851307931,
+        45645.31851307931
+      ],
+      "max_u_mm": 2.0021897553199546,
+      "load_weighted_uz_mm": -1.121721810148492,
+      "peak_vm_MPa": 172.76607558349062,
+      "bolt_reaction_vectors_N": [
+        [
+          8.17308166537723,
+          -51.60970132369867,
+          14.238571658767606
+        ],
+        [
+          -104.28947462036066,
+          -49.03022462390762,
+          -74.11506012449045
+        ],
+        [
+          96.11639970333054,
+          13.081901228657676,
+          -35.84287908247194
+        ]
+      ],
+      "bearing_reaction_N": [
+        4.09530492355252e-05,
+        87.55809816878073,
+        195.7192914907658
+      ],
+      "force_residual_N": 0.00011599583420116652,
+      "moment_residual_Nmm": 0.004238449665086696,
+      "connector_equilibrium_max_error_N": 0.0001546053521827579,
+      "energy_relative_error": 5.554204758410362e-06
+    }
+  ],
+  "limits": [
+    "No measured connector stiffness, preload, contact or friction",
+    "Spring constants include hypothetical reduction factors; not real material identification",
+    "Independent grounded nodal springs distributed equally within each bore: not rigid bolt heads",
+    "Bilateral linear springs do not model opening, clearance, slip or thread failure",
+    "Same geometry and mesh only; local stress not convergence-certified"
+  ]
+}

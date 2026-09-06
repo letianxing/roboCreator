@@ -1,0 +1,333 @@
+{
+  "status": "candidate_not_trajectory",
+  "poses": [
+    {
+      "name": "standing",
+      "root_xyz_mm": [
+        0.0,
+        0.0,
+        190.0
+      ],
+      "body_pitch_rad": 0,
+      "left_leg_q_rad": [
+        0,
+        0,
+        -0.6341838408240408,
+        1.2683676816480816,
+        -0.6341838408240408,
+        0
+      ],
+      "left_arm_q_rad": [
+        -2.0628617220733956,
+        -0.016943162056080402,
+        1.3382318826924966,
+        -1.5668910199587767,
+        -0.016486985803500626
+      ],
+      "arm_target_mm": null,
+      "arm_tip_mm": [
+        149.99999999999997,
+        33.0,
+        239.99999999999994
+      ],
+      "arm_pose_pass": true,
+      "position_error_mm": null,
+      "direction_error_deg": null,
+      "knee_xyz_mm": [
+        53.326822519253845,
+        100.0,
+        117.5
+      ],
+      "leg_fk_error_mm": 0.0,
+      "ankle_shank_rotation_rad": 0.6341838408240408,
+      "payload_carried": false,
+      "palms_support": false,
+      "arm_validation": "ready posture; matches handover geometry without payload, not the v12 hanging-arm pose",
+      "architecture": "2shoulder_elbow_2wrist"
+    },
+    {
+      "name": "pickup_contact",
+      "root_xyz_mm": [
+        0.0,
+        0.0,
+        150.0
+      ],
+      "body_pitch_rad": 0,
+      "left_leg_q_rad": [
+        0,
+        0,
+        -0.9479697413828937,
+        1.8959394827657874,
+        -0.9479697413828937,
+        0
+      ],
+      "left_arm_q_rad": [
+        -1.5694688446259448,
+        -0.01997084769089457,
+        1.519247183660626,
+        -1.569767166128177,
+        -0.019944315637702756
+      ],
+      "arm_target_mm": [
+        100,
+        33,
+        130
+      ],
+      "arm_tip_mm": [
+        99.99999999999994,
+        33.00000000000001,
+        129.99999999999994
+      ],
+      "arm_pose_pass": true,
+      "position_error_mm": 7.88106850030428e-14,
+      "direction_error_deg": 0.0,
+      "knee_xyz_mm": [
+        73.10095758606722,
+        100.0,
+        97.5
+      ],
+      "leg_fk_error_mm": 0.0,
+      "ankle_shank_rotation_rad": 0.9479697413828937,
+      "payload_carried": false,
+      "palms_support": false,
+      "architecture": "2shoulder_elbow_2wrist"
+    },
+    {
+      "name": "pickup_lift",
+      "root_xyz_mm": [
+        0.0,
+        0.0,
+        150.0
+      ],
+      "body_pitch_rad": 0,
+      "left_leg_q_rad": [
+        0,
+        0,
+        -0.9479697413828937,
+        1.8959394827657874,
+        -0.9479697413828937,
+        0
+      ],
+      "left_arm_q_rad": [
+        -1.7273529160987824,
+        -0.02338099081382699,
+        1.6654639805977538,
+        -1.573006844939404,
+        -0.023276280275406517
+      ],
+      "arm_target_mm": [
+        100,
+        33,
+        145
+      ],
+      "arm_tip_mm": [
+        99.99999999999993,
+        33.000000000000014,
+        144.99999999999991
+      ],
+      "arm_pose_pass": true,
+      "position_error_mm": 1.1857187100668867e-13,
+      "direction_error_deg": 8.537736462515939e-07,
+      "knee_xyz_mm": [
+        73.10095758606722,
+        100.0,
+        97.5
+      ],
+      "leg_fk_error_mm": 0.0,
+      "ankle_shank_rotation_rad": 0.9479697413828937,
+      "payload_carried": true,
+      "palms_support": false,
+      "architecture": "2shoulder_elbow_2wrist"
+    },
+    {
+      "name": "handover",
+      "root_xyz_mm": [
+        0.0,
+        0.0,
+        190.0
+      ],
+      "body_pitch_rad": 0,
+      "left_leg_q_rad": [
+        0,
+        0,
+        -0.6341838408240408,
+        1.2683676816480816,
+        -0.6341838408240408,
+        0
+      ],
+      "left_arm_q_rad": [
+        -2.0628617220733956,
+        -0.016943162056080402,
+        1.3382318826924966,
+        -1.5668910199587767,
+        -0.016486985803500626
+      ],
+      "arm_target_mm": [
+        150,
+        33,
+        240
+      ],
+      "arm_tip_mm": [
+        149.99999999999997,
+        33.0,
+        239.99999999999994
+      ],
+      "arm_pose_pass": true,
+      "position_error_mm": 6.206335383118183e-14,
+      "direction_error_deg": 0.0,
+      "knee_xyz_mm": [
+        53.326822519253845,
+        100.0,
+        117.5
+      ],
+      "leg_fk_error_mm": 0.0,
+      "ankle_shank_rotation_rad": 0.6341838408240408,
+      "payload_carried": true,
+      "palms_support": false,
+      "architecture": "2shoulder_elbow_2wrist"
+    },
+    {
+      "name": "getup_intermediate",
+      "root_xyz_mm": [
+        0.0,
+        0.0,
+        120.0
+      ],
+      "body_pitch_rad": 1.0471975511965976,
+      "left_leg_q_rad": [
+        0,
+        0,
+        -2.1882184466869665,
+        2.282041790980738,
+        -1.141020895490369,
+        0
+      ],
+      "left_arm_q_rad": [
+        -2.048763883216802,
+        0.4053393520873461,
+        0.3112313479589186,
+        -0.2835156755564157,
+        0.7078081805937589
+      ],
+      "arm_target_mm": [
+        200,
+        150,
+        0
+      ],
+      "arm_tip_mm": [
+        199.99999999999997,
+        150.0,
+        -2.842170943040401e-14
+      ],
+      "arm_pose_pass": true,
+      "position_error_mm": 3.925231146709438e-14,
+      "direction_error_deg": 0.0,
+      "knee_xyz_mm": [
+        81.81534085976786,
+        100.0,
+        82.5
+      ],
+      "leg_fk_error_mm": 7.105427357601002e-15,
+      "ankle_shank_rotation_rad": 1.141020895490369,
+      "payload_carried": false,
+      "palms_support": true,
+      "architecture": "2shoulder_elbow_2wrist"
+    },
+    {
+      "name": "pickup_contact_forward_workspace",
+      "root_xyz_mm": [
+        0.0,
+        0.0,
+        150.0
+      ],
+      "body_pitch_rad": 0,
+      "left_leg_q_rad": [
+        0,
+        0,
+        -0.9479697413828937,
+        1.8959394827657874,
+        -0.9479697413828937,
+        0
+      ],
+      "left_arm_q_rad": [
+        -1.384451074265618,
+        -0.012052688014764895,
+        0.7821199099931285,
+        -1.5622456905144757,
+        -0.008494449135355188
+      ],
+      "arm_target_mm": [
+        150.0,
+        33.0,
+        130.0
+      ],
+      "arm_tip_mm": [
+        149.99999999999997,
+        33.000000000000014,
+        129.99999999999994
+      ],
+      "arm_pose_pass": true,
+      "position_error_mm": 6.359601310784502e-14,
+      "direction_error_deg": 8.537736462515939e-07,
+      "knee_xyz_mm": [
+        73.10095758606722,
+        100.0,
+        97.5
+      ],
+      "leg_fk_error_mm": 0.0,
+      "ankle_shank_rotation_rad": 0.9479697413828937,
+      "payload_carried": false,
+      "palms_support": false,
+      "architecture": "2shoulder_elbow_2wrist",
+      "note": "Additional workspace candidate; original 100mm bottle target retained for comparison"
+    },
+    {
+      "name": "pickup_lift_forward_workspace",
+      "root_xyz_mm": [
+        0.0,
+        0.0,
+        150.0
+      ],
+      "body_pitch_rad": 0,
+      "left_leg_q_rad": [
+        0,
+        0,
+        -0.9479697413828937,
+        1.8959394827657874,
+        -0.9479697413828937,
+        0
+      ],
+      "left_arm_q_rad": [
+        -1.5550035349360947,
+        -0.013215937333543818,
+        0.9723391910294916,
+        -1.5633505891380057,
+        -0.01091898317602388
+      ],
+      "arm_target_mm": [
+        150.0,
+        33.0,
+        145.0
+      ],
+      "arm_tip_mm": [
+        150.00000000000003,
+        33.00000000000001,
+        145.00000000000003
+      ],
+      "arm_pose_pass": true,
+      "position_error_mm": 3.98609107286759e-14,
+      "direction_error_deg": 0.0,
+      "knee_xyz_mm": [
+        73.10095758606722,
+        100.0,
+        97.5
+      ],
+      "leg_fk_error_mm": 0.0,
+      "ankle_shank_rotation_rad": 0.9479697413828937,
+      "payload_carried": true,
+      "palms_support": false,
+      "architecture": "2shoulder_elbow_2wrist",
+      "note": "Additional workspace candidate; original 100mm bottle target retained for comparison"
+    }
+  ]
+}

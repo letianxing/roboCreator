@@ -1,0 +1,2830 @@
+{
+  "input_sha256": "f89b8eb07a973a2ccacb1f4071e3816fdf8f45c131a2a3f71bd0a21e5f98cc5d",
+  "source_sha256": "83ca86bb55821013191fcabbc1cc5132d47a661813e40a930309c22d241e4815",
+  "freecad_version": [
+    "1",
+    "1",
+    "3",
+    "20260725 (Git shallow)",
+    "Unknown",
+    "2026/07/25 04:52:02",
+    "grafted,grafted",
+    "145529fe741292ff0b3977a01195bf0247425794"
+  ],
+  "knee_scan": [
+    {
+      "knee_outboard_mm": 0,
+      "cases": [
+        {
+          "pose": "straight_reference",
+          "knee_collisions": [
+            {
+              "a": "FixedBearings",
+              "b": "KneeMotor",
+              "volume_mm3": 343.04539818699476,
+              "same_rigid_group": false,
+              "involves_keepout": false,
+              "source_inherited": false
+            },
+            {
+              "a": "RollMotorVendor",
+              "b": "KneeMotor",
+              "volume_mm3": 246.4263477596379,
+              "same_rigid_group": false,
+              "involves_keepout": false,
+              "source_inherited": false
+            }
+          ],
+          "knee_min_gap_mm": 0.0
+        },
+        {
+          "pose": "stand",
+          "knee_collisions": [
+            {
+              "a": "FixedBearings",
+              "b": "KneeMotor",
+              "volume_mm3": 343.04539818699675,
+              "same_rigid_group": false,
+              "involves_keepout": false,
+              "source_inherited": false
+            },
+            {
+              "a": "RollMotorVendor",
+              "b": "KneeMotor",
+              "volume_mm3": 246.4263477596375,
+              "same_rigid_group": false,
+              "involves_keepout": false,
+              "source_inherited": false
+            }
+          ],
+          "knee_min_gap_mm": 0.0
+        },
+        {
+          "pose": "squat",
+          "knee_collisions": [
+            {
+              "a": "FixedBearings",
+              "b": "KneeMotor",
+              "volume_mm3": 343.0453981869936,
+              "same_rigid_group": false,
+              "involves_keepout": false,
+              "source_inherited": false
+            },
+            {
+              "a": "RollMotorVendor",
+              "b": "KneeMotor",
+              "volume_mm3": 246.4263477596382,
+              "same_rigid_group": false,
+              "involves_keepout": false,
+              "source_inherited": false
+            }
+          ],
+          "knee_min_gap_mm": 0.0
+        },
+        {
+          "pose": "deep_squat_probe",
+          "knee_collisions": [
+            {
+              "a": "FixedBearings",
+              "b": "KneeMotor",
+              "volume_mm3": 343.0453981869936,
+              "same_rigid_group": false,
+              "involves_keepout": false,
+              "source_inherited": false
+            },
+            {
+              "a": "RollMotorVendor",
+              "b": "KneeMotor",
+              "volume_mm3": 246.4263477596382,
+              "same_rigid_group": false,
+              "involves_keepout": false,
+              "source_inherited": false
+            }
+          ],
+          "knee_min_gap_mm": 0.0
+        },
+        {
+          "pose": "lift_probe",
+          "knee_collisions": [
+            {
+              "a": "FixedBearings",
+              "b": "KneeMotor",
+              "volume_mm3": 343.0453981869923,
+              "same_rigid_group": false,
+              "involves_keepout": false,
+              "source_inherited": false
+            },
+            {
+              "a": "RollMotorVendor",
+              "b": "KneeMotor",
+              "volume_mm3": 246.42634775963785,
+              "same_rigid_group": false,
+              "involves_keepout": false,
+              "source_inherited": false
+            }
+          ],
+          "knee_min_gap_mm": 0.0
+        }
+      ],
+      "total_intersections": 10,
+      "minimum_gap_mm": 0.0
+    },
+    {
+      "knee_outboard_mm": 15,
+      "cases": [
+        {
+          "pose": "straight_reference",
+          "knee_collisions": [
+            {
+              "a": "FixedBearings",
+              "b": "KneeMotor",
+              "volume_mm3": 276.4930593565259,
+              "same_rigid_group": false,
+              "involves_keepout": false,
+              "source_inherited": false
+            },
+            {
+              "a": "RollMotorVendor",
+              "b": "KneeMotor",
+              "volume_mm3": 7759.691337650792,
+              "same_rigid_group": false,
+              "involves_keepout": false,
+              "source_inherited": false
+            }
+          ],
+          "knee_min_gap_mm": 0.0
+        },
+        {
+          "pose": "stand",
+          "knee_collisions": [
+            {
+              "a": "FixedBearings",
+              "b": "KneeMotor",
+              "volume_mm3": 276.4930593565265,
+              "same_rigid_group": false,
+              "involves_keepout": false,
+              "source_inherited": false
+            },
+            {
+              "a": "RollMotorVendor",
+              "b": "KneeMotor",
+              "volume_mm3": 7759.691337675892,
+              "same_rigid_group": false,
+              "involves_keepout": false,
+              "source_inherited": false
+            }
+          ],
+          "knee_min_gap_mm": 0.0
+        },
+        {
+          "pose": "squat",
+          "knee_collisions": [
+            {
+              "a": "FixedBearings",
+              "b": "KneeMotor",
+              "volume_mm3": 276.4930593565268,
+              "same_rigid_group": false,
+              "involves_keepout": false,
+              "source_inherited": false
+            },
+            {
+              "a": "RollMotorVendor",
+              "b": "KneeMotor",
+              "volume_mm3": 7759.6913376775055,
+              "same_rigid_group": false,
+              "involves_keepout": false,
+              "source_inherited": false
+            }
+          ],
+          "knee_min_gap_mm": 0.0
+        },
+        {
+          "pose": "deep_squat_probe",
+          "knee_collisions": [
+            {
+              "a": "FixedBearings",
+              "b": "KneeMotor",
+              "volume_mm3": 276.4930593565268,
+              "same_rigid_group": false,
+              "involves_keepout": false,
+              "source_inherited": false
+            },
+            {
+              "a": "RollMotorVendor",
+              "b": "KneeMotor",
+              "volume_mm3": 7759.6913376775055,
+              "same_rigid_group": false,
+              "involves_keepout": false,
+              "source_inherited": false
+            }
+          ],
+          "knee_min_gap_mm": 0.0
+        },
+        {
+          "pose": "lift_probe",
+          "knee_collisions": [
+            {
+              "a": "FixedBearings",
+              "b": "KneeMotor",
+              "volume_mm3": 276.4930593565262,
+              "same_rigid_group": false,
+              "involves_keepout": false,
+              "source_inherited": false
+            },
+            {
+              "a": "RollMotorVendor",
+              "b": "KneeMotor",
+              "volume_mm3": 7759.691337751906,
+              "same_rigid_group": false,
+              "involves_keepout": false,
+              "source_inherited": false
+            }
+          ],
+          "knee_min_gap_mm": 0.0
+        }
+      ],
+      "total_intersections": 10,
+      "minimum_gap_mm": 0.0
+    },
+    {
+      "knee_outboard_mm": 25,
+      "cases": [
+        {
+          "pose": "straight_reference",
+          "knee_collisions": [
+            {
+              "a": "FixedBearings",
+              "b": "KneeMotor",
+              "volume_mm3": 72.72784263284748,
+              "same_rigid_group": false,
+              "involves_keepout": false,
+              "source_inherited": false
+            },
+            {
+              "a": "RollMotorVendor",
+              "b": "KneeMotor",
+              "volume_mm3": 2950.3474684839334,
+              "same_rigid_group": false,
+              "involves_keepout": false,
+              "source_inherited": false
+            }
+          ],
+          "knee_min_gap_mm": 0.0
+        },
+        {
+          "pose": "stand",
+          "knee_collisions": [
+            {
+              "a": "FixedBearings",
+              "b": "KneeMotor",
+              "volume_mm3": 72.7278426328474,
+              "same_rigid_group": false,
+              "involves_keepout": false,
+              "source_inherited": false
+            },
+            {
+              "a": "RollMotorVendor",
+              "b": "KneeMotor",
+              "volume_mm3": 2950.3474688514443,
+              "same_rigid_group": false,
+              "involves_keepout": false,
+              "source_inherited": false
+            }
+          ],
+          "knee_min_gap_mm": 0.0
+        },
+        {
+          "pose": "squat",
+          "knee_collisions": [
+            {
+              "a": "FixedBearings",
+              "b": "KneeMotor",
+              "volume_mm3": 72.7278426328475,
+              "same_rigid_group": false,
+              "involves_keepout": false,
+              "source_inherited": false
+            },
+            {
+              "a": "RollMotorVendor",
+              "b": "KneeMotor",
+              "volume_mm3": 2950.347468650184,
+              "same_rigid_group": false,
+              "involves_keepout": false,
+              "source_inherited": false
+            }
+          ],
+          "knee_min_gap_mm": 0.0
+        },
+        {
+          "pose": "deep_squat_probe",
+          "knee_collisions": [
+            {
+              "a": "FixedBearings",
+              "b": "KneeMotor",
+              "volume_mm3": 72.7278426328475,
+              "same_rigid_group": false,
+              "involves_keepout": false,
+              "source_inherited": false
+            },
+            {
+              "a": "RollMotorVendor",
+              "b": "KneeMotor",
+              "volume_mm3": 2950.347468650184,
+              "same_rigid_group": false,
+              "involves_keepout": false,
+              "source_inherited": false
+            }
+          ],
+          "knee_min_gap_mm": 0.0
+        },
+        {
+          "pose": "lift_probe",
+          "knee_collisions": [
+            {
+              "a": "FixedBearings",
+              "b": "KneeMotor",
+              "volume_mm3": 72.72784263284719,
+              "same_rigid_group": false,
+              "involves_keepout": false,
+              "source_inherited": false
+            },
+            {
+              "a": "RollMotorVendor",
+              "b": "KneeMotor",
+              "volume_mm3": 2950.3474688610986,
+              "same_rigid_group": false,
+              "involves_keepout": false,
+              "source_inherited": false
+            }
+          ],
+          "knee_min_gap_mm": 0.0
+        }
+      ],
+      "total_intersections": 10,
+      "minimum_gap_mm": 0.0
+    },
+    {
+      "knee_outboard_mm": 35,
+      "cases": [
+        {
+          "pose": "straight_reference",
+          "knee_collisions": [],
+          "knee_min_gap_mm": 1.6602556806574433
+        },
+        {
+          "pose": "stand",
+          "knee_collisions": [],
+          "knee_min_gap_mm": 1.6602556806574453
+        },
+        {
+          "pose": "squat",
+          "knee_collisions": [],
+          "knee_min_gap_mm": 1.6602556806574338
+        },
+        {
+          "pose": "deep_squat_probe",
+          "knee_collisions": [],
+          "knee_min_gap_mm": 1.6602556806574338
+        },
+        {
+          "pose": "lift_probe",
+          "knee_collisions": [],
+          "knee_min_gap_mm": 1.6602556806574398
+        }
+      ],
+      "total_intersections": 0,
+      "minimum_gap_mm": 1.6602556806574338
+    },
+    {
+      "knee_outboard_mm": 45,
+      "cases": [
+        {
+          "pose": "straight_reference",
+          "knee_collisions": [],
+          "knee_min_gap_mm": 8.823831367382311
+        },
+        {
+          "pose": "stand",
+          "knee_collisions": [],
+          "knee_min_gap_mm": 8.823831367382311
+        },
+        {
+          "pose": "squat",
+          "knee_collisions": [],
+          "knee_min_gap_mm": 8.823831367382303
+        },
+        {
+          "pose": "deep_squat_probe",
+          "knee_collisions": [],
+          "knee_min_gap_mm": 8.823831367382299
+        },
+        {
+          "pose": "lift_probe",
+          "knee_collisions": [],
+          "knee_min_gap_mm": 8.823831367382308
+        }
+      ],
+      "total_intersections": 0,
+      "minimum_gap_mm": 8.823831367382299
+    },
+    {
+      "knee_outboard_mm": 55,
+      "cases": [
+        {
+          "pose": "straight_reference",
+          "knee_collisions": [],
+          "knee_min_gap_mm": 17.77245059073171
+        },
+        {
+          "pose": "stand",
+          "knee_collisions": [],
+          "knee_min_gap_mm": 17.77245059073171
+        },
+        {
+          "pose": "squat",
+          "knee_collisions": [],
+          "knee_min_gap_mm": 17.772450590731708
+        },
+        {
+          "pose": "deep_squat_probe",
+          "knee_collisions": [],
+          "knee_min_gap_mm": 17.772450590731705
+        },
+        {
+          "pose": "lift_probe",
+          "knee_collisions": [],
+          "knee_min_gap_mm": 17.772450590731708
+        }
+      ],
+      "total_intersections": 0,
+      "minimum_gap_mm": 17.772450590731705
+    }
+  ],
+  "chosen": {
+    "knee_outboard_mm": 45,
+    "cases": [
+      {
+        "pose": "straight_reference",
+        "knee_collisions": [],
+        "knee_min_gap_mm": 8.823831367382311
+      },
+      {
+        "pose": "stand",
+        "knee_collisions": [],
+        "knee_min_gap_mm": 8.823831367382311
+      },
+      {
+        "pose": "squat",
+        "knee_collisions": [],
+        "knee_min_gap_mm": 8.823831367382303
+      },
+      {
+        "pose": "deep_squat_probe",
+        "knee_collisions": [],
+        "knee_min_gap_mm": 8.823831367382299
+      },
+      {
+        "pose": "lift_probe",
+        "knee_collisions": [],
+        "knee_min_gap_mm": 8.823831367382308
+      }
+    ],
+    "total_intersections": 0,
+    "minimum_gap_mm": 8.823831367382299
+  },
+  "records": [
+    {
+      "pose": "straight_reference",
+      "input": {
+        "name": "straight_reference",
+        "foot_translation_mm": [
+          0,
+          0,
+          0
+        ],
+        "foot_pitch_deg": 0,
+        "q_deg": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "joints": [
+        {
+          "name": "hip_yaw",
+          "origin_mm": [
+            0.0,
+            0.0,
+            263.0
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "q_deg": 0
+        },
+        {
+          "name": "hip_roll",
+          "origin_mm": [
+            0.0,
+            0.0,
+            239.0
+          ],
+          "axis": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "q_deg": 0
+        },
+        {
+          "name": "hip_pitch",
+          "origin_mm": [
+            0.0,
+            0.0,
+            215.0
+          ],
+          "axis": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "q_deg": 0
+        },
+        {
+          "name": "knee_pitch",
+          "origin_mm": [
+            0.0,
+            0.0,
+            125.0
+          ],
+          "axis": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "q_deg": 0
+        },
+        {
+          "name": "ankle_roll",
+          "origin_mm": [
+            0.0,
+            0.0,
+            72.0
+          ],
+          "axis": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "q_deg": 0
+        },
+        {
+          "name": "ankle_pitch",
+          "origin_mm": [
+            0.0,
+            0.0,
+            35.0
+          ],
+          "axis": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "q_deg": 0
+        }
+      ],
+      "parts": [
+        {
+          "name": "FixedFrame",
+          "rigid_group": "shin",
+          "mass_kg": 0.023155200000000018,
+          "source_type": "v16_source_CAD",
+          "role": "structure",
+          "center_of_volume_mm": [
+            0.0,
+            -12.000000000000002,
+            91.82089552238807
+          ],
+          "solid_count": 2
+        },
+        {
+          "name": "FixedBearings",
+          "rigid_group": "shin",
+          "mass_kg": null,
+          "source_type": "unresolved",
+          "role": "structure",
+          "center_of_volume_mm": [
+            2.433849618505905e-18,
+            -2.723661299162061e-16,
+            86.0
+          ],
+          "solid_count": 2
+        },
+        {
+          "name": "RollMotorVendor",
+          "rigid_group": "shin",
+          "mass_kg": 0.082,
+          "source_type": "v16_source_CAD",
+          "role": "motor",
+          "center_of_volume_mm": [
+            0.39124780892513256,
+            -11.621326993048301,
+            99.9999999853881
+          ],
+          "solid_count": 18
+        },
+        {
+          "name": "RollCarrier",
+          "rigid_group": "carrier",
+          "mass_kg": 0.02874256918044701,
+          "source_type": "v16_source_CAD",
+          "role": "structure",
+          "center_of_volume_mm": [
+            -3.782713648240873e-15,
+            -14.646993601880146,
+            60.89754506588696
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "PitchMotorEnvelope",
+          "rigid_group": "carrier",
+          "mass_kg": 0.19,
+          "source_type": "v16_source_CAD",
+          "role": "motor",
+          "center_of_volume_mm": [
+            8.809920554796113e-16,
+            0.0,
+            35.0
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "FootStructure",
+          "rigid_group": "foot",
+          "mass_kg": 0.10270799999999998,
+          "source_type": "v16_source_CAD",
+          "role": "structure",
+          "center_of_volume_mm": [
+            2.175710248720728e-15,
+            1.5301698452541382e-15,
+            6.485804416403782
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "SolePad",
+          "rigid_group": "foot",
+          "mass_kg": null,
+          "source_type": "unresolved",
+          "role": "structure",
+          "center_of_volume_mm": [
+            -9.285501660501312e-17,
+            -1.1588306072305634e-15,
+            -1.0
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "RollRod",
+          "rigid_group": "linkage",
+          "mass_kg": 0.0027620882610361465,
+          "source_type": "CAD_density",
+          "role": "structure",
+          "center_of_volume_mm": [
+            36.0,
+            15.000000000000002,
+            86.0
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "RollCrankTop",
+          "rigid_group": "linkage",
+          "mass_kg": 0.002035752039526186,
+          "source_type": "CAD_density",
+          "role": "structure",
+          "center_of_volume_mm": [
+            36.0,
+            7.500000000000001,
+            100.00000000000001
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "RollCrankBottom",
+          "rigid_group": "linkage",
+          "mass_kg": 0.002035752039526186,
+          "source_type": "CAD_density",
+          "role": "structure",
+          "center_of_volume_mm": [
+            36.0,
+            7.500000000000001,
+            72.00000000000001
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "KneeMotor",
+          "rigid_group": "thigh",
+          "mass_kg": 0.19,
+          "source_type": "datasheet",
+          "role": "motor",
+          "center_of_volume_mm": [
+            1.1784422688180758e-15,
+            45.0,
+            124.99999999999997
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "HipPitchMotor",
+          "rigid_group": "hip_pitch_parent",
+          "mass_kg": 0.19,
+          "source_type": "datasheet",
+          "role": "motor",
+          "center_of_volume_mm": [
+            1.2967131541683425e-15,
+            39.99999999999999,
+            215.0
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "HipRollMotor",
+          "rigid_group": "hip_roll_parent",
+          "mass_kg": 0.082,
+          "source_type": "datasheet",
+          "role": "motor",
+          "center_of_volume_mm": [
+            -34.60875219107483,
+            -11.62132699304833,
+            238.9999999853881
+          ],
+          "solid_count": 18
+        },
+        {
+          "name": "HipYawMotor",
+          "rigid_group": "pelvis",
+          "mass_kg": 0.082,
+          "source_type": "datasheet",
+          "role": "motor",
+          "center_of_volume_mm": [
+            1.461185108329632e-08,
+            -11.621326993048326,
+            288.39124780892485
+          ],
+          "solid_count": 18
+        },
+        {
+          "name": "ShinKneeRailm1",
+          "rigid_group": "shin",
+          "mass_kg": 0.005184,
+          "source_type": "CAD_density",
+          "role": "structure",
+          "center_of_volume_mm": [
+            -35.0,
+            -12.0,
+            123.0
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "ThighRailm1",
+          "rigid_group": "thigh",
+          "mass_kg": 0.034992,
+          "source_type": "CAD_density",
+          "role": "structure",
+          "center_of_volume_mm": [
+            -34.0,
+            2.017590484257075e-16,
+            170.0
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "ShinKneeRail1",
+          "rigid_group": "shin",
+          "mass_kg": 0.005184,
+          "source_type": "CAD_density",
+          "role": "structure",
+          "center_of_volume_mm": [
+            35.0,
+            -12.0,
+            123.0
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "ThighRail1",
+          "rigid_group": "thigh",
+          "mass_kg": 0.034992,
+          "source_type": "CAD_density",
+          "role": "structure",
+          "center_of_volume_mm": [
+            34.0,
+            2.017590484257075e-16,
+            170.0
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "CableServiceSpace",
+          "rigid_group": "shin",
+          "mass_kg": null,
+          "source_type": "assumed",
+          "role": "keepout",
+          "center_of_volume_mm": [
+            -40.00000000000001,
+            -20.000000000000004,
+            103.50000000000001
+          ],
+          "solid_count": 1
+        }
+      ],
+      "known_mass_kg": 1.0577913615205352,
+      "missing_mass_parts": [
+        "FixedBearings",
+        "SolePad"
+      ],
+      "bounds": {
+        "min_mm": [
+          -55.0,
+          -40.0,
+          -2.0
+        ],
+        "max_mm": [
+          55.0,
+          65.1,
+          311.7
+        ],
+        "size_mm": [
+          110.0,
+          105.1,
+          313.7
+        ]
+      },
+      "collisions": [
+        {
+          "a": "FixedFrame",
+          "b": "RollCarrier",
+          "volume_mm3": 5.000000000000007,
+          "same_rigid_group": false,
+          "involves_keepout": false,
+          "source_inherited": true
+        },
+        {
+          "a": "FixedBearings",
+          "b": "RollMotorVendor",
+          "volume_mm3": 593.0070292916092,
+          "same_rigid_group": true,
+          "involves_keepout": false,
+          "source_inherited": true
+        },
+        {
+          "a": "FixedBearings",
+          "b": "RollCarrier",
+          "volume_mm3": 107.7621568818316,
+          "same_rigid_group": false,
+          "involves_keepout": false,
+          "source_inherited": true
+        },
+        {
+          "a": "RollCarrier",
+          "b": "PitchMotorEnvelope",
+          "volume_mm3": 7.587187107267996,
+          "same_rigid_group": true,
+          "involves_keepout": false,
+          "source_inherited": true
+        },
+        {
+          "a": "RollCarrier",
+          "b": "FootStructure",
+          "volume_mm3": 626.8297697373346,
+          "same_rigid_group": false,
+          "involves_keepout": false,
+          "source_inherited": true
+        },
+        {
+          "a": "RollRod",
+          "b": "RollCrankTop",
+          "volume_mm3": 24.320621030459844,
+          "same_rigid_group": true,
+          "involves_keepout": false,
+          "source_inherited": false
+        },
+        {
+          "a": "RollRod",
+          "b": "RollCrankBottom",
+          "volume_mm3": 24.320641542927586,
+          "same_rigid_group": true,
+          "involves_keepout": false,
+          "source_inherited": false
+        },
+        {
+          "a": "ShinKneeRailm1",
+          "b": "ThighRailm1",
+          "volume_mm3": 270.0,
+          "same_rigid_group": false,
+          "involves_keepout": false,
+          "source_inherited": false
+        },
+        {
+          "a": "ShinKneeRail1",
+          "b": "ThighRail1",
+          "volume_mm3": 270.0,
+          "same_rigid_group": false,
+          "involves_keepout": false,
+          "source_inherited": false
+        }
+      ],
+      "manufacturable": false,
+      "kinematic_chain_closure_checked": true,
+      "ideal_crown_point_mm": [
+        0.0,
+        0.0,
+        395.0
+      ],
+      "note": "Crown point is a body-frame requirement marker, not a head/torso or dressed assembly."
+    },
+    {
+      "pose": "stand",
+      "input": {
+        "name": "stand",
+        "foot_translation_mm": [
+          0,
+          0,
+          0
+        ],
+        "foot_pitch_deg": 0,
+        "q_deg": [
+          0,
+          0,
+          -10,
+          20,
+          0,
+          -10
+        ]
+      },
+      "joints": [
+        {
+          "name": "hip_yaw",
+          "origin_mm": [
+            6.217248937900877e-15,
+            0.0,
+            260.26539554219744
+          ],
+          "axis": [
+            5.551115123125783e-17,
+            0.0,
+            1.0
+          ],
+          "q_deg": 0
+        },
+        {
+          "name": "hip_roll",
+          "origin_mm": [
+            4.884981308350689e-15,
+            0.0,
+            236.26539554219747
+          ],
+          "axis": [
+            1.0,
+            0.0,
+            -5.551115123125783e-17
+          ],
+          "q_deg": 0
+        },
+        {
+          "name": "hip_pitch",
+          "origin_mm": [
+            3.552713678800501e-15,
+            0.0,
+            212.26539554219747
+          ],
+          "axis": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "q_deg": -10
+        },
+        {
+          "name": "knee_pitch",
+          "origin_mm": [
+            15.628335990023729,
+            0.0,
+            123.63269777109873
+          ],
+          "axis": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "q_deg": 20
+        },
+        {
+          "name": "ankle_roll",
+          "origin_mm": [
+            6.424982573676422,
+            0.0,
+            71.4378868614517
+          ],
+          "axis": [
+            0.9848077530122081,
+            0.0,
+            -0.17364817766693033
+          ],
+          "q_deg": 0
+        },
+        {
+          "name": "ankle_pitch",
+          "origin_mm": [
+            0.0,
+            0.0,
+            35.0
+          ],
+          "axis": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "q_deg": -10
+        }
+      ],
+      "parts": [
+        {
+          "name": "FixedFrame",
+          "rigid_group": "shin",
+          "mass_kg": 0.023155200000000018,
+          "source_type": "v16_source_CAD",
+          "role": "structure",
+          "center_of_volume_mm": [
+            9.86684496086573,
+            -12.0,
+            90.95765844354443
+          ],
+          "solid_count": 2
+        },
+        {
+          "name": "FixedBearings",
+          "rigid_group": "shin",
+          "mass_kg": null,
+          "source_type": "unresolved",
+          "role": "structure",
+          "center_of_volume_mm": [
+            8.856057061013448,
+            -1.5359326382421377e-16,
+            85.22519540362262
+          ],
+          "solid_count": 2
+        },
+        {
+          "name": "RollMotorVendor",
+          "rigid_group": "shin",
+          "mass_kg": 0.082,
+          "source_type": "v16_source_CAD",
+          "role": "motor",
+          "center_of_volume_mm": [
+            11.672435421391654,
+            -11.621326993048324,
+            98.94456446236757
+          ],
+          "solid_count": 18
+        },
+        {
+          "name": "RollCarrier",
+          "rigid_group": "carrier",
+          "mass_kg": 0.02874256918044701,
+          "source_type": "v16_source_CAD",
+          "role": "structure",
+          "center_of_volume_mm": [
+            4.49706150673847,
+            -14.646993601880144,
+            60.5041031648685
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "PitchMotorEnvelope",
+          "rigid_group": "carrier",
+          "mass_kg": 0.19,
+          "source_type": "v16_source_CAD",
+          "role": "motor",
+          "center_of_volume_mm": [
+            3.552713678800501e-15,
+            0.0,
+            35.0
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "FootStructure",
+          "rigid_group": "foot",
+          "mass_kg": 0.10270799999999998,
+          "source_type": "v16_source_CAD",
+          "role": "structure",
+          "center_of_volume_mm": [
+            2.175710248720728e-15,
+            1.5301698452541382e-15,
+            6.485804416403782
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "SolePad",
+          "rigid_group": "foot",
+          "mass_kg": null,
+          "source_type": "unresolved",
+          "role": "structure",
+          "center_of_volume_mm": [
+            -9.285501660501312e-17,
+            -1.1588306072305634e-15,
+            -1.0
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "RollRod",
+          "rigid_group": "linkage",
+          "mass_kg": 0.0027620882610361465,
+          "source_type": "CAD_density",
+          "role": "structure",
+          "center_of_volume_mm": [
+            44.30913616945294,
+            14.999999999999998,
+            78.97386100761311
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "RollCrankTop",
+          "rigid_group": "linkage",
+          "mass_kg": 0.002035752039526186,
+          "source_type": "CAD_density",
+          "role": "structure",
+          "center_of_volume_mm": [
+            46.740210656789955,
+            7.500000000000001,
+            92.76116954978403
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "RollCrankBottom",
+          "rigid_group": "linkage",
+          "mass_kg": 0.002035752039526186,
+          "source_type": "CAD_density",
+          "role": "structure",
+          "center_of_volume_mm": [
+            41.87806168211591,
+            7.500000000000001,
+            65.1865524654422
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "KneeMotor",
+          "rigid_group": "thigh",
+          "mass_kg": 0.19,
+          "source_type": "datasheet",
+          "role": "motor",
+          "center_of_volume_mm": [
+            15.62833599002373,
+            44.99999999999999,
+            123.63269777109872
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "HipPitchMotor",
+          "rigid_group": "hip_pitch_parent",
+          "mass_kg": 0.19,
+          "source_type": "datasheet",
+          "role": "motor",
+          "center_of_volume_mm": [
+            5.254150356363708e-15,
+            39.99999999999999,
+            212.2653955421974
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "HipRollMotor",
+          "rigid_group": "hip_roll_parent",
+          "mass_kg": 0.082,
+          "source_type": "datasheet",
+          "role": "motor",
+          "center_of_volume_mm": [
+            -34.60875219107482,
+            -11.621326993048333,
+            236.26539552758547
+          ],
+          "solid_count": 18
+        },
+        {
+          "name": "HipYawMotor",
+          "rigid_group": "pelvis",
+          "mass_kg": 0.082,
+          "source_type": "datasheet",
+          "role": "motor",
+          "center_of_volume_mm": [
+            1.4611858871680001e-08,
+            -11.621326993048287,
+            285.65664335112245
+          ],
+          "solid_count": 18
+        },
+        {
+          "name": "ShinKneeRailm1",
+          "rigid_group": "shin",
+          "mass_kg": 0.005184,
+          "source_type": "CAD_density",
+          "role": "structure",
+          "center_of_volume_mm": [
+            -19.187231720737415,
+            -12.000000000000002,
+            127.74076848341687
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "ThighRailm1",
+          "rigid_group": "thigh",
+          "mass_kg": 0.034992,
+          "source_type": "CAD_density",
+          "role": "structure",
+          "center_of_volume_mm": [
+            -25.66929560740322,
+            -4.287379779046281e-16,
+            162.04500861597245
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "ShinKneeRail1",
+          "rigid_group": "shin",
+          "mass_kg": 0.005184,
+          "source_type": "CAD_density",
+          "role": "structure",
+          "center_of_volume_mm": [
+            49.74931099011716,
+            -12.000000000000002,
+            115.58539604673174
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "ThighRail1",
+          "rigid_group": "thigh",
+          "mass_kg": 0.034992,
+          "source_type": "CAD_density",
+          "role": "structure",
+          "center_of_volume_mm": [
+            41.29763159742694,
+            -5.471617671979781e-16,
+            173.8530846973237
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "CableServiceSpace",
+          "rigid_group": "shin",
+          "mass_kg": null,
+          "source_type": "assumed",
+          "role": "keepout",
+          "center_of_volume_mm": [
+            -27.4974099503036,
+            -20.000000000000004,
+            109.40525818801346
+          ],
+          "solid_count": 1
+        }
+      ],
+      "known_mass_kg": 1.0577913615205352,
+      "missing_mass_parts": [
+        "FixedBearings",
+        "SolePad"
+      ],
+      "bounds": {
+        "min_mm": [
+          -55.0,
+          -40.0,
+          -2.0
+        ],
+        "max_mm": [
+          55.0,
+          65.1,
+          308.9653955421974
+        ],
+        "size_mm": [
+          110.0,
+          105.1,
+          310.9653955421974
+        ]
+      },
+      "collisions": [
+        {
+          "a": "FixedFrame",
+          "b": "RollCarrier",
+          "volume_mm3": 4.999999999997115,
+          "same_rigid_group": false,
+          "involves_keepout": false,
+          "source_inherited": true
+        },
+        {
+          "a": "FixedFrame",
+          "b": "ThighRailm1",
+          "volume_mm3": 45.73242800256932,
+          "same_rigid_group": false,
+          "involves_keepout": false,
+          "source_inherited": false
+        },
+        {
+          "a": "FixedBearings",
+          "b": "RollMotorVendor",
+          "volume_mm3": 593.0070292916097,
+          "same_rigid_group": true,
+          "involves_keepout": false,
+          "source_inherited": true
+        },
+        {
+          "a": "FixedBearings",
+          "b": "RollCarrier",
+          "volume_mm3": 107.76215688183174,
+          "same_rigid_group": false,
+          "involves_keepout": false,
+          "source_inherited": true
+        },
+        {
+          "a": "RollCarrier",
+          "b": "PitchMotorEnvelope",
+          "volume_mm3": 7.58718710726799,
+          "same_rigid_group": true,
+          "involves_keepout": false,
+          "source_inherited": true
+        },
+        {
+          "a": "RollCarrier",
+          "b": "FootStructure",
+          "volume_mm3": 697.1442558608621,
+          "same_rigid_group": false,
+          "involves_keepout": false,
+          "source_inherited": true
+        },
+        {
+          "a": "RollRod",
+          "b": "RollCrankTop",
+          "volume_mm3": 24.320621031100107,
+          "same_rigid_group": true,
+          "involves_keepout": false,
+          "source_inherited": false
+        },
+        {
+          "a": "RollRod",
+          "b": "RollCrankBottom",
+          "volume_mm3": 24.320641543161933,
+          "same_rigid_group": true,
+          "involves_keepout": false,
+          "source_inherited": false
+        },
+        {
+          "a": "ShinKneeRailm1",
+          "b": "ThighRailm1",
+          "volume_mm3": 947.1742942826239,
+          "same_rigid_group": false,
+          "involves_keepout": false,
+          "source_inherited": false
+        },
+        {
+          "a": "ThighRailm1",
+          "b": "CableServiceSpace",
+          "volume_mm3": 0.07370370452962266,
+          "same_rigid_group": false,
+          "involves_keepout": true,
+          "source_inherited": false
+        }
+      ],
+      "manufacturable": false,
+      "kinematic_chain_closure_checked": true,
+      "ideal_crown_point_mm": [
+        1.354472090042691e-14,
+        0.0,
+        392.26539554219744
+      ],
+      "note": "Crown point is a body-frame requirement marker, not a head/torso or dressed assembly."
+    },
+    {
+      "pose": "squat",
+      "input": {
+        "name": "squat",
+        "foot_translation_mm": [
+          0,
+          0,
+          0
+        ],
+        "foot_pitch_deg": 0,
+        "q_deg": [
+          0,
+          0,
+          -35,
+          70,
+          0,
+          -35
+        ]
+      },
+      "joints": [
+        {
+          "name": "hip_yaw",
+          "origin_mm": [
+            -8.881784197001252e-14,
+            0.0,
+            230.44736797201853
+          ],
+          "axis": [
+            -6.661338147750939e-16,
+            0.0,
+            1.0
+          ],
+          "q_deg": 0
+        },
+        {
+          "name": "hip_roll",
+          "origin_mm": [
+            -7.283063041541027e-14,
+            0.0,
+            206.44736797201853
+          ],
+          "axis": [
+            1.0,
+            0.0,
+            6.661338147750939e-16
+          ],
+          "q_deg": 0
+        },
+        {
+          "name": "hip_pitch",
+          "origin_mm": [
+            -5.684341886080802e-14,
+            0.0,
+            182.44736797201853
+          ],
+          "axis": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "q_deg": -35
+        },
+        {
+          "name": "knee_pitch",
+          "origin_mm": [
+            51.621879271594146,
+            0.0,
+            108.72368398600928
+          ],
+          "axis": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "q_deg": 70
+        },
+        {
+          "name": "ankle_roll",
+          "origin_mm": [
+            21.222328144988705,
+            0.0,
+            65.3086256386927
+          ],
+          "axis": [
+            0.8191520442889919,
+            0.0,
+            -0.573576436351046
+          ],
+          "q_deg": 0
+        },
+        {
+          "name": "ankle_pitch",
+          "origin_mm": [
+            0.0,
+            0.0,
+            35.0
+          ],
+          "axis": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "q_deg": -35
+        }
+      ],
+      "parts": [
+        {
+          "name": "FixedFrame",
+          "rigid_group": "shin",
+          "mass_kg": 0.023155200000000018,
+          "source_type": "v16_source_CAD",
+          "role": "structure",
+          "center_of_volume_mm": [
+            32.59112676400645,
+            -12.0,
+            81.54495272549542
+          ],
+          "solid_count": 2
+        },
+        {
+          "name": "FixedBearings",
+          "rigid_group": "shin",
+          "mass_kg": null,
+          "source_type": "unresolved",
+          "role": "structure",
+          "center_of_volume_mm": [
+            29.25239825390336,
+            -3.9683685866503966e-16,
+            76.77675425873858
+          ],
+          "solid_count": 2
+        },
+        {
+          "name": "RollMotorVendor",
+          "rigid_group": "shin",
+          "mass_kg": 0.082,
+          "source_type": "v16_source_CAD",
+          "role": "motor",
+          "center_of_volume_mm": [
+            37.602959796941576,
+            -11.621326993048317,
+            88.02047234284164
+          ],
+          "solid_count": 18
+        },
+        {
+          "name": "RollCarrier",
+          "rigid_group": "carrier",
+          "mass_kg": 0.02874256918044701,
+          "source_type": "v16_source_CAD",
+          "role": "structure",
+          "center_of_volume_mm": [
+            14.854221609132058,
+            -14.646993601880139,
+            56.21402698278757
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "PitchMotorEnvelope",
+          "rigid_group": "carrier",
+          "mass_kg": 0.19,
+          "source_type": "v16_source_CAD",
+          "role": "motor",
+          "center_of_volume_mm": [
+            7.105427357601002e-15,
+            -3.2815760854663114e-16,
+            35.0
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "FootStructure",
+          "rigid_group": "foot",
+          "mass_kg": 0.10270799999999998,
+          "source_type": "v16_source_CAD",
+          "role": "structure",
+          "center_of_volume_mm": [
+            2.175710248720728e-15,
+            1.5301698452541382e-15,
+            6.485804416403782
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "SolePad",
+          "rigid_group": "foot",
+          "mass_kg": null,
+          "source_type": "unresolved",
+          "role": "structure",
+          "center_of_volume_mm": [
+            -9.285501660501312e-17,
+            -1.1588306072305634e-15,
+            -1.0
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "RollRod",
+          "rigid_group": "linkage",
+          "mass_kg": 0.0027620882610361465,
+          "source_type": "CAD_density",
+          "role": "structure",
+          "center_of_volume_mm": [
+            58.741871848307056,
+            15.0,
+            56.12800255010093
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "RollCrankTop",
+          "rigid_group": "linkage",
+          "mass_kg": 0.002035752039526186,
+          "source_type": "CAD_density",
+          "role": "structure",
+          "center_of_volume_mm": [
+            66.7719419572217,
+            7.500000000000001,
+            67.5961311701468
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "RollCrankBottom",
+          "rigid_group": "linkage",
+          "mass_kg": 0.002035752039526186,
+          "source_type": "CAD_density",
+          "role": "structure",
+          "center_of_volume_mm": [
+            50.71180173939241,
+            7.500000000000001,
+            44.659873930055035
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "KneeMotor",
+          "rigid_group": "thigh",
+          "mass_kg": 0.19,
+          "source_type": "datasheet",
+          "role": "motor",
+          "center_of_volume_mm": [
+            51.62187927159413,
+            44.99999999999999,
+            108.72368398600926
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "HipPitchMotor",
+          "rigid_group": "hip_pitch_parent",
+          "mass_kg": 0.19,
+          "source_type": "datasheet",
+          "role": "motor",
+          "center_of_volume_mm": [
+            -5.5503703832278976e-14,
+            40.0,
+            182.4473679720185
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "HipRollMotor",
+          "rigid_group": "hip_roll_parent",
+          "mass_kg": 0.082,
+          "source_type": "datasheet",
+          "role": "motor",
+          "center_of_volume_mm": [
+            -34.60875219107489,
+            -11.621326993048337,
+            206.44736795740653
+          ],
+          "solid_count": 18
+        },
+        {
+          "name": "HipYawMotor",
+          "rigid_group": "pelvis",
+          "mass_kg": 0.082,
+          "source_type": "datasheet",
+          "role": "motor",
+          "center_of_volume_mm": [
+            1.4611746257014235e-08,
+            -11.621326993048298,
+            255.8386157809435
+          ],
+          "solid_count": 18
+        },
+        {
+          "name": "ShinKneeRailm1",
+          "rigid_group": "shin",
+          "mass_kg": 0.005184,
+          "source_type": "CAD_density",
+          "role": "structure",
+          "center_of_volume_mm": [
+            21.804404848777356,
+            -12.000000000000002,
+            127.16055516971792
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "ThighRailm1",
+          "rigid_group": "thigh",
+          "mass_kg": 0.034992,
+          "source_type": "CAD_density",
+          "role": "structure",
+          "center_of_volume_mm": [
+            -2.0402298700286536,
+            -1.973729821555834e-17,
+            126.0839271430783
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "ShinKneeRail1",
+          "rigid_group": "shin",
+          "mass_kg": 0.005184,
+          "source_type": "CAD_density",
+          "role": "structure",
+          "center_of_volume_mm": [
+            79.14504794900677,
+            -12.0,
+            87.01020462514467
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "ThighRail1",
+          "rigid_group": "thigh",
+          "mass_kg": 0.034992,
+          "source_type": "CAD_density",
+          "role": "structure",
+          "center_of_volume_mm": [
+            53.66210914162275,
+            -4.484752761201867e-16,
+            165.08712481494948
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "CableServiceSpace",
+          "rigid_group": "shin",
+          "mass_kg": null,
+          "source_type": "assumed",
+          "role": "keepout",
+          "center_of_volume_mm": [
+            6.523904118486989,
+            -20.0,
+            114.05497248783783
+          ],
+          "solid_count": 1
+        }
+      ],
+      "known_mass_kg": 1.0577913615205352,
+      "missing_mass_parts": [
+        "FixedBearings",
+        "SolePad"
+      ],
+      "bounds": {
+        "min_mm": [
+          -55.0,
+          -40.0,
+          -2.0
+        ],
+        "max_mm": [
+          83.65123421934001,
+          65.1,
+          279.1473679720185
+        ],
+        "size_mm": [
+          138.65123421934,
+          105.1,
+          281.1473679720185
+        ]
+      },
+      "collisions": [
+        {
+          "a": "FixedFrame",
+          "b": "RollCarrier",
+          "volume_mm3": 5.0000000000000995,
+          "same_rigid_group": false,
+          "involves_keepout": false,
+          "source_inherited": true
+        },
+        {
+          "a": "FixedFrame",
+          "b": "ThighRailm1",
+          "volume_mm3": 68.10737743845836,
+          "same_rigid_group": false,
+          "involves_keepout": false,
+          "source_inherited": false
+        },
+        {
+          "a": "FixedBearings",
+          "b": "RollMotorVendor",
+          "volume_mm3": 593.0070292916093,
+          "same_rigid_group": true,
+          "involves_keepout": false,
+          "source_inherited": true
+        },
+        {
+          "a": "FixedBearings",
+          "b": "RollCarrier",
+          "volume_mm3": 107.76215688183187,
+          "same_rigid_group": false,
+          "involves_keepout": false,
+          "source_inherited": true
+        },
+        {
+          "a": "RollMotorVendor",
+          "b": "ThighRailm1",
+          "volume_mm3": 717.9224870654932,
+          "same_rigid_group": false,
+          "involves_keepout": false,
+          "source_inherited": false
+        },
+        {
+          "a": "RollCarrier",
+          "b": "PitchMotorEnvelope",
+          "volume_mm3": 7.587187107267996,
+          "same_rigid_group": true,
+          "involves_keepout": false,
+          "source_inherited": true
+        },
+        {
+          "a": "RollCarrier",
+          "b": "FootStructure",
+          "volume_mm3": 812.2431566614673,
+          "same_rigid_group": false,
+          "involves_keepout": false,
+          "source_inherited": true
+        },
+        {
+          "a": "RollRod",
+          "b": "RollCrankTop",
+          "volume_mm3": 24.32062103036892,
+          "same_rigid_group": true,
+          "involves_keepout": false,
+          "source_inherited": false
+        },
+        {
+          "a": "RollRod",
+          "b": "RollCrankBottom",
+          "volume_mm3": 24.320641543164783,
+          "same_rigid_group": true,
+          "involves_keepout": false,
+          "source_inherited": false
+        },
+        {
+          "a": "ThighRailm1",
+          "b": "CableServiceSpace",
+          "volume_mm3": 13.185086321137595,
+          "same_rigid_group": false,
+          "involves_keepout": true,
+          "source_inherited": false
+        }
+      ],
+      "manufacturable": false,
+      "kinematic_chain_closure_checked": true,
+      "ideal_crown_point_mm": [
+        -1.7674750552032492e-13,
+        0.0,
+        362.4473679720185
+      ],
+      "note": "Crown point is a body-frame requirement marker, not a head/torso or dressed assembly."
+    },
+    {
+      "pose": "deep_squat_probe",
+      "input": {
+        "name": "deep_squat_probe",
+        "foot_translation_mm": [
+          0,
+          0,
+          0
+        ],
+        "foot_pitch_deg": 0,
+        "q_deg": [
+          0,
+          0,
+          -65,
+          100,
+          0,
+          -35
+        ]
+      },
+      "joints": [
+        {
+          "name": "hip_yaw",
+          "origin_mm": [
+            -29.945821561704342,
+            0.0,
+            194.75932754267222
+          ],
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "q_deg": 0
+        },
+        {
+          "name": "hip_roll",
+          "origin_mm": [
+            -29.945821561704342,
+            0.0,
+            170.75932754267222
+          ],
+          "axis": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "q_deg": 0
+        },
+        {
+          "name": "hip_pitch",
+          "origin_mm": [
+            -29.945821561704342,
+            0.0,
+            146.75932754267222
+          ],
+          "axis": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "q_deg": -65
+        },
+        {
+          "name": "knee_pitch",
+          "origin_mm": [
+            51.621879271594146,
+            0.0,
+            108.72368398600928
+          ],
+          "axis": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "q_deg": 100
+        },
+        {
+          "name": "ankle_roll",
+          "origin_mm": [
+            21.222328144988705,
+            0.0,
+            65.3086256386927
+          ],
+          "axis": [
+            0.8191520442889919,
+            0.0,
+            -0.573576436351046
+          ],
+          "q_deg": 0
+        },
+        {
+          "name": "ankle_pitch",
+          "origin_mm": [
+            0.0,
+            0.0,
+            35.0
+          ],
+          "axis": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "q_deg": -35
+        }
+      ],
+      "parts": [
+        {
+          "name": "FixedFrame",
+          "rigid_group": "shin",
+          "mass_kg": 0.023155200000000018,
+          "source_type": "v16_source_CAD",
+          "role": "structure",
+          "center_of_volume_mm": [
+            32.59112676400645,
+            -12.0,
+            81.54495272549542
+          ],
+          "solid_count": 2
+        },
+        {
+          "name": "FixedBearings",
+          "rigid_group": "shin",
+          "mass_kg": null,
+          "source_type": "unresolved",
+          "role": "structure",
+          "center_of_volume_mm": [
+            29.25239825390336,
+            -3.9683685866503966e-16,
+            76.77675425873858
+          ],
+          "solid_count": 2
+        },
+        {
+          "name": "RollMotorVendor",
+          "rigid_group": "shin",
+          "mass_kg": 0.082,
+          "source_type": "v16_source_CAD",
+          "role": "motor",
+          "center_of_volume_mm": [
+            37.602959796941576,
+            -11.621326993048317,
+            88.02047234284164
+          ],
+          "solid_count": 18
+        },
+        {
+          "name": "RollCarrier",
+          "rigid_group": "carrier",
+          "mass_kg": 0.02874256918044701,
+          "source_type": "v16_source_CAD",
+          "role": "structure",
+          "center_of_volume_mm": [
+            14.854221609132058,
+            -14.646993601880139,
+            56.21402698278757
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "PitchMotorEnvelope",
+          "rigid_group": "carrier",
+          "mass_kg": 0.19,
+          "source_type": "v16_source_CAD",
+          "role": "motor",
+          "center_of_volume_mm": [
+            7.105427357601002e-15,
+            -3.2815760854663114e-16,
+            35.0
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "FootStructure",
+          "rigid_group": "foot",
+          "mass_kg": 0.10270799999999998,
+          "source_type": "v16_source_CAD",
+          "role": "structure",
+          "center_of_volume_mm": [
+            2.175710248720728e-15,
+            1.5301698452541382e-15,
+            6.485804416403782
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "SolePad",
+          "rigid_group": "foot",
+          "mass_kg": null,
+          "source_type": "unresolved",
+          "role": "structure",
+          "center_of_volume_mm": [
+            -9.285501660501312e-17,
+            -1.1588306072305634e-15,
+            -1.0
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "RollRod",
+          "rigid_group": "linkage",
+          "mass_kg": 0.0027620882610361465,
+          "source_type": "CAD_density",
+          "role": "structure",
+          "center_of_volume_mm": [
+            58.741871848307056,
+            15.0,
+            56.12800255010093
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "RollCrankTop",
+          "rigid_group": "linkage",
+          "mass_kg": 0.002035752039526186,
+          "source_type": "CAD_density",
+          "role": "structure",
+          "center_of_volume_mm": [
+            66.7719419572217,
+            7.500000000000001,
+            67.5961311701468
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "RollCrankBottom",
+          "rigid_group": "linkage",
+          "mass_kg": 0.002035752039526186,
+          "source_type": "CAD_density",
+          "role": "structure",
+          "center_of_volume_mm": [
+            50.71180173939241,
+            7.500000000000001,
+            44.659873930055035
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "KneeMotor",
+          "rigid_group": "thigh",
+          "mass_kg": 0.19,
+          "source_type": "datasheet",
+          "role": "motor",
+          "center_of_volume_mm": [
+            51.62187927159413,
+            44.99999999999999,
+            108.72368398600926
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "HipPitchMotor",
+          "rigid_group": "hip_pitch_parent",
+          "mass_kg": 0.19,
+          "source_type": "datasheet",
+          "role": "motor",
+          "center_of_volume_mm": [
+            -29.94582156170434,
+            39.99999999999999,
+            146.7593275426722
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "HipRollMotor",
+          "rigid_group": "hip_roll_parent",
+          "mass_kg": 0.082,
+          "source_type": "datasheet",
+          "role": "motor",
+          "center_of_volume_mm": [
+            -64.5545737527792,
+            -11.621326993048319,
+            170.75932752806017
+          ],
+          "solid_count": 18
+        },
+        {
+          "name": "HipYawMotor",
+          "rigid_group": "pelvis",
+          "mass_kg": 0.082,
+          "source_type": "datasheet",
+          "role": "motor",
+          "center_of_volume_mm": [
+            -29.945821547092468,
+            -11.621326993048312,
+            220.1505753515972
+          ],
+          "solid_count": 18
+        },
+        {
+          "name": "ShinKneeRailm1",
+          "rigid_group": "shin",
+          "mass_kg": 0.005184,
+          "source_type": "CAD_density",
+          "role": "structure",
+          "center_of_volume_mm": [
+            21.804404848777356,
+            -12.000000000000002,
+            127.16055516971792
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "ThighRailm1",
+          "rigid_group": "thigh",
+          "mass_kg": 0.034992,
+          "source_type": "CAD_density",
+          "role": "structure",
+          "center_of_volume_mm": [
+            -3.5309920442388716,
+            1.0307255734791576e-16,
+            96.92704100509467
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "ShinKneeRail1",
+          "rigid_group": "shin",
+          "mass_kg": 0.005184,
+          "source_type": "CAD_density",
+          "role": "structure",
+          "center_of_volume_mm": [
+            79.14504794900677,
+            -12.0,
+            87.01020462514467
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "ThighRail1",
+          "rigid_group": "thigh",
+          "mass_kg": 0.034992,
+          "source_type": "CAD_density",
+          "role": "structure",
+          "center_of_volume_mm": [
+            25.207049754128697,
+            -4.188693287968491e-16,
+            158.55597052358684
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "CableServiceSpace",
+          "rigid_group": "shin",
+          "mass_kg": null,
+          "source_type": "assumed",
+          "role": "keepout",
+          "center_of_volume_mm": [
+            6.523904118486989,
+            -20.0,
+            114.05497248783783
+          ],
+          "solid_count": 1
+        }
+      ],
+      "known_mass_kg": 1.0577913615205352,
+      "missing_mass_parts": [
+        "FixedBearings",
+        "SolePad"
+      ],
+      "bounds": {
+        "min_mm": [
+          -83.94582156170435,
+          -40.0,
+          -2.0
+        ],
+        "max_mm": [
+          83.65123421934001,
+          65.1,
+          243.4593275426722
+        ],
+        "size_mm": [
+          167.59705578104436,
+          105.1,
+          245.4593275426722
+        ]
+      },
+      "collisions": [
+        {
+          "a": "FixedFrame",
+          "b": "RollCarrier",
+          "volume_mm3": 5.0000000000000995,
+          "same_rigid_group": false,
+          "involves_keepout": false,
+          "source_inherited": true
+        },
+        {
+          "a": "FixedFrame",
+          "b": "ThighRailm1",
+          "volume_mm3": 64.98730316068772,
+          "same_rigid_group": false,
+          "involves_keepout": false,
+          "source_inherited": false
+        },
+        {
+          "a": "FixedBearings",
+          "b": "RollMotorVendor",
+          "volume_mm3": 593.0070292916093,
+          "same_rigid_group": true,
+          "involves_keepout": false,
+          "source_inherited": true
+        },
+        {
+          "a": "FixedBearings",
+          "b": "RollCarrier",
+          "volume_mm3": 107.76215688183187,
+          "same_rigid_group": false,
+          "involves_keepout": false,
+          "source_inherited": true
+        },
+        {
+          "a": "FixedBearings",
+          "b": "ThighRailm1",
+          "volume_mm3": 8.066472271387088,
+          "same_rigid_group": false,
+          "involves_keepout": false,
+          "source_inherited": false
+        },
+        {
+          "a": "RollCarrier",
+          "b": "PitchMotorEnvelope",
+          "volume_mm3": 7.587187107267996,
+          "same_rigid_group": true,
+          "involves_keepout": false,
+          "source_inherited": true
+        },
+        {
+          "a": "RollCarrier",
+          "b": "FootStructure",
+          "volume_mm3": 812.2431566614673,
+          "same_rigid_group": false,
+          "involves_keepout": false,
+          "source_inherited": true
+        },
+        {
+          "a": "RollRod",
+          "b": "RollCrankTop",
+          "volume_mm3": 24.32062103036892,
+          "same_rigid_group": true,
+          "involves_keepout": false,
+          "source_inherited": false
+        },
+        {
+          "a": "RollRod",
+          "b": "RollCrankBottom",
+          "volume_mm3": 24.320641543164783,
+          "same_rigid_group": true,
+          "involves_keepout": false,
+          "source_inherited": false
+        },
+        {
+          "a": "ThighRailm1",
+          "b": "CableServiceSpace",
+          "volume_mm3": 10.69643944038307,
+          "same_rigid_group": false,
+          "involves_keepout": true,
+          "source_inherited": false
+        }
+      ],
+      "manufacturable": false,
+      "kinematic_chain_closure_checked": true,
+      "ideal_crown_point_mm": [
+        -29.945821561704342,
+        0.0,
+        326.7593275426722
+      ],
+      "note": "Crown point is a body-frame requirement marker, not a head/torso or dressed assembly."
+    },
+    {
+      "pose": "lift_probe",
+      "input": {
+        "name": "lift_probe",
+        "foot_translation_mm": [
+          35,
+          0,
+          30
+        ],
+        "foot_pitch_deg": 10,
+        "q_deg": [
+          0,
+          0,
+          -40,
+          70,
+          0,
+          -20
+        ]
+      },
+      "joints": [
+        {
+          "name": "hip_yaw",
+          "origin_mm": [
+            28.226801346553927,
+            0.0,
+            259.35455757673475
+          ],
+          "axis": [
+            -8.881784197001252e-16,
+            0.0,
+            1.0
+          ],
+          "q_deg": 0
+        },
+        {
+          "name": "hip_roll",
+          "origin_mm": [
+            28.22680134655395,
+            0.0,
+            235.35455757673475
+          ],
+          "axis": [
+            1.0,
+            0.0,
+            8.881784197001252e-16
+          ],
+          "q_deg": 0
+        },
+        {
+          "name": "hip_pitch",
+          "origin_mm": [
+            28.22680134655397,
+            0.0,
+            211.35455757673475
+          ],
+          "axis": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "q_deg": -40
+        },
+        {
+          "name": "knee_pitch",
+          "origin_mm": [
+            86.07768621834256,
+            0.0,
+            142.41055769602679
+          ],
+          "axis": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "q_deg": 70
+        },
+        {
+          "name": "ankle_roll",
+          "origin_mm": [
+            59.57768621834256,
+            0.0,
+            96.51121129545152
+          ],
+          "axis": [
+            0.8660254037844387,
+            0.0,
+            -0.5000000000000001
+          ],
+          "q_deg": 0
+        },
+        {
+          "name": "ankle_pitch",
+          "origin_mm": [
+            41.07768621834256,
+            0.0,
+            64.46827135542728
+          ],
+          "axis": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "q_deg": -20
+        }
+      ],
+      "parts": [
+        {
+          "name": "FixedFrame",
+          "rigid_group": "shin",
+          "mass_kg": 0.023155200000000018,
+          "source_type": "v16_source_CAD",
+          "role": "structure",
+          "center_of_volume_mm": [
+            69.4881339795366,
+            -12.000000000000002,
+            113.67661034359679
+          ],
+          "solid_count": 2
+        },
+        {
+          "name": "FixedBearings",
+          "rigid_group": "shin",
+          "mass_kg": null,
+          "source_type": "unresolved",
+          "role": "structure",
+          "center_of_volume_mm": [
+            66.57768621834256,
+            -3.260730805074788e-16,
+            108.63556694843362
+          ],
+          "solid_count": 2
+        },
+        {
+          "name": "RollMotorVendor",
+          "rigid_group": "shin",
+          "mass_kg": 0.082,
+          "source_type": "v16_source_CAD",
+          "role": "motor",
+          "center_of_volume_mm": [
+            73.91651675274073,
+            -11.621326993048328,
+            120.56429868429895
+          ],
+          "solid_count": 18
+        },
+        {
+          "name": "RollCarrier",
+          "rigid_group": "carrier",
+          "mass_kg": 0.02874256918044701,
+          "source_type": "v16_source_CAD",
+          "role": "structure",
+          "center_of_volume_mm": [
+            54.02645875128603,
+            -14.64699360188015,
+            86.8962032781377
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "PitchMotorEnvelope",
+          "rigid_group": "carrier",
+          "mass_kg": 0.19,
+          "source_type": "v16_source_CAD",
+          "role": "motor",
+          "center_of_volume_mm": [
+            41.07768621834256,
+            0.0,
+            64.46827135542728
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "FootStructure",
+          "rigid_group": "foot",
+          "mass_kg": 0.10270799999999998,
+          "source_type": "v16_source_CAD",
+          "role": "structure",
+          "center_of_volume_mm": [
+            36.12624811761265,
+            -1.0998095762764116e-15,
+            36.38727047379526
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "SolePad",
+          "rigid_group": "foot",
+          "mass_kg": null,
+          "source_type": "unresolved",
+          "role": "structure",
+          "center_of_volume_mm": [
+            34.826351822333066,
+            -7.105427357601002e-17,
+            29.01519224698779
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "RollRod",
+          "rigid_group": "linkage",
+          "mass_kg": 0.0027620882610361465,
+          "source_type": "CAD_density",
+          "role": "structure",
+          "center_of_volume_mm": [
+            97.75460075458236,
+            14.999999999999998,
+            90.63556694843365
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "RollCrankTop",
+          "rigid_group": "linkage",
+          "mass_kg": 0.002035752039526186,
+          "source_type": "CAD_density",
+          "role": "structure",
+          "center_of_volume_mm": [
+            104.75460075458236,
+            7.500000000000001,
+            102.7599226014158
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "RollCrankBottom",
+          "rigid_group": "linkage",
+          "mass_kg": 0.002035752039526186,
+          "source_type": "CAD_density",
+          "role": "structure",
+          "center_of_volume_mm": [
+            90.75460075458236,
+            7.500000000000001,
+            78.5112112954515
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "KneeMotor",
+          "rigid_group": "thigh",
+          "mass_kg": 0.19,
+          "source_type": "datasheet",
+          "role": "motor",
+          "center_of_volume_mm": [
+            86.07768621834258,
+            45.0,
+            142.41055769602679
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "HipPitchMotor",
+          "rigid_group": "hip_pitch_parent",
+          "mass_kg": 0.19,
+          "source_type": "datasheet",
+          "role": "motor",
+          "center_of_volume_mm": [
+            28.22680134655397,
+            39.99999999999999,
+            211.35455757673475
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "HipRollMotor",
+          "rigid_group": "hip_roll_parent",
+          "mass_kg": 0.082,
+          "source_type": "datasheet",
+          "role": "motor",
+          "center_of_volume_mm": [
+            -6.381950844520914,
+            -11.621326993048324,
+            235.35455756212275
+          ],
+          "solid_count": 18
+        },
+        {
+          "name": "HipYawMotor",
+          "rigid_group": "pelvis",
+          "mass_kg": 0.082,
+          "source_type": "datasheet",
+          "role": "motor",
+          "center_of_volume_mm": [
+            28.226801361165748,
+            -11.6213269930483,
+            284.7458053856598
+          ],
+          "solid_count": 18
+        },
+        {
+          "name": "ShinKneeRailm1",
+          "rigid_group": "shin",
+          "mass_kg": 0.005184,
+          "source_type": "CAD_density",
+          "role": "structure",
+          "center_of_volume_mm": [
+            54.76679708588722,
+            -12.0,
+            158.1785068884579
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "ThighRailm1",
+          "rigid_group": "thigh",
+          "mass_kg": 0.034992,
+          "source_type": "CAD_density",
+          "role": "structure",
+          "center_of_volume_mm": [
+            31.10673271640303,
+            -4.879498725513034e-16,
+            155.02777890703842
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "ShinKneeRail1",
+          "rigid_group": "shin",
+          "mass_kg": 0.005184,
+          "source_type": "CAD_density",
+          "role": "structure",
+          "center_of_volume_mm": [
+            115.38857535079794,
+            -11.999999999999998,
+            123.17850688845789
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "ThighRail1",
+          "rigid_group": "thigh",
+          "mass_kg": 0.034992,
+          "source_type": "CAD_density",
+          "role": "structure",
+          "center_of_volume_mm": [
+            83.1977548484935,
+            -2.96059473233375e-17,
+            198.73733636572314
+          ],
+          "solid_count": 1
+        },
+        {
+          "name": "CableServiceSpace",
+          "rigid_group": "shin",
+          "mass_kg": null,
+          "source_type": "assumed",
+          "role": "keepout",
+          "center_of_volume_mm": [
+            40.68667006696502,
+            -20.0,
+            143.7910115146613
+          ],
+          "solid_count": 1
+        }
+      ],
+      "known_mass_kg": 1.0577913615205352,
+      "missing_mass_parts": [
+        "FixedBearings",
+        "SolePad"
+      ],
+      "bounds": {
+        "min_mm": [
+          -25.773198653446062,
+          -40.0,
+          19.347975610629064
+        ],
+        "max_mm": [
+          119.6206261583668,
+          65.1,
+          308.05455757673474
+        ],
+        "size_mm": [
+          145.39382481181286,
+          105.1,
+          288.70658196610566
+        ]
+      },
+      "collisions": [
+        {
+          "a": "FixedFrame",
+          "b": "RollCarrier",
+          "volume_mm3": 4.999999999999609,
+          "same_rigid_group": false,
+          "involves_keepout": false,
+          "source_inherited": true
+        },
+        {
+          "a": "FixedFrame",
+          "b": "ThighRailm1",
+          "volume_mm3": 68.10737743845836,
+          "same_rigid_group": false,
+          "involves_keepout": false,
+          "source_inherited": false
+        },
+        {
+          "a": "FixedBearings",
+          "b": "RollMotorVendor",
+          "volume_mm3": 593.007029291609,
+          "same_rigid_group": true,
+          "involves_keepout": false,
+          "source_inherited": true
+        },
+        {
+          "a": "FixedBearings",
+          "b": "RollCarrier",
+          "volume_mm3": 107.76215688183174,
+          "same_rigid_group": false,
+          "involves_keepout": false,
+          "source_inherited": true
+        },
+        {
+          "a": "RollMotorVendor",
+          "b": "ThighRailm1",
+          "volume_mm3": 717.922487065493,
+          "same_rigid_group": false,
+          "involves_keepout": false,
+          "source_inherited": false
+        },
+        {
+          "a": "RollCarrier",
+          "b": "PitchMotorEnvelope",
+          "volume_mm3": 7.587187107267996,
+          "same_rigid_group": true,
+          "involves_keepout": false,
+          "source_inherited": true
+        },
+        {
+          "a": "RollCarrier",
+          "b": "FootStructure",
+          "volume_mm3": 756.3959300435488,
+          "same_rigid_group": false,
+          "involves_keepout": false,
+          "source_inherited": true
+        },
+        {
+          "a": "RollRod",
+          "b": "RollCrankTop",
+          "volume_mm3": 24.320621029558474,
+          "same_rigid_group": true,
+          "involves_keepout": false,
+          "source_inherited": false
+        },
+        {
+          "a": "RollRod",
+          "b": "RollCrankBottom",
+          "volume_mm3": 24.320641542443482,
+          "same_rigid_group": true,
+          "involves_keepout": false,
+          "source_inherited": false
+        },
+        {
+          "a": "ThighRailm1",
+          "b": "CableServiceSpace",
+          "volume_mm3": 13.185086321171072,
+          "same_rigid_group": false,
+          "involves_keepout": true,
+          "source_inherited": false
+        }
+      ],
+      "manufacturable": false,
+      "kinematic_chain_closure_checked": true,
+      "ideal_crown_point_mm": [
+        28.22680134655381,
+        0.0,
+        391.35455757673475
+      ],
+      "note": "Crown point is a body-frame requirement marker, not a head/torso or dressed assembly."
+    }
+  ],
+  "limitations": [
+    "All positive-volume pairs retained, including same-group intersections requiring joining details",
+    "Inherited v16 interfaces still unresolved; this is a full-length geometric integration study",
+    "No manufacturable shaft/bolt/bearing or verified cable routing",
+    "Five isolated configurations, no common pelvis gait or fullbody support proof"
+  ]
+}

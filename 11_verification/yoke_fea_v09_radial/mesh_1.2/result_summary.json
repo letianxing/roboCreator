@@ -1,0 +1,24 @@
+{
+  "mesh_size_mm": 1.2,
+  "node_count": 13531,
+  "element_count": 48904,
+  "max_displacement_mm": 7.361870981444374,
+  "max_displacement_node": 1267,
+  "load_weighted_uz_mm": -6.635074065697856,
+  "peak_von_mises_MPa": 335.457086251652,
+  "p95_von_mises_MPa": 131.31182247471892,
+  "reaction_sum_N": [
+    1.1302665610654766e-05,
+    1.6933653669393145e-05,
+    100.00003120137451
+  ],
+  "bearing_resultant_N": [
+    -6.741507168824023e-10,
+    0.5851636607989144,
+    0.7337111349740097
+  ],
+  "force_balance_residual_N": 3.725620281128888e-05,
+  "moment_balance_residual_Nmm": 0.00150771969777187,
+  "energy_relative_error": 9.471075331748846e-10,
+  "bearing_constraint": "radial"
+}

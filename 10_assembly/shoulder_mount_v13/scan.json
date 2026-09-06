@@ -1,0 +1,780 @@
+{
+  "status": "placement_scan_only",
+  "results": [
+    {
+      "outboard_mm": 80,
+      "counts": {
+        "hardware": 0,
+        "shell": 20
+      },
+      "cases": [
+        {
+          "pose": "standing",
+          "hits": [
+            {
+              "parts": [
+                "L_arm_motor_1",
+                "Monkey_Ear_1"
+              ],
+              "kind": "shell",
+              "volume_mm3": 16.509808633941972
+            },
+            {
+              "parts": [
+                "L_arm_motor_1",
+                "Monkey_EarInner_1"
+              ],
+              "kind": "shell",
+              "volume_mm3": 3.2115593604837054
+            },
+            {
+              "parts": [
+                "R_arm_motor_1",
+                "Monkey_Ear_-1"
+              ],
+              "kind": "shell",
+              "volume_mm3": 24.30919763445408
+            },
+            {
+              "parts": [
+                "R_arm_motor_1",
+                "Monkey_EarInner_-1"
+              ],
+              "kind": "shell",
+              "volume_mm3": 5.793653415286556
+            }
+          ]
+        },
+        {
+          "pose": "pickup_contact",
+          "hits": [
+            {
+              "parts": [
+                "L_arm_motor_1",
+                "Monkey_HeadShell"
+              ],
+              "kind": "shell",
+              "volume_mm3": 2122.3126137942168
+            },
+            {
+              "parts": [
+                "L_arm_motor_1",
+                "Monkey_Ear_1"
+              ],
+              "kind": "shell",
+              "volume_mm3": 7224.232378087135
+            },
+            {
+              "parts": [
+                "L_arm_motor_1",
+                "Monkey_EarInner_1"
+              ],
+              "kind": "shell",
+              "volume_mm3": 1004.8699804303839
+            },
+            {
+              "parts": [
+                "R_arm_motor_1",
+                "Monkey_HeadShell"
+              ],
+              "kind": "shell",
+              "volume_mm3": 2122.275432614563
+            },
+            {
+              "parts": [
+                "R_arm_motor_1",
+                "Monkey_Ear_-1"
+              ],
+              "kind": "shell",
+              "volume_mm3": 7224.524929143947
+            },
+            {
+              "parts": [
+                "R_arm_motor_1",
+                "Monkey_EarInner_-1"
+              ],
+              "kind": "shell",
+              "volume_mm3": 1004.8699804303839
+            }
+          ]
+        },
+        {
+          "pose": "pickup_lift",
+          "hits": [
+            {
+              "parts": [
+                "L_arm_motor_1",
+                "Monkey_HeadShell"
+              ],
+              "kind": "shell",
+              "volume_mm3": 1961.3186510497262
+            },
+            {
+              "parts": [
+                "L_arm_motor_1",
+                "Monkey_Ear_1"
+              ],
+              "kind": "shell",
+              "volume_mm3": 6994.821294669569
+            },
+            {
+              "parts": [
+                "L_arm_motor_1",
+                "Monkey_EarInner_1"
+              ],
+              "kind": "shell",
+              "volume_mm3": 963.5180267130748
+            },
+            {
+              "parts": [
+                "R_arm_motor_1",
+                "Monkey_HeadShell"
+              ],
+              "kind": "shell",
+              "volume_mm3": 1953.9779508022252
+            },
+            {
+              "parts": [
+                "R_arm_motor_1",
+                "Monkey_Ear_-1"
+              ],
+              "kind": "shell",
+              "volume_mm3": 6978.674287397704
+            },
+            {
+              "parts": [
+                "R_arm_motor_1",
+                "Monkey_EarInner_-1"
+              ],
+              "kind": "shell",
+              "volume_mm3": 957.5535332825796
+            }
+          ]
+        },
+        {
+          "pose": "handover",
+          "hits": [
+            {
+              "parts": [
+                "L_arm_motor_1",
+                "Monkey_HeadShell"
+              ],
+              "kind": "shell",
+              "volume_mm3": 391.3375475565255
+            },
+            {
+              "parts": [
+                "L_arm_motor_1",
+                "Monkey_Ear_1"
+              ],
+              "kind": "shell",
+              "volume_mm3": 1586.810356257543
+            },
+            {
+              "parts": [
+                "R_arm_motor_1",
+                "Monkey_HeadShell"
+              ],
+              "kind": "shell",
+              "volume_mm3": 366.7900421744644
+            },
+            {
+              "parts": [
+                "R_arm_motor_1",
+                "Monkey_Ear_-1"
+              ],
+              "kind": "shell",
+              "volume_mm3": 1522.6688758127432
+            }
+          ]
+        },
+        {
+          "pose": "getup_intermediate",
+          "hits": []
+        }
+      ]
+    },
+    {
+      "outboard_mm": -80,
+      "counts": {
+        "hardware": 22,
+        "shell": 0
+      },
+      "cases": [
+        {
+          "pose": "standing",
+          "hits": [
+            {
+              "parts": [
+                "L_arm_motor_1",
+                "L_hip_motor_0"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 4762.84360431952
+            },
+            {
+              "parts": [
+                "L_arm_motor_1",
+                "L_hip_motor_1"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 1972.763181523654
+            },
+            {
+              "parts": [
+                "L_arm_motor_1",
+                "L_hip_motor_2"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 863.0837473627948
+            },
+            {
+              "parts": [
+                "R_arm_motor_1",
+                "R_hip_motor_0"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 4731.5162498459185
+            },
+            {
+              "parts": [
+                "R_arm_motor_1",
+                "R_hip_motor_1"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 1968.3640472909476
+            },
+            {
+              "parts": [
+                "R_arm_motor_1",
+                "R_hip_motor_2"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 768.3657326341093
+            }
+          ]
+        },
+        {
+          "pose": "pickup_contact",
+          "hits": [
+            {
+              "parts": [
+                "L_arm_motor_1",
+                "L_hip_motor_0"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 9693.864536839184
+            },
+            {
+              "parts": [
+                "L_arm_motor_1",
+                "L_hip_motor_2"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 32464.21778457098
+            },
+            {
+              "parts": [
+                "R_arm_motor_1",
+                "R_hip_motor_0"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 9694.141870758707
+            },
+            {
+              "parts": [
+                "R_arm_motor_1",
+                "R_hip_motor_2"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 32458.929864859187
+            }
+          ]
+        },
+        {
+          "pose": "pickup_lift",
+          "hits": [
+            {
+              "parts": [
+                "L_arm_motor_1",
+                "L_hip_motor_0"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 9374.337115243392
+            },
+            {
+              "parts": [
+                "L_arm_motor_1",
+                "L_hip_motor_2"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 27605.50213917527
+            },
+            {
+              "parts": [
+                "R_arm_motor_1",
+                "R_hip_motor_0"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 9385.761156056964
+            },
+            {
+              "parts": [
+                "R_arm_motor_1",
+                "R_hip_motor_2"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 27754.842560328587
+            }
+          ]
+        },
+        {
+          "pose": "handover",
+          "hits": [
+            {
+              "parts": [
+                "L_arm_motor_1",
+                "L_hip_motor_0"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 6828.194609544101
+            },
+            {
+              "parts": [
+                "L_arm_motor_1",
+                "L_hip_motor_2"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 10191.253477350458
+            },
+            {
+              "parts": [
+                "R_arm_motor_1",
+                "R_hip_motor_0"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 6851.5177915250615
+            },
+            {
+              "parts": [
+                "R_arm_motor_1",
+                "R_hip_motor_2"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 10393.172126195803
+            }
+          ]
+        },
+        {
+          "pose": "getup_intermediate",
+          "hits": [
+            {
+              "parts": [
+                "L_arm_motor_1",
+                "L_hip_motor_0"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 3581.6675700395144
+            },
+            {
+              "parts": [
+                "L_arm_motor_1",
+                "L_knee_motor"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 14496.039556625454
+            },
+            {
+              "parts": [
+                "R_arm_motor_1",
+                "R_hip_motor_0"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 3616.464089264148
+            },
+            {
+              "parts": [
+                "R_arm_motor_1",
+                "R_knee_motor"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 14281.48839906757
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "outboard_mm": -100,
+      "counts": {
+        "hardware": 12,
+        "shell": 6
+      },
+      "cases": [
+        {
+          "pose": "standing",
+          "hits": [
+            {
+              "parts": [
+                "L_arm_motor_1",
+                "L_hip_motor_1"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 17951.019381963775
+            },
+            {
+              "parts": [
+                "L_arm_motor_1",
+                "L_hip_motor_2"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 800.0417100992474
+            },
+            {
+              "parts": [
+                "L_arm_motor_1",
+                "Red_WaistSash"
+              ],
+              "kind": "shell",
+              "volume_mm3": 586.567470857563
+            },
+            {
+              "parts": [
+                "R_arm_motor_1",
+                "R_hip_motor_1"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 17918.041726263087
+            },
+            {
+              "parts": [
+                "R_arm_motor_1",
+                "R_hip_motor_2"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 717.7420447103374
+            },
+            {
+              "parts": [
+                "R_arm_motor_1",
+                "Red_WaistSash"
+              ],
+              "kind": "shell",
+              "volume_mm3": 584.4409120985562
+            }
+          ]
+        },
+        {
+          "pose": "pickup_contact",
+          "hits": [
+            {
+              "parts": [
+                "L_arm_motor_1",
+                "L_hip_motor_2"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 69265.56641160705
+            },
+            {
+              "parts": [
+                "R_arm_motor_1",
+                "R_hip_motor_2"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 69241.38455634388
+            }
+          ]
+        },
+        {
+          "pose": "pickup_lift",
+          "hits": [
+            {
+              "parts": [
+                "L_arm_motor_1",
+                "L_hip_motor_2"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 55517.437968523955
+            },
+            {
+              "parts": [
+                "R_arm_motor_1",
+                "R_hip_motor_2"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 55815.234495071534
+            }
+          ]
+        },
+        {
+          "pose": "handover",
+          "hits": [
+            {
+              "parts": [
+                "L_arm_motor_1",
+                "L_hip_motor_2"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 14764.752232559647
+            },
+            {
+              "parts": [
+                "L_arm_motor_1",
+                "Red_WaistSash"
+              ],
+              "kind": "shell",
+              "volume_mm3": 539.9800733226205
+            },
+            {
+              "parts": [
+                "R_arm_motor_1",
+                "R_hip_motor_2"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 15051.495980551177
+            },
+            {
+              "parts": [
+                "R_arm_motor_1",
+                "Red_WaistSash"
+              ],
+              "kind": "shell",
+              "volume_mm3": 536.5485319702752
+            }
+          ]
+        },
+        {
+          "pose": "getup_intermediate",
+          "hits": [
+            {
+              "parts": [
+                "L_arm_motor_1",
+                "L_knee_motor"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 21283.791652194624
+            },
+            {
+              "parts": [
+                "L_arm_motor_1",
+                "Red_WaistSash"
+              ],
+              "kind": "shell",
+              "volume_mm3": 430.3143273862925
+            },
+            {
+              "parts": [
+                "R_arm_motor_1",
+                "R_knee_motor"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 20983.58706682631
+            },
+            {
+              "parts": [
+                "R_arm_motor_1",
+                "Red_WaistSash"
+              ],
+              "kind": "shell",
+              "volume_mm3": 435.87897197056634
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "outboard_mm": -120,
+      "counts": {
+        "hardware": 14,
+        "shell": 6
+      },
+      "cases": [
+        {
+          "pose": "standing",
+          "hits": [
+            {
+              "parts": [
+                "L_arm_motor_1",
+                "L_hip_motor_1"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 32551.606466866502
+            },
+            {
+              "parts": [
+                "L_arm_motor_1",
+                "L_hip_motor_2"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 0.4624898535741607
+            },
+            {
+              "parts": [
+                "L_arm_motor_1",
+                "Red_WaistSash"
+              ],
+              "kind": "shell",
+              "volume_mm3": 586.5674708575635
+            },
+            {
+              "parts": [
+                "R_arm_motor_1",
+                "R_hip_motor_1"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 32460.42895817664
+            },
+            {
+              "parts": [
+                "R_arm_motor_1",
+                "R_hip_motor_2"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 0.05697975149003413
+            },
+            {
+              "parts": [
+                "R_arm_motor_1",
+                "Red_WaistSash"
+              ],
+              "kind": "shell",
+              "volume_mm3": 584.440911104018
+            }
+          ]
+        },
+        {
+          "pose": "pickup_contact",
+          "hits": [
+            {
+              "parts": [
+                "L_arm_motor_1",
+                "L_hip_motor_2"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 51860.51121362403
+            },
+            {
+              "parts": [
+                "R_arm_motor_1",
+                "R_hip_motor_2"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 51839.77797502969
+            }
+          ]
+        },
+        {
+          "pose": "pickup_lift",
+          "hits": [
+            {
+              "parts": [
+                "L_arm_motor_1",
+                "L_hip_motor_2"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 40072.2789338426
+            },
+            {
+              "parts": [
+                "R_arm_motor_1",
+                "R_hip_motor_2"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 40284.504358194696
+            }
+          ]
+        },
+        {
+          "pose": "handover",
+          "hits": [
+            {
+              "parts": [
+                "L_arm_motor_1",
+                "L_hip_motor_2"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 5865.140057128723
+            },
+            {
+              "parts": [
+                "L_arm_motor_1",
+                "Red_WaistSash"
+              ],
+              "kind": "shell",
+              "volume_mm3": 539.9800733226201
+            },
+            {
+              "parts": [
+                "R_arm_motor_1",
+                "R_hip_motor_2"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 6000.811433444409
+            },
+            {
+              "parts": [
+                "R_arm_motor_1",
+                "Red_WaistSash"
+              ],
+              "kind": "shell",
+              "volume_mm3": 536.5485326911356
+            }
+          ]
+        },
+        {
+          "pose": "getup_intermediate",
+          "hits": [
+            {
+              "parts": [
+                "L_arm_motor_1",
+                "L_knee_motor"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 9232.712047569454
+            },
+            {
+              "parts": [
+                "L_arm_motor_1",
+                "L_PitchMotor_ClosedEnvelope"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 894.638136018305
+            },
+            {
+              "parts": [
+                "L_arm_motor_1",
+                "Red_WaistSash"
+              ],
+              "kind": "shell",
+              "volume_mm3": 430.3143273862895
+            },
+            {
+              "parts": [
+                "R_arm_motor_1",
+                "R_knee_motor"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 9078.577905939277
+            },
+            {
+              "parts": [
+                "R_arm_motor_1",
+                "R_PitchMotor_ClosedEnvelope"
+              ],
+              "kind": "hardware",
+              "volume_mm3": 922.2413338556238
+            },
+            {
+              "parts": [
+                "R_arm_motor_1",
+                "Red_WaistSash"
+              ],
+              "kind": "shell",
+              "volume_mm3": 435.8785951147697
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

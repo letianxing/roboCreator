@@ -1,0 +1,457 @@
+{
+  "status": "vendor_surface_and_envelope_draft",
+  "source_url": "https://www.cubemars.com/data/cms/202607/ak40-10-v3-0-kv170-3d-drawing.zip",
+  "source_sha256": "d8260c08a7d24e20e3bdd3e38472eb4fbf8ca00d1826c902f71eac5ec0a2f0fe",
+  "source_geometry": {
+    "faces": 254,
+    "shells": 46,
+    "solids": 0,
+    "valid": true,
+    "bounds_mm": [
+      -26.499999999999993,
+      26.500000000000043,
+      -14.00000000000002,
+      26.200000000000003,
+      -26.500000000000046,
+      26.50007506156357
+    ]
+  },
+  "dimensions_mm": {
+    "foot": [
+      120,
+      70,
+      4
+    ],
+    "roll_axis_z": 33,
+    "pitch_axis_z": 91,
+    "axis_separation": 58,
+    "neutral_motor_top_z": 117.5,
+    "motor_diameter": 53,
+    "motor_length": 40.2
+  },
+  "actuator_mass_only_kg": 0.38,
+  "sample_count": 63,
+  "max_common_volume_mm3": 0,
+  "minimum_distances": {
+    "foot__roll_envelope": {
+      "distance_mm": 2.5,
+      "roll_deg": -20,
+      "pitch_deg": -45
+    },
+    "foot__pitch_envelope": {
+      "distance_mm": 51.72571267391018,
+      "roll_deg": -20,
+      "pitch_deg": -45
+    },
+    "foot__shank_proxy": {
+      "distance_mm": 92.32224826306229,
+      "roll_deg": -20,
+      "pitch_deg": -45
+    },
+    "roll_envelope__pitch_envelope": {
+      "distance_mm": 4.999999999999989,
+      "roll_deg": 10,
+      "pitch_deg": -45
+    },
+    "roll_envelope__shank_proxy": {
+      "distance_mm": 56.26791595083024,
+      "roll_deg": 10,
+      "pitch_deg": -45
+    },
+    "pitch_envelope__shank_proxy": {
+      "distance_mm": 9.542536350467806,
+      "roll_deg": 15,
+      "pitch_deg": 45
+    }
+  },
+  "samples": [
+    {
+      "roll_deg": -20,
+      "pitch_deg": -45,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 87.50217200558268
+    },
+    {
+      "roll_deg": -20,
+      "pitch_deg": -30,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 87.50217200558268
+    },
+    {
+      "roll_deg": -20,
+      "pitch_deg": -15,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 87.50217200558268
+    },
+    {
+      "roll_deg": -20,
+      "pitch_deg": 0,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 87.50217200558268
+    },
+    {
+      "roll_deg": -20,
+      "pitch_deg": 15,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 87.50217200558268
+    },
+    {
+      "roll_deg": -20,
+      "pitch_deg": 30,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 87.50217200558268
+    },
+    {
+      "roll_deg": -20,
+      "pitch_deg": 45,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 87.50217200558268
+    },
+    {
+      "roll_deg": -15,
+      "pitch_deg": -45,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 89.02369792476597
+    },
+    {
+      "roll_deg": -15,
+      "pitch_deg": -30,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 89.02369792476597
+    },
+    {
+      "roll_deg": -15,
+      "pitch_deg": -15,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 89.02369792476597
+    },
+    {
+      "roll_deg": -15,
+      "pitch_deg": 0,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 89.02369792476597
+    },
+    {
+      "roll_deg": -15,
+      "pitch_deg": 15,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 89.02369792476597
+    },
+    {
+      "roll_deg": -15,
+      "pitch_deg": 30,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 89.02369792476597
+    },
+    {
+      "roll_deg": -15,
+      "pitch_deg": 45,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 89.02369792476597
+    },
+    {
+      "roll_deg": -10,
+      "pitch_deg": -45,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 90.11884967470806
+    },
+    {
+      "roll_deg": -10,
+      "pitch_deg": -30,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 90.11884967470806
+    },
+    {
+      "roll_deg": -10,
+      "pitch_deg": -15,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 90.11884967470806
+    },
+    {
+      "roll_deg": -10,
+      "pitch_deg": 0,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 90.11884967470806
+    },
+    {
+      "roll_deg": -10,
+      "pitch_deg": 15,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 90.11884967470806
+    },
+    {
+      "roll_deg": -10,
+      "pitch_deg": 30,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 90.11884967470806
+    },
+    {
+      "roll_deg": -10,
+      "pitch_deg": 45,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 90.11884967470806
+    },
+    {
+      "roll_deg": -5,
+      "pitch_deg": -45,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 90.77929248932125
+    },
+    {
+      "roll_deg": -5,
+      "pitch_deg": -30,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 90.77929248932125
+    },
+    {
+      "roll_deg": -5,
+      "pitch_deg": -15,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 90.77929248932125
+    },
+    {
+      "roll_deg": -5,
+      "pitch_deg": 0,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 90.77929248932125
+    },
+    {
+      "roll_deg": -5,
+      "pitch_deg": 15,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 90.77929248932125
+    },
+    {
+      "roll_deg": -5,
+      "pitch_deg": 30,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 90.77929248932125
+    },
+    {
+      "roll_deg": -5,
+      "pitch_deg": 45,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 90.77929248932125
+    },
+    {
+      "roll_deg": 0,
+      "pitch_deg": -45,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 91.0
+    },
+    {
+      "roll_deg": 0,
+      "pitch_deg": -30,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 91.0
+    },
+    {
+      "roll_deg": 0,
+      "pitch_deg": -15,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 91.0
+    },
+    {
+      "roll_deg": 0,
+      "pitch_deg": 0,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 91.0
+    },
+    {
+      "roll_deg": 0,
+      "pitch_deg": 15,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 91.0
+    },
+    {
+      "roll_deg": 0,
+      "pitch_deg": 30,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 91.0
+    },
+    {
+      "roll_deg": 0,
+      "pitch_deg": 45,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 91.0
+    },
+    {
+      "roll_deg": 5,
+      "pitch_deg": -45,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 90.77929248932125
+    },
+    {
+      "roll_deg": 5,
+      "pitch_deg": -30,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 90.77929248932125
+    },
+    {
+      "roll_deg": 5,
+      "pitch_deg": -15,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 90.77929248932125
+    },
+    {
+      "roll_deg": 5,
+      "pitch_deg": 0,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 90.77929248932125
+    },
+    {
+      "roll_deg": 5,
+      "pitch_deg": 15,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 90.77929248932125
+    },
+    {
+      "roll_deg": 5,
+      "pitch_deg": 30,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 90.77929248932125
+    },
+    {
+      "roll_deg": 5,
+      "pitch_deg": 45,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 90.77929248932125
+    },
+    {
+      "roll_deg": 10,
+      "pitch_deg": -45,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 90.11884967470806
+    },
+    {
+      "roll_deg": 10,
+      "pitch_deg": -30,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 90.11884967470806
+    },
+    {
+      "roll_deg": 10,
+      "pitch_deg": -15,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 90.11884967470806
+    },
+    {
+      "roll_deg": 10,
+      "pitch_deg": 0,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 90.11884967470806
+    },
+    {
+      "roll_deg": 10,
+      "pitch_deg": 15,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 90.11884967470806
+    },
+    {
+      "roll_deg": 10,
+      "pitch_deg": 30,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 90.11884967470806
+    },
+    {
+      "roll_deg": 10,
+      "pitch_deg": 45,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 90.11884967470806
+    },
+    {
+      "roll_deg": 15,
+      "pitch_deg": -45,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 89.02369792476597
+    },
+    {
+      "roll_deg": 15,
+      "pitch_deg": -30,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 89.02369792476597
+    },
+    {
+      "roll_deg": 15,
+      "pitch_deg": -15,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 89.02369792476597
+    },
+    {
+      "roll_deg": 15,
+      "pitch_deg": 0,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 89.02369792476597
+    },
+    {
+      "roll_deg": 15,
+      "pitch_deg": 15,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 89.02369792476597
+    },
+    {
+      "roll_deg": 15,
+      "pitch_deg": 30,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 89.02369792476597
+    },
+    {
+      "roll_deg": 15,
+      "pitch_deg": 45,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 89.02369792476597
+    },
+    {
+      "roll_deg": 20,
+      "pitch_deg": -45,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 87.50217200558268
+    },
+    {
+      "roll_deg": 20,
+      "pitch_deg": -30,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 87.50217200558268
+    },
+    {
+      "roll_deg": 20,
+      "pitch_deg": -15,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 87.50217200558268
+    },
+    {
+      "roll_deg": 20,
+      "pitch_deg": 0,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 87.50217200558268
+    },
+    {
+      "roll_deg": 20,
+      "pitch_deg": 15,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 87.50217200558268
+    },
+    {
+      "roll_deg": 20,
+      "pitch_deg": 30,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 87.50217200558268
+    },
+    {
+      "roll_deg": 20,
+      "pitch_deg": 45,
+      "clashes": [],
+      "upper_pitch_center_z_mm": 87.50217200558268
+    }
+  ],
+  "warnings": [
+    "Vendor STEP is open surfaces; no volume/inertia inferred from it.",
+    "Collision test uses published outer cylindrical dimensions, not vendor surface intersection.",
+    "63 pose grid only; no continuous collision proof or validated safe ROM.",
+    "Yoke drawn as a line, not manufactured: attachment holes, bearing support and loads unresolved.",
+    "Shank is a clearance cylinder, not a finalized link.",
+    "Envelope checks exclude mounts, screws, connectors/cable sweeps and other robot parts.",
+    "Parameter properties are records; edit script and rerun for geometry changes.",
+    "Ankle pitch height 91mm invalidates earlier 25mm ankle datum; whole-body geometry needs recomputation."
+  ]
+}

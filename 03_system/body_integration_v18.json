@@ -1,0 +1,31 @@
+{
+  "version":"v0.18", "updated_at":"2026-09-06", "status":"wholebody_packaging_and_contact_study",
+  "metadata":"JSON pointers identify parameters; geometry mm/deg, mass kg. Unspecified source_type=assumed, uncertainty=not_quantified, source_ref=deliverables/body_review_v18.md. Source v17 geometry and all user requirements remain traceable.",
+  "leg_source":"09_cad/integrate_single_leg_v17.py",
+  "foot_center_spacing_mm":120,
+  "narrow_knee_offset_mm":35,
+  "narrow_hip_pitch_offset_mm":35,
+  "narrow_outer_thigh_plate_y_mm":62,
+  "body_reference":"Midpoint between left/right hip pitch axes. Shoulder origin body [0,+/-75,80]. Hip yaw axes body [0,+/-60,48]. All arm and leg body poses use this same reference.",
+  "pelvis_plate_center_body_mm":[0,0,62],
+  "pelvis_plate_size_mm":[50,100,4],
+  "torso_box_center_body_mm":[0,0,70],
+  "torso_box_size_mm":[75,100,80],
+  "shoulder_offsets_mm":{"pitch_y":30,"roll_x":-40,"yaw_z":30},
+  "electronics":{
+    "battery":{"center_body_mm":[0,0,68],"size_mm":[40,80,32],"mass_allowance_kg":0.22},
+    "microphone":{"center_body_mm":[-34,0,83],"size_mm":[8,88.8,78.1],"mass_allowance_kg":0.045},
+    "computer":{"center_body_mm":[30,0,82],"size_mm":[10,70,45],"mass_allowance_kg":0.045},
+    "power":{"center_body_mm":[0,0,105],"size_mm":[35,50,12],"mass_allowance_kg":0.05},
+    "camera":{"center_body_mm":[25,0,135],"size_mm":[25,90,25],"mass_allowance_kg":0.09}
+  },
+  "body_structure_mass_allowance_kg":0.22,
+  "head_and_costume_mass_allowance_kg":0.20,
+  "each_arm_structure_allowance_kg":0.10,
+  "coupling_limits_deg":{"hip_pitch":[-160,160],"knee_pitch":[0,150],"ankle_pitch":[-35,35]},
+  "ground_tolerance_mm":0.5,
+  "kneeling_contact_height_mm":30,
+  "kneeling_knee_samples_deg":[90,105,120,135,150],
+  "kneeling_ankle_samples_deg":[-35,-17.5,0,17.5,35],
+  "note":"Electronics are unchanged-size references/allowances, not selected products. 28DOF is a candidate. Torso/costume boxes are occupancy constraints, not finished Wukong exterior. No actual hardware motion."
+}

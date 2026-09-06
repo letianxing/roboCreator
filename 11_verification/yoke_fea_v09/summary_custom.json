@@ -1,0 +1,29 @@
+{
+  "status": "linear_elastic_local_screen_only",
+  "geometry_sha256": "d7d2c6948b12143c52f8d59eeabe887748ffd54f48ebb879fb3442e61334c461",
+  "results": [
+    {
+      "mesh_size_mm": 0.8,
+      "node_count": 36762,
+      "element_count": 155367,
+      "max_displacement_mm": 8.482908024123095,
+      "max_displacement_node": 2031,
+      "load_weighted_uz_mm": -7.6445746685327665,
+      "peak_von_mises_MPa": 430.53728988990395,
+      "p95_von_mises_MPa": 139.82185488431347,
+      "reaction_sum_N": [
+        -4.08594100391016e-05,
+        -1.3532989845078589e-05,
+        99.99997609896185
+      ],
+      "force_balance_residual_N": 4.923304609132877e-05
+    }
+  ],
+  "assumptions": [
+    "C3D4 linear tetrahedra, E69GPa/nu0.33 assumed aluminum, no certified material",
+    "Roll output face fully clamped, shaft outer journal radially fixed, no actual bolt/bearing contact compliance",
+    "100N downward on pitch stator annular interface by triangle-area nodal weights, not a measured landing load",
+    "No inertia, selfweight, fatigue, bolt pretension or plasticity; sharp re-entrant corners may create stress singularities",
+    "No allowable-load or whole-robot safety certification"
+  ]
+}

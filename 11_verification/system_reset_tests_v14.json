@@ -1,0 +1,9 @@
+{
+  "tests_run": 7,
+  "successful": true,
+  "failures": [],
+  "errors": [],
+  "input_sha256": "f797bdd0f7a4287fc7d1692908b5018e0b690d6b9f2e256caa08ab27f8954648",
+  "test_script_sha256": "3f4c6ef782a367008a97df7011f8c4de9a8fe8bce733dddee3d0569125bc0174",
+  "scope": "analytical regression only, not real robot validation"
+}

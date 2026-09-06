@@ -1,0 +1,24 @@
+{
+  "status": "sampled_proxy_checks_only",
+  "paths": [
+    {
+      "task": "pickup_lowered",
+      "samples": 101,
+      "conflicting_frames": [],
+      "note": "joint-space straight interpolation, not executable time trajectory; full robot omitted"
+    },
+    {
+      "task": "handover",
+      "samples": 101,
+      "conflicting_frames": [],
+      "note": "joint-space straight interpolation, not executable time trajectory; full robot omitted"
+    }
+  ],
+  "hip_geometry": {
+    "required_leg_reach_m": 0.200124960961895,
+    "available_leg_reach_m": 0.18,
+    "max_vertical_reach_m": 0.15732132722552272,
+    "conditions": "neutral best hip candidate with original ankle positions; excludes sole offset in reach"
+  },
+  "urdf_sanity": "XML names and parent-child references passed, not simulator load test"
+}

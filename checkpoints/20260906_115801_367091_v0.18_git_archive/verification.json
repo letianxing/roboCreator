@@ -1,0 +1,19 @@
+{
+  "id": "20260906_115801_367091_v0.18_git_archive",
+  "stage": "v0.18_git_archive",
+  "verified": true,
+  "file_count": 708,
+  "source_bytes": 1329969015,
+  "archive_bytes": 488412081,
+  "archive_sha256": "ef94a6c8f527f7aaf4b46013e0ff1455f541a18f1b7a8977c7ebb445928d737d",
+  "archive": "checkpoints\\20260906_115801_367091_v0.18_git_archive\\project.zip",
+  "passed_checks": [
+    "Project file inventory and original historical snapshot hashes verified",
+    "No configured token/private-key signatures found in inspected project/ZIP text",
+    "Archive scope, project status and large-file handling recorded"
+  ],
+  "pending": [
+    "Remote repository access and full Git/LFS push verification",
+    "All engineering pending items remain as recorded in project_state.md"
+  ]
+}

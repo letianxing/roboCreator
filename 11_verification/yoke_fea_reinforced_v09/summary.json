@@ -1,0 +1,61 @@
+{
+  "status": "linear_elastic_local_screen_only",
+  "geometry_sha256": "08453f92105f01744605af54ee045369fa469a87710d3a74ba96386ee1115610",
+  "results": [
+    {
+      "mesh_size_mm": 2.5,
+      "node_count": 5396,
+      "element_count": 17638,
+      "max_displacement_mm": 0.4795582059177306,
+      "max_displacement_node": 48,
+      "load_weighted_uz_mm": -0.28280414228264156,
+      "peak_von_mises_MPa": 65.20439029768572,
+      "p95_von_mises_MPa": 13.81725953876006,
+      "reaction_sum_N": [
+        -5.991018995910036e-05,
+        4.1614100459996806e-06,
+        100.00002403950003
+      ],
+      "force_balance_residual_N": 6.46872920777794e-05
+    },
+    {
+      "mesh_size_mm": 1.8,
+      "node_count": 10179,
+      "element_count": 37044,
+      "max_displacement_mm": 0.5698210593520932,
+      "max_displacement_node": 48,
+      "load_weighted_uz_mm": -0.3296295144953125,
+      "peak_von_mises_MPa": 72.90038892810564,
+      "p95_von_mises_MPa": 13.466864791802008,
+      "reaction_sum_N": [
+        1.8370419956420525e-05,
+        -4.188090009417042e-06,
+        99.99999223043996
+      ],
+      "force_balance_residual_N": 2.0380836355641337e-05
+    },
+    {
+      "mesh_size_mm": 1.2,
+      "node_count": 26535,
+      "element_count": 110469,
+      "max_displacement_mm": 0.8476533164265388,
+      "max_displacement_node": 48,
+      "load_weighted_uz_mm": -0.48213396464261954,
+      "peak_von_mises_MPa": 106.302694893828,
+      "p95_von_mises_MPa": 15.854890170501081,
+      "reaction_sum_N": [
+        1.8224910084060908e-05,
+        6.698596992393531e-06,
+        100.00001006890922
+      ],
+      "force_balance_residual_N": 2.1872390863936533e-05
+    }
+  ],
+  "assumptions": [
+    "C3D4 linear tetrahedra, E69GPa/nu0.33 assumed aluminum, no certified material",
+    "Roll output face fully clamped, shaft outer journal radially fixed, no actual bolt/bearing contact compliance",
+    "100N downward on pitch stator annular interface by triangle-area nodal weights, not a measured landing load",
+    "No inertia, selfweight, fatigue, bolt pretension or plasticity; sharp re-entrant corners may create stress singularities",
+    "No allowable-load or whole-robot safety certification"
+  ]
+}

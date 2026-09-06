@@ -1,0 +1,72 @@
+{
+  "stage": "v0.12",
+  "checks": [
+    {
+      "name": "26关节/电机数量、分件质量与惯量数学检查",
+      "status": "passed",
+      "evidence": [
+        "09_cad/fullbody_v12/wholebody_results.json"
+      ]
+    },
+    {
+      "name": "五个候选姿态腿长闭合与假定接触静力平衡",
+      "status": "passed",
+      "evidence": [
+        "09_cad/fullbody_v12/wholebody_results.json"
+      ]
+    },
+    {
+      "name": "任务载荷矩阵单位、冲量与能量一致性",
+      "status": "passed",
+      "evidence": [
+        "05_dynamics/fullbody_v12/task_loads.json"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "pose": "standing",
+      "force_residual_N": 0.0,
+      "moment_residual_Nm": 8.881784197001252e-16,
+      "task_verified": false,
+      "hardware_interference_count": 2
+    },
+    {
+      "pose": "pickup_contact",
+      "force_residual_N": 0.0,
+      "moment_residual_Nm": 5.551115123125783e-17,
+      "task_verified": false,
+      "hardware_interference_count": 2
+    },
+    {
+      "pose": "pickup_lift",
+      "force_residual_N": 0.0,
+      "moment_residual_Nm": 8.881784197001252e-16,
+      "task_verified": false,
+      "hardware_interference_count": 2
+    },
+    {
+      "pose": "handover",
+      "force_residual_N": 0.0,
+      "moment_residual_Nm": 8.881784197001252e-16,
+      "task_verified": false,
+      "hardware_interference_count": 2
+    },
+    {
+      "pose": "getup_intermediate",
+      "force_residual_N": 1.7763568394002505e-15,
+      "moment_residual_Nm": 4.440892098500626e-16,
+      "task_verified": false,
+      "hardware_interference_count": 4
+    }
+  ],
+  "pending": [
+    "完整无碰撞装配",
+    "腕/夹爪驱动布局",
+    "撑地起身IK与机构冲突",
+    "主驱动连续/峰值性能",
+    "完整动态逆动力学/训练/实测",
+    "齐天大圣概念审美确认与可制造外壳",
+    "制造放行与整机总价"
+  ]
+}

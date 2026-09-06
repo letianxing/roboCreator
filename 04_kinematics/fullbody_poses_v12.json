@@ -1,0 +1,336 @@
+{
+  "poses": [
+    {
+      "name": "standing",
+      "root_xyz_mm": [
+        0.0,
+        0.0,
+        190.0
+      ],
+      "body_pitch_rad": 0,
+      "left_leg_q_rad": [
+        0,
+        0,
+        -0.8988143599938225,
+        0.7474935507154964,
+        0.15132080927832614,
+        0
+      ],
+      "left_arm_q_rad": [
+        -0.6,
+        0.15,
+        0,
+        1.2,
+        0
+      ],
+      "arm_target_mm": null,
+      "arm_tip_mm": [
+        7.337997077385989,
+        191.6721558178944,
+        71.19353183399123
+      ],
+      "arm_pose_pass": true,
+      "position_error_mm": null,
+      "direction_error_deg": null,
+      "knee_xyz_mm": [
+        25.433041821817014,
+        130.0,
+        133.971555262294
+      ],
+      "leg_fk_error_mm": 7.105427357601002e-15,
+      "ankle_shank_rotation_rad": -0.15132080927832614,
+      "payload_carried": false,
+      "palms_support": false,
+      "arm_validation": "prescribed rest joints, not IK success"
+    },
+    {
+      "name": "pickup_contact",
+      "root_xyz_mm": [
+        0.0,
+        0.0,
+        150.0
+      ],
+      "body_pitch_rad": 0,
+      "left_leg_q_rad": [
+        0,
+        0,
+        -1.40195230344554,
+        1.4544227224439747,
+        -0.05247041899843485,
+        0
+      ],
+      "left_arm_q_rad": [
+        -1.0719149285655407,
+        -0.21769913636647592,
+        0.8843584399611355,
+        1.2922548389906732,
+        -0.6672480685894073
+      ],
+      "arm_target_mm": [
+        100,
+        33,
+        130
+      ],
+      "arm_tip_mm": [
+        99.99999836865054,
+        33.00000062423519,
+        130.00000179039512
+      ],
+      "arm_pose_pass": true,
+      "position_error_mm": 2.5012967277637236e-06,
+      "direction_error_deg": 2.2588727439225506e-06,
+      "knee_xyz_mm": [
+        43.72017112815301,
+        130.0,
+        134.8761369025224
+      ],
+      "leg_fk_error_mm": 1.4210854715202004e-14,
+      "ankle_shank_rotation_rad": 0.05247041899843485,
+      "payload_carried": false,
+      "palms_support": false
+    },
+    {
+      "name": "pickup_lift",
+      "root_xyz_mm": [
+        0.0,
+        0.0,
+        150.0
+      ],
+      "body_pitch_rad": 0,
+      "left_leg_q_rad": [
+        0,
+        0,
+        -1.40195230344554,
+        1.4544227224439747,
+        -0.05247041899843485,
+        0
+      ],
+      "left_arm_q_rad": [
+        -1.0104282060488652,
+        -0.12491803328787494,
+        1.2190350738665747,
+        1.437818035951515,
+        -0.34890216203344177
+      ],
+      "arm_target_mm": [
+        100,
+        33,
+        145
+      ],
+      "arm_tip_mm": [
+        99.99981151479611,
+        33.0000213607108,
+        145.0001686251092
+      ],
+      "arm_pose_pass": true,
+      "position_error_mm": 0.0002538057909280873,
+      "direction_error_deg": 0.00027731351346021516,
+      "knee_xyz_mm": [
+        43.72017112815301,
+        130.0,
+        134.8761369025224
+      ],
+      "leg_fk_error_mm": 1.4210854715202004e-14,
+      "ankle_shank_rotation_rad": 0.05247041899843485,
+      "payload_carried": true,
+      "palms_support": false
+    },
+    {
+      "name": "handover",
+      "root_xyz_mm": [
+        0.0,
+        0.0,
+        190.0
+      ],
+      "body_pitch_rad": 0,
+      "left_leg_q_rad": [
+        0,
+        0,
+        -0.8988143599938225,
+        0.7474935507154964,
+        0.15132080927832614,
+        0
+      ],
+      "left_arm_q_rad": [
+        -1.6674566635627224,
+        -0.2639281760684091,
+        0.7529176105086092,
+        1.1944271202733638,
+        -0.7816190901308245
+      ],
+      "arm_target_mm": [
+        150,
+        33,
+        240
+      ],
+      "arm_tip_mm": [
+        149.99999795338243,
+        33.000000417207566,
+        240.000000543496
+      ],
+      "arm_pose_pass": true,
+      "position_error_mm": 2.158261686079438e-06,
+      "direction_error_deg": 2.091309789151873e-06,
+      "knee_xyz_mm": [
+        25.433041821817014,
+        130.0,
+        133.971555262294
+      ],
+      "leg_fk_error_mm": 7.105427357601002e-15,
+      "ankle_shank_rotation_rad": -0.15132080927832614,
+      "payload_carried": true,
+      "palms_support": false
+    },
+    {
+      "name": "getup_intermediate",
+      "root_xyz_mm": [
+        0.0,
+        0.0,
+        120.0
+      ],
+      "body_pitch_rad": 1.0471975511965976,
+      "left_leg_q_rad": [
+        0,
+        0,
+        -2.3097793460135874,
+        1.5355006360851287,
+        -0.27291884126813915,
+        0
+      ],
+      "left_arm_q_rad": [
+        -2.2857461385277626,
+        -0.06870696362626158,
+        0.05799731452182606,
+        1.26550211003472,
+        0.07873593034506268
+      ],
+      "arm_target_mm": [
+        200,
+        150,
+        0
+      ],
+      "arm_tip_mm": [
+        201.72415477305026,
+        149.78002022029452,
+        1.3537114219712834
+      ],
+      "arm_pose_pass": false,
+      "position_error_mm": 2.2030967747438552,
+      "direction_error_deg": 1.5543158696868924,
+      "knee_xyz_mm": [
+        63.2589051660066,
+        130.0,
+        131.6689420735404
+      ],
+      "leg_fk_error_mm": 2.842170943040401e-14,
+      "ankle_shank_rotation_rad": 0.27291884126813915,
+      "payload_carried": false,
+      "palms_support": true
+    }
+  ],
+  "search": [
+    {
+      "name": "pickup_contact",
+      "target": [
+        100,
+        33,
+        130
+      ],
+      "pass": true,
+      "error_mm": 2.5012967277637236e-06
+    },
+    {
+      "name": "pickup_lift",
+      "target": [
+        100,
+        33,
+        145
+      ],
+      "pass": true,
+      "error_mm": 0.0002538057909280873
+    },
+    {
+      "name": "handover",
+      "target": [
+        150,
+        33,
+        240
+      ],
+      "pass": true,
+      "error_mm": 2.158261686079438e-06
+    },
+    {
+      "name": "getup_intermediate",
+      "root": 120,
+      "tilt": 60,
+      "target": [
+        200,
+        150,
+        0
+      ],
+      "pass": false,
+      "error_mm": 2.2030967747438552
+    },
+    {
+      "name": "getup_intermediate",
+      "root": 120,
+      "tilt": 60,
+      "target": [
+        180,
+        170,
+        0
+      ],
+      "pass": false,
+      "error_mm": 17.420101359477815
+    },
+    {
+      "name": "getup_intermediate",
+      "root": 110,
+      "tilt": 60,
+      "target": [
+        180,
+        170,
+        0
+      ],
+      "pass": false,
+      "error_mm": 24.629481736579148
+    },
+    {
+      "name": "getup_intermediate",
+      "root": 110,
+      "tilt": 45,
+      "target": [
+        180,
+        170,
+        0
+      ],
+      "pass": false,
+      "error_mm": 5.481368571632376
+    },
+    {
+      "name": "getup_intermediate",
+      "root": 110,
+      "tilt": 45,
+      "target": [
+        160,
+        180,
+        0
+      ],
+      "pass": false,
+      "error_mm": 8.808280674342447
+    },
+    {
+      "name": "getup_intermediate",
+      "root": 110,
+      "tilt": 60,
+      "target": [
+        160,
+        180,
+        0
+      ],
+      "pass": false,
+      "error_mm": 18.134547281371407
+    }
+  ],
+  "status": "pose_candidates_not_complete_trajectories"
+}

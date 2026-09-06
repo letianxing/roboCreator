@@ -1,0 +1,407 @@
+{
+  "status": "idealized_left_arm_only",
+  "seed": 20260906,
+  "lengths_m": [
+    0.08,
+    0.08,
+    0.04
+  ],
+  "shoulder_xyz_m": [
+    0,
+    0.08,
+    0.295
+  ],
+  "limitations": [
+    "No self-collision or motor envelope",
+    "No loads or full-body balance",
+    "Approach direction is not full hand orientation",
+    "Support is only a kinematic proxy, not a get-up trajectory",
+    "Joint axes/limits assumed; left arm only; no manufactured assembly"
+  ],
+  "results": [
+    {
+      "arm_dof": 3,
+      "task": "table_bottle",
+      "position_and_direction": false,
+      "shoulder_z_m": 0.295,
+      "q_deg": [
+        -43.5893592822106,
+        -11.98313284432486,
+        20.148750583201927
+      ],
+      "position_error_mm": 2.81237964570947e-05,
+      "approach_error_deg": 78.76009764682703,
+      "screen_pass": true,
+      "interpretation": "numerical candidate only; failure is not proof of infeasibility"
+    },
+    {
+      "arm_dof": 3,
+      "task": "table_bottle",
+      "position_and_direction": true,
+      "shoulder_z_m": 0.295,
+      "q_deg": [
+        -31.218656082061603,
+        -20.46439318601851,
+        0.00045217178016849363
+      ],
+      "position_error_mm": 30.437156394381983,
+      "approach_error_deg": 69.53560681464734,
+      "screen_pass": false,
+      "interpretation": "numerical candidate only; failure is not proof of infeasibility"
+    },
+    {
+      "arm_dof": 3,
+      "task": "table_bottle_lowered_body",
+      "position_and_direction": false,
+      "shoulder_z_m": 0.255,
+      "q_deg": [
+        -83.60385545590127,
+        -19.44488066967478,
+        70.44963084477766
+      ],
+      "position_error_mm": 1.9105489113989206e-07,
+      "approach_error_deg": 83.6039693248766,
+      "screen_pass": true,
+      "interpretation": "numerical candidate only; failure is not proof of infeasibility"
+    },
+    {
+      "arm_dof": 3,
+      "task": "table_bottle_lowered_body",
+      "position_and_direction": true,
+      "shoulder_z_m": 0.255,
+      "q_deg": [
+        -50.227955981192636,
+        -24.4744971936885,
+        17.566521472157508
+      ],
+      "position_error_mm": 45.43982429738214,
+      "approach_error_deg": 66.73597514645904,
+      "screen_pass": false,
+      "interpretation": "numerical candidate only; failure is not proof of infeasibility"
+    },
+    {
+      "arm_dof": 3,
+      "task": "handover",
+      "position_and_direction": false,
+      "shoulder_z_m": 0.295,
+      "q_deg": [
+        -115.03155647758753,
+        -19.550679890119795,
+        70.76599480765798
+      ],
+      "position_error_mm": 2.8144544554767654e-07,
+      "approach_error_deg": 83.67086946537638,
+      "screen_pass": true,
+      "interpretation": "numerical candidate only; failure is not proof of infeasibility"
+    },
+    {
+      "arm_dof": 3,
+      "task": "handover",
+      "position_and_direction": true,
+      "shoulder_z_m": 0.295,
+      "q_deg": [
+        -81.97775735923653,
+        -24.54176562865898,
+        18.387751621873853
+      ],
+      "position_error_mm": 45.46599271284662,
+      "approach_error_deg": 66.78704101236772,
+      "screen_pass": false,
+      "interpretation": "numerical candidate only; failure is not proof of infeasibility"
+    },
+    {
+      "arm_dof": 3,
+      "task": "forward_support",
+      "position_and_direction": false,
+      "shoulder_z_m": 0.295,
+      "q_deg": [
+        -88.20263418888077,
+        9.195302215168882,
+        67.89518778631981
+      ],
+      "position_error_mm": 1.9340890876010168e-07,
+      "approach_error_deg": 20.332471084987603,
+      "screen_pass": true,
+      "interpretation": "numerical candidate only; failure is not proof of infeasibility"
+    },
+    {
+      "arm_dof": 3,
+      "task": "forward_support",
+      "position_and_direction": true,
+      "shoulder_z_m": 0.295,
+      "q_deg": [
+        -90.94215184326717,
+        9.629858245380815,
+        77.12888019481892
+      ],
+      "position_error_mm": 13.043475752571654,
+      "approach_error_deg": 13.800880531851929,
+      "screen_pass": false,
+      "interpretation": "numerical candidate only; failure is not proof of infeasibility"
+    },
+    {
+      "arm_dof": 4,
+      "task": "table_bottle",
+      "position_and_direction": false,
+      "shoulder_z_m": 0.295,
+      "q_deg": [
+        141.54271660806094,
+        -158.3518611619013,
+        126.02601471049003,
+        20.1488347609024
+      ],
+      "position_error_mm": 5.2797948595441776e-05,
+      "approach_error_deg": 84.98617069712495,
+      "screen_pass": true,
+      "interpretation": "numerical candidate only; failure is not proof of infeasibility"
+    },
+    {
+      "arm_dof": 4,
+      "task": "table_bottle",
+      "position_and_direction": true,
+      "shoulder_z_m": 0.295,
+      "q_deg": [
+        154.11860696843445,
+        156.51815909964083,
+        -83.60015337796519,
+        68.72560322397479
+      ],
+      "position_error_mm": 37.180912645299266,
+      "approach_error_deg": 45.18802264961252,
+      "screen_pass": false,
+      "interpretation": "numerical candidate only; failure is not proof of infeasibility"
+    },
+    {
+      "arm_dof": 4,
+      "task": "table_bottle_lowered_body",
+      "position_and_direction": false,
+      "shoulder_z_m": 0.255,
+      "q_deg": [
+        99.18313554897958,
+        -145.01095720938918,
+        161.8233303088136,
+        70.44963092561457
+      ],
+      "position_error_mm": 2.711448693620274e-07,
+      "approach_error_deg": 92.805549712994,
+      "screen_pass": true,
+      "interpretation": "numerical candidate only; failure is not proof of infeasibility"
+    },
+    {
+      "arm_dof": 4,
+      "task": "table_bottle_lowered_body",
+      "position_and_direction": true,
+      "shoulder_z_m": 0.255,
+      "q_deg": [
+        -44.284868995634675,
+        33.04079390052937,
+        84.10142759968548,
+        88.05638847781367
+      ],
+      "position_error_mm": 27.890637455265363,
+      "approach_error_deg": 35.42526361303273,
+      "screen_pass": false,
+      "interpretation": "numerical candidate only; failure is not proof of infeasibility"
+    },
+    {
+      "arm_dof": 4,
+      "task": "handover",
+      "position_and_direction": false,
+      "shoulder_z_m": 0.295,
+      "q_deg": [
+        143.44851875378936,
+        -132.37115751250187,
+        39.247342664790615,
+        70.76599560671414
+      ],
+      "position_error_mm": 1.0664276593782933e-06,
+      "approach_error_deg": 99.16025894909336,
+      "screen_pass": true,
+      "interpretation": "numerical candidate only; failure is not proof of infeasibility"
+    },
+    {
+      "arm_dof": 4,
+      "task": "handover",
+      "position_and_direction": true,
+      "shoulder_z_m": 0.295,
+      "q_deg": [
+        115.83818518011412,
+        146.8665530555447,
+        -84.21342855174207,
+        88.2350834661485
+      ],
+      "position_error_mm": 27.84422018432191,
+      "approach_error_deg": 35.323237641738174,
+      "screen_pass": false,
+      "interpretation": "numerical candidate only; failure is not proof of infeasibility"
+    },
+    {
+      "arm_dof": 4,
+      "task": "forward_support",
+      "position_and_direction": false,
+      "shoulder_z_m": 0.295,
+      "q_deg": [
+        -35.7399633015234,
+        -33.54913358750469,
+        -105.77685104746536,
+        67.89518836821406
+      ],
+      "position_error_mm": 7.392709700696214e-07,
+      "approach_error_deg": 59.511902157619886,
+      "screen_pass": true,
+      "interpretation": "numerical candidate only; failure is not proof of infeasibility"
+    },
+    {
+      "arm_dof": 4,
+      "task": "forward_support",
+      "position_and_direction": true,
+      "shoulder_z_m": 0.295,
+      "q_deg": [
+        -90.95952502406193,
+        9.460910577612342,
+        -0.15781590187996442,
+        77.14807845374092
+      ],
+      "position_error_mm": 13.04719638004817,
+      "approach_error_deg": 13.798393890677577,
+      "screen_pass": false,
+      "interpretation": "numerical candidate only; failure is not proof of infeasibility"
+    },
+    {
+      "arm_dof": 5,
+      "task": "table_bottle",
+      "position_and_direction": false,
+      "shoulder_z_m": 0.295,
+      "q_deg": [
+        -26.27135711984631,
+        -11.042203398831905,
+        -104.25281017785275,
+        0.8511592524985162,
+        24.720057526595486
+      ],
+      "position_error_mm": 5.6591197932717905e-05,
+      "approach_error_deg": 74.80076236781916,
+      "screen_pass": true,
+      "interpretation": "numerical candidate only; failure is not proof of infeasibility"
+    },
+    {
+      "arm_dof": 5,
+      "task": "table_bottle",
+      "position_and_direction": true,
+      "shoulder_z_m": 0.295,
+      "q_deg": [
+        -31.218348918592504,
+        -0.1641847019022934,
+        -9.283854605881003e-05,
+        0.0,
+        -80.46248607956304
+      ],
+      "position_error_mm": 26.423910756713106,
+      "approach_error_deg": 9.373329218990076,
+      "screen_pass": false,
+      "interpretation": "numerical candidate only; failure is not proof of infeasibility"
+    },
+    {
+      "arm_dof": 5,
+      "task": "table_bottle_lowered_body",
+      "position_and_direction": false,
+      "shoulder_z_m": 0.255,
+      "q_deg": [
+        -57.300545036032254,
+        -46.63098094100664,
+        -40.58842784431267,
+        60.138489330050454,
+        47.70068845892476
+      ],
+      "position_error_mm": 3.0801598365176106e-07,
+      "approach_error_deg": 113.75792507581497,
+      "screen_pass": true,
+      "interpretation": "numerical candidate only; failure is not proof of infeasibility"
+    },
+    {
+      "arm_dof": 5,
+      "task": "table_bottle_lowered_body",
+      "position_and_direction": true,
+      "shoulder_z_m": 0.255,
+      "q_deg": [
+        141.34019160614594,
+        -179.99999901997575,
+        179.99999988809856,
+        0.0,
+        -89.97762331843794
+      ],
+      "position_error_mm": 0.062484749648751364,
+      "approach_error_deg": 0.022375701508283236,
+      "screen_pass": true,
+      "interpretation": "numerical candidate only; failure is not proof of infeasibility"
+    },
+    {
+      "arm_dof": 5,
+      "task": "handover",
+      "position_and_direction": false,
+      "shoulder_z_m": 0.295,
+      "q_deg": [
+        150.25716338594466,
+        -141.20469546946805,
+        27.708088918683664,
+        70.2586662834428,
+        11.103477745225703
+      ],
+      "position_error_mm": 2.0821936134433785e-07,
+      "approach_error_deg": 89.66509864289135,
+      "screen_pass": true,
+      "interpretation": "numerical candidate only; failure is not proof of infeasibility"
+    },
+    {
+      "arm_dof": 5,
+      "task": "handover",
+      "position_and_direction": true,
+      "shoulder_z_m": 0.295,
+      "q_deg": [
+        -66.74509856549147,
+        1.2911892436882283e-06,
+        -180.0,
+        6.2371771728091385,
+        89.99931239595654
+      ],
+      "position_error_mm": 0.0019212025490158943,
+      "approach_error_deg": 0.0006888879412291076,
+      "screen_pass": true,
+      "interpretation": "numerical candidate only; failure is not proof of infeasibility"
+    },
+    {
+      "arm_dof": 5,
+      "task": "forward_support",
+      "position_and_direction": false,
+      "shoulder_z_m": 0.295,
+      "q_deg": [
+        153.52421979908584,
+        142.96234216523735,
+        -71.45203567250624,
+        58.270709690788124,
+        -45.10004590960893
+      ],
+      "position_error_mm": 4.5733682294658595e-07,
+      "approach_error_deg": 86.20895625503492,
+      "screen_pass": true,
+      "interpretation": "numerical candidate only; failure is not proof of infeasibility"
+    },
+    {
+      "arm_dof": 5,
+      "task": "forward_support",
+      "position_and_direction": true,
+      "shoulder_z_m": 0.295,
+      "q_deg": [
+        111.41236772091227,
+        -163.46738553530008,
+        113.88148646028527,
+        53.437230774656506,
+        -54.01911423388707
+      ],
+      "position_error_mm": 1.5731566933502208e-06,
+      "approach_error_deg": 8.537736462515939e-07,
+      "screen_pass": true,
+      "interpretation": "numerical candidate only; failure is not proof of infeasibility"
+    }
+  ]
+}

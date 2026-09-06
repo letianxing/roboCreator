@@ -1,0 +1,16 @@
+{
+  "mesh_size_mm": 1.8,
+  "node_count": 5779,
+  "element_count": 18336,
+  "max_displacement_mm": 6.096514921617648,
+  "max_displacement_node": 862,
+  "load_weighted_uz_mm": -5.475187893179493,
+  "peak_von_mises_MPa": 296.51081548901226,
+  "p95_von_mises_MPa": 114.70069293660056,
+  "reaction_sum_N": [
+    -3.566491076719314e-05,
+    -1.2299518016205355e-05,
+    99.99999377247313
+  ],
+  "force_balance_residual_N": 3.823671134326911e-05
+}

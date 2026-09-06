@@ -1,0 +1,1256 @@
+{
+  "status": "conditional_load_screen_not_certification",
+  "wholebody_mass_kg": 6.503844911412005,
+  "reference_com_stroke_m": 0.03579670358325015,
+  "static": [
+    {
+      "pose": "standing",
+      "mass_with_payload_kg": 6.503844911412005,
+      "contact_algebra": {
+        "feasible_algebraically": true,
+        "left_foot_N": 31.875787597830367,
+        "right_foot_N": 31.92693098312141,
+        "each_hand_N": 0.0,
+        "foot_cop_x_mm": 5.615045313550668,
+        "warning": "Only quasi-static force/moment balance; hand contact requires IK/geometry success"
+      },
+      "ik_pass": true,
+      "top_joint_loads": [
+        {
+          "joint": "R_knee",
+          "quasistatic_required_Nm": -0.8706907075122055,
+          "conditional_on_contacts": false
+        },
+        {
+          "joint": "L_knee",
+          "quasistatic_required_Nm": -0.8684229323162336,
+          "conditional_on_contacts": false
+        },
+        {
+          "joint": "R_ankle_pitch",
+          "quasistatic_required_Nm": 0.4273304032838067,
+          "conditional_on_contacts": false
+        },
+        {
+          "joint": "L_ankle_pitch",
+          "quasistatic_required_Nm": 0.4269830356600963,
+          "conditional_on_contacts": false
+        },
+        {
+          "joint": "R_arm_0",
+          "quasistatic_required_Nm": -0.4053667460757678,
+          "conditional_on_contacts": false
+        },
+        {
+          "joint": "L_arm_0",
+          "quasistatic_required_Nm": -0.4046945060146709,
+          "conditional_on_contacts": false
+        },
+        {
+          "joint": "R_hip_2",
+          "quasistatic_required_Nm": 0.303589181466674,
+          "conditional_on_contacts": false
+        },
+        {
+          "joint": "L_hip_2",
+          "quasistatic_required_Nm": 0.3032198440104569,
+          "conditional_on_contacts": false
+        }
+      ],
+      "leg_or_arm_main_over_1_3Nm": [],
+      "not_verified": "contact geometry, collision-free trajectory, true actuator selection and limits"
+    },
+    {
+      "pose": "pickup_contact",
+      "mass_with_payload_kg": 6.503844911412868,
+      "contact_algebra": {
+        "feasible_algebraically": true,
+        "left_foot_N": 31.87572516253905,
+        "right_foot_N": 31.926993418421187,
+        "each_hand_N": 0.0,
+        "foot_cop_x_mm": 7.184518807770685,
+        "warning": "Only quasi-static force/moment balance; hand contact requires IK/geometry success"
+      },
+      "ik_pass": true,
+      "top_joint_loads": [
+        {
+          "joint": "R_knee",
+          "quasistatic_required_Nm": -1.301944211592963,
+          "conditional_on_contacts": false
+        },
+        {
+          "joint": "L_knee",
+          "quasistatic_required_Nm": -1.2987404889217726,
+          "conditional_on_contacts": false
+        },
+        {
+          "joint": "R_ankle_pitch",
+          "quasistatic_required_Nm": 0.47743932378119414,
+          "conditional_on_contacts": false
+        },
+        {
+          "joint": "L_ankle_pitch",
+          "quasistatic_required_Nm": 0.4770107908347545,
+          "conditional_on_contacts": false
+        },
+        {
+          "joint": "R_arm_0",
+          "quasistatic_required_Nm": -0.40953067502269713,
+          "conditional_on_contacts": false
+        },
+        {
+          "joint": "L_arm_0",
+          "quasistatic_required_Nm": -0.4088142474961803,
+          "conditional_on_contacts": false
+        },
+        {
+          "joint": "R_hip_2",
+          "quasistatic_required_Nm": 0.30773776296915767,
+          "conditional_on_contacts": false
+        },
+        {
+          "joint": "L_hip_2",
+          "quasistatic_required_Nm": 0.3073549329364118,
+          "conditional_on_contacts": false
+        }
+      ],
+      "leg_or_arm_main_over_1_3Nm": [
+        {
+          "joint": "R_knee",
+          "quasistatic_required_Nm": -1.301944211592963,
+          "conditional_on_contacts": false
+        }
+      ],
+      "not_verified": "contact geometry, collision-free trajectory, true actuator selection and limits"
+    },
+    {
+      "pose": "pickup_lift",
+      "mass_with_payload_kg": 7.083844911412868,
+      "contact_algebra": {
+        "feasible_algebraically": true,
+        "left_foot_N": 34.72070312079407,
+        "right_foot_N": 34.77181546016617,
+        "each_hand_N": 0.0,
+        "foot_cop_x_mm": 14.190712316097795,
+        "warning": "Only quasi-static force/moment balance; hand contact requires IK/geometry success"
+      },
+      "ik_pass": true,
+      "top_joint_loads": [
+        {
+          "joint": "R_knee",
+          "quasistatic_required_Nm": -1.2458466817930303,
+          "conditional_on_contacts": false
+        },
+        {
+          "joint": "L_knee",
+          "quasistatic_required_Nm": -1.243011339523233,
+          "conditional_on_contacts": false
+        },
+        {
+          "joint": "R_ankle_pitch",
+          "quasistatic_required_Nm": 0.7414960689946359,
+          "conditional_on_contacts": false
+        },
+        {
+          "joint": "L_ankle_pitch",
+          "quasistatic_required_Nm": 0.740710553292991,
+          "conditional_on_contacts": false
+        },
+        {
+          "joint": "R_arm_0",
+          "quasistatic_required_Nm": -0.6734054222954766,
+          "conditional_on_contacts": false
+        },
+        {
+          "joint": "L_arm_0",
+          "quasistatic_required_Nm": -0.6726960078950792,
+          "conditional_on_contacts": false
+        },
+        {
+          "joint": "R_hip_2",
+          "quasistatic_required_Nm": 0.5717945081825996,
+          "conditional_on_contacts": false
+        },
+        {
+          "joint": "L_hip_2",
+          "quasistatic_required_Nm": 0.5710546953946483,
+          "conditional_on_contacts": false
+        }
+      ],
+      "leg_or_arm_main_over_1_3Nm": [],
+      "not_verified": "contact geometry, collision-free trajectory, true actuator selection and limits"
+    },
+    {
+      "pose": "handover",
+      "mass_with_payload_kg": 7.0838449114120055,
+      "contact_algebra": {
+        "feasible_algebraically": true,
+        "left_foot_N": 34.72068759783037,
+        "right_foot_N": 34.77183098312141,
+        "each_hand_N": 0.0,
+        "foot_cop_x_mm": 17.436771334575074,
+        "warning": "Only quasi-static force/moment balance; hand contact requires IK/geometry success"
+      },
+      "ik_pass": true,
+      "top_joint_loads": [
+        {
+          "joint": "R_ankle_pitch",
+          "quasistatic_required_Nm": 0.8543677048281559,
+          "conditional_on_contacts": false
+        },
+        {
+          "joint": "L_ankle_pitch",
+          "quasistatic_required_Nm": 0.8534157341157471,
+          "conditional_on_contacts": false
+        },
+        {
+          "joint": "R_arm_0",
+          "quasistatic_required_Nm": -0.8321017460757678,
+          "conditional_on_contacts": false
+        },
+        {
+          "joint": "L_arm_0",
+          "quasistatic_required_Nm": -0.8314295060146708,
+          "conditional_on_contacts": false
+        },
+        {
+          "joint": "R_hip_2",
+          "quasistatic_required_Nm": 0.7306264830110233,
+          "conditional_on_contacts": false
+        },
+        {
+          "joint": "L_hip_2",
+          "quasistatic_required_Nm": 0.7296525424661078,
+          "conditional_on_contacts": false
+        },
+        {
+          "joint": "R_knee",
+          "quasistatic_required_Nm": -0.5953628833528819,
+          "conditional_on_contacts": false
+        },
+        {
+          "joint": "L_knee",
+          "quasistatic_required_Nm": -0.5936997112456082,
+          "conditional_on_contacts": false
+        }
+      ],
+      "leg_or_arm_main_over_1_3Nm": [],
+      "not_verified": "contact geometry, collision-free trajectory, true actuator selection and limits"
+    },
+    {
+      "pose": "getup_intermediate",
+      "mass_with_payload_kg": 6.503844911412138,
+      "contact_algebra": {
+        "feasible_algebraically": true,
+        "left_foot_N": 25.24454564808546,
+        "right_foot_N": 25.296983018008238,
+        "each_hand_N": 6.630594957429691,
+        "foot_cop_x_mm": 0.0,
+        "warning": "Only quasi-static force/moment balance; hand contact requires IK/geometry success"
+      },
+      "ik_pass": true,
+      "top_joint_loads": [
+        {
+          "joint": "R_knee",
+          "quasistatic_required_Nm": -1.201003551307617,
+          "conditional_on_contacts": true
+        },
+        {
+          "joint": "L_knee",
+          "quasistatic_required_Nm": -1.1969077738093241,
+          "conditional_on_contacts": true
+        },
+        {
+          "joint": "L_arm_0",
+          "quasistatic_required_Nm": 0.44473099214081224,
+          "conditional_on_contacts": true
+        },
+        {
+          "joint": "R_arm_0",
+          "quasistatic_required_Nm": 0.44407550269194873,
+          "conditional_on_contacts": true
+        },
+        {
+          "joint": "L_arm_2",
+          "quasistatic_required_Nm": 0.3345220915768811,
+          "conditional_on_contacts": true
+        },
+        {
+          "joint": "R_arm_2",
+          "quasistatic_required_Nm": 0.3341700513276585,
+          "conditional_on_contacts": true
+        },
+        {
+          "joint": "R_ankle_pitch",
+          "quasistatic_required_Nm": 0.24805923909097605,
+          "conditional_on_contacts": true
+        },
+        {
+          "joint": "L_ankle_pitch",
+          "quasistatic_required_Nm": 0.24799904389316318,
+          "conditional_on_contacts": true
+        }
+      ],
+      "leg_or_arm_main_over_1_3Nm": [],
+      "not_verified": "contact geometry, collision-free trajectory, true actuator selection and limits"
+    },
+    {
+      "pose": "pickup_contact_forward_workspace",
+      "mass_with_payload_kg": 6.503844911412868,
+      "contact_algebra": {
+        "feasible_algebraically": true,
+        "left_foot_N": 31.87578197652081,
+        "right_foot_N": 31.92693660443943,
+        "each_hand_N": 0.0,
+        "foot_cop_x_mm": 10.17368308793254,
+        "warning": "Only quasi-static force/moment balance; hand contact requires IK/geometry success"
+      },
+      "ik_pass": true,
+      "top_joint_loads": [
+        {
+          "joint": "R_knee",
+          "quasistatic_required_Nm": -1.206505608144631,
+          "conditional_on_contacts": false
+        },
+        {
+          "joint": "L_knee",
+          "quasistatic_required_Nm": -1.2034622850106806,
+          "conditional_on_contacts": false
+        },
+        {
+          "joint": "R_ankle_pitch",
+          "quasistatic_required_Nm": 0.5728737740730561,
+          "conditional_on_contacts": false
+        },
+        {
+          "joint": "L_ankle_pitch",
+          "quasistatic_required_Nm": 0.5722931479023181,
+          "conditional_on_contacts": false
+        },
+        {
+          "joint": "R_arm_0",
+          "quasistatic_required_Nm": -0.5048895259276647,
+          "conditional_on_contacts": false
+        },
+        {
+          "joint": "L_arm_0",
+          "quasistatic_required_Nm": -0.5041722039506381,
+          "conditional_on_contacts": false
+        },
+        {
+          "joint": "R_hip_2",
+          "quasistatic_required_Nm": 0.4031722132610196,
+          "conditional_on_contacts": false
+        },
+        {
+          "joint": "L_hip_2",
+          "quasistatic_required_Nm": 0.4026372900039754,
+          "conditional_on_contacts": false
+        }
+      ],
+      "leg_or_arm_main_over_1_3Nm": [],
+      "not_verified": "contact geometry, collision-free trajectory, true actuator selection and limits"
+    },
+    {
+      "pose": "pickup_lift_forward_workspace",
+      "mass_with_payload_kg": 7.083844911412868,
+      "contact_algebra": {
+        "feasible_algebraically": true,
+        "left_foot_N": 34.72068473607685,
+        "right_foot_N": 34.77183384488339,
+        "each_hand_N": 0.0,
+        "foot_cop_x_mm": 21.196253128243537,
+        "warning": "Only quasi-static force/moment balance; hand contact requires IK/geometry success"
+      },
+      "ik_pass": true,
+      "top_joint_loads": [
+        {
+          "joint": "R_knee",
+          "quasistatic_required_Nm": -1.00225226372775,
+          "conditional_on_contacts": false
+        },
+        {
+          "joint": "L_knee",
+          "quasistatic_required_Nm": -0.9997730825307998,
+          "conditional_on_contacts": false
+        },
+        {
+          "joint": "R_ankle_pitch",
+          "quasistatic_required_Nm": 0.9850918310003502,
+          "conditional_on_contacts": false
+        },
+        {
+          "joint": "L_ankle_pitch",
+          "quasistatic_required_Nm": 0.9839474663449899,
+          "conditional_on_contacts": false
+        },
+        {
+          "joint": "R_arm_0",
+          "quasistatic_required_Nm": -0.9168278421171794,
+          "conditional_on_contacts": false
+        },
+        {
+          "joint": "L_arm_0",
+          "quasistatic_required_Nm": -0.9161062631310897,
+          "conditional_on_contacts": false
+        },
+        {
+          "joint": "R_hip_2",
+          "quasistatic_required_Nm": 0.8153902701883138,
+          "conditional_on_contacts": false
+        },
+        {
+          "joint": "L_hip_2",
+          "quasistatic_required_Nm": 0.8142916084466472,
+          "conditional_on_contacts": false
+        }
+      ],
+      "leg_or_arm_main_over_1_3Nm": [],
+      "not_verified": "contact geometry, collision-free trajectory, true actuator selection and limits"
+    }
+  ],
+  "jump": [
+    {
+      "com_apex_gain_m": 0.05,
+      "reference_com_stroke_m": 0.03579670358325015,
+      "launch_speed_mps": 0.9904544411531507,
+      "push_duration_s": 0.07228339254367586,
+      "flight_duration_s_same_com_height": 0.2019275109384609,
+      "total_effective_vertical_force_N": 152.9208666145686,
+      "each_foot_N": 76.4604333072843,
+      "translation_energy_J": 3.190135929047589,
+      "ideal_push_work_J": 5.474062933895445,
+      "mean_ideal_push_mechanical_power_W": 75.73057574169403,
+      "joint_moment_screen": [
+        {
+          "joint": "L_hip_0",
+          "effective_acceleration_screen_Nm": 0.0
+        },
+        {
+          "joint": "L_hip_1",
+          "effective_acceleration_screen_Nm": -0.2389926720639272
+        },
+        {
+          "joint": "L_hip_2",
+          "effective_acceleration_screen_Nm": 0.736661128996638
+        },
+        {
+          "joint": "L_knee",
+          "effective_acceleration_screen_Nm": -3.112790888704218
+        },
+        {
+          "joint": "L_ankle_pitch",
+          "effective_acceleration_screen_Nm": 1.1432883291077975
+        },
+        {
+          "joint": "L_ankle_roll",
+          "effective_acceleration_screen_Nm": 0.0
+        },
+        {
+          "joint": "R_hip_0",
+          "effective_acceleration_screen_Nm": 0.0
+        },
+        {
+          "joint": "R_hip_1",
+          "effective_acceleration_screen_Nm": -0.23875962453283006
+        },
+        {
+          "joint": "R_hip_2",
+          "effective_acceleration_screen_Nm": 0.7375786870831215
+        },
+        {
+          "joint": "R_knee",
+          "effective_acceleration_screen_Nm": -3.120469496421373
+        },
+        {
+          "joint": "R_ankle_pitch",
+          "effective_acceleration_screen_Nm": 1.1443154268710267
+        },
+        {
+          "joint": "R_ankle_roll",
+          "effective_acceleration_screen_Nm": 4.1090416270836395e-15
+        },
+        {
+          "joint": "L_arm_0",
+          "effective_acceleration_screen_Nm": -0.979836445874624
+        },
+        {
+          "joint": "L_arm_1",
+          "effective_acceleration_screen_Nm": 0.00023078434630775845
+        },
+        {
+          "joint": "L_arm_2",
+          "effective_acceleration_screen_Nm": -0.01511962897577828
+        },
+        {
+          "joint": "L_arm_3",
+          "effective_acceleration_screen_Nm": -0.020399852893898094
+        },
+        {
+          "joint": "L_arm_4",
+          "effective_acceleration_screen_Nm": -0.0010271006112687554
+        },
+        {
+          "joint": "L_grip",
+          "effective_acceleration_screen_Nm": 1.0131609002157747e-17
+        },
+        {
+          "joint": "R_arm_0",
+          "effective_acceleration_screen_Nm": -0.9815535626473597
+        },
+        {
+          "joint": "R_arm_1",
+          "effective_acceleration_screen_Nm": 0.0002308082598430748
+        },
+        {
+          "joint": "R_arm_2",
+          "effective_acceleration_screen_Nm": -0.015955291796730758
+        },
+        {
+          "joint": "R_arm_3",
+          "effective_acceleration_screen_Nm": -0.0204000291640661
+        },
+        {
+          "joint": "R_arm_4",
+          "effective_acceleration_screen_Nm": -0.0010271006112687556
+        },
+        {
+          "joint": "R_grip",
+          "effective_acceleration_screen_Nm": -1.7239762183237013e-06
+        }
+      ],
+      "mean_joint_speed_screen": [
+        {
+          "joint": "L_hip_0",
+          "mean_posture_change_speed_rad_s": 0.0
+        },
+        {
+          "joint": "L_hip_1",
+          "mean_posture_change_speed_rad_s": 0.0
+        },
+        {
+          "joint": "L_hip_2",
+          "mean_posture_change_speed_rad_s": 4.341051097861155
+        },
+        {
+          "joint": "L_knee",
+          "mean_posture_change_speed_rad_s": 8.68210219572231
+        },
+        {
+          "joint": "L_ankle_pitch",
+          "mean_posture_change_speed_rad_s": 4.341051097861155
+        },
+        {
+          "joint": "L_ankle_roll",
+          "mean_posture_change_speed_rad_s": 0.0
+        },
+        {
+          "joint": "R_hip_0",
+          "mean_posture_change_speed_rad_s": 0.0
+        },
+        {
+          "joint": "R_hip_1",
+          "mean_posture_change_speed_rad_s": 0.0
+        },
+        {
+          "joint": "R_hip_2",
+          "mean_posture_change_speed_rad_s": 4.341051097861155
+        },
+        {
+          "joint": "R_knee",
+          "mean_posture_change_speed_rad_s": 8.68210219572231
+        },
+        {
+          "joint": "R_ankle_pitch",
+          "mean_posture_change_speed_rad_s": 4.341051097861155
+        },
+        {
+          "joint": "R_ankle_roll",
+          "mean_posture_change_speed_rad_s": 0.0
+        },
+        {
+          "joint": "L_arm_0",
+          "mean_posture_change_speed_rad_s": 6.825812404271528
+        },
+        {
+          "joint": "L_arm_1",
+          "mean_posture_change_speed_rad_s": 0.04188632448296817
+        },
+        {
+          "joint": "L_arm_2",
+          "mean_posture_change_speed_rad_s": 2.504244676379217
+        },
+        {
+          "joint": "L_arm_3",
+          "mean_posture_change_speed_rad_s": 0.03978986138015567
+        },
+        {
+          "joint": "L_arm_4",
+          "mean_posture_change_speed_rad_s": 0.047830209852326784
+        },
+        {
+          "joint": "L_grip",
+          "mean_posture_change_speed_rad_s": 0.0
+        },
+        {
+          "joint": "R_arm_0",
+          "mean_posture_change_speed_rad_s": 6.825812404271528
+        },
+        {
+          "joint": "R_arm_1",
+          "mean_posture_change_speed_rad_s": 0.04188632448296817
+        },
+        {
+          "joint": "R_arm_2",
+          "mean_posture_change_speed_rad_s": 2.504244676379217
+        },
+        {
+          "joint": "R_arm_3",
+          "mean_posture_change_speed_rad_s": 0.03978986138015567
+        },
+        {
+          "joint": "R_arm_4",
+          "mean_posture_change_speed_rad_s": 0.047830209852326784
+        },
+        {
+          "joint": "R_grip",
+          "mean_posture_change_speed_rad_s": 0.0
+        },
+        {
+          "joint": "neck_0",
+          "mean_posture_change_speed_rad_s": 0.0
+        },
+        {
+          "joint": "neck_1",
+          "mean_posture_change_speed_rad_s": 0.0
+        }
+      ],
+      "rotation_screen": [
+        {
+          "type": "front_flip",
+          "assumed_fixed_posture_inertia_kgm2": 0.062071807262874416,
+          "mean_body_rotation_rad_s": 31.11604396042122,
+          "angular_momentum_Nms": 1.9314290834943935,
+          "mean_launch_moment_Nm_if_generated_over_push": 26.720232898965893
+        },
+        {
+          "type": "back_flip",
+          "assumed_fixed_posture_inertia_kgm2": 0.062071807262874416,
+          "mean_body_rotation_rad_s": 31.11604396042122,
+          "angular_momentum_Nms": 1.9314290834943935,
+          "mean_launch_moment_Nm_if_generated_over_push": 26.720232898965893
+        },
+        {
+          "type": "side_flip",
+          "assumed_fixed_posture_inertia_kgm2": 0.09116803607714641,
+          "mean_body_rotation_rad_s": 31.11604396042122,
+          "angular_momentum_Nms": 2.8367886183617554,
+          "mean_launch_moment_Nm_if_generated_over_push": 39.2453718417779
+        }
+      ]
+    },
+    {
+      "com_apex_gain_m": 0.1,
+      "reference_com_stroke_m": 0.03579670358325015,
+      "launch_speed_mps": 1.4007141035914503,
+      "push_duration_s": 0.051112077034802327,
+      "flight_duration_s_same_com_height": 0.2855686245854129,
+      "total_effective_vertical_force_N": 242.03901464818546,
+      "each_foot_N": 121.01950732409273,
+      "translation_energy_J": 6.380271858095178,
+      "ideal_push_work_J": 8.664198862943035,
+      "mean_ideal_push_mechanical_power_W": 169.5137307185455,
+      "joint_moment_screen": [
+        {
+          "joint": "L_hip_0",
+          "effective_acceleration_screen_Nm": 0.0
+        },
+        {
+          "joint": "L_hip_1",
+          "effective_acceleration_screen_Nm": -0.3782711420298672
+        },
+        {
+          "joint": "L_hip_2",
+          "effective_acceleration_screen_Nm": 1.1659673250568643
+        },
+        {
+          "joint": "L_knee",
+          "effective_acceleration_screen_Nm": -4.926841288486664
+        },
+        {
+          "joint": "L_ankle_pitch",
+          "effective_acceleration_screen_Nm": 1.8095658673808406
+        },
+        {
+          "joint": "L_ankle_roll",
+          "effective_acceleration_screen_Nm": 0.0
+        },
+        {
+          "joint": "R_hip_0",
+          "effective_acceleration_screen_Nm": 0.0
+        },
+        {
+          "joint": "R_hip_1",
+          "effective_acceleration_screen_Nm": -0.37790228069627885
+        },
+        {
+          "joint": "R_hip_2",
+          "effective_acceleration_screen_Nm": 1.1674196111970854
+        },
+        {
+          "joint": "R_knee",
+          "effective_acceleration_screen_Nm": -4.938994781249783
+        },
+        {
+          "joint": "R_ankle_pitch",
+          "effective_acceleration_screen_Nm": 1.8111915299608596
+        },
+        {
+          "joint": "R_ankle_roll",
+          "effective_acceleration_screen_Nm": 6.5036800312832605e-15
+        },
+        {
+          "joint": "L_arm_0",
+          "effective_acceleration_screen_Nm": -1.5508586442530679
+        },
+        {
+          "joint": "L_arm_1",
+          "effective_acceleration_screen_Nm": 0.0003652792258714145
+        },
+        {
+          "joint": "L_arm_2",
+          "effective_acceleration_screen_Nm": -0.023930940100982193
+        },
+        {
+          "joint": "L_arm_3",
+          "effective_acceleration_screen_Nm": -0.03228833580868965
+        },
+        {
+          "joint": "L_arm_4",
+          "effective_acceleration_screen_Nm": -0.0016256670878188367
+        },
+        {
+          "joint": "L_grip",
+          "effective_acceleration_screen_Nm": 1.6036036899161305e-17
+        },
+        {
+          "joint": "R_arm_0",
+          "effective_acceleration_screen_Nm": -1.5535764502720224
+        },
+        {
+          "joint": "R_arm_1",
+          "effective_acceleration_screen_Nm": 0.0003653170755687963
+        },
+        {
+          "joint": "R_arm_2",
+          "effective_acceleration_screen_Nm": -0.025253604628324013
+        },
+        {
+          "joint": "R_arm_3",
+          "effective_acceleration_screen_Nm": -0.03228861480434748
+        },
+        {
+          "joint": "R_arm_4",
+          "effective_acceleration_screen_Nm": -0.0016256670878188374
+        },
+        {
+          "joint": "R_grip",
+          "effective_acceleration_screen_Nm": -2.7286629640393427e-06
+        }
+      ],
+      "mean_joint_speed_screen": [
+        {
+          "joint": "L_hip_0",
+          "mean_posture_change_speed_rad_s": 0.0
+        },
+        {
+          "joint": "L_hip_1",
+          "mean_posture_change_speed_rad_s": 0.0
+        },
+        {
+          "joint": "L_hip_2",
+          "mean_posture_change_speed_rad_s": 6.13917333754986
+        },
+        {
+          "joint": "L_knee",
+          "mean_posture_change_speed_rad_s": 12.27834667509972
+        },
+        {
+          "joint": "L_ankle_pitch",
+          "mean_posture_change_speed_rad_s": 6.13917333754986
+        },
+        {
+          "joint": "L_ankle_roll",
+          "mean_posture_change_speed_rad_s": 0.0
+        },
+        {
+          "joint": "R_hip_0",
+          "mean_posture_change_speed_rad_s": 0.0
+        },
+        {
+          "joint": "R_hip_1",
+          "mean_posture_change_speed_rad_s": 0.0
+        },
+        {
+          "joint": "R_hip_2",
+          "mean_posture_change_speed_rad_s": 6.13917333754986
+        },
+        {
+          "joint": "R_knee",
+          "mean_posture_change_speed_rad_s": 12.27834667509972
+        },
+        {
+          "joint": "R_ankle_pitch",
+          "mean_posture_change_speed_rad_s": 6.13917333754986
+        },
+        {
+          "joint": "R_ankle_roll",
+          "mean_posture_change_speed_rad_s": 0.0
+        },
+        {
+          "joint": "L_arm_0",
+          "mean_posture_change_speed_rad_s": 9.653156476335297
+        },
+        {
+          "joint": "L_arm_1",
+          "mean_posture_change_speed_rad_s": 0.0592362081617738
+        },
+        {
+          "joint": "L_arm_2",
+          "mean_posture_change_speed_rad_s": 3.541536784836111
+        },
+        {
+          "joint": "L_arm_3",
+          "mean_posture_change_speed_rad_s": 0.056271361608761575
+        },
+        {
+          "joint": "L_arm_4",
+          "mean_posture_change_speed_rad_s": 0.06764213146431178
+        },
+        {
+          "joint": "L_grip",
+          "mean_posture_change_speed_rad_s": 0.0
+        },
+        {
+          "joint": "R_arm_0",
+          "mean_posture_change_speed_rad_s": 9.653156476335297
+        },
+        {
+          "joint": "R_arm_1",
+          "mean_posture_change_speed_rad_s": 0.0592362081617738
+        },
+        {
+          "joint": "R_arm_2",
+          "mean_posture_change_speed_rad_s": 3.541536784836111
+        },
+        {
+          "joint": "R_arm_3",
+          "mean_posture_change_speed_rad_s": 0.056271361608761575
+        },
+        {
+          "joint": "R_arm_4",
+          "mean_posture_change_speed_rad_s": 0.06764213146431178
+        },
+        {
+          "joint": "R_grip",
+          "mean_posture_change_speed_rad_s": 0.0
+        },
+        {
+          "joint": "neck_0",
+          "mean_posture_change_speed_rad_s": 0.0
+        },
+        {
+          "joint": "neck_1",
+          "mean_posture_change_speed_rad_s": 0.0
+        }
+      ],
+      "rotation_screen": [
+        {
+          "type": "front_flip",
+          "assumed_fixed_posture_inertia_kgm2": 0.062071807262874416,
+          "mean_body_rotation_rad_s": 22.002365688112565,
+          "angular_momentum_Nms": 1.3657266023198045,
+          "mean_launch_moment_Nm_if_generated_over_push": 26.720232898965897
+        },
+        {
+          "type": "back_flip",
+          "assumed_fixed_posture_inertia_kgm2": 0.062071807262874416,
+          "mean_body_rotation_rad_s": 22.002365688112565,
+          "angular_momentum_Nms": 1.3657266023198045,
+          "mean_launch_moment_Nm_if_generated_over_push": 26.720232898965897
+        },
+        {
+          "type": "side_flip",
+          "assumed_fixed_posture_inertia_kgm2": 0.09116803607714641,
+          "mean_body_rotation_rad_s": 22.002365688112565,
+          "angular_momentum_Nms": 2.0059124688364145,
+          "mean_launch_moment_Nm_if_generated_over_push": 39.24537184177791
+        }
+      ]
+    },
+    {
+      "com_apex_gain_m": 0.15,
+      "reference_com_stroke_m": 0.03579670358325015,
+      "launch_speed_mps": 1.7155174146594956,
+      "push_duration_s": 0.04173283614303065,
+      "flight_duration_s_same_com_height": 0.34974870839133443,
+      "total_effective_vertical_force_N": 331.1571626818023,
+      "each_foot_N": 165.57858134090114,
+      "translation_energy_J": 9.570407787142766,
+      "ideal_push_work_J": 11.854334791990624,
+      "mean_ideal_push_mechanical_power_W": 284.0529397849297,
+      "joint_moment_screen": [
+        {
+          "joint": "L_hip_0",
+          "effective_acceleration_screen_Nm": 0.0
+        },
+        {
+          "joint": "L_hip_1",
+          "effective_acceleration_screen_Nm": -0.5175496119958072
+        },
+        {
+          "joint": "L_hip_2",
+          "effective_acceleration_screen_Nm": 1.5952735211170903
+        },
+        {
+          "joint": "L_knee",
+          "effective_acceleration_screen_Nm": -6.740891688269109
+        },
+        {
+          "joint": "L_ankle_pitch",
+          "effective_acceleration_screen_Nm": 2.475843405653883
+        },
+        {
+          "joint": "L_ankle_roll",
+          "effective_acceleration_screen_Nm": 0.0
+        },
+        {
+          "joint": "R_hip_0",
+          "effective_acceleration_screen_Nm": 0.0
+        },
+        {
+          "joint": "R_hip_1",
+          "effective_acceleration_screen_Nm": -0.5170449368597275
+        },
+        {
+          "joint": "R_hip_2",
+          "effective_acceleration_screen_Nm": 1.597260535311049
+        },
+        {
+          "joint": "R_knee",
+          "effective_acceleration_screen_Nm": -6.757520066078193
+        },
+        {
+          "joint": "R_ankle_pitch",
+          "effective_acceleration_screen_Nm": 2.478067633050692
+        },
+        {
+          "joint": "R_ankle_roll",
+          "effective_acceleration_screen_Nm": 8.89831843548288e-15
+        },
+        {
+          "joint": "L_arm_0",
+          "effective_acceleration_screen_Nm": -2.121880842631511
+        },
+        {
+          "joint": "L_arm_1",
+          "effective_acceleration_screen_Nm": 0.0004997741054350704
+        },
+        {
+          "joint": "L_arm_2",
+          "effective_acceleration_screen_Nm": -0.0327422512261861
+        },
+        {
+          "joint": "L_arm_3",
+          "effective_acceleration_screen_Nm": -0.044176818723481205
+        },
+        {
+          "joint": "L_arm_4",
+          "effective_acceleration_screen_Nm": -0.002224233564368918
+        },
+        {
+          "joint": "L_grip",
+          "effective_acceleration_screen_Nm": 2.194046479616486e-17
+        },
+        {
+          "joint": "R_arm_0",
+          "effective_acceleration_screen_Nm": -2.1255993378966846
+        },
+        {
+          "joint": "R_arm_1",
+          "effective_acceleration_screen_Nm": 0.0004998258912945178
+        },
+        {
+          "joint": "R_arm_2",
+          "effective_acceleration_screen_Nm": -0.034551917459917265
+        },
+        {
+          "joint": "R_arm_3",
+          "effective_acceleration_screen_Nm": -0.04417720044462885
+        },
+        {
+          "joint": "R_arm_4",
+          "effective_acceleration_screen_Nm": -0.0022242335643689187
+        },
+        {
+          "joint": "R_grip",
+          "effective_acceleration_screen_Nm": -3.7333497097549835e-06
+        }
+      ],
+      "mean_joint_speed_screen": [
+        {
+          "joint": "L_hip_0",
+          "mean_posture_change_speed_rad_s": 0.0
+        },
+        {
+          "joint": "L_hip_1",
+          "mean_posture_change_speed_rad_s": 0.0
+        },
+        {
+          "joint": "L_hip_2",
+          "mean_posture_change_speed_rad_s": 7.518921059748173
+        },
+        {
+          "joint": "L_knee",
+          "mean_posture_change_speed_rad_s": 15.037842119496347
+        },
+        {
+          "joint": "L_ankle_pitch",
+          "mean_posture_change_speed_rad_s": 7.518921059748173
+        },
+        {
+          "joint": "L_ankle_roll",
+          "mean_posture_change_speed_rad_s": 0.0
+        },
+        {
+          "joint": "R_hip_0",
+          "mean_posture_change_speed_rad_s": 0.0
+        },
+        {
+          "joint": "R_hip_1",
+          "mean_posture_change_speed_rad_s": 0.0
+        },
+        {
+          "joint": "R_hip_2",
+          "mean_posture_change_speed_rad_s": 7.518921059748173
+        },
+        {
+          "joint": "R_knee",
+          "mean_posture_change_speed_rad_s": 15.037842119496347
+        },
+        {
+          "joint": "R_ankle_pitch",
+          "mean_posture_change_speed_rad_s": 7.518921059748173
+        },
+        {
+          "joint": "R_ankle_roll",
+          "mean_posture_change_speed_rad_s": 0.0
+        },
+        {
+          "joint": "L_arm_0",
+          "mean_posture_change_speed_rad_s": 11.822653887132159
+        },
+        {
+          "joint": "L_arm_1",
+          "mean_posture_change_speed_rad_s": 0.07254924214681703
+        },
+        {
+          "joint": "L_arm_2",
+          "mean_posture_change_speed_rad_s": 4.3374790140726835
+        },
+        {
+          "joint": "L_arm_3",
+          "mean_posture_change_speed_rad_s": 0.06891806153655229
+        },
+        {
+          "joint": "L_arm_4",
+          "mean_posture_change_speed_rad_s": 0.08284435360091147
+        },
+        {
+          "joint": "L_grip",
+          "mean_posture_change_speed_rad_s": 0.0
+        },
+        {
+          "joint": "R_arm_0",
+          "mean_posture_change_speed_rad_s": 11.822653887132159
+        },
+        {
+          "joint": "R_arm_1",
+          "mean_posture_change_speed_rad_s": 0.07254924214681703
+        },
+        {
+          "joint": "R_arm_2",
+          "mean_posture_change_speed_rad_s": 4.3374790140726835
+        },
+        {
+          "joint": "R_arm_3",
+          "mean_posture_change_speed_rad_s": 0.06891806153655229
+        },
+        {
+          "joint": "R_arm_4",
+          "mean_posture_change_speed_rad_s": 0.08284435360091147
+        },
+        {
+          "joint": "R_grip",
+          "mean_posture_change_speed_rad_s": 0.0
+        },
+        {
+          "joint": "neck_0",
+          "mean_posture_change_speed_rad_s": 0.0
+        },
+        {
+          "joint": "neck_1",
+          "mean_posture_change_speed_rad_s": 0.0
+        }
+      ],
+      "rotation_screen": [
+        {
+          "type": "front_flip",
+          "assumed_fixed_posture_inertia_kgm2": 0.062071807262874416,
+          "mean_body_rotation_rad_s": 17.964856356665425,
+          "angular_momentum_Nms": 1.1151111012761605,
+          "mean_launch_moment_Nm_if_generated_over_push": 26.720232898965893
+        },
+        {
+          "type": "back_flip",
+          "assumed_fixed_posture_inertia_kgm2": 0.062071807262874416,
+          "mean_body_rotation_rad_s": 17.964856356665425,
+          "angular_momentum_Nms": 1.1151111012761605,
+          "mean_launch_moment_Nm_if_generated_over_push": 26.720232898965893
+        },
+        {
+          "type": "side_flip",
+          "assumed_fixed_posture_inertia_kgm2": 0.09116803607714641,
+          "mean_body_rotation_rad_s": 17.964856356665425,
+          "angular_momentum_Nms": 1.6378206724452264,
+          "mean_launch_moment_Nm_if_generated_over_push": 39.2453718417779
+        }
+      ]
+    }
+  ],
+  "landing": [
+    {
+      "com_drop_m": 0.05,
+      "braking_com_stroke_m": 0.01,
+      "total_displacement_average_force_N": 382.8163114857107,
+      "symmetric_each_foot_N": 191.40815574285534,
+      "equivalent_stopping_time_s": 0.02019275109384609
+    },
+    {
+      "com_drop_m": 0.05,
+      "braking_com_stroke_m": 0.03,
+      "total_displacement_average_force_N": 170.1405828825381,
+      "symmetric_each_foot_N": 85.07029144126905,
+      "equivalent_stopping_time_s": 0.060578253281538263
+    },
+    {
+      "com_drop_m": 0.05,
+      "braking_com_stroke_m": 0.05,
+      "total_displacement_average_force_N": 127.60543716190355,
+      "symmetric_each_foot_N": 63.802718580951776,
+      "equivalent_stopping_time_s": 0.10096375546923045
+    },
+    {
+      "com_drop_m": 0.1,
+      "braking_com_stroke_m": 0.01,
+      "total_displacement_average_force_N": 701.8299043904696,
+      "symmetric_each_foot_N": 350.9149521952348,
+      "equivalent_stopping_time_s": 0.014278431229270644
+    },
+    {
+      "com_drop_m": 0.1,
+      "braking_com_stroke_m": 0.03,
+      "total_displacement_average_force_N": 276.4784471841244,
+      "symmetric_each_foot_N": 138.2392235920622,
+      "equivalent_stopping_time_s": 0.04283529368781193
+    },
+    {
+      "com_drop_m": 0.1,
+      "braking_com_stroke_m": 0.05,
+      "total_displacement_average_force_N": 191.40815574285534,
+      "symmetric_each_foot_N": 95.70407787142767,
+      "equivalent_stopping_time_s": 0.07139215614635322
+    },
+    {
+      "com_drop_m": 0.15,
+      "braking_com_stroke_m": 0.01,
+      "total_displacement_average_force_N": 1020.8434972952284,
+      "symmetric_each_foot_N": 510.4217486476142,
+      "equivalent_stopping_time_s": 0.01165829027971115
+    },
+    {
+      "com_drop_m": 0.15,
+      "braking_com_stroke_m": 0.03,
+      "total_displacement_average_force_N": 382.8163114857107,
+      "symmetric_each_foot_N": 191.40815574285534,
+      "equivalent_stopping_time_s": 0.03497487083913345
+    },
+    {
+      "com_drop_m": 0.15,
+      "braking_com_stroke_m": 0.05,
+      "total_displacement_average_force_N": 255.21087432380708,
+      "symmetric_each_foot_N": 127.60543716190354,
+      "equivalent_stopping_time_s": 0.05829145139855575
+    }
+  ],
+  "grip": [
+    {
+      "assumed_mu": 0.2,
+      "lever_m": 0.01,
+      "assumed_efficiency": 0.7,
+      "normal_force_per_hand_N": 28.448999999999998,
+      "required_drive_torque_Nm": 0.4064142857142857,
+      "force_factor": 2
+    },
+    {
+      "assumed_mu": 0.2,
+      "lever_m": 0.015,
+      "assumed_efficiency": 0.7,
+      "normal_force_per_hand_N": 28.448999999999998,
+      "required_drive_torque_Nm": 0.6096214285714285,
+      "force_factor": 2
+    },
+    {
+      "assumed_mu": 0.4,
+      "lever_m": 0.01,
+      "assumed_efficiency": 0.7,
+      "normal_force_per_hand_N": 14.224499999999999,
+      "required_drive_torque_Nm": 0.20320714285714284,
+      "force_factor": 2
+    },
+    {
+      "assumed_mu": 0.4,
+      "lever_m": 0.015,
+      "assumed_efficiency": 0.7,
+      "normal_force_per_hand_N": 14.224499999999999,
+      "required_drive_torque_Nm": 0.30481071428571427,
+      "force_factor": 2
+    },
+    {
+      "assumed_mu": 0.6,
+      "lever_m": 0.01,
+      "assumed_efficiency": 0.7,
+      "normal_force_per_hand_N": 9.483,
+      "required_drive_torque_Nm": 0.1354714285714286,
+      "force_factor": 2
+    },
+    {
+      "assumed_mu": 0.6,
+      "lever_m": 0.015,
+      "assumed_efficiency": 0.7,
+      "normal_force_per_hand_N": 9.483,
+      "required_drive_torque_Nm": 0.2032071428571429,
+      "force_factor": 2
+    }
+  ],
+  "limits": [
+    "All mass and geometry inherit research assumptions and unresolved interference",
+    "Quasi-static torque includes distal gravity and an assumed ground reaction distribution",
+    "Get-up reactions assume palms at requested contacts even if IK misses; conditional sensitivity only",
+    "Takeoff posture delta is not an optimized trajectory or maximum stroke",
+    "Effective acceleration scales gravity loads with frozen geometry and omits articulated acceleration/centrifugal terms",
+    "Mean speed and moment maxima cannot be treated as a simultaneous torque-speed operating point",
+    "Constant-inertia full-turn-in-flight angular estimates are illustrative, not flip feasibility proofs",
+    "Mat/wood/tile/table properties unmeasured; no ground-specific success claim"
+  ]
+}

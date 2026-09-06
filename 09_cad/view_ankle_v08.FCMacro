@@ -1,0 +1,16 @@
+import FreeCAD as A, FreeCADGui as G
+from PySide import QtCore
+doc=A.openDocument(r'G:\Golands\roboCreator\09_cad\ankle_v08\wukong_ankle_structure_v08.FCStd')
+for obj in doc.Objects:
+    if hasattr(obj,'Shape'):
+        obj.ViewObject.Visibility=not obj.Name.endswith('ClosedEnvelope')
+        obj.ViewObject.ShapeColor=(.45,.53,.62)
+        if 'Vendor' in obj.Name:obj.ViewObject.ShapeColor=(.2,.24,.3)
+        if obj.Name.startswith('BootInterface'):obj.ViewObject.ShapeColor=(.9,.63,.16)
+        if obj.Name=='RollTransferYoke':obj.ViewObject.ShapeColor=(.8,.53,.18)
+        obj.ViewObject.DisplayMode='Flat Lines'
+def capture_structure():
+    G.updateGui();G.activeDocument().activeView().viewAxonometric();G.activeDocument().activeView().fitAll()
+    G.updateGui();doc.save()
+    G.activeDocument().activeView().saveImage(r'G:\Golands\roboCreator\09_cad\ankle_v08\freecad_preview.png',1200,1000,'White')
+QtCore.QTimer.singleShot(5000,capture_structure)

@@ -1,0 +1,3666 @@
+{
+  "version": "v0.17",
+  "input_sha256": "de173040a314d7033bb014be9a758b218c34bf9ae113b9a29241006493a7fb58",
+  "records": [
+    {
+      "architecture_dof": 26,
+      "body_height_mm": 80.0,
+      "body_pitch_deg": 29.999999999999996,
+      "target_mm": [
+        200.0,
+        150.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -82.65069765733888,
+        18.087013024204094,
+        0.4716568336468864
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        139.9292724653464,
+        122.43586902660685,
+        40.81703518109692
+      ],
+      "normal": [
+        -0.6128726951268199,
+        -0.002555674897988741,
+        -0.7901775294791697
+      ],
+      "position_error_mm": 77.68078259026402,
+      "normal_error_deg": 37.79789500619653,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 31.217881170908644,
+      "nodes_mm": {
+        "shoulder": [
+          39.99999999999999,
+          75.0,
+          149.2820323027551
+        ],
+        "elbow": [
+          100.45360768527189,
+          99.83687780320216,
+          103.14646230709951
+        ],
+        "wrist": [
+          164.25889512980373,
+          126.225166339471,
+          53.57284510755178
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "old_distant_contact"
+    },
+    {
+      "architecture_dof": 26,
+      "body_height_mm": 80.0,
+      "body_pitch_deg": 45.0,
+      "target_mm": [
+        200.0,
+        150.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -103.8382511484189,
+        20.704094713637684,
+        0.2469115516286339
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        165.85111037930415,
+        129.05355090205705,
+        40.90147443259327
+      ],
+      "normal": [
+        -0.5209004924108974,
+        -0.001523554774255871,
+        -0.8536160470533193
+      ],
+      "position_error_mm": 57.25234495546243,
+      "normal_error_deg": 31.392823701763685,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 32.365419932583976,
+      "nodes_mm": {
+        "shoulder": [
+          56.568542494923804,
+          75.0,
+          136.5685424949238
+        ],
+        "elbow": [
+          120.60431110939412,
+          103.28333564314993,
+          97.84550977728993
+        ],
+        "wrist": [
+          188.45213966166136,
+          133.33410072400474,
+          56.389223416866464
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "old_distant_contact"
+    },
+    {
+      "architecture_dof": 26,
+      "body_height_mm": 80.0,
+      "body_pitch_deg": 59.99999999999999,
+      "target_mm": [
+        200.0,
+        150.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -117.02816536518829,
+        22.928451028352917,
+        0.0
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        173.89264510767836,
+        134.6059434544568,
+        22.338589025744074
+      ],
+      "normal": [
+        -0.5442266969254905,
+        0.0,
+        -0.8389381993648699
+      ],
+      "position_error_mm": 37.65081029755013,
+      "normal_error_deg": 32.97183463481172,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 13.085893114840324,
+      "nodes_mm": {
+        "shoulder": [
+          69.28203230275508,
+          75.0,
+          120.00000000000001
+        ],
+        "elbow": [
+          131.09446640893051,
+          106.1665063814153,
+          79.90172235809978
+        ],
+        "wrist": [
+          196.77017764674193,
+          139.2809194116691,
+          37.29730236358079
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "old_distant_contact"
+    },
+    {
+      "architecture_dof": 26,
+      "body_height_mm": 80.0,
+      "body_pitch_deg": 75.0,
+      "target_mm": [
+        200.0,
+        150.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -140.2329560679866,
+        26.05070062682138,
+        0.0
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        191.6135002528055,
+        142.1924456593731,
+        20.420599465227113
+      ],
+      "normal": [
+        -0.4189298668400041,
+        0.0,
+        -0.9080185937905768
+      ],
+      "position_error_mm": 23.41563933166825,
+      "normal_error_deg": 24.76704393201339,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 12.977311627078032,
+      "nodes_mm": {
+        "shoulder": [
+          77.27406610312546,
+          75.0,
+          100.70552360820166
+        ],
+        "elbow": [
+          142.53559855838304,
+          110.13330491993366,
+          70.59600240652317
+        ],
+        "wrist": [
+          211.87597679209424,
+          147.46244139736316,
+          38.60463612973976
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "old_distant_contact"
+    },
+    {
+      "architecture_dof": 26,
+      "body_height_mm": 80.0,
+      "body_pitch_deg": 90.0,
+      "target_mm": [
+        200.0,
+        150.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -158.64923977236535,
+        28.67138854725767,
+        0.6334815179106689
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        195.40229963753154,
+        148.27241485793493,
+        7.181567458954527
+      ],
+      "normal": [
+        -0.37308897549993425,
+        -0.005304561835425138,
+        -0.9277804039664469
+      ],
+      "position_error_mm": 8.70047758537664,
+      "normal_error_deg": 21.90857767958103,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 0.3908617351191471,
+      "nodes_mm": {
+        "shoulder": [
+          80.0,
+          75.0,
+          80.0
+        ],
+        "elbow": [
+          145.3736025425255,
+          113.38283378573468,
+          54.44515386098822
+        ],
+        "wrist": [
+          214.4866618029758,
+          154.16210207391686,
+          26.419517069972276
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "old_distant_contact"
+    },
+    {
+      "architecture_dof": 26,
+      "body_height_mm": 100.0,
+      "body_pitch_deg": 29.999999999999996,
+      "target_mm": [
+        200.0,
+        150.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -80.07238757925018,
+        17.65485234479602,
+        1.3174521635513887
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        134.25025249084044,
+        121.22201273344143,
+        55.61866767984955
+      ],
+      "normal": [
+        -0.6584506223367999,
+        -0.006973021542635534,
+        -0.7525916255944168
+      ],
+      "position_error_mm": 90.7999892241953,
+      "normal_error_deg": 41.1846260283695,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 45.43502087001484,
+      "nodes_mm": {
+        "shoulder": [
+          39.99999999999999,
+          75.0,
+          169.28203230275508
+        ],
+        "elbow": [
+          98.45900766696207,
+          99.26258343702617,
+          120.35482650112145
+        ],
+        "wrist": [
+          159.30097181073413,
+          125.034763724333,
+          66.88474026249165
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "old_distant_contact"
+    },
+    {
+      "architecture_dof": 26,
+      "body_height_mm": 100.0,
+      "body_pitch_deg": 45.0,
+      "target_mm": [
+        200.0,
+        150.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -99.83943151126358,
+        18.386654193517977,
+        0.7057046377258753
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        160.11018722329305,
+        123.16161401287006,
+        51.95767038880899
+      ],
+      "normal": [
+        -0.5853813857076053,
+        -0.0038849873769158565,
+        -0.8107487527835767
+      ],
+      "position_error_mm": 70.78909264842306,
+      "normal_error_deg": 35.83084877738834,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 42.75976881003605,
+      "nodes_mm": {
+        "shoulder": [
+          56.568542494923804,
+          75.0,
+          156.5685424949238
+        ],
+        "elbow": [
+          118.63298417887886,
+          100.23424066749398,
+          112.85083239485184
+        ],
+        "wrist": [
+          183.96856915701403,
+          127.04358768849278,
+          65.54839854761154
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "old_distant_contact"
+    },
+    {
+      "architecture_dof": 26,
+      "body_height_mm": 100.0,
+      "body_pitch_deg": 59.99999999999999,
+      "target_mm": [
+        200.0,
+        150.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -114.44985528709958,
+        22.715571968005985,
+        0.0
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        169.57285589232066,
+        134.08198388521015,
+        37.60336976289497
+      ],
+      "normal": [
+        -0.5814152392623286,
+        0.0,
+        -0.8136069810132711
+      ],
+      "position_error_mm": 50.92354811975693,
+      "normal_error_deg": 35.55014471290042,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 27.749854252751298,
+      "nodes_mm": {
+        "shoulder": [
+          69.28203230275508,
+          75.0,
+          140.0
+        ],
+        "elbow": [
+          129.32187783014007,
+          105.89254059357393,
+          97.09466368011857
+        ],
+        "wrist": [
+          193.11421370298663,
+          138.71586497424624,
+          51.50774384024454
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "old_distant_contact"
+    },
+    {
+      "architecture_dof": 26,
+      "body_height_mm": 100.0,
+      "body_pitch_deg": 75.0,
+      "target_mm": [
+        200.0,
+        150.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -131.63858914102426,
+        24.67299014706876,
+        1.0356157426438397
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        178.5727888733599,
+        138.6745317213966,
+        22.50206539448211
+      ],
+      "normal": [
+        -0.5635460245603731,
+        -0.0075447546497777445,
+        -0.8260502132918276
+      ],
+      "position_error_mm": 33.07165788727274,
+      "normal_error_deg": 34.30488828831375,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 12.763644710669935,
+      "nodes_mm": {
+        "shoulder": [
+          77.27406610312546,
+          75.0,
+          120.70552360820166
+        ],
+        "elbow": [
+          137.99144320026411,
+          108.39509974087832,
+          80.72843727439472
+        ],
+        "wrist": [
+          201.64828819209885,
+          143.87159730217738,
+          36.97658923949831
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "old_distant_contact"
+    },
+    {
+      "architecture_dof": 26,
+      "body_height_mm": 100.0,
+      "body_pitch_deg": 90.0,
+      "target_mm": [
+        200.0,
+        150.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -149.61846149171961,
+        26.638235223389085,
+        1.0796749964668906
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        184.26896519990999,
+        143.38140227295222,
+        8.302006726679329
+      ],
+      "normal": [
+        -0.5201958423630287,
+        -0.008448262297852583,
+        -0.8540052180475045
+      ],
+      "position_error_mm": 18.9787936245683,
+      "normal_error_deg": 31.349991281988913,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": -0.9156377085119682,
+      "nodes_mm": {
+        "shoulder": [
+          80.0,
+          75.0,
+          100.0
+        ],
+        "elbow": [
+          141.688644962824,
+          110.86845476179664,
+          63.834200746401336
+        ],
+        "wrist": [
+          206.41115708849173,
+          148.97192182797693,
+          24.033167824135262
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "old_distant_contact"
+    },
+    {
+      "architecture_dof": 26,
+      "body_height_mm": 120.0,
+      "body_pitch_deg": 29.999999999999996,
+      "target_mm": [
+        200.0,
+        150.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -82.88997552541844,
+        13.376276911113646,
+        0.0
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        143.62047232303823,
+        110.39580177952641,
+        79.53716940733318
+      ],
+      "normal": [
+        -0.6033475238659222,
+        0.0,
+        -0.7974783792961792
+      ],
+      "position_error_mm": 105.22977228472313,
+      "normal_error_deg": 37.110024474581564,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 70.87574181708025,
+      "nodes_mm": {
+        "shoulder": [
+          39.99999999999999,
+          75.0,
+          189.28203230275508
+        ],
+        "elbow": [
+          102.06753485996667,
+          93.50760877360857,
+          142.3236514332035
+        ],
+        "wrist": [
+          168.01429064868128,
+          113.17194309556768,
+          92.43037175930493
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "old_distant_contact"
+    },
+    {
+      "architecture_dof": 26,
+      "body_height_mm": 120.0,
+      "body_pitch_deg": 45.0,
+      "target_mm": [
+        200.0,
+        150.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -99.83943151126358,
+        18.22675015539826,
+        0.1282146989991332
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        160.8420722817398,
+        122.83754078725222,
+        72.3398498729444
+      ],
+      "normal": [
+        -0.5776060463576226,
+        -0.0006999251257499542,
+        -0.8163153589856891
+      ],
+      "position_error_mm": 86.62676476305005,
+      "normal_error_deg": 35.2823700139523,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 63.24941412913555,
+      "nodes_mm": {
+        "shoulder": [
+          56.568542494923804,
+          75.0,
+          176.5685424949238
+        ],
+        "elbow": [
+          118.69031777710612,
+          100.0222724623755,
+          132.8104470540949
+        ],
+        "wrist": [
+          184.58500245387066,
+          126.60837038712536,
+          86.16208236158526
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "old_distant_contact"
+    },
+    {
+      "architecture_dof": 26,
+      "body_height_mm": 120.0,
+      "body_pitch_deg": 59.99999999999999,
+      "target_mm": [
+        200.0,
+        150.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -114.90402114003794,
+        19.902546363590588,
+        0.0
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        172.61460729379755,
+        127.0844648004214,
+        56.83223627423995
+      ],
+      "normal": [
+        -0.5749478311346572,
+        0.0,
+        -0.8181900705053525
+      ],
+      "position_error_mm": 67.1191818118121,
+      "normal_error_deg": 35.09597885996206,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 47.51166685536743,
+      "nodes_mm": {
+        "shoulder": [
+          69.28203230275508,
+          75.0,
+          160.0
+        ],
+        "elbow": [
+          130.82779479656364,
+          102.23370708518766,
+          116.75136629379021
+        ],
+        "wrist": [
+          196.22016744623528,
+          131.16952086319955,
+          70.7996929809423
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "old_distant_contact"
+    },
+    {
+      "architecture_dof": 26,
+      "body_height_mm": 120.0,
+      "body_pitch_deg": 75.0,
+      "target_mm": [
+        200.0,
+        150.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -132.26077072061173,
+        22.665993985189292,
+        1.0466092538261267
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        181.42595613699527,
+        133.7791753231989,
+        42.43863856807914
+      ],
+      "normal": [
+        -0.5549035947655795,
+        -0.007038865263408335,
+        -0.8318848807930344
+      ],
+      "position_error_mm": 49.08307551623469,
+      "normal_error_deg": 33.7071495091428,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 33.12719277278668,
+      "nodes_mm": {
+        "shoulder": [
+          77.27406610312546,
+          75.0,
+          140.70552360820164
+        ],
+        "elbow": [
+          139.36821390252024,
+          105.82867459338586,
+          100.78172579434079
+        ],
+        "wrist": [
+          204.49257320124948,
+          138.57867665802766,
+          57.06382110191556
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "old_distant_contact"
+    },
+    {
+      "architecture_dof": 26,
+      "body_height_mm": 120.0,
+      "body_pitch_deg": 90.0,
+      "target_mm": [
+        200.0,
+        150.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -142.8112661460753,
+        23.390841874484593,
+        0.0
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        176.75927450255816,
+        135.74118240253333,
+        15.204238835338469
+      ],
+      "normal": [
+        -0.6044424804277684,
+        0.0,
+        -0.7966487857609066
+      ],
+      "position_error_mm": 31.218809706445942,
+      "normal_error_deg": 37.188733853924695,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 4.857268676407465,
+      "nodes_mm": {
+        "shoulder": [
+          80.0,
+          75.0,
+          120.0
+        ],
+        "elbow": [
+          138.49429360170058,
+          106.76009537387363,
+          75.61854038136529
+        ],
+        "wrist": [
+          200.64448055350744,
+          140.50519670861436,
+          28.463239536565933
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "old_distant_contact"
+    },
+    {
+      "architecture_dof": 26,
+      "body_height_mm": 140.0,
+      "body_pitch_deg": 29.999999999999996,
+      "target_mm": [
+        200.0,
+        150.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -82.28698689886487,
+        14.636052344185037,
+        0.0
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        141.81570705794513,
+        113.65976796354717,
+        98.95078497320031
+      ],
+      "normal": [
+        -0.6117067282562828,
+        0.0,
+        -0.791084621646758
+      ],
+      "position_error_mm": 120.40466044320135,
+      "normal_error_deg": 37.71301310113513,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 89.94091489864849,
+      "nodes_mm": {
+        "shoulder": [
+          39.99999999999999,
+          75.0,
+          209.2820323027551
+        ],
+        "elbow": [
+          101.23313739312533,
+          95.21425775871748,
+          161.93346666176905
+        ],
+        "wrist": [
+          166.29334587332102,
+          116.6919066273548,
+          111.62561566822136
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "old_distant_contact"
+    },
+    {
+      "architecture_dof": 26,
+      "body_height_mm": 140.0,
+      "body_pitch_deg": 45.0,
+      "target_mm": [
+        200.0,
+        150.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -93.08551419923846,
+        15.474676873206446,
+        0.0
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        149.5944789078855,
+        115.82230521272369,
+        79.46297238141106
+      ],
+      "normal": [
+        -0.6680207146306664,
+        0.0,
+        -0.7441426777334665
+      ],
+      "position_error_mm": 100.115909610954,
+      "normal_error_deg": 41.91448580076154,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 69.46020805642245,
+      "nodes_mm": {
+        "shoulder": [
+          56.568542494923804,
+          75.0,
+          196.5685424949238
+        ],
+        "elbow": [
+          113.94185192170985,
+          96.34499618965944,
+          145.0642271118252
+        ],
+        "wrist": [
+          174.90099318767005,
+          119.02405464117261,
+          90.34089201728293
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "old_distant_contact"
+    },
+    {
+      "architecture_dof": 26,
+      "body_height_mm": 140.0,
+      "body_pitch_deg": 59.99999999999999,
+      "target_mm": [
+        200.0,
+        150.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -112.43419160619963,
+        18.98804521037401,
+        0.0
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        168.71717478135764,
+        124.78174226920656,
+        71.97949001739396
+      ],
+      "normal": [
+        -0.6096722516061558,
+        0.0,
+        -0.7926536101106714
+      ],
+      "position_error_mm": 82.43556671607811,
+      "normal_error_deg": 37.56580839380036,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 62.247119852287526,
+      "nodes_mm": {
+        "shoulder": [
+          69.28203230275508,
+          75.0,
+          180.00000000000003
+        ],
+        "elbow": [
+          129.24383558053623,
+          101.02966916036944,
+          133.88017269028012
+        ],
+        "wrist": [
+          192.95325156317872,
+          128.686192643262,
+          84.87785617370275
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "old_distant_contact"
+    },
+    {
+      "architecture_dof": 26,
+      "body_height_mm": 140.0,
+      "body_pitch_deg": 75.0,
+      "target_mm": [
+        200.0,
+        150.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -123.50413278572599,
+        17.646541955194042,
+        0.0
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        169.91503567987704,
+        121.38104386656128,
+        45.37794873676208
+      ],
+      "normal": [
+        -0.6625660237779922,
+        0.0,
+        -0.7490035141005822
+      ],
+      "position_error_mm": 61.50860069833298,
+      "normal_error_deg": 41.49586721427402,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 35.047001374304216,
+      "nodes_mm": {
+        "shoulder": [
+          77.27406610312546,
+          75.0,
+          160.70552360820167
+        ],
+        "elbow": [
+          134.3747825325118,
+          99.25152620473791,
+          110.19441928458073
+        ],
+        "wrist": [
+          195.0442937387348,
+          125.01877279727196,
+          56.52637094073349
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "old_distant_contact"
+    },
+    {
+      "architecture_dof": 26,
+      "body_height_mm": 140.0,
+      "body_pitch_deg": 90.0,
+      "target_mm": [
+        200.0,
+        150.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -140.2329560679866,
+        20.623329679703698,
+        1.2560809317498323
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        172.64886908100863,
+        128.69087753821074,
+        28.29956970676356
+      ],
+      "normal": [
+        -0.655283793312229,
+        -0.007721072362374627,
+        -0.755343322777074
+      ],
+      "position_error_mm": 44.75520872733484,
+      "normal_error_deg": 40.94462239659442,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 17.63964840780668,
+      "nodes_mm": {
+        "shoulder": [
+          80.0,
+          75.0,
+          140.0
+        ],
+        "elbow": [
+          137.55147716404664,
+          103.1778210952782,
+          92.10597245419098
+        ],
+        "wrist": [
+          197.4933452973378,
+          133.10956186814548,
+          39.798579678436894
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "old_distant_contact"
+    },
+    {
+      "architecture_dof": 26,
+      "body_height_mm": 80.0,
+      "body_pitch_deg": 75.0,
+      "target_mm": [
+        150.0,
+        100.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -123.208217440868,
+        13.992133930482497,
+        2.192177386302683
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        168.72205373834694,
+        111.74953206595475,
+        -18.286845497411136
+      ],
+      "normal": [
+        -0.6936107693634745,
+        -0.00924875053482242,
+        -0.720290608877107
+      ],
+      "position_error_mm": 28.687549881379482,
+      "normal_error_deg": 43.92152114196076,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": -28.256507347088018,
+      "nodes_mm": {
+        "shoulder": [
+          77.27406610312546,
+          75.0,
+          100.70552360820166
+        ],
+        "elbow": [
+          135.150040543986,
+          94.34309460579004,
+          48.973364619886524
+        ],
+        "wrist": [
+          194.43146528943893,
+          114.88009157839961,
+          -8.375954778831948
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "nearer_contact_candidate"
+    },
+    {
+      "architecture_dof": 26,
+      "body_height_mm": 80.0,
+      "body_pitch_deg": 90.0,
+      "target_mm": [
+        150.0,
+        100.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        160.0,
+        16.813464405440598,
+        55.637384286644654
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        195.89790489941691,
+        104.08946237752122,
+        43.03953387574364
+      ],
+      "normal": [
+        -0.5494934339459427,
+        -0.23877623256855923,
+        -0.8006515326973783
+      ],
+      "position_error_mm": 63.053491996354694,
+      "normal_error_deg": 36.807635738319675,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 35.15184321009425,
+      "nodes_mm": {
+        "shoulder": [
+          80.0,
+          75.0,
+          80.0
+        ],
+        "elbow": [
+          151.9617773574048,
+          98.14054058614805,
+          106.19194496298694
+        ],
+        "wrist": [
+          219.11581007255765,
+          112.01804533237966,
+          55.96495269677117
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "nearer_contact_candidate"
+    },
+    {
+      "architecture_dof": 26,
+      "body_height_mm": 80.0,
+      "body_pitch_deg": 75.0,
+      "target_mm": [
+        150.0,
+        125.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -131.0392653335912,
+        26.395952579133937,
+        0.0
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        176.97946900886828,
+        143.01950135209637,
+        3.4112274382017227
+      ],
+      "normal": [
+        -0.5586246250005444,
+        0.0,
+        -0.8294205979736705
+      ],
+      "position_error_mm": 32.62254817781448,
+      "normal_error_deg": 33.96073466640879,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": -6.559590737728728,
+      "nodes_mm": {
+        "shoulder": [
+          77.27406610312546,
+          75.0,
+          100.70552360820166
+        ],
+        "elbow": [
+          136.70989278587393,
+          110.56575234096543,
+          60.67478832942615
+        ],
+        "wrist": [
+          199.86045863629414,
+          148.3543642032412,
+          18.14213209572716
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "nearer_contact_candidate"
+    },
+    {
+      "architecture_dof": 26,
+      "body_height_mm": 80.0,
+      "body_pitch_deg": 90.0,
+      "target_mm": [
+        150.0,
+        125.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -152.56740991607055,
+        28.50959691894152,
+        0.0
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        187.81109680768455,
+        148.0278108897735,
+        -4.12910460578763
+      ],
+      "normal": [
+        -0.46070470349082,
+        0.0,
+        -0.8875534779276321
+      ],
+      "position_error_mm": 44.46356509571404,
+      "normal_error_deg": 27.432590083929455,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": -12.575430068709878,
+      "nodes_mm": {
+        "shoulder": [
+          80.0,
+          75.0,
+          80.0
+        ],
+        "elbow": [
+          142.39409903004184,
+          113.1844762822345,
+          47.61293194374022
+        ],
+        "wrist": [
+          208.68782924946132,
+          153.75548233210867,
+          13.201672133964205
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "nearer_contact_candidate"
+    },
+    {
+      "architecture_dof": 26,
+      "body_height_mm": 80.0,
+      "body_pitch_deg": 75.0,
+      "target_mm": [
+        180.0,
+        100.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -137.65464598989792,
+        12.219998770742395,
+        15.629377308151778
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        181.81385871238382,
+        105.38791706957112,
+        -2.602165199688016
+      ],
+      "normal": [
+        -0.6762535343808916,
+        -0.05702569026388303,
+        -0.7344584589255405
+      ],
+      "position_error_mm": 6.2522793846351545,
+      "normal_error_deg": 42.73852361889364,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": -11.263278253595256,
+      "nodes_mm": {
+        "shoulder": [
+          77.27406610312546,
+          75.0,
+          100.70552360820166
+        ],
+        "elbow": [
+          146.7242985811948,
+          91.9332756092539,
+          64.78993665931313
+        ],
+        "wrist": [
+          207.26746805668057,
+          109.25963336182532,
+          7.699464977144313
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "nearer_contact_candidate"
+    },
+    {
+      "architecture_dof": 26,
+      "body_height_mm": 80.0,
+      "body_pitch_deg": 90.0,
+      "target_mm": [
+        180.0,
+        100.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        160.0,
+        12.309174957752576,
+        53.05907420855595
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        200.47547896647538,
+        97.14818851991879,
+        45.77029759803636
+      ],
+      "normal": [
+        -0.5282377912474374,
+        -0.17039077235105607,
+        -0.8318243928832811
+      ],
+      "position_error_mm": 50.22248709330624,
+      "normal_error_deg": 33.71339408951025,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 38.8097260161823,
+      "nodes_mm": {
+        "shoulder": [
+          80.0,
+          75.0,
+          80.0
+        ],
+        "elbow": [
+          153.44723589881005,
+          92.0549472798701,
+          106.73260765629495
+        ],
+        "wrist": [
+          223.58293407897932,
+          102.94543901480343,
+          59.9631621758154
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "nearer_contact_candidate"
+    },
+    {
+      "architecture_dof": 26,
+      "body_height_mm": 80.0,
+      "body_pitch_deg": 75.0,
+      "target_mm": [
+        180.0,
+        125.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -131.80274047815658,
+        20.67438718965652,
+        1.3930321709826206
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        181.90977678846184,
+        128.7954731062915,
+        0.2529440987308479
+      ],
+      "normal": [
+        -0.5663942212030108,
+        -0.008583019685242377,
+        -0.8240897511563395
+      ],
+      "position_error_mm": 4.2563886335028736,
+      "normal_error_deg": 34.50368572089548,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": -8.93774249383945,
+      "nodes_mm": {
+        "shoulder": [
+          77.27406610312546,
+          75.0,
+          100.70552360820166
+        ],
+        "elbow": [
+          139.90629221603356,
+          103.24453111370731,
+          59.72442169148432
+        ],
+        "wrist": [
+          205.30196219840073,
+          133.2454761301566,
+          14.46572478495249
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "nearer_contact_candidate"
+    },
+    {
+      "architecture_dof": 26,
+      "body_height_mm": 80.0,
+      "body_pitch_deg": 90.0,
+      "target_mm": [
+        180.0,
+        125.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -156.15262698459955,
+        23.395423419968882,
+        0.6733274313751255
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        197.72841562976456,
+        135.63375391014634,
+        -0.3103696881552077
+      ],
+      "normal": [
+        -0.414138324831711,
+        -0.004666225977143146,
+        -0.9102019963945995
+      ],
+      "position_error_mm": 20.675342132757052,
+      "normal_error_deg": 24.466719128637248,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": -7.338979496058894,
+      "nodes_mm": {
+        "shoulder": [
+          80.0,
+          75.0,
+          80.0
+        ],
+        "elbow": [
+          147.15447813454747,
+          106.76596659531856,
+          50.3149965008981
+        ],
+        "wrist": [
+          218.09733604360008,
+          140.51497552630198,
+          17.863258367596632
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "nearer_contact_candidate"
+    },
+    {
+      "architecture_dof": 26,
+      "body_height_mm": 60.0,
+      "body_pitch_deg": 59.99999999999999,
+      "target_mm": [
+        200.0,
+        150.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -130.1992599615399,
+        29.354365675061956,
+        0.0
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": true,
+      "contact_mm": [
+        186.2843151079249,
+        150.00208455845672,
+        31.303907459993216
+      ],
+      "normal": [
+        -0.3387500727343998,
+        0.0,
+        -0.9408763937002771
+      ],
+      "position_error_mm": 34.176814343468294,
+      "normal_error_deg": 19.80074003846012,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 25.030175048469196,
+      "nodes_mm": {
+        "shoulder": [
+          69.28203230275508,
+          75.0,
+          100.0
+        ],
+        "elbow": [
+          134.88780204054845,
+          114.21677623971593,
+          76.37951231503276
+        ],
+        "wrist": [
+          204.5939323869539,
+          155.8846009944141,
+          51.28274414975506
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "body_pose_and_pad_mount_search"
+    },
+    {
+      "architecture_dof": 26,
+      "body_height_mm": 60.0,
+      "body_pitch_deg": 100.0,
+      "target_mm": [
+        150.0,
+        75.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        78.61161094947848,
+        1.896895515729722e-11,
+        91.25565881315592
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": true,
+      "contact_mm": [
+        149.90397169417523,
+        75.00000000001768,
+        101.25383666564386
+      ],
+      "normal": [
+        0.002316577586980787,
+        -3.3099122237001295e-13,
+        -0.9999973167305417
+      ],
+      "position_error_mm": 101.2538822018613,
+      "normal_error_deg": 0.13273023736744782,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 101.23067088976744,
+      "nodes_mm": {
+        "shoulder": [
+          78.78462024097664,
+          75.0,
+          46.10814578664557
+        ],
+        "elbow": [
+          76.84625313317112,
+          75.00000000002647,
+          126.0846594200578
+        ],
+        "wrist": [
+          161.84602505526718,
+          75.00000000002586,
+          126.28156851495118
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "body_pose_and_pad_mount_search"
+    },
+    {
+      "architecture_dof": 26,
+      "body_height_mm": 60.0,
+      "body_pitch_deg": 59.99999999999999,
+      "target_mm": [
+        150.0,
+        125.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -105.22553703964822,
+        27.95875523437965,
+        7.5081351028990575
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": true,
+      "contact_mm": [
+        138.60173673313162,
+        144.90691606292341,
+        -17.128106040313263
+      ],
+      "normal": [
+        -0.7802114862452875,
+        -0.06126135488821968,
+        -0.6225087012469619
+      ],
+      "position_error_mm": 28.628268008479573,
+      "normal_error_deg": 51.50043453649914,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": -30.82767858836244,
+      "nodes_mm": {
+        "shoulder": [
+          69.28203230275508,
+          75.0,
+          100.0
+        ],
+        "elbow": [
+          119.44449264262963,
+          112.50686761861598,
+          50.23090864713193
+        ],
+        "wrist": [
+          164.4625084777516,
+          152.01624428852827,
+          -10.079848315649544
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "body_pose_and_pad_mount_search"
+    },
+    {
+      "architecture_dof": 26,
+      "body_height_mm": 94.30533405650893,
+      "body_pitch_deg": 100.0,
+      "target_mm": [
+        180.0,
+        100.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        119.34449460802462,
+        19.512268159354356,
+        98.6092189214564
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": true,
+      "contact_mm": [
+        158.21348385631046,
+        89.81462099066613,
+        69.35805487346161
+      ],
+      "normal": [
+        -0.7066047086112798,
+        -0.3302451826987135,
+        -0.6258177890350047
+      ],
+      "position_error_mm": 73.40935912452265,
+      "normal_error_deg": 51.25776380260472,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 56.832399229388955,
+      "nodes_mm": {
+        "shoulder": [
+          78.78462024097664,
+          75.0,
+          80.4134798431545
+        ],
+        "elbow": [
+          126.590385057876,
+          101.72069518104763,
+          138.7282575526926
+        ],
+        "wrist": [
+          183.98077414918967,
+          97.47075966121666,
+          76.17203253851112
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "body_pose_and_pad_mount_search"
+    },
+    {
+      "architecture_dof": 26,
+      "body_height_mm": 84.54308735940245,
+      "body_pitch_deg": 81.63903546288564,
+      "target_mm": [
+        200.0,
+        150.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        81.72038645204042,
+        119.99999999999999,
+        79.54585548503351
+      ],
+      "mount_roll_deg": 180,
+      "body_pose_optimized": true,
+      "contact_mm": [
+        160.45665458092049,
+        177.0444266727747,
+        58.98656526846847
+      ],
+      "normal": [
+        -0.033042758339233695,
+        0.8516497640499638,
+        -0.5230686910100582
+      ],
+      "position_error_mm": 75.99007871533637,
+      "normal_error_deg": 58.461680754101415,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 40.44455304431484,
+      "nodes_mm": {
+        "shoulder": [
+          79.14973034740444,
+          75.0,
+          96.17580784659565
+        ],
+        "elbow": [
+          90.60441034955191,
+          144.2820323027551,
+          57.851007702975835
+        ],
+        "wrist": [
+          172.90107639252724,
+          157.63885110885772,
+          74.39954690110251
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "body_pose_and_pad_mount_search"
+    },
+    {
+      "architecture_dof": 26,
+      "body_height_mm": 60.0,
+      "body_pitch_deg": 72.78112992783703,
+      "target_mm": [
+        150.0,
+        75.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -146.4163041745368,
+        3.686208284278324,
+        144.6738153228339
+      ],
+      "mount_roll_deg": 180,
+      "body_pose_optimized": true,
+      "contact_mm": [
+        92.18856242573753,
+        77.24360158065853,
+        13.798587785097228
+      ],
+      "normal": [
+        0.3237825866735019,
+        0.0371756545151516,
+        -0.9454008712066994
+      ],
+      "position_error_mm": 59.47770243812898,
+      "normal_error_deg": 19.020703586014683,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 10.182238722299783,
+      "nodes_mm": {
+        "shoulder": [
+          76.41447363043957,
+          75.0,
+          83.68181200379006
+        ],
+        "elbow": [
+          153.01463876097296,
+          80.14336778161393,
+          61.18824692757165
+        ],
+        "wrist": [
+          72.76457732020306,
+          75.68475965934124,
+          33.52873767009097
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "body_pose_and_pad_mount_search"
+    },
+    {
+      "architecture_dof": 26,
+      "body_height_mm": 140.0,
+      "body_pitch_deg": 100.0,
+      "target_mm": [
+        150.0,
+        125.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -143.39484072739612,
+        33.61642869438334,
+        92.92248665480035
+      ],
+      "mount_roll_deg": 180,
+      "body_pose_optimized": true,
+      "contact_mm": [
+        82.80821236923094,
+        131.0526306849721,
+        13.87977429398973
+      ],
+      "normal": [
+        0.5343346630876881,
+        0.552910315791584,
+        -0.6393564346389407
+      ],
+      "position_error_mm": 68.87683788966457,
+      "normal_error_deg": 50.256152824630675,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": -0.7187545387234342,
+      "nodes_mm": {
+        "shoulder": [
+          78.78462024097664,
+          75.0,
+          126.1081457866456
+        ],
+        "elbow": [
+          124.5547200507642,
+          119.2904283202969,
+          77.69889127258881
+        ],
+        "wrist": [
+          60.391510297453735,
+          116.89115133317736,
+          22.000363607202882
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "body_pose_and_pad_mount_search"
+    },
+    {
+      "architecture_dof": 26,
+      "body_height_mm": 140.0,
+      "body_pitch_deg": 100.0,
+      "target_mm": [
+        180.0,
+        100.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -143.39484072739612,
+        10.869711237655906,
+        102.93304969951416
+      ],
+      "mount_roll_deg": 180,
+      "body_pose_optimized": true,
+      "contact_mm": [
+        82.41181275893065,
+        91.59990255414387,
+        10.567297925108235
+      ],
+      "normal": [
+        0.4949501607074145,
+        0.18379255950766646,
+        -0.849261228059615
+      ],
+      "position_error_mm": 98.51742846591097,
+      "normal_error_deg": 31.86859282833989,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 2.7279543341558083,
+      "nodes_mm": {
+        "shoulder": [
+          78.78462024097664,
+          75.0,
+          126.1081457866456
+        ],
+        "elbow": [
+          132.7602924419648,
+          90.08610522272069,
+          69.02017647908943
+        ],
+        "wrist": [
+          59.72755457126401,
+          86.49862007501082,
+          25.68025089742204
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "body_pose_and_pad_mount_search"
+    },
+    {
+      "architecture_dof": 28,
+      "body_height_mm": 80.0,
+      "body_pitch_deg": 29.999999999999996,
+      "target_mm": [
+        200.0,
+        150.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -68.87297024408127,
+        22.127849475148157,
+        -4.2662844806688796,
+        0.0
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        109.10050825783584,
+        134.3540253640929,
+        23.837943436091585
+      ],
+      "normal": [
+        -0.7939682457650569,
+        0.06891263483563385,
+        -0.6040409534764748
+      ],
+      "position_error_mm": 95.26679205554014,
+      "normal_error_deg": 52.840138848631824,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 9.843349709970237,
+      "nodes_mm": {
+        "shoulder": [
+          39.99999999999999,
+          75.0,
+          149.2820323027551
+        ],
+        "elbow": [
+          86.5096545892613,
+          105.1339657480795,
+          91.58631202576079
+        ],
+        "wrist": [
+          135.92616259035145,
+          137.151304355414,
+          30.28460923145431
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "old_distant_contact"
+    },
+    {
+      "architecture_dof": 28,
+      "body_height_mm": 80.0,
+      "body_pitch_deg": 45.0,
+      "target_mm": [
+        200.0,
+        150.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -83.34698836200691,
+        27.25634588229865,
+        -3.045421028181641,
+        0.0
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        120.99695877527293,
+        146.25048995499205,
+        14.887209264310233
+      ],
+      "normal": [
+        -0.7982557096263159,
+        0.047228652361013555,
+        -0.6004642174560859
+      ],
+      "position_error_mm": 80.48085702832014,
+      "normal_error_deg": 53.09684798823664,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 0.0827855267905124,
+      "nodes_mm": {
+        "shoulder": [
+          56.568542494923804,
+          75.0,
+          136.5685424949238
+        ],
+        "elbow": [
+          100.6913184536203,
+          111.63779014168193,
+          80.7935214260551
+        ],
+        "wrist": [
+          147.5717679097353,
+          150.56544216721898,
+          21.532561540382073
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "old_distant_contact"
+    },
+    {
+      "architecture_dof": 28,
+      "body_height_mm": 80.0,
+      "body_pitch_deg": 59.99999999999999,
+      "target_mm": [
+        200.0,
+        150.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -103.95632371526398,
+        17.53892297518559,
+        -41.05256756881707,
+        0.18134249067325064
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        153.32839980202164,
+        136.883267553247,
+        5.422730296585473
+      ],
+      "normal": [
+        -0.6823242223637823,
+        0.6252635025806411,
+        -0.3787864938408556
+      ],
+      "position_error_mm": 48.78209650055174,
+      "normal_error_deg": 67.74146446685602,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": -13.842331511004655,
+      "nodes_mm": {
+        "shoulder": [
+          69.28203230275508,
+          75.0,
+          120.00000000000001
+        ],
+        "elbow": [
+          122.22942072830904,
+          99.10828979893822,
+          65.08766603135571
+        ],
+        "wrist": [
+          178.3027384514407,
+          124.89168933499828,
+          6.641114825278287
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "old_distant_contact"
+    },
+    {
+      "architecture_dof": 28,
+      "body_height_mm": 80.0,
+      "body_pitch_deg": 75.0,
+      "target_mm": [
+        200.0,
+        150.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -128.65057857962185,
+        28.040936637123735,
+        -41.239331561048054,
+        0.0
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        168.65511073841608,
+        161.47122345113286,
+        10.117267215734994
+      ],
+      "normal": [
+        -0.6952884507114407,
+        0.5818229201368802,
+        -0.42196689433020435
+      ],
+      "position_error_mm": 34.87764536492345,
+      "normal_error_deg": 65.04117183544973,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": -9.923199612556523,
+      "nodes_mm": {
+        "shoulder": [
+          77.27406610312546,
+          75.0,
+          100.70552360820166
+        ],
+        "elbow": [
+          134.14374239231586,
+          112.60818324063311,
+          58.85502215240477
+        ],
+        "wrist": [
+          194.56777344958064,
+          152.5668779338058,
+          14.38886435562057
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "old_distant_contact"
+    },
+    {
+      "architecture_dof": 28,
+      "body_height_mm": 80.0,
+      "body_pitch_deg": 90.0,
+      "target_mm": [
+        200.0,
+        150.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        21.36463860448718,
+        119.99999999999999,
+        -137.3312762790906,
+        10.93161871183021
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        159.11998164977524,
+        189.2394130721693,
+        18.739140135676237
+      ],
+      "normal": [
+        0.18539408951566125,
+        -0.49696069533185133,
+        -0.8477376356325945
+      ],
+      "position_error_mm": 59.68301945769465,
+      "normal_error_deg": 32.03355180475514,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 7.262531192833878,
+      "nodes_mm": {
+        "shoulder": [
+          80.0,
+          75.0,
+          80.0
+        ],
+        "elbow": [
+          117.25123322187552,
+          144.2820323027551,
+          65.4279162969246
+        ],
+        "wrist": [
+          160.60576988147406,
+          211.09598905591116,
+          35.74156700943354
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "old_distant_contact"
+    },
+    {
+      "architecture_dof": 28,
+      "body_height_mm": 100.0,
+      "body_pitch_deg": 29.999999999999996,
+      "target_mm": [
+        200.0,
+        150.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -76.88723982204004,
+        23.708007881946894,
+        -69.3805552117998,
+        0.0
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        129.38061779827177,
+        157.9414078747547,
+        73.54370130752187
+      ],
+      "normal": [
+        -0.5153950016964792,
+        0.8569527292103556,
+        0.00011011452714997457
+      ],
+      "position_error_mm": 102.26846583183391,
+      "normal_error_deg": 90.00630909768152,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 51.6857806091872,
+      "nodes_mm": {
+        "shoulder": [
+          39.99999999999999,
+          75.0,
+          169.28203230275508
+        ],
+        "elbow": [
+          93.47215311931178,
+          107.16605994483442,
+          119.22133486044818
+        ],
+        "wrist": [
+          150.28631580858053,
+          141.34249863622097,
+          66.03184382799708
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "old_distant_contact"
+    },
+    {
+      "architecture_dof": 28,
+      "body_height_mm": 100.0,
+      "body_pitch_deg": 45.0,
+      "target_mm": [
+        200.0,
+        150.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -99.83943151126358,
+        35.92071026614929,
+        45.203433608519134,
+        36.71471949271725
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        134.21696300499312,
+        110.89977097053428,
+        46.98957200963795
+      ],
+      "normal": [
+        -0.448236786132932,
+        -0.811391299040587,
+        -0.3751372327541601
+      ],
+      "position_error_mm": 89.8012012396943,
+      "normal_error_deg": 67.96720508890537,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 31.532290143013203,
+      "nodes_mm": {
+        "shoulder": [
+          56.568542494923804,
+          75.0,
+          156.5685424949238
+        ],
+        "elbow": [
+          109.5340835651533,
+          121.93320943716554,
+          119.26002723278842
+        ],
+        "wrist": [
+          151.32241127637062,
+          132.70532232480375,
+          46.02958785792267
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "old_distant_contact"
+    },
+    {
+      "architecture_dof": 28,
+      "body_height_mm": 100.0,
+      "body_pitch_deg": 59.99999999999999,
+      "target_mm": [
+        200.0,
+        150.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -105.43456179583241,
+        20.8129666987847,
+        -52.41787148019825,
+        2.597386467855808
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        152.5911124072268,
+        149.88526172006632,
+        33.73370487502449
+      ],
+      "normal": [
+        -0.6581269627696099,
+        0.7239037155432575,
+        -0.20695968568374637
+      ],
+      "position_error_mm": 58.185725330637055,
+      "normal_error_deg": 78.05575870541416,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 12.74032705426007,
+      "nodes_mm": {
+        "shoulder": [
+          69.28203230275508,
+          75.0,
+          140.0
+        ],
+        "elbow": [
+          122.5587348723793,
+          103.42548121559145,
+          87.52538727184495
+        ],
+        "wrist": [
+          176.68574701412533,
+          136.44994624779616,
+          30.91574793414937
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "old_distant_contact"
+    },
+    {
+      "architecture_dof": 28,
+      "body_height_mm": 100.0,
+      "body_pitch_deg": 75.0,
+      "target_mm": [
+        200.0,
+        150.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -125.56182291897845,
+        30.271063538015675,
+        -51.2613389435998,
+        0.0
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        161.79635536872078,
+        168.9673613584225,
+        30.92736581556999
+      ],
+      "normal": [
+        -0.7011859316302735,
+        0.6736543935956133,
+        -0.23351241353108412
+      ],
+      "position_error_mm": 52.685683219487025,
+      "normal_error_deg": 76.49604914227902,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 9.385198879014567,
+      "nodes_mm": {
+        "shoulder": [
+          77.27406610312546,
+          75.0,
+          120.70552360820166
+        ],
+        "elbow": [
+          130.63455632866908,
+          115.32732105544166,
+          76.81514585429078
+        ],
+        "wrist": [
+          187.33007719330917,
+          158.17509967684842,
+          30.18161949076046
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "old_distant_contact"
+    },
+    {
+      "architecture_dof": 28,
+      "body_height_mm": 100.0,
+      "body_pitch_deg": 90.0,
+      "target_mm": [
+        200.0,
+        150.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        8.686349663777959,
+        119.99999999999999,
+        -129.19994890017585,
+        10.93161871183021
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        174.42890975380138,
+        187.3739211314288,
+        61.02833338299912
+      ],
+      "normal": [
+        0.46393456825089957,
+        -0.5446722582281283,
+        -0.6986392828194835
+      ],
+      "position_error_mm": 75.99439527112497,
+      "normal_error_deg": 45.682064837172426,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 45.242040799850145,
+      "nodes_mm": {
+        "shoulder": [
+          80.0,
+          75.0,
+          100.0
+        ],
+        "elbow": [
+          119.54119582534398,
+          144.2820323027551,
+          93.95898744399601
+        ],
+        "wrist": [
+          169.94660303610723,
+          210.3127048941529,
+          75.95217759203254
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "old_distant_contact"
+    },
+    {
+      "architecture_dof": 28,
+      "body_height_mm": 120.0,
+      "body_pitch_deg": 29.999999999999996,
+      "target_mm": [
+        200.0,
+        150.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -80.41344843599403,
+        14.679362918999331,
+        -43.287028811049986,
+        30.958797326831558
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        101.45872853771992,
+        147.00456428850828,
+        82.74321899550259
+      ],
+      "normal": [
+        -0.8961159492010755,
+        0.43842230658383424,
+        -0.0690078740229404
+      ],
+      "position_error_mm": 128.7081780860958,
+      "normal_error_deg": 86.04299521747278,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 62.22160668131721,
+      "nodes_mm": {
+        "shoulder": [
+          39.99999999999999,
+          75.0,
+          189.28203230275508
+        ],
+        "elbow": [
+          99.64061607534744,
+          95.2727626228238,
+          139.96659851381182
+        ],
+        "wrist": [
+          127.84316335416862,
+          142.74612892546122,
+          75.34542691439351
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "old_distant_contact"
+    },
+    {
+      "architecture_dof": 28,
+      "body_height_mm": 120.0,
+      "body_pitch_deg": 45.0,
+      "target_mm": [
+        200.0,
+        150.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -76.7778881346847,
+        8.881805754138076,
+        27.878103255250885,
+        0.0
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        118.34097496877641,
+        87.07306008485295,
+        34.891417289579316
+      ],
+      "normal": [
+        -0.7134178856159864,
+        -0.461985108974183,
+        -0.5268820357246279
+      ],
+      "position_error_mm": 108.8366075206779,
+      "normal_error_deg": 58.20497240413767,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 23.88784289670389,
+      "nodes_mm": {
+        "shoulder": [
+          56.568542494923804,
+          75.0,
+          176.5685424949238
+        ],
+        "elbow": [
+          98.19357758734328,
+          87.35173218782093,
+          109.37634677611136
+        ],
+        "wrist": [
+          142.420177373039,
+          100.47544763738067,
+          37.984638824873144
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "old_distant_contact"
+    },
+    {
+      "architecture_dof": 28,
+      "body_height_mm": 120.0,
+      "body_pitch_deg": 59.99999999999999,
+      "target_mm": [
+        200.0,
+        150.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -99.83943151126358,
+        32.96284083578771,
+        38.347302196455146,
+        4.51441574754597
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        138.50591365712165,
+        141.0882215498474,
+        39.48724107542038
+      ],
+      "normal": [
+        -0.42704094133015363,
+        -0.5617633583224605,
+        -0.7085604869551555
+      ],
+      "position_error_mm": 73.62190338505485,
+      "normal_error_deg": 44.88208703415522,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 31.068975026972666,
+      "nodes_mm": {
+        "shoulder": [
+          69.28203230275508,
+          75.0,
+          160.0
+        ],
+        "elbow": [
+          112.28288459456884,
+          118.52760007304767,
+          108.46093972472492
+        ],
+        "wrist": [
+          155.2475348773574,
+          161.14951736021484,
+          48.775003417722445
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "old_distant_contact"
+    },
+    {
+      "architecture_dof": 28,
+      "body_height_mm": 120.0,
+      "body_pitch_deg": 75.0,
+      "target_mm": [
+        200.0,
+        150.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -119.2655568722843,
+        21.676696611053327,
+        -61.18169412518435,
+        0.0
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        162.23689298692818,
+        151.86827380039114,
+        36.27091952094964
+      ],
+      "normal": [
+        -0.5710746097583667,
+        0.8141937179243038,
+        -0.10470138385870723
+      ],
+      "position_error_mm": 52.3939147341478,
+      "normal_error_deg": 83.99003771492022,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 14.835330747795119,
+      "nodes_mm": {
+        "shoulder": [
+          77.27406610312546,
+          75.0,
+          140.70552360820164
+        ],
+        "elbow": [
+          129.1641012026088,
+          104.54950632799138,
+          87.4678402143275
+        ],
+        "wrist": [
+          184.29726349580983,
+          135.94585680148225,
+          30.9028016083362
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "old_distant_contact"
+    },
+    {
+      "architecture_dof": 28,
+      "body_height_mm": 120.0,
+      "body_pitch_deg": 90.0,
+      "target_mm": [
+        200.0,
+        150.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -46.96377385734002,
+        87.89061713099693,
+        -160.0,
+        71.09218720056666
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        148.9871922734116,
+        155.92153033539063,
+        87.63998267133388
+      ],
+      "normal": [
+        0.32191908908006395,
+        -0.9413207494911452,
+        -0.10140683735966956
+      ],
+      "position_error_mm": 101.57823406761179,
+      "normal_error_deg": 84.17981181830568,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 65.45337409861654,
+      "nodes_mm": {
+        "shoulder": [
+          80.0,
+          75.0,
+          120.0
+        ],
+        "elbow": [
+          77.99043405216254,
+          154.94579036265884,
+          117.84773421922489
+        ],
+        "wrist": [
+          151.28695986738222,
+          183.48338612089015,
+          85.6262362441367
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "old_distant_contact"
+    },
+    {
+      "architecture_dof": 28,
+      "body_height_mm": 140.0,
+      "body_pitch_deg": 29.999999999999996,
+      "target_mm": [
+        200.0,
+        150.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -71.83832194698087,
+        14.289286798363094,
+        58.94127705171865,
+        5.6723880523420025
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        129.2605194677599,
+        85.4235189005188,
+        84.76152848166393
+      ],
+      "normal": [
+        -0.3060384682054463,
+        -0.8504668103894479,
+        -0.4278395264634428
+      ],
+      "position_error_mm": 127.90118344921895,
+      "normal_error_deg": 64.6694709973011,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 67.55054993531348,
+      "nodes_mm": {
+        "shoulder": [
+          39.99999999999999,
+          75.0,
+          209.2820323027551
+        ],
+        "elbow": [
+          91.711540625713,
+          94.74542569779821,
+          151.52361533926862
+        ],
+        "wrist": [
+          144.34160838613164,
+          108.64789000339859,
+          86.24117165212367
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "old_distant_contact"
+    },
+    {
+      "architecture_dof": 28,
+      "body_height_mm": 140.0,
+      "body_pitch_deg": 45.0,
+      "target_mm": [
+        200.0,
+        150.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -84.06225434096093,
+        36.32441556922285,
+        55.53603605037984,
+        30.001447104347612
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        115.28106078782032,
+        113.80358020869673,
+        72.00504831996886
+      ],
+      "normal": [
+        -0.3678548808985,
+        -0.8714536602824603,
+        -0.3244245745615648
+      ],
+      "position_error_mm": 116.92821067007867,
+      "normal_error_deg": 71.06928333438469,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 57.72255773925701,
+      "nodes_mm": {
+        "shoulder": [
+          56.568542494923804,
+          75.0,
+          196.5685424949238
+        ],
+        "elbow": [
+          97.18520720535524,
+          122.38852455407738,
+          146.5224208830746
+        ],
+        "wrist": [
+          128.9638260604079,
+          137.76001439987016,
+          69.19948325402443
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "old_distant_contact"
+    },
+    {
+      "architecture_dof": 28,
+      "body_height_mm": 140.0,
+      "body_pitch_deg": 59.99999999999999,
+      "target_mm": [
+        200.0,
+        150.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -91.24506458430123,
+        35.74479863768274,
+        46.94166912341749,
+        17.02716405927768
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        112.85871634648105,
+        131.38081100579643,
+        48.57323024784373
+      ],
+      "normal": [
+        -0.4697117107254637,
+        -0.7380894235557736,
+        -0.48434998879164215
+      ],
+      "position_error_mm": 101.48712338171264,
+      "normal_error_deg": 61.030105780714855,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 39.07274117302534,
+      "nodes_mm": {
+        "shoulder": [
+          69.28203230275508,
+          75.0,
+          180.00000000000003
+        ],
+        "elbow": [
+          102.96128200053242,
+          121.73407902521504,
+          124.4875329546622
+        ],
+        "wrist": [
+          128.15880672241246,
+          154.4520549622758,
+          50.193395914972754
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "old_distant_contact"
+    },
+    {
+      "architecture_dof": 28,
+      "body_height_mm": 140.0,
+      "body_pitch_deg": 75.0,
+      "target_mm": [
+        200.0,
+        150.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -112.38822976081616,
+        15.268352172344432,
+        -66.32197592459485,
+        0.14788310900886095
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        155.13460599341053,
+        137.52766737766828,
+        42.16580849884918
+      ],
+      "normal": [
+        -0.46703694608293594,
+        0.8828084983871292,
+        -0.050255807316040194
+      ],
+      "position_error_mm": 62.82052265597779,
+      "normal_error_deg": 87.11934088830428,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 21.697076694803368,
+      "nodes_mm": {
+        "shoulder": [
+          77.27406610312546,
+          75.0,
+          160.70552360820167
+        ],
+        "elbow": [
+          124.1364549875985,
+          96.06721823731948,
+          99.38596046737707
+        ],
+        "wrist": [
+          173.82544602760208,
+          118.64489108467563,
+          34.22268201835947
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "old_distant_contact"
+    },
+    {
+      "architecture_dof": 28,
+      "body_height_mm": 140.0,
+      "body_pitch_deg": 90.0,
+      "target_mm": [
+        200.0,
+        150.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -43.66872978423789,
+        81.8745602821233,
+        -160.0,
+        77.1082440494403
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        141.23244287617797,
+        149.90481610179998,
+        98.7615907742875
+      ],
+      "normal": [
+        0.299067805569853,
+        -0.9542219129143382,
+        -0.004357589440703968
+      ],
+      "position_error_mm": 114.92382974189466,
+      "normal_error_deg": 89.75032772603875,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 76.40232680329433,
+      "nodes_mm": {
+        "shoulder": [
+          80.0,
+          75.0,
+          140.0
+        ],
+        "elbow": [
+          71.82095757128981,
+          154.1968799216426,
+          132.1924731427757
+        ],
+        "wrist": [
+          143.93680913402346,
+          176.97627910323638,
+          93.39295089948801
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "old_distant_contact"
+    },
+    {
+      "architecture_dof": 28,
+      "body_height_mm": 80.0,
+      "body_pitch_deg": 75.0,
+      "target_mm": [
+        150.0,
+        100.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -114.06325083946525,
+        16.496551400701918,
+        9.77446070253612,
+        1.088485168923525
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        150.041859540056,
+        114.01237056984202,
+        -30.209676030189417
+      ],
+      "normal": [
+        -0.7461460195119134,
+        -0.16814678937916105,
+        -0.6441993284597614
+      ],
+      "position_error_mm": 33.30124332598814,
+      "normal_error_deg": 49.89432961783005,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": -39.984175260337885,
+      "nodes_mm": {
+        "shoulder": [
+          77.27406610312546,
+          75.0,
+          100.70552360820166
+        ],
+        "elbow": [
+          125.61309041347896,
+          97.71661067144973,
+          41.14635698941129
+        ],
+        "wrist": [
+          175.77755160829904,
+          121.58580955903962,
+          -23.18705717071292
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "nearer_contact_candidate"
+    },
+    {
+      "architecture_dof": 28,
+      "body_height_mm": 80.0,
+      "body_pitch_deg": 90.0,
+      "target_mm": [
+        150.0,
+        100.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -144.71929261817036,
+        17.017064931086363,
+        12.651730321976041,
+        0.49258125228043903
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        186.15938442526937,
+        114.34564137934785,
+        -25.741598856750073
+      ],
+      "normal": [
+        -0.5179246516386815,
+        -0.21194311751124392,
+        -0.8287545898301653
+      ],
+      "position_error_mm": 46.64684791388488,
+      "normal_error_deg": 34.02898398517216,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": -31.613350802807325,
+      "nodes_mm": {
+        "shoulder": [
+          80.0,
+          75.0,
+          80.0
+        ],
+        "elbow": [
+          142.44729344275896,
+          98.41252134613651,
+          35.81641270912179
+        ],
+        "wrist": [
+          208.4215073913286,
+          123.1343614493469,
+          -11.73601851978242
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "nearer_contact_candidate"
+    },
+    {
+      "architecture_dof": 28,
+      "body_height_mm": 80.0,
+      "body_pitch_deg": 75.0,
+      "target_mm": [
+        150.0,
+        125.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -112.59145669526382,
+        28.856101650567787,
+        17.51335296214059,
+        2.1206394040360053
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        140.03146933464518,
+        141.07244656105416,
+        -24.090013536813206
+      ],
+      "normal": [
+        -0.6863698161354678,
+        -0.2812410883741792,
+        -0.670671250098192
+      ],
+      "position_error_mm": 30.62717574782083,
+      "normal_error_deg": 47.88110663485018,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": -34.905290827938416,
+      "nodes_mm": {
+        "shoulder": [
+          77.27406610312546,
+          75.0,
+          100.70552360820166
+        ],
+        "elbow": [
+          120.0166851755993,
+          113.608918893916,
+          45.18597843113441
+        ],
+        "wrist": [
+          163.3015141181578,
+          153.77381155832526,
+          -15.954883360877774
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "nearer_contact_candidate"
+    },
+    {
+      "architecture_dof": 28,
+      "body_height_mm": 80.0,
+      "body_pitch_deg": 90.0,
+      "target_mm": [
+        150.0,
+        125.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        159.37041926685683,
+        41.15134538934499,
+        -4.713258422784702,
+        48.951100542012
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        178.35065700481633,
+        151.20576063173374,
+        40.91646566435096
+      ],
+      "normal": [
+        -0.334084340789433,
+        -0.45563721048442835,
+        -0.8250953797357362
+      ],
+      "position_error_mm": 56.25530024232809,
+      "normal_error_deg": 34.4018374377678,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 32.39765818992771,
+      "nodes_mm": {
+        "shoulder": [
+          80.0,
+          75.0,
+          80.0
+        ],
+        "elbow": [
+          136.37532866018626,
+          127.64402277095499,
+          101.22331701094707
+        ],
+        "wrist": [
+          194.9757688447219,
+          168.34233496883996,
+          55.02119807228639
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "nearer_contact_candidate"
+    },
+    {
+      "architecture_dof": 28,
+      "body_height_mm": 80.0,
+      "body_pitch_deg": 75.0,
+      "target_mm": [
+        180.0,
+        100.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -119.56614028432958,
+        13.112220495611023,
+        7.807526103181092,
+        0.0
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        164.7345544007697,
+        106.40183585346526,
+        -23.38552236921631
+      ],
+      "normal": [
+        -0.6842106847911306,
+        -0.13230388792972728,
+        -0.7171829752973298
+      ],
+      "position_error_mm": 28.65135229127744,
+      "normal_error_deg": 44.177611253139496,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": -31.620142600390132,
+      "nodes_mm": {
+        "shoulder": [
+          77.27406610312546,
+          75.0,
+          100.70552360820166
+        ],
+        "elbow": [
+          131.948970896549,
+          93.148723164292,
+          45.196257414745595
+        ],
+        "wrist": [
+          190.0410572395615,
+          112.43174152635224,
+          -13.782337915801476
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "nearer_contact_candidate"
+    },
+    {
+      "architecture_dof": 28,
+      "body_height_mm": 80.0,
+      "body_pitch_deg": 90.0,
+      "target_mm": [
+        180.0,
+        100.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -147.62274718721045,
+        11.750269552273876,
+        9.025964305815412,
+        1.1928390187489837
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        192.75660540605986,
+        101.97624211355114,
+        -22.500874652338812
+      ],
+      "normal": [
+        -0.5189829824907666,
+        -0.1578006090466749,
+        -0.8400926327908649
+      ],
+      "position_error_mm": 25.940814838735346,
+      "normal_error_deg": 32.850097292578695,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": -28.41548912631051,
+      "nodes_mm": {
+        "shoulder": [
+          80.0,
+          75.0,
+          80.0
+        ],
+        "elbow": [
+          146.14742649516202,
+          91.29170857043756,
+          38.05839535827143
+        ],
+        "wrist": [
+          215.52576958035647,
+          108.32611467165452,
+          -8.001071850239294
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "nearer_contact_candidate"
+    },
+    {
+      "architecture_dof": 28,
+      "body_height_mm": 80.0,
+      "body_pitch_deg": 75.0,
+      "target_mm": [
+        180.0,
+        125.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -118.03971340357221,
+        21.175620589336265,
+        18.87863392092235,
+        0.18308600153156887
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        159.15791799909601,
+        122.6256061146695,
+        -21.964745881743607
+      ],
+      "normal": [
+        -0.6138228335311008,
+        -0.3028694752856458,
+        -0.7290347110913501
+      ],
+      "position_error_mm": 30.372358981558765,
+      "normal_error_deg": 43.194468590994894,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": -29.382929056701165,
+      "nodes_mm": {
+        "shoulder": [
+          77.27406610312546,
+          75.0,
+          100.70552360820166
+        ],
+        "elbow": [
+          128.18772430900395,
+          103.89822661290567,
+          46.18312539678646
+        ],
+        "wrist": [
+          182.11703917080413,
+          134.5204854160827,
+          -11.94523484439075
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "nearer_contact_candidate"
+    },
+    {
+      "architecture_dof": 28,
+      "body_height_mm": 80.0,
+      "body_pitch_deg": 90.0,
+      "target_mm": [
+        180.0,
+        125.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -144.09420794254646,
+        21.0151915305443,
+        15.981888124642817,
+        0.0
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": false,
+      "contact_mm": [
+        183.58906439618383,
+        123.44267236161464,
+        -24.67384215738208
+      ],
+      "normal": [
+        -0.48381034802245804,
+        -0.25701977299112083,
+        -0.8365813668962396
+      ],
+      "position_error_mm": 24.982096377618884,
+      "normal_error_deg": 33.21913823115724,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": -30.564956619283667,
+      "nodes_mm": {
+        "shoulder": [
+          80.0,
+          75.0,
+          80.0
+        ],
+        "elbow": [
+          140.48853495254653,
+          103.68923748308111,
+          36.20428340654845
+        ],
+        "wrist": [
+          204.75760333962725,
+          134.17155230885484,
+          -10.328665473993825
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "nearer_contact_candidate"
+    },
+    {
+      "architecture_dof": 28,
+      "body_height_mm": 60.0,
+      "body_pitch_deg": 59.99999999999999,
+      "target_mm": [
+        200.0,
+        150.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -127.63406688666231,
+        28.860568266036893,
+        6.0501126990800795,
+        0.0
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": true,
+      "contact_mm": [
+        184.91483472184615,
+        146.542316761646,
+        25.536909028138236
+      ],
+      "normal": [
+        -0.3313546163789811,
+        -0.09230747462252263,
+        -0.9389800042243448
+      ],
+      "position_error_mm": 29.86053428117825,
+      "normal_error_deg": 20.119039038901573,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 20.500778259025306,
+      "nodes_mm": {
+        "shoulder": [
+          69.28203230275508,
+          75.0,
+          100.0
+        ],
+        "elbow": [
+          134.075061232724,
+          113.61438098154721,
+          73.33929889346241
+        ],
+        "wrist": [
+          202.917654470816,
+          154.64216077444115,
+          45.012303967766215
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "body_pose_and_pad_mount_search"
+    },
+    {
+      "architecture_dof": 28,
+      "body_height_mm": 60.0,
+      "body_pitch_deg": 100.0,
+      "target_mm": [
+        150.0,
+        75.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        78.34734148657562,
+        9.41734576586987e-10,
+        7.200483382361049e-10,
+        91.20149475554508
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": true,
+      "contact_mm": [
+        149.67198574756605,
+        74.9999999999683,
+        101.65046077718993
+      ],
+      "normal": [
+        0.00787421166732826,
+        -1.616923962358193e-11,
+        -0.9999689979147444
+      ],
+      "position_error_mm": 101.65099000779496,
+      "normal_error_deg": 0.45116375787966645,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 101.5717186601953,
+      "nodes_mm": {
+        "shoulder": [
+          78.78462024097664,
+          75.0,
+          46.10814578664557
+        ],
+        "elbow": [
+          76.47739360810648,
+          75.0000000013149,
+          126.07486827334358
+        ],
+        "wrist": [
+          161.47475843085977,
+          75.00000000021763,
+          126.74417626506649
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "body_pose_and_pad_mount_search"
+    },
+    {
+      "architecture_dof": 28,
+      "body_height_mm": 60.0,
+      "body_pitch_deg": 100.0,
+      "target_mm": [
+        150.0,
+        125.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        87.88480244521767,
+        5.808458988239206,
+        -34.60729487500246,
+        79.84547651387099
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": true,
+      "contact_mm": [
+        149.67628143122266,
+        125.00001019045573,
+        100.42437711837718
+      ],
+      "normal": [
+        0.008007376156467991,
+        -6.887753879799714e-07,
+        -0.9999679404493999
+      ],
+      "position_error_mm": 100.42489887137508,
+      "normal_error_deg": 0.45879376335412214,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 100.26687376362499,
+      "nodes_mm": {
+        "shoulder": [
+          78.78462024097664,
+          75.0,
+          46.10814578664557
+        ],
+        "elbow": [
+          89.70281938870195,
+          83.09625419835444,
+          124.94496202960556
+        ],
+        "wrist": [
+          159.30184129667134,
+          131.88831889666005,
+          125.50225183783245
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "body_pose_and_pad_mount_search"
+    },
+    {
+      "architecture_dof": 28,
+      "body_height_mm": 60.0,
+      "body_pitch_deg": 59.99999999999999,
+      "target_mm": [
+        180.0,
+        100.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -139.8212500132057,
+        -0.2031134152549172,
+        -11.664736219000641,
+        55.11190987318985
+      ],
+      "mount_roll_deg": 0,
+      "body_pose_optimized": true,
+      "contact_mm": [
+        156.14947314066555,
+        89.63886494863297,
+        10.594515663860138
+      ],
+      "normal": [
+        -0.9059439192530657,
+        0.11855172470280838,
+        -0.40646168790967746
+      ],
+      "position_error_mm": 28.07925414202233,
+      "normal_error_deg": 66.01724349379057,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": -2.291954824712436,
+      "nodes_mm": {
+        "shoulder": [
+          69.28203230275508,
+          75.0,
+          100.0
+        ],
+        "elbow": [
+          148.02243496995834,
+          74.71640076590643,
+          85.86251227123047
+        ],
+        "wrist": [
+          183.8570798045183,
+          88.64088077328024,
+          10.053626999745353
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "body_pose_and_pad_mount_search"
+    },
+    {
+      "architecture_dof": 28,
+      "body_height_mm": 64.43845740295444,
+      "body_pitch_deg": 88.68780883108197,
+      "target_mm": [
+        200.0,
+        150.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -143.28061002713812,
+        26.990559137266892,
+        -160.0,
+        31.100348891653443
+      ],
+      "mount_roll_deg": 180,
+      "body_pose_optimized": true,
+      "contact_mm": [
+        199.67053748921475,
+        150.50464881814952,
+        -0.01909858756067931
+      ],
+      "normal": [
+        0.01729625174923212,
+        -0.026533890277182705,
+        -0.9994982703047492
+      ],
+      "position_error_mm": 0.6029765598424519,
+      "normal_error_deg": 1.8150587756874212,
+      "finite_search_pose_found": true,
+      "minimum_pad_corner_z_mm": -0.6525851011707112,
+      "nodes_mm": {
+        "shoulder": [
+          79.97902074966449,
+          75.0,
+          66.27046174922046
+        ],
+        "elbow": [
+          138.08144392265308,
+          111.30749429955009,
+          24.968230827451887
+        ],
+        "wrist": [
+          209.29128526773013,
+          157.72040732585097,
+          24.968379103089205
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "body_pose_and_pad_mount_search"
+    },
+    {
+      "architecture_dof": 28,
+      "body_height_mm": 118.93577076898542,
+      "body_pitch_deg": 100.0,
+      "target_mm": [
+        150.0,
+        75.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -97.83629257703822,
+        -1.8395163931800849,
+        -160.0,
+        95.62176864509941
+      ],
+      "mount_roll_deg": 180,
+      "body_pose_optimized": true,
+      "contact_mm": [
+        145.58430713421566,
+        97.53466457175679,
+        3.9470961670484104
+      ],
+      "normal": [
+        0.0543931164121364,
+        0.0015416646870248312,
+        -0.9985184085218303
+      ],
+      "position_error_mm": 23.299978948455244,
+      "normal_error_deg": 3.119288191040558,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": 3.086348743994799,
+      "nodes_mm": {
+        "shoulder": [
+          78.78462024097664,
+          75.0,
+          105.043916555631
+        ],
+        "elbow": [
+          75.7657893025003,
+          72.4319918078892,
+          25.142151908721296
+        ],
+        "wrist": [
+          155.4779624986649,
+          101.61625410198258,
+          29.529437937032174
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "body_pose_and_pad_mount_search"
+    },
+    {
+      "architecture_dof": 28,
+      "body_height_mm": 61.929986638462964,
+      "body_pitch_deg": 59.99999999999999,
+      "target_mm": [
+        150.0,
+        125.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -73.63391419482623,
+        8.307223746389942,
+        -149.2190269518711,
+        74.075667060728
+      ],
+      "mount_roll_deg": 180,
+      "body_pose_optimized": true,
+      "contact_mm": [
+        149.99999698717858,
+        124.9999999999341,
+        -7.297579363713114e-06
+      ],
+      "normal": [
+        -4.865904818115477e-08,
+        3.615018164964922e-12,
+        -0.9999999999999989
+      ],
+      "position_error_mm": 7.89504638470778e-06,
+      "normal_error_deg": 2.699869328381916e-06,
+      "finite_search_pose_found": true,
+      "minimum_pad_corner_z_mm": -8.223753329526912e-06,
+      "nodes_mm": {
+        "shoulder": [
+          69.28203230275508,
+          75.0,
+          101.92998663846298
+        ],
+        "elbow": [
+          87.94156381840612,
+          86.55847659543402,
+          24.999995721985997
+        ],
+        "wrist": [
+          160.20138467794223,
+          131.31915453207546,
+          24.999992206053697
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "body_pose_and_pad_mount_search"
+    },
+    {
+      "architecture_dof": 28,
+      "body_height_mm": 111.07522153960035,
+      "body_pitch_deg": 98.17915788209983,
+      "target_mm": [
+        180.0,
+        100.0,
+        0.0
+      ],
+      "upstream_q_deg": [
+        -119.00678002182867,
+        4.111952310217579,
+        -160.0,
+        68.83407168206452
+      ],
+      "mount_roll_deg": 180,
+      "body_pose_optimized": true,
+      "contact_mm": [
+        176.5200175077032,
+        104.44198161269594,
+        -0.10989388753276236
+      ],
+      "normal": [
+        0.016742754253362854,
+        -0.05630718516864418,
+        -0.9982730994464368
+      ],
+      "position_error_mm": 5.643895415467771,
+      "normal_error_deg": 3.367703226575495,
+      "finite_search_pose_found": false,
+      "minimum_pad_corner_z_mm": -1.319051580481918,
+      "nodes_mm": {
+        "shoulder": [
+          79.18624389061593,
+          75.0,
+          99.6937111611008
+        ],
+        "elbow": [
+          107.55763094303292,
+          80.73644128567973,
+          25.113836944943152
+        ],
+        "wrist": [
+          187.36892553493124,
+          109.97786178266256,
+          24.803059075946244
+        ]
+      },
+      "fullbody_verified": false,
+      "scenario": "body_pose_and_pad_mount_search"
+    }
+  ],
+  "wrist_authority_check": [
+    {
+      "joint_index": 3,
+      "delta_q_rad": 0.25,
+      "pad_translation_mm": 0.0,
+      "normal_change": 0.0
+    },
+    {
+      "joint_index": 4,
+      "delta_q_rad": 0.25,
+      "pad_translation_mm": 0.0,
+      "normal_change": 0.0
+    }
+  ],
+  "added_shoulder_yaw_mass_reference_kg": 0.164,
+  "proposed_dof": 28,
+  "dof_change_status": "candidate_pending_fullbody_validation",
+  "limitations": [
+    "Finite multistart failure is not a proof of global unreachability",
+    "Body poses are not coupled to legs, COM or ground reaction constraints",
+    "No self-collision, torso/shell interference or full getup trajectory has passed",
+    "Extra shoulder yaw has not been physically packaged",
+    "Wrist angles cannot control a forearm-fixed pad"
+  ]
+}

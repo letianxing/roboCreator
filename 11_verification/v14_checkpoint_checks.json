@@ -1,0 +1,78 @@
+{
+  "stage": "v0.14",
+  "scope": "budget and analytical identities only; no geometry/dynamics/manufacturing release",
+  "checks": [
+    {
+      "name": "v13 baseline category sum and 26 actuator count; baseline hash unchanged",
+      "status": "passed",
+      "evidence": [
+        "03_system/mass_reset_v14.json",
+        "05_dynamics/system_reset_results_v14.json",
+        "05_dynamics/system_reset_v14.py"
+      ]
+    },
+    {
+      "name": "v14 non-overlapping mass allocations and three candidate counts/sums",
+      "status": "passed",
+      "evidence": [
+        "03_system/mass_reset_v14.json",
+        "05_dynamics/system_reset_results_v14.json",
+        "05_dynamics/system_reset_v14.py"
+      ]
+    },
+    {
+      "name": "ideal height chain and foot width arithmetic, not physical packaging",
+      "status": "passed",
+      "evidence": [
+        "03_system/mass_reset_v14.json",
+        "05_dynamics/system_reset_results_v14.json",
+        "05_dynamics/system_reset_v14.py"
+      ]
+    },
+    {
+      "name": "static COM moment balance and assumed hand/contact force balance",
+      "status": "passed",
+      "evidence": [
+        "03_system/mass_reset_v14.json",
+        "05_dynamics/system_reset_results_v14.json",
+        "05_dynamics/system_reset_v14.py"
+      ]
+    },
+    {
+      "name": "36 vertical energy cases and 18 push-off impulse identities",
+      "status": "passed",
+      "evidence": [
+        "03_system/mass_reset_v14.json",
+        "05_dynamics/system_reset_results_v14.json",
+        "05_dynamics/system_reset_v14.py"
+      ]
+    },
+    {
+      "name": "runtime units, speed and overvoltage regression anchors; output reload",
+      "status": "passed",
+      "evidence": [
+        "03_system/mass_reset_v14.json",
+        "05_dynamics/system_reset_results_v14.json",
+        "05_dynamics/system_reset_v14.py"
+      ]
+    },
+    {
+      "name": "Seven independent regression and invalid-input tests",
+      "status": "passed",
+      "evidence": [
+        "11_verification/test_system_reset_v14.py",
+        "11_verification/system_reset_tests_v14.json"
+      ]
+    }
+  ],
+  "pending": [
+    "Match real components to task envelope; 3 kg is advisory, added mass requires system review",
+    "Exact camera/mic/battery/driver configuration and measured masses",
+    "26 DOF sufficiency and full trajectory collision/IK with Wukong costume",
+    "Torque-speed-duration-current-temperature and gear shock limits",
+    "Manufacturable short-load-path ankle/wrist and support bearings",
+    "Contact friction, bottle grip and handover disturbances",
+    "Fullbody dynamics, three-direction flips on four surfaces and physical safety gates",
+    "Final cost and manufacturing release"
+  ]
+}

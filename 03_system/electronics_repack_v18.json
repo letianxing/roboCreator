@@ -1,0 +1,16 @@
+{
+  "version":"v0.18",
+  "status":"placement_candidate_not_release",
+  "source_scene":"stand_narrow",
+  "note":"Rigid repositioning only; actual shape volumes and mass values retained. New mounting/cabling needs design and mass accounting.",
+  "changes":[
+    {"component":"battery","rotation_world_z_deg":90,"translation_world_mm":[0,0,0],"mass_kg":0.22},
+    {"component":"microphone","translation_world_mm":[-31,0,0],"mass_kg":0.045},
+    {"component":"computer","translation_world_mm":[20,0,0],"mass_kg":0.045},
+    {"component":"PelvisPlate","translation_world_mm":[0,0,-14],"mass_kg":0.054},
+    {"component":"power","rotation_world_z_deg":90,"translation_world_mm":[0,0,-67],"mass_kg":0.05},
+    {"component":"NeckMotor0","translation_world_mm":[25,0,0],"mass_kg":0.023},
+    {"component":"NeckMotor1","translation_world_mm":[25,0,0],"mass_kg":0.023}
+  ],
+  "applies_to":"Unpitched standing body only. Use new local attachment frames and revalidate for other poses; do not apply these world deltas to tilted poses."
+}

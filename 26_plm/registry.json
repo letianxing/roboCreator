@@ -1,0 +1,22 @@
+{
+  "schema_version":1,
+  "implementation":"local_traceability_workflow_not_enterprise_service",
+  "requirements":[
+    {"id":"RC-REQ-0001","title":"30–40cm齐天大圣双足机器人及既有任务","status":"confirmed","source":"01_requirements/requirements.md"},
+    {"id":"RC-REQ-0002","title":"CAD之外明确覆盖CAE、PLM和MES","status":"confirmed","source":"User 2026-09-06 supplemental requirement"},
+    {"id":"RC-REQ-0003","title":"引入开源软件或新增/配置MCP前先询问","status":"confirmed","source":"tools/software_policy.md"}
+  ],
+  "studies":[
+    {"id":"RC-STUDY-0017","model_version":"v0.17","status":"draft","artifact":"deliverables/single_leg_review_v17.md"},
+    {"id":"RC-STUDY-0018","model_version":"v0.18","status":"draft","requirements":["RC-REQ-0001","RC-REQ-0002","RC-REQ-0003"],"artifact":"deliverables/body_review_v18.md"}
+  ],
+  "changes":[
+    {"id":"RC-ECR-0018","status":"in_progress","reason":"Integrate legs/shoulders and resolve body/contact coupling; add CAD/CAE/PLM/MES traceability","affected_studies":["RC-STUDY-0017","RC-STUDY-0018"],"engineering_release":false}
+  ],
+  "items":[],
+  "ebom":[],
+  "mbom":[],
+  "releases":[],
+  "as_built_units":[],
+  "note":"Empty item/BOM/release arrays are intentional: current studies have not frozen manufacturable part identities or released a robot. No real unit has been built."
+}

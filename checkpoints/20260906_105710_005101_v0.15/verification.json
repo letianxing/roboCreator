@@ -1,0 +1,25 @@
+{
+  "id": "20260906_105710_005101_v0.15",
+  "stage": "v0.15",
+  "verified": true,
+  "file_count": 535,
+  "source_bytes": 1000105192,
+  "archive_bytes": 383256066,
+  "archive_sha256": "b42607417eb4ffa4a72b449f8d69a8062af64328284769594986745be6a72e14",
+  "archive": "checkpoints\\20260906_105710_005101_v0.15\\project.zip",
+  "passed_checks": [
+    "Manufacturer STEP import, 4 local CAD save/reopen and 1200 layout records",
+    "Selected two-motor envelopes meet specified clearance at five roll samples only",
+    "12 planar histories energy checks and 8 numerical implementation tests",
+    "Current input hashes, artifact presence and preservation of speed-limit failures"
+  ],
+  "pending": [
+    "Whole leg/arm physical mounting, shafts/bearings/transmission and mass",
+    "B ankle width/axis offsets and upgraded wrist packaging",
+    "All 26DOF trajectories with costume, bottle and contact constraints",
+    "Real torque-speed-current-duration-temperature validation including reflected inertia/friction",
+    "Takeoff, three-direction flips and four-surface landing",
+    "Wholebody safety, appearance approval, 20min runtime and real tests",
+    "Final costs and manufacturing release"
+  ]
+}

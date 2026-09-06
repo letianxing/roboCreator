@@ -1,0 +1,10 @@
+{
+  "version":"v0.13",
+  "total_driven_dof":26,
+  "per_side_leg":["hip_yaw_Z","hip_roll_X","hip_pitch_Y","knee_pitch_Y","ankle_pitch_Y","ankle_roll_X"],
+  "per_side_arm":["shoulder_pitch_Y","shoulder_roll_X","elbow_pitch_Y","wrist_roll_X","wrist_pitch_Y"],
+  "per_side_gripper":"one drive; forearm motor with undeveloped transmission across wrist",
+  "neck":["yaw_Z","pitch_Y"],
+  "invalidates":["v12 arm channel semantics","v12 calibration assumptions","v12 policy action/observation ordering"],
+  "note":"Internal joint IDs remain generic in research scripts. This file records role changes; no real controller has been configured."
+}

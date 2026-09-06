@@ -1,0 +1,4 @@
+# Only rebuildable Python caches are omitted. CAD, solver logs, backups and snapshots are retained.
+__pycache__/
+*.pyc
+*.pyo

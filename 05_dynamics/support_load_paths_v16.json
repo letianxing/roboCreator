@@ -1,0 +1,1977 @@
+{
+  "version": "v0.16",
+  "input_sha256": "4e6104f68bd537ec3073506910f65a9fc879cb6faf3fbc3bf5917aa46edaa2a0",
+  "script_sha256": "c3d6dc6547a593d217fc9d3f45cb1b2196c5c9c3e262936a1e32976443d2a8a9",
+  "ankle_linkage": {
+    "rows": [
+      {
+        "roll_deg": -25,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.013594616805549749,
+        "rod_axial_force_N": 36.77926396541639,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 131.26247173559358
+      },
+      {
+        "roll_deg": -25,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.013594616805549749,
+        "rod_axial_force_N": 95.62608631008263,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 50.48556605215137
+      },
+      {
+        "roll_deg": -25,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.013594616805549749,
+        "rod_axial_force_N": 147.11705586166556,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 32.815617933898395
+      },
+      {
+        "roll_deg": -25,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.013594616805549749,
+        "rod_axial_force_N": 301.5899645164144,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 16.00761850434068
+      },
+      {
+        "roll_deg": -24,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.013703181864639013,
+        "rod_axial_force_N": 36.487875950201555,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 132.31071886193848
+      },
+      {
+        "roll_deg": -24,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.013703181864639013,
+        "rod_axial_force_N": 94.86847747052406,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 50.888738023822484
+      },
+      {
+        "roll_deg": -24,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.013703181864639013,
+        "rod_axial_force_N": 145.95150380080622,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 33.07767971548462
+      },
+      {
+        "roll_deg": -24,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.013703181864639013,
+        "rod_axial_force_N": 299.2005827916528,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 16.135453519748594
+      },
+      {
+        "roll_deg": -23,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.013807572801786605,
+        "rod_axial_force_N": 36.21201258017654,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 133.3186628615953
+      },
+      {
+        "roll_deg": -23,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.013807572801786605,
+        "rod_axial_force_N": 94.15123270845902,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 51.276408792921266
+      },
+      {
+        "roll_deg": -23,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.013807572801786605,
+        "rod_axial_force_N": 144.84805032070616,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 33.329665715398825
+      },
+      {
+        "roll_deg": -23,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.013807572801786605,
+        "rod_axial_force_N": 296.9385031574476,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 16.258373519706748
+      },
+      {
+        "roll_deg": -22,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.013907757818501811,
+        "rod_axial_force_N": 35.95115808925278,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 134.2859967050576
+      },
+      {
+        "roll_deg": -22,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.013907757818501811,
+        "rod_axial_force_N": 93.47301103205723,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 51.648460271176006
+      },
+      {
+        "roll_deg": -22,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.013907757818501811,
+        "rod_axial_force_N": 143.80463235701112,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 33.5714991762644
+      },
+      {
+        "roll_deg": -22,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.013907757818501811,
+        "rod_axial_force_N": 294.7994963318728,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 16.37634106159239
+      },
+      {
+        "roll_deg": -21,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.014003706397458026,
+        "rod_axial_force_N": 35.7048331212343,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 135.21242573306588
+      },
+      {
+        "roll_deg": -21,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.014003706397458026,
+        "rod_axial_force_N": 92.83256611520919,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 52.004779128102264
+      },
+      {
+        "roll_deg": -21,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.014003706397458026,
+        "rod_axial_force_N": 142.8193324849372,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 33.80310643326647
+      },
+      {
+        "roll_deg": -21,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.014003706397458026,
+        "rod_axial_force_N": 292.77963159412127,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 16.4893202113495
+      },
+      {
+        "roll_deg": -20,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.014095389311788626,
+        "rod_axial_force_N": 35.47259241586374,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 136.09766774636373
+      },
+      {
+        "roll_deg": -20,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.014095389311788626,
+        "rod_axial_force_N": 92.22874028124572,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 52.3452568255245
+      },
+      {
+        "roll_deg": -20,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.014095389311788626,
+        "rod_axial_force_N": 141.89036966345495,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 34.02441693659093
+      },
+      {
+        "roll_deg": -20,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.014095389311788626,
+        "rod_axial_force_N": 290.87525781008264,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 16.5972765544346
+      },
+      {
+        "roll_deg": -19,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.014182778633989751,
+        "rod_axial_force_N": 35.25402270622236,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 136.94145309165827
+      },
+      {
+        "roll_deg": -19,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.014182778633989751,
+        "rod_axial_force_N": 91.66045903617812,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 52.669789650637796
+      },
+      {
+        "roll_deg": -19,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.014182778633989751,
+        "rod_axial_force_N": 141.01609082488943,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 34.23536327291457
+      },
+      {
+        "roll_deg": -19,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.014182778633989751,
+        "rod_axial_force_N": 289.0829861910233,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 16.70017720629979
+      },
+      {
+        "roll_deg": -18,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.014265847744427303,
+        "rod_axial_force_N": 35.048740807942245,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 137.74352474375945
+      },
+      {
+        "roll_deg": -18,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.014265847744427303,
+        "rod_axial_force_N": 91.12672610064983,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 52.978278747599795
+      },
+      {
+        "roll_deg": -18,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.014265847744427303,
+        "rod_axial_force_N": 140.19496323176898,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 34.43588118593986
+      },
+      {
+        "roll_deg": -18,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.014265847744427303,
+        "rod_axial_force_N": 287.39967462512635,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 16.79799082240969
+      },
+      {
+        "roll_deg": -17,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.014344571339445531,
+        "rod_axial_force_N": 34.85639188290494,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 138.50363838387221
+      },
+      {
+        "roll_deg": -17,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.014344571339445531,
+        "rod_axial_force_N": 90.62661889555284,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 53.27063014764316
+      },
+      {
+        "roll_deg": -17,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.014344571339445531,
+        "rod_axial_force_N": 139.42556753161975,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 34.625909595968054
+      },
+      {
+        "roll_deg": -17,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.014344571339445531,
+        "rod_axial_force_N": 285.8224134398205,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 16.890687607789296
+      },
+      {
+        "roll_deg": -16,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.014418925439074783,
+        "rod_axial_force_N": 34.67664786205341,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 139.22156247401838
+      },
+      {
+        "roll_deg": -16,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.014418925439074783,
+        "rod_axial_force_N": 90.15928444133885,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 53.54675479769938
+      },
+      {
+        "roll_deg": -16,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.014418925439074783,
+        "rod_axial_force_N": 138.70659144821363,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 34.805390618504596
+      },
+      {
+        "roll_deg": -16,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.014418925439074783,
+        "rod_axial_force_N": 284.3485124688379,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 16.978239326099803
+      },
+      {
+        "roll_deg": -15,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.014488887394336025,
+        "rod_axial_force_N": 34.509206013669434,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 139.89707832756542
+      },
+      {
+        "roll_deg": -15,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.014488887394336025,
+        "rod_axial_force_N": 89.72393563554053,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 53.80656858752516
+      },
+      {
+        "roll_deg": -15,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.014488887394336025,
+        "rod_axial_force_N": 138.03682405467774,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 34.974269581891356
+      },
+      {
+        "roll_deg": -15,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.014488887394336025,
+        "rod_axial_force_N": 282.97548931208934,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 17.060619308239687
+      },
+      {
+        "roll_deg": -14,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.014554435894139947,
+        "rod_axial_force_N": 34.3537876449966,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 140.52998017584042
+      },
+      {
+        "roll_deg": -14,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.014554435894139947,
+        "rod_axial_force_N": 89.31984787699118,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 54.049992375323235
+      },
+      {
+        "roll_deg": -14,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.014554435894139947,
+        "rod_axial_force_N": 137.4151505799864,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 35.132495043960105
+      },
+      {
+        "roll_deg": -14,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.014554435894139947,
+        "rod_axial_force_N": 281.7010586889721,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 17.137802460468347
+      },
+      {
+        "roll_deg": -13,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.014615550971778529,
+        "rod_axial_force_N": 34.21013692644639,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 141.1200752308094
+      },
+      {
+        "roll_deg": -13,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.014615550971778529,
+        "rod_axial_force_N": 88.9463560087606,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 54.276952011849765
+      },
+      {
+        "roll_deg": -13,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.014615550971778529,
+        "rod_axial_force_N": 136.84054770578555,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 35.28001880770235
+      },
+      {
+        "roll_deg": -13,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.014615550971778529,
+        "rod_axial_force_N": 280.5231227968603,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 17.20976527204993
+      },
+      {
+        "roll_deg": -12,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.014672214011007085,
+        "rod_axial_force_N": 34.07801982883431,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 141.66718374380218
+      },
+      {
+        "roll_deg": -12,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.014672214011007085,
+        "rod_axial_force_N": 88.6028515549692,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 54.487378363000836
+      },
+      {
+        "roll_deg": -12,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.014672214011007085,
+        "rod_axial_force_N": 136.31207931533723,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 35.416795935950546
+      },
+      {
+        "roll_deg": -12,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.014672214011007085,
+        "rod_axial_force_N": 279.4397625964413,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 17.2764858224149
+      },
+      {
+        "roll_deg": -11,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.01472440775171496,
+        "rod_axial_force_N": 33.95722316517381,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 142.1711390602658
+      },
+      {
+        "roll_deg": -11,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.01472440775171496,
+        "rod_axial_force_N": 88.2887802294519,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 54.68120733087146
+      },
+      {
+        "roll_deg": -11,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.01472440775171496,
+        "rod_axial_force_N": 135.82889266069523,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 35.54278476506645
+      },
+      {
+        "roll_deg": -11,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.01472440775171496,
+        "rod_axial_force_N": 278.4492299544252,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 17.337943787837293
+      },
+      {
+        "roll_deg": -10,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.01477211629518312,
+        "rod_axial_force_N": 33.84755372952483,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 142.6317876705289
+      },
+      {
+        "roll_deg": -10,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.01477211629518312,
+        "rod_axial_force_N": 88.00363969676458,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 54.858379873280334
+      },
+      {
+        "roll_deg": -10,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.01477211629518312,
+        "rod_axial_force_N": 135.39021491809933,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 35.65794691763222
+      },
+      {
+        "roll_deg": -10,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.01477211629518312,
+        "rod_axial_force_N": 277.54994058210366,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 17.394120447625472
+      },
+      {
+        "roll_deg": -9,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.014815325108927066,
+        "rod_axial_force_N": 33.74883752626676,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 143.0489892565624
+      },
+      {
+        "roll_deg": -9,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.014815325108927066,
+        "rod_axial_force_N": 87.74697756829359,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 55.01884202175477
+      },
+      {
+        "roll_deg": -9,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.014815325108927066,
+        "rod_axial_force_N": 134.99535010506705,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 35.7622473141406
+      },
+      {
+        "roll_deg": -9,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.014815325108927066,
+        "rod_axial_force_N": 276.74046771538747,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 17.444998689824683
+      },
+      {
+        "roll_deg": -8,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.014854021031123555,
+        "rod_axial_force_N": 33.660919083953935,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 143.4226167347217
+      },
+      {
+        "roll_deg": -8,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.014854021031123555,
+        "rod_axial_force_N": 87.51838961828024,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 55.16254489796987
+      },
+      {
+        "roll_deg": -8,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.014854021031123555,
+        "rod_axial_force_N": 134.64367633581574,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 35.85565418368042
+      },
+      {
+        "roll_deg": -8,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.014854021031123555,
+        "rod_axial_force_N": 276.01953648842226,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 17.490563016429473
+      },
+      {
+        "roll_deg": -7,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.014888192274619828,
+        "rod_axial_force_N": 33.583660848628284,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 143.75255629445746
+      },
+      {
+        "roll_deg": -7,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.014888192274619828,
+        "rod_axial_force_N": 87.31751820643353,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 55.289444728637484
+      },
+      {
+        "roll_deg": -7,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.014888192274619828,
+        "rod_axial_force_N": 134.33464339451314,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 35.938139073614366
+      },
+      {
+        "roll_deg": -7,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.014888192274619828,
+        "rod_axial_force_N": 275.3860189587519,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 17.53079954810457
+      },
+      {
+        "roll_deg": -6,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.014917828430524098,
+        "rod_axial_force_N": 33.516942652117216,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 144.0387074329837
+      },
+      {
+        "roll_deg": -6,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.014917828430524098,
+        "rod_axial_force_N": 87.14405089550476,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 55.39950285883988
+      },
+      {
+        "roll_deg": -6,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.014917828430524098,
+        "rod_axial_force_N": 134.06777060846886,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 36.009676858245925
+      },
+      {
+        "roll_deg": -6,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.014917828430524098,
+        "rod_axial_force_N": 274.83892974736114,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 17.56569602841265
+      },
+      {
+        "roll_deg": -5,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.014942920471376183,
+        "rod_axial_force_N": 33.46066125144491,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 144.28098298589157
+      },
+      {
+        "roll_deg": -5,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.014942920471376183,
+        "rod_axial_force_N": 86.99771925375677,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 55.492685763804445
+      },
+      {
+        "roll_deg": -5,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.014942920471376183,
+        "rod_axial_force_N": 133.84264500577964,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 36.07024574647289
+      },
+      {
+        "roll_deg": -5,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.014942920471376183,
+        "rod_axial_force_N": 274.37742226184827,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 17.595241827547753
+      },
+      {
+        "roll_deg": -4,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.014963460753897363,
+        "rod_axial_force_N": 33.41472993603907,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 144.47930915370063
+      },
+      {
+        "roll_deg": -4,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.014963460753897363,
+        "rod_axial_force_N": 86.8782978337016,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 55.56896505911562
+      },
+      {
+        "roll_deg": -4,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.014963460753897363,
+        "rod_axial_force_N": 133.6589197441563,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 36.11982728842516
+      },
+      {
+        "roll_deg": -4,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.014963460753897363,
+        "rod_axial_force_N": 274.0007854755204,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 17.619427945573246
+      },
+      {
+        "roll_deg": -3,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.014979443021318607,
+        "rod_axial_force_N": 33.3790781999307,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 144.63362552433898
+      },
+      {
+        "roll_deg": -3,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.014979443021318607,
+        "rod_axial_force_N": 86.78560331981983,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 55.628317509361146
+      },
+      {
+        "roll_deg": -3,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.014979443021318607,
+        "rod_axial_force_N": 133.5163127997228,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 36.158406381084745
+      },
+      {
+        "roll_deg": -3,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.014979443021318607,
+        "rod_axial_force_N": 273.70844123943175,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 17.63824701516329
+      },
+      {
+        "roll_deg": -2,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.014990862405286435,
+        "rod_axial_force_N": 33.35365147662739,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 144.74388509154528
+      },
+      {
+        "roll_deg": -2,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.014990862405286435,
+        "rod_axial_force_N": 86.71949383923123,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 55.670725035209706
+      },
+      {
+        "roll_deg": -2,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.014990862405286435,
+        "rod_axial_force_N": 133.41460590650956,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 36.18597127288632
+      },
+      {
+        "roll_deg": -2,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.014990862405286435,
+        "rod_axial_force_N": 273.4999421083446,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 17.651693303846983
+      },
+      {
+        "roll_deg": -1,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.014997715427345869,
+        "rod_axial_force_N": 33.33841093479692,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 144.81005426918716
+      },
+      {
+        "roll_deg": -1,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.014997715427345869,
+        "rod_axial_force_N": 86.679868430472,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 55.69617471891813
+      },
+      {
+        "roll_deg": -1,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.014997715427345869,
+        "rod_axial_force_N": 133.35364373918767,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 36.20251356729679
+      },
+      {
+        "roll_deg": -1,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.014997715427345869,
+        "rod_axial_force_N": 273.37496966533473,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 17.659762715754532
+      },
+      {
+        "roll_deg": 0,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.015,
+        "rod_axial_force_N": 33.333333333333336,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 144.8321129014921
+      },
+      {
+        "roll_deg": 0,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.015,
+        "rod_axial_force_N": 86.66666666666667,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 55.7046588082662
+      },
+      {
+        "roll_deg": 0,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.015,
+        "rod_axial_force_N": 133.33333333333334,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 36.20802822537303
+      },
+      {
+        "roll_deg": 0,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.015,
+        "rod_axial_force_N": 273.3333333333333,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 17.662452792864894
+      },
+      {
+        "roll_deg": 1,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.014997715427345869,
+        "rod_axial_force_N": 33.33841093479692,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 144.81005426918716
+      },
+      {
+        "roll_deg": 1,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.014997715427345869,
+        "rod_axial_force_N": 86.679868430472,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 55.69617471891813
+      },
+      {
+        "roll_deg": 1,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.014997715427345869,
+        "rod_axial_force_N": 133.35364373918767,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 36.20251356729679
+      },
+      {
+        "roll_deg": 1,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.014997715427345869,
+        "rod_axial_force_N": 273.37496966533473,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 17.659762715754532
+      },
+      {
+        "roll_deg": 2,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.014990862405286435,
+        "rod_axial_force_N": 33.35365147662739,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 144.74388509154528
+      },
+      {
+        "roll_deg": 2,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.014990862405286435,
+        "rod_axial_force_N": 86.71949383923123,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 55.670725035209706
+      },
+      {
+        "roll_deg": 2,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.014990862405286435,
+        "rod_axial_force_N": 133.41460590650956,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 36.18597127288632
+      },
+      {
+        "roll_deg": 2,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.014990862405286435,
+        "rod_axial_force_N": 273.4999421083446,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 17.651693303846983
+      },
+      {
+        "roll_deg": 3,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.014979443021318607,
+        "rod_axial_force_N": 33.3790781999307,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 144.63362552433898
+      },
+      {
+        "roll_deg": 3,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.014979443021318607,
+        "rod_axial_force_N": 86.78560331981983,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 55.628317509361146
+      },
+      {
+        "roll_deg": 3,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.014979443021318607,
+        "rod_axial_force_N": 133.5163127997228,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 36.158406381084745
+      },
+      {
+        "roll_deg": 3,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.014979443021318607,
+        "rod_axial_force_N": 273.70844123943175,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 17.63824701516329
+      },
+      {
+        "roll_deg": 4,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.014963460753897363,
+        "rod_axial_force_N": 33.41472993603907,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 144.47930915370063
+      },
+      {
+        "roll_deg": 4,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.014963460753897363,
+        "rod_axial_force_N": 86.8782978337016,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 55.56896505911562
+      },
+      {
+        "roll_deg": 4,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.014963460753897363,
+        "rod_axial_force_N": 133.6589197441563,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 36.11982728842516
+      },
+      {
+        "roll_deg": 4,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.014963460753897363,
+        "rod_axial_force_N": 274.0007854755204,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 17.619427945573246
+      },
+      {
+        "roll_deg": 5,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.014942920471376183,
+        "rod_axial_force_N": 33.46066125144491,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 144.28098298589157
+      },
+      {
+        "roll_deg": 5,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.014942920471376183,
+        "rod_axial_force_N": 86.99771925375677,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 55.492685763804445
+      },
+      {
+        "roll_deg": 5,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.014942920471376183,
+        "rod_axial_force_N": 133.84264500577964,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 36.07024574647289
+      },
+      {
+        "roll_deg": 5,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.014942920471376183,
+        "rod_axial_force_N": 274.37742226184827,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 17.595241827547753
+      },
+      {
+        "roll_deg": 6,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.014917828430524098,
+        "rod_axial_force_N": 33.516942652117216,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 144.0387074329837
+      },
+      {
+        "roll_deg": 6,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.014917828430524098,
+        "rod_axial_force_N": 87.14405089550476,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 55.39950285883988
+      },
+      {
+        "roll_deg": 6,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.014917828430524098,
+        "rod_axial_force_N": 134.06777060846886,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 36.009676858245925
+      },
+      {
+        "roll_deg": 6,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.014917828430524098,
+        "rod_axial_force_N": 274.83892974736114,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 17.56569602841265
+      },
+      {
+        "roll_deg": 7,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.014888192274619828,
+        "rod_axial_force_N": 33.583660848628284,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 143.75255629445746
+      },
+      {
+        "roll_deg": 7,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.014888192274619828,
+        "rod_axial_force_N": 87.31751820643353,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 55.289444728637484
+      },
+      {
+        "roll_deg": 7,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.014888192274619828,
+        "rod_axial_force_N": 134.33464339451314,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 35.938139073614366
+      },
+      {
+        "roll_deg": 7,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.014888192274619828,
+        "rod_axial_force_N": 275.3860189587519,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 17.53079954810457
+      },
+      {
+        "roll_deg": 8,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.014854021031123555,
+        "rod_axial_force_N": 33.660919083953935,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 143.4226167347217
+      },
+      {
+        "roll_deg": 8,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.014854021031123555,
+        "rod_axial_force_N": 87.51838961828024,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 55.16254489796987
+      },
+      {
+        "roll_deg": 8,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.014854021031123555,
+        "rod_axial_force_N": 134.64367633581574,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 35.85565418368042
+      },
+      {
+        "roll_deg": 8,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.014854021031123555,
+        "rod_axial_force_N": 276.01953648842226,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 17.490563016429473
+      },
+      {
+        "roll_deg": 9,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.014815325108927066,
+        "rod_axial_force_N": 33.74883752626676,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 143.0489892565624
+      },
+      {
+        "roll_deg": 9,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.014815325108927066,
+        "rod_axial_force_N": 87.74697756829359,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 55.01884202175477
+      },
+      {
+        "roll_deg": 9,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.014815325108927066,
+        "rod_axial_force_N": 134.99535010506705,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 35.7622473141406
+      },
+      {
+        "roll_deg": 9,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.014815325108927066,
+        "rod_axial_force_N": 276.74046771538747,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 17.444998689824683
+      },
+      {
+        "roll_deg": 10,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.01477211629518312,
+        "rod_axial_force_N": 33.84755372952483,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 142.6317876705289
+      },
+      {
+        "roll_deg": 10,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.01477211629518312,
+        "rod_axial_force_N": 88.00363969676458,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 54.858379873280334
+      },
+      {
+        "roll_deg": 10,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.01477211629518312,
+        "rod_axial_force_N": 135.39021491809933,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 35.65794691763222
+      },
+      {
+        "roll_deg": 10,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.01477211629518312,
+        "rod_axial_force_N": 277.54994058210366,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 17.394120447625472
+      },
+      {
+        "roll_deg": 11,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.01472440775171496,
+        "rod_axial_force_N": 33.95722316517381,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 142.1711390602658
+      },
+      {
+        "roll_deg": 11,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.01472440775171496,
+        "rod_axial_force_N": 88.2887802294519,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 54.68120733087146
+      },
+      {
+        "roll_deg": 11,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.01472440775171496,
+        "rod_axial_force_N": 135.82889266069523,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 35.54278476506645
+      },
+      {
+        "roll_deg": 11,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.01472440775171496,
+        "rod_axial_force_N": 278.4492299544252,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 17.337943787837293
+      },
+      {
+        "roll_deg": 12,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.014672214011007085,
+        "rod_axial_force_N": 34.07801982883431,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 141.66718374380218
+      },
+      {
+        "roll_deg": 12,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.014672214011007085,
+        "rod_axial_force_N": 88.6028515549692,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 54.487378363000836
+      },
+      {
+        "roll_deg": 12,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.014672214011007085,
+        "rod_axial_force_N": 136.31207931533723,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 35.416795935950546
+      },
+      {
+        "roll_deg": 12,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.014672214011007085,
+        "rod_axial_force_N": 279.4397625964413,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 17.2764858224149
+      },
+      {
+        "roll_deg": 13,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.014615550971778529,
+        "rod_axial_force_N": 34.21013692644639,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 141.1200752308094
+      },
+      {
+        "roll_deg": 13,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.014615550971778529,
+        "rod_axial_force_N": 88.9463560087606,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 54.276952011849765
+      },
+      {
+        "roll_deg": 13,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.014615550971778529,
+        "rod_axial_force_N": 136.84054770578555,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 35.28001880770235
+      },
+      {
+        "roll_deg": 13,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.014615550971778529,
+        "rod_axial_force_N": 280.5231227968603,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 17.20976527204993
+      },
+      {
+        "roll_deg": 14,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.014554435894139947,
+        "rod_axial_force_N": 34.3537876449966,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 140.52998017584042
+      },
+      {
+        "roll_deg": 14,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.014554435894139947,
+        "rod_axial_force_N": 89.31984787699118,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 54.049992375323235
+      },
+      {
+        "roll_deg": 14,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.014554435894139947,
+        "rod_axial_force_N": 137.4151505799864,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 35.132495043960105
+      },
+      {
+        "roll_deg": 14,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.014554435894139947,
+        "rod_axial_force_N": 281.7010586889721,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 17.137802460468347
+      },
+      {
+        "roll_deg": 15,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.014488887394336025,
+        "rod_axial_force_N": 34.509206013669434,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 139.89707832756542
+      },
+      {
+        "roll_deg": 15,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.014488887394336025,
+        "rod_axial_force_N": 89.72393563554053,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 53.80656858752516
+      },
+      {
+        "roll_deg": 15,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.014488887394336025,
+        "rod_axial_force_N": 138.03682405467774,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 34.974269581891356
+      },
+      {
+        "roll_deg": 15,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.014488887394336025,
+        "rod_axial_force_N": 282.97548931208934,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 17.060619308239687
+      },
+      {
+        "roll_deg": 16,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.014418925439074783,
+        "rod_axial_force_N": 34.67664786205341,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 139.22156247401838
+      },
+      {
+        "roll_deg": 16,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.014418925439074783,
+        "rod_axial_force_N": 90.15928444133885,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 53.54675479769938
+      },
+      {
+        "roll_deg": 16,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.014418925439074783,
+        "rod_axial_force_N": 138.70659144821363,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 34.805390618504596
+      },
+      {
+        "roll_deg": 16,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.014418925439074783,
+        "rod_axial_force_N": 284.3485124688379,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 16.978239326099803
+      },
+      {
+        "roll_deg": 17,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.014344571339445531,
+        "rod_axial_force_N": 34.85639188290494,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 138.50363838387221
+      },
+      {
+        "roll_deg": 17,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.014344571339445531,
+        "rod_axial_force_N": 90.62661889555284,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 53.27063014764316
+      },
+      {
+        "roll_deg": 17,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.014344571339445531,
+        "rod_axial_force_N": 139.42556753161975,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 34.625909595968054
+      },
+      {
+        "roll_deg": 17,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.014344571339445531,
+        "rod_axial_force_N": 285.8224134398205,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 16.890687607789296
+      },
+      {
+        "roll_deg": 18,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.014265847744427303,
+        "rod_axial_force_N": 35.048740807942245,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 137.74352474375945
+      },
+      {
+        "roll_deg": 18,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.014265847744427303,
+        "rod_axial_force_N": 91.12672610064983,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 52.978278747599795
+      },
+      {
+        "roll_deg": 18,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.014265847744427303,
+        "rod_axial_force_N": 140.19496323176898,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 34.43588118593986
+      },
+      {
+        "roll_deg": 18,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.014265847744427303,
+        "rod_axial_force_N": 287.39967462512635,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 16.79799082240969
+      },
+      {
+        "roll_deg": 19,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.014182778633989751,
+        "rod_axial_force_N": 35.25402270622236,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 136.94145309165827
+      },
+      {
+        "roll_deg": 19,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.014182778633989751,
+        "rod_axial_force_N": 91.66045903617812,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 52.669789650637796
+      },
+      {
+        "roll_deg": 19,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.014182778633989751,
+        "rod_axial_force_N": 141.01609082488943,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 34.23536327291457
+      },
+      {
+        "roll_deg": 19,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.014182778633989751,
+        "rod_axial_force_N": 289.0829861910233,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 16.70017720629979
+      },
+      {
+        "roll_deg": 20,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.014095389311788626,
+        "rod_axial_force_N": 35.47259241586374,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 136.09766774636373
+      },
+      {
+        "roll_deg": 20,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.014095389311788626,
+        "rod_axial_force_N": 92.22874028124572,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 52.3452568255245
+      },
+      {
+        "roll_deg": 20,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.014095389311788626,
+        "rod_axial_force_N": 141.89036966345495,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 34.02441693659093
+      },
+      {
+        "roll_deg": 20,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.014095389311788626,
+        "rod_axial_force_N": 290.87525781008264,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 16.5972765544346
+      },
+      {
+        "roll_deg": 21,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.014003706397458026,
+        "rod_axial_force_N": 35.7048331212343,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 135.21242573306588
+      },
+      {
+        "roll_deg": 21,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.014003706397458026,
+        "rod_axial_force_N": 92.83256611520919,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 52.004779128102264
+      },
+      {
+        "roll_deg": 21,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.014003706397458026,
+        "rod_axial_force_N": 142.8193324849372,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 33.80310643326647
+      },
+      {
+        "roll_deg": 21,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.014003706397458026,
+        "rod_axial_force_N": 292.77963159412127,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 16.4893202113495
+      },
+      {
+        "roll_deg": 22,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.013907757818501811,
+        "rod_axial_force_N": 35.95115808925278,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 134.2859967050576
+      },
+      {
+        "roll_deg": 22,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.013907757818501811,
+        "rod_axial_force_N": 93.47301103205723,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 51.648460271176006
+      },
+      {
+        "roll_deg": 22,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.013907757818501811,
+        "rod_axial_force_N": 143.80463235701112,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 33.5714991762644
+      },
+      {
+        "roll_deg": 22,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.013907757818501811,
+        "rod_axial_force_N": 294.7994963318728,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 16.37634106159239
+      },
+      {
+        "roll_deg": 23,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.013807572801786605,
+        "rod_axial_force_N": 36.21201258017654,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 133.3186628615953
+      },
+      {
+        "roll_deg": 23,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.013807572801786605,
+        "rod_axial_force_N": 94.15123270845902,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 51.276408792921266
+      },
+      {
+        "roll_deg": 23,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.013807572801786605,
+        "rod_axial_force_N": 144.84805032070616,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 33.329665715398825
+      },
+      {
+        "roll_deg": 23,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.013807572801786605,
+        "rod_axial_force_N": 296.9385031574476,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 16.258373519706748
+      },
+      {
+        "roll_deg": 24,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.013703181864639013,
+        "rod_axial_force_N": 36.487875950201555,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 132.31071886193848
+      },
+      {
+        "roll_deg": 24,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.013703181864639013,
+        "rod_axial_force_N": 94.86847747052406,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 50.888738023822484
+      },
+      {
+        "roll_deg": 24,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.013703181864639013,
+        "rod_axial_force_N": 145.95150380080622,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 33.07767971548462
+      },
+      {
+        "roll_deg": 24,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.013703181864639013,
+        "rod_axial_force_N": 299.2005827916528,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 16.135453519748594
+      },
+      {
+        "roll_deg": 25,
+        "torque_Nm": 0.5,
+        "effective_lever_m": 0.013594616805549749,
+        "rod_axial_force_N": 36.77926396541639,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 131.26247173559358
+      },
+      {
+        "roll_deg": 25,
+        "torque_Nm": 1.3,
+        "effective_lever_m": 0.013594616805549749,
+        "rod_axial_force_N": 95.62608631008263,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 50.48556605215137
+      },
+      {
+        "roll_deg": 25,
+        "torque_Nm": 2.0,
+        "effective_lever_m": 0.013594616805549749,
+        "rod_axial_force_N": 147.11705586166556,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 32.815617933898395
+      },
+      {
+        "roll_deg": 25,
+        "torque_Nm": 4.1,
+        "effective_lever_m": 0.013594616805549749,
+        "rod_axial_force_N": 301.5899645164144,
+        "ideal_Euler_buckling_load_N": 4827.737096716404,
+        "ideal_buckling_ratio": 16.00761850434068
+      }
+    ],
+    "ideal_rod_buckling_load_N": 4827.737096716404,
+    "max_rod_force_N": 301.5899645164144,
+    "minimum_ideal_buckling_ratio": 16.00761850434068,
+    "external_crank_support_required": true,
+    "note": "1:1 equal-radius ideal parallel crank. Joint play, misalignment, crank bending, pin/rod-end ratings and motor torque-speed remain absent."
+  },
+  "gauntlet_contact": {
+    "rows": [
+      {
+        "robot_mass_kg": 3.708,
+        "load_multiplier": 1,
+        "total_per_arm_vertical_N": 12.731418,
+        "pad_stiffness_each_N_mm": 25,
+        "gauntlet_force_N": 12.615709,
+        "palm_force_N": 0.11570899999999995,
+        "gauntlet_displacement_mm": 0.50462836,
+        "wrist_torque_from_palm_Nm": 0.003239851999999999,
+        "force_balance_residual_N": 1.7763568394002505e-15
+      },
+      {
+        "robot_mass_kg": 3.708,
+        "load_multiplier": 1,
+        "total_per_arm_vertical_N": 12.731418,
+        "pad_stiffness_each_N_mm": 50,
+        "gauntlet_force_N": 12.731418,
+        "palm_force_N": 0,
+        "gauntlet_displacement_mm": 0.25462836,
+        "wrist_torque_from_palm_Nm": 0.0,
+        "force_balance_residual_N": 0.0
+      },
+      {
+        "robot_mass_kg": 3.708,
+        "load_multiplier": 1,
+        "total_per_arm_vertical_N": 12.731418,
+        "pad_stiffness_each_N_mm": 100,
+        "gauntlet_force_N": 12.731418,
+        "palm_force_N": 0,
+        "gauntlet_displacement_mm": 0.12731418,
+        "wrist_torque_from_palm_Nm": 0.0,
+        "force_balance_residual_N": 0.0
+      },
+      {
+        "robot_mass_kg": 3.708,
+        "load_multiplier": 2,
+        "total_per_arm_vertical_N": 25.462836,
+        "pad_stiffness_each_N_mm": 25,
+        "gauntlet_force_N": 18.981417999999998,
+        "palm_force_N": 6.481417999999997,
+        "gauntlet_displacement_mm": 0.7592567199999999,
+        "wrist_torque_from_palm_Nm": 0.1814797039999999,
+        "force_balance_residual_N": -3.552713678800501e-15
+      },
+      {
+        "robot_mass_kg": 3.708,
+        "load_multiplier": 2,
+        "total_per_arm_vertical_N": 25.462836,
+        "pad_stiffness_each_N_mm": 50,
+        "gauntlet_force_N": 25.231418,
+        "palm_force_N": 0.2314179999999999,
+        "gauntlet_displacement_mm": 0.50462836,
+        "wrist_torque_from_palm_Nm": 0.006479703999999998,
+        "force_balance_residual_N": 3.552713678800501e-15
+      },
+      {
+        "robot_mass_kg": 3.708,
+        "load_multiplier": 2,
+        "total_per_arm_vertical_N": 25.462836,
+        "pad_stiffness_each_N_mm": 100,
+        "gauntlet_force_N": 25.462836,
+        "palm_force_N": 0,
+        "gauntlet_displacement_mm": 0.25462836,
+        "wrist_torque_from_palm_Nm": 0.0,
+        "force_balance_residual_N": 0.0
+      },
+      {
+        "robot_mass_kg": 3.708,
+        "load_multiplier": 3,
+        "total_per_arm_vertical_N": 38.194254,
+        "pad_stiffness_each_N_mm": 25,
+        "gauntlet_force_N": 25.347127000000004,
+        "palm_force_N": 12.847127000000002,
+        "gauntlet_displacement_mm": 1.01388508,
+        "wrist_torque_from_palm_Nm": 0.35971955600000005,
+        "force_balance_residual_N": 7.105427357601002e-15
+      },
+      {
+        "robot_mass_kg": 3.708,
+        "load_multiplier": 3,
+        "total_per_arm_vertical_N": 38.194254,
+        "pad_stiffness_each_N_mm": 50,
+        "gauntlet_force_N": 31.597127000000004,
+        "palm_force_N": 6.597127000000002,
+        "gauntlet_displacement_mm": 0.63194254,
+        "wrist_torque_from_palm_Nm": 0.18471955600000006,
+        "force_balance_residual_N": 7.105427357601002e-15
+      },
+      {
+        "robot_mass_kg": 3.708,
+        "load_multiplier": 3,
+        "total_per_arm_vertical_N": 38.194254,
+        "pad_stiffness_each_N_mm": 100,
+        "gauntlet_force_N": 38.194254,
+        "palm_force_N": 0,
+        "gauntlet_displacement_mm": 0.38194254,
+        "wrist_torque_from_palm_Nm": 0.0,
+        "force_balance_residual_N": 0.0
+      },
+      {
+        "robot_mass_kg": 4.0,
+        "load_multiplier": 1,
+        "total_per_arm_vertical_N": 13.734,
+        "pad_stiffness_each_N_mm": 25,
+        "gauntlet_force_N": 13.117,
+        "palm_force_N": 0.6170000000000009,
+        "gauntlet_displacement_mm": 0.52468,
+        "wrist_torque_from_palm_Nm": 0.017276000000000024,
+        "force_balance_residual_N": 1.7763568394002505e-15
+      },
+      {
+        "robot_mass_kg": 4.0,
+        "load_multiplier": 1,
+        "total_per_arm_vertical_N": 13.734,
+        "pad_stiffness_each_N_mm": 50,
+        "gauntlet_force_N": 13.734,
+        "palm_force_N": 0,
+        "gauntlet_displacement_mm": 0.27468,
+        "wrist_torque_from_palm_Nm": 0.0,
+        "force_balance_residual_N": 0.0
+      },
+      {
+        "robot_mass_kg": 4.0,
+        "load_multiplier": 1,
+        "total_per_arm_vertical_N": 13.734,
+        "pad_stiffness_each_N_mm": 100,
+        "gauntlet_force_N": 13.734,
+        "palm_force_N": 0,
+        "gauntlet_displacement_mm": 0.13734,
+        "wrist_torque_from_palm_Nm": 0.0,
+        "force_balance_residual_N": 0.0
+      },
+      {
+        "robot_mass_kg": 4.0,
+        "load_multiplier": 2,
+        "total_per_arm_vertical_N": 27.468,
+        "pad_stiffness_each_N_mm": 25,
+        "gauntlet_force_N": 19.984,
+        "palm_force_N": 7.484000000000002,
+        "gauntlet_displacement_mm": 0.7993600000000001,
+        "wrist_torque_from_palm_Nm": 0.20955200000000004,
+        "force_balance_residual_N": 3.552713678800501e-15
+      },
+      {
+        "robot_mass_kg": 4.0,
+        "load_multiplier": 2,
+        "total_per_arm_vertical_N": 27.468,
+        "pad_stiffness_each_N_mm": 50,
+        "gauntlet_force_N": 26.234,
+        "palm_force_N": 1.2340000000000018,
+        "gauntlet_displacement_mm": 0.52468,
+        "wrist_torque_from_palm_Nm": 0.03455200000000005,
+        "force_balance_residual_N": 3.552713678800501e-15
+      },
+      {
+        "robot_mass_kg": 4.0,
+        "load_multiplier": 2,
+        "total_per_arm_vertical_N": 27.468,
+        "pad_stiffness_each_N_mm": 100,
+        "gauntlet_force_N": 27.468,
+        "palm_force_N": 0,
+        "gauntlet_displacement_mm": 0.27468,
+        "wrist_torque_from_palm_Nm": 0.0,
+        "force_balance_residual_N": 0.0
+      },
+      {
+        "robot_mass_kg": 4.0,
+        "load_multiplier": 3,
+        "total_per_arm_vertical_N": 41.202,
+        "pad_stiffness_each_N_mm": 25,
+        "gauntlet_force_N": 26.850999999999996,
+        "palm_force_N": 14.350999999999997,
+        "gauntlet_displacement_mm": 1.0740399999999999,
+        "wrist_torque_from_palm_Nm": 0.4018279999999999,
+        "force_balance_residual_N": -7.105427357601002e-15
+      },
+      {
+        "robot_mass_kg": 4.0,
+        "load_multiplier": 3,
+        "total_per_arm_vertical_N": 41.202,
+        "pad_stiffness_each_N_mm": 50,
+        "gauntlet_force_N": 33.101,
+        "palm_force_N": 8.100999999999997,
+        "gauntlet_displacement_mm": 0.6620199999999999,
+        "wrist_torque_from_palm_Nm": 0.22682799999999992,
+        "force_balance_residual_N": 0.0
+      },
+      {
+        "robot_mass_kg": 4.0,
+        "load_multiplier": 3,
+        "total_per_arm_vertical_N": 41.202,
+        "pad_stiffness_each_N_mm": 100,
+        "gauntlet_force_N": 41.202,
+        "palm_force_N": 0,
+        "gauntlet_displacement_mm": 0.41202,
+        "wrist_torque_from_palm_Nm": 0.0,
+        "force_balance_residual_N": 0.0
+      },
+      {
+        "robot_mass_kg": 4.5,
+        "load_multiplier": 1,
+        "total_per_arm_vertical_N": 15.45075,
+        "pad_stiffness_each_N_mm": 25,
+        "gauntlet_force_N": 13.975375000000001,
+        "palm_force_N": 1.475375000000001,
+        "gauntlet_displacement_mm": 0.559015,
+        "wrist_torque_from_palm_Nm": 0.04131050000000003,
+        "force_balance_residual_N": 3.552713678800501e-15
+      },
+      {
+        "robot_mass_kg": 4.5,
+        "load_multiplier": 1,
+        "total_per_arm_vertical_N": 15.45075,
+        "pad_stiffness_each_N_mm": 50,
+        "gauntlet_force_N": 15.45075,
+        "palm_force_N": 0,
+        "gauntlet_displacement_mm": 0.309015,
+        "wrist_torque_from_palm_Nm": 0.0,
+        "force_balance_residual_N": 0.0
+      },
+      {
+        "robot_mass_kg": 4.5,
+        "load_multiplier": 1,
+        "total_per_arm_vertical_N": 15.45075,
+        "pad_stiffness_each_N_mm": 100,
+        "gauntlet_force_N": 15.45075,
+        "palm_force_N": 0,
+        "gauntlet_displacement_mm": 0.1545075,
+        "wrist_torque_from_palm_Nm": 0.0,
+        "force_balance_residual_N": 0.0
+      },
+      {
+        "robot_mass_kg": 4.5,
+        "load_multiplier": 2,
+        "total_per_arm_vertical_N": 30.9015,
+        "pad_stiffness_each_N_mm": 25,
+        "gauntlet_force_N": 21.70075,
+        "palm_force_N": 9.20075,
+        "gauntlet_displacement_mm": 0.86803,
+        "wrist_torque_from_palm_Nm": 0.257621,
+        "force_balance_residual_N": 0.0
+      },
+      {
+        "robot_mass_kg": 4.5,
+        "load_multiplier": 2,
+        "total_per_arm_vertical_N": 30.9015,
+        "pad_stiffness_each_N_mm": 50,
+        "gauntlet_force_N": 27.950750000000003,
+        "palm_force_N": 2.950750000000002,
+        "gauntlet_displacement_mm": 0.559015,
+        "wrist_torque_from_palm_Nm": 0.08262100000000006,
+        "force_balance_residual_N": 7.105427357601002e-15
+      },
+      {
+        "robot_mass_kg": 4.5,
+        "load_multiplier": 2,
+        "total_per_arm_vertical_N": 30.9015,
+        "pad_stiffness_each_N_mm": 100,
+        "gauntlet_force_N": 30.9015,
+        "palm_force_N": 0,
+        "gauntlet_displacement_mm": 0.309015,
+        "wrist_torque_from_palm_Nm": 0.0,
+        "force_balance_residual_N": 0.0
+      },
+      {
+        "robot_mass_kg": 4.5,
+        "load_multiplier": 3,
+        "total_per_arm_vertical_N": 46.35225,
+        "pad_stiffness_each_N_mm": 25,
+        "gauntlet_force_N": 29.426125,
+        "palm_force_N": 16.926125,
+        "gauntlet_displacement_mm": 1.177045,
+        "wrist_torque_from_palm_Nm": 0.47393149999999995,
+        "force_balance_residual_N": 0.0
+      },
+      {
+        "robot_mass_kg": 4.5,
+        "load_multiplier": 3,
+        "total_per_arm_vertical_N": 46.35225,
+        "pad_stiffness_each_N_mm": 50,
+        "gauntlet_force_N": 35.676125,
+        "palm_force_N": 10.676124999999997,
+        "gauntlet_displacement_mm": 0.7135225,
+        "wrist_torque_from_palm_Nm": 0.2989314999999999,
+        "force_balance_residual_N": 0.0
+      },
+      {
+        "robot_mass_kg": 4.5,
+        "load_multiplier": 3,
+        "total_per_arm_vertical_N": 46.35225,
+        "pad_stiffness_each_N_mm": 100,
+        "gauntlet_force_N": 46.35225,
+        "palm_force_N": 0,
+        "gauntlet_displacement_mm": 0.4635225,
+        "wrist_torque_from_palm_Nm": 0.0,
+        "force_balance_residual_N": 0.0
+      }
+    ],
+    "primary_pad_max_force_N": 46.35225,
+    "bracket_nominal_bending_stress_MPa": 36.212695312499996,
+    "bracket_tip_deflection_mm": 0.05466892408288043,
+    "note": "Two equal linear pad stiffnesses with a height lead; floor and pad properties unmeasured. Stress is a nominal prismatic cantilever screen without holes/connection/contact concentration; no safety factor."
+  },
+  "mass_feedback": {
+    "two_ankle_motor_mass_kg": 0.544,
+    "two_ankle_nonmotor_geometry_kg": 0.322878723041071,
+    "known_two_ankles_total_before_unmodeled_kg": 0.866878723041071,
+    "global_structure_bearing_fastener_pool_kg": 0.55,
+    "nonmotor_geometry_fraction_of_global_pool": 0.5870522237110382,
+    "unmodeled_parts_remain": [
+      "bearings",
+      "shafts",
+      "horns",
+      "rod ends",
+      "fasteners",
+      "cables",
+      "rubber pads",
+      "PETG costume_shell"
+    ],
+    "note": "Only nonmotor geometry is compared to the nonmotor pool. Motors remain in the separate actuator budget."
+  },
+  "task_verified": false,
+  "limitations": [
+    "No complete get-up path",
+    "No roll inverse dynamics",
+    "No bearing/fastener selection",
+    "No fatigue/impact/thermal validation",
+    "No hard-surface or flip result"
+  ]
+}

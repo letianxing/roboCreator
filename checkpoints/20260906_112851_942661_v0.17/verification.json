@@ -1,0 +1,23 @@
+{
+  "id": "20260906_112851_942661_v0.17",
+  "stage": "v0.17",
+  "verified": true,
+  "file_count": 655,
+  "source_bytes": 1231952220,
+  "archive_bytes": 454590457,
+  "archive_sha256": "b291a03016f48b8c21f1768b0a5c33a7637401e5b149a9343ea4d11f6fcc9c66",
+  "archive": "checkpoints\\20260906_112851_942661_v0.17\\project.zip",
+  "passed_checks": [
+    "Five revised six-joint CAD/STEP configurations saved/reopened, link closure and known mass sums",
+    "v16 source hashes unchanged; every pair audited including earlier exclusions",
+    "Forearm pad is invariant to wrist joints; solved poses replay consistently in saved CAD",
+    "Five revised sagittal configurations: all modeled pairs have no positive common volume"
+  ],
+  "pending": [
+    "Validate revised bearing/shaft fits, vendor interfaces and physical joining of all rails/motors",
+    "Reduce knee/hip lateral package after outboard placement; attach physical bearing and rail interfaces",
+    "28 DOF shoulder-yaw candidate packing and mass; original 26 DOF failure is not global impossibility proof",
+    "Couple low-body pad poses to knees/feet, support forces and full recovery path",
+    "Complete dressed geometry, dynamics, electrical/thermal, cost and manufacturing validation"
+  ]
+}

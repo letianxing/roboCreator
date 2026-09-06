@@ -1,0 +1,29 @@
+{
+  "id": "20260906_104301_220622_v0.14",
+  "stage": "v0.14",
+  "verified": true,
+  "file_count": 495,
+  "source_bytes": 988791854,
+  "archive_bytes": 378867904,
+  "archive_sha256": "7a5099aa71ed5261c981e4fcfa6799a139d581474826b7e6cf545414ab1783e0",
+  "archive": "checkpoints\\20260906_104301_220622_v0.14\\project.zip",
+  "passed_checks": [
+    "v13 baseline category sum and 26 actuator count; baseline hash unchanged",
+    "v14 non-overlapping mass allocations and three candidate counts/sums",
+    "ideal height chain and foot width arithmetic, not physical packaging",
+    "static COM moment balance and assumed hand/contact force balance",
+    "36 vertical energy cases and 18 push-off impulse identities",
+    "runtime units, speed and overvoltage regression anchors; output reload",
+    "Seven independent regression and invalid-input tests"
+  ],
+  "pending": [
+    "Match real components to task envelope; 3 kg is advisory, added mass requires system review",
+    "Exact camera/mic/battery/driver configuration and measured masses",
+    "26 DOF sufficiency and full trajectory collision/IK with Wukong costume",
+    "Torque-speed-duration-current-temperature and gear shock limits",
+    "Manufacturable short-load-path ankle/wrist and support bearings",
+    "Contact friction, bottle grip and handover disturbances",
+    "Fullbody dynamics, three-direction flips on four surfaces and physical safety gates",
+    "Final cost and manufacturing release"
+  ]
+}

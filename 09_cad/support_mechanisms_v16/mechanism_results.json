@@ -1,0 +1,488 @@
+{
+  "version": "v0.16",
+  "input_sha256": "4e6104f68bd537ec3073506910f65a9fc879cb6faf3fbc3bf5917aa46edaa2a0",
+  "freecad_version": [
+    "1",
+    "1",
+    "3",
+    "20260725 (Git shallow)",
+    "Unknown",
+    "2026/07/25 04:52:02",
+    "grafted,grafted",
+    "145529fe741292ff0b3977a01195bf0247425794"
+  ],
+  "records": [
+    {
+      "pose": "ankle_m25_m35",
+      "kind": "ankle",
+      "q_deg": [
+        -25,
+        -35
+      ],
+      "bounds_mm": [
+        -31.0,
+        -70.54069342798911,
+        -29.843640794555064,
+        65.12853770818114,
+        16.418493597299584,
+        117.0
+      ],
+      "unexpected_intersections": [],
+      "mass_from_geometry_kg": {
+        "FixedFrame": 0.023155200000000018,
+        "FixedBearings": null,
+        "RollMotorVendor": null,
+        "RollCarrier": 0.028742569180447028,
+        "PitchMotorEnvelope": null,
+        "FootStructure": 0.10270799999999994,
+        "SolePad": null,
+        "RollRod": 0.002762088261036146,
+        "RollCranks": 0.004071504079052372
+      },
+      "files": [
+        "ankle_m25_m35.FCStd",
+        "ankle_m25_m35.step"
+      ],
+      "manufacturable": false
+    },
+    {
+      "pose": "ankle_m25_p0",
+      "kind": "ankle",
+      "q_deg": [
+        -25,
+        0
+      ],
+      "bounds_mm": [
+        -55.0,
+        -59.88351792402148,
+        -6.989254173211528,
+        55.0,
+        16.0,
+        117.0
+      ],
+      "unexpected_intersections": [],
+      "mass_from_geometry_kg": {
+        "FixedFrame": 0.023155200000000018,
+        "FixedBearings": null,
+        "RollMotorVendor": null,
+        "RollCarrier": 0.028742569180447028,
+        "PitchMotorEnvelope": null,
+        "FootStructure": 0.10270799999999997,
+        "SolePad": null,
+        "RollRod": 0.002762088261036146,
+        "RollCranks": 0.004071504079052372
+      },
+      "files": [
+        "ankle_m25_p0.FCStd",
+        "ankle_m25_p0.step"
+      ],
+      "manufacturable": false
+    },
+    {
+      "pose": "ankle_m25_p35",
+      "kind": "ankle",
+      "q_deg": [
+        -25,
+        35
+      ],
+      "bounds_mm": [
+        -65.12853770818114,
+        -70.54069342798911,
+        -29.843640794555064,
+        39.998756728003265,
+        16.418493597299584,
+        117.0
+      ],
+      "unexpected_intersections": [],
+      "mass_from_geometry_kg": {
+        "FixedFrame": 0.023155200000000018,
+        "FixedBearings": null,
+        "RollMotorVendor": null,
+        "RollCarrier": 0.028742569180447028,
+        "PitchMotorEnvelope": null,
+        "FootStructure": 0.10270799999999998,
+        "SolePad": null,
+        "RollRod": 0.002762088261036146,
+        "RollCranks": 0.004071504079052372
+      },
+      "files": [
+        "ankle_m25_p35.FCStd",
+        "ankle_m25_p35.step"
+      ],
+      "manufacturable": false
+    },
+    {
+      "pose": "ankle_p0_m35",
+      "kind": "ankle",
+      "q_deg": [
+        0,
+        -35
+      ],
+      "bounds_mm": [
+        -31.0,
+        -40.0,
+        -25.217025549422246,
+        65.12853770818114,
+        32.5,
+        117.0
+      ],
+      "unexpected_intersections": [],
+      "mass_from_geometry_kg": {
+        "FixedFrame": 0.023155200000000018,
+        "FixedBearings": null,
+        "RollMotorVendor": null,
+        "RollCarrier": 0.02874256918044701,
+        "PitchMotorEnvelope": null,
+        "FootStructure": 0.10270799999999997,
+        "SolePad": null,
+        "RollRod": 0.0027620882610361465,
+        "RollCranks": 0.004071504079052373
+      },
+      "files": [
+        "ankle_p0_m35.FCStd",
+        "ankle_p0_m35.step"
+      ],
+      "manufacturable": false
+    },
+    {
+      "pose": "ankle_p0_p0",
+      "kind": "ankle",
+      "q_deg": [
+        0,
+        0
+      ],
+      "bounds_mm": [
+        -55.0,
+        -40.0,
+        -2.0,
+        55.0,
+        32.5,
+        117.0
+      ],
+      "unexpected_intersections": [],
+      "mass_from_geometry_kg": {
+        "FixedFrame": 0.023155200000000018,
+        "FixedBearings": null,
+        "RollMotorVendor": null,
+        "RollCarrier": 0.02874256918044701,
+        "PitchMotorEnvelope": null,
+        "FootStructure": 0.10270799999999998,
+        "SolePad": null,
+        "RollRod": 0.0027620882610361465,
+        "RollCranks": 0.004071504079052373
+      },
+      "files": [
+        "ankle_p0_p0.FCStd",
+        "ankle_p0_p0.step"
+      ],
+      "manufacturable": false
+    },
+    {
+      "pose": "ankle_p0_p35",
+      "kind": "ankle",
+      "q_deg": [
+        0,
+        35
+      ],
+      "bounds_mm": [
+        -65.12853770818114,
+        -40.0,
+        -25.217025549422246,
+        39.998756728003265,
+        32.5,
+        117.0
+      ],
+      "unexpected_intersections": [],
+      "mass_from_geometry_kg": {
+        "FixedFrame": 0.023155200000000018,
+        "FixedBearings": null,
+        "RollMotorVendor": null,
+        "RollCarrier": 0.02874256918044701,
+        "PitchMotorEnvelope": null,
+        "FootStructure": 0.10270799999999997,
+        "SolePad": null,
+        "RollRod": 0.0027620882610361465,
+        "RollCranks": 0.004071504079052373
+      },
+      "files": [
+        "ankle_p0_p35.FCStd",
+        "ankle_p0_p35.step"
+      ],
+      "manufacturable": false
+    },
+    {
+      "pose": "ankle_p25_m35",
+      "kind": "ankle",
+      "q_deg": [
+        25,
+        -35
+      ],
+      "bounds_mm": [
+        -31.0,
+        -40.0,
+        -29.843640794555064,
+        65.12853770818114,
+        70.54069342798911,
+        117.0
+      ],
+      "unexpected_intersections": [],
+      "mass_from_geometry_kg": {
+        "FixedFrame": 0.023155200000000018,
+        "FixedBearings": null,
+        "RollMotorVendor": null,
+        "RollCarrier": 0.02874256918044702,
+        "PitchMotorEnvelope": null,
+        "FootStructure": 0.10270799999999997,
+        "SolePad": null,
+        "RollRod": 0.002762088261036146,
+        "RollCranks": 0.004071504079052372
+      },
+      "files": [
+        "ankle_p25_m35.FCStd",
+        "ankle_p25_m35.step"
+      ],
+      "manufacturable": false
+    },
+    {
+      "pose": "ankle_p25_p0",
+      "kind": "ankle",
+      "q_deg": [
+        25,
+        0
+      ],
+      "bounds_mm": [
+        -55.0,
+        -40.0,
+        -6.989254173211528,
+        55.0,
+        59.88351792402148,
+        117.0
+      ],
+      "unexpected_intersections": [],
+      "mass_from_geometry_kg": {
+        "FixedFrame": 0.023155200000000018,
+        "FixedBearings": null,
+        "RollMotorVendor": null,
+        "RollCarrier": 0.02874256918044702,
+        "PitchMotorEnvelope": null,
+        "FootStructure": 0.102708,
+        "SolePad": null,
+        "RollRod": 0.002762088261036146,
+        "RollCranks": 0.004071504079052372
+      },
+      "files": [
+        "ankle_p25_p0.FCStd",
+        "ankle_p25_p0.step"
+      ],
+      "manufacturable": false
+    },
+    {
+      "pose": "ankle_p25_p35",
+      "kind": "ankle",
+      "q_deg": [
+        25,
+        35
+      ],
+      "bounds_mm": [
+        -65.12853770818114,
+        -40.0,
+        -29.843640794555064,
+        39.998756728003265,
+        70.54069342798911,
+        117.0
+      ],
+      "unexpected_intersections": [],
+      "mass_from_geometry_kg": {
+        "FixedFrame": 0.023155200000000018,
+        "FixedBearings": null,
+        "RollMotorVendor": null,
+        "RollCarrier": 0.02874256918044702,
+        "PitchMotorEnvelope": null,
+        "FootStructure": 0.10270799999999997,
+        "SolePad": null,
+        "RollRod": 0.002762088261036146,
+        "RollCranks": 0.004071504079052372
+      },
+      "files": [
+        "ankle_p25_p35.FCStd",
+        "ankle_p25_p35.step"
+      ],
+      "manufacturable": false
+    },
+    {
+      "pose": "hand_p0_p0",
+      "kind": "hand",
+      "q_deg": [
+        0,
+        0
+      ],
+      "bounds_mm": [
+        -85.0,
+        -20.0,
+        0.0,
+        54.0,
+        20.0,
+        63.0
+      ],
+      "unexpected_intersections": [],
+      "mass_from_geometry_kg": {
+        "ForearmLoadFrame": 0.029487495670262796,
+        "GauntletPrimaryPad": null,
+        "WristMotorEnvelope0": null,
+        "WristMotorEnvelope1": null,
+        "HandAndPalm": null
+      },
+      "files": [
+        "hand_p0_p0.FCStd",
+        "hand_p0_p0.step"
+      ],
+      "manufacturable": false
+    },
+    {
+      "pose": "hand_m20_p0",
+      "kind": "hand",
+      "q_deg": [
+        -20,
+        0
+      ],
+      "bounds_mm": [
+        -85.0,
+        -20.0,
+        0.0,
+        59.12289503391795,
+        20.0,
+        63.0
+      ],
+      "unexpected_intersections": [],
+      "mass_from_geometry_kg": {
+        "ForearmLoadFrame": 0.029487495670262796,
+        "GauntletPrimaryPad": null,
+        "WristMotorEnvelope0": null,
+        "WristMotorEnvelope1": null,
+        "HandAndPalm": null
+      },
+      "files": [
+        "hand_m20_p0.FCStd",
+        "hand_m20_p0.step"
+      ],
+      "manufacturable": false
+    },
+    {
+      "pose": "hand_m40_p0",
+      "kind": "hand",
+      "q_deg": [
+        -40,
+        0
+      ],
+      "bounds_mm": [
+        -85.0,
+        -20.0,
+        0.0,
+        57.11469636574502,
+        20.0,
+        63.0
+      ],
+      "unexpected_intersections": [],
+      "mass_from_geometry_kg": {
+        "ForearmLoadFrame": 0.029487495670262796,
+        "GauntletPrimaryPad": null,
+        "WristMotorEnvelope0": null,
+        "WristMotorEnvelope1": null,
+        "HandAndPalm": null
+      },
+      "files": [
+        "hand_m40_p0.FCStd",
+        "hand_m40_p0.step"
+      ],
+      "manufacturable": false
+    },
+    {
+      "pose": "hand_m60_p0",
+      "kind": "hand",
+      "q_deg": [
+        -60,
+        0
+      ],
+      "bounds_mm": [
+        -85.0,
+        -20.0,
+        0.0,
+        48.21762239271875,
+        20.0,
+        63.0
+      ],
+      "unexpected_intersections": [],
+      "mass_from_geometry_kg": {
+        "ForearmLoadFrame": 0.029487495670262796,
+        "GauntletPrimaryPad": null,
+        "WristMotorEnvelope0": null,
+        "WristMotorEnvelope1": null,
+        "HandAndPalm": null
+      },
+      "files": [
+        "hand_m60_p0.FCStd",
+        "hand_m60_p0.step"
+      ],
+      "manufacturable": false
+    },
+    {
+      "pose": "hand_m80_p0",
+      "kind": "hand",
+      "q_deg": [
+        -80,
+        0
+      ],
+      "bounds_mm": [
+        -85.0,
+        -20.0,
+        0.0,
+        33.50479154281334,
+        20.0,
+        74.79347919815409
+      ],
+      "unexpected_intersections": [],
+      "mass_from_geometry_kg": {
+        "ForearmLoadFrame": 0.029487495670262796,
+        "GauntletPrimaryPad": null,
+        "WristMotorEnvelope0": null,
+        "WristMotorEnvelope1": null,
+        "HandAndPalm": null
+      },
+      "files": [
+        "hand_m80_p0.FCStd",
+        "hand_m80_p0.step"
+      ],
+      "manufacturable": false
+    }
+  ],
+  "neutral_ankle_structure_mass_kg": 0.1614393615205355,
+  "neutral_forearm_support_structure_mass_kg": 0.029487495670262796,
+  "bilateral_neutral_bounds": {
+    "left_y_mm": [
+      20.0,
+      92.5
+    ],
+    "right_y_mm": [
+      -92.5,
+      -20.0
+    ],
+    "inside_gap_mm": 40.0,
+    "outside_width_mm": 185.0
+  },
+  "clearance_to_nominal_knee_axis_z_mm": 8.0,
+  "motor_masses_excluded_from_shape_volume": {
+    "XM430_roll_kg": 0.082,
+    "AK40_pitch_kg": 0.19
+  },
+  "unmodeled_mass": [
+    "bearings",
+    "shafts",
+    "horns",
+    "rod ends",
+    "fasteners",
+    "cables",
+    "rubber pads",
+    "PETG costume_shell"
+  ],
+  "scope": "Local schematic solids; no vendor interface release, continuous sweep, strength, fatigue or wholebody integration."
+}

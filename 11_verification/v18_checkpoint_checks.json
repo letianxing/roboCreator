@@ -1,0 +1,62 @@
+{
+  "stage": "v0.18",
+  "scope": "Integrated packaging, geometry/contact constraints and local lifecycle records; not engineering release",
+  "checks": [
+    {
+      "name": "Four integrated CAD/STEP studies saved/reopened; base scenes count 28 motors",
+      "status": "passed",
+      "evidence": [
+        "09_cad/body_v18/body_results.json",
+        "09_cad/body_v18/electronics_repack_results.json"
+      ]
+    },
+    {
+      "name": "Flat-foot analytic height bound and 50 knee-contact candidate records",
+      "status": "passed",
+      "evidence": [
+        "04_kinematics/body_contacts_v18.json",
+        "09_cad/body_v18/body_results.json"
+      ]
+    },
+    {
+      "name": "Seven rigid relocations preserve volume; modeled electronics-related intersections eliminated in standing candidate",
+      "status": "passed",
+      "evidence": [
+        "09_cad/body_v18/electronics_repack_results.json"
+      ]
+    },
+    {
+      "name": "PLM draft references/hashes and undispatched MES template validated; software permission rule saved",
+      "status": "passed",
+      "evidence": [
+        "26_plm/artifact_manifest_v18.json",
+        "11_verification/lifecycle_checks_v18.json",
+        "tools/software_policy.md"
+      ]
+    },
+    {
+      "name": "Fullbody interference clearance",
+      "status": "failed",
+      "evidence": [
+        "09_cad/body_v18/body_results.json",
+        "09_cad/body_v18/electronics_repack_results.json"
+      ]
+    },
+    {
+      "name": "CAE engineering validation and actual MES production",
+      "status": "not_run",
+      "evidence": [
+        "11_verification/cae_plan_v18.json",
+        "27_mes/work_order_template.json"
+      ]
+    }
+  ],
+  "pending": [
+    "Shoulder/arm versus leg interference and remaining assembly interfaces",
+    "Actual protective knee contact and connected recovery trajectory",
+    "Fullbody mass/inertia, stability, contact/thermal/impact CAE and physical validation",
+    "Approved Wukong appearance and all user tasks",
+    "Released EBOM/MBOM, supplier-specific manufacturing plan and real inspection data",
+    "Ask before introducing open-source software or new/configured MCP"
+  ]
+}

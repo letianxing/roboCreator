@@ -1,0 +1,52 @@
+{
+  "version": "v0.12",
+  "status": "whole_body_research_candidate_not_manufacturing_release",
+  "units": {"length":"mm","mass":"kg","angle":"rad","inertia":"kg*m^2"},
+  "coordinate_convention":"X forward, Y left, Z up; right limbs are mirrored research layouts, not released mirrored motor designs",
+  "default_source":"engineering assumption; not measured",
+  "geometry": {
+    "pelvis_root_standing_z":190,
+    "pelvis_root_pickup_z":150,
+    "pelvis_root_getup_z":120,
+    "hip_yaw_half_spacing":55,
+    "hip_offsets":[[-45,0,0],[0,75,0]],
+    "thigh_length":90,"shin_length":90,
+    "foot_center_half_spacing":130,
+    "ankle_pitch_local_xyz":[39,0,45],
+    "ankle_roll_local_xyz":[-30,0,45],
+    "shoulder_local_xyz":[0,110,90],
+    "shoulder_offsets":[[0,55,0],[0,0,-55]],
+    "upper_arm_length":80,"forearm_length":80,"grip_extension":40,
+    "torso_box":[90,110,90],
+    "head_radii":[37,58,45],"head_center_local_xyz":[0,0,135],
+    "bottle_radius":33,"bottle_height":230,"bottle_mass":0.58
+  },
+  "hardware_references": {
+    "main_actuator":{"mass":0.190,"diameter":53,"length":40.2,"source":"CubeMars AK40-10 V3.0 official; packaging reference only, not selected for every joint"},
+    "small_actuator":{"mass":0.023,"envelope":[20,34,26],"source":"ROBOTIS XC330-M288 official; wrist/head/grip load capability NOT validated"},
+    "depth_camera":{"envelope":[25,90,25],"mass_allowance":0.13,"source":"D435 published envelope; mass allowance includes unspecified cabling, model not purchased"},
+    "mic_array":{"envelope":[78.1,88.8,8],"mass_allowance":0.05,"source":"Sipeed R6+1 published board planform; 8mm thickness allowance and mass assumed"},
+    "battery":{"envelope":[40,80,32],"mass_allowance":0.25,"source":"placeholder only; no cell/pack selected, no guaranteed Wh"},
+    "computer":{"envelope":[45,70,10],"mass_allowance":0.12,"source":"placeholder only; no board/compute-performance selection"}
+  },
+  "mass_allowances": {
+    "hip_mount_each":0.09,"thigh_frame_each":0.04,"shin_frame_each":0.04,
+    "upper_arm_frame_each":0.025,"forearm_frame_each":0.025,"gripper_structure_each":0.03,
+    "torso_frame":0.22,"head_frame":0.06,"power_and_wiring":0.10,"bearing_each":0.019
+  },
+  "packaging_adjustments": {
+    "power_and_wiring_center_local_mm":[35,0,25],
+    "neck_pitch_origin_local_mm":[-30,0,95],
+    "note":"provisional envelope rearrangements, not released mounting structures"
+  },
+  "material_density_kg_per_mm3":{"metal_reference":0.0000027,"PETG_reference":0.00000128},
+  "task_assumptions": {
+    "bottle_transfer":"full 550mL bottle, 30g packaging assumed, two hands share load equally",
+    "getup":"one four-contact intermediate posture, torso pitched forward 60 degrees; not an entire recovery trajectory",
+    "jump_apex_gains_m":[0.05,0.1,0.15],"landing_braking_strokes_m":[0.01,0.03,0.05],
+    "surfaces":"mat/wood/tile/table properties unmeasured; no friction or impact stiffness inferred from names"
+  },
+  "limitations":["No verified whole-body actuator choice","Uniform-envelope inertias approximate motor internals",
+    "Frame masses are allowances, not manufacturing CAD masses","Shells are concept placeholders and require user visual approval",
+    "All computed loads inherit the geometry/mass/trajectory assumptions"]
+}

@@ -1,0 +1,8 @@
+{
+  "tests_run": 10,
+  "successful": true,
+  "failures": [],
+  "errors": [],
+  "input_sha256": "4e6104f68bd537ec3073506910f65a9fc879cb6faf3fbc3bf5917aa46edaa2a0",
+  "scope": "local mechanism arithmetic/geometry regression only"
+}

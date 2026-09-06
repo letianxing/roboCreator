@@ -1,0 +1,184 @@
+{
+  "status": "analytical_screen_only",
+  "geometry_sum_m": 0.4,
+  "variants": [
+    {
+      "dof": 21,
+      "actuator_mass_kg": 1.155,
+      "estimated_total_mass_kg": 2.435,
+      "reference_actuator_cost_cny": 2478,
+      "subtotal_without_camera_cny": 4878,
+      "remaining_for_camera_cny": 122
+    },
+    {
+      "dof": 24,
+      "actuator_mass_kg": 1.32,
+      "estimated_total_mass_kg": 2.6,
+      "reference_actuator_cost_cny": 2832,
+      "subtotal_without_camera_cny": 5232,
+      "remaining_for_camera_cny": -232
+    },
+    {
+      "dof": 26,
+      "actuator_mass_kg": 1.43,
+      "estimated_total_mass_kg": 2.71,
+      "reference_actuator_cost_cny": 3068,
+      "subtotal_without_camera_cny": 5468,
+      "remaining_for_camera_cny": -468
+    }
+  ],
+  "bottle": {
+    "assumed_mass_kg": 0.58,
+    "per_arm_static_torque_Nm": 0.576828,
+    "per_hand_normal_force_with_factor_N": 14.224499999999999,
+    "com_shift_due_to_bottle_only_m": 0.027358490566037733
+  },
+  "reach": [
+    {
+      "target_x_m": 0.08,
+      "target_z_m": 0.13,
+      "distance_m": 0.18337120820892247,
+      "planar_position_reachable": true,
+      "elbow_bend_deg": 48.08951512647475,
+      "caveat": "ignores lateral offset, hand orientation, joint limits and collisions"
+    },
+    {
+      "target_x_m": 0.15,
+      "target_z_m": 0.13,
+      "distance_m": 0.22299103120977756,
+      "planar_position_reachable": false,
+      "elbow_bend_deg": null,
+      "caveat": "ignores lateral offset, hand orientation, joint limits and collisions"
+    }
+  ],
+  "quasistatic_loadcases": [
+    {
+      "supporting_limbs": 2,
+      "equivalent_gravity_joint_torque_Nm": 0.7651800000000001
+    },
+    {
+      "supporting_limbs": 1,
+      "equivalent_gravity_joint_torque_Nm": 1.5303600000000002
+    }
+  ],
+  "landing": [
+    {
+      "com_descent_m": 0.05,
+      "braking_m": 0.01,
+      "force_over_weight": 6.0,
+      "total_equivalent_force_N": 153.03600000000003,
+      "illustrative_two_leg_joint_torque_Nm": 4.591080000000001
+    },
+    {
+      "com_descent_m": 0.05,
+      "braking_m": 0.03,
+      "force_over_weight": 2.666666666666667,
+      "total_equivalent_force_N": 68.01600000000002,
+      "illustrative_two_leg_joint_torque_Nm": 2.0404800000000005
+    },
+    {
+      "com_descent_m": 0.05,
+      "braking_m": 0.05,
+      "force_over_weight": 2.0,
+      "total_equivalent_force_N": 51.01200000000001,
+      "illustrative_two_leg_joint_torque_Nm": 1.5303600000000002
+    },
+    {
+      "com_descent_m": 0.1,
+      "braking_m": 0.01,
+      "force_over_weight": 11.0,
+      "total_equivalent_force_N": 280.56600000000003,
+      "illustrative_two_leg_joint_torque_Nm": 8.41698
+    },
+    {
+      "com_descent_m": 0.1,
+      "braking_m": 0.03,
+      "force_over_weight": 4.333333333333334,
+      "total_equivalent_force_N": 110.52600000000002,
+      "illustrative_two_leg_joint_torque_Nm": 3.3157800000000006
+    },
+    {
+      "com_descent_m": 0.1,
+      "braking_m": 0.05,
+      "force_over_weight": 3.0,
+      "total_equivalent_force_N": 76.51800000000001,
+      "illustrative_two_leg_joint_torque_Nm": 2.2955400000000004
+    },
+    {
+      "com_descent_m": 0.15,
+      "braking_m": 0.01,
+      "force_over_weight": 16.0,
+      "total_equivalent_force_N": 408.09600000000006,
+      "illustrative_two_leg_joint_torque_Nm": 12.242880000000001
+    },
+    {
+      "com_descent_m": 0.15,
+      "braking_m": 0.03,
+      "force_over_weight": 6.0,
+      "total_equivalent_force_N": 153.03600000000003,
+      "illustrative_two_leg_joint_torque_Nm": 4.591080000000001
+    },
+    {
+      "com_descent_m": 0.15,
+      "braking_m": 0.05,
+      "force_over_weight": 3.9999999999999996,
+      "total_equivalent_force_N": 102.024,
+      "illustrative_two_leg_joint_torque_Nm": 3.06072
+    }
+  ],
+  "takeoff": [
+    {
+      "com_apex_gain_m": 0.05,
+      "vz_mps": 0.9904544411531507,
+      "flight_s_same_com_height": 0.2019275109384609,
+      "mean_body_rotation_rad_s_if_full_turn_in_flight": 31.11604396042122
+    },
+    {
+      "com_apex_gain_m": 0.1,
+      "vz_mps": 1.4007141035914503,
+      "flight_s_same_com_height": 0.2855686245854129,
+      "mean_body_rotation_rad_s_if_full_turn_in_flight": 22.002365688112565
+    },
+    {
+      "com_apex_gain_m": 0.15,
+      "vz_mps": 1.7155174146594956,
+      "flight_s_same_com_height": 0.34974870839133443,
+      "mean_body_rotation_rad_s_if_full_turn_in_flight": 17.964856356665425
+    }
+  ],
+  "joint_speed_example": {
+    "move_rad": 1.5707963267948966,
+    "duration_s": 0.15,
+    "mean_rad_s": 10.471975511965978,
+    "note": "illustrative trajectory, not a necessary flip condition; body rotation is not joint speed"
+  },
+  "battery": [
+    {
+      "mean_battery_power_W": 30,
+      "nominal_energy_Wh": 12.5,
+      "caveat": "80 percent usable energy assumed; power is sensitivity input"
+    },
+    {
+      "mean_battery_power_W": 60,
+      "nominal_energy_Wh": 25.0,
+      "caveat": "80 percent usable energy assumed; power is sensitivity input"
+    },
+    {
+      "mean_battery_power_W": 90,
+      "nominal_energy_Wh": 37.5,
+      "caveat": "80 percent usable energy assumed; power is sensitivity input"
+    }
+  ],
+  "fault_supply_screen": {
+    "twelve_st3215_stall_current_A": 32.400000000000006,
+    "note": "fault scenario sum, not normal current or a battery specification"
+  },
+  "ak40_v3_leg_only": {
+    "count": 12,
+    "mass_kg": 2.2800000000000002,
+    "price_usd": 1630.8000000000002,
+    "budget_only_break_even_cny_per_usd": 3.06597988717194,
+    "note": "no live FX used; excludes all other hardware, shipping and tax"
+  },
+  "input_sha256": "43898e021ecfcb3f2002d7b7add3bd564007a45449d64d481d86a85df64d3d03"
+}

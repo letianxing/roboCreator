@@ -1,0 +1,209 @@
+{
+  "status": "transition_candidate_not_manufacturing_release",
+  "radius_candidates": [
+    {
+      "radius_mm": 0.5,
+      "valid_single_solid": true,
+      "volume_mm3": 37721.5811474797,
+      "delta_mass_g_at_2700": 0.0011343426475934394
+    },
+    {
+      "radius_mm": 1.0,
+      "valid_single_solid": true,
+      "volume_mm3": 37722.82922784396,
+      "delta_mass_g_at_2700": 0.004504159631098446
+    },
+    {
+      "radius_mm": 1.5,
+      "valid_single_solid": true,
+      "volume_mm3": 37724.88839741187,
+      "delta_mass_g_at_2700": 0.010063917464456609
+    },
+    {
+      "radius_mm": 2.0,
+      "valid_single_solid": true,
+      "volume_mm3": 37727.74367134162,
+      "delta_mass_g_at_2700": 0.01777315707476737
+    }
+  ],
+  "selected_radius_mm": 2.0,
+  "edge_count": 4,
+  "sample_count": 35,
+  "samples": [
+    {
+      "roll": -20,
+      "pitch": -45,
+      "penetrations": []
+    },
+    {
+      "roll": -20,
+      "pitch": -30,
+      "penetrations": []
+    },
+    {
+      "roll": -20,
+      "pitch": -15,
+      "penetrations": []
+    },
+    {
+      "roll": -20,
+      "pitch": 0,
+      "penetrations": []
+    },
+    {
+      "roll": -20,
+      "pitch": 15,
+      "penetrations": []
+    },
+    {
+      "roll": -20,
+      "pitch": 30,
+      "penetrations": []
+    },
+    {
+      "roll": -20,
+      "pitch": 45,
+      "penetrations": []
+    },
+    {
+      "roll": -10,
+      "pitch": -45,
+      "penetrations": []
+    },
+    {
+      "roll": -10,
+      "pitch": -30,
+      "penetrations": []
+    },
+    {
+      "roll": -10,
+      "pitch": -15,
+      "penetrations": []
+    },
+    {
+      "roll": -10,
+      "pitch": 0,
+      "penetrations": []
+    },
+    {
+      "roll": -10,
+      "pitch": 15,
+      "penetrations": []
+    },
+    {
+      "roll": -10,
+      "pitch": 30,
+      "penetrations": []
+    },
+    {
+      "roll": -10,
+      "pitch": 45,
+      "penetrations": []
+    },
+    {
+      "roll": 0,
+      "pitch": -45,
+      "penetrations": []
+    },
+    {
+      "roll": 0,
+      "pitch": -30,
+      "penetrations": []
+    },
+    {
+      "roll": 0,
+      "pitch": -15,
+      "penetrations": []
+    },
+    {
+      "roll": 0,
+      "pitch": 0,
+      "penetrations": []
+    },
+    {
+      "roll": 0,
+      "pitch": 15,
+      "penetrations": []
+    },
+    {
+      "roll": 0,
+      "pitch": 30,
+      "penetrations": []
+    },
+    {
+      "roll": 0,
+      "pitch": 45,
+      "penetrations": []
+    },
+    {
+      "roll": 10,
+      "pitch": -45,
+      "penetrations": []
+    },
+    {
+      "roll": 10,
+      "pitch": -30,
+      "penetrations": []
+    },
+    {
+      "roll": 10,
+      "pitch": -15,
+      "penetrations": []
+    },
+    {
+      "roll": 10,
+      "pitch": 0,
+      "penetrations": []
+    },
+    {
+      "roll": 10,
+      "pitch": 15,
+      "penetrations": []
+    },
+    {
+      "roll": 10,
+      "pitch": 30,
+      "penetrations": []
+    },
+    {
+      "roll": 10,
+      "pitch": 45,
+      "penetrations": []
+    },
+    {
+      "roll": 20,
+      "pitch": -45,
+      "penetrations": []
+    },
+    {
+      "roll": 20,
+      "pitch": -30,
+      "penetrations": []
+    },
+    {
+      "roll": 20,
+      "pitch": -15,
+      "penetrations": []
+    },
+    {
+      "roll": 20,
+      "pitch": 0,
+      "penetrations": []
+    },
+    {
+      "roll": 20,
+      "pitch": 15,
+      "penetrations": []
+    },
+    {
+      "roll": 20,
+      "pitch": 30,
+      "penetrations": []
+    },
+    {
+      "roll": 20,
+      "pitch": 45,
+      "penetrations": []
+    }
+  ]
+}

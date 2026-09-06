@@ -1,0 +1,214 @@
+{
+  "records": [
+    {
+      "name": "contact_26_0",
+      "IK": {
+        "architecture_dof": 26,
+        "body_height_mm": 80.0,
+        "body_pitch_deg": 90.0,
+        "target_mm": [
+          200.0,
+          150.0,
+          0.0
+        ],
+        "upstream_q_deg": [
+          -158.64923977236535,
+          28.67138854725767,
+          0.6334815179106689
+        ],
+        "mount_roll_deg": 0,
+        "body_pose_optimized": false,
+        "contact_mm": [
+          195.40229963753154,
+          148.27241485793493,
+          7.181567458954527
+        ],
+        "normal": [
+          -0.37308897549993425,
+          -0.005304561835425138,
+          -0.9277804039664469
+        ],
+        "position_error_mm": 8.70047758537664,
+        "normal_error_deg": 21.90857767958103,
+        "finite_search_pose_found": false,
+        "minimum_pad_corner_z_mm": 0.3908617351191471,
+        "nodes_mm": {
+          "shoulder": [
+            80.0,
+            75.0,
+            80.0
+          ],
+          "elbow": [
+            145.3736025425255,
+            113.38283378573468,
+            54.44515386098822
+          ],
+          "wrist": [
+            214.4866618029758,
+            154.16210207391686,
+            26.419517069972276
+          ]
+        },
+        "fullbody_verified": false,
+        "scenario": "old_distant_contact"
+      },
+      "pad_CAD_to_IK_error_mm": 2.864289338439558e-14,
+      "pad_corner_height_mm": [
+        6.985129215358189,
+        13.972273182789902,
+        0.39086173511914524,
+        7.378005702550859
+      ],
+      "component_minimum_ground_z_mm": {
+        "ForearmLoadFrame": 6.718684081125879,
+        "GauntletPrimaryPad": 0.3908617351191448,
+        "WristMotorEnvelope0": 38.091174760130464,
+        "WristMotorEnvelope1": 33.923918983387246,
+        "HandAndPalm": -17.25983980919537
+      },
+      "has_ground_penetration_over_0_5mm": true,
+      "wholebody_verified": false
+    },
+    {
+      "name": "contact_28_1",
+      "IK": {
+        "architecture_dof": 28,
+        "body_height_mm": 64.43845740295444,
+        "body_pitch_deg": 88.68780883108197,
+        "target_mm": [
+          200.0,
+          150.0,
+          0.0
+        ],
+        "upstream_q_deg": [
+          -143.28061002713812,
+          26.990559137266892,
+          -160.0,
+          31.100348891653443
+        ],
+        "mount_roll_deg": 180,
+        "body_pose_optimized": true,
+        "contact_mm": [
+          199.67053748921475,
+          150.50464881814952,
+          -0.01909858756067931
+        ],
+        "normal": [
+          0.01729625174923212,
+          -0.026533890277182705,
+          -0.9994982703047492
+        ],
+        "position_error_mm": 0.6029765598424519,
+        "normal_error_deg": 1.8150587756874212,
+        "finite_search_pose_found": true,
+        "minimum_pad_corner_z_mm": -0.6525851011707112,
+        "nodes_mm": {
+          "shoulder": [
+            79.97902074966449,
+            75.0,
+            66.27046174922046
+          ],
+          "elbow": [
+            138.08144392265308,
+            111.30749429955009,
+            24.968230827451887
+          ],
+          "wrist": [
+            209.29128526773013,
+            157.72040732585097,
+            24.968379103089205
+          ]
+        },
+        "fullbody_verified": false,
+        "scenario": "body_pose_and_pad_mount_search"
+      },
+      "pad_CAD_to_IK_error_mm": 6.800116025829084e-15,
+      "pad_corner_height_mm": [
+        0.6143530376640916,
+        -0.6525851011707204,
+        0.6143879260493482,
+        -0.6525502127854638
+      ],
+      "component_minimum_ground_z_mm": {
+        "ForearmLoadFrame": 1.0162944386033095,
+        "GauntletPrimaryPad": -0.6525851011707204,
+        "WristMotorEnvelope0": 31.648036517454283,
+        "WristMotorEnvelope1": 36.42387823819467,
+        "HandAndPalm": -0.08944719301429727
+      },
+      "has_ground_penetration_over_0_5mm": true,
+      "wholebody_verified": false
+    },
+    {
+      "name": "contact_28_2",
+      "IK": {
+        "architecture_dof": 28,
+        "body_height_mm": 61.929986638462964,
+        "body_pitch_deg": 59.99999999999999,
+        "target_mm": [
+          150.0,
+          125.0,
+          0.0
+        ],
+        "upstream_q_deg": [
+          -73.63391419482623,
+          8.307223746389942,
+          -149.2190269518711,
+          74.075667060728
+        ],
+        "mount_roll_deg": 180,
+        "body_pose_optimized": true,
+        "contact_mm": [
+          149.99999698717858,
+          124.9999999999341,
+          -7.297579363713114e-06
+        ],
+        "normal": [
+          -4.865904818115477e-08,
+          3.615018164964922e-12,
+          -0.9999999999999989
+        ],
+        "position_error_mm": 7.89504638470778e-06,
+        "normal_error_deg": 2.699869328381916e-06,
+        "finite_search_pose_found": true,
+        "minimum_pad_corner_z_mm": -8.223753329526912e-06,
+        "nodes_mm": {
+          "shoulder": [
+            69.28203230275508,
+            75.0,
+            101.92998663846298
+          ],
+          "elbow": [
+            87.94156381840612,
+            86.55847659543402,
+            24.999995721985997
+          ],
+          "wrist": [
+            160.20138467794223,
+            131.31915453207546,
+            24.999992206053697
+          ]
+        },
+        "fullbody_verified": false,
+        "scenario": "body_pose_and_pad_mount_search"
+      },
+      "pad_CAD_to_IK_error_mm": 6.857002758566683e-15,
+      "pad_corner_height_mm": [
+        -7.396475146642777e-06,
+        -6.371405410024752e-06,
+        -8.223753331115481e-06,
+        -7.198683594497455e-06
+      ],
+      "component_minimum_ground_z_mm": {
+        "ForearmLoadFrame": 1.513939341405886,
+        "GauntletPrimaryPad": -8.223753331115481e-06,
+        "WristMotorEnvelope0": 31.999992818428343,
+        "WristMotorEnvelope1": 36.99999168767122,
+        "HandAndPalm": 0.49998951112123863
+      },
+      "has_ground_penetration_over_0_5mm": false,
+      "wholebody_verified": false
+    }
+  ],
+  "scope": "Real saved hand shape transform; arm drive, torso and legs not collision checked"
+}

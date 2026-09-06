@@ -1,0 +1,48 @@
+{
+  "stage": "v0.15",
+  "scope": "local motor packaging and conditional planar mathematics, not wholebody/engineering release",
+  "checks": [
+    {
+      "name": "Manufacturer STEP import, 4 local CAD save/reopen and 1200 layout records",
+      "status": "passed",
+      "evidence": [
+        "09_cad/module_packaging_v15.py",
+        "09_cad/modules_v15/packaging_results.json"
+      ]
+    },
+    {
+      "name": "Selected two-motor envelopes meet specified clearance at five roll samples only",
+      "status": "passed",
+      "evidence": [
+        "09_cad/modules_v15/packaging_results.json"
+      ]
+    },
+    {
+      "name": "12 planar histories energy checks and 8 numerical implementation tests",
+      "status": "passed",
+      "evidence": [
+        "05_dynamics/trajectory_v15/summary.json",
+        "11_verification/trajectory_tests_v15.json",
+        "11_verification/test_trajectory_v15.py"
+      ]
+    },
+    {
+      "name": "Current input hashes, artifact presence and preservation of speed-limit failures",
+      "status": "passed",
+      "evidence": [
+        "03_system/layout_load_inputs_v15.json",
+        "11_verification/check_v15.py",
+        "deliverables/layout_load_review_v15.md"
+      ]
+    }
+  ],
+  "pending": [
+    "Whole leg/arm physical mounting, shafts/bearings/transmission and mass",
+    "B ankle width/axis offsets and upgraded wrist packaging",
+    "All 26DOF trajectories with costume, bottle and contact constraints",
+    "Real torque-speed-current-duration-temperature validation including reflected inertia/friction",
+    "Takeoff, three-direction flips and four-surface landing",
+    "Wholebody safety, appearance approval, 20min runtime and real tests",
+    "Final costs and manufacturing release"
+  ]
+}

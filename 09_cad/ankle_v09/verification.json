@@ -1,0 +1,244 @@
+{
+  "status": "solid_structural_concept_not_released",
+  "variant": "v09",
+  "dimensions_mm": {
+    "foot": [
+      150,
+      90,
+      4
+    ],
+    "roll_center": [
+      -30.0,
+      0.0,
+      45.0
+    ],
+    "pitch_center": [
+      39.0,
+      0.0,
+      45.0
+    ],
+    "bearing": [
+      10,
+      26,
+      8
+    ]
+  },
+  "interfaces": {
+    "output_pcd_mm": 27,
+    "output_hole_count": 3,
+    "output_thread": "M2.5",
+    "drawing_output_depth_mm": 3,
+    "stator_pcd_mm": 47.5,
+    "stator_hole_count": 3,
+    "stator_thread": "M2.5",
+    "drawing_stator_depth_mm": 5,
+    "adapter_thickness_mm": 3,
+    "candidate_screw_length_mm": 6,
+    "assumed_washer_mm": 0.5,
+    "nominal_engagement_mm": 2.5,
+    "output_depth_margin_mm": 0.5,
+    "rear_pcd_mm": 47,
+    "rear_hole_count": 4
+  },
+  "part_volumes_mm3": {
+    "FootPlate": 53585.05844231385,
+    "BootInterfaceHeel": 6211.924783386745,
+    "BootInterfaceToe": 6211.924783386749,
+    "RollStatorMount": 8354.040893769701,
+    "RollBearingCarrier": 17289.444101841458,
+    "RollBearingCap": 2036.545156133247,
+    "Bearing6000_Envelope": 3619.114736935441,
+    "RollTransferYoke": 37721.16102057317,
+    "PitchOutputShankBracket": 8696.584385713668,
+    "RollMotor_ClosedEnvelope": 87195.33606937459,
+    "PitchMotor_ClosedEnvelope": 87195.3360693746
+  },
+  "sample_count": 35,
+  "samples": [
+    {
+      "roll_deg": -20,
+      "pitch_deg": -45,
+      "penetrations": []
+    },
+    {
+      "roll_deg": -20,
+      "pitch_deg": -30,
+      "penetrations": []
+    },
+    {
+      "roll_deg": -20,
+      "pitch_deg": -15,
+      "penetrations": []
+    },
+    {
+      "roll_deg": -20,
+      "pitch_deg": 0,
+      "penetrations": []
+    },
+    {
+      "roll_deg": -20,
+      "pitch_deg": 15,
+      "penetrations": []
+    },
+    {
+      "roll_deg": -20,
+      "pitch_deg": 30,
+      "penetrations": []
+    },
+    {
+      "roll_deg": -20,
+      "pitch_deg": 45,
+      "penetrations": []
+    },
+    {
+      "roll_deg": -10,
+      "pitch_deg": -45,
+      "penetrations": []
+    },
+    {
+      "roll_deg": -10,
+      "pitch_deg": -30,
+      "penetrations": []
+    },
+    {
+      "roll_deg": -10,
+      "pitch_deg": -15,
+      "penetrations": []
+    },
+    {
+      "roll_deg": -10,
+      "pitch_deg": 0,
+      "penetrations": []
+    },
+    {
+      "roll_deg": -10,
+      "pitch_deg": 15,
+      "penetrations": []
+    },
+    {
+      "roll_deg": -10,
+      "pitch_deg": 30,
+      "penetrations": []
+    },
+    {
+      "roll_deg": -10,
+      "pitch_deg": 45,
+      "penetrations": []
+    },
+    {
+      "roll_deg": 0,
+      "pitch_deg": -45,
+      "penetrations": []
+    },
+    {
+      "roll_deg": 0,
+      "pitch_deg": -30,
+      "penetrations": []
+    },
+    {
+      "roll_deg": 0,
+      "pitch_deg": -15,
+      "penetrations": []
+    },
+    {
+      "roll_deg": 0,
+      "pitch_deg": 0,
+      "penetrations": []
+    },
+    {
+      "roll_deg": 0,
+      "pitch_deg": 15,
+      "penetrations": []
+    },
+    {
+      "roll_deg": 0,
+      "pitch_deg": 30,
+      "penetrations": []
+    },
+    {
+      "roll_deg": 0,
+      "pitch_deg": 45,
+      "penetrations": []
+    },
+    {
+      "roll_deg": 10,
+      "pitch_deg": -45,
+      "penetrations": []
+    },
+    {
+      "roll_deg": 10,
+      "pitch_deg": -30,
+      "penetrations": []
+    },
+    {
+      "roll_deg": 10,
+      "pitch_deg": -15,
+      "penetrations": []
+    },
+    {
+      "roll_deg": 10,
+      "pitch_deg": 0,
+      "penetrations": []
+    },
+    {
+      "roll_deg": 10,
+      "pitch_deg": 15,
+      "penetrations": []
+    },
+    {
+      "roll_deg": 10,
+      "pitch_deg": 30,
+      "penetrations": []
+    },
+    {
+      "roll_deg": 10,
+      "pitch_deg": 45,
+      "penetrations": []
+    },
+    {
+      "roll_deg": 20,
+      "pitch_deg": -45,
+      "penetrations": []
+    },
+    {
+      "roll_deg": 20,
+      "pitch_deg": -30,
+      "penetrations": []
+    },
+    {
+      "roll_deg": 20,
+      "pitch_deg": -15,
+      "penetrations": []
+    },
+    {
+      "roll_deg": 20,
+      "pitch_deg": 0,
+      "penetrations": []
+    },
+    {
+      "roll_deg": 20,
+      "pitch_deg": 15,
+      "penetrations": []
+    },
+    {
+      "roll_deg": 20,
+      "pitch_deg": 30,
+      "penetrations": []
+    },
+    {
+      "roll_deg": 20,
+      "pitch_deg": 45,
+      "penetrations": []
+    }
+  ],
+  "penetration_frame_count": 0,
+  "assumptions": [
+    "No fastener strength or tolerance stack verification",
+    "CNC aluminum geometry candidate, not printed load-bearing approval",
+    "6000 shown as annulus, not internal bearing geometry; fits not released",
+    "All solid joints use nominal contacts; no bolt pretension, stress, fatigue or thermal analysis",
+    "Cable/plug sweeps and boot shell still pending",
+    "35 samples only; not continuous collision certification",
+    "Factory output side determined from STEP PCD27 and 37mm face; previous v07 output orientation was only assumed"
+  ]
+}

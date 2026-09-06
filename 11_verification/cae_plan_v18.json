@@ -1,0 +1,10 @@
+{
+  "version":"v0.18",
+  "cases":[
+    {"id":"RC-CAE-0001","type":"multibody_contact","requirements":["RC-REQ-0001"],"subject":"Getup with gauntlet/knee/foot contact switching","status":"not_run","prerequisites":["collision-compatible fullbody geometry","link mass/COM/inertia","valid contact and friction data","actuator torque-speed-duration envelopes"],"existing_related_evidence":"04_kinematics/body_contacts_v18.json","evidence_scope":"geometry and assumed joint limits only"},
+    {"id":"RC-CAE-0002","type":"structural_contact","requirements":["RC-REQ-0001"],"subject":"Ankle bearing seats, pins and knee/hip load paths","status":"not_run","prerequisites":["actual material and interfaces","released-load candidate","bolt/bearing boundary conditions","mesh convergence"],"existing_related_evidence":"deliverables/support_mechanisms_review_v16.md","evidence_scope":"historical analytical studies, not current structure validation"},
+    {"id":"RC-CAE-0003","type":"thermal_electrical","requirements":["RC-REQ-0001"],"subject":"20-minute mixed duty and short-time overload","status":"not_run","prerequisites":["exact actuators/drivers/battery","duty cycle","loss and thermal parameters","ambient and cooling conditions"]},
+    {"id":"RC-CAE-0004","type":"impact_fatigue","requirements":["RC-REQ-0001"],"subject":"Knockdown and landing on four surfaces","status":"not_run","prerequisites":["validated contact/load trajectories","surface/pad stiffness","material/connection fatigue data","bounded impact conditions"]}
+  ],
+  "acceptance_rule":"Every computed result must bind source CAD/hash, material revision, loads, constraints, solver/settings, convergence and scope; no case is approved by a snapshot alone."
+}

@@ -1,0 +1,306 @@
+{
+  "status": "audit_findings_not_assembly_pass",
+  "records": [
+    {
+      "source": "09_cad/support_mechanisms_v16/ankle_p0_p0.FCStd",
+      "source_sha256": "83ca86bb55821013191fcabbc1cc5132d47a661813e40a930309c22d241e4815",
+      "pairs": [
+        {
+          "a": "FixedFrame",
+          "b": "FixedBearings",
+          "common_volume_mm3": 0.0,
+          "distance_mm": 25.0
+        },
+        {
+          "a": "FixedFrame",
+          "b": "RollMotorVendor",
+          "common_volume_mm3": 0.0,
+          "distance_mm": 8.130344396149704
+        },
+        {
+          "a": "FixedFrame",
+          "b": "RollCarrier",
+          "common_volume_mm3": 5.000000000000007,
+          "distance_mm": 0.0
+        },
+        {
+          "a": "FixedFrame",
+          "b": "PitchMotorEnvelope",
+          "common_volume_mm3": 0.0,
+          "distance_mm": 15.368842830916643
+        },
+        {
+          "a": "FixedFrame",
+          "b": "FootStructure",
+          "common_volume_mm3": 0.0,
+          "distance_mm": 32.38826948140329
+        },
+        {
+          "a": "FixedFrame",
+          "b": "SolePad",
+          "common_volume_mm3": 0.0,
+          "distance_mm": 67.0
+        },
+        {
+          "a": "FixedFrame",
+          "b": "RollRod",
+          "common_volume_mm3": 0.0,
+          "distance_mm": 3.0
+        },
+        {
+          "a": "FixedFrame",
+          "b": "RollCranks",
+          "common_volume_mm3": 0.0,
+          "distance_mm": 1.0
+        },
+        {
+          "a": "FixedBearings",
+          "b": "RollMotorVendor",
+          "common_volume_mm3": 593.0070292916092,
+          "distance_mm": 3.25
+        },
+        {
+          "a": "FixedBearings",
+          "b": "RollCarrier",
+          "common_volume_mm3": 107.7621568818316,
+          "distance_mm": 0.0
+        },
+        {
+          "a": "FixedBearings",
+          "b": "PitchMotorEnvelope",
+          "common_volume_mm3": 0.0,
+          "distance_mm": 2.5
+        },
+        {
+          "a": "FixedBearings",
+          "b": "FootStructure",
+          "common_volume_mm3": 0.0,
+          "distance_mm": 34.54409477236529
+        },
+        {
+          "a": "FixedBearings",
+          "b": "SolePad",
+          "common_volume_mm3": 0.0,
+          "distance_mm": 64.0
+        },
+        {
+          "a": "FixedBearings",
+          "b": "RollRod",
+          "common_volume_mm3": 0.0,
+          "distance_mm": 32.713109915419565
+        },
+        {
+          "a": "FixedBearings",
+          "b": "RollCranks",
+          "common_volume_mm3": 0.0,
+          "distance_mm": 30.0
+        },
+        {
+          "a": "RollMotorVendor",
+          "b": "RollCarrier",
+          "common_volume_mm3": 0.0,
+          "distance_mm": 13.749999999998266
+        },
+        {
+          "a": "RollMotorVendor",
+          "b": "PitchMotorEnvelope",
+          "common_volume_mm3": 0.0,
+          "distance_mm": 24.25
+        },
+        {
+          "a": "RollMotorVendor",
+          "b": "FootStructure",
+          "common_volume_mm3": 0.0,
+          "distance_mm": 50.75
+        },
+        {
+          "a": "RollMotorVendor",
+          "b": "SolePad",
+          "common_volume_mm3": 0.0,
+          "distance_mm": 85.74999999999827
+        },
+        {
+          "a": "RollMotorVendor",
+          "b": "RollRod",
+          "common_volume_mm3": 0.0,
+          "distance_mm": 15.820353531846667
+        },
+        {
+          "a": "RollMotorVendor",
+          "b": "RollCranks",
+          "common_volume_mm3": 0.0,
+          "distance_mm": 8.3
+        },
+        {
+          "a": "RollCarrier",
+          "b": "PitchMotorEnvelope",
+          "common_volume_mm3": 7.587187107267996,
+          "distance_mm": 0.0
+        },
+        {
+          "a": "RollCarrier",
+          "b": "FootStructure",
+          "common_volume_mm3": 626.8297697373346,
+          "distance_mm": 0.0
+        },
+        {
+          "a": "RollCarrier",
+          "b": "SolePad",
+          "common_volume_mm3": 0.0,
+          "distance_mm": 6.0
+        },
+        {
+          "a": "RollCarrier",
+          "b": "RollRod",
+          "common_volume_mm3": 0.0,
+          "distance_mm": 13.402921800749363
+        },
+        {
+          "a": "RollCarrier",
+          "b": "RollCranks",
+          "common_volume_mm3": 0.0,
+          "distance_mm": 5.0
+        },
+        {
+          "a": "PitchMotorEnvelope",
+          "b": "FootStructure",
+          "common_volume_mm3": 0.0,
+          "distance_mm": 0.8999999999999986
+        },
+        {
+          "a": "PitchMotorEnvelope",
+          "b": "SolePad",
+          "common_volume_mm3": 0.0,
+          "distance_mm": 8.5
+        },
+        {
+          "a": "PitchMotorEnvelope",
+          "b": "RollRod",
+          "common_volume_mm3": 0.0,
+          "distance_mm": 23.74937810560445
+        },
+        {
+          "a": "PitchMotorEnvelope",
+          "b": "RollCranks",
+          "common_volume_mm3": 0.0,
+          "distance_mm": 21.12363799656123
+        },
+        {
+          "a": "FootStructure",
+          "b": "SolePad",
+          "common_volume_mm3": 0.0,
+          "distance_mm": 0.0
+        },
+        {
+          "a": "FootStructure",
+          "b": "RollRod",
+          "common_volume_mm3": 0.0,
+          "distance_mm": 37.56406360476787
+        },
+        {
+          "a": "FootStructure",
+          "b": "RollCranks",
+          "common_volume_mm3": 0.0,
+          "distance_mm": 34.01666301941064
+        },
+        {
+          "a": "SolePad",
+          "b": "RollRod",
+          "common_volume_mm3": 0.0,
+          "distance_mm": 72.0
+        },
+        {
+          "a": "SolePad",
+          "b": "RollCranks",
+          "common_volume_mm3": 0.0,
+          "distance_mm": 68.0
+        },
+        {
+          "a": "RollRod",
+          "b": "RollCranks",
+          "common_volume_mm3": 48.64132671289701,
+          "distance_mm": 0.0
+        }
+      ],
+      "multi_solid_parts": {
+        "FixedFrame": 2,
+        "FixedBearings": 2,
+        "RollMotorVendor": 18,
+        "RollCranks": 2
+      },
+      "axis_support_gaps_mm": {
+        "FixedFrame": 25.0,
+        "RollMotorVendor": 3.25,
+        "RollCarrier": 0.0
+      }
+    },
+    {
+      "source": "09_cad/support_mechanisms_v16/hand_p0_p0.FCStd",
+      "source_sha256": "391d964ff4ddbb1717eb559c71da450dae2236260863ad5a47a36ea3eec47807",
+      "pairs": [
+        {
+          "a": "ForearmLoadFrame",
+          "b": "GauntletPrimaryPad",
+          "common_volume_mm3": 17.878074175460135,
+          "distance_mm": 8.881784197001252e-16
+        },
+        {
+          "a": "ForearmLoadFrame",
+          "b": "WristMotorEnvelope0",
+          "common_volume_mm3": 0.0,
+          "distance_mm": 4.242640687119285
+        },
+        {
+          "a": "ForearmLoadFrame",
+          "b": "WristMotorEnvelope1",
+          "common_volume_mm3": 0.0,
+          "distance_mm": 8.0
+        },
+        {
+          "a": "ForearmLoadFrame",
+          "b": "HandAndPalm",
+          "common_volume_mm3": 0.0,
+          "distance_mm": 0.0
+        },
+        {
+          "a": "GauntletPrimaryPad",
+          "b": "WristMotorEnvelope0",
+          "common_volume_mm3": 0.0,
+          "distance_mm": 29.0
+        },
+        {
+          "a": "GauntletPrimaryPad",
+          "b": "WristMotorEnvelope1",
+          "common_volume_mm3": 0.0,
+          "distance_mm": 34.0
+        },
+        {
+          "a": "GauntletPrimaryPad",
+          "b": "HandAndPalm",
+          "common_volume_mm3": 0.0,
+          "distance_mm": 2.0615528128088303
+        },
+        {
+          "a": "WristMotorEnvelope0",
+          "b": "WristMotorEnvelope1",
+          "common_volume_mm3": 0.0,
+          "distance_mm": 3.0
+        },
+        {
+          "a": "WristMotorEnvelope0",
+          "b": "HandAndPalm",
+          "common_volume_mm3": 0.0,
+          "distance_mm": 22.338307903688676
+        },
+        {
+          "a": "WristMotorEnvelope1",
+          "b": "HandAndPalm",
+          "common_volume_mm3": 0.0,
+          "distance_mm": 12.0
+        }
+      ],
+      "multi_solid_parts": {}
+    }
+  ],
+  "interpretation": "Finite overlap must be evaluated by material and rigid body; excluded pair labels are not evidence of a valid mechanical interface. Disjoint frame solids require specified connecting parts."
+}

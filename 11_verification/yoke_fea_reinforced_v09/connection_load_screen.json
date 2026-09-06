@@ -1,0 +1,124 @@
+{
+  "status": "sensitivity_only",
+  "load_cases": [
+    {
+      "assumed_mass_kg": 5.0,
+      "support_feet": 1,
+      "equivalent_force_factor": 1.0,
+      "per_foot_vertical_N": 49.050000000000004
+    },
+    {
+      "assumed_mass_kg": 5.0,
+      "support_feet": 1,
+      "equivalent_force_factor": 4.333333333333334,
+      "per_foot_vertical_N": 212.55000000000004
+    },
+    {
+      "assumed_mass_kg": 5.0,
+      "support_feet": 2,
+      "equivalent_force_factor": 1.0,
+      "per_foot_vertical_N": 24.525000000000002
+    },
+    {
+      "assumed_mass_kg": 5.0,
+      "support_feet": 2,
+      "equivalent_force_factor": 4.333333333333334,
+      "per_foot_vertical_N": 106.27500000000002
+    },
+    {
+      "assumed_mass_kg": 7.0,
+      "support_feet": 1,
+      "equivalent_force_factor": 1.0,
+      "per_foot_vertical_N": 68.67
+    },
+    {
+      "assumed_mass_kg": 7.0,
+      "support_feet": 1,
+      "equivalent_force_factor": 4.333333333333334,
+      "per_foot_vertical_N": 297.57000000000005
+    },
+    {
+      "assumed_mass_kg": 7.0,
+      "support_feet": 2,
+      "equivalent_force_factor": 1.0,
+      "per_foot_vertical_N": 34.335
+    },
+    {
+      "assumed_mass_kg": 7.0,
+      "support_feet": 2,
+      "equivalent_force_factor": 4.333333333333334,
+      "per_foot_vertical_N": 148.78500000000003
+    }
+  ],
+  "ideal_pin_bearing_cases": [
+    {
+      "assumed_internal_support_x_mm": -30.0,
+      "external_bearing_x_mm": 0.1,
+      "force_N": 100.0,
+      "external_reaction_N": 229.2358803986711,
+      "internal_reaction_N": -129.2358803986711
+    },
+    {
+      "assumed_internal_support_x_mm": -20.0,
+      "external_bearing_x_mm": 0.1,
+      "force_N": 100.0,
+      "external_reaction_N": 293.53233830845767,
+      "internal_reaction_N": -193.53233830845767
+    },
+    {
+      "assumed_internal_support_x_mm": -9.9,
+      "external_bearing_x_mm": 0.1,
+      "force_N": 100.0,
+      "external_reaction_N": 489.0,
+      "internal_reaction_N": -389.0
+    }
+  ],
+  "bolt_group_combined_screen": {
+    "vertical_force_N": 100,
+    "axis_torque_Nm": 4.1,
+    "bolt_count": 3,
+    "pcd_mm": 27,
+    "bolts": [
+      {
+        "y_mm": 11.69134295109,
+        "z_mm": 6.75,
+        "shear_y_N": -50.617283950616944,
+        "shear_z_N": 54.338374210276505,
+        "resultant_N": 74.26148629238057
+      },
+      {
+        "y_mm": -11.69134295109,
+        "z_mm": 6.75,
+        "shear_y_N": -50.617283950616944,
+        "shear_z_N": -121.00504087694318,
+        "resultant_N": 131.16527494793763
+      },
+      {
+        "y_mm": 0,
+        "z_mm": -13.5,
+        "shear_y_N": 101.23456790123389,
+        "shear_z_N": -33.333333333333336,
+        "resultant_N": 106.58118431158778
+      }
+    ],
+    "maximum_shear_N": 131.16527494793763
+  },
+  "mass": {
+    "v08": {
+      "yoke_mass_kg_at_2700_density": 0.04287466659923338,
+      "six_metal_parts_mass_kg": 0.28577118364461757
+    },
+    "v09": {
+      "yoke_mass_kg_at_2700_density": 0.10184713475554756,
+      "six_metal_parts_mass_kg": 0.34474365180093175
+    }
+  },
+  "limitations": [
+    "5/7kg are assumed, not measured robot masses",
+    "Landing factor from simple vertical energy model is displacement-average, not peak",
+    "Bearing support coordinates inside motor unknown; pin reactions cannot replace real bearing/contact model",
+    "Bolt forces assume equal shear stiffness and no interface friction; no preload/prying/axial load or thread stripping check",
+    "4.1Nm motor peak combined with 100N is an independent stress scenario, not a verified actual simultaneous load",
+    "Material density assumed 2700kg/m3; strength and stock certificate not selected"
+  ]
+}

@@ -1,0 +1,2885 @@
+{
+  "input_sha256": "ac398794d44ba52867a4cf65dc6ed2238310de3cda7fd99d905f565b250c3b78",
+  "scenes": [
+    {
+      "name": "stand_baseline",
+      "bounds": {
+        "min_mm": [
+          -58.708156995128064,
+          -142.14069172321052,
+          -2.0
+        ],
+        "max_mm": [
+          63.82923881333137,
+          142.14069172321055,
+          392.26539554219744
+        ],
+        "size_mm": [
+          122.53739580845944,
+          284.28138344642105,
+          394.26539554219744
+        ]
+      },
+      "known_or_allocated_mass_kg": 4.031075631201699,
+      "approx_COM_mm": [
+        0.6828462850415915,
+        -7.448017230679744e-05,
+        186.63557227968099
+      ],
+      "motor_count": 28,
+      "component_minimum_z_mm": {
+        "L_FixedFrame": 53.19521125162877,
+        "L_FixedBearings": 57.134442263677606,
+        "L_RollMotorVendor": 82.09643371609852,
+        "L_RollCarrier": 6.008930498976219,
+        "L_PitchMotorEnvelope": 8.5,
+        "L_FootStructure": 0.0,
+        "L_SolePad": -2.0,
+        "L_RollRod": 57.65779103537723,
+        "L_RollCrankTop": 85.1158412550415,
+        "L_RollCrankBottom": 57.54122417069964,
+        "L_RollPin0": 87.83953502342179,
+        "L_RollPin1": 60.264917939079965,
+        "L_RollOutputShaft": 59.51083967672408,
+        "L_RollInputExtension": 87.08545676106593,
+        "L_RollIdleExtension": 98.37258830941639,
+        "L_KneeMotor": 97.13269777109873,
+        "L_HipPitchMotor": 185.76539554219747,
+        "L_HipRollMotor": 222.01539554216072,
+        "L_HipYawMotor": 266.2653955421974,
+        "L_ShinKneeRailm1": 122.46943336302198,
+        "L_ThighRailm1": 121.20162328376169,
+        "L_ShinKneeRail1": 110.31406092633684,
+        "L_ThighRail1": 121.20162328376169,
+        "L_CableServiceSpace": 87.7109469652502,
+        "R_FixedFrame": 53.19521125162877,
+        "R_FixedBearings": 57.134442263677634,
+        "R_RollMotorVendor": 82.09643371609852,
+        "R_RollCarrier": 6.008930498976228,
+        "R_PitchMotorEnvelope": 8.500000000000007,
+        "R_FootStructure": 0.0,
+        "R_SolePad": -2.0,
+        "R_RollRod": 57.65779103537724,
+        "R_RollCrankTop": 85.1158412550415,
+        "R_RollCrankBottom": 57.54122417069964,
+        "R_RollPin0": 87.83953502342182,
+        "R_RollPin1": 60.26491793907998,
+        "R_RollOutputShaft": 59.510839676724096,
+        "R_RollInputExtension": 87.08545676106594,
+        "R_RollIdleExtension": 98.37258830941641,
+        "R_KneeMotor": 97.13269777109873,
+        "R_HipPitchMotor": 185.76539554219747,
+        "R_HipRollMotor": 222.01539554216072,
+        "R_HipYawMotor": 266.2653955421974,
+        "R_ShinKneeRailm1": 122.46943336302198,
+        "R_ThighRailm1": 121.20162328376169,
+        "R_ShinKneeRail1": 110.31406092633684,
+        "R_ThighRail1": 121.20162328376169,
+        "R_CableServiceSpace": 87.7109469652502,
+        "PelvisPlate": 272.26539554219744,
+        "battery": 264.26539554219744,
+        "microphone": 256.2153955421975,
+        "computer": 271.76539554219744,
+        "power": 311.26539554219744,
+        "camera": 334.76539554219744,
+        "L_ShoulderMotor0": 281.01539554219727,
+        "L_ShoulderMotor1": 259.5164355837648,
+        "L_ShoulderMotor2": 294.1602689002111,
+        "L_UpperArm": 215.57942713971198,
+        "L_ElbowMotor": 205.81794321724257,
+        "L_ForearmLoadFrame": 137.62987092331076,
+        "L_GauntletPrimaryPad": 130.2697743085644,
+        "L_WristMotorEnvelope0": 162.1303367442093,
+        "L_WristMotorEnvelope1": 142.43782192775794,
+        "L_HandAndPalm": 80.61445428184803,
+        "L_GripperMotor": 79.73184913035854,
+        "R_ShoulderMotor0": 281.0153955421973,
+        "R_ShoulderMotor1": 259.5164355837648,
+        "R_ShoulderMotor2": 294.1602689002111,
+        "R_UpperArm": 215.57942713971198,
+        "R_ElbowMotor": 205.81794321724254,
+        "R_ForearmLoadFrame": 137.62987092331076,
+        "R_GauntletPrimaryPad": 130.2697743085644,
+        "R_WristMotorEnvelope0": 162.1303367442093,
+        "R_WristMotorEnvelope1": 142.43782192775794,
+        "R_HandAndPalm": 80.61445428184803,
+        "R_GripperMotor": 79.73184913035855,
+        "NeckMotor0": 321.26539554219744,
+        "NeckMotor1": 354.26539554219744,
+        "WukongHeadShell": 311.26539554219744,
+        "MonkeyEarm1": 332.26539554219744,
+        "MonkeyEar1": 332.26539554219744,
+        "CrownOccupancy": 388.26539554219744
+      },
+      "arm_nodes": [
+        {
+          "side": "L",
+          "shoulder_mm": [
+            7.993605777301127e-15,
+            75.0,
+            292.26539554219744
+          ],
+          "pad_center_mm": [
+            18.392420469570908,
+            100.92505900231374,
+            142.4954235384539
+          ]
+        },
+        {
+          "side": "R",
+          "shoulder_mm": [
+            7.993605777301127e-15,
+            -75.0,
+            292.26539554219744
+          ],
+          "pad_center_mm": [
+            18.392420469570908,
+            -100.92505900231374,
+            142.4954235384539
+          ]
+        }
+      ],
+      "manufacturable": false,
+      "task_verified": false,
+      "collisions": [
+        {
+          "a": "L_KneeMotor",
+          "b": "L_ForearmLoadFrame",
+          "volume_mm3": 375.278666368591,
+          "group_a": "L_leg",
+          "group_b": "L_arm"
+        },
+        {
+          "a": "L_KneeMotor",
+          "b": "L_GauntletPrimaryPad",
+          "volume_mm3": 1844.5312649553628,
+          "group_a": "L_leg",
+          "group_b": "L_arm"
+        },
+        {
+          "a": "L_KneeMotor",
+          "b": "L_HandAndPalm",
+          "volume_mm3": 5997.331596282679,
+          "group_a": "L_leg",
+          "group_b": "L_arm"
+        },
+        {
+          "a": "L_HipPitchMotor",
+          "b": "L_UpperArm",
+          "volume_mm3": 932.7858339892421,
+          "group_a": "L_leg",
+          "group_b": "L_arm"
+        },
+        {
+          "a": "L_HipPitchMotor",
+          "b": "L_ElbowMotor",
+          "volume_mm3": 6575.0781403267465,
+          "group_a": "L_leg",
+          "group_b": "L_arm"
+        },
+        {
+          "a": "L_HipPitchMotor",
+          "b": "L_ForearmLoadFrame",
+          "volume_mm3": 3001.8843322018893,
+          "group_a": "L_leg",
+          "group_b": "L_arm"
+        },
+        {
+          "a": "L_HipPitchMotor",
+          "b": "L_WristMotorEnvelope0",
+          "volume_mm3": 6375.457026287411,
+          "group_a": "L_leg",
+          "group_b": "L_arm"
+        },
+        {
+          "a": "L_HipYawMotor",
+          "b": "PelvisPlate",
+          "volume_mm3": 39.26990816987243,
+          "group_a": "L_leg",
+          "group_b": "body"
+        },
+        {
+          "a": "L_HipYawMotor",
+          "b": "battery",
+          "volume_mm3": 12003.028637198204,
+          "group_a": "L_leg",
+          "group_b": "electronics"
+        },
+        {
+          "a": "L_HipYawMotor",
+          "b": "L_ShoulderMotor2",
+          "volume_mm3": 1507.3448651753376,
+          "group_a": "L_leg",
+          "group_b": "L_arm"
+        },
+        {
+          "a": "L_HipYawMotor",
+          "b": "L_UpperArm",
+          "volume_mm3": 195.62880775132544,
+          "group_a": "L_leg",
+          "group_b": "L_arm"
+        },
+        {
+          "a": "L_ThighRail1",
+          "b": "L_ElbowMotor",
+          "volume_mm3": 5.104812238863475,
+          "group_a": "L_leg",
+          "group_b": "L_arm"
+        },
+        {
+          "a": "R_KneeMotor",
+          "b": "R_ForearmLoadFrame",
+          "volume_mm3": 375.2786663687655,
+          "group_a": "R_leg",
+          "group_b": "R_arm"
+        },
+        {
+          "a": "R_KneeMotor",
+          "b": "R_GauntletPrimaryPad",
+          "volume_mm3": 1844.5312649553653,
+          "group_a": "R_leg",
+          "group_b": "R_arm"
+        },
+        {
+          "a": "R_KneeMotor",
+          "b": "R_HandAndPalm",
+          "volume_mm3": 5997.331596282694,
+          "group_a": "R_leg",
+          "group_b": "R_arm"
+        },
+        {
+          "a": "R_HipPitchMotor",
+          "b": "R_UpperArm",
+          "volume_mm3": 932.7858340155188,
+          "group_a": "R_leg",
+          "group_b": "R_arm"
+        },
+        {
+          "a": "R_HipPitchMotor",
+          "b": "R_ElbowMotor",
+          "volume_mm3": 6575.0781403265355,
+          "group_a": "R_leg",
+          "group_b": "R_arm"
+        },
+        {
+          "a": "R_HipPitchMotor",
+          "b": "R_ForearmLoadFrame",
+          "volume_mm3": 3001.884332202008,
+          "group_a": "R_leg",
+          "group_b": "R_arm"
+        },
+        {
+          "a": "R_HipPitchMotor",
+          "b": "R_WristMotorEnvelope0",
+          "volume_mm3": 6375.457026287356,
+          "group_a": "R_leg",
+          "group_b": "R_arm"
+        },
+        {
+          "a": "R_HipYawMotor",
+          "b": "PelvisPlate",
+          "volume_mm3": 39.26990816987243,
+          "group_a": "R_leg",
+          "group_b": "body"
+        },
+        {
+          "a": "R_HipYawMotor",
+          "b": "battery",
+          "volume_mm3": 12003.028637198207,
+          "group_a": "R_leg",
+          "group_b": "electronics"
+        },
+        {
+          "a": "R_HipYawMotor",
+          "b": "R_ShoulderMotor2",
+          "volume_mm3": 1507.3448651762167,
+          "group_a": "R_leg",
+          "group_b": "R_arm"
+        },
+        {
+          "a": "R_HipYawMotor",
+          "b": "R_UpperArm",
+          "volume_mm3": 195.6288077508704,
+          "group_a": "R_leg",
+          "group_b": "R_arm"
+        },
+        {
+          "a": "R_ThighRail1",
+          "b": "R_ElbowMotor",
+          "volume_mm3": 5.104812238863549,
+          "group_a": "R_leg",
+          "group_b": "R_arm"
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "battery",
+          "volume_mm3": 12799.999999999996,
+          "group_a": "body",
+          "group_b": "electronics"
+        },
+        {
+          "a": "battery",
+          "b": "L_ShoulderMotor1",
+          "volume_mm3": 2.1679528796353846,
+          "group_a": "electronics",
+          "group_b": "L_arm"
+        },
+        {
+          "a": "battery",
+          "b": "L_ShoulderMotor2",
+          "volume_mm3": 9.275463419332208,
+          "group_a": "electronics",
+          "group_b": "L_arm"
+        },
+        {
+          "a": "battery",
+          "b": "R_ShoulderMotor1",
+          "volume_mm3": 2.16795287963527,
+          "group_a": "electronics",
+          "group_b": "R_arm"
+        },
+        {
+          "a": "battery",
+          "b": "R_ShoulderMotor2",
+          "volume_mm3": 9.275463419340863,
+          "group_a": "electronics",
+          "group_b": "R_arm"
+        },
+        {
+          "a": "microphone",
+          "b": "L_ShoulderMotor1",
+          "volume_mm3": 1021.827633915756,
+          "group_a": "electronics",
+          "group_b": "L_arm"
+        },
+        {
+          "a": "microphone",
+          "b": "R_ShoulderMotor1",
+          "volume_mm3": 1021.8276339157627,
+          "group_a": "electronics",
+          "group_b": "R_arm"
+        },
+        {
+          "a": "microphone",
+          "b": "NeckMotor0",
+          "volume_mm3": 2218.500000000002,
+          "group_a": "electronics",
+          "group_b": "neck"
+        },
+        {
+          "a": "microphone",
+          "b": "WukongHeadShell",
+          "volume_mm3": 354.45276245473104,
+          "group_a": "electronics",
+          "group_b": "appearance"
+        },
+        {
+          "a": "power",
+          "b": "NeckMotor0",
+          "volume_mm3": 170.00000000000003,
+          "group_a": "electronics",
+          "group_b": "neck"
+        },
+        {
+          "a": "power",
+          "b": "WukongHeadShell",
+          "volume_mm3": 3733.721648802507,
+          "group_a": "electronics",
+          "group_b": "appearance"
+        },
+        {
+          "a": "L_ShoulderMotor2",
+          "b": "WukongHeadShell",
+          "volume_mm3": 741.91093960586,
+          "group_a": "L_arm",
+          "group_b": "appearance"
+        },
+        {
+          "a": "L_ShoulderMotor2",
+          "b": "MonkeyEar1",
+          "volume_mm3": 299.5458425092541,
+          "group_a": "L_arm",
+          "group_b": "appearance"
+        },
+        {
+          "a": "L_ElbowMotor",
+          "b": "L_ForearmLoadFrame",
+          "volume_mm3": 639.7031048476844,
+          "group_a": "L_arm",
+          "group_b": "L_arm"
+        },
+        {
+          "a": "L_ForearmLoadFrame",
+          "b": "L_GauntletPrimaryPad",
+          "volume_mm3": 17.87807417543891,
+          "group_a": "L_arm",
+          "group_b": "L_arm"
+        },
+        {
+          "a": "R_ShoulderMotor2",
+          "b": "WukongHeadShell",
+          "volume_mm3": 741.9342716108753,
+          "group_a": "R_arm",
+          "group_b": "appearance"
+        },
+        {
+          "a": "R_ShoulderMotor2",
+          "b": "MonkeyEarm1",
+          "volume_mm3": 299.4087986847911,
+          "group_a": "R_arm",
+          "group_b": "appearance"
+        },
+        {
+          "a": "R_ElbowMotor",
+          "b": "R_ForearmLoadFrame",
+          "volume_mm3": 639.7031048476903,
+          "group_a": "R_arm",
+          "group_b": "R_arm"
+        },
+        {
+          "a": "R_ForearmLoadFrame",
+          "b": "R_GauntletPrimaryPad",
+          "volume_mm3": 17.8780741756089,
+          "group_a": "R_arm",
+          "group_b": "R_arm"
+        },
+        {
+          "a": "NeckMotor0",
+          "b": "WukongHeadShell",
+          "volume_mm3": 1783.1863917408293,
+          "group_a": "neck",
+          "group_b": "appearance"
+        },
+        {
+          "a": "NeckMotor1",
+          "b": "WukongHeadShell",
+          "volume_mm3": 2050.389814399614,
+          "group_a": "neck",
+          "group_b": "appearance"
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "MonkeyEarm1",
+          "volume_mm3": 873.2606496044534,
+          "group_a": "appearance",
+          "group_b": "appearance"
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "MonkeyEar1",
+          "volume_mm3": 872.3788257735166,
+          "group_a": "appearance",
+          "group_b": "appearance"
+        }
+      ],
+      "legs_bounds": {
+        "min_mm": [
+          -55.0,
+          -134.0,
+          -2.0
+        ],
+        "max_mm": [
+          63.82923881333137,
+          134.0,
+          308.9653955421974
+        ],
+        "size_mm": [
+          118.82923881333137,
+          268.0,
+          310.9653955421974
+        ]
+      }
+    },
+    {
+      "name": "stand_narrow",
+      "bounds": {
+        "min_mm": [
+          -58.708156995128064,
+          -142.14069172321052,
+          -2.0
+        ],
+        "max_mm": [
+          63.82923881333137,
+          142.14069172321055,
+          392.26539554219744
+        ],
+        "size_mm": [
+          122.53739580845944,
+          284.28138344642105,
+          394.26539554219744
+        ]
+      },
+      "known_or_allocated_mass_kg": 4.032069231201699,
+      "approx_COM_mm": [
+        0.6860631661782193,
+        -7.446181857989804e-05,
+        186.61740372961611
+      ],
+      "motor_count": 28,
+      "component_minimum_z_mm": {
+        "L_FixedFrame": 53.19521125162877,
+        "L_FixedBearings": 57.134442263677606,
+        "L_RollMotorVendor": 82.09643371609852,
+        "L_RollCarrier": 6.008930498976219,
+        "L_PitchMotorEnvelope": 8.5,
+        "L_FootStructure": 0.0,
+        "L_SolePad": -2.0,
+        "L_RollRod": 57.65779103537723,
+        "L_RollCrankTop": 85.1158412550415,
+        "L_RollCrankBottom": 57.54122417069964,
+        "L_RollPin0": 87.83953502342179,
+        "L_RollPin1": 60.264917939079965,
+        "L_RollOutputShaft": 59.51083967672408,
+        "L_RollInputExtension": 87.08545676106593,
+        "L_RollIdleExtension": 98.37258830941639,
+        "L_KneeMotor": 97.13269777109873,
+        "L_HipPitchMotor": 185.76539554219747,
+        "L_HipRollMotor": 222.01539554216072,
+        "L_HipYawMotor": 266.2653955421974,
+        "L_ShinKneeRailm1": 122.46943336302198,
+        "L_ThighRailm1": 121.20162328376169,
+        "L_ShinKneeRail1": 110.31406092633684,
+        "L_ThighRail1": 121.20162328376169,
+        "L_CableServiceSpace": 87.7109469652502,
+        "R_FixedFrame": 53.19521125162877,
+        "R_FixedBearings": 57.134442263677634,
+        "R_RollMotorVendor": 82.09643371609852,
+        "R_RollCarrier": 6.008930498976228,
+        "R_PitchMotorEnvelope": 8.500000000000007,
+        "R_FootStructure": 0.0,
+        "R_SolePad": -2.0,
+        "R_RollRod": 57.65779103537724,
+        "R_RollCrankTop": 85.1158412550415,
+        "R_RollCrankBottom": 57.54122417069964,
+        "R_RollPin0": 87.83953502342182,
+        "R_RollPin1": 60.26491793907998,
+        "R_RollOutputShaft": 59.510839676724096,
+        "R_RollInputExtension": 87.08545676106594,
+        "R_RollIdleExtension": 98.37258830941641,
+        "R_KneeMotor": 97.13269777109873,
+        "R_HipPitchMotor": 185.76539554219747,
+        "R_HipRollMotor": 222.01539554216072,
+        "R_HipYawMotor": 266.2653955421974,
+        "R_ShinKneeRailm1": 122.46943336302198,
+        "R_ThighRailm1": 121.20162328376169,
+        "R_ShinKneeRail1": 110.31406092633684,
+        "R_ThighRail1": 121.20162328376169,
+        "R_CableServiceSpace": 87.7109469652502,
+        "PelvisPlate": 272.26539554219744,
+        "battery": 264.26539554219744,
+        "microphone": 256.2153955421975,
+        "computer": 271.76539554219744,
+        "power": 311.26539554219744,
+        "camera": 334.76539554219744,
+        "L_ShoulderMotor0": 281.01539554219727,
+        "L_ShoulderMotor1": 259.5164355837648,
+        "L_ShoulderMotor2": 294.1602689002111,
+        "L_UpperArm": 215.57942713971198,
+        "L_ElbowMotor": 205.81794321724257,
+        "L_ForearmLoadFrame": 137.62987092331076,
+        "L_GauntletPrimaryPad": 130.2697743085644,
+        "L_WristMotorEnvelope0": 162.1303367442093,
+        "L_WristMotorEnvelope1": 142.43782192775794,
+        "L_HandAndPalm": 80.61445428184803,
+        "L_GripperMotor": 79.73184913035854,
+        "R_ShoulderMotor0": 281.0153955421973,
+        "R_ShoulderMotor1": 259.5164355837648,
+        "R_ShoulderMotor2": 294.1602689002111,
+        "R_UpperArm": 215.57942713971198,
+        "R_ElbowMotor": 205.81794321724254,
+        "R_ForearmLoadFrame": 137.62987092331076,
+        "R_GauntletPrimaryPad": 130.2697743085644,
+        "R_WristMotorEnvelope0": 162.1303367442093,
+        "R_WristMotorEnvelope1": 142.43782192775794,
+        "R_HandAndPalm": 80.61445428184803,
+        "R_GripperMotor": 79.73184913035855,
+        "NeckMotor0": 321.26539554219744,
+        "NeckMotor1": 354.26539554219744,
+        "WukongHeadShell": 311.26539554219744,
+        "MonkeyEarm1": 332.26539554219744,
+        "MonkeyEar1": 332.26539554219744,
+        "CrownOccupancy": 388.26539554219744
+      },
+      "arm_nodes": [
+        {
+          "side": "L",
+          "shoulder_mm": [
+            7.993605777301127e-15,
+            75.0,
+            292.26539554219744
+          ],
+          "pad_center_mm": [
+            18.392420469570908,
+            100.92505900231374,
+            142.4954235384539
+          ]
+        },
+        {
+          "side": "R",
+          "shoulder_mm": [
+            7.993605777301127e-15,
+            -75.0,
+            292.26539554219744
+          ],
+          "pad_center_mm": [
+            18.392420469570908,
+            -100.92505900231374,
+            142.4954235384539
+          ]
+        }
+      ],
+      "manufacturable": false,
+      "task_verified": false,
+      "collisions": [
+        {
+          "a": "L_KneeMotor",
+          "b": "L_ForearmLoadFrame",
+          "volume_mm3": 542.9994196599713,
+          "group_a": "L_leg",
+          "group_b": "L_arm"
+        },
+        {
+          "a": "L_KneeMotor",
+          "b": "L_GauntletPrimaryPad",
+          "volume_mm3": 1827.0854078531538,
+          "group_a": "L_leg",
+          "group_b": "L_arm"
+        },
+        {
+          "a": "L_KneeMotor",
+          "b": "L_HandAndPalm",
+          "volume_mm3": 4773.251621156657,
+          "group_a": "L_leg",
+          "group_b": "L_arm"
+        },
+        {
+          "a": "L_HipPitchMotor",
+          "b": "L_UpperArm",
+          "volume_mm3": 932.7861917787593,
+          "group_a": "L_leg",
+          "group_b": "L_arm"
+        },
+        {
+          "a": "L_HipPitchMotor",
+          "b": "L_ElbowMotor",
+          "volume_mm3": 4773.12122026442,
+          "group_a": "L_leg",
+          "group_b": "L_arm"
+        },
+        {
+          "a": "L_HipPitchMotor",
+          "b": "L_ForearmLoadFrame",
+          "volume_mm3": 3714.6392162591337,
+          "group_a": "L_leg",
+          "group_b": "L_arm"
+        },
+        {
+          "a": "L_HipPitchMotor",
+          "b": "L_WristMotorEnvelope0",
+          "volume_mm3": 6396.070700671113,
+          "group_a": "L_leg",
+          "group_b": "L_arm"
+        },
+        {
+          "a": "L_HipYawMotor",
+          "b": "PelvisPlate",
+          "volume_mm3": 39.26990816987243,
+          "group_a": "L_leg",
+          "group_b": "body"
+        },
+        {
+          "a": "L_HipYawMotor",
+          "b": "battery",
+          "volume_mm3": 12003.028637198204,
+          "group_a": "L_leg",
+          "group_b": "electronics"
+        },
+        {
+          "a": "L_HipYawMotor",
+          "b": "L_ShoulderMotor2",
+          "volume_mm3": 1507.3448651753376,
+          "group_a": "L_leg",
+          "group_b": "L_arm"
+        },
+        {
+          "a": "L_HipYawMotor",
+          "b": "L_UpperArm",
+          "volume_mm3": 195.62880775132544,
+          "group_a": "L_leg",
+          "group_b": "L_arm"
+        },
+        {
+          "a": "L_ThighRail1",
+          "b": "L_ElbowMotor",
+          "volume_mm3": 5.339645018964637,
+          "group_a": "L_leg",
+          "group_b": "L_arm"
+        },
+        {
+          "a": "L_ThighRail1",
+          "b": "L_GauntletPrimaryPad",
+          "volume_mm3": 34.525051080089085,
+          "group_a": "L_leg",
+          "group_b": "L_arm"
+        },
+        {
+          "a": "L_ThighRail1",
+          "b": "L_HandAndPalm",
+          "volume_mm3": 56.549509169981704,
+          "group_a": "L_leg",
+          "group_b": "L_arm"
+        },
+        {
+          "a": "R_KneeMotor",
+          "b": "R_ForearmLoadFrame",
+          "volume_mm3": 542.999419659624,
+          "group_a": "R_leg",
+          "group_b": "R_arm"
+        },
+        {
+          "a": "R_KneeMotor",
+          "b": "R_GauntletPrimaryPad",
+          "volume_mm3": 1827.0854078531593,
+          "group_a": "R_leg",
+          "group_b": "R_arm"
+        },
+        {
+          "a": "R_KneeMotor",
+          "b": "R_HandAndPalm",
+          "volume_mm3": 4773.251621156618,
+          "group_a": "R_leg",
+          "group_b": "R_arm"
+        },
+        {
+          "a": "R_HipPitchMotor",
+          "b": "R_UpperArm",
+          "volume_mm3": 932.7861917813191,
+          "group_a": "R_leg",
+          "group_b": "R_arm"
+        },
+        {
+          "a": "R_HipPitchMotor",
+          "b": "R_ElbowMotor",
+          "volume_mm3": 4773.121220264285,
+          "group_a": "R_leg",
+          "group_b": "R_arm"
+        },
+        {
+          "a": "R_HipPitchMotor",
+          "b": "R_ForearmLoadFrame",
+          "volume_mm3": 3714.63921625869,
+          "group_a": "R_leg",
+          "group_b": "R_arm"
+        },
+        {
+          "a": "R_HipPitchMotor",
+          "b": "R_WristMotorEnvelope0",
+          "volume_mm3": 6396.070700671038,
+          "group_a": "R_leg",
+          "group_b": "R_arm"
+        },
+        {
+          "a": "R_HipYawMotor",
+          "b": "PelvisPlate",
+          "volume_mm3": 39.26990816987243,
+          "group_a": "R_leg",
+          "group_b": "body"
+        },
+        {
+          "a": "R_HipYawMotor",
+          "b": "battery",
+          "volume_mm3": 12003.028637198207,
+          "group_a": "R_leg",
+          "group_b": "electronics"
+        },
+        {
+          "a": "R_HipYawMotor",
+          "b": "R_ShoulderMotor2",
+          "volume_mm3": 1507.3448651762167,
+          "group_a": "R_leg",
+          "group_b": "R_arm"
+        },
+        {
+          "a": "R_HipYawMotor",
+          "b": "R_UpperArm",
+          "volume_mm3": 195.6288077508704,
+          "group_a": "R_leg",
+          "group_b": "R_arm"
+        },
+        {
+          "a": "R_ThighRail1",
+          "b": "R_ElbowMotor",
+          "volume_mm3": 5.3396450189646165,
+          "group_a": "R_leg",
+          "group_b": "R_arm"
+        },
+        {
+          "a": "R_ThighRail1",
+          "b": "R_GauntletPrimaryPad",
+          "volume_mm3": 34.52505108009079,
+          "group_a": "R_leg",
+          "group_b": "R_arm"
+        },
+        {
+          "a": "R_ThighRail1",
+          "b": "R_HandAndPalm",
+          "volume_mm3": 56.54950916998454,
+          "group_a": "R_leg",
+          "group_b": "R_arm"
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "battery",
+          "volume_mm3": 12799.999999999996,
+          "group_a": "body",
+          "group_b": "electronics"
+        },
+        {
+          "a": "battery",
+          "b": "L_ShoulderMotor1",
+          "volume_mm3": 2.1679528796353846,
+          "group_a": "electronics",
+          "group_b": "L_arm"
+        },
+        {
+          "a": "battery",
+          "b": "L_ShoulderMotor2",
+          "volume_mm3": 9.275463419332208,
+          "group_a": "electronics",
+          "group_b": "L_arm"
+        },
+        {
+          "a": "battery",
+          "b": "R_ShoulderMotor1",
+          "volume_mm3": 2.16795287963527,
+          "group_a": "electronics",
+          "group_b": "R_arm"
+        },
+        {
+          "a": "battery",
+          "b": "R_ShoulderMotor2",
+          "volume_mm3": 9.275463419340863,
+          "group_a": "electronics",
+          "group_b": "R_arm"
+        },
+        {
+          "a": "microphone",
+          "b": "L_ShoulderMotor1",
+          "volume_mm3": 1021.827633915756,
+          "group_a": "electronics",
+          "group_b": "L_arm"
+        },
+        {
+          "a": "microphone",
+          "b": "R_ShoulderMotor1",
+          "volume_mm3": 1021.8276339157627,
+          "group_a": "electronics",
+          "group_b": "R_arm"
+        },
+        {
+          "a": "microphone",
+          "b": "NeckMotor0",
+          "volume_mm3": 2218.500000000002,
+          "group_a": "electronics",
+          "group_b": "neck"
+        },
+        {
+          "a": "microphone",
+          "b": "WukongHeadShell",
+          "volume_mm3": 354.45276245473104,
+          "group_a": "electronics",
+          "group_b": "appearance"
+        },
+        {
+          "a": "power",
+          "b": "NeckMotor0",
+          "volume_mm3": 170.00000000000003,
+          "group_a": "electronics",
+          "group_b": "neck"
+        },
+        {
+          "a": "power",
+          "b": "WukongHeadShell",
+          "volume_mm3": 3733.721648802507,
+          "group_a": "electronics",
+          "group_b": "appearance"
+        },
+        {
+          "a": "L_ShoulderMotor2",
+          "b": "WukongHeadShell",
+          "volume_mm3": 741.91093960586,
+          "group_a": "L_arm",
+          "group_b": "appearance"
+        },
+        {
+          "a": "L_ShoulderMotor2",
+          "b": "MonkeyEar1",
+          "volume_mm3": 299.5458425092541,
+          "group_a": "L_arm",
+          "group_b": "appearance"
+        },
+        {
+          "a": "L_ElbowMotor",
+          "b": "L_ForearmLoadFrame",
+          "volume_mm3": 639.7031048476844,
+          "group_a": "L_arm",
+          "group_b": "L_arm"
+        },
+        {
+          "a": "L_ForearmLoadFrame",
+          "b": "L_GauntletPrimaryPad",
+          "volume_mm3": 17.87807417543891,
+          "group_a": "L_arm",
+          "group_b": "L_arm"
+        },
+        {
+          "a": "R_ShoulderMotor2",
+          "b": "WukongHeadShell",
+          "volume_mm3": 741.9342716108753,
+          "group_a": "R_arm",
+          "group_b": "appearance"
+        },
+        {
+          "a": "R_ShoulderMotor2",
+          "b": "MonkeyEarm1",
+          "volume_mm3": 299.4087986847911,
+          "group_a": "R_arm",
+          "group_b": "appearance"
+        },
+        {
+          "a": "R_ElbowMotor",
+          "b": "R_ForearmLoadFrame",
+          "volume_mm3": 639.7031048476903,
+          "group_a": "R_arm",
+          "group_b": "R_arm"
+        },
+        {
+          "a": "R_ForearmLoadFrame",
+          "b": "R_GauntletPrimaryPad",
+          "volume_mm3": 17.8780741756089,
+          "group_a": "R_arm",
+          "group_b": "R_arm"
+        },
+        {
+          "a": "NeckMotor0",
+          "b": "WukongHeadShell",
+          "volume_mm3": 1783.1863917408293,
+          "group_a": "neck",
+          "group_b": "appearance"
+        },
+        {
+          "a": "NeckMotor1",
+          "b": "WukongHeadShell",
+          "volume_mm3": 2050.389814399614,
+          "group_a": "neck",
+          "group_b": "appearance"
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "MonkeyEarm1",
+          "volume_mm3": 873.2606496044534,
+          "group_a": "appearance",
+          "group_b": "appearance"
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "MonkeyEar1",
+          "volume_mm3": 872.3788257735166,
+          "group_a": "appearance",
+          "group_b": "appearance"
+        }
+      ],
+      "legs_bounds": {
+        "min_mm": [
+          -55.0,
+          -124.0,
+          -2.0
+        ],
+        "max_mm": [
+          63.82923881333137,
+          124.0,
+          308.9653955421974
+        ],
+        "size_mm": [
+          118.82923881333137,
+          248.0,
+          310.9653955421974
+        ]
+      }
+    },
+    {
+      "name": "kneeling_contact_probe",
+      "bounds": {
+        "min_mm": [
+          -161.77517366105545,
+          -177.36689136519198,
+          -8.223752948646548e-06
+        ],
+        "max_mm": [
+          220.16045322061646,
+          177.36689136519195,
+          176.24087577091862
+        ],
+        "size_mm": [
+          381.9356268816719,
+          354.73378273038395,
+          176.24088399467158
+        ]
+      },
+      "known_or_allocated_mass_kg": 4.032069231201699,
+      "approx_COM_mm": [
+        0.14633616103052705,
+        -7.446181855869244e-05,
+        82.09824032198772
+      ],
+      "motor_count": 28,
+      "component_minimum_z_mm": {
+        "L_FixedFrame": 24.70761104004761,
+        "L_FixedBearings": 32.76738981809329,
+        "L_RollMotorVendor": 34.161411506587584,
+        "L_RollCarrier": 64.97722945048453,
+        "L_PitchMotorEnvelope": 87.64556407361934,
+        "L_FootStructure": 98.05186788016847,
+        "L_SolePad": 135.79068084985778,
+        "L_RollRod": 30.605355143453025,
+        "L_RollCrankTop": 31.444292578105205,
+        "L_RollCrankBottom": 57.622912512120095,
+        "L_RollPin0": 32.70065202060782,
+        "L_RollPin1": 58.87927195462272,
+        "L_RollOutputShaft": 59.492813935978305,
+        "L_RollInputExtension": 33.314194001963415,
+        "L_RollIdleExtension": 56.374739907520066,
+        "L_KneeMotor": 3.5000000000000426,
+        "L_HipPitchMotor": 35.42998663846311,
+        "L_HipRollMotor": 82.59344390658299,
+        "L_HipYawMotor": 77.78912463453442,
+        "L_ShinKneeRailm1": 38.90280963164915,
+        "L_ThighRailm1": 16.910690032992587,
+        "L_ShinKneeRail1": 14.06837557951124,
+        "L_ThighRail1": 16.910690032992587,
+        "L_CableServiceSpace": 43.1267722847015,
+        "R_FixedFrame": 24.70761104004761,
+        "R_FixedBearings": 32.76738981809329,
+        "R_RollMotorVendor": 34.16141150658758,
+        "R_RollCarrier": 64.97722945048453,
+        "R_PitchMotorEnvelope": 87.64556407361933,
+        "R_FootStructure": 98.05186788016847,
+        "R_SolePad": 135.79068084985778,
+        "R_RollRod": 30.605355143453025,
+        "R_RollCrankTop": 31.444292578105205,
+        "R_RollCrankBottom": 57.622912512120095,
+        "R_RollPin0": 32.70065202060782,
+        "R_RollPin1": 58.87927195462272,
+        "R_RollOutputShaft": 59.492813935978305,
+        "R_RollInputExtension": 33.314194001963415,
+        "R_RollIdleExtension": 56.374739907520066,
+        "R_KneeMotor": 3.5000000000000426,
+        "R_HipPitchMotor": 35.42998663846311,
+        "R_HipRollMotor": 82.59344390658299,
+        "R_HipYawMotor": 77.78912463453442,
+        "R_ShinKneeRailm1": 38.90280963164915,
+        "R_ThighRailm1": 16.910690032992587,
+        "R_ShinKneeRail1": 14.06837557951124,
+        "R_ThighRail1": 16.910690032992587,
+        "R_CableServiceSpace": 43.1267722847015,
+        "PelvisPlate": 70.27935154385223,
+        "battery": 70.6094785627744,
+        "microphone": 109.88574875199632,
+        "computer": 61.36909750600785,
+        "power": 96.27454207223555,
+        "camera": 90.70403399654683,
+        "L_ShoulderMotor0": 84.96412463453458,
+        "L_ShoulderMotor1": 74.7399239296628,
+        "L_ShoulderMotor2": 106.52106490753638,
+        "L_UpperArm": 23.079545224595634,
+        "L_ElbowMotor": 10.820711503843768,
+        "L_ForearmLoadFrame": 1.513939341406259,
+        "L_GauntletPrimaryPad": -8.223752948646548e-06,
+        "L_WristMotorEnvelope0": 31.999992818428698,
+        "L_WristMotorEnvelope1": 36.9999916876716,
+        "L_HandAndPalm": 0.4999895111216756,
+        "L_GripperMotor": 10.999989288564958,
+        "R_ShoulderMotor0": 84.96412463453458,
+        "R_ShoulderMotor1": 74.7399239296628,
+        "R_ShoulderMotor2": 106.52106490753637,
+        "R_UpperArm": 23.079545224595634,
+        "R_ElbowMotor": 10.820711503843768,
+        "R_ForearmLoadFrame": 1.5139393414062592,
+        "R_GauntletPrimaryPad": -8.223752948646546e-06,
+        "R_WristMotorEnvelope0": 31.999992818428705,
+        "R_WristMotorEnvelope1": 36.9999916876716,
+        "R_HandAndPalm": 0.49998951112167556,
+        "R_GripperMotor": 10.99998928856496,
+        "NeckMotor0": 129.4203676952298,
+        "NeckMotor1": 145.92036769522983,
+        "WukongHeadShell": 93.18046710637564,
+        "MonkeyEarm1": 120.89366862444257,
+        "MonkeyEar1": 120.89366862444257,
+        "CrownOccupancy": 134.77454207223565
+      },
+      "arm_nodes": [
+        {
+          "side": "L",
+          "shoulder_mm": [
+            69.28203230275507,
+            75.0,
+            101.92998663846322
+          ],
+          "pad_center_mm": [
+            149.99999698717872,
+            124.99999999993408,
+            -7.29757900943713e-06
+          ]
+        },
+        {
+          "side": "R",
+          "shoulder_mm": [
+            69.28203230275507,
+            -75.0,
+            101.92998663846322
+          ],
+          "pad_center_mm": [
+            149.99999698717872,
+            -124.99999999993408,
+            -7.29757900943713e-06
+          ]
+        }
+      ],
+      "manufacturable": false,
+      "task_verified": false,
+      "collisions": [
+        {
+          "a": "L_HipPitchMotor",
+          "b": "L_ShoulderMotor1",
+          "volume_mm3": 398.4462169574948,
+          "group_a": "L_leg",
+          "group_b": "L_arm"
+        },
+        {
+          "a": "L_HipRollMotor",
+          "b": "L_ShoulderMotor1",
+          "volume_mm3": 56.745672561443584,
+          "group_a": "L_leg",
+          "group_b": "L_arm"
+        },
+        {
+          "a": "L_HipYawMotor",
+          "b": "PelvisPlate",
+          "volume_mm3": 39.269908169872345,
+          "group_a": "L_leg",
+          "group_b": "body"
+        },
+        {
+          "a": "L_HipYawMotor",
+          "b": "battery",
+          "volume_mm3": 12003.028637198204,
+          "group_a": "L_leg",
+          "group_b": "electronics"
+        },
+        {
+          "a": "L_HipYawMotor",
+          "b": "L_ShoulderMotor1",
+          "volume_mm3": 1295.956919968076,
+          "group_a": "L_leg",
+          "group_b": "L_arm"
+        },
+        {
+          "a": "L_HipYawMotor",
+          "b": "L_ShoulderMotor2",
+          "volume_mm3": 224.34841327265,
+          "group_a": "L_leg",
+          "group_b": "L_arm"
+        },
+        {
+          "a": "L_HipYawMotor",
+          "b": "L_UpperArm",
+          "volume_mm3": 202.49281604250862,
+          "group_a": "L_leg",
+          "group_b": "L_arm"
+        },
+        {
+          "a": "R_HipPitchMotor",
+          "b": "R_ShoulderMotor1",
+          "volume_mm3": 398.44621695728046,
+          "group_a": "R_leg",
+          "group_b": "R_arm"
+        },
+        {
+          "a": "R_HipRollMotor",
+          "b": "R_ShoulderMotor1",
+          "volume_mm3": 56.74567256144361,
+          "group_a": "R_leg",
+          "group_b": "R_arm"
+        },
+        {
+          "a": "R_HipYawMotor",
+          "b": "PelvisPlate",
+          "volume_mm3": 39.26990816987236,
+          "group_a": "R_leg",
+          "group_b": "body"
+        },
+        {
+          "a": "R_HipYawMotor",
+          "b": "battery",
+          "volume_mm3": 12003.02863719821,
+          "group_a": "R_leg",
+          "group_b": "electronics"
+        },
+        {
+          "a": "R_HipYawMotor",
+          "b": "R_ShoulderMotor1",
+          "volume_mm3": 1295.956919968065,
+          "group_a": "R_leg",
+          "group_b": "R_arm"
+        },
+        {
+          "a": "R_HipYawMotor",
+          "b": "R_ShoulderMotor2",
+          "volume_mm3": 224.34841327265346,
+          "group_a": "R_leg",
+          "group_b": "R_arm"
+        },
+        {
+          "a": "R_HipYawMotor",
+          "b": "R_UpperArm",
+          "volume_mm3": 202.49281604026785,
+          "group_a": "R_leg",
+          "group_b": "R_arm"
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "battery",
+          "volume_mm3": 12799.999999999989,
+          "group_a": "body",
+          "group_b": "electronics"
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "L_ShoulderMotor1",
+          "volume_mm3": 47.53067886740487,
+          "group_a": "body",
+          "group_b": "L_arm"
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "R_ShoulderMotor1",
+          "volume_mm3": 47.530678867405236,
+          "group_a": "body",
+          "group_b": "R_arm"
+        },
+        {
+          "a": "battery",
+          "b": "L_ShoulderMotor1",
+          "volume_mm3": 36.010802394449435,
+          "group_a": "electronics",
+          "group_b": "L_arm"
+        },
+        {
+          "a": "battery",
+          "b": "R_ShoulderMotor1",
+          "volume_mm3": 36.010802394449996,
+          "group_a": "electronics",
+          "group_b": "R_arm"
+        },
+        {
+          "a": "microphone",
+          "b": "L_ShoulderMotor2",
+          "volume_mm3": 28.37271952168979,
+          "group_a": "electronics",
+          "group_b": "L_arm"
+        },
+        {
+          "a": "microphone",
+          "b": "R_ShoulderMotor2",
+          "volume_mm3": 28.372719521689817,
+          "group_a": "electronics",
+          "group_b": "R_arm"
+        },
+        {
+          "a": "microphone",
+          "b": "NeckMotor0",
+          "volume_mm3": 2218.4999999999973,
+          "group_a": "electronics",
+          "group_b": "neck"
+        },
+        {
+          "a": "microphone",
+          "b": "WukongHeadShell",
+          "volume_mm3": 354.4527624547155,
+          "group_a": "electronics",
+          "group_b": "appearance"
+        },
+        {
+          "a": "power",
+          "b": "NeckMotor0",
+          "volume_mm3": 169.99999999999963,
+          "group_a": "electronics",
+          "group_b": "neck"
+        },
+        {
+          "a": "power",
+          "b": "WukongHeadShell",
+          "volume_mm3": 3733.7216570000323,
+          "group_a": "electronics",
+          "group_b": "appearance"
+        },
+        {
+          "a": "L_UpperArm",
+          "b": "L_ForearmLoadFrame",
+          "volume_mm3": 3.4869494191120505,
+          "group_a": "L_arm",
+          "group_b": "L_arm"
+        },
+        {
+          "a": "L_ElbowMotor",
+          "b": "L_ForearmLoadFrame",
+          "volume_mm3": 618.7481686112086,
+          "group_a": "L_arm",
+          "group_b": "L_arm"
+        },
+        {
+          "a": "L_ForearmLoadFrame",
+          "b": "L_GauntletPrimaryPad",
+          "volume_mm3": 17.878074175405274,
+          "group_a": "L_arm",
+          "group_b": "L_arm"
+        },
+        {
+          "a": "R_UpperArm",
+          "b": "R_ForearmLoadFrame",
+          "volume_mm3": 3.486949419112437,
+          "group_a": "R_arm",
+          "group_b": "R_arm"
+        },
+        {
+          "a": "R_ElbowMotor",
+          "b": "R_ForearmLoadFrame",
+          "volume_mm3": 618.7481686112063,
+          "group_a": "R_arm",
+          "group_b": "R_arm"
+        },
+        {
+          "a": "R_ForearmLoadFrame",
+          "b": "R_GauntletPrimaryPad",
+          "volume_mm3": 17.878074175381652,
+          "group_a": "R_arm",
+          "group_b": "R_arm"
+        },
+        {
+          "a": "NeckMotor0",
+          "b": "WukongHeadShell",
+          "volume_mm3": 1783.186391740689,
+          "group_a": "neck",
+          "group_b": "appearance"
+        },
+        {
+          "a": "NeckMotor1",
+          "b": "WukongHeadShell",
+          "volume_mm3": 2050.3898143997344,
+          "group_a": "neck",
+          "group_b": "appearance"
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "MonkeyEarm1",
+          "volume_mm3": 873.260649603156,
+          "group_a": "appearance",
+          "group_b": "appearance"
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "MonkeyEar1",
+          "volume_mm3": 871.936137502975,
+          "group_a": "appearance",
+          "group_b": "appearance"
+        }
+      ],
+      "selected_leg_screen": {
+        "index": 29,
+        "branch": 1,
+        "q_deg": [
+          0,
+          0,
+          9.22018358573947,
+          90,
+          0,
+          35
+        ],
+        "minimum_leg_z_mm": 3.5000000000000426,
+        "penetrating_parts": [],
+        "leg_self_collisions": []
+      }
+    }
+  ],
+  "knee_contact_trials": [
+    {
+      "index": 0,
+      "branch": -1,
+      "q_deg": [
+        0,
+        0,
+        -129.22018358573945,
+        90,
+        0,
+        -35
+      ],
+      "minimum_leg_z_mm": -102.29428631944633,
+      "penetrating_parts": [
+        "FixedFrame",
+        "FixedBearings",
+        "RollMotorVendor",
+        "RollCarrier",
+        "PitchMotorEnvelope",
+        "FootStructure",
+        "SolePad",
+        "RollRod",
+        "RollCrankTop",
+        "RollCrankBottom",
+        "RollPin0",
+        "RollPin1",
+        "RollOutputShaft",
+        "RollInputExtension"
+      ],
+      "leg_self_collisions": null
+    },
+    {
+      "index": 1,
+      "branch": -1,
+      "q_deg": [
+        0,
+        0,
+        -129.22018358573945,
+        90,
+        0,
+        -17.5
+      ],
+      "minimum_leg_z_mm": -93.94557616026732,
+      "penetrating_parts": [
+        "FixedFrame",
+        "FixedBearings",
+        "RollMotorVendor",
+        "RollCarrier",
+        "PitchMotorEnvelope",
+        "FootStructure",
+        "SolePad",
+        "RollRod",
+        "RollCrankTop",
+        "RollCrankBottom",
+        "RollPin0",
+        "RollPin1",
+        "RollOutputShaft",
+        "RollInputExtension"
+      ],
+      "leg_self_collisions": null
+    },
+    {
+      "index": 2,
+      "branch": -1,
+      "q_deg": [
+        0,
+        0,
+        -129.22018358573945,
+        90,
+        0,
+        0
+      ],
+      "minimum_leg_z_mm": -106.47762188080895,
+      "penetrating_parts": [
+        "FixedFrame",
+        "FixedBearings",
+        "RollMotorVendor",
+        "RollCarrier",
+        "PitchMotorEnvelope",
+        "FootStructure",
+        "SolePad",
+        "RollRod",
+        "RollCrankTop",
+        "RollCrankBottom",
+        "RollPin0",
+        "RollPin1",
+        "RollOutputShaft",
+        "RollInputExtension"
+      ],
+      "leg_self_collisions": null
+    },
+    {
+      "index": 3,
+      "branch": -1,
+      "q_deg": [
+        0,
+        0,
+        -129.22018358573945,
+        90,
+        0,
+        17.5
+      ],
+      "minimum_leg_z_mm": -115.6930165814193,
+      "penetrating_parts": [
+        "FixedFrame",
+        "FixedBearings",
+        "RollMotorVendor",
+        "RollCarrier",
+        "PitchMotorEnvelope",
+        "FootStructure",
+        "SolePad",
+        "RollRod",
+        "RollCrankTop",
+        "RollCrankBottom",
+        "RollPin0",
+        "RollPin1",
+        "RollOutputShaft",
+        "RollInputExtension"
+      ],
+      "leg_self_collisions": null
+    },
+    {
+      "index": 4,
+      "branch": -1,
+      "q_deg": [
+        0,
+        0,
+        -129.22018358573945,
+        90,
+        0,
+        35
+      ],
+      "minimum_leg_z_mm": -119.30721700782725,
+      "penetrating_parts": [
+        "FixedFrame",
+        "FixedBearings",
+        "RollMotorVendor",
+        "RollCarrier",
+        "PitchMotorEnvelope",
+        "FootStructure",
+        "SolePad",
+        "RollRod",
+        "RollCrankTop",
+        "RollCrankBottom",
+        "RollPin0",
+        "RollPin1",
+        "RollOutputShaft",
+        "RollInputExtension"
+      ],
+      "leg_self_collisions": null
+    },
+    {
+      "index": 5,
+      "branch": -1,
+      "q_deg": [
+        0,
+        0,
+        -129.22018358573945,
+        105,
+        0,
+        -35
+      ],
+      "minimum_leg_z_mm": -80.69135511982053,
+      "penetrating_parts": [
+        "FixedFrame",
+        "FixedBearings",
+        "RollMotorVendor",
+        "RollCarrier",
+        "PitchMotorEnvelope",
+        "FootStructure",
+        "SolePad",
+        "RollRod",
+        "RollCrankTop",
+        "RollCrankBottom",
+        "RollPin0",
+        "RollPin1",
+        "RollOutputShaft",
+        "RollInputExtension"
+      ],
+      "leg_self_collisions": null
+    },
+    {
+      "index": 6,
+      "branch": -1,
+      "q_deg": [
+        0,
+        0,
+        -129.22018358573945,
+        105,
+        0,
+        -17.5
+      ],
+      "minimum_leg_z_mm": -93.83001704004535,
+      "penetrating_parts": [
+        "FixedFrame",
+        "FixedBearings",
+        "RollMotorVendor",
+        "RollCarrier",
+        "PitchMotorEnvelope",
+        "FootStructure",
+        "SolePad",
+        "RollRod",
+        "RollCrankTop",
+        "RollCrankBottom",
+        "RollPin0",
+        "RollPin1",
+        "RollOutputShaft",
+        "RollInputExtension"
+      ],
+      "leg_self_collisions": null
+    },
+    {
+      "index": 7,
+      "branch": -1,
+      "q_deg": [
+        0,
+        0,
+        -129.22018358573945,
+        105,
+        0,
+        0
+      ],
+      "minimum_leg_z_mm": -103.56568485194549,
+      "penetrating_parts": [
+        "FixedFrame",
+        "FixedBearings",
+        "RollMotorVendor",
+        "RollCarrier",
+        "PitchMotorEnvelope",
+        "FootStructure",
+        "SolePad",
+        "RollRod",
+        "RollCrankTop",
+        "RollCrankBottom",
+        "RollPin0",
+        "RollPin1",
+        "RollOutputShaft",
+        "RollInputExtension"
+      ],
+      "leg_self_collisions": null
+    },
+    {
+      "index": 8,
+      "branch": -1,
+      "q_deg": [
+        0,
+        0,
+        -129.22018358573945,
+        105,
+        0,
+        17.5
+      ],
+      "minimum_leg_z_mm": -108.02712795310228,
+      "penetrating_parts": [
+        "FixedFrame",
+        "FixedBearings",
+        "RollMotorVendor",
+        "RollCarrier",
+        "PitchMotorEnvelope",
+        "FootStructure",
+        "SolePad",
+        "RollRod",
+        "RollCrankTop",
+        "RollCrankBottom",
+        "RollPin0",
+        "RollPin1",
+        "RollOutputShaft",
+        "RollInputExtension"
+      ],
+      "leg_self_collisions": null
+    },
+    {
+      "index": 9,
+      "branch": -1,
+      "q_deg": [
+        0,
+        0,
+        -129.22018358573945,
+        105,
+        0,
+        35
+      ],
+      "minimum_leg_z_mm": -106.47058581599521,
+      "penetrating_parts": [
+        "FixedFrame",
+        "FixedBearings",
+        "RollMotorVendor",
+        "RollCarrier",
+        "PitchMotorEnvelope",
+        "FootStructure",
+        "SolePad",
+        "RollRod",
+        "RollCrankTop",
+        "RollCrankBottom",
+        "RollPin0",
+        "RollPin1",
+        "RollOutputShaft",
+        "RollInputExtension"
+      ],
+      "leg_self_collisions": null
+    },
+    {
+      "index": 10,
+      "branch": -1,
+      "q_deg": [
+        0,
+        0,
+        -129.22018358573945,
+        120,
+        0,
+        -35
+      ],
+      "minimum_leg_z_mm": -76.10987871386797,
+      "penetrating_parts": [
+        "FixedFrame",
+        "FixedBearings",
+        "RollMotorVendor",
+        "RollCarrier",
+        "PitchMotorEnvelope",
+        "FootStructure",
+        "SolePad",
+        "RollRod",
+        "RollCrankTop",
+        "RollCrankBottom",
+        "RollPin0",
+        "RollPin1",
+        "RollOutputShaft",
+        "RollInputExtension",
+        "ShinKneeRail1"
+      ],
+      "leg_self_collisions": null
+    },
+    {
+      "index": 11,
+      "branch": -1,
+      "q_deg": [
+        0,
+        0,
+        -129.22018358573945,
+        120,
+        0,
+        -17.5
+      ],
+      "minimum_leg_z_mm": -86.34728724003878,
+      "penetrating_parts": [
+        "FixedFrame",
+        "FixedBearings",
+        "RollMotorVendor",
+        "RollCarrier",
+        "PitchMotorEnvelope",
+        "FootStructure",
+        "SolePad",
+        "RollRod",
+        "RollCrankTop",
+        "RollCrankBottom",
+        "RollPin0",
+        "RollPin1",
+        "RollOutputShaft",
+        "RollInputExtension",
+        "ShinKneeRail1"
+      ],
+      "leg_self_collisions": null
+    },
+    {
+      "index": 12,
+      "branch": -1,
+      "q_deg": [
+        0,
+        0,
+        -129.22018358573945,
+        120,
+        0,
+        0
+      ],
+      "minimum_leg_z_mm": -91.64748040542948,
+      "penetrating_parts": [
+        "FixedFrame",
+        "FixedBearings",
+        "RollMotorVendor",
+        "RollCarrier",
+        "PitchMotorEnvelope",
+        "FootStructure",
+        "SolePad",
+        "RollRod",
+        "RollCrankTop",
+        "RollCrankBottom",
+        "RollPin0",
+        "RollPin1",
+        "RollOutputShaft",
+        "RollInputExtension",
+        "ShinKneeRail1"
+      ],
+      "leg_self_collisions": null
+    },
+    {
+      "index": 13,
+      "branch": -1,
+      "q_deg": [
+        0,
+        0,
+        -129.22018358573945,
+        120,
+        0,
+        17.5
+      ],
+      "minimum_leg_z_mm": -90.95491865539525,
+      "penetrating_parts": [
+        "FixedFrame",
+        "FixedBearings",
+        "RollMotorVendor",
+        "RollCarrier",
+        "PitchMotorEnvelope",
+        "FootStructure",
+        "SolePad",
+        "RollRod",
+        "RollCrankTop",
+        "RollCrankBottom",
+        "RollPin0",
+        "RollPin1",
+        "RollOutputShaft",
+        "RollInputExtension",
+        "ShinKneeRail1"
+      ],
+      "leg_self_collisions": null
+    },
+    {
+      "index": 14,
+      "branch": -1,
+      "q_deg": [
+        0,
+        0,
+        -129.22018358573945,
+        120,
+        0,
+        35
+      ],
+      "minimum_leg_z_mm": -84.33370972910953,
+      "penetrating_parts": [
+        "FixedFrame",
+        "FixedBearings",
+        "RollMotorVendor",
+        "RollCarrier",
+        "PitchMotorEnvelope",
+        "FootStructure",
+        "SolePad",
+        "RollRod",
+        "RollCrankTop",
+        "RollCrankBottom",
+        "RollPin0",
+        "RollPin1",
+        "RollOutputShaft",
+        "RollInputExtension",
+        "ShinKneeRail1"
+      ],
+      "leg_self_collisions": null
+    },
+    {
+      "index": 15,
+      "branch": -1,
+      "q_deg": [
+        0,
+        0,
+        -129.22018358573945,
+        135,
+        0,
+        -35
+      ],
+      "minimum_leg_z_mm": -65.13761022286646,
+      "penetrating_parts": [
+        "FixedFrame",
+        "FixedBearings",
+        "RollMotorVendor",
+        "RollCarrier",
+        "PitchMotorEnvelope",
+        "FootStructure",
+        "SolePad",
+        "RollRod",
+        "RollCrankTop",
+        "RollCrankBottom",
+        "RollPin0",
+        "RollPin1",
+        "RollOutputShaft",
+        "RollInputExtension",
+        "ShinKneeRail1"
+      ],
+      "leg_self_collisions": null
+    },
+    {
+      "index": 16,
+      "branch": -1,
+      "q_deg": [
+        0,
+        0,
+        -129.22018358573945,
+        135,
+        0,
+        -17.5
+      ],
+      "minimum_leg_z_mm": -71.2664642335575,
+      "penetrating_parts": [
+        "FixedFrame",
+        "FixedBearings",
+        "RollMotorVendor",
+        "RollCarrier",
+        "PitchMotorEnvelope",
+        "FootStructure",
+        "SolePad",
+        "RollRod",
+        "RollCrankTop",
+        "RollCrankBottom",
+        "RollPin0",
+        "RollPin1",
+        "RollOutputShaft",
+        "RollInputExtension",
+        "ShinKneeRail1"
+      ],
+      "leg_self_collisions": null
+    },
+    {
+      "index": 17,
+      "branch": -1,
+      "q_deg": [
+        0,
+        0,
+        -129.22018358573945,
+        135,
+        0,
+        0
+      ],
+      "minimum_leg_z_mm": -71.43920120124992,
+      "penetrating_parts": [
+        "FixedFrame",
+        "FixedBearings",
+        "RollMotorVendor",
+        "RollCarrier",
+        "PitchMotorEnvelope",
+        "FootStructure",
+        "SolePad",
+        "RollRod",
+        "RollCrankTop",
+        "RollCrankBottom",
+        "RollPin0",
+        "RollPin1",
+        "RollOutputShaft",
+        "RollInputExtension",
+        "ShinKneeRail1"
+      ],
+      "leg_self_collisions": null
+    },
+    {
+      "index": 18,
+      "branch": -1,
+      "q_deg": [
+        0,
+        0,
+        -129.22018358573945,
+        135,
+        0,
+        17.5
+      ],
+      "minimum_leg_z_mm": -65.6398315387771,
+      "penetrating_parts": [
+        "FixedFrame",
+        "FixedBearings",
+        "RollMotorVendor",
+        "RollCarrier",
+        "PitchMotorEnvelope",
+        "FootStructure",
+        "SolePad",
+        "RollRod",
+        "RollCrankTop",
+        "RollCrankBottom",
+        "RollPin0",
+        "RollPin1",
+        "RollOutputShaft",
+        "RollInputExtension",
+        "ShinKneeRail1"
+      ],
+      "leg_self_collisions": null
+    },
+    {
+      "index": 19,
+      "branch": -1,
+      "q_deg": [
+        0,
+        0,
+        -129.22018358573945,
+        135,
+        0,
+        35
+      ],
+      "minimum_leg_z_mm": -55.15332136001818,
+      "penetrating_parts": [
+        "FixedFrame",
+        "FixedBearings",
+        "RollMotorVendor",
+        "RollCarrier",
+        "PitchMotorEnvelope",
+        "FootStructure",
+        "SolePad",
+        "RollRod",
+        "RollCrankTop",
+        "RollCrankBottom",
+        "RollPin0",
+        "RollPin1",
+        "RollOutputShaft",
+        "RollInputExtension",
+        "ShinKneeRail1"
+      ],
+      "leg_self_collisions": null
+    },
+    {
+      "index": 20,
+      "branch": -1,
+      "q_deg": [
+        0,
+        0,
+        -129.22018358573945,
+        150,
+        0,
+        -35
+      ],
+      "minimum_leg_z_mm": -48.24679216952073,
+      "penetrating_parts": [
+        "FixedFrame",
+        "FixedBearings",
+        "RollCarrier",
+        "PitchMotorEnvelope",
+        "FootStructure",
+        "SolePad",
+        "RollRod",
+        "RollCrankTop",
+        "RollCrankBottom",
+        "RollPin0",
+        "RollPin1",
+        "RollOutputShaft",
+        "RollInputExtension",
+        "ShinKneeRail1"
+      ],
+      "leg_self_collisions": null
+    },
+    {
+      "index": 21,
+      "branch": -1,
+      "q_deg": [
+        0,
+        0,
+        -129.22018358573945,
+        150,
+        0,
+        -17.5
+      ],
+      "minimum_leg_z_mm": -49.28449904030407,
+      "penetrating_parts": [
+        "FixedFrame",
+        "FixedBearings",
+        "RollCarrier",
+        "PitchMotorEnvelope",
+        "FootStructure",
+        "SolePad",
+        "RollRod",
+        "RollCrankTop",
+        "RollCrankBottom",
+        "RollPin0",
+        "RollPin1",
+        "RollOutputShaft",
+        "RollInputExtension",
+        "ShinKneeRail1"
+      ],
+      "leg_self_collisions": null
+    },
+    {
+      "index": 22,
+      "branch": -1,
+      "q_deg": [
+        0,
+        0,
+        -129.22018358573945,
+        150,
+        0,
+        0
+      ],
+      "minimum_leg_z_mm": -44.318008071411285,
+      "penetrating_parts": [
+        "FixedFrame",
+        "FixedBearings",
+        "RollCarrier",
+        "PitchMotorEnvelope",
+        "FootStructure",
+        "SolePad",
+        "RollRod",
+        "RollCrankTop",
+        "RollCrankBottom",
+        "RollPin0",
+        "RollPin1",
+        "RollOutputShaft",
+        "RollInputExtension",
+        "ShinKneeRail1"
+      ],
+      "leg_self_collisions": null
+    },
+    {
+      "index": 23,
+      "branch": -1,
+      "q_deg": [
+        0,
+        0,
+        -129.22018358573945,
+        150,
+        0,
+        17.5
+      ],
+      "minimum_leg_z_mm": -34.383078402189284,
+      "penetrating_parts": [
+        "FixedFrame",
+        "FixedBearings",
+        "RollCarrier",
+        "PitchMotorEnvelope",
+        "FootStructure",
+        "SolePad",
+        "RollRod",
+        "RollCrankTop",
+        "RollCrankBottom",
+        "RollPin0",
+        "RollPin1",
+        "RollOutputShaft",
+        "RollInputExtension",
+        "ShinKneeRail1"
+      ],
+      "leg_self_collisions": null
+    },
+    {
+      "index": 24,
+      "branch": -1,
+      "q_deg": [
+        0,
+        0,
+        -129.22018358573945,
+        150,
+        0,
+        35
+      ],
+      "minimum_leg_z_mm": -31.127824166703196,
+      "penetrating_parts": [
+        "FixedFrame",
+        "FixedBearings",
+        "RollCarrier",
+        "PitchMotorEnvelope",
+        "FootStructure",
+        "SolePad",
+        "RollRod",
+        "RollCrankTop",
+        "RollCrankBottom",
+        "RollPin0",
+        "RollPin1",
+        "RollOutputShaft",
+        "RollInputExtension",
+        "ShinKneeRail1"
+      ],
+      "leg_self_collisions": null
+    },
+    {
+      "index": 25,
+      "branch": 1,
+      "q_deg": [
+        0,
+        0,
+        9.22018358573947,
+        90,
+        0,
+        -35
+      ],
+      "minimum_leg_z_mm": 3.499999999999993,
+      "penetrating_parts": [],
+      "leg_self_collisions": []
+    },
+    {
+      "index": 26,
+      "branch": 1,
+      "q_deg": [
+        0,
+        0,
+        9.22018358573947,
+        90,
+        0,
+        -17.5
+      ],
+      "minimum_leg_z_mm": 3.4999999999999645,
+      "penetrating_parts": [],
+      "leg_self_collisions": []
+    },
+    {
+      "index": 27,
+      "branch": 1,
+      "q_deg": [
+        0,
+        0,
+        9.22018358573947,
+        90,
+        0,
+        0
+      ],
+      "minimum_leg_z_mm": 3.4999999999999645,
+      "penetrating_parts": [],
+      "leg_self_collisions": []
+    },
+    {
+      "index": 28,
+      "branch": 1,
+      "q_deg": [
+        0,
+        0,
+        9.22018358573947,
+        90,
+        0,
+        17.5
+      ],
+      "minimum_leg_z_mm": 3.4999999999999645,
+      "penetrating_parts": [],
+      "leg_self_collisions": []
+    },
+    {
+      "index": 29,
+      "branch": 1,
+      "q_deg": [
+        0,
+        0,
+        9.22018358573947,
+        90,
+        0,
+        35
+      ],
+      "minimum_leg_z_mm": 3.5000000000000426,
+      "penetrating_parts": [],
+      "leg_self_collisions": []
+    },
+    {
+      "index": 30,
+      "branch": 1,
+      "q_deg": [
+        0,
+        0,
+        9.22018358573947,
+        105,
+        0,
+        -35
+      ],
+      "minimum_leg_z_mm": 3.4999999999999787,
+      "penetrating_parts": [],
+      "leg_self_collisions": []
+    },
+    {
+      "index": 31,
+      "branch": 1,
+      "q_deg": [
+        0,
+        0,
+        9.22018358573947,
+        105,
+        0,
+        -17.5
+      ],
+      "minimum_leg_z_mm": 3.4999999999999787,
+      "penetrating_parts": [],
+      "leg_self_collisions": []
+    },
+    {
+      "index": 32,
+      "branch": 1,
+      "q_deg": [
+        0,
+        0,
+        9.22018358573947,
+        105,
+        0,
+        0
+      ],
+      "minimum_leg_z_mm": 3.4999999999999787,
+      "penetrating_parts": [],
+      "leg_self_collisions": []
+    },
+    {
+      "index": 33,
+      "branch": 1,
+      "q_deg": [
+        0,
+        0,
+        9.22018358573947,
+        105,
+        0,
+        17.5
+      ],
+      "minimum_leg_z_mm": 3.4999999999999645,
+      "penetrating_parts": [],
+      "leg_self_collisions": []
+    },
+    {
+      "index": 34,
+      "branch": 1,
+      "q_deg": [
+        0,
+        0,
+        9.22018358573947,
+        105,
+        0,
+        35
+      ],
+      "minimum_leg_z_mm": 3.5,
+      "penetrating_parts": [],
+      "leg_self_collisions": []
+    },
+    {
+      "index": 35,
+      "branch": 1,
+      "q_deg": [
+        0,
+        0,
+        9.22018358573947,
+        120,
+        0,
+        -35
+      ],
+      "minimum_leg_z_mm": 3.500000000000007,
+      "penetrating_parts": [],
+      "leg_self_collisions": []
+    },
+    {
+      "index": 36,
+      "branch": 1,
+      "q_deg": [
+        0,
+        0,
+        9.22018358573947,
+        120,
+        0,
+        -17.5
+      ],
+      "minimum_leg_z_mm": 3.499999999999986,
+      "penetrating_parts": [],
+      "leg_self_collisions": []
+    },
+    {
+      "index": 37,
+      "branch": 1,
+      "q_deg": [
+        0,
+        0,
+        9.22018358573947,
+        120,
+        0,
+        0
+      ],
+      "minimum_leg_z_mm": 3.499999999999986,
+      "penetrating_parts": [],
+      "leg_self_collisions": []
+    },
+    {
+      "index": 38,
+      "branch": 1,
+      "q_deg": [
+        0,
+        0,
+        9.22018358573947,
+        120,
+        0,
+        17.5
+      ],
+      "minimum_leg_z_mm": 3.5000000000000213,
+      "penetrating_parts": [],
+      "leg_self_collisions": []
+    },
+    {
+      "index": 39,
+      "branch": 1,
+      "q_deg": [
+        0,
+        0,
+        9.22018358573947,
+        120,
+        0,
+        35
+      ],
+      "minimum_leg_z_mm": 3.4999999999999716,
+      "penetrating_parts": [],
+      "leg_self_collisions": [
+        {
+          "a": "FootStructure",
+          "b": "HipRollMotor",
+          "volume_mm3": 0.02179285960876951,
+          "group_a": "foot",
+          "group_b": "hip_roll_parent"
+        },
+        {
+          "a": "SolePad",
+          "b": "HipRollMotor",
+          "volume_mm3": 450.0828439667947,
+          "group_a": "foot",
+          "group_b": "hip_roll_parent"
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "branch": 1,
+      "q_deg": [
+        0,
+        0,
+        9.22018358573947,
+        135,
+        0,
+        -35
+      ],
+      "minimum_leg_z_mm": 3.4999999999999645,
+      "penetrating_parts": [],
+      "leg_self_collisions": [
+        {
+          "a": "FootStructure",
+          "b": "HipRollMotor",
+          "volume_mm3": 4.89462704325543,
+          "group_a": "foot",
+          "group_b": "hip_roll_parent"
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "branch": 1,
+      "q_deg": [
+        0,
+        0,
+        9.22018358573947,
+        135,
+        0,
+        -17.5
+      ],
+      "minimum_leg_z_mm": 3.5,
+      "penetrating_parts": [],
+      "leg_self_collisions": [
+        {
+          "a": "FootStructure",
+          "b": "HipRollMotor",
+          "volume_mm3": 0.7589598897139512,
+          "group_a": "foot",
+          "group_b": "hip_roll_parent"
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "branch": 1,
+      "q_deg": [
+        0,
+        0,
+        9.22018358573947,
+        135,
+        0,
+        0
+      ],
+      "minimum_leg_z_mm": 3.5,
+      "penetrating_parts": [],
+      "leg_self_collisions": [
+        {
+          "a": "FootStructure",
+          "b": "HipRollMotor",
+          "volume_mm3": 625.6416966269711,
+          "group_a": "foot",
+          "group_b": "hip_roll_parent"
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "branch": 1,
+      "q_deg": [
+        0,
+        0,
+        9.22018358573947,
+        135,
+        0,
+        17.5
+      ],
+      "minimum_leg_z_mm": 3.5,
+      "penetrating_parts": [],
+      "leg_self_collisions": [
+        {
+          "a": "FootStructure",
+          "b": "HipRollMotor",
+          "volume_mm3": 5290.2252177656255,
+          "group_a": "foot",
+          "group_b": "hip_roll_parent"
+        },
+        {
+          "a": "SolePad",
+          "b": "HipRollMotor",
+          "volume_mm3": 19.94333961484897,
+          "group_a": "foot",
+          "group_b": "hip_roll_parent"
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "branch": 1,
+      "q_deg": [
+        0,
+        0,
+        9.22018358573947,
+        135,
+        0,
+        35
+      ],
+      "minimum_leg_z_mm": 3.499999999999993,
+      "penetrating_parts": [],
+      "leg_self_collisions": [
+        {
+          "a": "FootStructure",
+          "b": "HipPitchMotor",
+          "volume_mm3": 510.332093998775,
+          "group_a": "foot",
+          "group_b": "hip_pitch_parent"
+        },
+        {
+          "a": "FootStructure",
+          "b": "HipRollMotor",
+          "volume_mm3": 38.06919857539664,
+          "group_a": "foot",
+          "group_b": "hip_roll_parent"
+        },
+        {
+          "a": "SolePad",
+          "b": "HipPitchMotor",
+          "volume_mm3": 0.004838377602927257,
+          "group_a": "foot",
+          "group_b": "hip_pitch_parent"
+        },
+        {
+          "a": "SolePad",
+          "b": "HipRollMotor",
+          "volume_mm3": 2682.2853662015614,
+          "group_a": "foot",
+          "group_b": "hip_roll_parent"
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "branch": 1,
+      "q_deg": [
+        0,
+        0,
+        9.22018358573947,
+        150,
+        0,
+        -35
+      ],
+      "minimum_leg_z_mm": 3.499999999999986,
+      "penetrating_parts": [],
+      "leg_self_collisions": [
+        {
+          "a": "FixedFrame",
+          "b": "HipPitchMotor",
+          "volume_mm3": 18.186789897502166,
+          "group_a": "shin",
+          "group_b": "hip_pitch_parent"
+        },
+        {
+          "a": "RollCarrier",
+          "b": "HipRollMotor",
+          "volume_mm3": 384.104198030862,
+          "group_a": "carrier",
+          "group_b": "hip_roll_parent"
+        },
+        {
+          "a": "PitchMotorEnvelope",
+          "b": "HipPitchMotor",
+          "volume_mm3": 568.9449295198948,
+          "group_a": "carrier",
+          "group_b": "hip_pitch_parent"
+        },
+        {
+          "a": "PitchMotorEnvelope",
+          "b": "HipRollMotor",
+          "volume_mm3": 127.43738994505514,
+          "group_a": "carrier",
+          "group_b": "hip_roll_parent"
+        },
+        {
+          "a": "FootStructure",
+          "b": "HipRollMotor",
+          "volume_mm3": 80.51170059779989,
+          "group_a": "foot",
+          "group_b": "hip_roll_parent"
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "branch": 1,
+      "q_deg": [
+        0,
+        0,
+        9.22018358573947,
+        150,
+        0,
+        -17.5
+      ],
+      "minimum_leg_z_mm": 3.4999999999999787,
+      "penetrating_parts": [],
+      "leg_self_collisions": [
+        {
+          "a": "FixedFrame",
+          "b": "HipPitchMotor",
+          "volume_mm3": 18.186789897502234,
+          "group_a": "shin",
+          "group_b": "hip_pitch_parent"
+        },
+        {
+          "a": "RollCarrier",
+          "b": "HipRollMotor",
+          "volume_mm3": 384.10419803086404,
+          "group_a": "carrier",
+          "group_b": "hip_roll_parent"
+        },
+        {
+          "a": "PitchMotorEnvelope",
+          "b": "HipPitchMotor",
+          "volume_mm3": 568.9449295198968,
+          "group_a": "carrier",
+          "group_b": "hip_pitch_parent"
+        },
+        {
+          "a": "PitchMotorEnvelope",
+          "b": "HipRollMotor",
+          "volume_mm3": 127.43738994505526,
+          "group_a": "carrier",
+          "group_b": "hip_roll_parent"
+        },
+        {
+          "a": "FootStructure",
+          "b": "HipPitchMotor",
+          "volume_mm3": 248.60475786950792,
+          "group_a": "foot",
+          "group_b": "hip_pitch_parent"
+        },
+        {
+          "a": "FootStructure",
+          "b": "HipRollMotor",
+          "volume_mm3": 0.2384812911390658,
+          "group_a": "foot",
+          "group_b": "hip_roll_parent"
+        },
+        {
+          "a": "SolePad",
+          "b": "HipRollMotor",
+          "volume_mm3": 171.8534100192324,
+          "group_a": "foot",
+          "group_b": "hip_roll_parent"
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "branch": 1,
+      "q_deg": [
+        0,
+        0,
+        9.22018358573947,
+        150,
+        0,
+        0
+      ],
+      "minimum_leg_z_mm": 3.499999999999993,
+      "penetrating_parts": [],
+      "leg_self_collisions": [
+        {
+          "a": "FixedFrame",
+          "b": "HipPitchMotor",
+          "volume_mm3": 18.186789897502265,
+          "group_a": "shin",
+          "group_b": "hip_pitch_parent"
+        },
+        {
+          "a": "RollCarrier",
+          "b": "HipRollMotor",
+          "volume_mm3": 384.10419803086404,
+          "group_a": "carrier",
+          "group_b": "hip_roll_parent"
+        },
+        {
+          "a": "PitchMotorEnvelope",
+          "b": "HipPitchMotor",
+          "volume_mm3": 568.9449295198967,
+          "group_a": "carrier",
+          "group_b": "hip_pitch_parent"
+        },
+        {
+          "a": "PitchMotorEnvelope",
+          "b": "HipRollMotor",
+          "volume_mm3": 127.4373899450552,
+          "group_a": "carrier",
+          "group_b": "hip_roll_parent"
+        },
+        {
+          "a": "FootStructure",
+          "b": "HipPitchMotor",
+          "volume_mm3": 565.7919550968078,
+          "group_a": "foot",
+          "group_b": "hip_pitch_parent"
+        },
+        {
+          "a": "FootStructure",
+          "b": "HipRollMotor",
+          "volume_mm3": 55.767054977764516,
+          "group_a": "foot",
+          "group_b": "hip_roll_parent"
+        },
+        {
+          "a": "SolePad",
+          "b": "HipRollMotor",
+          "volume_mm3": 27.97588644609083,
+          "group_a": "foot",
+          "group_b": "hip_roll_parent"
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "branch": 1,
+      "q_deg": [
+        0,
+        0,
+        9.22018358573947,
+        150,
+        0,
+        17.5
+      ],
+      "minimum_leg_z_mm": 3.500000000000007,
+      "penetrating_parts": [],
+      "leg_self_collisions": [
+        {
+          "a": "FixedFrame",
+          "b": "HipPitchMotor",
+          "volume_mm3": 18.186789897502187,
+          "group_a": "shin",
+          "group_b": "hip_pitch_parent"
+        },
+        {
+          "a": "RollCarrier",
+          "b": "HipRollMotor",
+          "volume_mm3": 384.1041980308622,
+          "group_a": "carrier",
+          "group_b": "hip_roll_parent"
+        },
+        {
+          "a": "PitchMotorEnvelope",
+          "b": "HipPitchMotor",
+          "volume_mm3": 568.944929519893,
+          "group_a": "carrier",
+          "group_b": "hip_pitch_parent"
+        },
+        {
+          "a": "PitchMotorEnvelope",
+          "b": "HipRollMotor",
+          "volume_mm3": 127.43738994505523,
+          "group_a": "carrier",
+          "group_b": "hip_roll_parent"
+        },
+        {
+          "a": "FootStructure",
+          "b": "HipPitchMotor",
+          "volume_mm3": 978.9932291756068,
+          "group_a": "foot",
+          "group_b": "hip_pitch_parent"
+        },
+        {
+          "a": "FootStructure",
+          "b": "HipRollMotor",
+          "volume_mm3": 38.04903881039743,
+          "group_a": "foot",
+          "group_b": "hip_roll_parent"
+        },
+        {
+          "a": "SolePad",
+          "b": "HipRollMotor",
+          "volume_mm3": 2656.2749543937216,
+          "group_a": "foot",
+          "group_b": "hip_roll_parent"
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "branch": 1,
+      "q_deg": [
+        0,
+        0,
+        9.22018358573947,
+        150,
+        0,
+        35
+      ],
+      "minimum_leg_z_mm": 3.499999999999936,
+      "penetrating_parts": [],
+      "leg_self_collisions": [
+        {
+          "a": "FixedFrame",
+          "b": "HipPitchMotor",
+          "volume_mm3": 18.186789897502326,
+          "group_a": "shin",
+          "group_b": "hip_pitch_parent"
+        },
+        {
+          "a": "RollCarrier",
+          "b": "HipRollMotor",
+          "volume_mm3": 384.10419803086336,
+          "group_a": "carrier",
+          "group_b": "hip_roll_parent"
+        },
+        {
+          "a": "PitchMotorEnvelope",
+          "b": "HipPitchMotor",
+          "volume_mm3": 568.9449295198947,
+          "group_a": "carrier",
+          "group_b": "hip_pitch_parent"
+        },
+        {
+          "a": "PitchMotorEnvelope",
+          "b": "HipRollMotor",
+          "volume_mm3": 127.4373899450556,
+          "group_a": "carrier",
+          "group_b": "hip_roll_parent"
+        },
+        {
+          "a": "FootStructure",
+          "b": "HipPitchMotor",
+          "volume_mm3": 3619.912035636262,
+          "group_a": "foot",
+          "group_b": "hip_pitch_parent"
+        },
+        {
+          "a": "FootStructure",
+          "b": "HipRollMotor",
+          "volume_mm3": 7299.32856818639,
+          "group_a": "foot",
+          "group_b": "hip_roll_parent"
+        },
+        {
+          "a": "SolePad",
+          "b": "HipPitchMotor",
+          "volume_mm3": 592.4120097286053,
+          "group_a": "foot",
+          "group_b": "hip_pitch_parent"
+        },
+        {
+          "a": "SolePad",
+          "b": "HipRollMotor",
+          "volume_mm3": 2776.756205413446,
+          "group_a": "foot",
+          "group_b": "hip_roll_parent"
+        }
+      ]
+    }
+  ],
+  "knee_candidates_without_ground_or_self_collision": 14,
+  "limitations": [
+    "Right-side CAD is a reflected packaging reference, actual motor mounting/handedness must be verified",
+    "All positive common volumes retained; no collision exemptions for intended joints",
+    "Knee ground clearance alone does not validate a protective knee pad or load path",
+    "Mass combines supplier motor values, approximate geometry densities and provisional allocations",
+    "No wholebody task, appearance approval, dynamics or manufacturing release"
+  ]
+}

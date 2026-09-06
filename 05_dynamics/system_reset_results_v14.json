@@ -1,0 +1,770 @@
+{
+  "status": "analytical_budget_review_only",
+  "engineering_validated": false,
+  "baseline": {
+    "mass_kg": 6.503844911412005,
+    "dimensions_xyz_mm": [
+      308.1052188851063,
+      290.00000009999997,
+      390.0000001
+    ],
+    "category_mass_kg": {
+      "motor": 3.6040000000000005,
+      "frame": 2.019603241661934,
+      "shell": 0.2302416697500787,
+      "hardware": 0.65
+    }
+  },
+  "allocation_total_kg": 3.0,
+  "nonmotor_allocations_kg": 1.4,
+  "max_average_mass_for_18_major_actuators_with_8_XC330_kg": 0.07866666666666668,
+  "candidates": [
+    {
+      "id": "A_compact_servo_reference",
+      "source_status": "mass_reference_only",
+      "actuator_mass_kg": 1.66,
+      "nonmotor_allocations_including_reserve_kg": 1.4,
+      "budget_total_kg": 3.0599999999999996,
+      "remaining_to_review_ceiling_kg": -0.05999999999999961,
+      "arithmetic_within_ceiling": false,
+      "mass_exceedance_rejects_candidate": false,
+      "hardware_feasible": null,
+      "task_verified": false
+    },
+    {
+      "id": "B_six_fast_pitch_hybrid",
+      "source_status": "mass_reference_only",
+      "actuator_mass_kg": 2.3080000000000003,
+      "nonmotor_allocations_including_reserve_kg": 1.4,
+      "budget_total_kg": 3.708,
+      "remaining_to_review_ceiling_kg": -0.7080000000000002,
+      "arithmetic_within_ceiling": false,
+      "mass_exceedance_rejects_candidate": false,
+      "hardware_feasible": null,
+      "task_verified": false
+    },
+    {
+      "id": "C_mass_constrained_search",
+      "source_status": "unmatched_component_requirements_not_a_real_bom",
+      "actuator_mass_kg": 1.5499999999999998,
+      "nonmotor_allocations_including_reserve_kg": 1.4,
+      "budget_total_kg": 2.9499999999999997,
+      "remaining_to_review_ceiling_kg": 0.050000000000000266,
+      "arithmetic_within_ceiling": true,
+      "mass_exceedance_rejects_candidate": false,
+      "hardware_feasible": null,
+      "task_verified": false
+    }
+  ],
+  "proportion_arithmetic": {
+    "straight_chain_height_mm": 390,
+    "foot_outside_width_mm": 185,
+    "geometry_validated": false
+  },
+  "static_com_cases": [
+    {
+      "robot_mass_kg": 2.0,
+      "payload_x_m": 0.1,
+      "combined_com_x_m": 0.022480620155038763,
+      "front_margin_m": 0.03251937984496124,
+      "meets_assumed_static_margin": true,
+      "payload_x_max_for_margin_m": 0.1779310344827586,
+      "payload_to_robot_mass_ratio": 0.29000000000000004
+    },
+    {
+      "robot_mass_kg": 2.0,
+      "payload_x_m": 0.15,
+      "combined_com_x_m": 0.03372093023255814,
+      "front_margin_m": 0.021279069767441858,
+      "meets_assumed_static_margin": true,
+      "payload_x_max_for_margin_m": 0.1779310344827586,
+      "payload_to_robot_mass_ratio": 0.29000000000000004
+    },
+    {
+      "robot_mass_kg": 2.0,
+      "payload_x_m": 0.2,
+      "combined_com_x_m": 0.044961240310077526,
+      "front_margin_m": 0.010038759689922475,
+      "meets_assumed_static_margin": false,
+      "payload_x_max_for_margin_m": 0.1779310344827586,
+      "payload_to_robot_mass_ratio": 0.29000000000000004
+    },
+    {
+      "robot_mass_kg": 2.5,
+      "payload_x_m": 0.1,
+      "combined_com_x_m": 0.018831168831168834,
+      "front_margin_m": 0.03616883116883117,
+      "meets_assumed_static_margin": true,
+      "payload_x_max_for_margin_m": 0.21241379310344827,
+      "payload_to_robot_mass_ratio": 0.23200000000000004
+    },
+    {
+      "robot_mass_kg": 2.5,
+      "payload_x_m": 0.15,
+      "combined_com_x_m": 0.02824675324675325,
+      "front_margin_m": 0.02675324675324675,
+      "meets_assumed_static_margin": true,
+      "payload_x_max_for_margin_m": 0.21241379310344827,
+      "payload_to_robot_mass_ratio": 0.23200000000000004
+    },
+    {
+      "robot_mass_kg": 2.5,
+      "payload_x_m": 0.2,
+      "combined_com_x_m": 0.03766233766233767,
+      "front_margin_m": 0.017337662337662332,
+      "meets_assumed_static_margin": true,
+      "payload_x_max_for_margin_m": 0.21241379310344827,
+      "payload_to_robot_mass_ratio": 0.23200000000000004
+    },
+    {
+      "robot_mass_kg": 3.0,
+      "payload_x_m": 0.1,
+      "combined_com_x_m": 0.016201117318435758,
+      "front_margin_m": 0.03879888268156424,
+      "meets_assumed_static_margin": true,
+      "payload_x_max_for_margin_m": 0.24689655172413788,
+      "payload_to_robot_mass_ratio": 0.19333333333333336
+    },
+    {
+      "robot_mass_kg": 3.0,
+      "payload_x_m": 0.15,
+      "combined_com_x_m": 0.024301675977653633,
+      "front_margin_m": 0.030698324022346367,
+      "meets_assumed_static_margin": true,
+      "payload_x_max_for_margin_m": 0.24689655172413788,
+      "payload_to_robot_mass_ratio": 0.19333333333333336
+    },
+    {
+      "robot_mass_kg": 3.0,
+      "payload_x_m": 0.2,
+      "combined_com_x_m": 0.032402234636871516,
+      "front_margin_m": 0.022597765363128484,
+      "meets_assumed_static_margin": true,
+      "payload_x_max_for_margin_m": 0.24689655172413788,
+      "payload_to_robot_mass_ratio": 0.19333333333333336
+    },
+    {
+      "robot_mass_kg": 3.708,
+      "payload_x_m": 0.1,
+      "combined_com_x_m": 0.013526119402985076,
+      "front_margin_m": 0.04147388059701493,
+      "meets_assumed_static_margin": true,
+      "payload_x_max_for_margin_m": 0.29572413793103447,
+      "payload_to_robot_mass_ratio": 0.15641855447680691
+    },
+    {
+      "robot_mass_kg": 3.708,
+      "payload_x_m": 0.15,
+      "combined_com_x_m": 0.02028917910447761,
+      "front_margin_m": 0.03471082089552239,
+      "meets_assumed_static_margin": true,
+      "payload_x_max_for_margin_m": 0.29572413793103447,
+      "payload_to_robot_mass_ratio": 0.15641855447680691
+    },
+    {
+      "robot_mass_kg": 3.708,
+      "payload_x_m": 0.2,
+      "combined_com_x_m": 0.02705223880597015,
+      "front_margin_m": 0.02794776119402985,
+      "meets_assumed_static_margin": true,
+      "payload_x_max_for_margin_m": 0.29572413793103447,
+      "payload_to_robot_mass_ratio": 0.15641855447680691
+    },
+    {
+      "robot_mass_kg": 4.0,
+      "payload_x_m": 0.1,
+      "combined_com_x_m": 0.012663755458515285,
+      "front_margin_m": 0.04233624454148471,
+      "meets_assumed_static_margin": true,
+      "payload_x_max_for_margin_m": 0.3158620689655172,
+      "payload_to_robot_mass_ratio": 0.14500000000000002
+    },
+    {
+      "robot_mass_kg": 4.0,
+      "payload_x_m": 0.15,
+      "combined_com_x_m": 0.018995633187772927,
+      "front_margin_m": 0.03600436681222707,
+      "meets_assumed_static_margin": true,
+      "payload_x_max_for_margin_m": 0.3158620689655172,
+      "payload_to_robot_mass_ratio": 0.14500000000000002
+    },
+    {
+      "robot_mass_kg": 4.0,
+      "payload_x_m": 0.2,
+      "combined_com_x_m": 0.02532751091703057,
+      "front_margin_m": 0.02967248908296943,
+      "meets_assumed_static_margin": true,
+      "payload_x_max_for_margin_m": 0.3158620689655172,
+      "payload_to_robot_mass_ratio": 0.14500000000000002
+    },
+    {
+      "robot_mass_kg": 6.503844911412005,
+      "payload_x_m": 0.1,
+      "combined_com_x_m": 0.008187643959647193,
+      "front_margin_m": 0.046812356040352804,
+      "meets_assumed_static_margin": true,
+      "payload_x_max_for_margin_m": 0.4885410283732417,
+      "payload_to_robot_mass_ratio": 0.08917801821846952
+    },
+    {
+      "robot_mass_kg": 6.503844911412005,
+      "payload_x_m": 0.15,
+      "combined_com_x_m": 0.012281465939470788,
+      "front_margin_m": 0.04271853406052921,
+      "meets_assumed_static_margin": true,
+      "payload_x_max_for_margin_m": 0.4885410283732417,
+      "payload_to_robot_mass_ratio": 0.08917801821846952
+    },
+    {
+      "robot_mass_kg": 6.503844911412005,
+      "payload_x_m": 0.2,
+      "combined_com_x_m": 0.016375287919294386,
+      "front_margin_m": 0.038624712080705614,
+      "meets_assumed_static_margin": true,
+      "payload_x_max_for_margin_m": 0.4885410283732417,
+      "payload_to_robot_mass_ratio": 0.08917801821846952
+    }
+  ],
+  "shoulder_payload_cases": [
+    {
+      "payload_lever_m": 0.1,
+      "per_shoulder_static_torque_Nm": 0.5787900000000001
+    },
+    {
+      "payload_lever_m": 0.15,
+      "per_shoulder_static_torque_Nm": 0.7210350000000001
+    },
+    {
+      "payload_lever_m": 0.2,
+      "per_shoulder_static_torque_Nm": 0.8632800000000002
+    }
+  ],
+  "wrist_support_cases": [
+    {
+      "robot_mass_kg": 2.0,
+      "per_hand_vertical_force_N": 6.867,
+      "effective_perpendicular_lever_m": 0.02,
+      "wrist_static_torque_Nm": 0.13734
+    },
+    {
+      "robot_mass_kg": 2.0,
+      "per_hand_vertical_force_N": 6.867,
+      "effective_perpendicular_lever_m": 0.04,
+      "wrist_static_torque_Nm": 0.27468
+    },
+    {
+      "robot_mass_kg": 2.0,
+      "per_hand_vertical_force_N": 6.867,
+      "effective_perpendicular_lever_m": 0.06,
+      "wrist_static_torque_Nm": 0.41202
+    },
+    {
+      "robot_mass_kg": 2.5,
+      "per_hand_vertical_force_N": 8.58375,
+      "effective_perpendicular_lever_m": 0.02,
+      "wrist_static_torque_Nm": 0.171675
+    },
+    {
+      "robot_mass_kg": 2.5,
+      "per_hand_vertical_force_N": 8.58375,
+      "effective_perpendicular_lever_m": 0.04,
+      "wrist_static_torque_Nm": 0.34335
+    },
+    {
+      "robot_mass_kg": 2.5,
+      "per_hand_vertical_force_N": 8.58375,
+      "effective_perpendicular_lever_m": 0.06,
+      "wrist_static_torque_Nm": 0.515025
+    },
+    {
+      "robot_mass_kg": 3.0,
+      "per_hand_vertical_force_N": 10.3005,
+      "effective_perpendicular_lever_m": 0.02,
+      "wrist_static_torque_Nm": 0.20601
+    },
+    {
+      "robot_mass_kg": 3.0,
+      "per_hand_vertical_force_N": 10.3005,
+      "effective_perpendicular_lever_m": 0.04,
+      "wrist_static_torque_Nm": 0.41202
+    },
+    {
+      "robot_mass_kg": 3.0,
+      "per_hand_vertical_force_N": 10.3005,
+      "effective_perpendicular_lever_m": 0.06,
+      "wrist_static_torque_Nm": 0.61803
+    },
+    {
+      "robot_mass_kg": 3.708,
+      "per_hand_vertical_force_N": 12.731418,
+      "effective_perpendicular_lever_m": 0.02,
+      "wrist_static_torque_Nm": 0.25462836
+    },
+    {
+      "robot_mass_kg": 3.708,
+      "per_hand_vertical_force_N": 12.731418,
+      "effective_perpendicular_lever_m": 0.04,
+      "wrist_static_torque_Nm": 0.50925672
+    },
+    {
+      "robot_mass_kg": 3.708,
+      "per_hand_vertical_force_N": 12.731418,
+      "effective_perpendicular_lever_m": 0.06,
+      "wrist_static_torque_Nm": 0.76388508
+    },
+    {
+      "robot_mass_kg": 4.0,
+      "per_hand_vertical_force_N": 13.734,
+      "effective_perpendicular_lever_m": 0.02,
+      "wrist_static_torque_Nm": 0.27468
+    },
+    {
+      "robot_mass_kg": 4.0,
+      "per_hand_vertical_force_N": 13.734,
+      "effective_perpendicular_lever_m": 0.04,
+      "wrist_static_torque_Nm": 0.54936
+    },
+    {
+      "robot_mass_kg": 4.0,
+      "per_hand_vertical_force_N": 13.734,
+      "effective_perpendicular_lever_m": 0.06,
+      "wrist_static_torque_Nm": 0.82404
+    },
+    {
+      "robot_mass_kg": 6.503844911412005,
+      "per_hand_vertical_force_N": 22.33095150333312,
+      "effective_perpendicular_lever_m": 0.02,
+      "wrist_static_torque_Nm": 0.4466190300666624
+    },
+    {
+      "robot_mass_kg": 6.503844911412005,
+      "per_hand_vertical_force_N": 22.33095150333312,
+      "effective_perpendicular_lever_m": 0.04,
+      "wrist_static_torque_Nm": 0.8932380601333249
+    },
+    {
+      "robot_mass_kg": 6.503844911412005,
+      "per_hand_vertical_force_N": 22.33095150333312,
+      "effective_perpendicular_lever_m": 0.06,
+      "wrist_static_torque_Nm": 1.3398570901999873
+    }
+  ],
+  "grip_cases": [
+    {
+      "mu": 0.2,
+      "normal_force_per_opposed_contact_N": 21.336750000000002,
+      "contact_count": 2,
+      "note": "Two opposed resultant contacts; not motor torque and not each finger. Bottle crush and pad compliance unverified."
+    },
+    {
+      "mu": 0.4,
+      "normal_force_per_opposed_contact_N": 10.668375000000001,
+      "contact_count": 2,
+      "note": "Two opposed resultant contacts; not motor torque and not each finger. Bottle crush and pad compliance unverified."
+    },
+    {
+      "mu": 0.6,
+      "normal_force_per_opposed_contact_N": 7.112250000000001,
+      "contact_count": 2,
+      "note": "Two opposed resultant contacts; not motor torque and not each finger. Bottle crush and pad compliance unverified."
+    }
+  ],
+  "vertical_jump_cases": [
+    {
+      "robot_mass_kg": 2.0,
+      "stroke_m": 0.02,
+      "apex_above_takeoff_m": 0.1,
+      "takeoff_speed_m_s": 1.4007141035914503,
+      "constant_acceleration_push_time_s": 0.028556862458541287,
+      "force_per_foot_equal_split_N": 58.86000000000001,
+      "force_to_weight_ratio": 6.0,
+      "ideal_contact_work_J": 2.3544000000000005,
+      "ideal_average_contact_power_W": 82.44603213739279
+    },
+    {
+      "robot_mass_kg": 2.0,
+      "stroke_m": 0.04,
+      "apex_above_takeoff_m": 0.1,
+      "takeoff_speed_m_s": 1.4007141035914503,
+      "constant_acceleration_push_time_s": 0.057113724917082574,
+      "force_per_foot_equal_split_N": 34.335,
+      "force_to_weight_ratio": 3.5,
+      "ideal_contact_work_J": 2.7468,
+      "ideal_average_contact_power_W": 48.09351874681245
+    },
+    {
+      "robot_mass_kg": 2.0,
+      "stroke_m": 0.06,
+      "apex_above_takeoff_m": 0.1,
+      "takeoff_speed_m_s": 1.4007141035914503,
+      "constant_acceleration_push_time_s": 0.08567058737562387,
+      "force_per_foot_equal_split_N": 26.160000000000004,
+      "force_to_weight_ratio": 2.666666666666667,
+      "ideal_contact_work_J": 3.1392,
+      "ideal_average_contact_power_W": 36.642680949952336
+    },
+    {
+      "robot_mass_kg": 2.5,
+      "stroke_m": 0.02,
+      "apex_above_takeoff_m": 0.1,
+      "takeoff_speed_m_s": 1.4007141035914503,
+      "constant_acceleration_push_time_s": 0.028556862458541287,
+      "force_per_foot_equal_split_N": 73.575,
+      "force_to_weight_ratio": 6.0,
+      "ideal_contact_work_J": 2.943,
+      "ideal_average_contact_power_W": 103.05754017174097
+    },
+    {
+      "robot_mass_kg": 2.5,
+      "stroke_m": 0.04,
+      "apex_above_takeoff_m": 0.1,
+      "takeoff_speed_m_s": 1.4007141035914503,
+      "constant_acceleration_push_time_s": 0.057113724917082574,
+      "force_per_foot_equal_split_N": 42.91875,
+      "force_to_weight_ratio": 3.5,
+      "ideal_contact_work_J": 3.4335000000000004,
+      "ideal_average_contact_power_W": 60.116898433515566
+    },
+    {
+      "robot_mass_kg": 2.5,
+      "stroke_m": 0.06,
+      "apex_above_takeoff_m": 0.1,
+      "takeoff_speed_m_s": 1.4007141035914503,
+      "constant_acceleration_push_time_s": 0.08567058737562387,
+      "force_per_foot_equal_split_N": 32.7,
+      "force_to_weight_ratio": 2.6666666666666665,
+      "ideal_contact_work_J": 3.9240000000000004,
+      "ideal_average_contact_power_W": 45.80335118744043
+    },
+    {
+      "robot_mass_kg": 3.0,
+      "stroke_m": 0.02,
+      "apex_above_takeoff_m": 0.1,
+      "takeoff_speed_m_s": 1.4007141035914503,
+      "constant_acceleration_push_time_s": 0.028556862458541287,
+      "force_per_foot_equal_split_N": 88.29,
+      "force_to_weight_ratio": 6.000000000000001,
+      "ideal_contact_work_J": 3.5316000000000005,
+      "ideal_average_contact_power_W": 123.66904820608917
+    },
+    {
+      "robot_mass_kg": 3.0,
+      "stroke_m": 0.04,
+      "apex_above_takeoff_m": 0.1,
+      "takeoff_speed_m_s": 1.4007141035914503,
+      "constant_acceleration_push_time_s": 0.057113724917082574,
+      "force_per_foot_equal_split_N": 51.5025,
+      "force_to_weight_ratio": 3.5,
+      "ideal_contact_work_J": 4.1202,
+      "ideal_average_contact_power_W": 72.14027812021867
+    },
+    {
+      "robot_mass_kg": 3.0,
+      "stroke_m": 0.06,
+      "apex_above_takeoff_m": 0.1,
+      "takeoff_speed_m_s": 1.4007141035914503,
+      "constant_acceleration_push_time_s": 0.08567058737562387,
+      "force_per_foot_equal_split_N": 39.24000000000001,
+      "force_to_weight_ratio": 2.6666666666666674,
+      "ideal_contact_work_J": 4.708800000000001,
+      "ideal_average_contact_power_W": 54.96402142492852
+    },
+    {
+      "robot_mass_kg": 3.708,
+      "stroke_m": 0.02,
+      "apex_above_takeoff_m": 0.1,
+      "takeoff_speed_m_s": 1.4007141035914503,
+      "constant_acceleration_push_time_s": 0.028556862458541287,
+      "force_per_foot_equal_split_N": 109.12644000000002,
+      "force_to_weight_ratio": 6.0,
+      "ideal_contact_work_J": 4.365057600000001,
+      "ideal_average_contact_power_W": 152.85494358272624
+    },
+    {
+      "robot_mass_kg": 3.708,
+      "stroke_m": 0.04,
+      "apex_above_takeoff_m": 0.1,
+      "takeoff_speed_m_s": 1.4007141035914503,
+      "constant_acceleration_push_time_s": 0.057113724917082574,
+      "force_per_foot_equal_split_N": 63.657090000000004,
+      "force_to_weight_ratio": 3.5,
+      "ideal_contact_work_J": 5.0925672,
+      "ideal_average_contact_power_W": 89.16538375659029
+    },
+    {
+      "robot_mass_kg": 3.708,
+      "stroke_m": 0.06,
+      "apex_above_takeoff_m": 0.1,
+      "takeoff_speed_m_s": 1.4007141035914503,
+      "constant_acceleration_push_time_s": 0.08567058737562387,
+      "force_per_foot_equal_split_N": 48.50064000000001,
+      "force_to_weight_ratio": 2.666666666666667,
+      "ideal_contact_work_J": 5.820076800000001,
+      "ideal_average_contact_power_W": 67.93553048121164
+    },
+    {
+      "robot_mass_kg": 4.0,
+      "stroke_m": 0.02,
+      "apex_above_takeoff_m": 0.1,
+      "takeoff_speed_m_s": 1.4007141035914503,
+      "constant_acceleration_push_time_s": 0.028556862458541287,
+      "force_per_foot_equal_split_N": 117.72000000000001,
+      "force_to_weight_ratio": 6.0,
+      "ideal_contact_work_J": 4.708800000000001,
+      "ideal_average_contact_power_W": 164.89206427478558
+    },
+    {
+      "robot_mass_kg": 4.0,
+      "stroke_m": 0.04,
+      "apex_above_takeoff_m": 0.1,
+      "takeoff_speed_m_s": 1.4007141035914503,
+      "constant_acceleration_push_time_s": 0.057113724917082574,
+      "force_per_foot_equal_split_N": 68.67,
+      "force_to_weight_ratio": 3.5,
+      "ideal_contact_work_J": 5.4936,
+      "ideal_average_contact_power_W": 96.1870374936249
+    },
+    {
+      "robot_mass_kg": 4.0,
+      "stroke_m": 0.06,
+      "apex_above_takeoff_m": 0.1,
+      "takeoff_speed_m_s": 1.4007141035914503,
+      "constant_acceleration_push_time_s": 0.08567058737562387,
+      "force_per_foot_equal_split_N": 52.32000000000001,
+      "force_to_weight_ratio": 2.666666666666667,
+      "ideal_contact_work_J": 6.2784,
+      "ideal_average_contact_power_W": 73.28536189990467
+    },
+    {
+      "robot_mass_kg": 6.503844911412005,
+      "stroke_m": 0.02,
+      "apex_above_takeoff_m": 0.1,
+      "takeoff_speed_m_s": 1.4007141035914503,
+      "constant_acceleration_push_time_s": 0.028556862458541287,
+      "force_per_foot_equal_split_N": 191.40815574285534,
+      "force_to_weight_ratio": 6.000000000000001,
+      "ideal_contact_work_J": 7.656326229714214,
+      "ideal_average_contact_power_W": 268.10810329144635
+    },
+    {
+      "robot_mass_kg": 6.503844911412005,
+      "stroke_m": 0.04,
+      "apex_above_takeoff_m": 0.1,
+      "takeoff_speed_m_s": 1.4007141035914503,
+      "constant_acceleration_push_time_s": 0.057113724917082574,
+      "force_per_foot_equal_split_N": 111.65475751666561,
+      "force_to_weight_ratio": 3.5,
+      "ideal_contact_work_J": 8.932380601333248,
+      "ideal_average_contact_power_W": 156.39639358667702
+    },
+    {
+      "robot_mass_kg": 6.503844911412005,
+      "stroke_m": 0.06,
+      "apex_above_takeoff_m": 0.1,
+      "takeoff_speed_m_s": 1.4007141035914503,
+      "constant_acceleration_push_time_s": 0.08567058737562387,
+      "force_per_foot_equal_split_N": 85.07029144126905,
+      "force_to_weight_ratio": 2.666666666666667,
+      "ideal_contact_work_J": 10.208434972952286,
+      "ideal_average_contact_power_W": 119.1591570184206
+    }
+  ],
+  "vertical_landing_cases": [
+    {
+      "robot_mass_kg": 2.0,
+      "stop_distance_m": 0.005,
+      "assumed_fall_com_height_m": 0.1,
+      "displacement_average_total_force_N": 412.02000000000004,
+      "displacement_average_force_per_foot_equal_split_N": 206.01000000000002,
+      "peak_force_N": null
+    },
+    {
+      "robot_mass_kg": 2.0,
+      "stop_distance_m": 0.015,
+      "assumed_fall_com_height_m": 0.1,
+      "displacement_average_total_force_N": 150.42000000000002,
+      "displacement_average_force_per_foot_equal_split_N": 75.21000000000001,
+      "peak_force_N": null
+    },
+    {
+      "robot_mass_kg": 2.0,
+      "stop_distance_m": 0.03,
+      "assumed_fall_com_height_m": 0.1,
+      "displacement_average_total_force_N": 85.02000000000001,
+      "displacement_average_force_per_foot_equal_split_N": 42.510000000000005,
+      "peak_force_N": null
+    },
+    {
+      "robot_mass_kg": 2.5,
+      "stop_distance_m": 0.005,
+      "assumed_fall_com_height_m": 0.1,
+      "displacement_average_total_force_N": 515.0250000000001,
+      "displacement_average_force_per_foot_equal_split_N": 257.51250000000005,
+      "peak_force_N": null
+    },
+    {
+      "robot_mass_kg": 2.5,
+      "stop_distance_m": 0.015,
+      "assumed_fall_com_height_m": 0.1,
+      "displacement_average_total_force_N": 188.02500000000003,
+      "displacement_average_force_per_foot_equal_split_N": 94.01250000000002,
+      "peak_force_N": null
+    },
+    {
+      "robot_mass_kg": 2.5,
+      "stop_distance_m": 0.03,
+      "assumed_fall_com_height_m": 0.1,
+      "displacement_average_total_force_N": 106.27500000000002,
+      "displacement_average_force_per_foot_equal_split_N": 53.13750000000001,
+      "peak_force_N": null
+    },
+    {
+      "robot_mass_kg": 3.0,
+      "stop_distance_m": 0.005,
+      "assumed_fall_com_height_m": 0.1,
+      "displacement_average_total_force_N": 618.03,
+      "displacement_average_force_per_foot_equal_split_N": 309.015,
+      "peak_force_N": null
+    },
+    {
+      "robot_mass_kg": 3.0,
+      "stop_distance_m": 0.015,
+      "assumed_fall_com_height_m": 0.1,
+      "displacement_average_total_force_N": 225.63,
+      "displacement_average_force_per_foot_equal_split_N": 112.815,
+      "peak_force_N": null
+    },
+    {
+      "robot_mass_kg": 3.0,
+      "stop_distance_m": 0.03,
+      "assumed_fall_com_height_m": 0.1,
+      "displacement_average_total_force_N": 127.53000000000002,
+      "displacement_average_force_per_foot_equal_split_N": 63.76500000000001,
+      "peak_force_N": null
+    },
+    {
+      "robot_mass_kg": 3.708,
+      "stop_distance_m": 0.005,
+      "assumed_fall_com_height_m": 0.1,
+      "displacement_average_total_force_N": 763.88508,
+      "displacement_average_force_per_foot_equal_split_N": 381.94254,
+      "peak_force_N": null
+    },
+    {
+      "robot_mass_kg": 3.708,
+      "stop_distance_m": 0.015,
+      "assumed_fall_com_height_m": 0.1,
+      "displacement_average_total_force_N": 278.87868000000003,
+      "displacement_average_force_per_foot_equal_split_N": 139.43934000000002,
+      "peak_force_N": null
+    },
+    {
+      "robot_mass_kg": 3.708,
+      "stop_distance_m": 0.03,
+      "assumed_fall_com_height_m": 0.1,
+      "displacement_average_total_force_N": 157.62708000000003,
+      "displacement_average_force_per_foot_equal_split_N": 78.81354000000002,
+      "peak_force_N": null
+    },
+    {
+      "robot_mass_kg": 4.0,
+      "stop_distance_m": 0.005,
+      "assumed_fall_com_height_m": 0.1,
+      "displacement_average_total_force_N": 824.0400000000001,
+      "displacement_average_force_per_foot_equal_split_N": 412.02000000000004,
+      "peak_force_N": null
+    },
+    {
+      "robot_mass_kg": 4.0,
+      "stop_distance_m": 0.015,
+      "assumed_fall_com_height_m": 0.1,
+      "displacement_average_total_force_N": 300.84000000000003,
+      "displacement_average_force_per_foot_equal_split_N": 150.42000000000002,
+      "peak_force_N": null
+    },
+    {
+      "robot_mass_kg": 4.0,
+      "stop_distance_m": 0.03,
+      "assumed_fall_com_height_m": 0.1,
+      "displacement_average_total_force_N": 170.04000000000002,
+      "displacement_average_force_per_foot_equal_split_N": 85.02000000000001,
+      "peak_force_N": null
+    },
+    {
+      "robot_mass_kg": 6.503844911412005,
+      "stop_distance_m": 0.005,
+      "assumed_fall_com_height_m": 0.1,
+      "displacement_average_total_force_N": 1339.8570901999874,
+      "displacement_average_force_per_foot_equal_split_N": 669.9285450999937,
+      "peak_force_N": null
+    },
+    {
+      "robot_mass_kg": 6.503844911412005,
+      "stop_distance_m": 0.015,
+      "assumed_fall_com_height_m": 0.1,
+      "displacement_average_total_force_N": 489.154175787297,
+      "displacement_average_force_per_foot_equal_split_N": 244.5770878936485,
+      "peak_force_N": null
+    },
+    {
+      "robot_mass_kg": 6.503844911412005,
+      "stop_distance_m": 0.03,
+      "assumed_fall_com_height_m": 0.1,
+      "displacement_average_total_force_N": 276.4784471841244,
+      "displacement_average_force_per_foot_equal_split_N": 138.2392235920622,
+      "peak_force_N": null
+    }
+  ],
+  "battery_runtime_cases": [
+    {
+      "assumed_pack_specific_energy_Wh_kg": 120,
+      "usable_energy_Wh": 21.12,
+      "maximum_average_pack_draw_for_runtime_W": 63.36000000000001,
+      "note": "All motor/controller/converter/sensor losses must fit; no peak current or thermal approval."
+    },
+    {
+      "assumed_pack_specific_energy_Wh_kg": 160,
+      "usable_energy_Wh": 28.160000000000004,
+      "maximum_average_pack_draw_for_runtime_W": 84.48000000000002,
+      "note": "All motor/controller/converter/sensor losses must fit; no peak current or thermal approval."
+    },
+    {
+      "assumed_pack_specific_energy_Wh_kg": 200,
+      "usable_energy_Wh": 35.2,
+      "maximum_average_pack_draw_for_runtime_W": 105.60000000000001,
+      "note": "All motor/controller/converter/sensor losses must fit; no peak current or thermal approval."
+    }
+  ],
+  "joint_speed_cases": [
+    {
+      "sweep_deg": 60,
+      "time_s": 0.15,
+      "minimum_peak_speed_from_average_rpm": 66.66666666666667,
+      "XM430_W350_no_load_limit_exceeded_at_12V": true,
+      "note": "If average exceeds no-load speed, impossible under stated direct-drive condition. Otherwise not a pass; acceleration and load require more."
+    },
+    {
+      "sweep_deg": 60,
+      "time_s": 0.3,
+      "minimum_peak_speed_from_average_rpm": 33.333333333333336,
+      "XM430_W350_no_load_limit_exceeded_at_12V": false,
+      "note": "If average exceeds no-load speed, impossible under stated direct-drive condition. Otherwise not a pass; acceleration and load require more."
+    }
+  ],
+  "electrical_conflict": {
+    "example_pack_full_voltage_V": 12.600000000000001,
+    "XC330_max_input_V": 12.0,
+    "direct_connection_overvoltage": true
+  },
+  "numerical_checks": {
+    "max_energy_residual_J": 1.3322676295501878e-15,
+    "energy_case_count": 36
+  },
+  "provenance": {
+    "input": "03_system/mass_reset_v14.json",
+    "input_sha256": "f797bdd0f7a4287fc7d1692908b5018e0b690d6b9f2e256caa08ab27f8954648",
+    "script_sha256": "444d5d95ce41a7692b14163a9d1cca617147901b3b0f93a1a8c0d224234d178c",
+    "baseline_sha256": "35187c27ad48b0425c103cd8015e2f3e1f29ce83f5bd8a19c4e47bbb58e98edd",
+    "source_checked_date": "2026-09-06"
+  }
+}

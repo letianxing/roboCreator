@@ -1,0 +1,61 @@
+{
+  "parts": [
+    {
+      "name": "FootPlate",
+      "volume_mm3": 53585.05844231385,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RollStatorMount",
+      "volume_mm3": 8354.040893769703,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RollBearingCarrier",
+      "volume_mm3": 17289.444101841458,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RollBearingCap",
+      "volume_mm3": 2036.545156133247,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "Bearing6000_Envelope",
+      "volume_mm3": 3619.114736935441,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "RollTransferYoke",
+      "volume_mm3": 15879.506147864215,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "PitchOutputShankBracket",
+      "volume_mm3": 8696.584385713668,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BootInterfaceHeel",
+      "volume_mm3": 6211.924783386745,
+      "valid": true,
+      "solids": 1
+    },
+    {
+      "name": "BootInterfaceToe",
+      "volume_mm3": 6211.924783386749,
+      "valid": true,
+      "solids": 1
+    }
+  ],
+  "vendor_output_hole_center_check": "3 on PCD27 confirmed from STEP",
+  "screw_engagement_note": "nominal only; plate/washer/bolt tolerances and strength not evaluated",
+  "sampling": "35 recorded poses, no geometric penetrations in closed proxy parts"
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version":1,
+  "template":true,
+  "work_order_id":null,
+  "status":"draft_not_dispatched",
+  "release_id":null,
+  "mbom_revision":null,
+  "quantity":null,
+  "supplier":null,
+  "unit_serial_number":null,
+  "operations":[
+    {"sequence":10,"name":"Verify released design package","status":"not_started","artifact_hashes":[],"operator":null,"timestamp":null},
+    {"sequence":20,"name":"Confirm material/process/machine/orientation","status":"not_started","material_grade":null,"material_lot":null,"machine":null,"process_parameters":null},
+    {"sequence":30,"name":"Print or machine","status":"not_started","started_at":null,"finished_at":null,"actual_parameters":null},
+    {"sequence":40,"name":"Inspect dimensions and appearance","status":"not_started","inspection_plan_revision":null,"measurements":[],"passed":null,"ncr_ids":[]},
+    {"sequence":50,"name":"Assemble and record installed configuration","status":"not_started","actual_parts":[],"fastener_torques_Nm":[],"firmware_version":null},
+    {"sequence":60,"name":"Electrical checks and calibration handoff","status":"not_started","test_evidence":[],"calibration_version":null}
+  ],
+  "rework":[],
+  "dispatch_rule":"Requires an actual released PLM package, supplier/process confirmation and user-authorized external ordering. Template creation does not authorize procurement or manufacture."
+}

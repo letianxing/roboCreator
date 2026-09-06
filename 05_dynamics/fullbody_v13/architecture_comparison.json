@@ -1,0 +1,62 @@
+{
+  "status": "architecture_comparison_only",
+  "results": [
+    {
+      "version": "v12",
+      "mass_kg": 6.380688721299107,
+      "handover_hip_roll_Nm": 1.76393917234159,
+      "handover_peak_Nm": 1.843699970100245,
+      "shared_jump_com_stroke_m": 0.019440447432474514,
+      "shared_jump_height_m": 0.1,
+      "effective_vertical_force_each_foot_N": 192.28780211874948,
+      "frozen_posture_peak_joint_screen_Nm": 9.526557262435807
+    },
+    {
+      "version": "v13",
+      "mass_kg": 6.503844911412005,
+      "handover_hip_roll_Nm": 0.09961696836957602,
+      "handover_peak_Nm": 0.8543677048281559,
+      "shared_jump_com_stroke_m": 0.019440447432474514,
+      "shared_jump_height_m": 0.1,
+      "effective_vertical_force_each_foot_N": 195.99922484261285,
+      "frozen_posture_peak_joint_screen_Nm": 7.999033957676254
+    }
+  ],
+  "same_target_comparisons": [
+    {
+      "pose": "pickup_contact",
+      "old_hardware_pairs": 2,
+      "new_hardware_pairs": 4,
+      "old_ik": true,
+      "new_ik": true
+    },
+    {
+      "pose": "pickup_lift",
+      "old_hardware_pairs": 2,
+      "new_hardware_pairs": 2,
+      "old_ik": true,
+      "new_ik": true
+    },
+    {
+      "pose": "handover",
+      "old_hardware_pairs": 2,
+      "new_hardware_pairs": 0,
+      "old_ik": true,
+      "new_ik": true
+    },
+    {
+      "pose": "getup_intermediate",
+      "old_hardware_pairs": 4,
+      "new_hardware_pairs": 0,
+      "old_ik": false,
+      "new_ik": true
+    }
+  ],
+  "notes": [
+    "Standing arm posture changed to ready stance, so standing max width/torque is not an isolated geometry comparison",
+    "Foot outer width decreases from 350 to 290 mm independently of arm pose",
+    "Original targets retained; 150mm-forward pickup alternatives are additional, not replacement successes",
+    "Shared takeoff stroke prevents attributing a changed pose stroke to actuator improvement",
+    "Frozen acceleration loads are not inverse dynamics or a motor operating envelope"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "20260906_114831_473273_v0.18",
+  "stage": "v0.18",
+  "verified": true,
+  "file_count": 690,
+  "source_bytes": 1329816426,
+  "archive_bytes": 488364766,
+  "archive_sha256": "3d53e919c88b66b7fa2d910cd84d83161ab9522b6a4e58885ffbea2eb3316b3f",
+  "archive": "checkpoints\\20260906_114831_473273_v0.18\\project.zip",
+  "passed_checks": [
+    "Four integrated CAD/STEP studies saved/reopened; base scenes count 28 motors",
+    "Flat-foot analytic height bound and 50 knee-contact candidate records",
+    "Seven rigid relocations preserve volume; modeled electronics-related intersections eliminated in standing candidate",
+    "PLM draft references/hashes and undispatched MES template validated; software permission rule saved"
+  ],
+  "pending": [
+    "Shoulder/arm versus leg interference and remaining assembly interfaces",
+    "Actual protective knee contact and connected recovery trajectory",
+    "Fullbody mass/inertia, stability, contact/thermal/impact CAE and physical validation",
+    "Approved Wukong appearance and all user tasks",
+    "Released EBOM/MBOM, supplier-specific manufacturing plan and real inspection data",
+    "Ask before introducing open-source software or new/configured MCP"
+  ]
+}

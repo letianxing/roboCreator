@@ -1,0 +1,21 @@
+import FreeCAD as App
+import FreeCADGui as Gui
+from PySide import QtCore
+doc=App.openDocument(r'G:\Golands\roboCreator\09_cad\ankle_v07\wukong_ankle_v07.FCStd')
+doc.RollMotor_VendorSurface.ViewObject.ShapeColor=(0.2,0.25,0.32)
+doc.PitchMotor_VendorSurface.ViewObject.ShapeColor=(0.2,0.25,0.32)
+doc.FootPlate_Concept.ViewObject.ShapeColor=(0.25,0.32,0.42)
+doc.Shank_ClearanceProxy.ViewObject.ShapeColor=(0.6,0.65,0.7)
+doc.Roll_ClosedEnvelope.ViewObject.Visibility=False
+doc.Pitch_ClosedEnvelope.ViewObject.Visibility=False
+doc.RollAxis_Schematic.ViewObject.ShapeColor=(1.,0.1,0.1)
+doc.PitchAxis_Schematic.ViewObject.ShapeColor=(0.1,0.8,0.2)
+doc.RequiredYoke_Schematic.ViewObject.LineColor=(1.,0.5,0.)
+doc.RequiredYoke_Schematic.ViewObject.LineWidth=3
+Gui.activeDocument().activeView().viewAxonometric()
+Gui.activeDocument().activeView().fitAll()
+doc.recompute()
+doc.save()
+def capture_ankle_v07():
+    Gui.activeDocument().activeView().saveImage(r'G:\Golands\roboCreator\09_cad\ankle_v07\preview.png',1200,1000,'White')
+QtCore.QTimer.singleShot(1500,capture_ankle_v07)

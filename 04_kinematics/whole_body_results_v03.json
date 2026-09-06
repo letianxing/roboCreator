@@ -1,0 +1,2805 @@
+{
+  "status": "audit_not_validated_robot",
+  "profiles": {
+    "servo_reference": {
+      "main_mass": 0.055,
+      "small_mass": 0.055,
+      "main_diameter": 0.0452,
+      "main_length": 0.035
+    },
+    "ak40_xc330_reference": {
+      "main_mass": 0.19,
+      "small_mass": 0.023,
+      "main_diameter": 0.053,
+      "main_length": 0.0402
+    }
+  },
+  "cases": {
+    "servo_reference": [
+      {
+        "case": "standing",
+        "robot_mass_kg": 2.71,
+        "total_mass_kg": 2.71,
+        "com_xyz_m": [
+          0.0011992619926199262,
+          1.1202088867008902e-18,
+          0.20151291512915126
+        ],
+        "static_projection_margin_m": 0.058800738007380074,
+        "nominal_margin_15mm_pass": true,
+        "knees_xyz_m": [
+          [
+            0.0,
+            0.055,
+            0.11499999999999999
+          ],
+          [
+            0.0,
+            -0.055,
+            0.11499999999999999
+          ]
+        ],
+        "coincident_motor_center_pairs": [
+          [
+            "hip_1_yaw",
+            "hip_1_roll"
+          ],
+          [
+            "hip_1_yaw",
+            "hip_1_pitch"
+          ],
+          [
+            "hip_1_roll",
+            "hip_1_pitch"
+          ],
+          [
+            "ankle_1_pitch",
+            "ankle_1_roll"
+          ],
+          [
+            "hip_-1_yaw",
+            "hip_-1_roll"
+          ],
+          [
+            "hip_-1_yaw",
+            "hip_-1_pitch"
+          ],
+          [
+            "hip_-1_roll",
+            "hip_-1_pitch"
+          ],
+          [
+            "ankle_-1_pitch",
+            "ankle_-1_roll"
+          ],
+          [
+            "shoulder_1_y",
+            "shoulder_1_x"
+          ],
+          [
+            "shoulder_1_y",
+            "shoulder_1_z"
+          ],
+          [
+            "shoulder_1_x",
+            "shoulder_1_z"
+          ],
+          [
+            "shoulder_-1_y",
+            "shoulder_-1_x"
+          ],
+          [
+            "shoulder_-1_y",
+            "shoulder_-1_z"
+          ],
+          [
+            "shoulder_-1_x",
+            "shoulder_-1_z"
+          ],
+          [
+            "head_yaw",
+            "head_pitch"
+          ]
+        ],
+        "motor_count": 26,
+        "point_masses": [
+          {
+            "name": "hip_1_yaw",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.205
+            ]
+          },
+          {
+            "name": "hip_1_roll",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.205
+            ]
+          },
+          {
+            "name": "hip_1_pitch",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.205
+            ]
+          },
+          {
+            "name": "knee_1",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.11499999999999999
+            ]
+          },
+          {
+            "name": "ankle_1_pitch",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.025
+            ]
+          },
+          {
+            "name": "ankle_1_roll",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.025
+            ]
+          },
+          {
+            "name": "thigh_frame_1",
+            "mass_kg": 0.02,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.15999999999999998
+            ]
+          },
+          {
+            "name": "shin_frame_1",
+            "mass_kg": 0.02,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.06999999999999999
+            ]
+          },
+          {
+            "name": "foot_1",
+            "mass_kg": 0.06,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.0125
+            ]
+          },
+          {
+            "name": "hip_-1_yaw",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.205
+            ]
+          },
+          {
+            "name": "hip_-1_roll",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.205
+            ]
+          },
+          {
+            "name": "hip_-1_pitch",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.205
+            ]
+          },
+          {
+            "name": "knee_-1",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.11499999999999999
+            ]
+          },
+          {
+            "name": "ankle_-1_pitch",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.025
+            ]
+          },
+          {
+            "name": "ankle_-1_roll",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.025
+            ]
+          },
+          {
+            "name": "thigh_frame_-1",
+            "mass_kg": 0.02,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.15999999999999998
+            ]
+          },
+          {
+            "name": "shin_frame_-1",
+            "mass_kg": 0.02,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.06999999999999999
+            ]
+          },
+          {
+            "name": "foot_-1",
+            "mass_kg": 0.06,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.0125
+            ]
+          },
+          {
+            "name": "shoulder_1_y",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              0.08,
+              0.295
+            ]
+          },
+          {
+            "name": "shoulder_1_x",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              0.08,
+              0.295
+            ]
+          },
+          {
+            "name": "shoulder_1_z",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              0.08,
+              0.295
+            ]
+          },
+          {
+            "name": "elbow_1",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              0.08,
+              0.21499999999999997
+            ]
+          },
+          {
+            "name": "wrist_1",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              0.08,
+              0.13499999999999995
+            ]
+          },
+          {
+            "name": "gripper_drive_1",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              0.08,
+              0.09499999999999995
+            ]
+          },
+          {
+            "name": "gripper_structure_1",
+            "mass_kg": 0.04,
+            "xyz_m": [
+              0.0,
+              0.08,
+              0.09499999999999995
+            ]
+          },
+          {
+            "name": "shoulder_-1_y",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              -0.08,
+              0.295
+            ]
+          },
+          {
+            "name": "shoulder_-1_x",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              -0.08,
+              0.295
+            ]
+          },
+          {
+            "name": "shoulder_-1_z",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              -0.08,
+              0.295
+            ]
+          },
+          {
+            "name": "elbow_-1",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              -0.08,
+              0.21499999999999997
+            ]
+          },
+          {
+            "name": "wrist_-1",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              -0.08,
+              0.13499999999999995
+            ]
+          },
+          {
+            "name": "gripper_drive_-1",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              -0.08,
+              0.09499999999999995
+            ]
+          },
+          {
+            "name": "gripper_structure_-1",
+            "mass_kg": 0.04,
+            "xyz_m": [
+              0.0,
+              -0.08,
+              0.09499999999999995
+            ]
+          },
+          {
+            "name": "head_yaw",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.3
+            ]
+          },
+          {
+            "name": "head_pitch",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.3
+            ]
+          },
+          {
+            "name": "torso_frame",
+            "mass_kg": 0.12,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.25
+            ]
+          },
+          {
+            "name": "battery",
+            "mass_kg": 0.22,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.22499999999999998
+            ]
+          },
+          {
+            "name": "compute_power",
+            "mass_kg": 0.18,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.265
+            ]
+          },
+          {
+            "name": "audio",
+            "mass_kg": 0.08,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.345
+            ]
+          },
+          {
+            "name": "vision",
+            "mass_kg": 0.13,
+            "xyz_m": [
+              0.025,
+              0.0,
+              0.33499999999999996
+            ]
+          },
+          {
+            "name": "fasteners_wiring",
+            "mass_kg": 0.12,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.205
+            ]
+          },
+          {
+            "name": "costume_contingency",
+            "mass_kg": 0.15,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.265
+            ]
+          }
+        ],
+        "caveat": "Static necessary condition only. Motor center conflicts make this layout non-manufacturable."
+      },
+      {
+        "case": "pickup_crouch",
+        "robot_mass_kg": 2.71,
+        "total_mass_kg": 2.71,
+        "com_xyz_m": [
+          0.017424285713169552,
+          5.601044433504451e-19,
+          0.17533001256918188
+        ],
+        "static_projection_margin_m": 0.04257571428683045,
+        "nominal_margin_15mm_pass": true,
+        "knees_xyz_m": [
+          [
+            0.05656854249492379,
+            0.055,
+            0.095
+          ],
+          [
+            0.05656854249492379,
+            -0.055,
+            0.095
+          ]
+        ],
+        "coincident_motor_center_pairs": [
+          [
+            "hip_1_yaw",
+            "hip_1_roll"
+          ],
+          [
+            "hip_1_yaw",
+            "hip_1_pitch"
+          ],
+          [
+            "hip_1_roll",
+            "hip_1_pitch"
+          ],
+          [
+            "ankle_1_pitch",
+            "ankle_1_roll"
+          ],
+          [
+            "hip_-1_yaw",
+            "hip_-1_roll"
+          ],
+          [
+            "hip_-1_yaw",
+            "hip_-1_pitch"
+          ],
+          [
+            "hip_-1_roll",
+            "hip_-1_pitch"
+          ],
+          [
+            "ankle_-1_pitch",
+            "ankle_-1_roll"
+          ],
+          [
+            "shoulder_1_y",
+            "shoulder_1_x"
+          ],
+          [
+            "shoulder_1_y",
+            "shoulder_1_z"
+          ],
+          [
+            "shoulder_1_x",
+            "shoulder_1_z"
+          ],
+          [
+            "shoulder_-1_y",
+            "shoulder_-1_x"
+          ],
+          [
+            "shoulder_-1_y",
+            "shoulder_-1_z"
+          ],
+          [
+            "shoulder_-1_x",
+            "shoulder_-1_z"
+          ],
+          [
+            "head_yaw",
+            "head_pitch"
+          ]
+        ],
+        "motor_count": 26,
+        "point_masses": [
+          {
+            "name": "hip_1_yaw",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.165
+            ]
+          },
+          {
+            "name": "hip_1_roll",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.165
+            ]
+          },
+          {
+            "name": "hip_1_pitch",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.165
+            ]
+          },
+          {
+            "name": "knee_1",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.05656854249492379,
+              0.055,
+              0.095
+            ]
+          },
+          {
+            "name": "ankle_1_pitch",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.025
+            ]
+          },
+          {
+            "name": "ankle_1_roll",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.025
+            ]
+          },
+          {
+            "name": "thigh_frame_1",
+            "mass_kg": 0.02,
+            "xyz_m": [
+              0.028284271247461894,
+              0.055,
+              0.13
+            ]
+          },
+          {
+            "name": "shin_frame_1",
+            "mass_kg": 0.02,
+            "xyz_m": [
+              0.028284271247461894,
+              0.055,
+              0.06
+            ]
+          },
+          {
+            "name": "foot_1",
+            "mass_kg": 0.06,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.0125
+            ]
+          },
+          {
+            "name": "hip_-1_yaw",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.165
+            ]
+          },
+          {
+            "name": "hip_-1_roll",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.165
+            ]
+          },
+          {
+            "name": "hip_-1_pitch",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.165
+            ]
+          },
+          {
+            "name": "knee_-1",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.05656854249492379,
+              -0.055,
+              0.095
+            ]
+          },
+          {
+            "name": "ankle_-1_pitch",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.025
+            ]
+          },
+          {
+            "name": "ankle_-1_roll",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.025
+            ]
+          },
+          {
+            "name": "thigh_frame_-1",
+            "mass_kg": 0.02,
+            "xyz_m": [
+              0.028284271247461894,
+              -0.055,
+              0.13
+            ]
+          },
+          {
+            "name": "shin_frame_-1",
+            "mass_kg": 0.02,
+            "xyz_m": [
+              0.028284271247461894,
+              -0.055,
+              0.06
+            ]
+          },
+          {
+            "name": "foot_-1",
+            "mass_kg": 0.06,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.0125
+            ]
+          },
+          {
+            "name": "shoulder_1_y",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              0.08,
+              0.255
+            ]
+          },
+          {
+            "name": "shoulder_1_x",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              0.08,
+              0.255
+            ]
+          },
+          {
+            "name": "shoulder_1_z",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              0.08,
+              0.255
+            ]
+          },
+          {
+            "name": "elbow_1",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0499756039567384,
+              0.07999999863162802,
+              0.19253049536646516
+            ]
+          },
+          {
+            "name": "wrist_1",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0999512079134768,
+              0.07999999726325603,
+              0.13006099073293031
+            ]
+          },
+          {
+            "name": "gripper_drive_1",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.09996096633014344,
+              0.04000000031352436,
+              0.1300487925871019
+            ]
+          },
+          {
+            "name": "gripper_structure_1",
+            "mass_kg": 0.04,
+            "xyz_m": [
+              0.09996096633014344,
+              0.04000000031352436,
+              0.1300487925871019
+            ]
+          },
+          {
+            "name": "shoulder_-1_y",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              -0.08,
+              0.255
+            ]
+          },
+          {
+            "name": "shoulder_-1_x",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              -0.08,
+              0.255
+            ]
+          },
+          {
+            "name": "shoulder_-1_z",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              -0.08,
+              0.255
+            ]
+          },
+          {
+            "name": "elbow_-1",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0499756039567384,
+              -0.07999999863162802,
+              0.19253049536646516
+            ]
+          },
+          {
+            "name": "wrist_-1",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0999512079134768,
+              -0.07999999726325603,
+              0.13006099073293031
+            ]
+          },
+          {
+            "name": "gripper_drive_-1",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.09996096633014344,
+              -0.04000000031352436,
+              0.1300487925871019
+            ]
+          },
+          {
+            "name": "gripper_structure_-1",
+            "mass_kg": 0.04,
+            "xyz_m": [
+              0.09996096633014344,
+              -0.04000000031352436,
+              0.1300487925871019
+            ]
+          },
+          {
+            "name": "head_yaw",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.26
+            ]
+          },
+          {
+            "name": "head_pitch",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.26
+            ]
+          },
+          {
+            "name": "torso_frame",
+            "mass_kg": 0.12,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.21000000000000002
+            ]
+          },
+          {
+            "name": "battery",
+            "mass_kg": 0.22,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.185
+            ]
+          },
+          {
+            "name": "compute_power",
+            "mass_kg": 0.18,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.225
+            ]
+          },
+          {
+            "name": "audio",
+            "mass_kg": 0.08,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.30500000000000005
+            ]
+          },
+          {
+            "name": "vision",
+            "mass_kg": 0.13,
+            "xyz_m": [
+              0.025,
+              0.0,
+              0.29500000000000004
+            ]
+          },
+          {
+            "name": "fasteners_wiring",
+            "mass_kg": 0.12,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.165
+            ]
+          },
+          {
+            "name": "costume_contingency",
+            "mass_kg": 0.15,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.225
+            ]
+          }
+        ],
+        "caveat": "Static necessary condition only. Motor center conflicts make this layout non-manufacturable."
+      },
+      {
+        "case": "handover",
+        "robot_mass_kg": 2.71,
+        "total_mass_kg": 3.29,
+        "com_xyz_m": [
+          0.043566709337284015,
+          3.954536799339226e-19,
+          0.22180114779822094
+        ],
+        "static_projection_margin_m": 0.016433290662715982,
+        "nominal_margin_15mm_pass": true,
+        "knees_xyz_m": [
+          [
+            0.0,
+            0.055,
+            0.11499999999999999
+          ],
+          [
+            0.0,
+            -0.055,
+            0.11499999999999999
+          ]
+        ],
+        "coincident_motor_center_pairs": [
+          [
+            "hip_1_yaw",
+            "hip_1_roll"
+          ],
+          [
+            "hip_1_yaw",
+            "hip_1_pitch"
+          ],
+          [
+            "hip_1_roll",
+            "hip_1_pitch"
+          ],
+          [
+            "ankle_1_pitch",
+            "ankle_1_roll"
+          ],
+          [
+            "hip_-1_yaw",
+            "hip_-1_roll"
+          ],
+          [
+            "hip_-1_yaw",
+            "hip_-1_pitch"
+          ],
+          [
+            "hip_-1_roll",
+            "hip_-1_pitch"
+          ],
+          [
+            "ankle_-1_pitch",
+            "ankle_-1_roll"
+          ],
+          [
+            "shoulder_1_y",
+            "shoulder_1_x"
+          ],
+          [
+            "shoulder_1_y",
+            "shoulder_1_z"
+          ],
+          [
+            "shoulder_1_x",
+            "shoulder_1_z"
+          ],
+          [
+            "shoulder_-1_y",
+            "shoulder_-1_x"
+          ],
+          [
+            "shoulder_-1_y",
+            "shoulder_-1_z"
+          ],
+          [
+            "shoulder_-1_x",
+            "shoulder_-1_z"
+          ],
+          [
+            "head_yaw",
+            "head_pitch"
+          ]
+        ],
+        "motor_count": 26,
+        "point_masses": [
+          {
+            "name": "hip_1_yaw",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.205
+            ]
+          },
+          {
+            "name": "hip_1_roll",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.205
+            ]
+          },
+          {
+            "name": "hip_1_pitch",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.205
+            ]
+          },
+          {
+            "name": "knee_1",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.11499999999999999
+            ]
+          },
+          {
+            "name": "ankle_1_pitch",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.025
+            ]
+          },
+          {
+            "name": "ankle_1_roll",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.025
+            ]
+          },
+          {
+            "name": "thigh_frame_1",
+            "mass_kg": 0.02,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.15999999999999998
+            ]
+          },
+          {
+            "name": "shin_frame_1",
+            "mass_kg": 0.02,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.06999999999999999
+            ]
+          },
+          {
+            "name": "foot_1",
+            "mass_kg": 0.06,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.0125
+            ]
+          },
+          {
+            "name": "hip_-1_yaw",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.205
+            ]
+          },
+          {
+            "name": "hip_-1_roll",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.205
+            ]
+          },
+          {
+            "name": "hip_-1_pitch",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.205
+            ]
+          },
+          {
+            "name": "knee_-1",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.11499999999999999
+            ]
+          },
+          {
+            "name": "ankle_-1_pitch",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.025
+            ]
+          },
+          {
+            "name": "ankle_-1_roll",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.025
+            ]
+          },
+          {
+            "name": "thigh_frame_-1",
+            "mass_kg": 0.02,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.15999999999999998
+            ]
+          },
+          {
+            "name": "shin_frame_-1",
+            "mass_kg": 0.02,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.06999999999999999
+            ]
+          },
+          {
+            "name": "foot_-1",
+            "mass_kg": 0.06,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.0125
+            ]
+          },
+          {
+            "name": "shoulder_1_y",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              0.08,
+              0.295
+            ]
+          },
+          {
+            "name": "shoulder_1_x",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              0.08,
+              0.295
+            ]
+          },
+          {
+            "name": "shoulder_1_z",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              0.08,
+              0.295
+            ]
+          },
+          {
+            "name": "elbow_1",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.07350059503694988,
+              0.08000000180284028,
+              0.2634142036792754
+            ]
+          },
+          {
+            "name": "wrist_1",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.14999773631522267,
+              0.08000000359500897,
+              0.2400008020414961
+            ]
+          },
+          {
+            "name": "gripper_drive_1",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.14999819616276538,
+              0.040000003597900194,
+              0.24000066119401123
+            ]
+          },
+          {
+            "name": "gripper_structure_1",
+            "mass_kg": 0.04,
+            "xyz_m": [
+              0.14999819616276538,
+              0.040000003597900194,
+              0.24000066119401123
+            ]
+          },
+          {
+            "name": "shoulder_-1_y",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              -0.08,
+              0.295
+            ]
+          },
+          {
+            "name": "shoulder_-1_x",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              -0.08,
+              0.295
+            ]
+          },
+          {
+            "name": "shoulder_-1_z",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              -0.08,
+              0.295
+            ]
+          },
+          {
+            "name": "elbow_-1",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.07350059503694988,
+              -0.08000000180284028,
+              0.2634142036792754
+            ]
+          },
+          {
+            "name": "wrist_-1",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.14999773631522267,
+              -0.08000000359500897,
+              0.2400008020414961
+            ]
+          },
+          {
+            "name": "gripper_drive_-1",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.14999819616276538,
+              -0.040000003597900194,
+              0.24000066119401123
+            ]
+          },
+          {
+            "name": "gripper_structure_-1",
+            "mass_kg": 0.04,
+            "xyz_m": [
+              0.14999819616276538,
+              -0.040000003597900194,
+              0.24000066119401123
+            ]
+          },
+          {
+            "name": "head_yaw",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.3
+            ]
+          },
+          {
+            "name": "head_pitch",
+            "mass_kg": 0.055,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.3
+            ]
+          },
+          {
+            "name": "torso_frame",
+            "mass_kg": 0.12,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.25
+            ]
+          },
+          {
+            "name": "battery",
+            "mass_kg": 0.22,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.22499999999999998
+            ]
+          },
+          {
+            "name": "compute_power",
+            "mass_kg": 0.18,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.265
+            ]
+          },
+          {
+            "name": "audio",
+            "mass_kg": 0.08,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.345
+            ]
+          },
+          {
+            "name": "vision",
+            "mass_kg": 0.13,
+            "xyz_m": [
+              0.025,
+              0.0,
+              0.33499999999999996
+            ]
+          },
+          {
+            "name": "fasteners_wiring",
+            "mass_kg": 0.12,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.205
+            ]
+          },
+          {
+            "name": "costume_contingency",
+            "mass_kg": 0.15,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.265
+            ]
+          },
+          {
+            "name": "bottle",
+            "mass_kg": 0.58,
+            "xyz_m": [
+              0.15,
+              0.0,
+              0.24
+            ]
+          }
+        ],
+        "caveat": "Static necessary condition only. Motor center conflicts make this layout non-manufacturable."
+      }
+    ],
+    "ak40_xc330_reference": [
+      {
+        "case": "standing",
+        "robot_mass_kg": 5.218,
+        "total_mass_kg": 5.218,
+        "com_xyz_m": [
+          0.0006228440015331546,
+          -8.311247010237673e-19,
+          0.19543503257953238
+        ],
+        "static_projection_margin_m": 0.059377155998466845,
+        "nominal_margin_15mm_pass": true,
+        "knees_xyz_m": [
+          [
+            0.0,
+            0.055,
+            0.11499999999999999
+          ],
+          [
+            0.0,
+            -0.055,
+            0.11499999999999999
+          ]
+        ],
+        "coincident_motor_center_pairs": [
+          [
+            "hip_1_yaw",
+            "hip_1_roll"
+          ],
+          [
+            "hip_1_yaw",
+            "hip_1_pitch"
+          ],
+          [
+            "hip_1_roll",
+            "hip_1_pitch"
+          ],
+          [
+            "ankle_1_pitch",
+            "ankle_1_roll"
+          ],
+          [
+            "hip_-1_yaw",
+            "hip_-1_roll"
+          ],
+          [
+            "hip_-1_yaw",
+            "hip_-1_pitch"
+          ],
+          [
+            "hip_-1_roll",
+            "hip_-1_pitch"
+          ],
+          [
+            "ankle_-1_pitch",
+            "ankle_-1_roll"
+          ],
+          [
+            "shoulder_1_y",
+            "shoulder_1_x"
+          ],
+          [
+            "shoulder_1_y",
+            "shoulder_1_z"
+          ],
+          [
+            "shoulder_1_x",
+            "shoulder_1_z"
+          ],
+          [
+            "shoulder_-1_y",
+            "shoulder_-1_x"
+          ],
+          [
+            "shoulder_-1_y",
+            "shoulder_-1_z"
+          ],
+          [
+            "shoulder_-1_x",
+            "shoulder_-1_z"
+          ],
+          [
+            "head_yaw",
+            "head_pitch"
+          ]
+        ],
+        "motor_count": 26,
+        "point_masses": [
+          {
+            "name": "hip_1_yaw",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.205
+            ]
+          },
+          {
+            "name": "hip_1_roll",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.205
+            ]
+          },
+          {
+            "name": "hip_1_pitch",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.205
+            ]
+          },
+          {
+            "name": "knee_1",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.11499999999999999
+            ]
+          },
+          {
+            "name": "ankle_1_pitch",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.025
+            ]
+          },
+          {
+            "name": "ankle_1_roll",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.025
+            ]
+          },
+          {
+            "name": "thigh_frame_1",
+            "mass_kg": 0.02,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.15999999999999998
+            ]
+          },
+          {
+            "name": "shin_frame_1",
+            "mass_kg": 0.02,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.06999999999999999
+            ]
+          },
+          {
+            "name": "foot_1",
+            "mass_kg": 0.06,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.0125
+            ]
+          },
+          {
+            "name": "hip_-1_yaw",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.205
+            ]
+          },
+          {
+            "name": "hip_-1_roll",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.205
+            ]
+          },
+          {
+            "name": "hip_-1_pitch",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.205
+            ]
+          },
+          {
+            "name": "knee_-1",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.11499999999999999
+            ]
+          },
+          {
+            "name": "ankle_-1_pitch",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.025
+            ]
+          },
+          {
+            "name": "ankle_-1_roll",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.025
+            ]
+          },
+          {
+            "name": "thigh_frame_-1",
+            "mass_kg": 0.02,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.15999999999999998
+            ]
+          },
+          {
+            "name": "shin_frame_-1",
+            "mass_kg": 0.02,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.06999999999999999
+            ]
+          },
+          {
+            "name": "foot_-1",
+            "mass_kg": 0.06,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.0125
+            ]
+          },
+          {
+            "name": "shoulder_1_y",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              0.08,
+              0.295
+            ]
+          },
+          {
+            "name": "shoulder_1_x",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              0.08,
+              0.295
+            ]
+          },
+          {
+            "name": "shoulder_1_z",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              0.08,
+              0.295
+            ]
+          },
+          {
+            "name": "elbow_1",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              0.08,
+              0.21499999999999997
+            ]
+          },
+          {
+            "name": "wrist_1",
+            "mass_kg": 0.023,
+            "xyz_m": [
+              0.0,
+              0.08,
+              0.13499999999999995
+            ]
+          },
+          {
+            "name": "gripper_drive_1",
+            "mass_kg": 0.023,
+            "xyz_m": [
+              0.0,
+              0.08,
+              0.09499999999999995
+            ]
+          },
+          {
+            "name": "gripper_structure_1",
+            "mass_kg": 0.04,
+            "xyz_m": [
+              0.0,
+              0.08,
+              0.09499999999999995
+            ]
+          },
+          {
+            "name": "shoulder_-1_y",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              -0.08,
+              0.295
+            ]
+          },
+          {
+            "name": "shoulder_-1_x",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              -0.08,
+              0.295
+            ]
+          },
+          {
+            "name": "shoulder_-1_z",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              -0.08,
+              0.295
+            ]
+          },
+          {
+            "name": "elbow_-1",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              -0.08,
+              0.21499999999999997
+            ]
+          },
+          {
+            "name": "wrist_-1",
+            "mass_kg": 0.023,
+            "xyz_m": [
+              0.0,
+              -0.08,
+              0.13499999999999995
+            ]
+          },
+          {
+            "name": "gripper_drive_-1",
+            "mass_kg": 0.023,
+            "xyz_m": [
+              0.0,
+              -0.08,
+              0.09499999999999995
+            ]
+          },
+          {
+            "name": "gripper_structure_-1",
+            "mass_kg": 0.04,
+            "xyz_m": [
+              0.0,
+              -0.08,
+              0.09499999999999995
+            ]
+          },
+          {
+            "name": "head_yaw",
+            "mass_kg": 0.023,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.3
+            ]
+          },
+          {
+            "name": "head_pitch",
+            "mass_kg": 0.023,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.3
+            ]
+          },
+          {
+            "name": "torso_frame",
+            "mass_kg": 0.12,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.25
+            ]
+          },
+          {
+            "name": "battery",
+            "mass_kg": 0.22,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.22499999999999998
+            ]
+          },
+          {
+            "name": "compute_power",
+            "mass_kg": 0.18,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.265
+            ]
+          },
+          {
+            "name": "audio",
+            "mass_kg": 0.08,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.345
+            ]
+          },
+          {
+            "name": "vision",
+            "mass_kg": 0.13,
+            "xyz_m": [
+              0.025,
+              0.0,
+              0.33499999999999996
+            ]
+          },
+          {
+            "name": "fasteners_wiring",
+            "mass_kg": 0.12,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.205
+            ]
+          },
+          {
+            "name": "costume_contingency",
+            "mass_kg": 0.15,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.265
+            ]
+          }
+        ],
+        "caveat": "Static necessary condition only. Motor center conflicts make this layout non-manufacturable."
+      },
+      {
+        "case": "pickup_crouch",
+        "robot_mass_kg": 5.218,
+        "total_mass_kg": 5.218,
+        "com_xyz_m": [
+          0.01211045509257313,
+          -2.9089364535831857e-19,
+          0.16734199725545157
+        ],
+        "static_projection_margin_m": 0.04788954490742687,
+        "nominal_margin_15mm_pass": true,
+        "knees_xyz_m": [
+          [
+            0.05656854249492379,
+            0.055,
+            0.095
+          ],
+          [
+            0.05656854249492379,
+            -0.055,
+            0.095
+          ]
+        ],
+        "coincident_motor_center_pairs": [
+          [
+            "hip_1_yaw",
+            "hip_1_roll"
+          ],
+          [
+            "hip_1_yaw",
+            "hip_1_pitch"
+          ],
+          [
+            "hip_1_roll",
+            "hip_1_pitch"
+          ],
+          [
+            "ankle_1_pitch",
+            "ankle_1_roll"
+          ],
+          [
+            "hip_-1_yaw",
+            "hip_-1_roll"
+          ],
+          [
+            "hip_-1_yaw",
+            "hip_-1_pitch"
+          ],
+          [
+            "hip_-1_roll",
+            "hip_-1_pitch"
+          ],
+          [
+            "ankle_-1_pitch",
+            "ankle_-1_roll"
+          ],
+          [
+            "shoulder_1_y",
+            "shoulder_1_x"
+          ],
+          [
+            "shoulder_1_y",
+            "shoulder_1_z"
+          ],
+          [
+            "shoulder_1_x",
+            "shoulder_1_z"
+          ],
+          [
+            "shoulder_-1_y",
+            "shoulder_-1_x"
+          ],
+          [
+            "shoulder_-1_y",
+            "shoulder_-1_z"
+          ],
+          [
+            "shoulder_-1_x",
+            "shoulder_-1_z"
+          ],
+          [
+            "head_yaw",
+            "head_pitch"
+          ]
+        ],
+        "motor_count": 26,
+        "point_masses": [
+          {
+            "name": "hip_1_yaw",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.165
+            ]
+          },
+          {
+            "name": "hip_1_roll",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.165
+            ]
+          },
+          {
+            "name": "hip_1_pitch",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.165
+            ]
+          },
+          {
+            "name": "knee_1",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.05656854249492379,
+              0.055,
+              0.095
+            ]
+          },
+          {
+            "name": "ankle_1_pitch",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.025
+            ]
+          },
+          {
+            "name": "ankle_1_roll",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.025
+            ]
+          },
+          {
+            "name": "thigh_frame_1",
+            "mass_kg": 0.02,
+            "xyz_m": [
+              0.028284271247461894,
+              0.055,
+              0.13
+            ]
+          },
+          {
+            "name": "shin_frame_1",
+            "mass_kg": 0.02,
+            "xyz_m": [
+              0.028284271247461894,
+              0.055,
+              0.06
+            ]
+          },
+          {
+            "name": "foot_1",
+            "mass_kg": 0.06,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.0125
+            ]
+          },
+          {
+            "name": "hip_-1_yaw",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.165
+            ]
+          },
+          {
+            "name": "hip_-1_roll",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.165
+            ]
+          },
+          {
+            "name": "hip_-1_pitch",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.165
+            ]
+          },
+          {
+            "name": "knee_-1",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.05656854249492379,
+              -0.055,
+              0.095
+            ]
+          },
+          {
+            "name": "ankle_-1_pitch",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.025
+            ]
+          },
+          {
+            "name": "ankle_-1_roll",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.025
+            ]
+          },
+          {
+            "name": "thigh_frame_-1",
+            "mass_kg": 0.02,
+            "xyz_m": [
+              0.028284271247461894,
+              -0.055,
+              0.13
+            ]
+          },
+          {
+            "name": "shin_frame_-1",
+            "mass_kg": 0.02,
+            "xyz_m": [
+              0.028284271247461894,
+              -0.055,
+              0.06
+            ]
+          },
+          {
+            "name": "foot_-1",
+            "mass_kg": 0.06,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.0125
+            ]
+          },
+          {
+            "name": "shoulder_1_y",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              0.08,
+              0.255
+            ]
+          },
+          {
+            "name": "shoulder_1_x",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              0.08,
+              0.255
+            ]
+          },
+          {
+            "name": "shoulder_1_z",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              0.08,
+              0.255
+            ]
+          },
+          {
+            "name": "elbow_1",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0499756039567384,
+              0.07999999863162802,
+              0.19253049536646516
+            ]
+          },
+          {
+            "name": "wrist_1",
+            "mass_kg": 0.023,
+            "xyz_m": [
+              0.0999512079134768,
+              0.07999999726325603,
+              0.13006099073293031
+            ]
+          },
+          {
+            "name": "gripper_drive_1",
+            "mass_kg": 0.023,
+            "xyz_m": [
+              0.09996096633014344,
+              0.04000000031352436,
+              0.1300487925871019
+            ]
+          },
+          {
+            "name": "gripper_structure_1",
+            "mass_kg": 0.04,
+            "xyz_m": [
+              0.09996096633014344,
+              0.04000000031352436,
+              0.1300487925871019
+            ]
+          },
+          {
+            "name": "shoulder_-1_y",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              -0.08,
+              0.255
+            ]
+          },
+          {
+            "name": "shoulder_-1_x",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              -0.08,
+              0.255
+            ]
+          },
+          {
+            "name": "shoulder_-1_z",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              -0.08,
+              0.255
+            ]
+          },
+          {
+            "name": "elbow_-1",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0499756039567384,
+              -0.07999999863162802,
+              0.19253049536646516
+            ]
+          },
+          {
+            "name": "wrist_-1",
+            "mass_kg": 0.023,
+            "xyz_m": [
+              0.0999512079134768,
+              -0.07999999726325603,
+              0.13006099073293031
+            ]
+          },
+          {
+            "name": "gripper_drive_-1",
+            "mass_kg": 0.023,
+            "xyz_m": [
+              0.09996096633014344,
+              -0.04000000031352436,
+              0.1300487925871019
+            ]
+          },
+          {
+            "name": "gripper_structure_-1",
+            "mass_kg": 0.04,
+            "xyz_m": [
+              0.09996096633014344,
+              -0.04000000031352436,
+              0.1300487925871019
+            ]
+          },
+          {
+            "name": "head_yaw",
+            "mass_kg": 0.023,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.26
+            ]
+          },
+          {
+            "name": "head_pitch",
+            "mass_kg": 0.023,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.26
+            ]
+          },
+          {
+            "name": "torso_frame",
+            "mass_kg": 0.12,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.21000000000000002
+            ]
+          },
+          {
+            "name": "battery",
+            "mass_kg": 0.22,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.185
+            ]
+          },
+          {
+            "name": "compute_power",
+            "mass_kg": 0.18,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.225
+            ]
+          },
+          {
+            "name": "audio",
+            "mass_kg": 0.08,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.30500000000000005
+            ]
+          },
+          {
+            "name": "vision",
+            "mass_kg": 0.13,
+            "xyz_m": [
+              0.025,
+              0.0,
+              0.29500000000000004
+            ]
+          },
+          {
+            "name": "fasteners_wiring",
+            "mass_kg": 0.12,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.165
+            ]
+          },
+          {
+            "name": "costume_contingency",
+            "mass_kg": 0.15,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.225
+            ]
+          }
+        ],
+        "caveat": "Static necessary condition only. Motor center conflicts make this layout non-manufacturable."
+      },
+      {
+        "case": "handover",
+        "robot_mass_kg": 5.218,
+        "total_mass_kg": 5.798,
+        "com_xyz_m": [
+          0.024832682770101696,
+          -5.23588493094069e-19,
+          0.20705027899318365
+        ],
+        "static_projection_margin_m": 0.0351673172298983,
+        "nominal_margin_15mm_pass": true,
+        "knees_xyz_m": [
+          [
+            0.0,
+            0.055,
+            0.11499999999999999
+          ],
+          [
+            0.0,
+            -0.055,
+            0.11499999999999999
+          ]
+        ],
+        "coincident_motor_center_pairs": [
+          [
+            "hip_1_yaw",
+            "hip_1_roll"
+          ],
+          [
+            "hip_1_yaw",
+            "hip_1_pitch"
+          ],
+          [
+            "hip_1_roll",
+            "hip_1_pitch"
+          ],
+          [
+            "ankle_1_pitch",
+            "ankle_1_roll"
+          ],
+          [
+            "hip_-1_yaw",
+            "hip_-1_roll"
+          ],
+          [
+            "hip_-1_yaw",
+            "hip_-1_pitch"
+          ],
+          [
+            "hip_-1_roll",
+            "hip_-1_pitch"
+          ],
+          [
+            "ankle_-1_pitch",
+            "ankle_-1_roll"
+          ],
+          [
+            "shoulder_1_y",
+            "shoulder_1_x"
+          ],
+          [
+            "shoulder_1_y",
+            "shoulder_1_z"
+          ],
+          [
+            "shoulder_1_x",
+            "shoulder_1_z"
+          ],
+          [
+            "shoulder_-1_y",
+            "shoulder_-1_x"
+          ],
+          [
+            "shoulder_-1_y",
+            "shoulder_-1_z"
+          ],
+          [
+            "shoulder_-1_x",
+            "shoulder_-1_z"
+          ],
+          [
+            "head_yaw",
+            "head_pitch"
+          ]
+        ],
+        "motor_count": 26,
+        "point_masses": [
+          {
+            "name": "hip_1_yaw",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.205
+            ]
+          },
+          {
+            "name": "hip_1_roll",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.205
+            ]
+          },
+          {
+            "name": "hip_1_pitch",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.205
+            ]
+          },
+          {
+            "name": "knee_1",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.11499999999999999
+            ]
+          },
+          {
+            "name": "ankle_1_pitch",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.025
+            ]
+          },
+          {
+            "name": "ankle_1_roll",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.025
+            ]
+          },
+          {
+            "name": "thigh_frame_1",
+            "mass_kg": 0.02,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.15999999999999998
+            ]
+          },
+          {
+            "name": "shin_frame_1",
+            "mass_kg": 0.02,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.06999999999999999
+            ]
+          },
+          {
+            "name": "foot_1",
+            "mass_kg": 0.06,
+            "xyz_m": [
+              0.0,
+              0.055,
+              0.0125
+            ]
+          },
+          {
+            "name": "hip_-1_yaw",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.205
+            ]
+          },
+          {
+            "name": "hip_-1_roll",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.205
+            ]
+          },
+          {
+            "name": "hip_-1_pitch",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.205
+            ]
+          },
+          {
+            "name": "knee_-1",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.11499999999999999
+            ]
+          },
+          {
+            "name": "ankle_-1_pitch",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.025
+            ]
+          },
+          {
+            "name": "ankle_-1_roll",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.025
+            ]
+          },
+          {
+            "name": "thigh_frame_-1",
+            "mass_kg": 0.02,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.15999999999999998
+            ]
+          },
+          {
+            "name": "shin_frame_-1",
+            "mass_kg": 0.02,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.06999999999999999
+            ]
+          },
+          {
+            "name": "foot_-1",
+            "mass_kg": 0.06,
+            "xyz_m": [
+              0.0,
+              -0.055,
+              0.0125
+            ]
+          },
+          {
+            "name": "shoulder_1_y",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              0.08,
+              0.295
+            ]
+          },
+          {
+            "name": "shoulder_1_x",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              0.08,
+              0.295
+            ]
+          },
+          {
+            "name": "shoulder_1_z",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              0.08,
+              0.295
+            ]
+          },
+          {
+            "name": "elbow_1",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.07350059503694988,
+              0.08000000180284028,
+              0.2634142036792754
+            ]
+          },
+          {
+            "name": "wrist_1",
+            "mass_kg": 0.023,
+            "xyz_m": [
+              0.14999773631522267,
+              0.08000000359500897,
+              0.2400008020414961
+            ]
+          },
+          {
+            "name": "gripper_drive_1",
+            "mass_kg": 0.023,
+            "xyz_m": [
+              0.14999819616276538,
+              0.040000003597900194,
+              0.24000066119401123
+            ]
+          },
+          {
+            "name": "gripper_structure_1",
+            "mass_kg": 0.04,
+            "xyz_m": [
+              0.14999819616276538,
+              0.040000003597900194,
+              0.24000066119401123
+            ]
+          },
+          {
+            "name": "shoulder_-1_y",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              -0.08,
+              0.295
+            ]
+          },
+          {
+            "name": "shoulder_-1_x",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              -0.08,
+              0.295
+            ]
+          },
+          {
+            "name": "shoulder_-1_z",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.0,
+              -0.08,
+              0.295
+            ]
+          },
+          {
+            "name": "elbow_-1",
+            "mass_kg": 0.19,
+            "xyz_m": [
+              0.07350059503694988,
+              -0.08000000180284028,
+              0.2634142036792754
+            ]
+          },
+          {
+            "name": "wrist_-1",
+            "mass_kg": 0.023,
+            "xyz_m": [
+              0.14999773631522267,
+              -0.08000000359500897,
+              0.2400008020414961
+            ]
+          },
+          {
+            "name": "gripper_drive_-1",
+            "mass_kg": 0.023,
+            "xyz_m": [
+              0.14999819616276538,
+              -0.040000003597900194,
+              0.24000066119401123
+            ]
+          },
+          {
+            "name": "gripper_structure_-1",
+            "mass_kg": 0.04,
+            "xyz_m": [
+              0.14999819616276538,
+              -0.040000003597900194,
+              0.24000066119401123
+            ]
+          },
+          {
+            "name": "head_yaw",
+            "mass_kg": 0.023,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.3
+            ]
+          },
+          {
+            "name": "head_pitch",
+            "mass_kg": 0.023,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.3
+            ]
+          },
+          {
+            "name": "torso_frame",
+            "mass_kg": 0.12,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.25
+            ]
+          },
+          {
+            "name": "battery",
+            "mass_kg": 0.22,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.22499999999999998
+            ]
+          },
+          {
+            "name": "compute_power",
+            "mass_kg": 0.18,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.265
+            ]
+          },
+          {
+            "name": "audio",
+            "mass_kg": 0.08,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.345
+            ]
+          },
+          {
+            "name": "vision",
+            "mass_kg": 0.13,
+            "xyz_m": [
+              0.025,
+              0.0,
+              0.33499999999999996
+            ]
+          },
+          {
+            "name": "fasteners_wiring",
+            "mass_kg": 0.12,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.205
+            ]
+          },
+          {
+            "name": "costume_contingency",
+            "mass_kg": 0.15,
+            "xyz_m": [
+              0.0,
+              0.0,
+              0.265
+            ]
+          },
+          {
+            "name": "bottle",
+            "mass_kg": 0.58,
+            "xyz_m": [
+              0.15,
+              0.0,
+              0.24
+            ]
+          }
+        ],
+        "caveat": "Static necessary condition only. Motor center conflicts make this layout non-manufacturable."
+      }
+    ]
+  },
+  "assumptions": [
+    "400mm upright envelope, ideal coaxial shoulder/hip joints, zero motor mounting offset",
+    "20 main and 6 small actuators. AK40 V3=190g/53mm diameter/40.2mm length; XC330=23g",
+    "Non-actuator mass allowances total 1.28kg; not CAD or measured masses",
+    "Point masses give static COM only, no inertia or force distribution",
+    "120x55mm assumed feet, centers 110mm apart, flat coplanar full-foot contact",
+    "Arms mirrored; right-arm hardware signs and collisions unresolved",
+    "Pickup bottle is still table-supported, handover fully robot-supported",
+    "Coincident motor centers are real packaging conflicts for separate solid modules; not all collisions are checked"
+  ]
+}

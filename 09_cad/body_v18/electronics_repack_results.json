@@ -1,0 +1,309 @@
+{
+  "input_sha256": "6c602a291e0a98a2f22e3e6f3d0493dcac79087606dbd103e92acf2b2a8883a7",
+  "source_sha256": "a6c62ed90a4c4c7cfc9798a452711c1f715ed5b7fa274c52611e64c828e2a92b",
+  "name": "stand_electronics_repack",
+  "changed_components": [
+    "NeckMotor0",
+    "NeckMotor1",
+    "PelvisPlate",
+    "battery",
+    "computer",
+    "microphone",
+    "power"
+  ],
+  "volume_checks": [
+    {
+      "component": "battery",
+      "old_volume_mm3": 102399.99999999997,
+      "new_volume_mm3": 102399.99999999997
+    },
+    {
+      "component": "microphone",
+      "old_volume_mm3": 55482.23999999998,
+      "new_volume_mm3": 55482.24
+    },
+    {
+      "component": "computer",
+      "old_volume_mm3": 31500.000000000004,
+      "new_volume_mm3": 31500.0
+    },
+    {
+      "component": "PelvisPlate",
+      "old_volume_mm3": 20000.0,
+      "new_volume_mm3": 20000.0
+    },
+    {
+      "component": "power",
+      "old_volume_mm3": 21000.0,
+      "new_volume_mm3": 20999.999999999985
+    },
+    {
+      "component": "NeckMotor0",
+      "old_volume_mm3": 17679.999999999996,
+      "new_volume_mm3": 17680.0
+    },
+    {
+      "component": "NeckMotor1",
+      "old_volume_mm3": 17679.999999999996,
+      "new_volume_mm3": 17680.0
+    }
+  ],
+  "incremental_exact_pairs_checked": 546,
+  "unchanged_pairs_reused_from": "body_results.json/stand_narrow",
+  "old_collision_count": 51,
+  "collisions": [
+    {
+      "a": "L_KneeMotor",
+      "b": "L_ForearmLoadFrame",
+      "volume_mm3": 542.9994196599713,
+      "group_a": "L_leg",
+      "group_b": "L_arm"
+    },
+    {
+      "a": "L_KneeMotor",
+      "b": "L_GauntletPrimaryPad",
+      "volume_mm3": 1827.0854078531538,
+      "group_a": "L_leg",
+      "group_b": "L_arm"
+    },
+    {
+      "a": "L_KneeMotor",
+      "b": "L_HandAndPalm",
+      "volume_mm3": 4773.251621156657,
+      "group_a": "L_leg",
+      "group_b": "L_arm"
+    },
+    {
+      "a": "L_HipPitchMotor",
+      "b": "L_UpperArm",
+      "volume_mm3": 932.7861917787593,
+      "group_a": "L_leg",
+      "group_b": "L_arm"
+    },
+    {
+      "a": "L_HipPitchMotor",
+      "b": "L_ElbowMotor",
+      "volume_mm3": 4773.12122026442,
+      "group_a": "L_leg",
+      "group_b": "L_arm"
+    },
+    {
+      "a": "L_HipPitchMotor",
+      "b": "L_ForearmLoadFrame",
+      "volume_mm3": 3714.6392162591337,
+      "group_a": "L_leg",
+      "group_b": "L_arm"
+    },
+    {
+      "a": "L_HipPitchMotor",
+      "b": "L_WristMotorEnvelope0",
+      "volume_mm3": 6396.070700671113,
+      "group_a": "L_leg",
+      "group_b": "L_arm"
+    },
+    {
+      "a": "L_HipYawMotor",
+      "b": "L_ShoulderMotor2",
+      "volume_mm3": 1507.3448651753376,
+      "group_a": "L_leg",
+      "group_b": "L_arm"
+    },
+    {
+      "a": "L_HipYawMotor",
+      "b": "L_UpperArm",
+      "volume_mm3": 195.62880775132544,
+      "group_a": "L_leg",
+      "group_b": "L_arm"
+    },
+    {
+      "a": "L_ThighRail1",
+      "b": "L_ElbowMotor",
+      "volume_mm3": 5.339645018964637,
+      "group_a": "L_leg",
+      "group_b": "L_arm"
+    },
+    {
+      "a": "L_ThighRail1",
+      "b": "L_GauntletPrimaryPad",
+      "volume_mm3": 34.525051080089085,
+      "group_a": "L_leg",
+      "group_b": "L_arm"
+    },
+    {
+      "a": "L_ThighRail1",
+      "b": "L_HandAndPalm",
+      "volume_mm3": 56.549509169981704,
+      "group_a": "L_leg",
+      "group_b": "L_arm"
+    },
+    {
+      "a": "R_KneeMotor",
+      "b": "R_ForearmLoadFrame",
+      "volume_mm3": 542.999419659624,
+      "group_a": "R_leg",
+      "group_b": "R_arm"
+    },
+    {
+      "a": "R_KneeMotor",
+      "b": "R_GauntletPrimaryPad",
+      "volume_mm3": 1827.0854078531593,
+      "group_a": "R_leg",
+      "group_b": "R_arm"
+    },
+    {
+      "a": "R_KneeMotor",
+      "b": "R_HandAndPalm",
+      "volume_mm3": 4773.251621156618,
+      "group_a": "R_leg",
+      "group_b": "R_arm"
+    },
+    {
+      "a": "R_HipPitchMotor",
+      "b": "R_UpperArm",
+      "volume_mm3": 932.7861917813191,
+      "group_a": "R_leg",
+      "group_b": "R_arm"
+    },
+    {
+      "a": "R_HipPitchMotor",
+      "b": "R_ElbowMotor",
+      "volume_mm3": 4773.121220264285,
+      "group_a": "R_leg",
+      "group_b": "R_arm"
+    },
+    {
+      "a": "R_HipPitchMotor",
+      "b": "R_ForearmLoadFrame",
+      "volume_mm3": 3714.63921625869,
+      "group_a": "R_leg",
+      "group_b": "R_arm"
+    },
+    {
+      "a": "R_HipPitchMotor",
+      "b": "R_WristMotorEnvelope0",
+      "volume_mm3": 6396.070700671038,
+      "group_a": "R_leg",
+      "group_b": "R_arm"
+    },
+    {
+      "a": "R_HipYawMotor",
+      "b": "R_ShoulderMotor2",
+      "volume_mm3": 1507.3448651762167,
+      "group_a": "R_leg",
+      "group_b": "R_arm"
+    },
+    {
+      "a": "R_HipYawMotor",
+      "b": "R_UpperArm",
+      "volume_mm3": 195.6288077508704,
+      "group_a": "R_leg",
+      "group_b": "R_arm"
+    },
+    {
+      "a": "R_ThighRail1",
+      "b": "R_ElbowMotor",
+      "volume_mm3": 5.3396450189646165,
+      "group_a": "R_leg",
+      "group_b": "R_arm"
+    },
+    {
+      "a": "R_ThighRail1",
+      "b": "R_GauntletPrimaryPad",
+      "volume_mm3": 34.52505108009079,
+      "group_a": "R_leg",
+      "group_b": "R_arm"
+    },
+    {
+      "a": "R_ThighRail1",
+      "b": "R_HandAndPalm",
+      "volume_mm3": 56.54950916998454,
+      "group_a": "R_leg",
+      "group_b": "R_arm"
+    },
+    {
+      "a": "L_ShoulderMotor2",
+      "b": "WukongHeadShell",
+      "volume_mm3": 741.91093960586,
+      "group_a": "L_arm",
+      "group_b": "appearance"
+    },
+    {
+      "a": "L_ShoulderMotor2",
+      "b": "MonkeyEar1",
+      "volume_mm3": 299.5458425092541,
+      "group_a": "L_arm",
+      "group_b": "appearance"
+    },
+    {
+      "a": "L_ElbowMotor",
+      "b": "L_ForearmLoadFrame",
+      "volume_mm3": 639.7031048476844,
+      "group_a": "L_arm",
+      "group_b": "L_arm"
+    },
+    {
+      "a": "L_ForearmLoadFrame",
+      "b": "L_GauntletPrimaryPad",
+      "volume_mm3": 17.87807417543891,
+      "group_a": "L_arm",
+      "group_b": "L_arm"
+    },
+    {
+      "a": "R_ShoulderMotor2",
+      "b": "WukongHeadShell",
+      "volume_mm3": 741.9342716108753,
+      "group_a": "R_arm",
+      "group_b": "appearance"
+    },
+    {
+      "a": "R_ShoulderMotor2",
+      "b": "MonkeyEarm1",
+      "volume_mm3": 299.4087986847911,
+      "group_a": "R_arm",
+      "group_b": "appearance"
+    },
+    {
+      "a": "R_ElbowMotor",
+      "b": "R_ForearmLoadFrame",
+      "volume_mm3": 639.7031048476903,
+      "group_a": "R_arm",
+      "group_b": "R_arm"
+    },
+    {
+      "a": "R_ForearmLoadFrame",
+      "b": "R_GauntletPrimaryPad",
+      "volume_mm3": 17.8780741756089,
+      "group_a": "R_arm",
+      "group_b": "R_arm"
+    },
+    {
+      "a": "WukongHeadShell",
+      "b": "MonkeyEarm1",
+      "volume_mm3": 873.2606496044534,
+      "group_a": "appearance",
+      "group_b": "appearance"
+    },
+    {
+      "a": "WukongHeadShell",
+      "b": "MonkeyEar1",
+      "volume_mm3": 872.3788257735166,
+      "group_a": "appearance",
+      "group_b": "appearance"
+    }
+  ],
+  "width_mm": 284.28138344642093,
+  "depth_mm": 132.82923881333141,
+  "known_or_allocated_mass_kg": 4.032069231201699,
+  "approx_COM_mm": [
+    0.8485107737072171,
+    -7.446181857988888e-05,
+    185.59906804028168
+  ],
+  "manufacturable": false,
+  "task_verified": false,
+  "limitations": [
+    "New mounting hardware not included in mass",
+    "Unpitched static layout only, motion must be revalidated",
+    "Remaining shoulder and arm/leg collisions retained"
+  ]
+}

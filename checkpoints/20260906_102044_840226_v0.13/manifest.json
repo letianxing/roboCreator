@@ -1,0 +1,2544 @@
+{
+  "id": "20260906_102044_840226_v0.13",
+  "created_at": "2026-09-06T10:20:44.840226+08:00",
+  "stage": "v0.13",
+  "gates": {
+    "stage": "v0.13",
+    "checks": [
+      {
+        "name": "26关节/电机数量、分件质量与惯量数学检查",
+        "status": "passed",
+        "evidence": [
+          "09_cad/fullbody_v13/wholebody_results.json"
+        ]
+      },
+      {
+        "name": "七个候选姿态腿长闭合与假定接触静力平衡",
+        "status": "passed",
+        "evidence": [
+          "09_cad/fullbody_v13/wholebody_results.json"
+        ]
+      },
+      {
+        "name": "任务载荷矩阵单位、冲量与能量一致性",
+        "status": "passed",
+        "evidence": [
+          "05_dynamics/fullbody_v13/task_loads.json"
+        ]
+      },
+      {
+        "name": "五个离散候选姿态的所建电机/电子包络无穿透",
+        "status": "passed",
+        "evidence": [
+          "09_cad/fullbody_v13/wholebody_results.json"
+        ]
+      }
+    ],
+    "records": [
+      {
+        "pose": "standing",
+        "force_residual_N": 0.0,
+        "moment_residual_Nm": 2.7755575615628914e-17,
+        "task_verified": false,
+        "hardware_interference_count": 0
+      },
+      {
+        "pose": "pickup_contact",
+        "force_residual_N": 0.0,
+        "moment_residual_Nm": 2.7755575615628914e-17,
+        "task_verified": false,
+        "hardware_interference_count": 4
+      },
+      {
+        "pose": "pickup_lift",
+        "force_residual_N": 0.0,
+        "moment_residual_Nm": 4.47545209131181e-16,
+        "task_verified": false,
+        "hardware_interference_count": 2
+      },
+      {
+        "pose": "handover",
+        "force_residual_N": 0.0,
+        "moment_residual_Nm": 1.1102230246251565e-16,
+        "task_verified": false,
+        "hardware_interference_count": 0
+      },
+      {
+        "pose": "getup_intermediate",
+        "force_residual_N": 0.0,
+        "moment_residual_Nm": 6.280369834735101e-16,
+        "task_verified": false,
+        "hardware_interference_count": 0
+      },
+      {
+        "pose": "pickup_contact_forward_workspace",
+        "force_residual_N": 0.0,
+        "moment_residual_Nm": 4.47545209131181e-16,
+        "task_verified": false,
+        "hardware_interference_count": 0
+      },
+      {
+        "pose": "pickup_lift_forward_workspace",
+        "force_residual_N": 0.0,
+        "moment_residual_Nm": 1.1102230246251565e-16,
+        "task_verified": false,
+        "hardware_interference_count": 0
+      }
+    ],
+    "pending": [
+      "轴向传动/中心万向架实体设计",
+      "夹爪传动和缆索布线",
+      "原100mm取瓶区腕膝碰撞",
+      "肩部驱动与齐天大圣头壳/耳部干涉",
+      "电池/主控/声学方向与供电验证",
+      "制造/强度/动态/真机/最终总价"
+    ]
+  },
+  "excluded": [
+    "checkpoints/",
+    "**/__pycache__/"
+  ],
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 643,
+      "sha256": "8739f38d9b8098ebed3a0eafd36eea3592d6ac2743345a69206057fe136ea1d2"
+    },
+    {
+      "path": "CHECKPOINT_POLICY.md",
+      "bytes": 1258,
+      "sha256": "d20cfe5df2b0e6641a6ba4ac8cb7af882242bf64234696d501ca1fb6864449a7"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1348,
+      "sha256": "1baf80db37fe70c888109d0d205eebbdec9d05cfb3eb44ef3d375c845c6f9c12"
+    },
+    {
+      "path": "project_state.md",
+      "bytes": 18392,
+      "sha256": "66818cac9b07085b9d00536984302021f902c6127fb5333eab4abe572c47657e"
+    },
+    {
+      "path": "00_inputs/actuators/AK40_V3/cylindrical_interfaces.json",
+      "bytes": 21686,
+      "sha256": "791aa5def3a49230885da4afb1edbbecba6b1bc1a48d212455cefdfe390b45d3"
+    },
+    {
+      "path": "00_inputs/actuators/AK40_V3/manufacturer_drawing.png",
+      "bytes": 157430,
+      "sha256": "b1e089a6e6caf41059fee6e66def60545d529aea6c893b6ff0ecd1edeb4f07d7"
+    },
+    {
+      "path": "00_inputs/actuators/AK40_V3/manufacturer_model.zip",
+      "bytes": 275977,
+      "sha256": "1a7090ce25cbea37de41530a893f9dedf2e47a40edecf70d337421cd40bf3073"
+    },
+    {
+      "path": "00_inputs/actuators/AK40_V3/source.md",
+      "bytes": 1068,
+      "sha256": "ce5ef531641d8956e6602d3f2ad48e9df9d3d8b147373db72db73c519a625dbc"
+    },
+    {
+      "path": "00_inputs/actuators/AK40_V3/model/AK40-10 V3.0 KV170.STEP",
+      "bytes": 1240393,
+      "sha256": "d8260c08a7d24e20e3bdd3e38472eb4fbf8ca00d1826c902f71eac5ec0a2f0fe"
+    },
+    {
+      "path": "01_requirements/budget_preliminary.md",
+      "bytes": 966,
+      "sha256": "02499e32bf2a02ee56508e3e1f09d946b2df726b24e9f94f75af2d9a88c206a9"
+    },
+    {
+      "path": "01_requirements/microduck_benchmark.md",
+      "bytes": 1056,
+      "sha256": "df56d7ba01338c8d0361a047a5fc1f461b8b492b8d19d5e4b022f34f11782045"
+    },
+    {
+      "path": "01_requirements/requirements.md",
+      "bytes": 6879,
+      "sha256": "336bbc47368a9d1b32cfd3cbbe67a4ff5387bc4c507747446925b6f609c3d709"
+    },
+    {
+      "path": "02_concept/wukong_design_brief.md",
+      "bytes": 3610,
+      "sha256": "a77273642caa4716c325093d3ca3a484d7234c6db6899c32a03e04f6f7c4d87e"
+    },
+    {
+      "path": "03_system/architecture_review_v02.md",
+      "bytes": 3442,
+      "sha256": "599ab45e384addb3f81e3fe6d9324a3e89fefe5a0eb6657de95d424867313cea"
+    },
+    {
+      "path": "03_system/architecture_v13.json",
+      "bytes": 1775,
+      "sha256": "d2b575d8a206669f57663548c99fb2d94f85b5b8976a88180574eb130d929d79"
+    },
+    {
+      "path": "03_system/behavior_architecture.md",
+      "bytes": 3691,
+      "sha256": "55a6be86a6a554bbaaaff3cfcd7ef0432a04d50d5b89cef7886d8e5bf01b6cfe"
+    },
+    {
+      "path": "03_system/design_basis_v02.md",
+      "bytes": 1584,
+      "sha256": "b214db5fe94a9e0def601cafe45606b5bf28a7609e5c68280e9a502f0115b6dd"
+    },
+    {
+      "path": "03_system/fullbody_v12_parameters.json",
+      "bytes": 3278,
+      "sha256": "c69210b002ace93182ab1e2b846c70558584e600c587c44cf7fac522d0c53fb5"
+    },
+    {
+      "path": "03_system/joint_roles_v13.json",
+      "bytes": 637,
+      "sha256": "fdf435da9a83000e8a030d47c14571ebe3a5b0114c9a071dc2b1c74625e3e4fe"
+    },
+    {
+      "path": "03_system/performance_scope.md",
+      "bytes": 2752,
+      "sha256": "35277696245b9defb9b6d247256ab81801cd0020faf49d4fb7462a3a7ddc1f0d"
+    },
+    {
+      "path": "03_system/preliminary_architecture.md",
+      "bytes": 1053,
+      "sha256": "3332ab9e280ba57d9b8492038b48bbfd3ccb82fb3cba3c6d7700d22d39e9bcec"
+    },
+    {
+      "path": "03_system/screening_inputs_v01.json",
+      "bytes": 3695,
+      "sha256": "43898e021ecfcb3f2002d7b7add3bd564007a45449d64d481d86a85df64d3d03"
+    },
+    {
+      "path": "04_kinematics/arm_layout_results_v02.json",
+      "bytes": 12478,
+      "sha256": "5e6b0da96913a5881c640ce91f0e27cc8c25e12210b6e7e6f803b6c0c8f12adc"
+    },
+    {
+      "path": "04_kinematics/arm_layout_screen.py",
+      "bytes": 3656,
+      "sha256": "a632d175055ae72f29614588a90b3a9a86659c89ddeb5bd242d46dd92ede86b9"
+    },
+    {
+      "path": "04_kinematics/bottle_handover_task.md",
+      "bytes": 1650,
+      "sha256": "b28de18d06382f52ff8be4f47078b7106e3ea12d59cf68e61e325516fbe4e53a"
+    },
+    {
+      "path": "04_kinematics/fullbody_poses_v12.json",
+      "bytes": 7343,
+      "sha256": "623abeb965b8f9429fee39b1d66f7d48e55d71054c46000f3f73e2725125594a"
+    },
+    {
+      "path": "04_kinematics/fullbody_poses_v12.py",
+      "bytes": 5016,
+      "sha256": "f9e81d4f9f5159c05475d08063d3cc413944fe8ac749e79ffd474111e272098b"
+    },
+    {
+      "path": "04_kinematics/fullbody_poses_v13.json",
+      "bytes": 8097,
+      "sha256": "a33646831adbdec7b7665eeffa4388cabd9df6a661326ddc8d2550c12a3df607"
+    },
+    {
+      "path": "04_kinematics/fullbody_poses_v13.py",
+      "bytes": 5196,
+      "sha256": "b734029be945b137a3bb20b9cdc102aa5f986a93d12bad44b05bf0bb26b353a2"
+    },
+    {
+      "path": "04_kinematics/whole_body_results_v03.json",
+      "bytes": 64388,
+      "sha256": "7bff1154257d26e34f702d8a84db6571bb4fdfc244f62a8e175fa6921733c4d7"
+    },
+    {
+      "path": "04_kinematics/whole_body_screen.py",
+      "bytes": 5759,
+      "sha256": "9c7b2b0d654fa7a42687ce66ca8c3b31bc87bad6f30ca8de22f8ae91ce050418"
+    },
+    {
+      "path": "05_dynamics/aerial_motion_feasibility.md",
+      "bytes": 2496,
+      "sha256": "ac0303fe79fc4f108f359b875e674c5e2eb6a068f530ed100fd8b3f86e1d1258"
+    },
+    {
+      "path": "05_dynamics/bottle_payload_screening.md",
+      "bytes": 1658,
+      "sha256": "46619a47f1a57d6f0177d37157cecd325dce6517258009571832bf3dc0297b36"
+    },
+    {
+      "path": "05_dynamics/compare_architecture_v13.py",
+      "bytes": 2252,
+      "sha256": "8993159bf9301a0d924638c3d4047886d84e68b4ce0a92a7f8b1b8db6391dc94"
+    },
+    {
+      "path": "05_dynamics/feasibility_screen.py",
+      "bytes": 4748,
+      "sha256": "14c9cafdbc14312203ac47fa789aef5d9cbeb32b09d91b4d057c9895779ffcef"
+    },
+    {
+      "path": "05_dynamics/fullbody_loads_v12.py",
+      "bytes": 4635,
+      "sha256": "9213772c4b0c265163814b43f34fedcc90f28122776bee4d8c27f0df57adebc9"
+    },
+    {
+      "path": "05_dynamics/hard_surface_screening.md",
+      "bytes": 2321,
+      "sha256": "c0912d793cea1c6f65be15bf5a9f34ff256b5a8d54535f898b1c8ebfe70befe3"
+    },
+    {
+      "path": "05_dynamics/landing_screening.ps1",
+      "bytes": 604,
+      "sha256": "87c9028708d978b6e08706ddbf746662ef17a257e43e29f353bed1c76496cfc4"
+    },
+    {
+      "path": "05_dynamics/screening_results_v01.json",
+      "bytes": 5837,
+      "sha256": "0a3ef7390fb8e2cbfe5bae299c71a4fbd55a313e09c0eb0e75c2dff1174c1caa"
+    },
+    {
+      "path": "05_dynamics/fullbody_v12/task_loads.json",
+      "bytes": 38423,
+      "sha256": "f1c6d2956ce1567d4481fdaa5c9257cd0632ec95fe2be0bdeac3ce288ab4798d"
+    },
+    {
+      "path": "05_dynamics/fullbody_v13/architecture_comparison.json",
+      "bytes": 2046,
+      "sha256": "394fbc1876fac595d51fbc5dccb4aabf0212f94baa543cbff7d0fe42cbe2ed01"
+    },
+    {
+      "path": "05_dynamics/fullbody_v13/task_loads.json",
+      "bytes": 40580,
+      "sha256": "435c9326ae8ca67d17e780530b1fe852dbd2ec2ddb37f21dea16e47b7c5528cb"
+    },
+    {
+      "path": "06_actuators/architecture_sources_v13.md",
+      "bytes": 1324,
+      "sha256": "5e1bf40928cae2af88edd4d5e0cbe1654e69df7f1d60b2d237ccb364c4b87fe2"
+    },
+    {
+      "path": "06_actuators/candidate_review_v01.md",
+      "bytes": 3710,
+      "sha256": "835b56828ac0fd28fe1dc95ccd685dad2adf7292e03f344dd2f4dbe12ce20c1b"
+    },
+    {
+      "path": "08_electrical/runtime_budget.md",
+      "bytes": 1078,
+      "sha256": "2d31301e8b412a740ecec19452e49433e4e103e271dd2d657fc845171990adaa"
+    },
+    {
+      "path": "08_electrical/sensor_inventory.md",
+      "bytes": 1058,
+      "sha256": "160e6874be7bce99a2fb8eb3f395d069055701e2a0b8d29efcc403bc2209b542"
+    },
+    {
+      "path": "09_cad/build_ankle_structure_v08.py",
+      "bytes": 9367,
+      "sha256": "84d0ff6e0144d033d29b951b8f196498840d7f606be9a57fe3392eb207025322"
+    },
+    {
+      "path": "09_cad/build_ankle_v07.py",
+      "bytes": 6276,
+      "sha256": "8af321ca6572be87179687aaefcc4d2c93a0ffa876900b4b983555c9ab178001"
+    },
+    {
+      "path": "09_cad/build_fullbody_v12.py",
+      "bytes": 21803,
+      "sha256": "e78e55e9b00b3a1a4826357323bd71168af60847d9dad09ab52069e03c8c4b81"
+    },
+    {
+      "path": "09_cad/export_ankle_mesh_v07.py",
+      "bytes": 849,
+      "sha256": "43e207b4193bbbf75b8f018c116407130884a1c0e8225e29448adad7feff3212"
+    },
+    {
+      "path": "09_cad/export_structure_preview_mesh.py",
+      "bytes": 977,
+      "sha256": "9b546ed1991ef0cf478e82bf345fda5c45cfd54da92ca07c0bfdf27ecfbc1f20"
+    },
+    {
+      "path": "09_cad/fillet_yoke_v11.py",
+      "bytes": 3015,
+      "sha256": "473fa560d0a6dd76eac45d24bf9ede0f3ee80d9da71e547b9b7bdd48e8a25f2b"
+    },
+    {
+      "path": "09_cad/inspect_motor_interfaces.py",
+      "bytes": 625,
+      "sha256": "a304e8d48489d28856346c360202f4491547da7f787d00e22b28257969fd47a5"
+    },
+    {
+      "path": "09_cad/inspect_yoke_transition.py",
+      "bytes": 485,
+      "sha256": "1c6186a7820a105d588ca6fb8af731b6b05bb61a04cf42a20a7662da7509fcf8"
+    },
+    {
+      "path": "09_cad/render_ankle_v07.py",
+      "bytes": 1551,
+      "sha256": "f5958105407c53df21897ca2bda41fb955dad6c0d40d5beded0a3b808216db45"
+    },
+    {
+      "path": "09_cad/render_ankle_v08.py",
+      "bytes": 1403,
+      "sha256": "bc35574c04cf892d2f76825be09f624649db2acd777cce8fe7c83aa3beb45e1c"
+    },
+    {
+      "path": "09_cad/render_fullbody_v12.py",
+      "bytes": 2650,
+      "sha256": "d11c1472a0fe1586b6c3abf1ce0e7c7fe107a6f559a521e5d367952b21fe18f3"
+    },
+    {
+      "path": "09_cad/verify_structure_v08.py",
+      "bytes": 1742,
+      "sha256": "e2b578e39b454c0077336642fc5a5896c204deaaef5a3bbcee031d14612e0ad3"
+    },
+    {
+      "path": "09_cad/view_ankle_v07.FCMacro",
+      "bytes": 1068,
+      "sha256": "6b130d0a4f099426fa4a5838ba13d94c6e269ac568c1fdfd02326e3dc6d420f1"
+    },
+    {
+      "path": "09_cad/view_ankle_v07_axial.FCMacro",
+      "bytes": 1332,
+      "sha256": "a16bf8e504d457f3b2311361faa28ba6f58a03ca70744a7285928a1009279595"
+    },
+    {
+      "path": "09_cad/view_ankle_v08.FCMacro",
+      "bytes": 958,
+      "sha256": "c39da1d4cdc6637e2a1ad9db5d6824305f31ff542070af88579de95866365f4e"
+    },
+    {
+      "path": "09_cad/ankle_v07/preview.png",
+      "bytes": 6359,
+      "sha256": "719961be9b03a3600ff9f89d92576bc6b9fb0d033d2858fad006d42b3ed9aa08"
+    },
+    {
+      "path": "09_cad/ankle_v07/verification.json",
+      "bytes": 10925,
+      "sha256": "4987c8f4a0cc23d3c47859d2e678fd631adaf03bdeb9c45ce86c583adc4b6ae1"
+    },
+    {
+      "path": "09_cad/ankle_v07/wukong_ankle_v07.20260906-013050.FCBak",
+      "bytes": 484590,
+      "sha256": "34ea5a216e19b9a171bd638e0acf2c393e3545a63a9cd0b461b22614bf5a1946"
+    },
+    {
+      "path": "09_cad/ankle_v07/wukong_ankle_v07.FCStd",
+      "bytes": 490400,
+      "sha256": "8fff7f71d78f5991cd1633d16857fc59f77ef02accfc736a7d562c464c3b247d"
+    },
+    {
+      "path": "09_cad/ankle_v07/wukong_ankle_v07.step",
+      "bytes": 1743259,
+      "sha256": "d8416f665635f0ed84b3bbde6c35454171d6bfdee5460b515c7fb459cbebd4ac"
+    },
+    {
+      "path": "09_cad/ankle_v07_axial/preview.png",
+      "bytes": 53142,
+      "sha256": "e20a36b0c7130cbf6e0cbd62209d4e77239f78616b7d84ad1c1d8d8a7fbf7e30"
+    },
+    {
+      "path": "09_cad/ankle_v07_axial/preview_verified.png",
+      "bytes": 231743,
+      "sha256": "7e70eb3640226a6b5dbadd9ab9e926852ca318c84198a511a856897c93c15f95"
+    },
+    {
+      "path": "09_cad/ankle_v07_axial/render_mesh.json",
+      "bytes": 5303783,
+      "sha256": "eda195aeea4eea663e551acf88223c01ba2b2cead9a7bfd4ccf6fe5b2cc655c6"
+    },
+    {
+      "path": "09_cad/ankle_v07_axial/verification.json",
+      "bytes": 10348,
+      "sha256": "148a308696868681ed1723e1ad45b86836196f655466bb0db1beedf59b99ad52"
+    },
+    {
+      "path": "09_cad/ankle_v07_axial/wukong_ankle_v07.20260906-013530.FCBak",
+      "bytes": 505096,
+      "sha256": "dd368e51207a4d8fe819fbad7446b4e19bf94f6597ce8a38398504fd68a59811"
+    },
+    {
+      "path": "09_cad/ankle_v07_axial/wukong_ankle_v07.FCStd",
+      "bytes": 503106,
+      "sha256": "ac2cc6f5d60c72c92390141d0551e3b1bbeff30aa7d632bb706b2d0d3fdaae73"
+    },
+    {
+      "path": "09_cad/ankle_v07_axial/wukong_ankle_v07.step",
+      "bytes": 1740289,
+      "sha256": "7b323c74a8a0071c1221985c63fd1192bb7ffb189ab42a81903175f0ecd34a9f"
+    },
+    {
+      "path": "09_cad/ankle_v08/Bearing6000_Envelope.step",
+      "bytes": 4907,
+      "sha256": "0822fc10bcb6416be50a569ab697cee9d1dea2fa426ade24b4734d72d552685d"
+    },
+    {
+      "path": "09_cad/ankle_v08/BootInterfaceHeel.step",
+      "bytes": 24344,
+      "sha256": "47fc1a98239e49c8886078060d55bf8e4ce34113f86c473a6a91f59460ee76b5"
+    },
+    {
+      "path": "09_cad/ankle_v08/BootInterfaceHeel_fit_check_only.stl",
+      "bytes": 494018,
+      "sha256": "b0df0cdbf42b2a96b88a3efac824d80b7ef6316bb6b021872e430ea6bd97bc90"
+    },
+    {
+      "path": "09_cad/ankle_v08/BootInterfaceToe.step",
+      "bytes": 24243,
+      "sha256": "5cfe7dba677c6ed3fae0f3abf9c36defb25140b9f89bb926c5bf3e5a86337670"
+    },
+    {
+      "path": "09_cad/ankle_v08/BootInterfaceToe_fit_check_only.stl",
+      "bytes": 494018,
+      "sha256": "b0cd3f470eeb41f139c595c0e271a36fde119c0af86807631b59dadc116ae337"
+    },
+    {
+      "path": "09_cad/ankle_v08/FootPlate.step",
+      "bytes": 26434,
+      "sha256": "94f489b7039835478bc8389876156155d912ee84622df82e725e65e90d3a85fa"
+    },
+    {
+      "path": "09_cad/ankle_v08/PitchOutputShankBracket.step",
+      "bytes": 24578,
+      "sha256": "90cac39ddbbee497dac1738973da89c45adc3f046abda1b3e4933075c78f5b71"
+    },
+    {
+      "path": "09_cad/ankle_v08/RollBearingCap.step",
+      "bytes": 14208,
+      "sha256": "5faac4869825b82bb2a472ca58eebf7524a179707558bd49220b69b115bc5d03"
+    },
+    {
+      "path": "09_cad/ankle_v08/RollBearingCarrier.step",
+      "bytes": 24545,
+      "sha256": "cf9b9ca68c11a6ccc24867946c2f2831fcfafe51b7e2a328a7f1ce7d338ce677"
+    },
+    {
+      "path": "09_cad/ankle_v08/RollStatorMount.step",
+      "bytes": 25445,
+      "sha256": "66fbfa8dfefad5274f0057b6fcd21a569b60585ba8a3375a9c4c8cec1433ad0e"
+    },
+    {
+      "path": "09_cad/ankle_v08/RollTransferYoke.step",
+      "bytes": 31913,
+      "sha256": "d7d2c6948b12143c52f8d59eeabe887748ffd54f48ebb879fb3442e61334c461"
+    },
+    {
+      "path": "09_cad/ankle_v08/freecad_preview.png",
+      "bytes": 56795,
+      "sha256": "a76eb80fa810a83d1422e5004022be1406be44d949cdef475f6c47080431d021"
+    },
+    {
+      "path": "09_cad/ankle_v08/reload_checks.json",
+      "bytes": 1467,
+      "sha256": "7c84519a5fe1b526332684583ae4aaf54d6b43cf2f6f8b80c375bcbddf325a27"
+    },
+    {
+      "path": "09_cad/ankle_v08/render_mesh.json",
+      "bytes": 6245884,
+      "sha256": "33037f7322eddef8dcf67c6e9d2023886890d1ff1c984ad7bdb0a38f0f6d86bd"
+    },
+    {
+      "path": "09_cad/ankle_v08/structural_preview.png",
+      "bytes": 320199,
+      "sha256": "98e04f8e133f2cb1e98cc8ef68683a25bf0cb82125cfb24907ac13638530a37c"
+    },
+    {
+      "path": "09_cad/ankle_v08/verification.json",
+      "bytes": 5114,
+      "sha256": "14c9200285a7e70b69f931eadcb6d9ea8fcd1a8aadd9090c33cf1456410f7c3f"
+    },
+    {
+      "path": "09_cad/ankle_v08/wukong_ankle_structure_v08.20260906-014716.FCBak",
+      "bytes": 512528,
+      "sha256": "13686bc7f74f8b98ae99672f9c7175705fdfef15f5e6252f9fd12b5523a33aaa"
+    },
+    {
+      "path": "09_cad/ankle_v08/wukong_ankle_structure_v08.FCStd",
+      "bytes": 534442,
+      "sha256": "641f8f96c71791a12cb893fe4a6677dbd07c7ef36795b3e1da835f26c3d99394"
+    },
+    {
+      "path": "09_cad/ankle_v08/wukong_ankle_structure_v08.step",
+      "bytes": 1941677,
+      "sha256": "18a36dbc91107dde953805e48afe5f8a4d57c8603d6f7924f3b817d19dd0ee9b"
+    },
+    {
+      "path": "09_cad/ankle_v09/BootInterfaceHeel_fit_check_only.stl",
+      "bytes": 494018,
+      "sha256": "b0df0cdbf42b2a96b88a3efac824d80b7ef6316bb6b021872e430ea6bd97bc90"
+    },
+    {
+      "path": "09_cad/ankle_v09/BootInterfaceToe_fit_check_only.stl",
+      "bytes": 494018,
+      "sha256": "b0cd3f470eeb41f139c595c0e271a36fde119c0af86807631b59dadc116ae337"
+    },
+    {
+      "path": "09_cad/ankle_v09/RollTransferYoke.step",
+      "bytes": 49121,
+      "sha256": "08453f92105f01744605af54ee045369fa469a87710d3a74ba96386ee1115610"
+    },
+    {
+      "path": "09_cad/ankle_v09/render_mesh.json",
+      "bytes": 6241699,
+      "sha256": "0c2b421c3c66e94d53fb188f337312970249608ec53a38ec669630ceba1210af"
+    },
+    {
+      "path": "09_cad/ankle_v09/structural_preview.png",
+      "bytes": 316445,
+      "sha256": "c95c4152b8f1f8020e4ca6dc441ce831ff91f34a1ee041ebc2ac8e3dc204a6e3"
+    },
+    {
+      "path": "09_cad/ankle_v09/verification.json",
+      "bytes": 5134,
+      "sha256": "287cb17d5192c5f7ca9647c635115f0913adca0dff9daef9e6e55d62a02033eb"
+    },
+    {
+      "path": "09_cad/ankle_v09/wukong_ankle_structure_v09.FCStd",
+      "bytes": 516065,
+      "sha256": "40d343db66b2cbfd4d5c89e66d15c412309d6cf7214ba86c7650d92b731da47a"
+    },
+    {
+      "path": "09_cad/ankle_v09/wukong_ankle_structure_v09.step",
+      "bytes": 1960139,
+      "sha256": "69d52d23cfed587c6dc08159ad3d30a9fd2b0c653db034a45d79483193605048"
+    },
+    {
+      "path": "09_cad/ankle_v11/RollTransferYoke.step",
+      "bytes": 55595,
+      "sha256": "c916cad9676ff7e26d744f5c467042e351e921690b538cb2599105b55cb23eb8"
+    },
+    {
+      "path": "09_cad/ankle_v11/render_mesh.json",
+      "bytes": 6474456,
+      "sha256": "63875302c22bbe9dc02de67192487b8831f8aedaaa733880931cdb79c0b9a616"
+    },
+    {
+      "path": "09_cad/ankle_v11/structural_preview.png",
+      "bytes": 313377,
+      "sha256": "8f56e131971db4dec6b860eb5edfd0c81c2712d189dc9aa591dae51a5583170a"
+    },
+    {
+      "path": "09_cad/ankle_v11/verification.json",
+      "bytes": 3677,
+      "sha256": "ea555eefe063a6ecc197ac56eb938b0ea80668ad35078ecf7b14610b7aa56942"
+    },
+    {
+      "path": "09_cad/ankle_v11/wukong_ankle_structure_v11.FCStd",
+      "bytes": 518198,
+      "sha256": "56bd96128824abe4514a68b03fbfc7130a887daa2a2cd2bde6d04dcb54a52880"
+    },
+    {
+      "path": "09_cad/ankle_v11/wukong_ankle_structure_v11.step",
+      "bytes": 1911442,
+      "sha256": "4f52b2f1af150484b5821277848b0c360a18424d260560c92ed4cc975ada4984"
+    },
+    {
+      "path": "09_cad/fullbody_v12/mechanical_and_costume.png",
+      "bytes": 188955,
+      "sha256": "3daa3181eea7d9f2bb3702f456294ee54115efe7c740b30f33064fe20645d0b9"
+    },
+    {
+      "path": "09_cad/fullbody_v12/qitian_views.png",
+      "bytes": 148368,
+      "sha256": "a70e9f463be3e1e52147c905bea8ed7c3372dbaff68bce8f0ff751b29ba6a087"
+    },
+    {
+      "path": "09_cad/fullbody_v12/task_poses.png",
+      "bytes": 160746,
+      "sha256": "7b845faa2af8a843184b72923a44de6fe357ec21f99baf2c097cbec5127f5791"
+    },
+    {
+      "path": "09_cad/fullbody_v12/wholebody_results.json",
+      "bytes": 459284,
+      "sha256": "54effa4a60c2be4b20e8e4d5ec79d330303d610a4e739db54f0035f60db94ca7"
+    },
+    {
+      "path": "09_cad/fullbody_v12/getup_intermediate/render_mesh.json",
+      "bytes": 6776443,
+      "sha256": "a1113676584d78a40074fbc36d9f5ffcebaf9f3524a4026cc68c1b727e98f9a8"
+    },
+    {
+      "path": "09_cad/fullbody_v12/getup_intermediate/wukong_fullbody_v12.20260906-025649.FCBak",
+      "bytes": 297738,
+      "sha256": "2bdce8f4f94b7a8db95fed43277625e9b72a7d7e714837cad63b4350b13dfdcc"
+    },
+    {
+      "path": "09_cad/fullbody_v12/getup_intermediate/wukong_fullbody_v12.FCStd",
+      "bytes": 303153,
+      "sha256": "e914408aac2d6af1f9ede34f5377f54d797dc5eeb417f59c0bb104bbe3f5068b"
+    },
+    {
+      "path": "09_cad/fullbody_v12/getup_intermediate/wukong_fullbody_v12.step",
+      "bytes": 1283608,
+      "sha256": "48d53b48ffd683887342413e69ac5e1d53e4b39a4a78794df2ef8876b8528398"
+    },
+    {
+      "path": "09_cad/fullbody_v12/handover/render_mesh.json",
+      "bytes": 6789471,
+      "sha256": "e19c8fbaeb3d4ecaf088051e1022eb731a925fa31eca8f2b99940e928e8cf235"
+    },
+    {
+      "path": "09_cad/fullbody_v12/handover/wukong_fullbody_v12.20260906-025643.FCBak",
+      "bytes": 297295,
+      "sha256": "8a9a585f4c4344ebfe45c611940322fae94ba7e2a416fe008f458faeb9070f57"
+    },
+    {
+      "path": "09_cad/fullbody_v12/handover/wukong_fullbody_v12.FCStd",
+      "bytes": 302707,
+      "sha256": "657d768cdb1afce64d1543609bd192b3cb622f7e3b8a7a109a806e0e96f8f3de"
+    },
+    {
+      "path": "09_cad/fullbody_v12/handover/wukong_fullbody_v12.step",
+      "bytes": 1224106,
+      "sha256": "66b28e9ae553a234ba49edf21f84c2f0b3cf7118414557c4b5e41fb190e0c478"
+    },
+    {
+      "path": "09_cad/fullbody_v12/standing/render_mesh.json",
+      "bytes": 6699925,
+      "sha256": "fc117c7e530aca4a483df023fd3d69c3e1e36656b3f078654e854fea181ff8ac"
+    },
+    {
+      "path": "09_cad/fullbody_v12/standing/wukong_fullbody_v12.20260906-025635.FCBak",
+      "bytes": 296100,
+      "sha256": "524791e34d47594befbb0f5a85f09f1fb55bfce3c756648a37a5fe734c9ddd2b"
+    },
+    {
+      "path": "09_cad/fullbody_v12/standing/wukong_fullbody_v12.FCStd",
+      "bytes": 301526,
+      "sha256": "26736fd9dbd2b8e1d8da3f9524973ea7d2898c4b8d2a54785776b258892f2dc6"
+    },
+    {
+      "path": "09_cad/fullbody_v12/standing/wukong_fullbody_v12.step",
+      "bytes": 1219542,
+      "sha256": "c49b12fdd951147acbbf6cb7b4d6009b4b7ab0e6b984f4e40600d1bae9bd7847"
+    },
+    {
+      "path": "09_cad/fullbody_v13/mechanical_and_costume.png",
+      "bytes": 187121,
+      "sha256": "ad8cb8d830a42c7a5adf2015182e11be6ebe864004eb0d1f098dd0d09d3373d3"
+    },
+    {
+      "path": "09_cad/fullbody_v13/qitian_views.png",
+      "bytes": 133479,
+      "sha256": "66faa2305b144c3ff7917b746d3aa5dbd047c2104663b3902d2a314a30a2bffb"
+    },
+    {
+      "path": "09_cad/fullbody_v13/task_poses.png",
+      "bytes": 158840,
+      "sha256": "81f078a2536439c5b99dff5c6e2547bd9195eb0014e898baf2060fa08cab05a6"
+    },
+    {
+      "path": "09_cad/fullbody_v13/wholebody_results.json",
+      "bytes": 740626,
+      "sha256": "35187c27ad48b0425c103cd8015e2f3e1f29ce83f5bd8a19c4e47bbb58e98edd"
+    },
+    {
+      "path": "09_cad/fullbody_v13/getup_intermediate/render_mesh.json",
+      "bytes": 6476920,
+      "sha256": "9c4219576cb493500df38c866d04f9fe5bf9c6676ee0b9e89d39a102b06f84dc"
+    },
+    {
+      "path": "09_cad/fullbody_v13/getup_intermediate/wukong_fullbody_v13.20260906-101422.FCBak",
+      "bytes": 334143,
+      "sha256": "dacf540e0430109d33872e0a2f5d1cb1bbef2d88c31571d068a04c8b12462c73"
+    },
+    {
+      "path": "09_cad/fullbody_v13/getup_intermediate/wukong_fullbody_v13.FCStd",
+      "bytes": 334149,
+      "sha256": "c3572522b3840b8065e03e5e0eb5bab2d4fcec2e26176ceca59a7898502f5ff2"
+    },
+    {
+      "path": "09_cad/fullbody_v13/getup_intermediate/wukong_fullbody_v13.step",
+      "bytes": 1395758,
+      "sha256": "fac8dc055d846c1ef3e804f88b3cee5cd018ae21ae58c1a9ebc7cdf41b4449bd"
+    },
+    {
+      "path": "09_cad/fullbody_v13/handover/render_mesh.json",
+      "bytes": 6484033,
+      "sha256": "2a807dfc1df8bd4d8ca29c919f2888f1eff406717554d8985809bdbc1570bd7c"
+    },
+    {
+      "path": "09_cad/fullbody_v13/handover/wukong_fullbody_v13.20260906-101418.FCBak",
+      "bytes": 332785,
+      "sha256": "daba39d7ee610c5a19f87eb61f60048ab4a43f45ca4db7febeffaa275a6548ef"
+    },
+    {
+      "path": "09_cad/fullbody_v13/handover/wukong_fullbody_v13.FCStd",
+      "bytes": 332790,
+      "sha256": "657e240914e9575bb49fb12ffb0f4425d3b14fe3a2192400c2f9154d31e1c67a"
+    },
+    {
+      "path": "09_cad/fullbody_v13/handover/wukong_fullbody_v13.step",
+      "bytes": 1329737,
+      "sha256": "de7e099cfe8227d179912c7b68e99248a4717cf7f42f0b0b1730423f69b69fe8"
+    },
+    {
+      "path": "09_cad/fullbody_v13/pickup_contact/render_mesh.json",
+      "bytes": 6410521,
+      "sha256": "1c920ef5f2662ebafc9311315ad4a1d5f5b1f6a3cc37a22d63ca83f5b5968c93"
+    },
+    {
+      "path": "09_cad/fullbody_v13/pickup_contact/wukong_fullbody_v13.20260906-101412.FCBak",
+      "bytes": 330871,
+      "sha256": "fdd3cda04cafb09cbaa4de441564477215be9cd1bfb909f5efb205e22033decf"
+    },
+    {
+      "path": "09_cad/fullbody_v13/pickup_contact/wukong_fullbody_v13.FCStd",
+      "bytes": 330868,
+      "sha256": "f1e5c367429186bc632c75609f789c7ce8444d9033ec2f409c554294171b6340"
+    },
+    {
+      "path": "09_cad/fullbody_v13/pickup_contact/wukong_fullbody_v13.step",
+      "bytes": 1324850,
+      "sha256": "f8b3f8855b76d5bc482fc91f8bb696872755a48c043fbe33d650ada0451622a4"
+    },
+    {
+      "path": "09_cad/fullbody_v13/pickup_contact_forward_workspace/render_mesh.json",
+      "bytes": 6418141,
+      "sha256": "69260fbc8fb7f0fb0f0be125593ee93ed4702191354253e1fb6a7d4a358b471f"
+    },
+    {
+      "path": "09_cad/fullbody_v13/pickup_contact_forward_workspace/wukong_fullbody_v13.FCStd",
+      "bytes": 331323,
+      "sha256": "c8bffd0dd0f76234d6a4db221475c545b82226650a19f1ba335b40931b5825c3"
+    },
+    {
+      "path": "09_cad/fullbody_v13/pickup_contact_forward_workspace/wukong_fullbody_v13.step",
+      "bytes": 1324901,
+      "sha256": "91601b9ea4edca50cc17dfa1e337cdd801e340b8fcd381347821f9c5526f7109"
+    },
+    {
+      "path": "09_cad/fullbody_v13/pickup_lift/render_mesh.json",
+      "bytes": 6499472,
+      "sha256": "9b36c269ba0a11104f8e7e1902d7e47c7e5d07eea7263a228ed6f26ecfff4c93"
+    },
+    {
+      "path": "09_cad/fullbody_v13/pickup_lift/wukong_fullbody_v13.20260906-101416.FCBak",
+      "bytes": 332508,
+      "sha256": "d103e0cdc2a5e9edd87ed06e951ceefa559b34d12c7b9f0977a55437eb47832e"
+    },
+    {
+      "path": "09_cad/fullbody_v13/pickup_lift/wukong_fullbody_v13.FCStd",
+      "bytes": 332495,
+      "sha256": "10a82b0738b2f76aa39adbe72c4872e1927e53d5eef4f4a1bf187b97a638baed"
+    },
+    {
+      "path": "09_cad/fullbody_v13/pickup_lift/wukong_fullbody_v13.step",
+      "bytes": 1329330,
+      "sha256": "8a92ff003c1d2e45019ffd9a0867a7cd0e90410efa444d9220a95a7602ef7005"
+    },
+    {
+      "path": "09_cad/fullbody_v13/pickup_lift_forward_workspace/render_mesh.json",
+      "bytes": 6502311,
+      "sha256": "dd40fc16d8c02e71a62b7c5041cda95ab6729787483111ec2dbf1e9cd6662174"
+    },
+    {
+      "path": "09_cad/fullbody_v13/pickup_lift_forward_workspace/wukong_fullbody_v13.FCStd",
+      "bytes": 334004,
+      "sha256": "a7be6e46b382388d18756be430ca27bdbbf86b48bbda8897f30b351a6680dab8"
+    },
+    {
+      "path": "09_cad/fullbody_v13/pickup_lift_forward_workspace/wukong_fullbody_v13.step",
+      "bytes": 1329166,
+      "sha256": "efe754eb007a462850b2c63eafa19fb33309050ced10524efa8700ef89a56255"
+    },
+    {
+      "path": "09_cad/fullbody_v13/standing/render_mesh.json",
+      "bytes": 6414089,
+      "sha256": "e993a10b4e6fd1684148f1d476e388ddba93b01047f741915d8ce4929bfd0af8"
+    },
+    {
+      "path": "09_cad/fullbody_v13/standing/wukong_fullbody_v13.20260906-101410.FCBak",
+      "bytes": 331518,
+      "sha256": "7d9f6434b876301a0ac258ee0cd022f6f437cba92116a5a542c93b15ede50419"
+    },
+    {
+      "path": "09_cad/fullbody_v13/standing/wukong_fullbody_v13.FCStd",
+      "bytes": 331522,
+      "sha256": "e881ae4b9d0a0ae5b718cec790fb562d01c147d938ea6588948aec72982a55f6"
+    },
+    {
+      "path": "09_cad/fullbody_v13/standing/wukong_fullbody_v13.step",
+      "bytes": 1325261,
+      "sha256": "88802a3f167b72df5b68546cd3e126c58bcb685c73cfa5c7dad147ee51d7ab6e"
+    },
+    {
+      "path": "10_assembly/ankle_complete_results_v06.json",
+      "bytes": 93532,
+      "sha256": "7aba6c6c2da62478d25c2cd9e14957b3c1c25ab25e4093bb80a9308ad5df40c7"
+    },
+    {
+      "path": "10_assembly/ankle_complete_screen.py",
+      "bytes": 6217,
+      "sha256": "0e250af0b610bf1545ecb8888cc41aa94e1fcb37ce24c126f23c0835adb1790c"
+    },
+    {
+      "path": "10_assembly/ankle_foot_results_v06.json",
+      "bytes": 5798,
+      "sha256": "901c73954b9c831469f2e8bf3006d067881634af3cac622161cc0a64849f6dbf"
+    },
+    {
+      "path": "10_assembly/ankle_foot_results_v06_corrected.json",
+      "bytes": 6404,
+      "sha256": "2fc065b9960c2ad59fdac7795c092f08c75de99fdae6915634f23aa06be7c238"
+    },
+    {
+      "path": "10_assembly/ankle_foot_screen.py",
+      "bytes": 3902,
+      "sha256": "b558699f6383a85c428e60dbfd6eb5197ab7cebd94b42a614de3ac4ecc249c56"
+    },
+    {
+      "path": "10_assembly/hip_baseline_neutral_proxy.urdf",
+      "bytes": 1315,
+      "sha256": "34a9c3c9467ce228beb60e336cce574817fdd1df0a4a7ced52365eb8c75e94e6"
+    },
+    {
+      "path": "10_assembly/hip_forward_lateral_neutral_proxy.urdf",
+      "bytes": 1323,
+      "sha256": "9794c1be499db3cd8eccf59163a2d6752e5c52f5bbf9ea65020dfdc59b362ba2"
+    },
+    {
+      "path": "10_assembly/hip_lateral_forward_neutral_proxy.urdf",
+      "bytes": 1323,
+      "sha256": "cb4dcea51776b017bb01d17b73649fcc05f0b9b6cc5a3311fe14751644cc7eaa"
+    },
+    {
+      "path": "10_assembly/hip_offset_candidates_v04.json",
+      "bytes": 5271,
+      "sha256": "08ac557f0b5089c2afa9ab0a79bb4ee99bad60aa14140d0fe2ea4712a9bbe33d"
+    },
+    {
+      "path": "10_assembly/hip_search_best_neutral_proxy.urdf",
+      "bytes": 1334,
+      "sha256": "2d5138cd6cac4d67192aa2b22579f4149eea6b3dd100fab69c62519ec523b368"
+    },
+    {
+      "path": "10_assembly/hip_stance_resolution.py",
+      "bytes": 4954,
+      "sha256": "cef92b4f5da816e382c331a429e5a0bcb62d0c42886cfd8f4c2a45026b52e63c"
+    },
+    {
+      "path": "10_assembly/hip_stance_results_v05.json",
+      "bytes": 36283,
+      "sha256": "f5f96f8a417ee6cc99dc978655b85681b53d24b48751dfc96be0315430a1ed6b"
+    },
+    {
+      "path": "10_assembly/offset_layout_results_v04.json",
+      "bytes": 24578,
+      "sha256": "824825729f9e342c4c6a8f44cf69817899b37fe03b086c81e0d70f446b8b1ed0"
+    },
+    {
+      "path": "10_assembly/offset_layout_screen.py",
+      "bytes": 7259,
+      "sha256": "a08de0a2b80cfa0a54fd3df20fa7346083aa38787ef564231553df7ac5f4101b"
+    },
+    {
+      "path": "10_assembly/offset_verification_v04.json",
+      "bytes": 837,
+      "sha256": "6fc85b78c8aabeb27b1fbf01949cd3a234d25a822c3c197769bb3705a4926ad6"
+    },
+    {
+      "path": "10_assembly/scan_shoulder_driver_v13.py",
+      "bytes": 2137,
+      "sha256": "826e8071dbee287931a57aa1887bc18822461179cddd4347fb3bce73335c49a6"
+    },
+    {
+      "path": "10_assembly/search_hip_offsets.py",
+      "bytes": 1571,
+      "sha256": "be8bd9e78a22ff8e674f70153cfc70593cc1fc373daba31c4a09c874dc2293ec"
+    },
+    {
+      "path": "10_assembly/shoulder_coaxial_baseline_neutral_proxy.urdf",
+      "bytes": 2164,
+      "sha256": "696135d4c539e7a033111ec10992e19cf01bebea59640c61454722bf7836f9e6"
+    },
+    {
+      "path": "10_assembly/shoulder_down_then_lateral_neutral_proxy.urdf",
+      "bytes": 2179,
+      "sha256": "0a8e6675aa1edc69206fa677c92996fcb9ac6c5ba5f429f6f07bd00c681a962c"
+    },
+    {
+      "path": "10_assembly/shoulder_lateral_then_down_neutral_proxy.urdf",
+      "bytes": 2181,
+      "sha256": "25b4ae3e87a0552929246a5d05a9fb64a675ba277d411153dc323225feff104b"
+    },
+    {
+      "path": "10_assembly/shoulder_lateral_then_forward_neutral_proxy.urdf",
+      "bytes": 2159,
+      "sha256": "71ef928015e4d8eaa13ad98d79cb05d387845d0f1683bd1b60dad4e99b8953c2"
+    },
+    {
+      "path": "10_assembly/verify_ankle_v07.py",
+      "bytes": 1794,
+      "sha256": "563ff46983237d22be7dd2abc67393a5c4364d5eae485552289dcc74235b8d47"
+    },
+    {
+      "path": "10_assembly/verify_offset_layouts.py",
+      "bytes": 1889,
+      "sha256": "3e36ef466c41fe42284fcabb5b5dcb1903d883c16237677339f814991a31cad6"
+    },
+    {
+      "path": "10_assembly/shoulder_mount_v13/README.md",
+      "bytes": 286,
+      "sha256": "fc84ff8b689161c6337895f8250499a836b7ff737bc3a15de69ccea87bc7d21d"
+    },
+    {
+      "path": "10_assembly/shoulder_mount_v13/scan.json",
+      "bytes": 20348,
+      "sha256": "683ae4a9934798d97042c7e26fb5efd5cc82d54d549bedf87a4f4d982a874a63"
+    },
+    {
+      "path": "11_verification/bolt_compliance_v11.py",
+      "bytes": 4079,
+      "sha256": "8724934e71fc796cfd6e248aacaa79e538aa68e82ff12ee16a7a717a45f67a61"
+    },
+    {
+      "path": "11_verification/check_fea_v09.py",
+      "bytes": 1443,
+      "sha256": "323ae7daf722cc7abff0247855bdb3cc98c5d30106a93af547104e28c693acb9"
+    },
+    {
+      "path": "11_verification/checkpoint_checks_v11.py",
+      "bytes": 2057,
+      "sha256": "92b4af77b11be637ac47e7c14a02a82f296ec996124bfe645cdabeab3d384ae0"
+    },
+    {
+      "path": "11_verification/conflict_register.md",
+      "bytes": 6704,
+      "sha256": "738a484e9052d8016895e09a8e551f13f2b583744af35d20b34f7f1d40c0bc5d"
+    },
+    {
+      "path": "11_verification/connection_load_screen.py",
+      "bytes": 2638,
+      "sha256": "fcec1abad4e58f80be1a7838d5e4d8cd79e3f6bc1b45c5d86fbf52f8056876e6"
+    },
+    {
+      "path": "11_verification/feasibility_gates.md",
+      "bytes": 2737,
+      "sha256": "b3e1294b6e31a17df774e8be522307dbc5ae9e4e7b979183b90d75f82844fa13"
+    },
+    {
+      "path": "11_verification/fullbody_checks_v12.py",
+      "bytes": 4590,
+      "sha256": "b8fa39c58d64bdb5660d75c4ea9c2b4eb491e05a69c5b0dec5121a779ccb5709"
+    },
+    {
+      "path": "11_verification/inspect_quadratic_results.py",
+      "bytes": 1644,
+      "sha256": "538ef3e108f972b13aa820e19ec2e893060d518eacd8b30349bde51cbdf9e3f2"
+    },
+    {
+      "path": "11_verification/plot_quadratic_convergence.py",
+      "bytes": 1144,
+      "sha256": "cf18fc52bf1f546c8f5e55a1b7c9cae74b2d7f768140829533b1f885dd27606c"
+    },
+    {
+      "path": "11_verification/quadratic_yoke_fea.py",
+      "bytes": 9353,
+      "sha256": "9f97ca2acdbf3216bb924c41f7ae0dd068af58cae59144098991ee4954190fa2"
+    },
+    {
+      "path": "11_verification/v11_checkpoint_checks.json",
+      "bytes": 1163,
+      "sha256": "d5dceb695475ee6b25700b52e2a853d3006ce2494fcd263e3fbd36b4f35e1318"
+    },
+    {
+      "path": "11_verification/v12_checkpoint_checks.json",
+      "bytes": 1985,
+      "sha256": "f3dea459e8de1224b4d1a24c2a4f677301edd57b149aedc19c4a041ea0d080f9"
+    },
+    {
+      "path": "11_verification/v13_checkpoint_checks.json",
+      "bytes": 2614,
+      "sha256": "0832245cb21d0130285911a878c13d262d94bfc387af35fd0a5eddcffec2a873"
+    },
+    {
+      "path": "11_verification/yoke_static_fea.py",
+      "bytes": 9246,
+      "sha256": "238efd62ec9bf0fbf96ee04859be56588b57e29986ab27987b3d8e772a838f36"
+    },
+    {
+      "path": "11_verification/bolt_compliance_v11/summary.json",
+      "bytes": 4017,
+      "sha256": "a00de5cc891f7a2ccf1648c7a71e7020d53b19e3c22f2f215aa86f65ef1c109e"
+    },
+    {
+      "path": "11_verification/bolt_compliance_v11/factor_0.05/boundary.json",
+      "bytes": 114843,
+      "sha256": "2327c9aca7fd9ddadc4b83d3953b5b46cdcef813a6d21255c5e4dcfd7ef2a654"
+    },
+    {
+      "path": "11_verification/bolt_compliance_v11/factor_0.05/solver.log",
+      "bytes": 2224,
+      "sha256": "dc3dc8d72604922cc0d5ec1442210687738f0a2f4eed38ffe45dfc1a622197f0"
+    },
+    {
+      "path": "11_verification/bolt_compliance_v11/factor_0.05/spooles.out",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "11_verification/bolt_compliance_v11/factor_0.05/summary.json",
+      "bytes": 910,
+      "sha256": "8a4373da55285a32636c951fbd8099cb3c4f00ad049bc68caa8adef4503073a0"
+    },
+    {
+      "path": "11_verification/bolt_compliance_v11/factor_0.05/yoke.12d",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "11_verification/bolt_compliance_v11/factor_0.05/yoke.cvg",
+      "bytes": 278,
+      "sha256": "7949113325cb32be7bffd2b865928ef5606322c0f7f08d37a302e5063b074593"
+    },
+    {
+      "path": "11_verification/bolt_compliance_v11/factor_0.05/yoke.dat",
+      "bytes": 18337473,
+      "sha256": "a67b3ed55b92a7ba9dabd9d7dc89ae3945a0d1089e29abe147c9a3020eca6772"
+    },
+    {
+      "path": "11_verification/bolt_compliance_v11/factor_0.05/yoke.frd",
+      "bytes": 18747120,
+      "sha256": "94c084546791b4989841a0d08f84f14eb2a9ee2f692562dd156eaf056396cafd"
+    },
+    {
+      "path": "11_verification/bolt_compliance_v11/factor_0.05/yoke.inp",
+      "bytes": 5389758,
+      "sha256": "7a8415ce2fe7342fe9cb1dae6f0de98a23938e4313df928a79d8a4a41b095515"
+    },
+    {
+      "path": "11_verification/bolt_compliance_v11/factor_0.05/yoke.sta",
+      "bytes": 173,
+      "sha256": "253efd59462bae0a6fce7b06552a063c82349747e482366b56da923c68b7ca9d"
+    },
+    {
+      "path": "11_verification/bolt_compliance_v11/factor_0.2/boundary.json",
+      "bytes": 114843,
+      "sha256": "2327c9aca7fd9ddadc4b83d3953b5b46cdcef813a6d21255c5e4dcfd7ef2a654"
+    },
+    {
+      "path": "11_verification/bolt_compliance_v11/factor_0.2/solver.log",
+      "bytes": 2224,
+      "sha256": "dc3dc8d72604922cc0d5ec1442210687738f0a2f4eed38ffe45dfc1a622197f0"
+    },
+    {
+      "path": "11_verification/bolt_compliance_v11/factor_0.2/spooles.out",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "11_verification/bolt_compliance_v11/factor_0.2/summary.json",
+      "bytes": 912,
+      "sha256": "beba1bbd5b8d55dd7a48ffd28b215b58b2414117e80fb503d423181c8db4f029"
+    },
+    {
+      "path": "11_verification/bolt_compliance_v11/factor_0.2/yoke.12d",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "11_verification/bolt_compliance_v11/factor_0.2/yoke.cvg",
+      "bytes": 278,
+      "sha256": "7949113325cb32be7bffd2b865928ef5606322c0f7f08d37a302e5063b074593"
+    },
+    {
+      "path": "11_verification/bolt_compliance_v11/factor_0.2/yoke.dat",
+      "bytes": 18337473,
+      "sha256": "c30d65cf9d238060f841f7146c780350311939c6d36cf8ba5d075b147ffe36ad"
+    },
+    {
+      "path": "11_verification/bolt_compliance_v11/factor_0.2/yoke.frd",
+      "bytes": 18747120,
+      "sha256": "0131c4f3a13135e337f2eef10f9e92368cd7127f9c5a488a01e593c6e016fc87"
+    },
+    {
+      "path": "11_verification/bolt_compliance_v11/factor_0.2/yoke.inp",
+      "bytes": 5389761,
+      "sha256": "a4fbaca7d1ca019acd184d057db9043a9b448ee5acbf68c21e1710aded91d009"
+    },
+    {
+      "path": "11_verification/bolt_compliance_v11/factor_0.2/yoke.sta",
+      "bytes": 173,
+      "sha256": "253efd59462bae0a6fce7b06552a063c82349747e482366b56da923c68b7ca9d"
+    },
+    {
+      "path": "11_verification/bolt_compliance_v11/factor_1.0/boundary.json",
+      "bytes": 114843,
+      "sha256": "2327c9aca7fd9ddadc4b83d3953b5b46cdcef813a6d21255c5e4dcfd7ef2a654"
+    },
+    {
+      "path": "11_verification/bolt_compliance_v11/factor_1.0/solver.log",
+      "bytes": 2224,
+      "sha256": "dc3dc8d72604922cc0d5ec1442210687738f0a2f4eed38ffe45dfc1a622197f0"
+    },
+    {
+      "path": "11_verification/bolt_compliance_v11/factor_1.0/spooles.out",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "11_verification/bolt_compliance_v11/factor_1.0/summary.json",
+      "bytes": 909,
+      "sha256": "b5d2c2f413b044f699af137c3ae69158abbf6df32f5042b93539ed53cc5152cf"
+    },
+    {
+      "path": "11_verification/bolt_compliance_v11/factor_1.0/yoke.12d",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "11_verification/bolt_compliance_v11/factor_1.0/yoke.cvg",
+      "bytes": 278,
+      "sha256": "7949113325cb32be7bffd2b865928ef5606322c0f7f08d37a302e5063b074593"
+    },
+    {
+      "path": "11_verification/bolt_compliance_v11/factor_1.0/yoke.dat",
+      "bytes": 18337473,
+      "sha256": "2be95af8b30840fdce720ce2c23daec6067164e7dd79f1019a9f6d6d060a5adb"
+    },
+    {
+      "path": "11_verification/bolt_compliance_v11/factor_1.0/yoke.frd",
+      "bytes": 18747120,
+      "sha256": "5a4fcc5cd9de773b9ce03f5575afb4373eff3abd2f62fbd3dd439d629ccd0a13"
+    },
+    {
+      "path": "11_verification/bolt_compliance_v11/factor_1.0/yoke.inp",
+      "bytes": 5389770,
+      "sha256": "a56c3c9d01b40f21efd6d3881c36d429bfb7daa9e6fa143372b726c26fa06d5e"
+    },
+    {
+      "path": "11_verification/bolt_compliance_v11/factor_1.0/yoke.sta",
+      "bytes": 173,
+      "sha256": "253efd59462bae0a6fce7b06552a063c82349747e482366b56da923c68b7ca9d"
+    },
+    {
+      "path": "11_verification/v11_transition_baseline/summary_additional.json",
+      "bytes": 734,
+      "sha256": "a6bd94f9349b07f4c146878bdf7558cd267e9fbcb2531e82f1e3ec306c058793"
+    },
+    {
+      "path": "11_verification/v11_transition_baseline/mesh_1.8/boundary.json",
+      "bytes": 114843,
+      "sha256": "2327c9aca7fd9ddadc4b83d3953b5b46cdcef813a6d21255c5e4dcfd7ef2a654"
+    },
+    {
+      "path": "11_verification/v11_transition_baseline/mesh_1.8/gmsh.log",
+      "bytes": 17745,
+      "sha256": "5d3b2f55168617c30d66ea3013a16cb056ebe560f9e5acdf22fc0c5097847306"
+    },
+    {
+      "path": "11_verification/v11_transition_baseline/mesh_1.8/mesh.geo",
+      "bytes": 273,
+      "sha256": "4e73c526fa015580eef188fccec5e07bc47a1492fc0dce233aa4cd42248f2c7e"
+    },
+    {
+      "path": "11_verification/v11_transition_baseline/mesh_1.8/mesh.msh",
+      "bytes": 7096759,
+      "sha256": "161cf680b8faae53575ba2e7405402ee560bbfe5deec6049b4cb2736e419bc34"
+    },
+    {
+      "path": "11_verification/v11_transition_baseline/mesh_1.8/solver.log",
+      "bytes": 2224,
+      "sha256": "6da9fcd99dd35623b7341e469f91ac9c43d83280b29d447f6b9e2722bfff6d9e"
+    },
+    {
+      "path": "11_verification/v11_transition_baseline/mesh_1.8/spooles.out",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "11_verification/v11_transition_baseline/mesh_1.8/summary.json",
+      "bytes": 505,
+      "sha256": "6cfb1251849003ec0ee08bf858cb13eb68c7b5a40796200e691e84fc7a22b349"
+    },
+    {
+      "path": "11_verification/v11_transition_baseline/mesh_1.8/yoke.12d",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "11_verification/v11_transition_baseline/mesh_1.8/yoke.cvg",
+      "bytes": 278,
+      "sha256": "7949113325cb32be7bffd2b865928ef5606322c0f7f08d37a302e5063b074593"
+    },
+    {
+      "path": "11_verification/v11_transition_baseline/mesh_1.8/yoke.dat",
+      "bytes": 18337473,
+      "sha256": "e06669b9bc74e602a13745f2fc9c5127bf713fab44cedd78962e3644b22d0a19"
+    },
+    {
+      "path": "11_verification/v11_transition_baseline/mesh_1.8/yoke.frd",
+      "bytes": 18746463,
+      "sha256": "9cccbcdfc0d0fe4d914d5123f1e122aa40a8d1092613c64a55febdeb14b7fa42"
+    },
+    {
+      "path": "11_verification/v11_transition_baseline/mesh_1.8/yoke.inp",
+      "bytes": 5377718,
+      "sha256": "420b8bf8f0f78d574d027d26a04140d0eef342c4ed65f020c6ee6407eccd9220"
+    },
+    {
+      "path": "11_verification/v11_transition_baseline/mesh_1.8/yoke.sta",
+      "bytes": 173,
+      "sha256": "253efd59462bae0a6fce7b06552a063c82349747e482366b56da923c68b7ca9d"
+    },
+    {
+      "path": "11_verification/v11_transition_r2/summary_additional.json",
+      "bytes": 736,
+      "sha256": "132df88d4ecf634eb6ec67f5b4336b4811f11c9febab5dd93873d08954fc9e33"
+    },
+    {
+      "path": "11_verification/v11_transition_r2/mesh_1.8/boundary.json",
+      "bytes": 114912,
+      "sha256": "0e4281917da35bed1f53a00d07db425e66480d919bdb901963288f3343dac9cb"
+    },
+    {
+      "path": "11_verification/v11_transition_r2/mesh_1.8/gmsh.log",
+      "bytes": 20274,
+      "sha256": "4d72d644e6af1214959d730a52f4a1ad119538664697b61538fa322bbba51232"
+    },
+    {
+      "path": "11_verification/v11_transition_r2/mesh_1.8/mesh.geo",
+      "bytes": 273,
+      "sha256": "e1f7acf1a839723fa11ac793d9191e2cd4abf816b1aa3278a2fc8dc97c195733"
+    },
+    {
+      "path": "11_verification/v11_transition_r2/mesh_1.8/mesh.msh",
+      "bytes": 7274674,
+      "sha256": "efdaa22c4679f279c5573bb972725cdd5a5034c53abb109a0b40286783a79987"
+    },
+    {
+      "path": "11_verification/v11_transition_r2/mesh_1.8/solver.log",
+      "bytes": 2224,
+      "sha256": "33ea7bf115c9919d110518fa34e5a8f4ec1f3c6f28cdfbf5b2a8ac6e7308c823"
+    },
+    {
+      "path": "11_verification/v11_transition_r2/mesh_1.8/spooles.out",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "11_verification/v11_transition_r2/mesh_1.8/summary.json",
+      "bytes": 507,
+      "sha256": "5e74ae57c2a07ebaf997d95729cfd0d261fe09b7d5c13009d127c6d8357a5f7f"
+    },
+    {
+      "path": "11_verification/v11_transition_r2/mesh_1.8/yoke.12d",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "11_verification/v11_transition_r2/mesh_1.8/yoke.cvg",
+      "bytes": 278,
+      "sha256": "7949113325cb32be7bffd2b865928ef5606322c0f7f08d37a302e5063b074593"
+    },
+    {
+      "path": "11_verification/v11_transition_r2/mesh_1.8/yoke.dat",
+      "bytes": 18785035,
+      "sha256": "be69721c78ef49bfeedfadb1abbdef67456d8609ee9448e93a67ff5dbf208115"
+    },
+    {
+      "path": "11_verification/v11_transition_r2/mesh_1.8/yoke.frd",
+      "bytes": 19186927,
+      "sha256": "19cdb063c59c87a6e596c15ab89bf04ea7f205381cf621d4c0c9b013231000c8"
+    },
+    {
+      "path": "11_verification/v11_transition_r2/mesh_1.8/yoke.inp",
+      "bytes": 5512324,
+      "sha256": "195dce67136eec477bd7c8fbd3183b71d379dd380ad0ba54e79300ade12163ac"
+    },
+    {
+      "path": "11_verification/v11_transition_r2/mesh_1.8/yoke.sta",
+      "bytes": 173,
+      "sha256": "253efd59462bae0a6fce7b06552a063c82349747e482366b56da923c68b7ca9d"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_bore_fixture_v10/summary_additional.json",
+      "bytes": 741,
+      "sha256": "496fbc742574b662f1978a5ce0f6cc337d4363c9c3c6eedc47e5dbf1f0d12c8a"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_bore_fixture_v10/mesh_2.5/boundary.json",
+      "bytes": 72939,
+      "sha256": "f26e98bf8d96ac52bdf91852de2cf28006fcb907d8d3f816824ac2b11c28f1e9"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_bore_fixture_v10/mesh_2.5/gmsh.log",
+      "bytes": 17568,
+      "sha256": "50e3ae2b4e57e5c9dcc28e5132876d9c020975743561009a0c9e699ea70bd9bc"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_bore_fixture_v10/mesh_2.5/mesh.geo",
+      "bytes": 273,
+      "sha256": "486ed259af3972fef62c8045580c7efc96a1d423e1b486e3e1a9e6ed37163b2e"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_bore_fixture_v10/mesh_2.5/mesh.msh",
+      "bytes": 3485443,
+      "sha256": "3a24ff243a6a6e0339bfc5b6e8ccb4887737ad86c14f323e352952b2888d770f"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_bore_fixture_v10/mesh_2.5/solver.log",
+      "bytes": 2223,
+      "sha256": "82bb24c49560a4c04d3e13d416467baf5280f613dc8305797cf95ecc1a037d54"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_bore_fixture_v10/mesh_2.5/spooles.out",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_bore_fixture_v10/mesh_2.5/summary.json",
+      "bytes": 512,
+      "sha256": "f920e7648ae6aa9e7bf07dbd34be7fb6e3df5e42452b07aac07879083144cd0e"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_bore_fixture_v10/mesh_2.5/yoke.12d",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_bore_fixture_v10/mesh_2.5/yoke.cvg",
+      "bytes": 278,
+      "sha256": "7949113325cb32be7bffd2b865928ef5606322c0f7f08d37a302e5063b074593"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_bore_fixture_v10/mesh_2.5/yoke.dat",
+      "bytes": 8842051,
+      "sha256": "df481043df3bf71ec41725bbf01d12609bb9d5fb17fbffcfefbc0b2d379d12f1"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_bore_fixture_v10/mesh_2.5/yoke.frd",
+      "bytes": 9361749,
+      "sha256": "a99e6fe1282c620c8746608cb94972aba330299feb3cfcf4e46ef79d19888ee0"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_bore_fixture_v10/mesh_2.5/yoke.inp",
+      "bytes": 2581396,
+      "sha256": "1088191324bd09d2ba5aa95a338b45bbf79692fae28679e1151cab4d895b374b"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_bore_fixture_v10/mesh_2.5/yoke.sta",
+      "bytes": 173,
+      "sha256": "253efd59462bae0a6fce7b06552a063c82349747e482366b56da923c68b7ca9d"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/audit.json",
+      "bytes": 2794,
+      "sha256": "1683e2afa31bae10fdbd0cc866540039224e2cdac5de7c9a871760bac241f3d2"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/convergence.png",
+      "bytes": 99667,
+      "sha256": "f2e7483002230a92c031fd94fb84fb94e4f4cbce72467cf9f0290ea9a55b8935"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/summary.json",
+      "bytes": 1781,
+      "sha256": "c1fa20574bac3ce4175b0cc9564f9748d03465ab032bce27247f99b6783b8daa"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/summary_additional.json",
+      "bytes": 707,
+      "sha256": "8764c2b659fb95a8635900cb34225435f3e116a2f1fc912072c2e1b3896ce291"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_1.2/boundary.json",
+      "bytes": 256630,
+      "sha256": "567c3dd0c2dfb04b7463c6130309fc86cbc929656830ab27151b1035d0aee092"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_1.2/gmsh.log",
+      "bytes": 19075,
+      "sha256": "92ce914382db8f2f7001c4c5bcb098eb77783ad1eeb740142ea500587739c0ba"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_1.2/mesh.geo",
+      "bytes": 273,
+      "sha256": "5e41a335f9ade55eafe7dec52d9b68ac718e7896056178cd25d069347f8267e7"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_1.2/mesh.msh",
+      "bytes": 20766036,
+      "sha256": "58c6ce7a2631f7b048cd3b44b070ed36a613cd587e5a28429c7ce95b38a983a4"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_1.2/solver.log",
+      "bytes": 2225,
+      "sha256": "9a3fca8f85c4836ecebc27f4381da36a79a845238982bc7869ec6f27407cdf24"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_1.2/spooles.out",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_1.2/summary.json",
+      "bytes": 482,
+      "sha256": "8e78155a7411d72d711dd2981496c68bb6c2f93f470c74fdf733776ddcd7d154"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_1.2/yoke.12d",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_1.2/yoke.cvg",
+      "bytes": 278,
+      "sha256": "7949113325cb32be7bffd2b865928ef5606322c0f7f08d37a302e5063b074593"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_1.2/yoke.dat",
+      "bytes": 53914125,
+      "sha256": "674b40f74c8a83c21100d87a04fe537220253483597a0afb197f90d9eb74c6a2"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_1.2/yoke.frd",
+      "bytes": 52878844,
+      "sha256": "7f48efe7c88ccf155716b850c6ddcdbea73b99ca298bceb9bf2351efc3d6e865"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_1.2/yoke.inp",
+      "bytes": 16257951,
+      "sha256": "b31d9ff487c2e8e781b402120634678b8e05488a86971e2300b429fc880a9e8f"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_1.2/yoke.sta",
+      "bytes": 173,
+      "sha256": "253efd59462bae0a6fce7b06552a063c82349747e482366b56da923c68b7ca9d"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_1.8/boundary.json",
+      "bytes": 131282,
+      "sha256": "167121cd4654efa27a2eea8085eedaadfbbff900654f9269c71835de359b304f"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_1.8/gmsh.log",
+      "bytes": 17720,
+      "sha256": "f54b5eca4fbcb9e07725d724db4cadeab3bbccd387085760cccbdae8d7ae07aa"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_1.8/mesh.geo",
+      "bytes": 273,
+      "sha256": "4e73c526fa015580eef188fccec5e07bc47a1492fc0dce233aa4cd42248f2c7e"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_1.8/mesh.msh",
+      "bytes": 7096759,
+      "sha256": "161cf680b8faae53575ba2e7405402ee560bbfe5deec6049b4cb2736e419bc34"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_1.8/solver.log",
+      "bytes": 2224,
+      "sha256": "34849c3420a2cc5c5e5a9d6c67e8e526f5eb462e7d2b4b8b8b697bf198bd4e0a"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_1.8/spooles.out",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_1.8/summary.json",
+      "bytes": 477,
+      "sha256": "7ac4b26821e5dbb7b70ce5662b73254bc5013700a765a14d3f59ba63872f8d73"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_1.8/yoke.12d",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_1.8/yoke.cvg",
+      "bytes": 278,
+      "sha256": "7949113325cb32be7bffd2b865928ef5606322c0f7f08d37a302e5063b074593"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_1.8/yoke.dat",
+      "bytes": 18337473,
+      "sha256": "dfe7e3e9ec9b4252d4cc352bf1cdaab575e8a8e8ca60e551c90ad37ff28f7eb9"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_1.8/yoke.frd",
+      "bytes": 18746463,
+      "sha256": "8796a68bd50c339ac9573d5d9a622e745924684b26b77a6a1634f9382a66df08"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_1.8/yoke.inp",
+      "bytes": 5385114,
+      "sha256": "14ce2c2ef0880800324d0b8420d2b510489ee54d0134e755c55a6dbffa9a70b5"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_1.8/yoke.sta",
+      "bytes": 173,
+      "sha256": "253efd59462bae0a6fce7b06552a063c82349747e482366b56da923c68b7ca9d"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_2.5/boundary.json",
+      "bytes": 82558,
+      "sha256": "d7ebf8ab4be4ce64dd98a182e6086f7285110b0be53129159682d03c8d1d7aad"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_2.5/gmsh.log",
+      "bytes": 17559,
+      "sha256": "86b31c81c6b05e6d9315caa6e0c8b562c9d2413ec681954c14d5f0358ad7c9f0"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_2.5/mesh.geo",
+      "bytes": 273,
+      "sha256": "486ed259af3972fef62c8045580c7efc96a1d423e1b486e3e1a9e6ed37163b2e"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_2.5/mesh.msh",
+      "bytes": 3485443,
+      "sha256": "3a24ff243a6a6e0339bfc5b6e8ccb4887737ad86c14f323e352952b2888d770f"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_2.5/solver.log",
+      "bytes": 2223,
+      "sha256": "614b554b790e6c44c23a9e916e1303bb9a6fea8767fb87050492fc16abe7db34"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_2.5/spooles.out",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_2.5/summary.json",
+      "bytes": 483,
+      "sha256": "063de216b058e0037bca988e388d1e3a9a05b7141ea6a49f0b08ea66a6e5e173"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_2.5/yoke.12d",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_2.5/yoke.cvg",
+      "bytes": 278,
+      "sha256": "7949113325cb32be7bffd2b865928ef5606322c0f7f08d37a302e5063b074593"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_2.5/yoke.dat",
+      "bytes": 8842051,
+      "sha256": "3573097ca1e01058bddace419271d042dcdc90047f9eb148a6aede3bd2186c7e"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_2.5/yoke.frd",
+      "bytes": 9361749,
+      "sha256": "ccfdb993f13e670f52ee54b2ba302850797e30bb89e4d9ee83572836efe04a0d"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_2.5/yoke.inp",
+      "bytes": 2585790,
+      "sha256": "6f007a6f32f3f9e3bf948cd6cb784fe01a608e067c0e25195bd3754cdc79b667"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_2.5/yoke.sta",
+      "bytes": 173,
+      "sha256": "253efd59462bae0a6fce7b06552a063c82349747e482366b56da923c68b7ca9d"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_3.5/boundary.json",
+      "bytes": 49388,
+      "sha256": "fbe56edf3518eb407b1ca3d3504ee50a68ec2a541b2cd5d1cfec33c326caf73d"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_3.5/gmsh.log",
+      "bytes": 17407,
+      "sha256": "1175ad8dd968ba8f1b295cc9c79009932cfca79b624cb54511dd01f9765cccc5"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_3.5/mesh.geo",
+      "bytes": 273,
+      "sha256": "7cd34a5ed60f2b78f32460234e1344aeca90e2e48975aeb58f337bab6040a6c6"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_3.5/mesh.msh",
+      "bytes": 1684199,
+      "sha256": "367a5b64ad2f4e6e56475b6e06a4e1e0abbf3bf18036ba580ff751f8945fea11"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_3.5/solver.log",
+      "bytes": 2223,
+      "sha256": "281c20c424f65e1a7d3a4de5da551001f68bb3670e678e0f8dd7ca5e4fc4688f"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_3.5/spooles.out",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_3.5/summary.json",
+      "bytes": 474,
+      "sha256": "69083d18ccb3d01df3346b9b201c507f918e2aef9d0b7fa168f573116ed7e1b8"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_3.5/yoke.12d",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_3.5/yoke.cvg",
+      "bytes": 278,
+      "sha256": "7949113325cb32be7bffd2b865928ef5606322c0f7f08d37a302e5063b074593"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_3.5/yoke.dat",
+      "bytes": 4258163,
+      "sha256": "468267fce477352bd0bef99323313766daf1aa8c82e39daa8daa3f348b52c946"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_3.5/yoke.frd",
+      "bytes": 4680106,
+      "sha256": "50405957a3e2df5d5ca0ab429d17c86e4da2e2a8250d1f391af0ef96b4cfcd01"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_3.5/yoke.inp",
+      "bytes": 1220870,
+      "sha256": "02687c5e9dd580e57bffd78f75fe01b3cbd63beb8f56f37003643493d60a7ee5"
+    },
+    {
+      "path": "11_verification/yoke_c3d10_v10/mesh_3.5/yoke.sta",
+      "bytes": 173,
+      "sha256": "253efd59462bae0a6fce7b06552a063c82349747e482366b56da923c68b7ca9d"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09/connection_load_screen.json",
+      "bytes": 3768,
+      "sha256": "7d6ad7c7704b5d9f78b223324b5b60556b8e3f0d8b97335fb286a0cb62d0e9af"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09/summary.json",
+      "bytes": 2269,
+      "sha256": "b966d1d2367829109528118c1918a2fb36fd5449f471372336e0ada7e8376bf7"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09/mesh_1.2/boundary_conditions.json",
+      "bytes": 76238,
+      "sha256": "8669eb5772749ac12c64061633b78370330851943db3d2365053cd5090da814c"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09/mesh_1.2/gmsh.log",
+      "bytes": 11823,
+      "sha256": "4de9103ac3e7927cbbdc360f589f5286ad10d284a9788da66f4d400cf23e2d19"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09/mesh_1.2/mesh.geo",
+      "bytes": 221,
+      "sha256": "b71837ccd021bc08c45e8c500c28d5590507ab959314731a4090b2f30ffff55d"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09/mesh_1.2/mesh.msh",
+      "bytes": 6719717,
+      "sha256": "5e17c1a4e3c449bcb6ab0be055863f92fbf7890913068eca367774bf64865ac1"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09/mesh_1.2/result_summary.json",
+      "bytes": 459,
+      "sha256": "c4c6cf544e8e50c9165f36386e15923b983f9312947324045426009e6450f6ed"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09/mesh_1.2/solver.log",
+      "bytes": 2223,
+      "sha256": "cc01ea39a7179881ab7a6cbad82dcfa5bcdd02d1af750a6d0cdbc4f81eae9f33"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09/mesh_1.2/spooles.out",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09/mesh_1.2/yoke.12d",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09/mesh_1.2/yoke.cvg",
+      "bytes": 278,
+      "sha256": "7949113325cb32be7bffd2b865928ef5606322c0f7f08d37a302e5063b074593"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09/mesh_1.2/yoke.dat",
+      "bytes": 13913008,
+      "sha256": "d4501aa97fc4f229e437d36174b913f95d3c769542bd8f6448cd7ef47eb51ceb"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09/mesh_1.2/yoke.frd",
+      "bytes": 13691532,
+      "sha256": "e92909f3155628535b3dbf72c746f5715f25b3295ca1a794183dbf3758847925"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09/mesh_1.2/yoke.inp",
+      "bytes": 4499025,
+      "sha256": "a6d972f0c6386bc03b220090ec7dd804bbfea3bbc438b823e1619bc054fc365f"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09/mesh_1.2/yoke.sta",
+      "bytes": 173,
+      "sha256": "253efd59462bae0a6fce7b06552a063c82349747e482366b56da923c68b7ca9d"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09/mesh_1.8/boundary_conditions.json",
+      "bytes": 38242,
+      "sha256": "6ff71df3a90a396e2e3757c9f5ba127d80d3453d9cfff772f8c5eb20b2fb981a"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09/mesh_1.8/gmsh.log",
+      "bytes": 10480,
+      "sha256": "964153475e4ddbe3c74edd2123ed9d0e2b6030ba0f0efc750f55e8df27ed9f7e"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09/mesh_1.8/mesh.geo",
+      "bytes": 221,
+      "sha256": "9e1f9dde010175388b20930e344762ff5c7240275da744535980a21b970cd558"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09/mesh_1.8/mesh.msh",
+      "bytes": 2286379,
+      "sha256": "f79c7eeb003de0e601e989f24561a264a4faee1b3d04039ff6102d832c876446"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09/mesh_1.8/result_summary.json",
+      "bytes": 458,
+      "sha256": "a1ea37da1f97cb2ce4a05517077fcce02aa503a73a9e737e5f526561e4b1c757"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09/mesh_1.8/solver.log",
+      "bytes": 2222,
+      "sha256": "4fdb2510199b7cd97dbb0c0bb3927ee2836191113558d599c7ec24662d6f49dd"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09/mesh_1.8/spooles.out",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09/mesh_1.8/yoke.12d",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09/mesh_1.8/yoke.cvg",
+      "bytes": 278,
+      "sha256": "7949113325cb32be7bffd2b865928ef5606322c0f7f08d37a302e5063b074593"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09/mesh_1.8/yoke.dat",
+      "bytes": 4804060,
+      "sha256": "376558dabe12011c958c0783bbd9aef5de7a713807e949d3e35c37f066882149"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09/mesh_1.8/yoke.frd",
+      "bytes": 4864035,
+      "sha256": "76f7ce82bdca7b916d7c4c0da9547921e43241b9f98c364102d01cdf6ee06eab"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09/mesh_1.8/yoke.inp",
+      "bytes": 1419700,
+      "sha256": "6eee4b8d7998f00041a5cc431233c159f820ad28728324f3c5892795f8e74c24"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09/mesh_1.8/yoke.sta",
+      "bytes": 173,
+      "sha256": "253efd59462bae0a6fce7b06552a063c82349747e482366b56da923c68b7ca9d"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09/mesh_2.5/boundary_conditions.json",
+      "bytes": 23776,
+      "sha256": "18e4350f652f1ebc00c37886cbbc7aa9f3a9d0b1f1066f0318bec5f580422670"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09/mesh_2.5/gmsh.log",
+      "bytes": 10315,
+      "sha256": "e8a0e52717d6808e3001083d27594b9e0cdfdd508156233637f190f79cd195b5"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09/mesh_2.5/mesh.geo",
+      "bytes": 221,
+      "sha256": "e5f07c7eb9648cd2e99e5f5e1a37cabb98d4f324390af17d97b02432f0382396"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09/mesh_2.5/mesh.msh",
+      "bytes": 1158402,
+      "sha256": "711dc8aeb8efeecac383c47da17d6fc0badc23de46be6d4e1fc3cff3dc9e53d9"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09/mesh_2.5/result_summary.json",
+      "bytes": 456,
+      "sha256": "edf4140956d5868ca5b1cebe9dc5610a244e40836260f9a114d47245f84dbef0"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09/mesh_2.5/solver.log",
+      "bytes": 2222,
+      "sha256": "3805b086269fcea20f26b74a65103fda77ab499c91dbd092c9dfb8ae752a2695"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09/mesh_2.5/spooles.out",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09/mesh_2.5/yoke.12d",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09/mesh_2.5/yoke.cvg",
+      "bytes": 278,
+      "sha256": "7949113325cb32be7bffd2b865928ef5606322c0f7f08d37a302e5063b074593"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09/mesh_2.5/yoke.dat",
+      "bytes": 2346896,
+      "sha256": "4899228e33adf141ca13051ad687bd93e5dc7d617f2bd81e9ba6f3e8e120589c"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09/mesh_2.5/yoke.frd",
+      "bytes": 2433401,
+      "sha256": "059eb1a2179fc2450249a62f4b4d14b955c933a905743083bb1d0a10a98e8d3c"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09/mesh_2.5/yoke.inp",
+      "bytes": 682090,
+      "sha256": "aec8c21daff99676f19be43072a64c9b03312758fe7fc893d14a3fb9b9eed4a6"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09/mesh_2.5/yoke.sta",
+      "bytes": 173,
+      "sha256": "253efd59462bae0a6fce7b06552a063c82349747e482366b56da923c68b7ca9d"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09_radial/summary_custom.json",
+      "bytes": 2382,
+      "sha256": "95b3bd7d122d97e2a46e49db5410ace374bcb06e55d86cef6f055544415c64d7"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09_radial/mesh_0.8/boundary_conditions.json",
+      "bytes": 162349,
+      "sha256": "3d0efb73af447fdd14d678226bccb4ce1d84bba4ac4872d5384c8bcb01dc2e4f"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09_radial/mesh_0.8/gmsh.log",
+      "bytes": 17210,
+      "sha256": "20f568b5c00c3c851502f94e4947a052674d57d32c70a05f9bfb47444272b43e"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09_radial/mesh_0.8/mesh.geo",
+      "bytes": 221,
+      "sha256": "a9497eddc3a1c3d656ace81b620082069065b4a86e9d71e588f7d201a7c5bc3b"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09_radial/mesh_0.8/mesh.msh",
+      "bytes": 20647988,
+      "sha256": "b8e4a5009b6dfc441a50603dcd09d0607ba51e3891138e7009470ba2c81e01eb"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09_radial/mesh_0.8/result_summary.json",
+      "bytes": 717,
+      "sha256": "c7df5145fcd2755819e8c39744a590a88be3f7d9755ad98011aac3c928b26771"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09_radial/mesh_0.8/solver.log",
+      "bytes": 2224,
+      "sha256": "587c6106d141f97d6c191f4c03a10f973fefe12cb66b1789436bb994d033405b"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09_radial/mesh_0.8/spooles.out",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09_radial/mesh_0.8/yoke.12d",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09_radial/mesh_0.8/yoke.cvg",
+      "bytes": 278,
+      "sha256": "7949113325cb32be7bffd2b865928ef5606322c0f7f08d37a302e5063b074593"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09_radial/mesh_0.8/yoke.dat",
+      "bytes": 43762344,
+      "sha256": "af54f16eaa29ccd3070b7cb9ff336c8782fa967b06b401b838d1eb548acb8313"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09_radial/mesh_0.8/yoke.frd",
+      "bytes": 42015309,
+      "sha256": "3f5bc4cb984a96562d3fa0f5200a98393cf3b76945c336686ab3f2633670cfcd"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09_radial/mesh_0.8/yoke.inp",
+      "bytes": 14657714,
+      "sha256": "5f18412259135f2f0d9cc61f731fe75e5c1a97ed9e6d57b2bcd9039326d277f7"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09_radial/mesh_0.8/yoke.sta",
+      "bytes": 173,
+      "sha256": "253efd59462bae0a6fce7b06552a063c82349747e482366b56da923c68b7ca9d"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09_radial/mesh_1.2/boundary_conditions.json",
+      "bytes": 76238,
+      "sha256": "8669eb5772749ac12c64061633b78370330851943db3d2365053cd5090da814c"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09_radial/mesh_1.2/gmsh.log",
+      "bytes": 113,
+      "sha256": "9913261cd1db1cb52ad989534d2d0bc731ba0e7f43e51ce96809078746511121"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09_radial/mesh_1.2/mesh.geo",
+      "bytes": 221,
+      "sha256": "b71837ccd021bc08c45e8c500c28d5590507ab959314731a4090b2f30ffff55d"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09_radial/mesh_1.2/mesh.msh",
+      "bytes": 6719717,
+      "sha256": "5e17c1a4e3c449bcb6ab0be055863f92fbf7890913068eca367774bf64865ac1"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09_radial/mesh_1.2/result_summary.json",
+      "bytes": 715,
+      "sha256": "3b34f8531bcf2b47b75f0c74b1abafb653a60b7946378e98a60b28f23c4b695e"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09_radial/mesh_1.2/solver.log",
+      "bytes": 2223,
+      "sha256": "368de279b3989e64318052a60b1bc597a475b32eba89cc2f99561c4d7e926731"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09_radial/mesh_1.2/spooles.out",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09_radial/mesh_1.2/yoke.12d",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09_radial/mesh_1.2/yoke.cvg",
+      "bytes": 278,
+      "sha256": "7949113325cb32be7bffd2b865928ef5606322c0f7f08d37a302e5063b074593"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09_radial/mesh_1.2/yoke.dat",
+      "bytes": 13913008,
+      "sha256": "f4a5bb4166d76fd6d0d570ee4e3a4b5c5a1793bf6a78b4ccdd3ad42abb80107e"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09_radial/mesh_1.2/yoke.frd",
+      "bytes": 13691532,
+      "sha256": "64e1360c74be109d2d1b21d3d1d13d6d851c688840483e18b0541cd9d813f845"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09_radial/mesh_1.2/yoke.inp",
+      "bytes": 4499082,
+      "sha256": "ba281966ef233b620be5d709fb23ee8c61e66f8db00b58f6b14270f7a1349dff"
+    },
+    {
+      "path": "11_verification/yoke_fea_reinforced_v09_radial/mesh_1.2/yoke.sta",
+      "bytes": 173,
+      "sha256": "253efd59462bae0a6fce7b06552a063c82349747e482366b56da923c68b7ca9d"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/summary.json",
+      "bytes": 2261,
+      "sha256": "9606d1441d7f10fa795e741c8f161373411fe7eb6875df17e6e6e8cfe84ab006"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/summary_custom.json",
+      "bytes": 1226,
+      "sha256": "18e441fef36721c1b9a63f175d99b8555589ab3ffef5f60d348dc384aadcc02c"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_0.8/boundary_conditions.json",
+      "bytes": 166906,
+      "sha256": "35484cb1596533aea808e25f0fd8bcc01ae6b6cb146a9749ff7c7b7be541358a"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_0.8/gmsh.log",
+      "bytes": 10071,
+      "sha256": "85e0049c20d343100d7afa33846a3bf574d17d577ab30b5cd2f6de25724b413c"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_0.8/mesh.geo",
+      "bytes": 221,
+      "sha256": "0943a864682fce9bae40bfb018b769d51b708070cd6bdf46b14add1f4ea87c11"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_0.8/mesh.msh",
+      "bytes": 9504429,
+      "sha256": "8bf37724fcd7737b0606794eedc6afe62c80662b913862e038da331b52860700"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_0.8/result_summary.json",
+      "bytes": 460,
+      "sha256": "0af3bf1960838c0b5a1859284fe48d30261dee195afc73dc625830991bd6a5a8"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_0.8/solver.log",
+      "bytes": 2224,
+      "sha256": "0938ccb39b738ffd0a6229d1e36ecbf8f92443feb32d560bd59d5fbae70b4611"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_0.8/spooles.out",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_0.8/yoke.12d",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_0.8/yoke.cvg",
+      "bytes": 278,
+      "sha256": "7949113325cb32be7bffd2b865928ef5606322c0f7f08d37a302e5063b074593"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_0.8/yoke.dat",
+      "bytes": 19507324,
+      "sha256": "515691a5415aa64871237c7c83bb5a53ac2337bc362a8cb9119e10db9f7e5d18"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_0.8/yoke.frd",
+      "bytes": 19137210,
+      "sha256": "2219d9c8cba5933deee95e24b5806e1af903fdab53157cabd256c61ee360b723"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_0.8/yoke.inp",
+      "bytes": 6470987,
+      "sha256": "b737a42bb3cd6e6fbd73f05f5ffd13fe418f7768e3bcadea7d3a20dc44e64b57"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_0.8/yoke.sta",
+      "bytes": 173,
+      "sha256": "253efd59462bae0a6fce7b06552a063c82349747e482366b56da923c68b7ca9d"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_1.2/boundary_conditions.json",
+      "bytes": 76606,
+      "sha256": "b0792efb116e133004d82b8fa1f8de31fa50e47a36da8a3d1f3e3226056d3eb3"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_1.2/gmsh.log",
+      "bytes": 8022,
+      "sha256": "4c75b4648b49782e1c9c3838320b904186c5d312b6c0c2b347d5b8cabc80e23f"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_1.2/mesh.geo",
+      "bytes": 221,
+      "sha256": "80c2e0e6ca378e44e06abacabaa4e29f3f5f7f74f6d5be4195d0ba77549effa5"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_1.2/mesh.msh",
+      "bytes": 3146801,
+      "sha256": "3dc11def377f6f780114b5aa1c2dc381eb22f739fd1f9b99d10210403d9cbad1"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_1.2/result_summary.json",
+      "bytes": 454,
+      "sha256": "2dbdd61ccde7df87912e262dfd01a74c5a2978dd6c6f52e09054e8338922c3b4"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_1.2/solver.log",
+      "bytes": 2222,
+      "sha256": "df4bca62305f17719209fede9cb86fd366b3a53eb5ed4cff022bbf94a7de878c"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_1.2/spooles.out",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_1.2/yoke.12d",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_1.2/yoke.cvg",
+      "bytes": 278,
+      "sha256": "7949113325cb32be7bffd2b865928ef5606322c0f7f08d37a302e5063b074593"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_1.2/yoke.dat",
+      "bytes": 6352076,
+      "sha256": "e321f82a7261f4272fe6451db9ad3f928e277eaa28fe0253d9a23a50ec5f705b"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_1.2/yoke.frd",
+      "bytes": 6440439,
+      "sha256": "ca6a1db36f6f671730abe71c79a7b4e0593aab8b49cb29eb6f32e917b27e67e2"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_1.2/yoke.inp",
+      "bytes": 2007695,
+      "sha256": "f0f6d69963cf235efefb13a975310b035af0a291d2906fc0319f934d6d629d27"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_1.2/yoke.sta",
+      "bytes": 173,
+      "sha256": "253efd59462bae0a6fce7b06552a063c82349747e482366b56da923c68b7ca9d"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_1.8/boundary_conditions.json",
+      "bytes": 38583,
+      "sha256": "d3abf69fb10a40d5ffb919c9c99013aa97ea66153efed0a24445f95c464905b9"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_1.8/gmsh.log",
+      "bytes": 7701,
+      "sha256": "87969bc42e65a7dd6faba6a89fe93fbfab53f8b470bdbb007af3bc4da1968145"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_1.8/mesh.geo",
+      "bytes": 221,
+      "sha256": "02187b9a81d1e4026ea8fe718098b161c792b9962149fa7e5fb3a51ed06151c0"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_1.8/mesh.msh",
+      "bytes": 1233887,
+      "sha256": "f7d79c16ea1057e38d1ba6a604a06002ad69c6c1fedd5d57cee079871ce29782"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_1.8/result_summary.json",
+      "bytes": 457,
+      "sha256": "4494ffacc909d2514ad6f2b6995709ec3f6356ea0700878ce86474d5f076b9bc"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_1.8/solver.log",
+      "bytes": 2222,
+      "sha256": "4b464cd215dc9ddd1111c760930d70b4fc018b326e6df992e33f17c68d540cca"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_1.8/spooles.out",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_1.8/yoke.12d",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_1.8/yoke.cvg",
+      "bytes": 278,
+      "sha256": "7949113325cb32be7bffd2b865928ef5606322c0f7f08d37a302e5063b074593"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_1.8/yoke.dat",
+      "bytes": 2458060,
+      "sha256": "8969f5979ea92429d7e8ccbc4331c8c7ec2876377b8609d942ea33052dc5c5be"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_1.8/yoke.frd",
+      "bytes": 2565551,
+      "sha256": "c3fc0b5cefaec6b23be3294e5dd71ab690be6acc5444280c966e4c345e065783"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_1.8/yoke.inp",
+      "bytes": 730101,
+      "sha256": "bc745131550d7d60f071416d8e2a0851a4e77b0bc812c733eaa770d697dbac9e"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_1.8/yoke.sta",
+      "bytes": 173,
+      "sha256": "253efd59462bae0a6fce7b06552a063c82349747e482366b56da923c68b7ca9d"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_2.5/boundary_conditions.json",
+      "bytes": 23781,
+      "sha256": "ec5b66bf46e13ba6f7e06a8a47d508e09ad032a49c8066ee548f92a9d6688366"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_2.5/gmsh.log",
+      "bytes": 7681,
+      "sha256": "a4dec5ff78fc971370d2ffac60c907a809df1f05e9abfff3d645216cf6312ca5"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_2.5/mesh.geo",
+      "bytes": 221,
+      "sha256": "fe56cc159505e91656ba7ac57876c44666aaa18f5e995f458c13bba9eda6dc41"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_2.5/mesh.msh",
+      "bytes": 661492,
+      "sha256": "be198e42b6ffadfe92ede07d9be179d8dab80b3ef3d7147b99e4ce5e22a7e46c"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_2.5/result_summary.json",
+      "bytes": 454,
+      "sha256": "01beb6991e825b52e11be9f3deafa2b22b6e1e0057c51f25f4dbee3de34aad8c"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_2.5/solver.log",
+      "bytes": 2221,
+      "sha256": "c3ce468a1b1a19eb3b39d0ffcce0f64d59be1b0e9c895ea72cffee48711bab95"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_2.5/spooles.out",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_2.5/yoke.12d",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_2.5/yoke.cvg",
+      "bytes": 278,
+      "sha256": "7949113325cb32be7bffd2b865928ef5606322c0f7f08d37a302e5063b074593"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_2.5/yoke.dat",
+      "bytes": 1280496,
+      "sha256": "d9cc6e6eccf95b2a3d759e6ff2cb30313bf51102fa60223b416167853acfcbd0"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_2.5/yoke.frd",
+      "bytes": 1368635,
+      "sha256": "1ed50fea663db7ecf7feab815e78cb0bb684171d0f35db2e56cc952cf984e4f1"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_2.5/yoke.inp",
+      "bytes": 371572,
+      "sha256": "31c1335b65892b7f95312dfbf6f58f6a21faddab15b8570a2ab104a3f187756b"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09/mesh_2.5/yoke.sta",
+      "bytes": 173,
+      "sha256": "253efd59462bae0a6fce7b06552a063c82349747e482366b56da923c68b7ca9d"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09_radial/summary_custom.json",
+      "bytes": 2375,
+      "sha256": "dce36fdcddead168e98125f6d3346168a76d3087b0abe5802a7790f118371e38"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09_radial/mesh_0.8/boundary_conditions.json",
+      "bytes": 166906,
+      "sha256": "35484cb1596533aea808e25f0fd8bcc01ae6b6cb146a9749ff7c7b7be541358a"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09_radial/mesh_0.8/gmsh.log",
+      "bytes": 102,
+      "sha256": "b5c38f215dbc210df4ae851a15b53f373751000863a9723acef5d6792b950502"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09_radial/mesh_0.8/mesh.geo",
+      "bytes": 221,
+      "sha256": "0943a864682fce9bae40bfb018b769d51b708070cd6bdf46b14add1f4ea87c11"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09_radial/mesh_0.8/mesh.msh",
+      "bytes": 9504429,
+      "sha256": "8bf37724fcd7737b0606794eedc6afe62c80662b913862e038da331b52860700"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09_radial/mesh_0.8/result_summary.json",
+      "bytes": 715,
+      "sha256": "d0246762b01f5cddf158fa3e2ce34a70e5dcd2764b3819d734b020819de5f3bb"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09_radial/mesh_0.8/solver.log",
+      "bytes": 2224,
+      "sha256": "5ba722d122a6dff1eaa40f4cd9a8aeb1e36e94d7ca9b793919ff30cf9737e159"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09_radial/mesh_0.8/spooles.out",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09_radial/mesh_0.8/yoke.12d",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09_radial/mesh_0.8/yoke.cvg",
+      "bytes": 278,
+      "sha256": "7949113325cb32be7bffd2b865928ef5606322c0f7f08d37a302e5063b074593"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09_radial/mesh_0.8/yoke.dat",
+      "bytes": 19507324,
+      "sha256": "74f7474c2f7b1cfcfed5aabb11c0d0bcb548bac3be82249dbf1e168e52b22120"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09_radial/mesh_0.8/yoke.frd",
+      "bytes": 19137210,
+      "sha256": "8577cdafa01799c62da799d838bc665452e9b2ae4b9ec3731710794c4b35c7b7"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09_radial/mesh_0.8/yoke.inp",
+      "bytes": 6471044,
+      "sha256": "df98220e72bebc075708ff0bca39e5bfb920e97941a1f8246596ae5a03c8b875"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09_radial/mesh_0.8/yoke.sta",
+      "bytes": 173,
+      "sha256": "253efd59462bae0a6fce7b06552a063c82349747e482366b56da923c68b7ca9d"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09_radial/mesh_1.2/boundary_conditions.json",
+      "bytes": 76606,
+      "sha256": "b0792efb116e133004d82b8fa1f8de31fa50e47a36da8a3d1f3e3226056d3eb3"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09_radial/mesh_1.2/gmsh.log",
+      "bytes": 102,
+      "sha256": "b7174fd1f2f3125eddfea67702b0d457c624078e8b5da02bc297a08ec2ad16ec"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09_radial/mesh_1.2/mesh.geo",
+      "bytes": 221,
+      "sha256": "80c2e0e6ca378e44e06abacabaa4e29f3f5f7f74f6d5be4195d0ba77549effa5"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09_radial/mesh_1.2/mesh.msh",
+      "bytes": 3146801,
+      "sha256": "3dc11def377f6f780114b5aa1c2dc381eb22f739fd1f9b99d10210403d9cbad1"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09_radial/mesh_1.2/result_summary.json",
+      "bytes": 710,
+      "sha256": "678fb15af2386f270e0ac63eab7f09a86ddef4300bb92cbb0ce360378a8fec75"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09_radial/mesh_1.2/solver.log",
+      "bytes": 2222,
+      "sha256": "9c4a80896a28d4b4b0d8d9304e5aac511e645b35c5fa2c83727e138c5ff34c4d"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09_radial/mesh_1.2/spooles.out",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09_radial/mesh_1.2/yoke.12d",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09_radial/mesh_1.2/yoke.cvg",
+      "bytes": 278,
+      "sha256": "7949113325cb32be7bffd2b865928ef5606322c0f7f08d37a302e5063b074593"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09_radial/mesh_1.2/yoke.dat",
+      "bytes": 6352076,
+      "sha256": "4cd642141fb52e2becf0ae5a820d606e06d8e81a0911821cc1d22bf96b8f3cd2"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09_radial/mesh_1.2/yoke.frd",
+      "bytes": 6440439,
+      "sha256": "da3cb650c5dfd1f7aa8246648f28eba489421392ed99269f941af91165186797"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09_radial/mesh_1.2/yoke.inp",
+      "bytes": 2007752,
+      "sha256": "ee756df0c0566adf4895225d7ba5d1b8acad590d55d614a696eabcbd428dc19b"
+    },
+    {
+      "path": "11_verification/yoke_fea_v09_radial/mesh_1.2/yoke.sta",
+      "bytes": 173,
+      "sha256": "253efd59462bae0a6fce7b06552a063c82349747e482366b56da923c68b7ca9d"
+    },
+    {
+      "path": "15_build/ankle_v08_assembly_draft.md",
+      "bytes": 2149,
+      "sha256": "16ab0ceff7b65a16c7b273167314f4f5593c1d684e0de227ae89b83a18f7cc4d"
+    },
+    {
+      "path": "16_calibration/connector_stiffness_test_plan.md",
+      "bytes": 1847,
+      "sha256": "bedd83f1be1cc2d98c9abde5f23ea3cb2424f601ac50f33b94568d1f9a508eaa"
+    },
+    {
+      "path": "20_training/compute_plan.md",
+      "bytes": 1822,
+      "sha256": "3e4eada6b6369900aa8e5616d466c6f9afdf41b947dad0de3ca1d5f7a5b0ee28"
+    },
+    {
+      "path": "deliverables/ankle_cad_review_v07.md",
+      "bytes": 5114,
+      "sha256": "3d33053a457520090aefd5bc65420eb45e2fadc35c1b7f84d2216b2daf348b2d"
+    },
+    {
+      "path": "deliverables/ankle_foot_review_v06.md",
+      "bytes": 1672,
+      "sha256": "1123821f59151e55ce51699d2088d381eb22b353f23b8fdc5feb490884191eae"
+    },
+    {
+      "path": "deliverables/ankle_structure_review_v08.md",
+      "bytes": 4677,
+      "sha256": "aba23e3303d6993ad31454257d41f95e862d05a8188452f32422b5850695171b"
+    },
+    {
+      "path": "deliverables/architecture_review_v13.md",
+      "bytes": 5307,
+      "sha256": "7d029e53dbb038af6764a83dd13de01636d458df6f19eecded892d01f60f0dd6"
+    },
+    {
+      "path": "deliverables/connector_transition_review_v11.md",
+      "bytes": 3683,
+      "sha256": "36a4cacdcb0defb7fa06f468abc6fcc34ab6bd66392ba2a4e63ae239d5204bab"
+    },
+    {
+      "path": "deliverables/feasibility_review_v01.md",
+      "bytes": 7513,
+      "sha256": "dc89744b10f5ec420fbd955b7d0bbe87eb0e3a8edd08acdc6110592ab61ada15"
+    },
+    {
+      "path": "deliverables/fullbody_integration_v12.md",
+      "bytes": 6870,
+      "sha256": "ccaff474063f73a699f9f34da490880f56dfd470f41a77d7d3326ebfa91fa1c3"
+    },
+    {
+      "path": "deliverables/kinematic_review_v02.md",
+      "bytes": 2891,
+      "sha256": "4a5bff9a7133829dcd0291fef970410af50a73f3dbcaf44fbd363ce6b565aeb5"
+    },
+    {
+      "path": "deliverables/mounting_review_v04.md",
+      "bytes": 3646,
+      "sha256": "63ea8f06bccd4ce377895856879f4bd01d429f29851feab8c949f8f37a18ded8"
+    },
+    {
+      "path": "deliverables/quadratic_convergence_v10.md",
+      "bytes": 4355,
+      "sha256": "c881ff2343190e4769514de3b862aaa81bd34c7c5423e6e98d10e14947922a6a"
+    },
+    {
+      "path": "deliverables/stance_resolution_v05.md",
+      "bytes": 3368,
+      "sha256": "8333f13fa267ccf467b8474fac34b6e5498e8fe1fc4196ba8ebe70ea3d9548c6"
+    },
+    {
+      "path": "deliverables/stiffness_review_v09.md",
+      "bytes": 5408,
+      "sha256": "9ee13030452e3c3ec574fb94671c8b766a228b928b6d6344f8a6cad2e0d82e07"
+    },
+    {
+      "path": "deliverables/whole_body_review_v03.md",
+      "bytes": 4580,
+      "sha256": "7cf6d9f5e269fbe24963b4997c5092f5d1ec8d4443f276e50334f0c3e55ca0ec"
+    },
+    {
+      "path": "prompts/robot_master_prompt.md",
+      "bytes": 20566,
+      "sha256": "1e2c2d1073d52272084f477ae1279b5f4320aabe6ff330285e58d20677a1ddd7"
+    },
+    {
+      "path": "tools/host_inventory.md",
+      "bytes": 1427,
+      "sha256": "4345922560421f68822e57132b00a9b21f9ed518d4c99a2d14688014eeda203b"
+    },
+    {
+      "path": "tools/save_checkpoint.py",
+      "bytes": 4073,
+      "sha256": "c5bd19ee33443d6cfa18954afef59b3c01b98f00007c94d7096b0a0cfbd3e179"
+    }
+  ],
+  "empty_directories_preserved": true
+}

@@ -1,0 +1,14 @@
+{
+  "version":"v0.17",
+  "status":"preferred_candidate_not_control_release",
+  "proposed_total_dof":28,
+  "allocation":{"legs":12,"shoulders":6,"elbows":2,"wrists":4,"grippers":2,"neck":2},
+  "change":"Add shoulder axial rotation/yaw to each arm; retain two wrist axes and original tasks.",
+  "reason":"The gauntlet pad is fixed to the forearm, so wrist axes do not control its pose. A 28-DOF comparison with rotated gauntlet mounting found a near-ground arm configuration; the current 26-DOF finite search did not.",
+  "evidence":"04_kinematics/gauntlet_contact_v17.json; 09_cad/gauntlet_v17/replay_results.json",
+  "extra_motor_mass_reference_kg":0.164,
+  "source_type":"assumed_engineering_proposal_with_calculated_evidence",
+  "uncertainty":"26 DOF global impossibility is not established. Shoulder packaging, genuine ROM and loaded wholebody recovery remain unresolved.",
+  "control_warning":"No existing motor channel map, calibration zero or trained policy is upgraded automatically. Rebuild and verify mappings when architecture is frozen.",
+  "updated_at":"2026-09-06"
+}
