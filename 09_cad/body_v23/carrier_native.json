@@ -1,0 +1,191 @@
+{
+  "component_count": 20,
+  "components": {
+    "ElectronicsCarrier": {
+      "group": "electronics_mount_v23",
+      "role": "structure",
+      "source_type": "CAD_density_reference",
+      "mass_kg": 0.022788882125613263,
+      "material_assumption": "PETG_reference"
+    },
+    "BatteryPadding": {
+      "group": "electronics_mount_v23",
+      "role": "pad",
+      "source_type": "CAD_density_reference",
+      "mass_kg": 0.0008891999999999999,
+      "material_assumption": "foam_assumed"
+    },
+    "BatteryRetainer0": {
+      "group": "electronics_mount_v23",
+      "role": "retainer",
+      "source_type": "CAD_density_reference",
+      "mass_kg": 0.0015235199999999998,
+      "material_assumption": "strap_and_grommet_assumed"
+    },
+    "BatteryRetainer1": {
+      "group": "electronics_mount_v23",
+      "role": "retainer",
+      "source_type": "CAD_density_reference",
+      "mass_kg": 0.0015235199999999998,
+      "material_assumption": "strap_and_grommet_assumed"
+    },
+    "ComputerCushion0": {
+      "group": "electronics_mount_v23",
+      "role": "pad",
+      "source_type": "CAD_density_reference",
+      "mass_kg": 1.08e-05,
+      "material_assumption": "foam_assumed"
+    },
+    "ComputerCushion1": {
+      "group": "electronics_mount_v23",
+      "role": "pad",
+      "source_type": "CAD_density_reference",
+      "mass_kg": 1.08e-05,
+      "material_assumption": "foam_assumed"
+    },
+    "ComputerCushion2": {
+      "group": "electronics_mount_v23",
+      "role": "pad",
+      "source_type": "CAD_density_reference",
+      "mass_kg": 1.08e-05,
+      "material_assumption": "foam_assumed"
+    },
+    "ComputerCushion3": {
+      "group": "electronics_mount_v23",
+      "role": "pad",
+      "source_type": "CAD_density_reference",
+      "mass_kg": 1.08e-05,
+      "material_assumption": "foam_assumed"
+    },
+    "ComputerRetainer0": {
+      "group": "electronics_mount_v23",
+      "role": "retainer",
+      "source_type": "CAD_density_reference",
+      "mass_kg": 0.0016468,
+      "material_assumption": "strap_and_grommet_assumed"
+    },
+    "ComputerRetainer1": {
+      "group": "electronics_mount_v23",
+      "role": "retainer",
+      "source_type": "CAD_density_reference",
+      "mass_kg": 0.0016468,
+      "material_assumption": "strap_and_grommet_assumed"
+    },
+    "PowerPadding": {
+      "group": "electronics_mount_v23",
+      "role": "pad",
+      "source_type": "CAD_density_reference",
+      "mass_kg": 0.0003528,
+      "material_assumption": "foam_assumed"
+    },
+    "PowerRetainer0": {
+      "group": "electronics_mount_v23",
+      "role": "retainer",
+      "source_type": "CAD_density_reference",
+      "mass_kg": 0.0007589999999999994,
+      "material_assumption": "strap_and_grommet_assumed"
+    },
+    "PowerRetainer1": {
+      "group": "electronics_mount_v23",
+      "role": "retainer",
+      "source_type": "CAD_density_reference",
+      "mass_kg": 0.0007589999999999994,
+      "material_assumption": "strap_and_grommet_assumed"
+    },
+    "CarrierScrew0": {
+      "group": "electronics_mount_v23",
+      "role": "fastener",
+      "source_type": "CAD_density_reference",
+      "mass_kg": 0.00048150634277871696,
+      "material_assumption": "steel_assumed"
+    },
+    "CarrierScrew1": {
+      "group": "electronics_mount_v23",
+      "role": "fastener",
+      "source_type": "CAD_density_reference",
+      "mass_kg": 0.00048150634277871696,
+      "material_assumption": "steel_assumed"
+    },
+    "CarrierScrew2": {
+      "group": "electronics_mount_v23",
+      "role": "fastener",
+      "source_type": "CAD_density_reference",
+      "mass_kg": 0.00048150634277871696,
+      "material_assumption": "steel_assumed"
+    },
+    "CarrierScrew3": {
+      "group": "electronics_mount_v23",
+      "role": "fastener",
+      "source_type": "CAD_density_reference",
+      "mass_kg": 0.00048150634277871696,
+      "material_assumption": "steel_assumed"
+    },
+    "PelvisPlate": {
+      "group": "electronics_mount_v23",
+      "role": "structure",
+      "source_type": "CAD_density_reference",
+      "mass_kg": 0.07297276841664767,
+      "material_assumption": "aluminum_assumed"
+    },
+    "HarnessGrommet": {
+      "group": "electronics_mount_v23",
+      "role": "grommet",
+      "source_type": "CAD_density_reference",
+      "mass_kg": 0.00016388707126073701,
+      "material_assumption": "strap_and_grommet_assumed"
+    },
+    "PowerHarnessKeepout": {
+      "group": "electronics_mount_v23",
+      "role": "keepout",
+      "source_type": "assumed_keepout",
+      "mass_kg": null,
+      "material_assumption": null
+    }
+  },
+  "harness": {
+    "bend_arcs": [
+      {
+        "radius_mm": 8,
+        "tangent_before_mm": [
+          -36.0,
+          -32.0,
+          76.0
+        ],
+        "tangent_after_mm": [
+          -36.0,
+          -40.0,
+          68.0
+        ]
+      },
+      {
+        "radius_mm": 8,
+        "tangent_before_mm": [
+          -36.0,
+          -40.0,
+          50.0
+        ],
+        "tangent_after_mm": [
+          -28.0,
+          -40.0,
+          42.0
+        ]
+      },
+      {
+        "radius_mm": 8,
+        "tangent_before_mm": [
+          16.0,
+          -40.0,
+          42.0
+        ],
+        "tangent_after_mm": [
+          24.0,
+          -32.0,
+          42.0
+        ]
+      }
+    ],
+    "centerline_length_mm": 135.6991118430775,
+    "connector_locations_unconfirmed": true
+  },
+  "scope": "Reference envelopes, no mounting or manufacturing release"
+}

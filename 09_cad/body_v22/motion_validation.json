@@ -1,0 +1,2547 @@
+{
+  "input_sha256": "1e63c994d90515c4912b135b2ee1671b7bbefbf364423c4361aa1213ef2790a5",
+  "selected_layout": {
+    "stage": "v0.22",
+    "translations_relative_v21_body_mm": {
+      "battery": [
+        -4,
+        0,
+        4
+      ],
+      "computer": [
+        -4,
+        0,
+        0
+      ],
+      "power": [
+        -12,
+        0,
+        0
+      ]
+    },
+    "nominal_clearance_mm": 2.0,
+    "selection_rule": "Minimum total rigid translation among2mm-clearance survivors",
+    "source": "09_cad/body_v22/layout_clearance_2.json",
+    "manufacturing_release": false
+  },
+  "samples": [
+    {
+      "clearance_failures": [],
+      "near_clearance_pairs": [
+        {
+          "a": "PelvisPlate",
+          "b": "battery",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 6.000000000000007
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "power",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 2.000000000000011
+        },
+        {
+          "a": "battery",
+          "b": "microphone",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 16.999999999999915
+        },
+        {
+          "a": "battery",
+          "b": "computer",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 4.999999999999928
+        },
+        {
+          "a": "battery",
+          "b": "power",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 12.000000000000021
+        },
+        {
+          "a": "battery",
+          "b": "camera",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 34.5
+        },
+        {
+          "a": "battery",
+          "b": "NeckMotor0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 20.99999999999997
+        },
+        {
+          "a": "battery",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 10.99999999999996
+        },
+        {
+          "a": "battery",
+          "b": "L_ThighRailm1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 3.299209226014604
+        },
+        {
+          "a": "battery",
+          "b": "R_ElbowMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 28.350754779896562
+        },
+        {
+          "a": "microphone",
+          "b": "computer",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 1.9999999999999485
+        },
+        {
+          "a": "computer",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 16.748151459154165
+        },
+        {
+          "a": "computer",
+          "b": "R_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 34.74999999999994
+        },
+        {
+          "a": "computer",
+          "b": "L_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 34.75000000000253
+        },
+        {
+          "a": "power",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 54.99999999999999
+        },
+        {
+          "a": "power",
+          "b": "L_ThighRailm1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 4.330315800625492
+        }
+      ],
+      "other_or_full_collisions": [],
+      "full_pair_audit": true,
+      "ground_penetrations_mm": {},
+      "mass_kg": 4.072501811775055,
+      "COM_mm": [
+        -14.688761785689904,
+        0.9382773423305232,
+        126.07403231474225
+      ],
+      "COM_change_mm": [
+        -0.20995573950601215,
+        0.0,
+        0.4108017038764321
+      ],
+      "volume_errors_mm3": {
+        "computer": 3.637978807091713e-12,
+        "battery": 1.4551915228366852e-11,
+        "power": 3.637978807091713e-12
+      },
+      "geometry_clearance_pass": true,
+      "h_mm": 114,
+      "support": {
+        "support_polygon_margin_mm": 12.264085208277084,
+        "hull_vertex_indices": [
+          1,
+          4,
+          5,
+          2,
+          3
+        ],
+        "force_ranges": [
+          {
+            "point_index": 0,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 22.656363556118038
+          },
+          {
+            "point_index": 1,
+            "minimum_force_N": 7.2167543827547735,
+            "maximum_force_N": 22.573268782749633
+          },
+          {
+            "point_index": 2,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 4.314166562175715
+          },
+          {
+            "point_index": 3,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 5.328877784192458
+          },
+          {
+            "point_index": 4,
+            "minimum_force_N": 8.689757047708216,
+            "maximum_force_N": 15.75511798082041
+          },
+          {
+            "point_index": 5,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 8.688216943055442
+          }
+        ],
+        "right_palm_at_least_1N_feasible": true,
+        "scope": "Flat rigid ground, vertical gravity and unilateral point reactions only. 1N is a diagnostic probe, not a required or commanded hardware load."
+      },
+      "static_balance": {
+        "nonnegative_vertical_balance_exists": true,
+        "forces_N": [
+          10.49938604219286,
+          14.752336820859483,
+          0.0,
+          1.0129030720725138,
+          10.67612338170414,
+          3.01049345668429
+        ],
+        "force_residual_N": -7.105427357601002e-15,
+        "moment_residual_Nm": [
+          -7.771561172376096e-16,
+          8.326672684688674e-17
+        ]
+      },
+      "sample_geometry_and_vertical_balance_pass": true
+    },
+    {
+      "clearance_failures": [],
+      "near_clearance_pairs": [
+        {
+          "a": "PelvisPlate",
+          "b": "battery",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 6.000000000000007
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "power",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 1.999999999999988
+        },
+        {
+          "a": "battery",
+          "b": "microphone",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 16.999999999999915
+        },
+        {
+          "a": "battery",
+          "b": "computer",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 4.999999999999928
+        },
+        {
+          "a": "battery",
+          "b": "power",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 12.000000000000021
+        },
+        {
+          "a": "battery",
+          "b": "camera",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 34.5
+        },
+        {
+          "a": "battery",
+          "b": "NeckMotor0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 20.99999999999997
+        },
+        {
+          "a": "battery",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 10.99999999999996
+        },
+        {
+          "a": "battery",
+          "b": "L_ThighRailm1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 3.811060681674319
+        },
+        {
+          "a": "battery",
+          "b": "R_ElbowMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 28.898392675650886
+        },
+        {
+          "a": "microphone",
+          "b": "computer",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 1.9999999999999485
+        },
+        {
+          "a": "computer",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 16.748151459154165
+        },
+        {
+          "a": "computer",
+          "b": "R_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 34.74999999999995
+        },
+        {
+          "a": "computer",
+          "b": "L_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 34.750000000006615
+        },
+        {
+          "a": "power",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 54.99999999999999
+        },
+        {
+          "a": "power",
+          "b": "L_ThighRailm1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 4.548308193458158
+        }
+      ],
+      "other_or_full_collisions": [],
+      "full_pair_audit": true,
+      "ground_penetrations_mm": {},
+      "mass_kg": 4.072501811775055,
+      "COM_mm": [
+        -15.430109962118546,
+        0.9303942031590934,
+        126.34707580343868
+      ],
+      "COM_change_mm": [
+        -0.20995573950601215,
+        0.0,
+        0.4108017038764321
+      ],
+      "volume_errors_mm3": {
+        "computer": 7.275957614183426e-12,
+        "battery": 1.4551915228366852e-11,
+        "power": 7.275957614183426e-12
+      },
+      "geometry_clearance_pass": true,
+      "h_mm": 114.5,
+      "support": {
+        "support_polygon_margin_mm": 11.58554979790032,
+        "hull_vertex_indices": [
+          1,
+          4,
+          5,
+          2,
+          3
+        ],
+        "force_ranges": [
+          {
+            "point_index": 0,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 21.402854249706802
+          },
+          {
+            "point_index": 1,
+            "minimum_force_N": 8.154737707118292,
+            "maximum_force_N": 22.661621774039084
+          },
+          {
+            "point_index": 2,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 4.075476539317431
+          },
+          {
+            "point_index": 3,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 5.034046803101076
+          },
+          {
+            "point_index": 4,
+            "minimum_force_N": 9.082097295969945,
+            "maximum_force_N": 15.756552792696743
+          },
+          {
+            "point_index": 5,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 8.207523703504258
+          }
+        ],
+        "right_palm_at_least_1N_feasible": true,
+        "scope": "Flat rigid ground, vertical gravity and unilateral point reactions only. 1N is a diagnostic probe, not a required or commanded hardware load."
+      },
+      "static_balance": {
+        "nonnegative_vertical_balance_exists": true,
+        "forces_N": [
+          10.571788497030983,
+          14.948128480751741,
+          0.0,
+          0.78785327199828,
+          10.774515244258897,
+          2.8689572794733795
+        ],
+        "force_residual_N": -1.4210854715202004e-14,
+        "moment_residual_Nm": [
+          -3.3306690738754696e-16,
+          2.220446049250313e-16
+        ]
+      },
+      "sample_geometry_and_vertical_balance_pass": true
+    },
+    {
+      "clearance_failures": [],
+      "near_clearance_pairs": [
+        {
+          "a": "PelvisPlate",
+          "b": "battery",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 5.999999999999982
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "power",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 2.000000000000011
+        },
+        {
+          "a": "battery",
+          "b": "microphone",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 16.999999999999915
+        },
+        {
+          "a": "battery",
+          "b": "computer",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 4.999999999999928
+        },
+        {
+          "a": "battery",
+          "b": "power",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 12.00000000000002
+        },
+        {
+          "a": "battery",
+          "b": "camera",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 34.5
+        },
+        {
+          "a": "battery",
+          "b": "NeckMotor0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 20.99999999999997
+        },
+        {
+          "a": "battery",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 10.99999999999996
+        },
+        {
+          "a": "battery",
+          "b": "L_ThighRailm1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 4.3379100949290015
+        },
+        {
+          "a": "battery",
+          "b": "R_ElbowMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 29.305873289978198
+        },
+        {
+          "a": "microphone",
+          "b": "computer",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 1.9999999999999485
+        },
+        {
+          "a": "computer",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 16.74815145915415
+        },
+        {
+          "a": "computer",
+          "b": "R_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 34.75000000000007
+        },
+        {
+          "a": "computer",
+          "b": "L_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 34.75000000001808
+        },
+        {
+          "a": "power",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 54.99999999999999
+        },
+        {
+          "a": "power",
+          "b": "L_ThighRailm1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 4.7719582050394544
+        }
+      ],
+      "other_or_full_collisions": [],
+      "full_pair_audit": false,
+      "ground_penetrations_mm": {},
+      "mass_kg": 4.072501811775056,
+      "COM_mm": [
+        -16.202996985332355,
+        0.9257309742426852,
+        126.61468192474551
+      ],
+      "COM_change_mm": [
+        -0.20995573950601212,
+        0.0,
+        0.410801703876432
+      ],
+      "volume_errors_mm3": {
+        "computer": 0.0,
+        "battery": 1.4551915228366852e-11,
+        "power": 1.0913936421275139e-11
+      },
+      "geometry_clearance_pass": true,
+      "h_mm": 115,
+      "support": {
+        "support_polygon_margin_mm": 10.876749823694741,
+        "hull_vertex_indices": [
+          1,
+          4,
+          5,
+          2,
+          3
+        ],
+        "force_ranges": [
+          {
+            "point_index": 0,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 20.093434946803526
+          },
+          {
+            "point_index": 1,
+            "minimum_force_N": 9.135207746011439,
+            "maximum_force_N": 22.754565607287645
+          },
+          {
+            "point_index": 2,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 3.826140278515449
+          },
+          {
+            "point_index": 3,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 4.726065541406064
+          },
+          {
+            "point_index": 4,
+            "minimum_force_N": 9.491286955806874,
+            "maximum_force_N": 15.757401548006758
+          },
+          {
+            "point_index": 5,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 7.705390210418776
+          }
+        ],
+        "right_palm_at_least_1N_feasible": true,
+        "scope": "Flat rigid ground, vertical gravity and unilateral point reactions only. 1N is a diagnostic probe, not a required or commanded hardware load."
+      },
+      "static_balance": {
+        "nonnegative_vertical_balance_exists": true,
+        "forces_N": [
+          10.647578924157237,
+          15.153062666425864,
+          0.0,
+          0.552956672241697,
+          10.87690862560422,
+          2.720735885084242
+        ],
+        "force_residual_N": -4.263256414560601e-14,
+        "moment_residual_Nm": [
+          -4.440892098500626e-16,
+          6.38378239159465e-16
+        ]
+      },
+      "sample_geometry_and_vertical_balance_pass": true
+    },
+    {
+      "clearance_failures": [],
+      "near_clearance_pairs": [
+        {
+          "a": "PelvisPlate",
+          "b": "battery",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 6.000000000000007
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "power",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 2.000000000000011
+        },
+        {
+          "a": "battery",
+          "b": "microphone",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 16.999999999999915
+        },
+        {
+          "a": "battery",
+          "b": "computer",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 4.999999999999928
+        },
+        {
+          "a": "battery",
+          "b": "power",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 12.000000000000021
+        },
+        {
+          "a": "battery",
+          "b": "camera",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 34.5
+        },
+        {
+          "a": "battery",
+          "b": "NeckMotor0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 20.99999999999997
+        },
+        {
+          "a": "battery",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 10.99999999999996
+        },
+        {
+          "a": "battery",
+          "b": "R_ElbowMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 29.88658527375567
+        },
+        {
+          "a": "microphone",
+          "b": "computer",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 1.9999999999999485
+        },
+        {
+          "a": "computer",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 16.748151459154165
+        },
+        {
+          "a": "computer",
+          "b": "R_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 34.750000000000036
+        },
+        {
+          "a": "computer",
+          "b": "L_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 34.750000000051344
+        },
+        {
+          "a": "power",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 54.99999999999999
+        },
+        {
+          "a": "power",
+          "b": "L_ThighRailm1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 5.0020531003996185
+        }
+      ],
+      "other_or_full_collisions": [],
+      "full_pair_audit": true,
+      "ground_penetrations_mm": {},
+      "mass_kg": 4.072501811775055,
+      "COM_mm": [
+        -17.00650792170048,
+        0.9174375716311701,
+        126.88317965400717
+      ],
+      "COM_change_mm": [
+        -0.20995573950601215,
+        0.0,
+        0.4108017038764321
+      ],
+      "volume_errors_mm3": {
+        "computer": 3.637978807091713e-12,
+        "battery": 0.0,
+        "power": 7.275957614183426e-12
+      },
+      "geometry_clearance_pass": true,
+      "h_mm": 115.5,
+      "support": {
+        "support_polygon_margin_mm": 10.14121997155165,
+        "hull_vertex_indices": [
+          1,
+          4,
+          5,
+          2,
+          3
+        ],
+        "force_ranges": [
+          {
+            "point_index": 0,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 18.73463553751006
+          },
+          {
+            "point_index": 1,
+            "minimum_force_N": 10.152024015203331,
+            "maximum_force_N": 22.85038576676251
+          },
+          {
+            "point_index": 2,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 3.5674011846728697
+          },
+          {
+            "point_index": 3,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 4.406469858390884
+          },
+          {
+            "point_index": 4,
+            "minimum_force_N": 9.916536473767032,
+            "maximum_force_N": 15.75891103202111
+          },
+          {
+            "point_index": 5,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 7.184320532983744
+          }
+        ],
+        "right_palm_at_least_1N_feasible": true,
+        "scope": "Flat rigid ground, vertical gravity and unilateral point reactions only. 1N is a diagnostic probe, not a required or commanded hardware load."
+      },
+      "static_balance": {
+        "nonnegative_vertical_balance_exists": true,
+        "forces_N": [
+          10.726074102164443,
+          15.365328988267095,
+          0.0,
+          0.3090170030347821,
+          10.983537740940625,
+          2.5672849391063215
+        ],
+        "force_residual_N": -2.842170943040401e-14,
+        "moment_residual_Nm": [
+          -1.1102230246251565e-15,
+          -1.8735013540549517e-16
+        ]
+      },
+      "sample_geometry_and_vertical_balance_pass": true
+    },
+    {
+      "clearance_failures": [],
+      "near_clearance_pairs": [
+        {
+          "a": "PelvisPlate",
+          "b": "battery",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 6.000000000000007
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "power",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 1.999999999999988
+        },
+        {
+          "a": "battery",
+          "b": "microphone",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 16.999999999999915
+        },
+        {
+          "a": "battery",
+          "b": "computer",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 4.999999999999928
+        },
+        {
+          "a": "battery",
+          "b": "power",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 12.000000000000021
+        },
+        {
+          "a": "battery",
+          "b": "camera",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 34.5
+        },
+        {
+          "a": "battery",
+          "b": "NeckMotor0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 20.99999999999997
+        },
+        {
+          "a": "battery",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 10.99999999999996
+        },
+        {
+          "a": "battery",
+          "b": "R_ElbowMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 30.33268538540938
+        },
+        {
+          "a": "microphone",
+          "b": "computer",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 1.9999999999999485
+        },
+        {
+          "a": "computer",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 16.748151459154165
+        },
+        {
+          "a": "computer",
+          "b": "R_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 34.74999999999989
+        },
+        {
+          "a": "computer",
+          "b": "L_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 34.75000000015263
+        },
+        {
+          "a": "power",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 54.99999999999999
+        },
+        {
+          "a": "power",
+          "b": "L_ThighRailm1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 5.23953991418724
+        }
+      ],
+      "other_or_full_collisions": [],
+      "full_pair_audit": false,
+      "ground_penetrations_mm": {},
+      "mass_kg": 4.072501811775055,
+      "COM_mm": [
+        -17.848212224664994,
+        0.9123387206881131,
+        127.14577866733478
+      ],
+      "COM_change_mm": [
+        -0.20995573950601215,
+        0.0,
+        0.4108017038764321
+      ],
+      "volume_errors_mm3": {
+        "computer": 0.0,
+        "battery": 0.0,
+        "power": 7.275957614183426e-12
+      },
+      "geometry_clearance_pass": true,
+      "h_mm": 116,
+      "support": {
+        "support_polygon_margin_mm": 9.369317006114617,
+        "hull_vertex_indices": [
+          1,
+          4,
+          5,
+          2,
+          3
+        ],
+        "force_ranges": [
+          {
+            "point_index": 0,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 17.308641350582516
+          },
+          {
+            "point_index": 1,
+            "minimum_force_N": 11.21977954284655,
+            "maximum_force_N": 22.951600471929023
+          },
+          {
+            "point_index": 2,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 3.295867033843161
+          },
+          {
+            "point_index": 3,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 4.071069663903198
+          },
+          {
+            "point_index": 4,
+            "minimum_force_N": 10.362159164852347,
+            "maximum_force_N": 15.759839074991007
+          },
+          {
+            "point_index": 5,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 6.63748313673192
+          }
+        ],
+        "right_palm_at_least_1N_feasible": true,
+        "scope": "Flat rigid ground, vertical gravity and unilateral point reactions only. 1N is a diagnostic probe, not a required or commanded hardware load."
+      },
+      "static_balance": {
+        "nonnegative_vertical_balance_exists": true,
+        "forces_N": [
+          10.808611084897844,
+          15.588505691948324,
+          0.0,
+          0.05320695164113509,
+          11.095049210252037,
+          2.4058698347739336
+        ],
+        "force_residual_N": -2.1316282072803006e-14,
+        "moment_residual_Nm": [
+          -6.661338147750939e-16,
+          -1.1796119636642288e-16
+        ]
+      },
+      "sample_geometry_and_vertical_balance_pass": true
+    },
+    {
+      "clearance_failures": [],
+      "near_clearance_pairs": [
+        {
+          "a": "PelvisPlate",
+          "b": "battery",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 6.000000000000007
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "power",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 1.999999999999988
+        },
+        {
+          "a": "battery",
+          "b": "microphone",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 16.999999999999915
+        },
+        {
+          "a": "battery",
+          "b": "computer",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 4.999999999999928
+        },
+        {
+          "a": "battery",
+          "b": "power",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 12.000000000000021
+        },
+        {
+          "a": "battery",
+          "b": "camera",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 34.5
+        },
+        {
+          "a": "battery",
+          "b": "NeckMotor0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 20.99999999999997
+        },
+        {
+          "a": "battery",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 10.99999999999996
+        },
+        {
+          "a": "battery",
+          "b": "R_ElbowMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 30.951318860651273
+        },
+        {
+          "a": "microphone",
+          "b": "computer",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 1.9999999999999485
+        },
+        {
+          "a": "computer",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 16.748151459154165
+        },
+        {
+          "a": "computer",
+          "b": "R_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 34.750000000000085
+        },
+        {
+          "a": "computer",
+          "b": "L_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 34.75000000047694
+        },
+        {
+          "a": "power",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 54.99999999999999
+        },
+        {
+          "a": "power",
+          "b": "L_ThighRailm1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 5.485574620285656
+        }
+      ],
+      "other_or_full_collisions": [],
+      "full_pair_audit": true,
+      "ground_penetrations_mm": {},
+      "mass_kg": 4.072501811775055,
+      "COM_mm": [
+        -18.72882432221344,
+        0.903624983957049,
+        127.40826154681197
+      ],
+      "COM_change_mm": [
+        -0.20995573950601215,
+        0.0,
+        0.4108017038764321
+      ],
+      "volume_errors_mm3": {
+        "computer": 3.637978807091713e-12,
+        "battery": 2.9103830456733704e-11,
+        "power": 7.275957614183426e-12
+      },
+      "geometry_clearance_pass": true,
+      "h_mm": 116.5,
+      "support": {
+        "support_polygon_margin_mm": 8.563061509133142,
+        "hull_vertex_indices": [
+          1,
+          4,
+          5,
+          2,
+          3
+        ],
+        "force_ranges": [
+          {
+            "point_index": 0,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 15.819185158089454
+          },
+          {
+            "point_index": 1,
+            "minimum_force_N": 12.3344374884206,
+            "maximum_force_N": 23.05670296031211
+          },
+          {
+            "point_index": 2,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 3.012248610897084
+          },
+          {
+            "point_index": 3,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 3.720742922586369
+          },
+          {
+            "point_index": 4,
+            "minimum_force_N": 10.828230355577295,
+            "maximum_force_N": 15.761425064109945
+          },
+          {
+            "point_index": 5,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 6.066309457623883
+          }
+        ],
+        "right_palm_at_least_1N_feasible": true,
+        "scope": "Flat rigid ground, vertical gravity and unilateral point reactions only. 1N is a diagnostic probe, not a required or commanded hardware load."
+      },
+      "static_balance": {
+        "nonnegative_vertical_balance_exists": true,
+        "forces_N": [
+          10.73800954463491,
+          15.778465312375904,
+          0.0,
+          0.0,
+          11.486248863737961,
+          1.9485190527645386
+        ],
+        "force_residual_N": 2.1316282072803006e-14,
+        "moment_residual_Nm": [
+          1.1102230246251565e-16,
+          -3.95516952522712e-16
+        ]
+      },
+      "sample_geometry_and_vertical_balance_pass": true
+    },
+    {
+      "clearance_failures": [],
+      "near_clearance_pairs": [
+        {
+          "a": "PelvisPlate",
+          "b": "battery",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 6.000000000000007
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "power",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 1.999999999999988
+        },
+        {
+          "a": "battery",
+          "b": "microphone",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 16.99999999999991
+        },
+        {
+          "a": "battery",
+          "b": "computer",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 4.999999999999928
+        },
+        {
+          "a": "battery",
+          "b": "power",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 12.000000000000021
+        },
+        {
+          "a": "battery",
+          "b": "camera",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 34.5
+        },
+        {
+          "a": "battery",
+          "b": "NeckMotor0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 20.99999999999997
+        },
+        {
+          "a": "battery",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 10.99999999999996
+        },
+        {
+          "a": "battery",
+          "b": "R_ElbowMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 31.451535824178265
+        },
+        {
+          "a": "microphone",
+          "b": "computer",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 1.9999999999999485
+        },
+        {
+          "a": "computer",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 16.748151459154165
+        },
+        {
+          "a": "computer",
+          "b": "R_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 34.74999999999988
+        },
+        {
+          "a": "computer",
+          "b": "L_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 34.75000000156512
+        },
+        {
+          "a": "power",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 54.99999999999999
+        },
+        {
+          "a": "power",
+          "b": "L_ThighRailm1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 5.741592393066803
+        }
+      ],
+      "other_or_full_collisions": [],
+      "full_pair_audit": true,
+      "ground_penetrations_mm": {},
+      "mass_kg": 4.072501811775055,
+      "COM_mm": [
+        -19.657379446789395,
+        0.8978683064760035,
+        127.66425485389027
+      ],
+      "COM_change_mm": [
+        -0.20995573950601215,
+        0.0,
+        0.4108017038764321
+      ],
+      "volume_errors_mm3": {
+        "computer": 3.637978807091713e-12,
+        "battery": 0.0,
+        "power": 7.275957614183426e-12
+      },
+      "geometry_clearance_pass": true,
+      "h_mm": 117,
+      "support": {
+        "support_polygon_margin_mm": 7.711561922864508,
+        "hull_vertex_indices": [
+          1,
+          4,
+          5,
+          2,
+          3
+        ],
+        "force_ranges": [
+          {
+            "point_index": 0,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 14.246146169305678
+          },
+          {
+            "point_index": 1,
+            "minimum_force_N": 13.512273147807015,
+            "maximum_force_N": 23.168330628147803
+          },
+          {
+            "point_index": 2,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 2.712714566539064
+          },
+          {
+            "point_index": 3,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 3.350757134697877
+          },
+          {
+            "point_index": 4,
+            "minimum_force_N": 11.31982853025539,
+            "maximum_force_N": 15.762472838231195
+          },
+          {
+            "point_index": 5,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 5.463083615110094
+          }
+        ],
+        "right_palm_at_least_1N_feasible": true,
+        "scope": "Flat rigid ground, vertical gravity and unilateral point reactions only. 1N is a diagnostic probe, not a required or commanded hardware load."
+      },
+      "static_balance": {
+        "nonnegative_vertical_balance_exists": true,
+        "forces_N": [
+          10.6226298602299,
+          15.968297489096877,
+          0.0,
+          0.0,
+          11.970776643526886,
+          1.389538780659656
+        ],
+        "force_residual_N": 2.842170943040401e-14,
+        "moment_residual_Nm": [
+          0.0,
+          9.71445146547012e-17
+        ]
+      },
+      "sample_geometry_and_vertical_balance_pass": true
+    },
+    {
+      "clearance_failures": [],
+      "near_clearance_pairs": [
+        {
+          "a": "PelvisPlate",
+          "b": "battery",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 5.999999999999982
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "power",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 2.000000000000011
+        },
+        {
+          "a": "battery",
+          "b": "microphone",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 16.999999999999915
+        },
+        {
+          "a": "battery",
+          "b": "computer",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 4.999999999999928
+        },
+        {
+          "a": "battery",
+          "b": "power",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 12.00000000000002
+        },
+        {
+          "a": "battery",
+          "b": "camera",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 34.5
+        },
+        {
+          "a": "battery",
+          "b": "NeckMotor0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 20.99999999999997
+        },
+        {
+          "a": "battery",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 10.99999999999996
+        },
+        {
+          "a": "microphone",
+          "b": "computer",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 1.9999999999999485
+        },
+        {
+          "a": "computer",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 16.74815145915415
+        },
+        {
+          "a": "computer",
+          "b": "R_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 34.74999999999998
+        },
+        {
+          "a": "computer",
+          "b": "L_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 34.7500000054648
+        },
+        {
+          "a": "power",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 54.99999999999999
+        },
+        {
+          "a": "power",
+          "b": "L_ThighRailm1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 6.009411114552306
+        }
+      ],
+      "other_or_full_collisions": [],
+      "full_pair_audit": true,
+      "ground_penetrations_mm": {},
+      "mass_kg": 4.072501811775055,
+      "COM_mm": [
+        -20.637583599467852,
+        0.8888615964524283,
+        127.91836926377364
+      ],
+      "COM_change_mm": [
+        -0.20995573950601215,
+        0.0,
+        0.4108017038764321
+      ],
+      "volume_errors_mm3": {
+        "computer": 3.637978807091713e-12,
+        "battery": 1.4551915228366852e-11,
+        "power": 7.275957614183426e-12
+      },
+      "geometry_clearance_pass": true,
+      "h_mm": 117.5,
+      "support": {
+        "support_polygon_margin_mm": 6.813851375406713,
+        "hull_vertex_indices": [
+          1,
+          4,
+          5,
+          2,
+          3
+        ],
+        "force_ranges": [
+          {
+            "point_index": 0,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 12.58773820931868
+          },
+          {
+            "point_index": 1,
+            "minimum_force_N": 14.75349538087817,
+            "maximum_force_N": 23.2854816634945
+          },
+          {
+            "point_index": 2,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 2.3969247819295267
+          },
+          {
+            "point_index": 3,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 2.9606921839297216
+          },
+          {
+            "point_index": 4,
+            "minimum_force_N": 11.83864045960813,
+            "maximum_force_N": 15.764112151482868
+          },
+          {
+            "point_index": 5,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 4.827120650410661
+          }
+        ],
+        "right_palm_at_least_1N_feasible": true,
+        "scope": "Flat rigid ground, vertical gravity and unilateral point reactions only. 1N is a diagnostic probe, not a required or commanded hardware load."
+      },
+      "static_balance": {
+        "nonnegative_vertical_balance_exists": true,
+        "forces_N": [
+          10.500743097455253,
+          16.16806354000338,
+          0.0,
+          0.0,
+          12.482119428298205,
+          0.8003167077564655
+        ],
+        "force_residual_N": 7.105427357601002e-15,
+        "moment_residual_Nm": [
+          2.220446049250313e-16,
+          -4.3021142204224816e-16
+        ]
+      },
+      "sample_geometry_and_vertical_balance_pass": true
+    },
+    {
+      "clearance_failures": [],
+      "near_clearance_pairs": [
+        {
+          "a": "PelvisPlate",
+          "b": "battery",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 6.000000000000007
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "power",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 2.000000000000011
+        },
+        {
+          "a": "battery",
+          "b": "microphone",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 16.999999999999915
+        },
+        {
+          "a": "battery",
+          "b": "computer",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 4.999999999999928
+        },
+        {
+          "a": "battery",
+          "b": "power",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 12.000000000000021
+        },
+        {
+          "a": "battery",
+          "b": "camera",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 34.5
+        },
+        {
+          "a": "battery",
+          "b": "NeckMotor0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 20.99999999999997
+        },
+        {
+          "a": "battery",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 10.99999999999996
+        },
+        {
+          "a": "microphone",
+          "b": "computer",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 1.9999999999999485
+        },
+        {
+          "a": "computer",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 16.748151459154165
+        },
+        {
+          "a": "computer",
+          "b": "R_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 34.75000000000005
+        },
+        {
+          "a": "computer",
+          "b": "L_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 34.750000020424416
+        },
+        {
+          "a": "power",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 54.99999999999999
+        }
+      ],
+      "other_or_full_collisions": [],
+      "full_pair_audit": false,
+      "ground_penetrations_mm": {},
+      "mass_kg": 4.072501811775055,
+      "COM_mm": [
+        -21.681043077333968,
+        0.8819678448098142,
+        128.16526925307986
+      ],
+      "COM_change_mm": [
+        -0.20995573950601215,
+        0.0,
+        0.4108017038764321
+      ],
+      "volume_errors_mm3": {
+        "computer": 3.637978807091713e-12,
+        "battery": 0.0,
+        "power": 1.0913936421275139e-11
+      },
+      "geometry_clearance_pass": true,
+      "h_mm": 118,
+      "support": {
+        "support_polygon_margin_mm": 5.85714969477252,
+        "hull_vertex_indices": [
+          1,
+          4,
+          5,
+          2,
+          3
+        ],
+        "force_ranges": [
+          {
+            "point_index": 0,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 10.820351508795055
+          },
+          {
+            "point_index": 1,
+            "minimum_force_N": 16.07677418858041,
+            "maximum_force_N": 23.410823333150528
+          },
+          {
+            "point_index": 2,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 2.060383545426718
+          },
+          {
+            "point_index": 3,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 2.544994947205501
+          },
+          {
+            "point_index": 4,
+            "minimum_force_N": 12.391052703919181,
+            "maximum_force_N": 15.765366884719745
+          },
+          {
+            "point_index": 5,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 4.149366736443574
+          }
+        ],
+        "right_palm_at_least_1N_feasible": true,
+        "scope": "Flat rigid ground, vertical gravity and unilateral point reactions only. 1N is a diagnostic probe, not a required or commanded hardware load."
+      },
+      "static_balance": {
+        "nonnegative_vertical_balance_exists": true,
+        "forces_N": [
+          10.37107276980235,
+          16.381295936206136,
+          0.0,
+          0.0,
+          13.026585556040803,
+          0.1722885114640178
+        ],
+        "force_residual_N": 1.4210854715202004e-14,
+        "moment_residual_Nm": [
+          1.1102230246251565e-16,
+          -3.885780586188048e-16
+        ]
+      },
+      "sample_geometry_and_vertical_balance_pass": true
+    },
+    {
+      "clearance_failures": [],
+      "near_clearance_pairs": [
+        {
+          "a": "PelvisPlate",
+          "b": "battery",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 6.000000000000007
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "power",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 1.999999999999988
+        },
+        {
+          "a": "battery",
+          "b": "microphone",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 16.99999999999991
+        },
+        {
+          "a": "battery",
+          "b": "computer",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 4.999999999999928
+        },
+        {
+          "a": "battery",
+          "b": "power",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 12.000000000000021
+        },
+        {
+          "a": "battery",
+          "b": "camera",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 34.5
+        },
+        {
+          "a": "battery",
+          "b": "NeckMotor0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 20.99999999999997
+        },
+        {
+          "a": "battery",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 10.99999999999996
+        },
+        {
+          "a": "microphone",
+          "b": "computer",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 1.9999999999999485
+        },
+        {
+          "a": "computer",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 16.748151459154165
+        },
+        {
+          "a": "computer",
+          "b": "R_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 34.75000000000006
+        },
+        {
+          "a": "computer",
+          "b": "L_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 34.7500000828422
+        },
+        {
+          "a": "power",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 54.99999999999999
+        }
+      ],
+      "other_or_full_collisions": [],
+      "full_pair_audit": true,
+      "ground_penetrations_mm": {},
+      "mass_kg": 4.072501811775055,
+      "COM_mm": [
+        -22.797587885602372,
+        0.8731608164856858,
+        128.40694192753014
+      ],
+      "COM_change_mm": [
+        -0.20995573950601215,
+        0.0,
+        0.4108017038764321
+      ],
+      "volume_errors_mm3": {
+        "computer": 0.0,
+        "battery": 2.9103830456733704e-11,
+        "power": 1.0913936421275139e-11
+      },
+      "geometry_clearance_pass": true,
+      "h_mm": 118.5,
+      "support": {
+        "support_polygon_margin_mm": 4.834001762035545,
+        "hull_vertex_indices": [
+          1,
+          4,
+          5,
+          2,
+          3
+        ],
+        "force_ranges": [
+          {
+            "point_index": 0,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 8.930213667928234
+          },
+          {
+            "point_index": 1,
+            "minimum_force_N": 17.491698211796365,
+            "maximum_force_N": 23.54460932645486
+          },
+          {
+            "point_index": 2,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 1.7004683520298214
+          },
+          {
+            "point_index": 3,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 2.100426094648543
+          },
+          {
+            "point_index": 4,
+            "minimum_force_N": 12.982092986157856,
+            "maximum_force_N": 15.766969853861843
+          },
+          {
+            "point_index": 5,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 3.424540460900567
+          }
+        ],
+        "right_palm_at_least_1N_feasible": true,
+        "scope": "Flat rigid ground, vertical gravity and unilateral point reactions only. 1N is a diagnostic probe, not a required or commanded hardware load."
+      },
+      "static_balance": {
+        "nonnegative_vertical_balance_exists": true,
+        "forces_N": [
+          8.930213667928234,
+          17.49169821179637,
+          0.0,
+          0.0,
+          13.529330893788718,
+          0.0
+        ],
+        "force_residual_N": 2.842170943040401e-14,
+        "moment_residual_Nm": [
+          -5.551115123125783e-16,
+          2.3592239273284576e-16
+        ]
+      },
+      "sample_geometry_and_vertical_balance_pass": true
+    },
+    {
+      "clearance_failures": [],
+      "near_clearance_pairs": [
+        {
+          "a": "PelvisPlate",
+          "b": "battery",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 6.000000000000007
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "power",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 1.999999999999988
+        },
+        {
+          "a": "battery",
+          "b": "microphone",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 16.99999999999991
+        },
+        {
+          "a": "battery",
+          "b": "computer",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 4.999999999999928
+        },
+        {
+          "a": "battery",
+          "b": "power",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 12.000000000000021
+        },
+        {
+          "a": "battery",
+          "b": "camera",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 34.5
+        },
+        {
+          "a": "battery",
+          "b": "NeckMotor0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 20.99999999999997
+        },
+        {
+          "a": "battery",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 10.99999999999996
+        },
+        {
+          "a": "microphone",
+          "b": "computer",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 1.9999999999999485
+        },
+        {
+          "a": "computer",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 16.748151459154165
+        },
+        {
+          "a": "computer",
+          "b": "R_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 34.74999999999993
+        },
+        {
+          "a": "computer",
+          "b": "L_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 34.75000037115911
+        },
+        {
+          "a": "power",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 54.99999999999999
+        }
+      ],
+      "other_or_full_collisions": [],
+      "full_pair_audit": true,
+      "ground_penetrations_mm": {},
+      "mass_kg": 4.072501811775055,
+      "COM_mm": [
+        -24.00417969511277,
+        0.8640214175111713,
+        128.64042284542552
+      ],
+      "COM_change_mm": [
+        -0.20995573950601215,
+        0.0,
+        0.4108017038764321
+      ],
+      "volume_errors_mm3": {
+        "computer": 3.637978807091713e-12,
+        "battery": 1.4551915228366852e-11,
+        "power": 1.0913936421275139e-11
+      },
+      "geometry_clearance_pass": true,
+      "h_mm": 119,
+      "support": {
+        "support_polygon_margin_mm": 3.728190501468543,
+        "hull_vertex_indices": [
+          1,
+          4,
+          5,
+          2,
+          3
+        ],
+        "force_ranges": [
+          {
+            "point_index": 0,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 6.887365667577875
+          },
+          {
+            "point_index": 1,
+            "minimum_force_N": 19.021007394987247,
+            "maximum_force_N": 23.689273323463176
+          },
+          {
+            "point_index": 2,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 1.3114744822550246
+          },
+          {
+            "point_index": 3,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 1.6199391313022413
+          },
+          {
+            "point_index": 4,
+            "minimum_force_N": 13.620816250956523,
+            "maximum_force_N": 15.76863331785836
+          },
+          {
+            "point_index": 5,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 2.6411531990935826
+          }
+        ],
+        "right_palm_at_least_1N_feasible": true,
+        "scope": "Flat rigid ground, vertical gravity and unilateral point reactions only. 1N is a diagnostic probe, not a required or commanded hardware load."
+      },
+      "static_balance": {
+        "nonnegative_vertical_balance_exists": true,
+        "forces_N": [
+          6.887365667577855,
+          19.02100739498727,
+          0.0,
+          0.0,
+          14.042869710948196,
+          0.0
+        ],
+        "force_residual_N": 2.842170943040401e-14,
+        "moment_residual_Nm": [
+          -1.2212453270876722e-15,
+          3.2612801348363973e-16
+        ]
+      },
+      "sample_geometry_and_vertical_balance_pass": true
+    },
+    {
+      "clearance_failures": [],
+      "near_clearance_pairs": [
+        {
+          "a": "PelvisPlate",
+          "b": "battery",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 5.999999999999982
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "power",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 2.000000000000011
+        },
+        {
+          "a": "battery",
+          "b": "microphone",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 16.999999999999915
+        },
+        {
+          "a": "battery",
+          "b": "computer",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 4.999999999999928
+        },
+        {
+          "a": "battery",
+          "b": "power",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 11.999999999999991
+        },
+        {
+          "a": "battery",
+          "b": "camera",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 34.5
+        },
+        {
+          "a": "battery",
+          "b": "NeckMotor0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 20.99999999999997
+        },
+        {
+          "a": "battery",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 10.999999999999963
+        },
+        {
+          "a": "microphone",
+          "b": "computer",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 1.99999999999996
+        },
+        {
+          "a": "computer",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 16.748151459154165
+        },
+        {
+          "a": "computer",
+          "b": "R_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 34.75
+        },
+        {
+          "a": "computer",
+          "b": "L_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 34.750001883901156
+        },
+        {
+          "a": "power",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 54.99999999999999
+        }
+      ],
+      "other_or_full_collisions": [],
+      "full_pair_audit": true,
+      "ground_penetrations_mm": {},
+      "mass_kg": 4.072501811775055,
+      "COM_mm": [
+        -25.3252177506876,
+        0.8572673759866276,
+        128.86154427619343
+      ],
+      "COM_change_mm": [
+        -0.20995573950601215,
+        0.0,
+        0.4108017038764321
+      ],
+      "volume_errors_mm3": {
+        "computer": 3.637978807091713e-12,
+        "battery": 0.0,
+        "power": 1.0913936421275139e-11
+      },
+      "geometry_clearance_pass": true,
+      "h_mm": 119.5,
+      "support": {
+        "support_polygon_margin_mm": 2.5162133376755484,
+        "hull_vertex_indices": [
+          1,
+          4,
+          5,
+          2,
+          3
+        ],
+        "force_ranges": [
+          {
+            "point_index": 0,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 4.648389439161374
+          },
+          {
+            "point_index": 1,
+            "minimum_force_N": 20.697735218321483,
+            "maximum_force_N": 23.84841997770289
+          },
+          {
+            "point_index": 2,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 0.8851343789893176
+          },
+          {
+            "point_index": 3,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 1.0933219337369282
+          },
+          {
+            "point_index": 4,
+            "minimum_force_N": 14.320267718813673,
+            "maximum_force_N": 15.769862622426237
+          },
+          {
+            "point_index": 5,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 1.782555076996726
+          }
+        ],
+        "right_palm_at_least_1N_feasible": true,
+        "scope": "Flat rigid ground, vertical gravity and unilateral point reactions only. 1N is a diagnostic probe, not a required or commanded hardware load."
+      },
+      "static_balance": {
+        "nonnegative_vertical_balance_exists": true,
+        "forces_N": [
+          4.648389439161356,
+          20.6977352183215,
+          0.0,
+          0.0,
+          14.605118116030457,
+          0.0
+        ],
+        "force_residual_N": 2.1316282072803006e-14,
+        "moment_residual_Nm": [
+          -8.881784197001252e-16,
+          4.440892098500626e-16
+        ]
+      },
+      "sample_geometry_and_vertical_balance_pass": true
+    },
+    {
+      "clearance_failures": [],
+      "near_clearance_pairs": [
+        {
+          "a": "PelvisPlate",
+          "b": "battery",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 6.000000000000008
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "power",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 1.999999999999988
+        },
+        {
+          "a": "battery",
+          "b": "microphone",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 16.99999999999991
+        },
+        {
+          "a": "battery",
+          "b": "computer",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 4.999999999999934
+        },
+        {
+          "a": "battery",
+          "b": "power",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 12.000000000000021
+        },
+        {
+          "a": "battery",
+          "b": "camera",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 34.5
+        },
+        {
+          "a": "battery",
+          "b": "NeckMotor0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 20.99999999999997
+        },
+        {
+          "a": "battery",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 10.99999999999996
+        },
+        {
+          "a": "microphone",
+          "b": "computer",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 1.9999999999999485
+        },
+        {
+          "a": "computer",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 16.74815145915418
+        },
+        {
+          "a": "computer",
+          "b": "R_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 34.75
+        },
+        {
+          "a": "computer",
+          "b": "L_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 34.75000000000867
+        },
+        {
+          "a": "power",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": 54.99999999999999
+        }
+      ],
+      "other_or_full_collisions": [],
+      "full_pair_audit": false,
+      "ground_penetrations_mm": {},
+      "mass_kg": 4.072501811775055,
+      "COM_mm": [
+        -26.792286815205703,
+        0.842686425987388,
+        129.07272424731656
+      ],
+      "COM_change_mm": [
+        -0.20995573950601215,
+        0.0,
+        0.4108017038764321
+      ],
+      "volume_errors_mm3": {
+        "computer": 3.637978807091713e-12,
+        "battery": 1.4551915228366852e-11,
+        "power": 1.0913936421275139e-11
+      },
+      "geometry_clearance_pass": true,
+      "h_mm": 120,
+      "support": {
+        "support_polygon_margin_mm": 1.1730450092329114,
+        "hull_vertex_indices": [
+          1,
+          4,
+          5,
+          2,
+          3
+        ],
+        "force_ranges": [
+          {
+            "point_index": 0,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 2.1670539421019246
+          },
+          {
+            "point_index": 1,
+            "minimum_force_N": 22.55466989801621,
+            "maximum_force_N": 24.02350204246099
+          },
+          {
+            "point_index": 2,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 0.4126448462168413
+          },
+          {
+            "point_index": 3,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 0.5097007549605302
+          },
+          {
+            "point_index": 4,
+            "minimum_force_N": 15.096723223337525,
+            "maximum_force_N": 15.772516504309097
+          },
+          {
+            "point_index": 5,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 0.8310175077147679
+          }
+        ],
+        "right_palm_at_least_1N_feasible": false,
+        "scope": "Flat rigid ground, vertical gravity and unilateral point reactions only. 1N is a diagnostic probe, not a required or commanded hardware load."
+      },
+      "static_balance": {
+        "nonnegative_vertical_balance_exists": true,
+        "forces_N": [
+          2.1670539421018953,
+          22.554669898016233,
+          0.0,
+          0.0,
+          15.22951893339519,
+          0.0
+        ],
+        "force_residual_N": 2.1316282072803006e-14,
+        "moment_residual_Nm": [
+          -8.881784197001252e-16,
+          5.342948306008566e-16
+        ]
+      },
+      "sample_geometry_and_vertical_balance_pass": true
+    }
+  ],
+  "standing": {
+    "clearance_failures": [],
+    "near_clearance_pairs": [
+      {
+        "a": "PelvisPlate",
+        "b": "power",
+        "pass": true,
+        "volume_mm3": 0.0,
+        "distance_mm": 2.0
+      },
+      {
+        "a": "microphone",
+        "b": "computer",
+        "pass": true,
+        "volume_mm3": 0.0,
+        "distance_mm": 2.000000000000007
+      },
+      {
+        "a": "computer",
+        "b": "WukongHeadShell",
+        "pass": true,
+        "volume_mm3": 0.0,
+        "distance_mm": 16.748151459154283
+      }
+    ],
+    "other_or_full_collisions": [],
+    "full_pair_audit": true,
+    "ground_penetrations_mm": {},
+    "mass_kg": 4.072501811775055,
+    "COM_mm": [
+      8.05846965268638,
+      0.00013870016910877414,
+      192.29870117095706
+    ],
+    "COM_change_mm": [
+      -0.4076118505829385,
+      0.0,
+      0.2160833906704734
+    ],
+    "volume_errors_mm3": {
+      "computer": 0.0,
+      "battery": 0.0,
+      "power": 3.637978807091713e-12
+    },
+    "geometry_clearance_pass": true,
+    "static_balance": {
+      "nonnegative_vertical_balance_exists": true,
+      "forces_N": [
+        4.189026740259173,
+        4.189035485407723,
+        4.189045820583286,
+        4.189054565731839,
+        5.7987561276464845,
+        5.798764872795038,
+        5.7987752079706,
+        5.798783953119154
+      ],
+      "force_residual_N": 7.105427357601002e-15,
+      "moment_residual_Nm": [
+        -1.6653345369377348e-16,
+        -4.655233785803327e-16
+      ]
+    },
+    "bounds_size_mm": [
+      167.8183585995126,
+      289.40000000000003,
+      394.26539554219744
+    ],
+    "maximum_z_mm": 394.26539554219744,
+    "source_bounds_size_mm": [
+      167.8183585995126,
+      289.4,
+      394.26539554219744
+    ]
+  },
+  "complete": true,
+  "full_recovery_validated": false,
+  "scope": "13 half-mm samples plus standing. Full pairs at three integer endpoints and all six new midpoint poses; unchanged pairs at other exact frozen v21 integer poses reused from prior evidence. No continuous collision, structural strength, mounting/cabling or hardware validation."
+}

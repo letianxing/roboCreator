@@ -1,0 +1,24 @@
+{
+  "stage": "v0.22",
+  "translations_relative_v21_body_mm": {
+    "battery": [
+      -4,
+      0,
+      4
+    ],
+    "computer": [
+      -4,
+      0,
+      0
+    ],
+    "power": [
+      -12,
+      0,
+      0
+    ]
+  },
+  "nominal_clearance_mm": 2.0,
+  "selection_rule": "Minimum total rigid translation among2mm-clearance survivors",
+  "source": "09_cad/body_v22/layout_clearance_2.json",
+  "manufacturing_release": false
+}

@@ -1,0 +1,85 @@
+{
+  "stage": "v0.21",
+  "checks": [
+    {
+      "name": "Thigh-local rail and knee-pad covariance; sagittal preservation",
+      "status": "passed",
+      "evidence": [
+        "11_verification/v21_geometry_regression.json"
+      ]
+    },
+    {
+      "name": "Rigid part reuse and conservative arm bounds regression",
+      "status": "passed",
+      "evidence": [
+        "11_verification/v21_reuse_regression.json"
+      ]
+    },
+    {
+      "name": "384 bounded numerical cases, 87 independently FK-rechecked solutions",
+      "status": "passed",
+      "evidence": [
+        "04_kinematics/recovery_v21/coupled_search.json",
+        "04_kinematics/recovery_v21/forward_extension.json"
+      ]
+    },
+    {
+      "name": "20 knee120 replans, two partial leg/fixed-body geometry passes, failures retained",
+      "status": "passed",
+      "evidence": [
+        "09_cad/body_v21/leg_replan_screen.json"
+      ]
+    },
+    {
+      "name": "Native CAD reopened with 82 valid shapes; STEP files exist",
+      "status": "passed",
+      "evidence": [
+        "11_verification/v21_cad_reopen.json"
+      ]
+    },
+    {
+      "name": "Whole-body static geometry and nonnegative vertical support",
+      "status": "passed",
+      "evidence": [
+        "09_cad/body_v21/single_palm_extended.json"
+      ]
+    },
+    {
+      "name": "13 local fixed-contact probe samples and support-margin diagnostics retained",
+      "status": "passed",
+      "evidence": [
+        "09_cad/body_v21/local_lift.json",
+        "05_dynamics/support_v21/contact_margins.json"
+      ]
+    },
+    {
+      "name": "Adjacent clear samples in the explored local lift family",
+      "status": "failed",
+      "evidence": [
+        "09_cad/body_v21/local_lift.json"
+      ]
+    },
+    {
+      "name": "Complete recovery trajectory, dynamic contact and control",
+      "status": "not_run",
+      "evidence": [
+        "09_cad/body_v21/local_lift.json"
+      ]
+    },
+    {
+      "name": "Manufacturing, current structural CAE, real robot and Wukong appearance release",
+      "status": "not_run",
+      "evidence": [
+        "deliverables/recovery_review_v21.md"
+      ]
+    }
+  ],
+  "pending": [
+    "Repack pelvis/battery/power over a motion interval and increase support margin",
+    "Connect earlier cuff contact to planted-foot phase with collision-aware contact switches",
+    "Actual shoulder/elbow interfaces and full-load structural CAE",
+    "Continuous collision/dynamics and torque-speed-duration checks",
+    "Manufacturing/real tests and approved dressed Wukong appearance",
+    "PLM/MES deferred by user"
+  ]
+}

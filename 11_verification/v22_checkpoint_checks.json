@@ -1,0 +1,64 @@
+{
+  "stage": "v0.22",
+  "checks": [
+    {
+      "name": "1mm and2mm four-scene layout searches,42 and4 joint survivors",
+      "status": "passed",
+      "evidence": [
+        "09_cad/body_v22/layout_search.json",
+        "09_cad/body_v22/layout_clearance_2.json"
+      ]
+    },
+    {
+      "name": "13 half-mm local poses: electronics clearance, geometry and vertical equilibrium",
+      "status": "passed",
+      "evidence": [
+        "09_cad/body_v22/motion_validation.json"
+      ]
+    },
+    {
+      "name": "Bilateral FK closure and adjacent joint samples, not timed hardware commands",
+      "status": "passed",
+      "evidence": [
+        "04_kinematics/recovery_v22/segment_samples.json",
+        "11_verification/v22_reopen_and_joint_steps.json"
+      ]
+    },
+    {
+      "name": "Standing geometry and dimensions retained; mass/COM relocation arithmetic",
+      "status": "passed",
+      "evidence": [
+        "09_cad/body_v22/motion_validation.json"
+      ]
+    },
+    {
+      "name": "Four native CAD/STEP files and exact nearest-envelope interface gaps",
+      "status": "passed",
+      "evidence": [
+        "11_verification/v22_reopen_and_joint_steps.json",
+        "07_mechanics/electronics_interfaces_v22.json"
+      ]
+    },
+    {
+      "name": "Complete continuous recovery and sufficient dynamic stability",
+      "status": "not_run",
+      "evidence": [
+        "deliverables/layout_motion_review_v22.md"
+      ]
+    },
+    {
+      "name": "Actual mounting,cabling,structural FEM,hardware and final appearance",
+      "status": "not_run",
+      "evidence": [
+        "07_mechanics/electronics_interfaces_v22.md"
+      ]
+    }
+  ],
+  "pending": [
+    "Real module interfaces, retainers, standoffs and cable volumes with mass accounting",
+    "Extend local interval and improve upper-range support margin",
+    "Connect cuff/foot replanting and knee unload to final stance",
+    "Structural/dynamic/thermal/impact and physical validation",
+    "Final dressed Wukong appearance; PLM/MES deferred"
+  ]
+}

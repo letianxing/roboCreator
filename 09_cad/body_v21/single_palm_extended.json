@@ -1,0 +1,445 @@
+{
+  "completed": true,
+  "selected": [
+    {
+      "name": "single_palm_544",
+      "input": {
+        "id": 544,
+        "h_mm": 120,
+        "beta_deg": 35,
+        "hip_x_mm": -66.00957245398182,
+        "right_pose": {
+          "name": "coupled_contact",
+          "foot_translation_mm": [
+            -159.46665474984204,
+            0.0,
+            126.45697990043024
+          ],
+          "foot_pitch_deg": 167.1014920318235,
+          "q_deg": [
+            0,
+            0,
+            -22.898507968176503,
+            120,
+            0,
+            35
+          ]
+        },
+        "left_pose": {
+          "name": "forward_candidate",
+          "q_deg": [
+            3.4124660748093356e-20,
+            2.005320933551234e-20,
+            -124.9462712283224,
+            67.06086340783274,
+            -6.251118001966121e-20,
+            22.885407820486556
+          ],
+          "foot_pitch_deg": 0,
+          "foot_translation_mm": [
+            58.99042754601818,
+            0.0,
+            2.0
+          ]
+        },
+        "q_deg": [
+          3.4124660748093356e-20,
+          2.005320933551234e-20,
+          -124.9462712283224,
+          67.06086340783274,
+          -6.251118001966121e-20,
+          22.885407820486556
+        ],
+        "position_error_mm": 3.822172177920441e-12,
+        "orientation_error_deg": 0.0,
+        "ik_found": true,
+        "support_knee_replanned_deg": 120,
+        "power_shift_body_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "left_arm": {
+        "q_deg": [
+          -140,
+          0,
+          0,
+          45,
+          0,
+          0
+        ],
+        "contact": "free"
+      },
+      "right_arm": {
+        "q_deg": [
+          -40.74116868881982,
+          -16.117195134849744,
+          -87.95186376959289,
+          18.980588991640495,
+          -5.174929104579368,
+          87.33533750083748
+        ],
+        "target_mm": [
+          -6.009572453981818,
+          91.0,
+          0.0
+        ],
+        "position_error_mm": 5.908737569349403e-07,
+        "normal_error_deg": 0.0,
+        "cuff_corner_min_z_mm": 23.52545002278441
+      },
+      "contact_mode": "one_right_palm",
+      "mass_kg": 4.072501811775055,
+      "COM_mm": [
+        -26.582331044512532,
+        0.8426863594307401,
+        128.6619226189375
+      ],
+      "support_points_mm": [
+        [
+          8.990427546018182,
+          32.5,
+          0
+        ],
+        [
+          8.990427546018182,
+          87.5,
+          0
+        ],
+        [
+          108.99042754601818,
+          32.5,
+          0
+        ],
+        [
+          108.99042754601818,
+          87.5,
+          0
+        ],
+        [
+          -84.87753471809503,
+          -132,
+          0
+        ],
+        [
+          -6.0095725560323565,
+          -91.00000005556134,
+          5.793361808059672e-07
+        ]
+      ],
+      "static_balance": {
+        "nonnegative_vertical_balance_exists": true,
+        "forces_N": [
+          2.5236796225441838,
+          22.287403715365762,
+          0.0,
+          0.0,
+          15.14015943560336,
+          0.0
+        ],
+        "force_residual_N": 1.4210854715202004e-14,
+        "moment_residual_Nm": [
+          -4.440892098500626e-16,
+          7.7021722333370235e-16
+        ]
+      },
+      "all_modeled_collisions": [],
+      "motor_count": 28,
+      "full_recovery_validated": false
+    }
+  ],
+  "input": {
+    "id": 544,
+    "h_mm": 120,
+    "beta_deg": 35,
+    "hip_x_mm": -66.00957245398182,
+    "right_pose": {
+      "name": "coupled_contact",
+      "foot_translation_mm": [
+        -159.46665474984204,
+        0.0,
+        126.45697990043024
+      ],
+      "foot_pitch_deg": 167.1014920318235,
+      "q_deg": [
+        0,
+        0,
+        -22.898507968176503,
+        120,
+        0,
+        35
+      ]
+    },
+    "left_pose": {
+      "name": "forward_candidate",
+      "q_deg": [
+        3.4124660748093356e-20,
+        2.005320933551234e-20,
+        -124.9462712283224,
+        67.06086340783274,
+        -6.251118001966121e-20,
+        22.885407820486556
+      ],
+      "foot_pitch_deg": 0,
+      "foot_translation_mm": [
+        58.99042754601818,
+        0.0,
+        2.0
+      ]
+    },
+    "q_deg": [
+      3.4124660748093356e-20,
+      2.005320933551234e-20,
+      -124.9462712283224,
+      67.06086340783274,
+      -6.251118001966121e-20,
+      22.885407820486556
+    ],
+    "position_error_mm": 3.822172177920441e-12,
+    "orientation_error_deg": 0.0,
+    "ik_found": true,
+    "support_knee_replanned_deg": 120,
+    "power_shift_body_mm": [
+      -5,
+      0,
+      0
+    ]
+  },
+  "trials": [
+    {
+      "side": "left_free",
+      "q_deg": [
+        -120,
+        0,
+        0,
+        45,
+        0,
+        0
+      ],
+      "collisions": [
+        {
+          "a": "L_FixedFrame",
+          "b": "L_WristMotorEnvelope0",
+          "volume_mm3": 0.0865802458010035
+        }
+      ],
+      "ground": []
+    },
+    {
+      "side": "left_free",
+      "q_deg": [
+        -120,
+        0,
+        90,
+        0,
+        0,
+        0
+      ],
+      "collisions": [
+        {
+          "a": "L_FixedFrame",
+          "b": "L_ElbowMotor",
+          "volume_mm3": 320.8329202088719
+        }
+      ],
+      "ground": []
+    },
+    {
+      "side": "left_free",
+      "q_deg": [
+        -140,
+        0,
+        0,
+        45,
+        0,
+        0
+      ],
+      "collisions": [],
+      "ground": []
+    },
+    {
+      "side": "right_palm",
+      "arm": {
+        "q_deg": [
+          -32.844096788681995,
+          -12.061202178358668,
+          -89.9426319008973,
+          24.7822108072858,
+          2.222406460385174,
+          77.28613232145541
+        ],
+        "target_mm": [
+          -26.009572453981818,
+          111.0,
+          0.0
+        ],
+        "position_error_mm": 2.0590338062415362e-10,
+        "normal_error_deg": 0.0,
+        "cuff_corner_min_z_mm": 20.19088164188458
+      },
+      "collisions": [
+        {
+          "a": "R_HipYawMotor",
+          "b": "R_UpperArm",
+          "volume_mm3": 88.20451722058606
+        }
+      ],
+      "ground": []
+    },
+    {
+      "side": "right_palm",
+      "arm": {
+        "q_deg": [
+          -25.67845981140457,
+          -7.999117765912531,
+          -89.8192356419019,
+          16.89184769808815,
+          9.459072313366079,
+          81.19724582416148
+        ],
+        "target_mm": [
+          -46.00957245398182,
+          111.0,
+          0.0
+        ],
+        "position_error_mm": 1.371329400267794e-07,
+        "normal_error_deg": 0.0,
+        "cuff_corner_min_z_mm": 19.37559058996278
+      },
+      "collisions": [
+        {
+          "a": "R_KneeMotor",
+          "b": "R_ForearmLoadFrame",
+          "volume_mm3": 329.30913399879614
+        }
+      ],
+      "ground": []
+    },
+    {
+      "side": "right_palm",
+      "arm": {
+        "q_deg": [
+          -25.240258444895332,
+          5.111450746064851,
+          -91.56568526728918,
+          4.999006944427331,
+          10.04033619845671,
+          80.30757668136154
+        ],
+        "target_mm": [
+          -46.00957245398182,
+          131.0,
+          0.0
+        ],
+        "position_error_mm": 7.711817611450635e-08,
+        "normal_error_deg": 0.0,
+        "cuff_corner_min_z_mm": 18.795226570006953
+      },
+      "collisions": [
+        {
+          "a": "R_KneeMotor",
+          "b": "R_ForearmLoadFrame",
+          "volume_mm3": 763.3413599921673
+        }
+      ],
+      "ground": []
+    },
+    {
+      "side": "right_palm",
+      "arm": {
+        "q_deg": [
+          -26.024938013715047,
+          3.4240677032777134,
+          -88.07175573514866,
+          8.270397535861228,
+          9.049277265900411,
+          78.14869014954806
+        ],
+        "target_mm": [
+          -46.00957245398182,
+          131.0,
+          0.0
+        ],
+        "position_error_mm": 6.668949416179783e-12,
+        "normal_error_deg": 8.537736462515939e-07,
+        "cuff_corner_min_z_mm": 18.220067258667104
+      },
+      "collisions": [
+        {
+          "a": "WukongHeadShell",
+          "b": "R_ShoulderMotor2",
+          "volume_mm3": 12.644233776022235
+        }
+      ],
+      "ground": []
+    },
+    {
+      "side": "right_palm",
+      "arm": {
+        "q_deg": [
+          -40.74116868881982,
+          -16.117195134849744,
+          -87.95186376959289,
+          18.980588991640495,
+          -5.174929104579368,
+          87.33533750083748
+        ],
+        "target_mm": [
+          -6.009572453981818,
+          91.0,
+          0.0
+        ],
+        "position_error_mm": 5.908737569349403e-07,
+        "normal_error_deg": 0.0,
+        "cuff_corner_min_z_mm": 23.52545002278441
+      },
+      "collisions": [],
+      "ground": [],
+      "all_modeled_collisions": [],
+      "static_balance": {
+        "nonnegative_vertical_balance_exists": true,
+        "forces_N": [
+          2.5236796225441838,
+          22.287403715365762,
+          0.0,
+          0.0,
+          15.14015943560336,
+          0.0
+        ],
+        "force_residual_N": 1.4210854715202004e-14,
+        "moment_residual_Nm": [
+          -4.440892098500626e-16,
+          7.7021722333370235e-16
+        ]
+      }
+    }
+  ],
+  "free_arm_candidates": [
+    [
+      -120,
+      0,
+      0,
+      45,
+      0,
+      0
+    ],
+    [
+      -120,
+      0,
+      90,
+      0,
+      0,
+      0
+    ],
+    [
+      -140,
+      0,
+      0,
+      45,
+      0,
+      0
+    ]
+  ],
+  "scope": "Bounded alternative contact-mode search; listed free-arm poses and max12 right-palm IK branches, not an exhaustive search. No whole recovery validated."
+}

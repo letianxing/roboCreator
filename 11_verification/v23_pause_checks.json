@@ -1,0 +1,9 @@
+{
+  "stage":"v0.23-paused",
+  "checks":[
+    {"name":"20 draft native component shapes generated, saved and reopened as valid; no assembly claim","status":"passed","evidence":["09_cad/body_v23/carrier_native.json","09_cad/body_v23/carrier_components.FCStd","09_cad/body_v23/carrier_components.step","09_cad/carrier_v23.py"]},
+    {"name":"User pause and microphone not-yet-arrived status recorded","status":"passed","evidence":["deliverables/pause_record_v23.md","08_electrical/sensor_inventory.md","project_state.md"]},
+    {"name":"v23 whole-body integration,collision,mounting,loads,CAE and hardware","status":"not_run","evidence":["deliverables/pause_record_v23.md"]}
+  ],
+  "pending":["Resume only after user reports microphone arrival or otherwise asks to resume","Confirm physical microphone SKU,dimensions,holes and connector orientations","Integrate actual modules,mounts and routing; recheck geometry,mass and support","Complete recovery,dynamics,structural CAE and approved Wukong appearance remain pending"]
+}

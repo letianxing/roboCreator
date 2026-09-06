@@ -1,0 +1,463 @@
+{
+  "partial_screen_survivors": 2,
+  "processed": 2,
+  "cases": [
+    {
+      "id": 344,
+      "arm_branch_count": 3,
+      "sides": {
+        "1": [
+          {
+            "arm_index": 0,
+            "arm": {
+              "q_deg": [
+                -28.880284773780325,
+                -2.0543519498998952,
+                -95.08571053837562,
+                5.434691856452777,
+                0.9347810081337735,
+                86.71121795407244
+              ],
+              "target_mm": [
+                -26.009572453981818,
+                111.0,
+                0.0
+              ],
+              "position_error_mm": 2.1037382892909833e-12,
+              "normal_error_deg": 0.0,
+              "cuff_corner_min_z_mm": 24.73647811205039
+            },
+            "collisions": [
+              {
+                "a": "L_FixedFrame",
+                "b": "L_ElbowMotor",
+                "volume_mm3": 931.0989374576602
+              },
+              {
+                "a": "L_RollMotorVendor",
+                "b": "L_ElbowMotor",
+                "volume_mm3": 215.24379385011574
+              },
+              {
+                "a": "L_KneeMotor",
+                "b": "L_ElbowMotor",
+                "volume_mm3": 337.77471539349335
+              },
+              {
+                "a": "L_HipPitchMotor",
+                "b": "L_ForearmLoadFrame",
+                "volume_mm3": 11.343891981439926
+              },
+              {
+                "a": "L_ShinKneeRailm1",
+                "b": "L_ElbowMotor",
+                "volume_mm3": 69.73421296697177
+              }
+            ],
+            "ground_penetrations_mm": {}
+          },
+          {
+            "arm_index": 1,
+            "arm": {
+              "q_deg": [
+                -30.02147668707369,
+                -2.2548857101611097,
+                -89.90376014816975,
+                5.726879040496641,
+                -0.017722628608168887,
+                86.52803970376733
+              ],
+              "target_mm": [
+                -26.009572453981818,
+                111.0,
+                0.0
+              ],
+              "position_error_mm": 1.596854844248553e-09,
+              "normal_error_deg": 0.0,
+              "cuff_corner_min_z_mm": 24.97615250976845
+            },
+            "collisions": [
+              {
+                "a": "L_FixedFrame",
+                "b": "L_ElbowMotor",
+                "volume_mm3": 856.9107690668133
+              },
+              {
+                "a": "L_RollMotorVendor",
+                "b": "L_ElbowMotor",
+                "volume_mm3": 115.252443842118
+              },
+              {
+                "a": "L_KneeMotor",
+                "b": "L_ElbowMotor",
+                "volume_mm3": 405.6895414731774
+              },
+              {
+                "a": "L_HipPitchMotor",
+                "b": "L_ForearmLoadFrame",
+                "volume_mm3": 0.184253502023198
+              },
+              {
+                "a": "L_ShinKneeRailm1",
+                "b": "L_ElbowMotor",
+                "volume_mm3": 0.5945208262886658
+              }
+            ],
+            "ground_penetrations_mm": {}
+          },
+          {
+            "arm_index": 2,
+            "arm": {
+              "q_deg": [
+                -32.73901945214007,
+                1.0820240449289624,
+                -73.69027777375794,
+                0.01091576201067773,
+                -2.9326079894763684,
+                89.72076945907166
+              ],
+              "target_mm": [
+                -26.009572453981818,
+                111.0,
+                0.0
+              ],
+              "position_error_mm": 6.773685819621828e-10,
+              "normal_error_deg": 0.0,
+              "cuff_corner_min_z_mm": 25.352306015225142
+            },
+            "collisions": [
+              {
+                "a": "L_KneeMotor",
+                "b": "L_ElbowMotor",
+                "volume_mm3": 639.5160511964351
+              }
+            ],
+            "ground_penetrations_mm": {}
+          }
+        ],
+        "-1": [
+          {
+            "arm_index": 0,
+            "arm": {
+              "q_deg": [
+                -28.880284773780325,
+                -2.0543519498998952,
+                -95.08571053837562,
+                5.434691856452777,
+                0.9347810081337735,
+                86.71121795407244
+              ],
+              "target_mm": [
+                -26.009572453981818,
+                111.0,
+                0.0
+              ],
+              "position_error_mm": 2.1037382892909833e-12,
+              "normal_error_deg": 0.0,
+              "cuff_corner_min_z_mm": 24.73647811205039
+            },
+            "collisions": [
+              {
+                "a": "R_HipPitchMotor",
+                "b": "R_ForearmLoadFrame",
+                "volume_mm3": 11.343891981102042
+              }
+            ],
+            "ground_penetrations_mm": {}
+          },
+          {
+            "arm_index": 1,
+            "arm": {
+              "q_deg": [
+                -30.02147668707369,
+                -2.2548857101611097,
+                -89.90376014816975,
+                5.726879040496641,
+                -0.017722628608168887,
+                86.52803970376733
+              ],
+              "target_mm": [
+                -26.009572453981818,
+                111.0,
+                0.0
+              ],
+              "position_error_mm": 1.596854844248553e-09,
+              "normal_error_deg": 0.0,
+              "cuff_corner_min_z_mm": 24.97615250976845
+            },
+            "collisions": [
+              {
+                "a": "R_HipPitchMotor",
+                "b": "R_ForearmLoadFrame",
+                "volume_mm3": 0.18425350201812574
+              }
+            ],
+            "ground_penetrations_mm": {}
+          },
+          {
+            "arm_index": 2,
+            "arm": {
+              "q_deg": [
+                -32.73901945214007,
+                1.0820240449289624,
+                -73.69027777375794,
+                0.01091576201067773,
+                -2.9326079894763684,
+                89.72076945907166
+              ],
+              "target_mm": [
+                -26.009572453981818,
+                111.0,
+                0.0
+              ],
+              "position_error_mm": 6.773685819621828e-10,
+              "normal_error_deg": 0.0,
+              "cuff_corner_min_z_mm": 25.352306015225142
+            },
+            "collisions": [],
+            "ground_penetrations_mm": {}
+          }
+        ]
+      },
+      "whole_body_candidate": null
+    },
+    {
+      "id": 345,
+      "arm_branch_count": 3,
+      "sides": {
+        "1": [
+          {
+            "arm_index": 0,
+            "arm": {
+              "q_deg": [
+                -28.880284773780325,
+                -2.0543519498998952,
+                -95.08571053837562,
+                5.434691856452777,
+                0.9347810081337735,
+                86.71121795407244
+              ],
+              "target_mm": [
+                -26.009572453981818,
+                111.0,
+                0.0
+              ],
+              "position_error_mm": 2.1037382892909833e-12,
+              "normal_error_deg": 0.0,
+              "cuff_corner_min_z_mm": 24.73647811205039
+            },
+            "collisions": [
+              {
+                "a": "L_FixedFrame",
+                "b": "L_ElbowMotor",
+                "volume_mm3": 1008.7487271550298
+              },
+              {
+                "a": "L_RollMotorVendor",
+                "b": "L_ElbowMotor",
+                "volume_mm3": 150.24604447346695
+              },
+              {
+                "a": "L_KneeMotor",
+                "b": "L_ElbowMotor",
+                "volume_mm3": 370.28415826750376
+              },
+              {
+                "a": "L_ShinKneeRailm1",
+                "b": "L_ElbowMotor",
+                "volume_mm3": 101.67245483761133
+              },
+              {
+                "a": "L_ShinKneeRailm1",
+                "b": "L_ForearmLoadFrame",
+                "volume_mm3": 0.2690724542177971
+              }
+            ],
+            "ground_penetrations_mm": {}
+          },
+          {
+            "arm_index": 1,
+            "arm": {
+              "q_deg": [
+                -30.02147668707369,
+                -2.2548857101611097,
+                -89.90376014816975,
+                5.726879040496641,
+                -0.017722628608168887,
+                86.52803970376733
+              ],
+              "target_mm": [
+                -26.009572453981818,
+                111.0,
+                0.0
+              ],
+              "position_error_mm": 1.596854844248553e-09,
+              "normal_error_deg": 0.0,
+              "cuff_corner_min_z_mm": 24.97615250976845
+            },
+            "collisions": [
+              {
+                "a": "L_FixedFrame",
+                "b": "L_ElbowMotor",
+                "volume_mm3": 981.6186551811472
+              },
+              {
+                "a": "L_RollMotorVendor",
+                "b": "L_ElbowMotor",
+                "volume_mm3": 3129.4342674112117
+              },
+              {
+                "a": "L_KneeMotor",
+                "b": "L_ElbowMotor",
+                "volume_mm3": 515.0431298013018
+              },
+              {
+                "a": "L_ShinKneeRailm1",
+                "b": "L_ElbowMotor",
+                "volume_mm3": 2.7646568031648617
+              },
+              {
+                "a": "L_ShinKneeRailm1",
+                "b": "L_ForearmLoadFrame",
+                "volume_mm3": 24.016665315353382
+              }
+            ],
+            "ground_penetrations_mm": {}
+          },
+          {
+            "arm_index": 2,
+            "arm": {
+              "q_deg": [
+                -32.73901945214007,
+                1.0820240449289624,
+                -73.69027777375794,
+                0.01091576201067773,
+                -2.9326079894763684,
+                89.72076945907166
+              ],
+              "target_mm": [
+                -26.009572453981818,
+                111.0,
+                0.0
+              ],
+              "position_error_mm": 6.773685819621828e-10,
+              "normal_error_deg": 0.0,
+              "cuff_corner_min_z_mm": 25.352306015225142
+            },
+            "collisions": [
+              {
+                "a": "L_FixedFrame",
+                "b": "L_ElbowMotor",
+                "volume_mm3": 0.5415687447732903
+              },
+              {
+                "a": "L_FixedFrame",
+                "b": "L_ForearmLoadFrame",
+                "volume_mm3": 36.51951862929003
+              },
+              {
+                "a": "L_RollMotorVendor",
+                "b": "L_ElbowMotor",
+                "volume_mm3": 33.836357786843415
+              },
+              {
+                "a": "L_KneeMotor",
+                "b": "L_ElbowMotor",
+                "volume_mm3": 716.3076541366302
+              }
+            ],
+            "ground_penetrations_mm": {}
+          }
+        ],
+        "-1": [
+          {
+            "arm_index": 0,
+            "arm": {
+              "q_deg": [
+                -28.880284773780325,
+                -2.0543519498998952,
+                -95.08571053837562,
+                5.434691856452777,
+                0.9347810081337735,
+                86.71121795407244
+              ],
+              "target_mm": [
+                -26.009572453981818,
+                111.0,
+                0.0
+              ],
+              "position_error_mm": 2.1037382892909833e-12,
+              "normal_error_deg": 0.0,
+              "cuff_corner_min_z_mm": 24.73647811205039
+            },
+            "collisions": [
+              {
+                "a": "R_HipPitchMotor",
+                "b": "R_ForearmLoadFrame",
+                "volume_mm3": 11.343891981102042
+              }
+            ],
+            "ground_penetrations_mm": {}
+          },
+          {
+            "arm_index": 1,
+            "arm": {
+              "q_deg": [
+                -30.02147668707369,
+                -2.2548857101611097,
+                -89.90376014816975,
+                5.726879040496641,
+                -0.017722628608168887,
+                86.52803970376733
+              ],
+              "target_mm": [
+                -26.009572453981818,
+                111.0,
+                0.0
+              ],
+              "position_error_mm": 1.596854844248553e-09,
+              "normal_error_deg": 0.0,
+              "cuff_corner_min_z_mm": 24.97615250976845
+            },
+            "collisions": [
+              {
+                "a": "R_HipPitchMotor",
+                "b": "R_ForearmLoadFrame",
+                "volume_mm3": 0.18425350201812574
+              }
+            ],
+            "ground_penetrations_mm": {}
+          },
+          {
+            "arm_index": 2,
+            "arm": {
+              "q_deg": [
+                -32.73901945214007,
+                1.0820240449289624,
+                -73.69027777375794,
+                0.01091576201067773,
+                -2.9326079894763684,
+                89.72076945907166
+              ],
+              "target_mm": [
+                -26.009572453981818,
+                111.0,
+                0.0
+              ],
+              "position_error_mm": 6.773685819621828e-10,
+              "normal_error_deg": 0.0,
+              "cuff_corner_min_z_mm": 25.352306015225142
+            },
+            "collisions": [],
+            "ground_penetrations_mm": {}
+          }
+        ]
+      },
+      "whole_body_candidate": null
+    }
+  ],
+  "selected": [],
+  "completed": true,
+  "stop_rule": "Stop after three full-body static candidates; remaining leg survivors explicitly unchecked",
+  "full_recovery_validated": false
+}

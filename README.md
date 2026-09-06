@@ -10,6 +10,8 @@
 
 主提示词：[robot_master_prompt.md](prompts/robot_master_prompt.md)。当前状态：[project_state.md](project_state.md)。
 
+当前按用户要求暂停开发：Sipeed麦克风尚未到货。已保留v0.22验证成果和v0.23安装结构草案，待到货核对真实接口后继续。见[暂停记录](deliverables/pause_record_v23.md)。
+
 ## 目录
 
 - `prompts/`：主提示词。
@@ -19,7 +21,7 @@
 - `tools/`：本项目工具、依赖和 MCP 安装记录。
 - `deliverables/`：经过检查的阶段交付包和发布版本。
 
-当前已推进到接触/落脚检查v0.20。最新报告：[掌前缘接触与不对称落脚检查](deliverables/contact_review_v20.md)。掌前缘先接地的11个采样通过有限几何检查，单脚踏地候选仍有24对重叠，完整起身未通过；制造接口、结构CAE及真机验证待完成。优先复用现有FreeCAD FEM＋Gmsh＋CalculiX。PLM/MES实施后置到原型完成后；[新增软件/MCP先询问](tools/software_policy.md)。历史证据保留，最新状态见 `project_state.md`。
+当前已推进到电气布局/局部运动检查v0.22。最新报告：[电气布局与局部抬身区间评审](deliverables/layout_motion_review_v22.md)。重排后114–120mm身体参考高度的13个局部采样及站姿通过本轮几何/静态必要条件检查；高位支撑余量仍小，完整起身未通过。下一步补真实安装件和线束，并继续连接前后接触阶段。制造接口、结构CAE及真机验证仍待完成；优先复用FreeCAD FEM＋Gmsh＋CalculiX。PLM/MES后置；[新增软件/MCP先询问](tools/software_policy.md)。历史失败和原CAD保留，最新状态见 `project_state.md`。
 
 检查点规则见 [CHECKPOINT_POLICY.md](CHECKPOINT_POLICY.md)，已验证全项目快照索引位于 `checkpoints/index.jsonl`。
 

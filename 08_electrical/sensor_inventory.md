@@ -2,6 +2,7 @@
 
 ## 麦克风
 
+- 2026-09-06最新状态：用户确认麦克风尚未到货；按用户要求暂停开发，记录并保存现有进度，待到货后继续。不要把“已购买”写成“已有可测实物”。
 - 用户确认：已购买 Sipeed 6+1 Mic Array。
 - 证据：用户提供的商品截图，原路径 `C:\Users\letianxing\Pictures\麦克风.jpg`。
 - 截图显示多个选项：MA-USB8、6+1 Mic Array、Mic Array Full Kit；尚不能确定用户实际购买的 SKU、是否包含 USB 驱动板。

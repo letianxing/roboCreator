@@ -1,0 +1,27 @@
+{
+  "id": "20260906_145409_533308_v0.21",
+  "stage": "v0.21",
+  "verified": true,
+  "file_count": 822,
+  "source_bytes": 1563559783,
+  "archive_bytes": 572449445,
+  "archive_sha256": "7c848a565c7e0ffba7b80ae1ea9a856bdc60eba2915a53aa8bf1c87842e70ed7",
+  "archive": "checkpoints\\20260906_145409_533308_v0.21\\project.zip",
+  "passed_checks": [
+    "Thigh-local rail and knee-pad covariance; sagittal preservation",
+    "Rigid part reuse and conservative arm bounds regression",
+    "384 bounded numerical cases, 87 independently FK-rechecked solutions",
+    "20 knee120 replans, two partial leg/fixed-body geometry passes, failures retained",
+    "Native CAD reopened with 82 valid shapes; STEP files exist",
+    "Whole-body static geometry and nonnegative vertical support",
+    "13 local fixed-contact probe samples and support-margin diagnostics retained"
+  ],
+  "pending": [
+    "Repack pelvis/battery/power over a motion interval and increase support margin",
+    "Connect earlier cuff contact to planted-foot phase with collision-aware contact switches",
+    "Actual shoulder/elbow interfaces and full-load structural CAE",
+    "Continuous collision/dynamics and torque-speed-duration checks",
+    "Manufacturing/real tests and approved dressed Wukong appearance",
+    "PLM/MES deferred by user"
+  ]
+}

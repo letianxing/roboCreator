@@ -1,0 +1,15 @@
+{
+  "stage":"v0.21",
+  "status":"research_not_hardware_command",
+  "body_height_mm":[90,100,110,120],
+  "body_pitch_deg":[30,45,60,75],
+  "foot_x_relative_hip_mm":[0,25,50],
+  "foot_y_relative_left_hip_mm":[0,15,30,45],
+  "joint_lower_deg":[-50,-45,-160,0,-25,-35],
+  "joint_upper_deg":[50,45,160,150,25,35],
+  "position_tolerance_mm":0.01,
+  "orientation_tolerance_deg":0.01,
+  "ground_tolerance_mm":0.5,
+  "collision_volume_tolerance_mm3":0.00001,
+  "notes":["Joint limits are design assumptions, not measured limits","Right knee retained at v19 anchor, left sole flat","Existing bundled SciPy used, no new installation","Dimensions, 28 drives and appearance requirement unchanged"]
+}

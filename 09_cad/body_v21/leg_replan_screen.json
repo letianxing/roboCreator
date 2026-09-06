@@ -1,0 +1,1658 @@
+{
+  "cases": [
+    {
+      "id": 244,
+      "input": {
+        "id": 244,
+        "h_mm": 100,
+        "beta_deg": 30,
+        "hip_x_mm": -25.919922826160338,
+        "right_pose": {
+          "name": "coupled_contact",
+          "foot_translation_mm": [
+            -104.6845725211005,
+            0.0,
+            150.71537024535178
+          ],
+          "foot_pitch_deg": 195.92606330960456,
+          "q_deg": [
+            0,
+            0,
+            10.926063309604551,
+            120,
+            0,
+            35
+          ]
+        },
+        "left_pose": {
+          "name": "forward_candidate",
+          "q_deg": [
+            1.7879425079543894e-14,
+            4.394783907627052e-14,
+            -136.746925006739,
+            97.91570584146514,
+            -5.6618943714246525e-14,
+            8.8312187295278
+          ],
+          "foot_pitch_deg": 0,
+          "foot_translation_mm": [
+            74.08007717383967,
+            0.0,
+            2.0
+          ]
+        },
+        "q_deg": [
+          1.7879425079543894e-14,
+          4.394783907627052e-14,
+          -136.746925006739,
+          97.91570584146514,
+          -5.6618943714246525e-14,
+          8.8312187295278
+        ],
+        "position_error_mm": 4.4209683824790403e-07,
+        "orientation_error_deg": 0.0,
+        "ik_found": true,
+        "support_knee_replanned_deg": 120
+      },
+      "ground_penetrations_mm": {},
+      "left_related_collisions": [
+        {
+          "a": "PelvisPlate",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 1.8976695178403262
+        },
+        {
+          "a": "battery",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 225.52836704461504
+        },
+        {
+          "a": "power",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 406.62098220565747
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_ThighRail1",
+          "volume_mm3": 88.0826216004963
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_KneePad",
+          "volume_mm3": 7.2571405647385285
+        }
+      ],
+      "constant_body_collisions": [
+        {
+          "a": "R_FootStructure",
+          "b": "R_HipRollMotor",
+          "volume_mm3": 87.14697137079725
+        },
+        {
+          "a": "R_SolePad",
+          "b": "R_HipRollMotor",
+          "volume_mm3": 533.2409876544082
+        }
+      ],
+      "leg_and_fixed_body_geometry_pass": false,
+      "arms_checked": false
+    },
+    {
+      "id": 245,
+      "input": {
+        "id": 245,
+        "h_mm": 100,
+        "beta_deg": 30,
+        "hip_x_mm": -25.919922826160338,
+        "right_pose": {
+          "name": "coupled_contact",
+          "foot_translation_mm": [
+            -104.6845725211005,
+            0.0,
+            150.71537024535178
+          ],
+          "foot_pitch_deg": 195.92606330960456,
+          "q_deg": [
+            0,
+            0,
+            10.926063309604551,
+            120,
+            0,
+            35
+          ]
+        },
+        "left_pose": {
+          "name": "forward_candidate",
+          "q_deg": [
+            9.01223725342688,
+            11.008807504498963,
+            -136.2707831443554,
+            96.55916320663304,
+            -14.191922440615073,
+            8.841362496911335
+          ],
+          "foot_pitch_deg": 0,
+          "foot_translation_mm": [
+            74.08007717383967,
+            15.0,
+            2.0
+          ]
+        },
+        "q_deg": [
+          9.01223725342688,
+          11.008807504498963,
+          -136.2707831443554,
+          96.55916320663304,
+          -14.191922440615073,
+          8.841362496911335
+        ],
+        "position_error_mm": 2.900396713107894e-07,
+        "orientation_error_deg": 0.0,
+        "ik_found": true,
+        "support_knee_replanned_deg": 120
+      },
+      "ground_penetrations_mm": {},
+      "left_related_collisions": [
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_KneeMotor",
+          "volume_mm3": 28.376913110645688
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_KneePad",
+          "volume_mm3": 966.9736263393622
+        }
+      ],
+      "constant_body_collisions": [
+        {
+          "a": "R_FootStructure",
+          "b": "R_HipRollMotor",
+          "volume_mm3": 87.14697137079725
+        },
+        {
+          "a": "R_SolePad",
+          "b": "R_HipRollMotor",
+          "volume_mm3": 533.2409876544082
+        }
+      ],
+      "leg_and_fixed_body_geometry_pass": false,
+      "arms_checked": false
+    },
+    {
+      "id": 248,
+      "input": {
+        "id": 248,
+        "h_mm": 100,
+        "beta_deg": 30,
+        "hip_x_mm": -25.919922826160338,
+        "right_pose": {
+          "name": "coupled_contact",
+          "foot_translation_mm": [
+            -104.6845725211005,
+            0.0,
+            150.71537024535178
+          ],
+          "foot_pitch_deg": 195.92606330960456,
+          "q_deg": [
+            0,
+            0,
+            10.926063309604551,
+            120,
+            0,
+            35
+          ]
+        },
+        "left_pose": {
+          "name": "forward_candidate",
+          "q_deg": [
+            2.773939983592658e-19,
+            2.179929055653821e-19,
+            -132.2051886921827,
+            77.90658571022969,
+            -4.778524869666579e-19,
+            24.298602981922286
+          ],
+          "foot_pitch_deg": 0,
+          "foot_translation_mm": [
+            99.08007717383967,
+            0.0,
+            2.0
+          ]
+        },
+        "q_deg": [
+          2.773939983592658e-19,
+          2.179929055653821e-19,
+          -132.2051886921827,
+          77.90658571022969,
+          -4.778524869666579e-19,
+          24.298602981922286
+        ],
+        "position_error_mm": 3.3073674999343584e-11,
+        "orientation_error_deg": 0.0,
+        "ik_found": true,
+        "support_knee_replanned_deg": 120
+      },
+      "ground_penetrations_mm": {},
+      "left_related_collisions": [
+        {
+          "a": "battery",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 22.24905350354655
+        },
+        {
+          "a": "power",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 202.08386301631364
+        }
+      ],
+      "constant_body_collisions": [
+        {
+          "a": "R_FootStructure",
+          "b": "R_HipRollMotor",
+          "volume_mm3": 87.14697137079725
+        },
+        {
+          "a": "R_SolePad",
+          "b": "R_HipRollMotor",
+          "volume_mm3": 533.2409876544082
+        }
+      ],
+      "leg_and_fixed_body_geometry_pass": false,
+      "arms_checked": false
+    },
+    {
+      "id": 249,
+      "input": {
+        "id": 249,
+        "h_mm": 100,
+        "beta_deg": 30,
+        "hip_x_mm": -25.919922826160338,
+        "right_pose": {
+          "name": "coupled_contact",
+          "foot_translation_mm": [
+            -104.6845725211005,
+            0.0,
+            150.71537024535178
+          ],
+          "foot_pitch_deg": 195.92606330960456,
+          "q_deg": [
+            0,
+            0,
+            10.926063309604551,
+            120,
+            0,
+            35
+          ]
+        },
+        "left_pose": {
+          "name": "forward_candidate",
+          "q_deg": [
+            8.071698616513181,
+            5.705078750822596,
+            -131.67273621924576,
+            76.7016009916715,
+            -9.873423602599983,
+            24.568278799185464
+          ],
+          "foot_pitch_deg": 0,
+          "foot_translation_mm": [
+            99.08007717383967,
+            15.0,
+            2.0
+          ]
+        },
+        "q_deg": [
+          8.071698616513181,
+          5.705078750822596,
+          -131.67273621924576,
+          76.7016009916715,
+          -9.873423602599983,
+          24.568278799185464
+        ],
+        "position_error_mm": 3.181896385575163e-11,
+        "orientation_error_deg": 0.0,
+        "ik_found": true,
+        "support_knee_replanned_deg": 120
+      },
+      "ground_penetrations_mm": {},
+      "left_related_collisions": [
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_KneeMotor",
+          "volume_mm3": 45.85500671712072
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_ThighRail1",
+          "volume_mm3": 58.394975969886936
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_KneePad",
+          "volume_mm3": 738.5246613896285
+        }
+      ],
+      "constant_body_collisions": [
+        {
+          "a": "R_FootStructure",
+          "b": "R_HipRollMotor",
+          "volume_mm3": 87.14697137079725
+        },
+        {
+          "a": "R_SolePad",
+          "b": "R_HipRollMotor",
+          "volume_mm3": 533.2409876544082
+        }
+      ],
+      "leg_and_fixed_body_geometry_pass": false,
+      "arms_checked": false
+    },
+    {
+      "id": 256,
+      "input": {
+        "id": 256,
+        "h_mm": 100,
+        "beta_deg": 45,
+        "hip_x_mm": -25.919922826160338,
+        "right_pose": {
+          "name": "coupled_contact",
+          "foot_translation_mm": [
+            -104.6845725211005,
+            0.0,
+            150.71537024535178
+          ],
+          "foot_pitch_deg": 195.92606330960456,
+          "q_deg": [
+            0,
+            0,
+            -4.073936690395449,
+            120,
+            0,
+            35
+          ]
+        },
+        "left_pose": {
+          "name": "forward_candidate",
+          "q_deg": [
+            -1.8080912611479002e-14,
+            -2.6967808141762386e-14,
+            -151.74692499936575,
+            97.91570577891099,
+            3.471854271182839e-14,
+            8.831218839488518
+          ],
+          "foot_pitch_deg": 0,
+          "foot_translation_mm": [
+            74.08007717383967,
+            0.0,
+            2.0
+          ]
+        },
+        "q_deg": [
+          -1.8080912611479002e-14,
+          -2.6967808141762386e-14,
+          -151.74692499936575,
+          97.91570577891099,
+          3.471854271182839e-14,
+          8.831218839488518
+        ],
+        "position_error_mm": 3.8652808002377995e-07,
+        "orientation_error_deg": 0.0,
+        "ik_found": true,
+        "support_knee_replanned_deg": 120
+      },
+      "ground_penetrations_mm": {},
+      "left_related_collisions": [
+        {
+          "a": "PelvisPlate",
+          "b": "L_ShinKneeRailm1",
+          "volume_mm3": 241.62846074691754
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 241.58099306347222
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "L_CableServiceSpace",
+          "volume_mm3": 54.210828262950415
+        },
+        {
+          "a": "battery",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 2435.8299887337635
+        },
+        {
+          "a": "power",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 982.6894862847453
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_KneeMotor",
+          "volume_mm3": 102.6477659869291
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_ThighRail1",
+          "volume_mm3": 2237.5179382478887
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_KneePad",
+          "volume_mm3": 950.948111281022
+        }
+      ],
+      "constant_body_collisions": [],
+      "leg_and_fixed_body_geometry_pass": false,
+      "arms_checked": false
+    },
+    {
+      "id": 257,
+      "input": {
+        "id": 257,
+        "h_mm": 100,
+        "beta_deg": 45,
+        "hip_x_mm": -25.919922826160338,
+        "right_pose": {
+          "name": "coupled_contact",
+          "foot_translation_mm": [
+            -104.6845725211005,
+            0.0,
+            150.71537024535178
+          ],
+          "foot_pitch_deg": 195.92606330960456,
+          "q_deg": [
+            0,
+            0,
+            -4.073936690395449,
+            120,
+            0,
+            35
+          ]
+        },
+        "left_pose": {
+          "name": "forward_candidate",
+          "q_deg": [
+            12.471335030906008,
+            8.983001951309841,
+            -151.22055781298545,
+            96.44187939204727,
+            -15.328012986371661,
+            8.795162434417577
+          ],
+          "foot_pitch_deg": 0,
+          "foot_translation_mm": [
+            74.08007717383967,
+            15.0,
+            2.0
+          ]
+        },
+        "q_deg": [
+          12.471335030906008,
+          8.983001951309841,
+          -151.22055781298545,
+          96.44187939204727,
+          -15.328012986371661,
+          8.795162434417577
+        ],
+        "position_error_mm": 1.0007611443113055e-06,
+        "orientation_error_deg": 0.0,
+        "ik_found": true,
+        "support_knee_replanned_deg": 120
+      },
+      "ground_penetrations_mm": {},
+      "left_related_collisions": [
+        {
+          "a": "PelvisPlate",
+          "b": "L_ShinKneeRailm1",
+          "volume_mm3": 31.02447141472711
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 2.5549698716891145
+        },
+        {
+          "a": "battery",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 544.444577932716
+        },
+        {
+          "a": "power",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 267.96182947737657
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_KneeMotor",
+          "volume_mm3": 418.71823390258857
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_KneePad",
+          "volume_mm3": 1048.0702243932594
+        }
+      ],
+      "constant_body_collisions": [],
+      "leg_and_fixed_body_geometry_pass": false,
+      "arms_checked": false
+    },
+    {
+      "id": 260,
+      "input": {
+        "id": 260,
+        "h_mm": 100,
+        "beta_deg": 45,
+        "hip_x_mm": -25.919922826160338,
+        "right_pose": {
+          "name": "coupled_contact",
+          "foot_translation_mm": [
+            -104.6845725211005,
+            0.0,
+            150.71537024535178
+          ],
+          "foot_pitch_deg": 195.92606330960456,
+          "q_deg": [
+            0,
+            0,
+            -4.073936690395449,
+            120,
+            0,
+            35
+          ]
+        },
+        "left_pose": {
+          "name": "forward_candidate",
+          "q_deg": [
+            3.842831658672256e-19,
+            4.438838807867624e-19,
+            -147.20518869217722,
+            77.90658571020913,
+            -6.958500746343469e-19,
+            24.298602981951042
+          ],
+          "foot_pitch_deg": 0,
+          "foot_translation_mm": [
+            99.08007717383967,
+            0.0,
+            2.0
+          ]
+        },
+        "q_deg": [
+          3.842831658672256e-19,
+          4.438838807867624e-19,
+          -147.20518869217722,
+          77.90658571020913,
+          -6.958500746343469e-19,
+          24.298602981951042
+        ],
+        "position_error_mm": 1.7937616596798584e-11,
+        "orientation_error_deg": 0.0,
+        "ik_found": true,
+        "support_knee_replanned_deg": 120
+      },
+      "ground_penetrations_mm": {},
+      "left_related_collisions": [
+        {
+          "a": "PelvisPlate",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 171.62756740520302
+        },
+        {
+          "a": "battery",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 1623.3153124450587
+        },
+        {
+          "a": "power",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 824.1600745488934
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_KneeMotor",
+          "volume_mm3": 3362.621167897714
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_ThighRail1",
+          "volume_mm3": 1741.3830345623696
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_KneePad",
+          "volume_mm3": 965.1779823610266
+        }
+      ],
+      "constant_body_collisions": [],
+      "leg_and_fixed_body_geometry_pass": false,
+      "arms_checked": false
+    },
+    {
+      "id": 261,
+      "input": {
+        "id": 261,
+        "h_mm": 100,
+        "beta_deg": 45,
+        "hip_x_mm": -25.919922826160338,
+        "right_pose": {
+          "name": "coupled_contact",
+          "foot_translation_mm": [
+            -104.6845725211005,
+            0.0,
+            150.71537024535178
+          ],
+          "foot_pitch_deg": 195.92606330960456,
+          "q_deg": [
+            0,
+            0,
+            -4.073936690395449,
+            120,
+            0,
+            35
+          ]
+        },
+        "left_pose": {
+          "name": "forward_candidate",
+          "q_deg": [
+            9.88864974714994,
+            3.664775109250402,
+            -146.53817093741011,
+            76.67449057824824,
+            -10.539559567770329,
+            24.546534827739286
+          ],
+          "foot_pitch_deg": 0,
+          "foot_translation_mm": [
+            99.08007717383967,
+            15.0,
+            2.0
+          ]
+        },
+        "q_deg": [
+          9.88864974714994,
+          3.664775109250402,
+          -146.53817093741011,
+          76.67449057824824,
+          -10.539559567770329,
+          24.546534827739286
+        ],
+        "position_error_mm": 7.463055799108373e-12,
+        "orientation_error_deg": 0.0,
+        "ik_found": true,
+        "support_knee_replanned_deg": 120
+      },
+      "ground_penetrations_mm": {},
+      "left_related_collisions": [
+        {
+          "a": "PelvisPlate",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 5.068243529325476
+        },
+        {
+          "a": "battery",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 462.6620241307338
+        },
+        {
+          "a": "power",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 318.07294664390423
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_KneeMotor",
+          "volume_mm3": 148.20690406483018
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_ThighRail1",
+          "volume_mm3": 2562.6749558697547
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_KneePad",
+          "volume_mm3": 950.2803073095594
+        }
+      ],
+      "constant_body_collisions": [],
+      "leg_and_fixed_body_geometry_pass": false,
+      "arms_checked": false
+    },
+    {
+      "id": 340,
+      "input": {
+        "id": 340,
+        "h_mm": 120,
+        "beta_deg": 30,
+        "hip_x_mm": -66.00957245398182,
+        "right_pose": {
+          "name": "coupled_contact",
+          "foot_translation_mm": [
+            -159.46665474984204,
+            0.0,
+            126.45697990043024
+          ],
+          "foot_pitch_deg": 167.1014920318235,
+          "q_deg": [
+            0,
+            0,
+            -17.898507968176503,
+            120,
+            0,
+            35
+          ]
+        },
+        "left_pose": {
+          "name": "forward_candidate",
+          "q_deg": [
+            -2.1831718979095888e-15,
+            -5.297665605463709e-15,
+            -124.08853974994959,
+            87.56242591132205,
+            7.52770724321426e-15,
+            6.526113697923703
+          ],
+          "foot_pitch_deg": 0,
+          "foot_translation_mm": [
+            33.99042754601818,
+            0.0,
+            2.0
+          ]
+        },
+        "q_deg": [
+          -2.1831718979095888e-15,
+          -5.297665605463709e-15,
+          -124.08853974994959,
+          87.56242591132205,
+          7.52770724321426e-15,
+          6.526113697923703
+        ],
+        "position_error_mm": 1.505295559830215e-07,
+        "orientation_error_deg": 0.0,
+        "ik_found": true,
+        "support_knee_replanned_deg": 120
+      },
+      "ground_penetrations_mm": {},
+      "left_related_collisions": [
+        {
+          "a": "power",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 9.828551633716035
+        }
+      ],
+      "constant_body_collisions": [],
+      "leg_and_fixed_body_geometry_pass": false,
+      "arms_checked": false
+    },
+    {
+      "id": 341,
+      "input": {
+        "id": 341,
+        "h_mm": 120,
+        "beta_deg": 30,
+        "hip_x_mm": -66.00957245398182,
+        "right_pose": {
+          "name": "coupled_contact",
+          "foot_translation_mm": [
+            -159.46665474984204,
+            0.0,
+            126.45697990043024
+          ],
+          "foot_pitch_deg": 167.1014920318235,
+          "q_deg": [
+            0,
+            0,
+            -17.898507968176503,
+            120,
+            0,
+            35
+          ]
+        },
+        "left_pose": {
+          "name": "forward_candidate",
+          "q_deg": [
+            6.696834022168173,
+            8.894430195994248,
+            -123.59574695765475,
+            86.38204057850838,
+            -11.117432850230824,
+            6.692271185848947
+          ],
+          "foot_pitch_deg": 0,
+          "foot_translation_mm": [
+            33.99042754601818,
+            15.0,
+            2.0
+          ]
+        },
+        "q_deg": [
+          6.696834022168173,
+          8.894430195994248,
+          -123.59574695765475,
+          86.38204057850838,
+          -11.117432850230824,
+          6.692271185848947
+        ],
+        "position_error_mm": 1.28746000652534e-07,
+        "orientation_error_deg": 0.0,
+        "ik_found": true,
+        "support_knee_replanned_deg": 120
+      },
+      "ground_penetrations_mm": {},
+      "left_related_collisions": [
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_KneePad",
+          "volume_mm3": 0.0019579479394615414
+        }
+      ],
+      "constant_body_collisions": [],
+      "leg_and_fixed_body_geometry_pass": false,
+      "arms_checked": false
+    },
+    {
+      "id": 344,
+      "input": {
+        "id": 344,
+        "h_mm": 120,
+        "beta_deg": 30,
+        "hip_x_mm": -66.00957245398182,
+        "right_pose": {
+          "name": "coupled_contact",
+          "foot_translation_mm": [
+            -159.46665474984204,
+            0.0,
+            126.45697990043024
+          ],
+          "foot_pitch_deg": 167.1014920318235,
+          "q_deg": [
+            0,
+            0,
+            -17.898507968176503,
+            120,
+            0,
+            35
+          ]
+        },
+        "left_pose": {
+          "name": "forward_candidate",
+          "q_deg": [
+            -4.7714849903120303e-20,
+            -8.823360573426152e-20,
+            -119.9462712283229,
+            67.0608634078344,
+            1.4202644766127335e-19,
+            22.88540782048439
+          ],
+          "foot_pitch_deg": 0,
+          "foot_translation_mm": [
+            58.99042754601818,
+            0.0,
+            2.0
+          ]
+        },
+        "q_deg": [
+          -4.7714849903120303e-20,
+          -8.823360573426152e-20,
+          -119.9462712283229,
+          67.0608634078344,
+          1.4202644766127335e-19,
+          22.88540782048439
+        ],
+        "position_error_mm": 4.8833451827269734e-12,
+        "orientation_error_deg": 0.0,
+        "ik_found": true,
+        "support_knee_replanned_deg": 120
+      },
+      "ground_penetrations_mm": {},
+      "left_related_collisions": [],
+      "constant_body_collisions": [],
+      "leg_and_fixed_body_geometry_pass": true,
+      "arms_checked": false
+    },
+    {
+      "id": 345,
+      "input": {
+        "id": 345,
+        "h_mm": 120,
+        "beta_deg": 30,
+        "hip_x_mm": -66.00957245398182,
+        "right_pose": {
+          "name": "coupled_contact",
+          "foot_translation_mm": [
+            -159.46665474984204,
+            0.0,
+            126.45697990043024
+          ],
+          "foot_pitch_deg": 167.1014920318235,
+          "q_deg": [
+            0,
+            0,
+            -17.898507968176503,
+            120,
+            0,
+            35
+          ]
+        },
+        "left_pose": {
+          "name": "forward_candidate",
+          "q_deg": [
+            6.658191038567608,
+            4.946267773014798,
+            -119.41245430472975,
+            65.86274726307698,
+            -8.287749394007657,
+            23.261808617360472
+          ],
+          "foot_pitch_deg": 0,
+          "foot_translation_mm": [
+            58.99042754601818,
+            15.0,
+            2.0
+          ]
+        },
+        "q_deg": [
+          6.658191038567608,
+          4.946267773014798,
+          -119.41245430472975,
+          65.86274726307698,
+          -8.287749394007657,
+          23.261808617360472
+        ],
+        "position_error_mm": 6.177331055694487e-12,
+        "orientation_error_deg": 0.0,
+        "ik_found": true,
+        "support_knee_replanned_deg": 120
+      },
+      "ground_penetrations_mm": {},
+      "left_related_collisions": [],
+      "constant_body_collisions": [],
+      "leg_and_fixed_body_geometry_pass": true,
+      "arms_checked": false
+    },
+    {
+      "id": 352,
+      "input": {
+        "id": 352,
+        "h_mm": 120,
+        "beta_deg": 45,
+        "hip_x_mm": -66.00957245398182,
+        "right_pose": {
+          "name": "coupled_contact",
+          "foot_translation_mm": [
+            -159.46665474984204,
+            0.0,
+            126.45697990043024
+          ],
+          "foot_pitch_deg": 167.1014920318235,
+          "q_deg": [
+            0,
+            0,
+            -32.8985079681765,
+            120,
+            0,
+            35
+          ]
+        },
+        "left_pose": {
+          "name": "forward_candidate",
+          "q_deg": [
+            -1.4102859141959467e-16,
+            -4.169194893094384e-16,
+            -139.08853974089712,
+            87.56242586630209,
+            5.270908543632921e-16,
+            6.52611376836057
+          ],
+          "foot_pitch_deg": 0,
+          "foot_translation_mm": [
+            33.99042754601818,
+            0.0,
+            2.0
+          ]
+        },
+        "q_deg": [
+          -1.4102859141959467e-16,
+          -4.169194893094384e-16,
+          -139.08853974089712,
+          87.56242586630209,
+          5.270908543632921e-16,
+          6.52611376836057
+        ],
+        "position_error_mm": 1.1361522359102518e-07,
+        "orientation_error_deg": 0.0,
+        "ik_found": true,
+        "support_knee_replanned_deg": 120
+      },
+      "ground_penetrations_mm": {},
+      "left_related_collisions": [
+        {
+          "a": "PelvisPlate",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 30.87370437753053
+        },
+        {
+          "a": "battery",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 418.3362800204941
+        },
+        {
+          "a": "power",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 508.57823653322396
+        }
+      ],
+      "constant_body_collisions": [],
+      "leg_and_fixed_body_geometry_pass": false,
+      "arms_checked": false
+    },
+    {
+      "id": 353,
+      "input": {
+        "id": 353,
+        "h_mm": 120,
+        "beta_deg": 45,
+        "hip_x_mm": -66.00957245398182,
+        "right_pose": {
+          "name": "coupled_contact",
+          "foot_translation_mm": [
+            -159.46665474984204,
+            0.0,
+            126.45697990043024
+          ],
+          "foot_pitch_deg": 167.1014920318235,
+          "q_deg": [
+            0,
+            0,
+            -32.8985079681765,
+            120,
+            0,
+            35
+          ]
+        },
+        "left_pose": {
+          "name": "forward_candidate",
+          "q_deg": [
+            9.28908779970014,
+            7.268856878493031,
+            -138.5694053582229,
+            86.29381688665224,
+            -11.775364024950967,
+            6.68427399481431
+          ],
+          "foot_pitch_deg": 0,
+          "foot_translation_mm": [
+            33.99042754601818,
+            15.0,
+            2.0
+          ]
+        },
+        "q_deg": [
+          9.28908779970014,
+          7.268856878493031,
+          -138.5694053582229,
+          86.29381688665224,
+          -11.775364024950967,
+          6.68427399481431
+        ],
+        "position_error_mm": 5.670254866824556e-08,
+        "orientation_error_deg": 0.0,
+        "ik_found": true,
+        "support_knee_replanned_deg": 120
+      },
+      "ground_penetrations_mm": {},
+      "left_related_collisions": [
+        {
+          "a": "battery",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 4.4872073180997584e-05
+        },
+        {
+          "a": "power",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 14.04487757455433
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_KneeMotor",
+          "volume_mm3": 28.372719521689802
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_KneePad",
+          "volume_mm3": 969.2153043110716
+        }
+      ],
+      "constant_body_collisions": [],
+      "leg_and_fixed_body_geometry_pass": false,
+      "arms_checked": false
+    },
+    {
+      "id": 356,
+      "input": {
+        "id": 356,
+        "h_mm": 120,
+        "beta_deg": 45,
+        "hip_x_mm": -66.00957245398182,
+        "right_pose": {
+          "name": "coupled_contact",
+          "foot_translation_mm": [
+            -159.46665474984204,
+            0.0,
+            126.45697990043024
+          ],
+          "foot_pitch_deg": 167.1014920318235,
+          "q_deg": [
+            0,
+            0,
+            -32.8985079681765,
+            120,
+            0,
+            35
+          ]
+        },
+        "left_pose": {
+          "name": "forward_candidate",
+          "q_deg": [
+            -3.490074622846728e-20,
+            -1.6117240269034245e-20,
+            -134.9462712283217,
+            67.06086340783048,
+            6.294508510506914e-20,
+            22.8854078204893
+          ],
+          "foot_pitch_deg": 0,
+          "foot_translation_mm": [
+            58.99042754601818,
+            0.0,
+            2.0
+          ]
+        },
+        "q_deg": [
+          -3.490074622846728e-20,
+          -1.6117240269034245e-20,
+          -134.9462712283217,
+          67.06086340783048,
+          6.294508510506914e-20,
+          22.8854078204893
+        ],
+        "position_error_mm": 2.2675065511312704e-12,
+        "orientation_error_deg": 0.0,
+        "ik_found": true,
+        "support_knee_replanned_deg": 120
+      },
+      "ground_penetrations_mm": {},
+      "left_related_collisions": [
+        {
+          "a": "battery",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 118.97239265609974
+        },
+        {
+          "a": "power",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 323.8198533778867
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_KneePad",
+          "volume_mm3": 4.303870597313908
+        }
+      ],
+      "constant_body_collisions": [],
+      "leg_and_fixed_body_geometry_pass": false,
+      "arms_checked": false
+    },
+    {
+      "id": 357,
+      "input": {
+        "id": 357,
+        "h_mm": 120,
+        "beta_deg": 45,
+        "hip_x_mm": -66.00957245398182,
+        "right_pose": {
+          "name": "coupled_contact",
+          "foot_translation_mm": [
+            -159.46665474984204,
+            0.0,
+            126.45697990043024
+          ],
+          "foot_pitch_deg": 167.1014920318235,
+          "q_deg": [
+            0,
+            0,
+            -32.8985079681765,
+            120,
+            0,
+            35
+          ]
+        },
+        "left_pose": {
+          "name": "forward_candidate",
+          "q_deg": [
+            8.132377460680615,
+            3.2295890612136158,
+            -134.3172627436238,
+            65.83400149249758,
+            -8.74617944201681,
+            23.253614119686056
+          ],
+          "foot_pitch_deg": 0,
+          "foot_translation_mm": [
+            58.99042754601818,
+            15.0,
+            2.0
+          ]
+        },
+        "q_deg": [
+          8.132377460680615,
+          3.2295890612136158,
+          -134.3172627436238,
+          65.83400149249758,
+          -8.74617944201681,
+          23.253614119686056
+        ],
+        "position_error_mm": 2.7392742784971154e-06,
+        "orientation_error_deg": 2.091309789151873e-06,
+        "ik_found": true,
+        "support_knee_replanned_deg": 120
+      },
+      "ground_penetrations_mm": {},
+      "left_related_collisions": [
+        {
+          "a": "power",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 17.53976650022665
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_KneePad",
+          "volume_mm3": 863.6749435287319
+        }
+      ],
+      "constant_body_collisions": [],
+      "leg_and_fixed_body_geometry_pass": false,
+      "arms_checked": false
+    },
+    {
+      "id": 364,
+      "input": {
+        "id": 364,
+        "h_mm": 120,
+        "beta_deg": 60,
+        "hip_x_mm": -66.00957245398182,
+        "right_pose": {
+          "name": "coupled_contact",
+          "foot_translation_mm": [
+            -159.46665474984204,
+            0.0,
+            126.45697990043024
+          ],
+          "foot_pitch_deg": 167.1014920318235,
+          "q_deg": [
+            0,
+            0,
+            -47.8985079681765,
+            120,
+            0,
+            35
+          ]
+        },
+        "left_pose": {
+          "name": "forward_candidate",
+          "q_deg": [
+            3.979162318309217e-15,
+            3.9688789568504556e-15,
+            -154.0885397400874,
+            87.56242586254847,
+            -6.5951263912183864e-15,
+            6.526113774072609
+          ],
+          "foot_pitch_deg": 0,
+          "foot_translation_mm": [
+            33.99042754601818,
+            0.0,
+            2.0
+          ]
+        },
+        "q_deg": [
+          3.979162318309217e-15,
+          3.9688789568504556e-15,
+          -154.0885397400874,
+          87.56242586254847,
+          -6.5951263912183864e-15,
+          6.526113774072609
+        ],
+        "position_error_mm": 1.1053217716477624e-07,
+        "orientation_error_deg": 0.0,
+        "ik_found": true,
+        "support_knee_replanned_deg": 120
+      },
+      "ground_penetrations_mm": {},
+      "left_related_collisions": [
+        {
+          "a": "PelvisPlate",
+          "b": "L_ShinKneeRailm1",
+          "volume_mm3": 185.52282330771686
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 275.92481942182536
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "L_CableServiceSpace",
+          "volume_mm3": 1.9204306963816715
+        },
+        {
+          "a": "battery",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 2836.8330132386964
+        },
+        {
+          "a": "power",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 1060.9685943639872
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_KneeMotor",
+          "volume_mm3": 6063.765273829288
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_ThighRail1",
+          "volume_mm3": 2517.9012677790224
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_KneePad",
+          "volume_mm3": 951.1568539014764
+        }
+      ],
+      "constant_body_collisions": [],
+      "leg_and_fixed_body_geometry_pass": false,
+      "arms_checked": false
+    },
+    {
+      "id": 365,
+      "input": {
+        "id": 365,
+        "h_mm": 120,
+        "beta_deg": 60,
+        "hip_x_mm": -66.00957245398182,
+        "right_pose": {
+          "name": "coupled_contact",
+          "foot_translation_mm": [
+            -159.46665474984204,
+            0.0,
+            126.45697990043024
+          ],
+          "foot_pitch_deg": 167.1014920318235,
+          "q_deg": [
+            0,
+            0,
+            -47.8985079681765,
+            120,
+            0,
+            35
+          ]
+        },
+        "left_pose": {
+          "name": "forward_candidate",
+          "q_deg": [
+            11.694711484943586,
+            5.002065328814966,
+            -153.41051909781237,
+            86.25272489504447,
+            -12.705838221448069,
+            6.64520342267388
+          ],
+          "foot_pitch_deg": 0,
+          "foot_translation_mm": [
+            33.99042754601818,
+            15.0,
+            2.0
+          ]
+        },
+        "q_deg": [
+          11.694711484943586,
+          5.002065328814966,
+          -153.41051909781237,
+          86.25272489504447,
+          -12.705838221448069,
+          6.64520342267388
+        ],
+        "position_error_mm": 4.362647806993063e-08,
+        "orientation_error_deg": 0.0,
+        "ik_found": true,
+        "support_knee_replanned_deg": 120
+      },
+      "ground_penetrations_mm": {},
+      "left_related_collisions": [
+        {
+          "a": "PelvisPlate",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 77.9693076301187
+        },
+        {
+          "a": "battery",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 1237.3252651976718
+        },
+        {
+          "a": "power",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 479.5794167978526
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_KneeMotor",
+          "volume_mm3": 150.70895317730245
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_ThighRail1",
+          "volume_mm3": 3811.9757211362376
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_KneePad",
+          "volume_mm3": 982.6978069760421
+        }
+      ],
+      "constant_body_collisions": [],
+      "leg_and_fixed_body_geometry_pass": false,
+      "arms_checked": false
+    },
+    {
+      "id": 368,
+      "input": {
+        "id": 368,
+        "h_mm": 120,
+        "beta_deg": 60,
+        "hip_x_mm": -66.00957245398182,
+        "right_pose": {
+          "name": "coupled_contact",
+          "foot_translation_mm": [
+            -159.46665474984204,
+            0.0,
+            126.45697990043024
+          ],
+          "foot_pitch_deg": 167.1014920318235,
+          "q_deg": [
+            0,
+            0,
+            -47.8985079681765,
+            120,
+            0,
+            35
+          ]
+        },
+        "left_pose": {
+          "name": "forward_candidate",
+          "q_deg": [
+            1.2254651184291574e-20,
+            1.0594907103805458e-20,
+            -149.94627122832102,
+            67.06086340782862,
+            -1.6167276757163147e-20,
+            22.885407820491505
+          ],
+          "foot_pitch_deg": 0,
+          "foot_translation_mm": [
+            58.99042754601818,
+            0.0,
+            2.0
+          ]
+        },
+        "q_deg": [
+          1.2254651184291574e-20,
+          1.0594907103805458e-20,
+          -149.94627122832102,
+          67.06086340782862,
+          -1.6167276757163147e-20,
+          22.885407820491505
+        ],
+        "position_error_mm": 1.1229021969236063e-12,
+        "orientation_error_deg": 0.0,
+        "ik_found": true,
+        "support_knee_replanned_deg": 120
+      },
+      "ground_penetrations_mm": {},
+      "left_related_collisions": [
+        {
+          "a": "PelvisPlate",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 214.42736970427998
+        },
+        {
+          "a": "battery",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 2119.5814468656895
+        },
+        {
+          "a": "power",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 921.010719744626
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_KneeMotor",
+          "volume_mm3": 56.745439043379626
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_ThighRail1",
+          "volume_mm3": 2031.5316561157256
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_KneePad",
+          "volume_mm3": 953.8921455314966
+        }
+      ],
+      "constant_body_collisions": [],
+      "leg_and_fixed_body_geometry_pass": false,
+      "arms_checked": false
+    },
+    {
+      "id": 369,
+      "input": {
+        "id": 369,
+        "h_mm": 120,
+        "beta_deg": 60,
+        "hip_x_mm": -66.00957245398182,
+        "right_pose": {
+          "name": "coupled_contact",
+          "foot_translation_mm": [
+            -159.46665474984204,
+            0.0,
+            126.45697990043024
+          ],
+          "foot_pitch_deg": 167.1014920318235,
+          "q_deg": [
+            0,
+            0,
+            -47.8985079681765,
+            120,
+            0,
+            35
+          ]
+        },
+        "left_pose": {
+          "name": "forward_candidate",
+          "q_deg": [
+            9.254939036088267,
+            1.0921171528721971,
+            -149.16013733125217,
+            65.83162466436046,
+            -9.318595570730729,
+            23.240111885363845
+          ],
+          "foot_pitch_deg": 0,
+          "foot_translation_mm": [
+            58.99042754601818,
+            15.0,
+            2.0
+          ]
+        },
+        "q_deg": [
+          9.254939036088267,
+          1.0921171528721971,
+          -149.16013733125217,
+          65.83162466436046,
+          -9.318595570730729,
+          23.240111885363845
+        ],
+        "position_error_mm": 1.7004826398093898e-06,
+        "orientation_error_deg": 1.2074182697257333e-06,
+        "ik_found": true,
+        "support_knee_replanned_deg": 120
+      },
+      "ground_penetrations_mm": {},
+      "left_related_collisions": [
+        {
+          "a": "PelvisPlate",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 75.28021179849976
+        },
+        {
+          "a": "battery",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 1017.9842520355468
+        },
+        {
+          "a": "power",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 495.7407635192347
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_KneeMotor",
+          "volume_mm3": 8719.79761086584
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_ThighRail1",
+          "volume_mm3": 2629.4723584836897
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_KneePad",
+          "volume_mm3": 943.2947518753713
+        }
+      ],
+      "constant_body_collisions": [],
+      "leg_and_fixed_body_geometry_pass": false,
+      "arms_checked": false
+    }
+  ],
+  "expected_cases": 20,
+  "completed": true
+}

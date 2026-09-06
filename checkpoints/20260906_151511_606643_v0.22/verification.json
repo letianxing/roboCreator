@@ -1,0 +1,24 @@
+{
+  "id": "20260906_151511_606643_v0.22",
+  "stage": "v0.22",
+  "verified": true,
+  "file_count": 854,
+  "source_bytes": 1662374818,
+  "archive_bytes": 605622513,
+  "archive_sha256": "2eff692254a6de2095be390a1d969c5ae5842293be8a738c93b329f971b70cfb",
+  "archive": "checkpoints\\20260906_151511_606643_v0.22\\project.zip",
+  "passed_checks": [
+    "1mm and2mm four-scene layout searches,42 and4 joint survivors",
+    "13 half-mm local poses: electronics clearance, geometry and vertical equilibrium",
+    "Bilateral FK closure and adjacent joint samples, not timed hardware commands",
+    "Standing geometry and dimensions retained; mass/COM relocation arithmetic",
+    "Four native CAD/STEP files and exact nearest-envelope interface gaps"
+  ],
+  "pending": [
+    "Real module interfaces, retainers, standoffs and cable volumes with mass accounting",
+    "Extend local interval and improve upper-range support margin",
+    "Connect cuff/foot replanting and knee unload to final stance",
+    "Structural/dynamic/thermal/impact and physical validation",
+    "Final dressed Wukong appearance; PLM/MES deferred"
+  ]
+}

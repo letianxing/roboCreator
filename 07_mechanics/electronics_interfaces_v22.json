@@ -1,0 +1,87 @@
+{
+  "scenes": [
+    {
+      "scene": "lift_h114",
+      "nearest_envelope_gaps": [
+        {
+          "component": "battery",
+          "nearest_part": "L_ThighRailm1",
+          "distance_mm": 3.2992092260146033
+        },
+        {
+          "component": "power",
+          "nearest_part": "PelvisPlate",
+          "distance_mm": 2.000000000000011
+        },
+        {
+          "component": "computer",
+          "nearest_part": "microphone",
+          "distance_mm": 1.999999999999966
+        }
+      ]
+    },
+    {
+      "scene": "lift_h117",
+      "nearest_envelope_gaps": [
+        {
+          "component": "battery",
+          "nearest_part": "L_HipYawMotor",
+          "distance_mm": 4.7499999999999325
+        },
+        {
+          "component": "power",
+          "nearest_part": "PelvisPlate",
+          "distance_mm": 1.999999999999988
+        },
+        {
+          "component": "computer",
+          "nearest_part": "microphone",
+          "distance_mm": 1.999999999999966
+        }
+      ]
+    },
+    {
+      "scene": "lift_h119",
+      "nearest_envelope_gaps": [
+        {
+          "component": "battery",
+          "nearest_part": "L_HipYawMotor",
+          "distance_mm": 4.7499999999999325
+        },
+        {
+          "component": "power",
+          "nearest_part": "PelvisPlate",
+          "distance_mm": 1.999999999999988
+        },
+        {
+          "component": "computer",
+          "nearest_part": "microphone",
+          "distance_mm": 1.999999999999937
+        }
+      ]
+    },
+    {
+      "scene": "stand_candidate",
+      "nearest_envelope_gaps": [
+        {
+          "component": "battery",
+          "nearest_part": "R_HipYawMotor",
+          "distance_mm": 4.7499999999999964
+        },
+        {
+          "component": "power",
+          "nearest_part": "PelvisPlate",
+          "distance_mm": 2.0
+        },
+        {
+          "component": "computer",
+          "nearest_part": "microphone",
+          "distance_mm": 2.000000000000007
+        }
+      ],
+      "battery_bottom_to_pelvis_top_mm": 6.0,
+      "power_top_to_pelvis_bottom_mm": 2.0
+    }
+  ],
+  "mounts_cables_thermal_and_insulation_validated": false
+}

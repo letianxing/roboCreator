@@ -1,0 +1,1481 @@
+{
+  "samples": [
+    {
+      "h_mm": 114,
+      "input": {
+        "id": 544,
+        "h_mm": 114,
+        "beta_deg": 35,
+        "hip_x_mm": -47.78306073611222,
+        "right_pose": {
+          "name": "coupled_contact",
+          "foot_translation_mm": [
+            -159.46665474984204,
+            0.0,
+            126.45697990043024
+          ],
+          "foot_pitch_deg": 167.1014920318235,
+          "q_deg": [
+            0,
+            0,
+            -10.65935327139816,
+            107.76084530322167,
+            0,
+            35
+          ]
+        },
+        "left_pose": {
+          "name": "forward_candidate",
+          "q_deg": [
+            -3.217741307150605e-21,
+            1.736665611141089e-21,
+            -132.20348213159983,
+            86.00169142515345,
+            4.493145354091162e-21,
+            11.201790706445498
+          ],
+          "foot_pitch_deg": 0,
+          "foot_translation_mm": [
+            58.99042754601818,
+            0.0,
+            2.0
+          ]
+        },
+        "q_deg": [
+          3.4124660748093356e-20,
+          2.005320933551234e-20,
+          -124.9462712283224,
+          67.06086340783274,
+          -6.251118001966121e-20,
+          22.885407820486556
+        ],
+        "position_error_mm": 3.822172177920441e-12,
+        "orientation_error_deg": 0.0,
+        "ik_found": true,
+        "support_knee_replanned_deg": 120,
+        "power_shift_body_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "left_arm": {
+        "q_deg": [
+          -140,
+          0,
+          0,
+          45,
+          0,
+          0
+        ],
+        "ik_found": true,
+        "scope": "Free arm retains body-relative joint angles"
+      },
+      "right_arm": {
+        "q_deg": [
+          -37.362075080078746,
+          -25.9465847838115,
+          -82.12158049716145,
+          37.928325170495526,
+          1.118286598949994,
+          78.09894274800133
+        ],
+        "position_error_mm": 1.6619456763493252e-10,
+        "normal_error_deg": 0.0,
+        "cuff_min_z_mm": 20.91914079593566,
+        "ik_found": true
+      },
+      "leg_ik": {
+        "q_deg": [
+          -3.217741307150605e-21,
+          1.736665611141089e-21,
+          -132.20348213159983,
+          86.00169142515345,
+          4.493145354091162e-21,
+          11.201790706445498
+        ],
+        "position_error_mm": 1.0055786654666811e-12,
+        "orientation_error_deg": 0.0,
+        "ik_found": true
+      },
+      "from_v21_exact_sample": true,
+      "closure_checks": [
+        {
+          "leg": "left_pose",
+          "position_error_mm": 1.0384388567711901e-12,
+          "rotation_matrix_error": 2.1501276914224453e-14
+        },
+        {
+          "leg": "right_pose",
+          "position_error_mm": 5.551115123125783e-14,
+          "rotation_matrix_error": 2.435541875787129e-16
+        }
+      ]
+    },
+    {
+      "h_mm": 114.5,
+      "input": {
+        "id": 544,
+        "h_mm": 114.5,
+        "beta_deg": 35,
+        "hip_x_mm": -48.90879829324963,
+        "right_pose": {
+          "name": "coupled_contact",
+          "foot_translation_mm": [
+            -159.46665474984204,
+            0.0,
+            126.45697990043024
+          ],
+          "foot_pitch_deg": 167.1014920318235,
+          "q_deg": [
+            0,
+            0,
+            -11.443535690898766,
+            108.54502772272228,
+            0,
+            35
+          ]
+        },
+        "left_pose": {
+          "name": "forward_candidate",
+          "q_deg": [
+            -2.773229806888815e-20,
+            -5.691824560256165e-20,
+            -131.74679552221326,
+            84.87015338199123,
+            7.720270918126084e-20,
+            11.876642140219609
+          ],
+          "foot_pitch_deg": 0,
+          "foot_translation_mm": [
+            58.99042754601818,
+            0.0,
+            2.0
+          ]
+        },
+        "q_deg": [
+          3.4124660748093356e-20,
+          2.005320933551234e-20,
+          -124.9462712283224,
+          67.06086340783274,
+          -6.251118001966121e-20,
+          22.885407820486556
+        ],
+        "position_error_mm": 3.822172177920441e-12,
+        "orientation_error_deg": 0.0,
+        "ik_found": true,
+        "support_knee_replanned_deg": 120,
+        "power_shift_body_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "left_arm": {
+        "q_deg": [
+          -140,
+          0,
+          0,
+          45,
+          0,
+          0
+        ],
+        "contact": "free"
+      },
+      "right_arm": {
+        "q_deg": [
+          -37.647726091669796,
+          -25.381304826075475,
+          -82.28725867265113,
+          36.854047814245504,
+          0.6830361708301119,
+          78.64846116961542
+        ],
+        "position_error_mm": 7.126637657014207e-09,
+        "normal_error_deg": 0.0,
+        "ik_found": true
+      },
+      "leg_ik": {
+        "q_deg": [
+          -2.773229806888815e-20,
+          -5.691824560256165e-20,
+          -131.74679552221326,
+          84.87015338199123,
+          7.720270918126084e-20,
+          11.876642140219609
+        ],
+        "position_error_mm": 2.5427714939242487e-12,
+        "orientation_error_deg": 0.0,
+        "ik_found": true
+      },
+      "from_v21_exact_sample": false,
+      "closure_checks": [
+        {
+          "leg": "left_pose",
+          "position_error_mm": 2.5427714939242487e-12,
+          "rotation_matrix_error": 5.980360464498936e-14
+        },
+        {
+          "leg": "right_pose",
+          "position_error_mm": 6.206335383118183e-14,
+          "rotation_matrix_error": 2.498001805406602e-16
+        }
+      ]
+    },
+    {
+      "h_mm": 115,
+      "input": {
+        "id": 544,
+        "h_mm": 115,
+        "beta_deg": 35,
+        "hip_x_mm": -50.078109435484414,
+        "right_pose": {
+          "name": "coupled_contact",
+          "foot_translation_mm": [
+            -159.46665474984204,
+            0.0,
+            126.45697990043024
+          ],
+          "foot_pitch_deg": 167.1014920318235,
+          "q_deg": [
+            0,
+            0,
+            -12.253148725635164,
+            109.35464075745867,
+            0,
+            35
+          ]
+        },
+        "left_pose": {
+          "name": "forward_candidate",
+          "q_deg": [
+            -2.2797538646699142e-20,
+            -1.292269556181852e-19,
+            -131.27566904450933,
+            83.6919941279536,
+            1.1128561357350304e-19,
+            12.583674916549151
+          ],
+          "foot_pitch_deg": 0,
+          "foot_translation_mm": [
+            58.99042754601818,
+            0.0,
+            2.0
+          ]
+        },
+        "q_deg": [
+          3.4124660748093356e-20,
+          2.005320933551234e-20,
+          -124.9462712283224,
+          67.06086340783274,
+          -6.251118001966121e-20,
+          22.885407820486556
+        ],
+        "position_error_mm": 3.822172177920441e-12,
+        "orientation_error_deg": 0.0,
+        "ik_found": true,
+        "support_knee_replanned_deg": 120,
+        "power_shift_body_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "left_arm": {
+        "q_deg": [
+          -140,
+          0,
+          0,
+          45,
+          0,
+          0
+        ],
+        "ik_found": true,
+        "scope": "Free arm retains body-relative joint angles"
+      },
+      "right_arm": {
+        "q_deg": [
+          -37.81669331028532,
+          -24.80448167905908,
+          -82.72055595362225,
+          35.72855350097152,
+          0.2536135223827284,
+          79.22422371795076
+        ],
+        "position_error_mm": 5.765481432486386e-10,
+        "normal_error_deg": 1.2074182697257333e-06,
+        "cuff_min_z_mm": 21.703596980112973,
+        "ik_found": true
+      },
+      "leg_ik": {
+        "q_deg": [
+          -2.2797538646699142e-20,
+          -1.292269556181852e-19,
+          -131.27566904450933,
+          83.6919941279536,
+          1.1128561357350304e-19,
+          12.583674916549151
+        ],
+        "position_error_mm": 7.352359980395473e-12,
+        "orientation_error_deg": 0.0,
+        "ik_found": true
+      },
+      "from_v21_exact_sample": true,
+      "closure_checks": [
+        {
+          "leg": "left_pose",
+          "position_error_mm": 7.352359980395473e-12,
+          "rotation_matrix_error": 1.6198396919783404e-13
+        },
+        {
+          "leg": "right_pose",
+          "position_error_mm": 2.7755575615628914e-14,
+          "rotation_matrix_error": 4.855242786854203e-16
+        }
+      ]
+    },
+    {
+      "h_mm": 115.5,
+      "input": {
+        "id": 544,
+        "h_mm": 115.5,
+        "beta_deg": 35,
+        "hip_x_mm": -51.295545497681076,
+        "right_pose": {
+          "name": "coupled_contact",
+          "foot_translation_mm": [
+            -159.46665474984204,
+            0.0,
+            126.45697990043024
+          ],
+          "foot_pitch_deg": 167.1014920318235,
+          "q_deg": [
+            0,
+            0,
+            -13.091019057353343,
+            110.19251108917686,
+            0,
+            35
+          ]
+        },
+        "left_pose": {
+          "name": "forward_candidate",
+          "q_deg": [
+            1.7677407779385441e-19,
+            2.332468477125754e-19,
+            -130.78815100133673,
+            82.4617514314934,
+            -4.387920140295815e-19,
+            13.326399569824375
+          ],
+          "foot_pitch_deg": 0,
+          "foot_translation_mm": [
+            58.99042754601818,
+            0.0,
+            2.0
+          ]
+        },
+        "q_deg": [
+          3.4124660748093356e-20,
+          2.005320933551234e-20,
+          -124.9462712283224,
+          67.06086340783274,
+          -6.251118001966121e-20,
+          22.885407820486556
+        ],
+        "position_error_mm": 3.822172177920441e-12,
+        "orientation_error_deg": 0.0,
+        "ik_found": true,
+        "support_knee_replanned_deg": 120,
+        "power_shift_body_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "left_arm": {
+        "q_deg": [
+          -140,
+          0,
+          0,
+          45,
+          0,
+          0
+        ],
+        "contact": "free"
+      },
+      "right_arm": {
+        "q_deg": [
+          -38.11187235772687,
+          -24.186209781562596,
+          -82.92447678794893,
+          34.54942480507615,
+          -0.20260356968795312,
+          79.82350974907733
+        ],
+        "position_error_mm": 2.670237752376898e-08,
+        "normal_error_deg": 0.0,
+        "ik_found": true
+      },
+      "leg_ik": {
+        "q_deg": [
+          1.7677407779385441e-19,
+          2.332468477125754e-19,
+          -130.78815100133673,
+          82.4617514314934,
+          -4.387920140295815e-19,
+          13.326399569824375
+        ],
+        "position_error_mm": 2.074040270227842e-11,
+        "orientation_error_deg": 0.0,
+        "ik_found": true
+      },
+      "from_v21_exact_sample": false,
+      "closure_checks": [
+        {
+          "leg": "left_pose",
+          "position_error_mm": 2.074040270227842e-11,
+          "rotation_matrix_error": 4.677332247530271e-13
+        },
+        {
+          "leg": "right_pose",
+          "position_error_mm": 5.551115123125783e-14,
+          "rotation_matrix_error": 1.7772239894833365e-16
+        }
+      ]
+    },
+    {
+      "h_mm": 116,
+      "input": {
+        "id": 544,
+        "h_mm": 116,
+        "beta_deg": 35,
+        "hip_x_mm": -52.566545875288014,
+        "right_pose": {
+          "name": "coupled_contact",
+          "foot_translation_mm": [
+            -159.46665474984204,
+            0.0,
+            126.45697990043024
+          ],
+          "foot_pitch_deg": 167.1014920318235,
+          "q_deg": [
+            0,
+            0,
+            -13.960530218682766,
+            111.06202225050627,
+            0,
+            35
+          ]
+        },
+        "left_pose": {
+          "name": "forward_candidate",
+          "q_deg": [
+            -3.9149148718564956e-20,
+            -3.709590671479815e-19,
+            -130.28188555927568,
+            81.17284308292031,
+            1.8181734266578782e-19,
+            14.109042476298557
+          ],
+          "foot_pitch_deg": 0,
+          "foot_translation_mm": [
+            58.99042754601818,
+            0.0,
+            2.0
+          ]
+        },
+        "q_deg": [
+          3.4124660748093356e-20,
+          2.005320933551234e-20,
+          -124.9462712283224,
+          67.06086340783274,
+          -6.251118001966121e-20,
+          22.885407820486556
+        ],
+        "position_error_mm": 3.822172177920441e-12,
+        "orientation_error_deg": 0.0,
+        "ik_found": true,
+        "support_knee_replanned_deg": 120,
+        "power_shift_body_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "left_arm": {
+        "q_deg": [
+          -140,
+          0,
+          0,
+          45,
+          0,
+          0
+        ],
+        "ik_found": true,
+        "scope": "Free arm retains body-relative joint angles"
+      },
+      "right_arm": {
+        "q_deg": [
+          -38.297843300431076,
+          -23.549535580265584,
+          -83.39970697734101,
+          33.3089684718689,
+          -0.6563820221856268,
+          80.449637768113
+        ],
+        "position_error_mm": 2.941337537802998e-09,
+        "normal_error_deg": 0.0,
+        "cuff_min_z_mm": 22.09834899489376,
+        "ik_found": true
+      },
+      "leg_ik": {
+        "q_deg": [
+          -3.9149148718564956e-20,
+          -3.709590671479815e-19,
+          -130.28188555927568,
+          81.17284308292031,
+          1.8181734266578782e-19,
+          14.109042476298557
+        ],
+        "position_error_mm": 6.165219946290777e-11,
+        "orientation_error_deg": 0.0,
+        "ik_found": true
+      },
+      "from_v21_exact_sample": true,
+      "closure_checks": [
+        {
+          "leg": "left_pose",
+          "position_error_mm": 6.161011975568878e-11,
+          "rotation_matrix_error": 1.4024931412707834e-12
+        },
+        {
+          "leg": "right_pose",
+          "position_error_mm": 6.206335383118183e-14,
+          "rotation_matrix_error": 3.040470972244059e-16
+        }
+      ]
+    },
+    {
+      "h_mm": 116.5,
+      "input": {
+        "id": 544,
+        "h_mm": 116.5,
+        "beta_deg": 35,
+        "hip_x_mm": -53.8977025687757,
+        "right_pose": {
+          "name": "coupled_contact",
+          "foot_translation_mm": [
+            -159.46665474984204,
+            0.0,
+            126.45697990043024
+          ],
+          "foot_pitch_deg": 167.1014920318235,
+          "q_deg": [
+            0,
+            0,
+            -14.865789254738804,
+            111.96728128656231,
+            0,
+            35
+          ]
+        },
+        "left_pose": {
+          "name": "forward_candidate",
+          "q_deg": [
+            5.556443948582032e-19,
+            1.3624389396975384e-18,
+            -129.7539871256528,
+            79.81722306050729,
+            -1.454699974326093e-18,
+            14.93676406496803
+          ],
+          "foot_pitch_deg": 0,
+          "foot_translation_mm": [
+            58.99042754601818,
+            0.0,
+            2.0
+          ]
+        },
+        "q_deg": [
+          3.4124660748093356e-20,
+          2.005320933551234e-20,
+          -124.9462712283224,
+          67.06086340783274,
+          -6.251118001966121e-20,
+          22.885407820486556
+        ],
+        "position_error_mm": 3.822172177920441e-12,
+        "orientation_error_deg": 0.0,
+        "ik_found": true,
+        "support_knee_replanned_deg": 120,
+        "power_shift_body_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "left_arm": {
+        "q_deg": [
+          -140,
+          0,
+          0,
+          45,
+          0,
+          0
+        ],
+        "contact": "free"
+      },
+      "right_arm": {
+        "q_deg": [
+          -38.60281124824346,
+          -22.86242136679946,
+          -83.66114762357914,
+          31.993866194625827,
+          -1.13929100612983,
+          81.11146655266487
+        ],
+        "position_error_mm": 8.314692922828306e-08,
+        "normal_error_deg": 0.0,
+        "ik_found": true
+      },
+      "leg_ik": {
+        "q_deg": [
+          5.556443948582032e-19,
+          1.3624389396975384e-18,
+          -129.7539871256528,
+          79.81722306050729,
+          -1.454699974326093e-18,
+          14.93676406496803
+        ],
+        "position_error_mm": 1.9414877016061112e-10,
+        "orientation_error_deg": 0.0,
+        "ik_found": true
+      },
+      "from_v21_exact_sample": false,
+      "closure_checks": [
+        {
+          "leg": "left_pose",
+          "position_error_mm": 1.9414877016061112e-10,
+          "rotation_matrix_error": 4.3809737354198215e-12
+        },
+        {
+          "leg": "right_pose",
+          "position_error_mm": 5.551115123125783e-14,
+          "rotation_matrix_error": 4.126162952233366e-16
+        }
+      ]
+    },
+    {
+      "h_mm": 117,
+      "input": {
+        "id": 544,
+        "h_mm": 117,
+        "beta_deg": 35,
+        "hip_x_mm": -55.29713580259694,
+        "right_pose": {
+          "name": "coupled_contact",
+          "foot_translation_mm": [
+            -159.46665474984204,
+            0.0,
+            126.45697990043024
+          ],
+          "foot_pitch_deg": 167.1014920318235,
+          "q_deg": [
+            0,
+            0,
+            -15.81186354627907,
+            112.91335557810258,
+            0,
+            35
+          ]
+        },
+        "left_pose": {
+          "name": "forward_candidate",
+          "q_deg": [
+            6.977301845808543e-18,
+            7.846883163496396e-18,
+            -129.20086042073476,
+            78.38489023646044,
+            -1.5246449434781888e-17,
+            15.815970183689805
+          ],
+          "foot_pitch_deg": 0,
+          "foot_translation_mm": [
+            58.99042754601818,
+            0.0,
+            2.0
+          ]
+        },
+        "q_deg": [
+          3.4124660748093356e-20,
+          2.005320933551234e-20,
+          -124.9462712283224,
+          67.06086340783274,
+          -6.251118001966121e-20,
+          22.885407820486556
+        ],
+        "position_error_mm": 3.822172177920441e-12,
+        "orientation_error_deg": 0.0,
+        "ik_found": true,
+        "support_knee_replanned_deg": 120,
+        "power_shift_body_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "left_arm": {
+        "q_deg": [
+          -140,
+          0,
+          0,
+          45,
+          0,
+          0
+        ],
+        "ik_found": true,
+        "scope": "Free arm retains body-relative joint angles"
+      },
+      "right_arm": {
+        "q_deg": [
+          -38.81354650441994,
+          -22.145510259189702,
+          -84.18698461666565,
+          30.600207999949717,
+          -1.6252798286558423,
+          81.80350177406342
+        ],
+        "position_error_mm": 1.0728672184036494e-14,
+        "normal_error_deg": 0.0,
+        "cuff_min_z_mm": 22.3531034097259,
+        "ik_found": true
+      },
+      "leg_ik": {
+        "q_deg": [
+          6.977301845808543e-18,
+          7.846883163496396e-18,
+          -129.20086042073476,
+          78.38489023646044,
+          -1.5246449434781888e-17,
+          15.815970183689805
+        ],
+        "position_error_mm": 6.385968572300789e-10,
+        "orientation_error_deg": 0.0,
+        "ik_found": true
+      },
+      "from_v21_exact_sample": true,
+      "closure_checks": [
+        {
+          "leg": "left_pose",
+          "position_error_mm": 6.385968572300789e-10,
+          "rotation_matrix_error": 1.4427766419026898e-11
+        },
+        {
+          "leg": "right_pose",
+          "position_error_mm": 6.206335383118183e-14,
+          "rotation_matrix_error": 1.594436429147036e-16
+        }
+      ]
+    },
+    {
+      "h_mm": 117.5,
+      "input": {
+        "id": 544,
+        "h_mm": 117.5,
+        "beta_deg": 35,
+        "hip_x_mm": -56.77504372530223,
+        "right_pose": {
+          "name": "coupled_contact",
+          "foot_translation_mm": [
+            -159.46665474984204,
+            0.0,
+            126.45697990043024
+          ],
+          "foot_pitch_deg": 167.1014920318235,
+          "q_deg": [
+            0,
+            0,
+            -16.805127661233215,
+            113.90661969305673,
+            0,
+            35
+          ]
+        },
+        "left_pose": {
+          "name": "forward_candidate",
+          "q_deg": [
+            4.410973033941219e-17,
+            4.0109994303967643e-17,
+            -128.61793476094587,
+            76.86316462823395,
+            -9.066980348870452e-17,
+            16.754770130672746
+          ],
+          "foot_pitch_deg": 0,
+          "foot_translation_mm": [
+            58.99042754601818,
+            0.0,
+            2.0
+          ]
+        },
+        "q_deg": [
+          3.4124660748093356e-20,
+          2.005320933551234e-20,
+          -124.9462712283224,
+          67.06086340783274,
+          -6.251118001966121e-20,
+          22.885407820486556
+        ],
+        "position_error_mm": 3.822172177920441e-12,
+        "orientation_error_deg": 0.0,
+        "ik_found": true,
+        "support_knee_replanned_deg": 120,
+        "power_shift_body_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "left_arm": {
+        "q_deg": [
+          -140,
+          0,
+          0,
+          45,
+          0,
+          0
+        ],
+        "contact": "free"
+      },
+      "right_arm": {
+        "q_deg": [
+          -39.12521759045907,
+          -21.364977317039262,
+          -84.54627929607584,
+          29.10066461359722,
+          -2.1429044434226223,
+          82.54670454829737
+        ],
+        "position_error_mm": 1.939479807224432e-14,
+        "normal_error_deg": 0.0,
+        "ik_found": true
+      },
+      "leg_ik": {
+        "q_deg": [
+          4.410973033941219e-17,
+          4.0109994303967643e-17,
+          -128.61793476094587,
+          76.86316462823395,
+          -9.066980348870452e-17,
+          16.754770130672746
+        ],
+        "position_error_mm": 2.2509866741102242e-09,
+        "orientation_error_deg": 0.0,
+        "ik_found": true
+      },
+      "from_v21_exact_sample": false,
+      "closure_checks": [
+        {
+          "leg": "left_pose",
+          "position_error_mm": 2.2509866741102242e-09,
+          "rotation_matrix_error": 5.033235093448889e-11
+        },
+        {
+          "leg": "right_pose",
+          "position_error_mm": 2.7755575615628914e-14,
+          "rotation_matrix_error": 4.0221650305342743e-16
+        }
+      ]
+    },
+    {
+      "h_mm": 118,
+      "input": {
+        "id": 544,
+        "h_mm": 118,
+        "beta_deg": 35,
+        "hip_x_mm": -58.34453639525185,
+        "right_pose": {
+          "name": "coupled_contact",
+          "foot_translation_mm": [
+            -159.46665474984204,
+            0.0,
+            126.45697990043024
+          ],
+          "foot_pitch_deg": 167.1014920318235,
+          "q_deg": [
+            0,
+            0,
+            -17.853790001108226,
+            114.95528203293173,
+            0,
+            35
+          ]
+        },
+        "left_pose": {
+          "name": "forward_candidate",
+          "q_deg": [
+            -9.409637440292838e-17,
+            -1.9517797564447172e-17,
+            -127.99925707528888,
+            75.23558172049421,
+            1.5490888765282922e-16,
+            17.763675347164153
+          ],
+          "foot_pitch_deg": 0,
+          "foot_translation_mm": [
+            58.99042754601818,
+            0.0,
+            2.0
+          ]
+        },
+        "q_deg": [
+          3.4124660748093356e-20,
+          2.005320933551234e-20,
+          -124.9462712283224,
+          67.06086340783274,
+          -6.251118001966121e-20,
+          22.885407820486556
+        ],
+        "position_error_mm": 3.822172177920441e-12,
+        "orientation_error_deg": 0.0,
+        "ik_found": true,
+        "support_knee_replanned_deg": 120,
+        "power_shift_body_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "left_arm": {
+        "q_deg": [
+          -140,
+          0,
+          0,
+          45,
+          0,
+          0
+        ],
+        "ik_found": true,
+        "scope": "Free arm retains body-relative joint angles"
+      },
+      "right_arm": {
+        "q_deg": [
+          -39.37573776444744,
+          -20.533225915236677,
+          -85.13003747736667,
+          27.489150875564018,
+          -2.6736437445867494,
+          83.33137407245958
+        ],
+        "position_error_mm": 1.6479873021779667e-14,
+        "normal_error_deg": 0.0,
+        "cuff_min_z_mm": 22.654507266167112,
+        "ik_found": true
+      },
+      "leg_ik": {
+        "q_deg": [
+          -9.409637440292838e-17,
+          -1.9517797564447172e-17,
+          -127.99925707528888,
+          75.23558172049421,
+          1.5490888765282922e-16,
+          17.763675347164153
+        ],
+        "position_error_mm": 8.466898011749157e-09,
+        "orientation_error_deg": 0.0,
+        "ik_found": true
+      },
+      "from_v21_exact_sample": true,
+      "closure_checks": [
+        {
+          "leg": "left_pose",
+          "position_error_mm": 8.466923865449804e-09,
+          "rotation_matrix_error": 1.8834160479817414e-10
+        },
+        {
+          "leg": "right_pose",
+          "position_error_mm": 2.7755575615628914e-14,
+          "rotation_matrix_error": 3.002224531865041e-16
+        }
+      ]
+    },
+    {
+      "h_mm": 118.5,
+      "input": {
+        "id": 544,
+        "h_mm": 118.5,
+        "beta_deg": 35,
+        "hip_x_mm": -60.02295767482191,
+        "right_pose": {
+          "name": "coupled_contact",
+          "foot_translation_mm": [
+            -159.46665474984204,
+            0.0,
+            126.45697990043024
+          ],
+          "foot_pitch_deg": 167.1014920318235,
+          "q_deg": [
+            0,
+            0,
+            -18.968728215188175,
+            116.07022024701169,
+            0,
+            35
+          ]
+        },
+        "left_pose": {
+          "name": "forward_candidate",
+          "q_deg": [
+            -2.1403463950899436e-16,
+            2.0931829831225727e-16,
+            -127.3368403545511,
+            73.48012710018851,
+            1.463620842889713e-16,
+            18.856713223383363
+          ],
+          "foot_pitch_deg": 0,
+          "foot_translation_mm": [
+            58.99042754601818,
+            0.0,
+            2.0
+          ]
+        },
+        "q_deg": [
+          3.4124660748093356e-20,
+          2.005320933551234e-20,
+          -124.9462712283224,
+          67.06086340783274,
+          -6.251118001966121e-20,
+          22.885407820486556
+        ],
+        "position_error_mm": 3.822172177920441e-12,
+        "orientation_error_deg": 0.0,
+        "ik_found": true,
+        "support_knee_replanned_deg": 120,
+        "power_shift_body_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "left_arm": {
+        "q_deg": [
+          -140,
+          0,
+          0,
+          45,
+          0,
+          0
+        ],
+        "contact": "free"
+      },
+      "right_arm": {
+        "q_deg": [
+          -39.68397040979721,
+          -19.6177510261094,
+          -85.67503708754195,
+          25.7237319103554,
+          -3.237955501751911,
+          84.18463143440478
+        ],
+        "position_error_mm": 6.86324330762045e-13,
+        "normal_error_deg": 0.0,
+        "ik_found": true
+      },
+      "leg_ik": {
+        "q_deg": [
+          -2.1403463950899436e-16,
+          2.0931829831225727e-16,
+          -127.3368403545511,
+          73.48012710018851,
+          1.463620842889713e-16,
+          18.856713223383363
+        ],
+        "position_error_mm": 3.461270188930578e-08,
+        "orientation_error_deg": 0.0,
+        "ik_found": true
+      },
+      "from_v21_exact_sample": false,
+      "closure_checks": [
+        {
+          "leg": "left_pose",
+          "position_error_mm": 3.461273028656942e-08,
+          "rotation_matrix_error": 7.64650317856921e-10
+        },
+        {
+          "leg": "right_pose",
+          "position_error_mm": 2.7755575615628914e-14,
+          "rotation_matrix_error": 3.5652682413747997e-16
+        }
+      ]
+    },
+    {
+      "h_mm": 119,
+      "input": {
+        "id": 544,
+        "h_mm": 119,
+        "beta_deg": 35,
+        "hip_x_mm": -61.83409747448921,
+        "right_pose": {
+          "name": "coupled_contact",
+          "foot_translation_mm": [
+            -159.46665474984204,
+            0.0,
+            126.45697990043024
+          ],
+          "foot_pitch_deg": 167.1014920318235,
+          "q_deg": [
+            0,
+            0,
+            -20.16488841802427,
+            117.26638044984777,
+            0,
+            35
+          ]
+        },
+        "left_pose": {
+          "name": "forward_candidate",
+          "q_deg": [
+            4.162498332182389e-17,
+            5.278552582834765e-16,
+            -126.61956171219963,
+            71.56625916430251,
+            -5.517611635472987e-16,
+            20.053302408963564
+          ],
+          "foot_pitch_deg": 0,
+          "foot_translation_mm": [
+            58.99042754601818,
+            0.0,
+            2.0
+          ]
+        },
+        "q_deg": [
+          3.4124660748093356e-20,
+          2.005320933551234e-20,
+          -124.9462712283224,
+          67.06086340783274,
+          -6.251118001966121e-20,
+          22.885407820486556
+        ],
+        "position_error_mm": 3.822172177920441e-12,
+        "orientation_error_deg": 0.0,
+        "ik_found": true,
+        "support_knee_replanned_deg": 120,
+        "power_shift_body_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "left_arm": {
+        "q_deg": [
+          -140,
+          0,
+          0,
+          45,
+          0,
+          0
+        ],
+        "ik_found": true,
+        "scope": "Free arm retains body-relative joint angles"
+      },
+      "right_arm": {
+        "q_deg": [
+          -40.00467088228196,
+          -18.604181010682947,
+          -86.31822423966501,
+          23.768890593384242,
+          -3.835468355954935,
+          85.1153770231222
+        ],
+        "position_error_mm": 2.4954009261175983e-12,
+        "normal_error_deg": 8.537736462515939e-07,
+        "cuff_min_z_mm": 23.026562539864052,
+        "ik_found": true
+      },
+      "leg_ik": {
+        "q_deg": [
+          4.162498332182389e-17,
+          5.278552582834765e-16,
+          -126.61956171219963,
+          71.56625916430251,
+          -5.517611635472987e-16,
+          20.053302408963564
+        ],
+        "position_error_mm": 1.5653450748122748e-07,
+        "orientation_error_deg": 0.0,
+        "ik_found": true
+      },
+      "from_v21_exact_sample": true,
+      "closure_checks": [
+        {
+          "leg": "left_pose",
+          "position_error_mm": 1.5653450748122748e-07,
+          "rotation_matrix_error": 3.4292530117326343e-09
+        },
+        {
+          "leg": "right_pose",
+          "position_error_mm": 2.7755575615628914e-14,
+          "rotation_matrix_error": 3.8956806801599406e-16
+        }
+      ]
+    },
+    {
+      "h_mm": 119.5,
+      "input": {
+        "id": 544,
+        "h_mm": 119.5,
+        "beta_deg": 35,
+        "hip_x_mm": -63.812160285154135,
+        "right_pose": {
+          "name": "coupled_contact",
+          "foot_translation_mm": [
+            -159.46665474984204,
+            0.0,
+            126.45697990043024
+          ],
+          "foot_pitch_deg": 167.1014920318235,
+          "q_deg": [
+            0,
+            0,
+            -21.46379726261884,
+            118.56528929444235,
+            0,
+            35
+          ]
+        },
+        "left_pose": {
+          "name": "forward_candidate",
+          "q_deg": [
+            -2.6341400901976655e-15,
+            -6.706176679262597e-16,
+            -125.8311634319719,
+            69.44952425271406,
+            4.5915941288515986e-15,
+            21.381638473230904
+          ],
+          "foot_pitch_deg": 0,
+          "foot_translation_mm": [
+            58.99042754601818,
+            0.0,
+            2.0
+          ]
+        },
+        "q_deg": [
+          3.4124660748093356e-20,
+          2.005320933551234e-20,
+          -124.9462712283224,
+          67.06086340783274,
+          -6.251118001966121e-20,
+          22.885407820486556
+        ],
+        "position_error_mm": 3.822172177920441e-12,
+        "orientation_error_deg": 0.0,
+        "ik_found": true,
+        "support_knee_replanned_deg": 120,
+        "power_shift_body_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "left_arm": {
+        "q_deg": [
+          -140,
+          0,
+          0,
+          45,
+          0,
+          0
+        ],
+        "contact": "free"
+      },
+      "right_arm": {
+        "q_deg": [
+          -40.27658579836876,
+          -17.4756788807674,
+          -87.2798386526249,
+          21.586751266473136,
+          -4.464826153263732,
+          86.12147127900046
+        ],
+        "position_error_mm": 1.0864492781068523e-10,
+        "normal_error_deg": 0.0,
+        "ik_found": true
+      },
+      "leg_ik": {
+        "q_deg": [
+          -2.6341400901976655e-15,
+          -6.706176679262597e-16,
+          -125.8311634319719,
+          69.44952425271406,
+          4.5915941288515986e-15,
+          21.381638473230904
+        ],
+        "position_error_mm": 8.029108575791906e-07,
+        "orientation_error_deg": 0.0,
+        "ik_found": true
+      },
+      "from_v21_exact_sample": false,
+      "closure_checks": [
+        {
+          "leg": "left_pose",
+          "position_error_mm": 8.029108575791906e-07,
+          "rotation_matrix_error": 1.7426638990938467e-08
+        },
+        {
+          "leg": "right_pose",
+          "position_error_mm": 3.925231146709438e-14,
+          "rotation_matrix_error": 5.338891568193822e-16
+        }
+      ]
+    },
+    {
+      "h_mm": 120,
+      "input": {
+        "id": 544,
+        "h_mm": 120,
+        "beta_deg": 35,
+        "hip_x_mm": -66.00957245398182,
+        "right_pose": {
+          "name": "coupled_contact",
+          "foot_translation_mm": [
+            -159.46665474984204,
+            0.0,
+            126.45697990043024
+          ],
+          "foot_pitch_deg": 167.1014920318235,
+          "q_deg": [
+            0,
+            0,
+            -22.898507968176503,
+            120.00000000000001,
+            0,
+            35
+          ]
+        },
+        "left_pose": {
+          "name": "forward_candidate",
+          "q_deg": [
+            3.4124660748093356e-20,
+            2.005320933551234e-20,
+            -124.9462712283224,
+            67.06086340783274,
+            -6.251118001966121e-20,
+            22.885407820486556
+          ],
+          "foot_pitch_deg": 0,
+          "foot_translation_mm": [
+            58.99042754601818,
+            0.0,
+            2.0
+          ]
+        },
+        "q_deg": [
+          3.4124660748093356e-20,
+          2.005320933551234e-20,
+          -124.9462712283224,
+          67.06086340783274,
+          -6.251118001966121e-20,
+          22.885407820486556
+        ],
+        "position_error_mm": 3.822172177920441e-12,
+        "orientation_error_deg": 0.0,
+        "ik_found": true,
+        "support_knee_replanned_deg": 120,
+        "power_shift_body_mm": [
+          -5,
+          0,
+          0
+        ]
+      },
+      "left_arm": {
+        "q_deg": [
+          -140,
+          0,
+          0,
+          45,
+          0,
+          0
+        ],
+        "ik_found": true,
+        "scope": "Free arm retains body-relative joint angles"
+      },
+      "right_arm": {
+        "q_deg": [
+          -40.74116676028872,
+          -16.117194423436064,
+          -87.95186944287377,
+          18.980587456167843,
+          -5.174928793745858,
+          87.33533779199377
+        ],
+        "position_error_mm": 4.128432315826174e-13,
+        "normal_error_deg": 0.0,
+        "cuff_min_z_mm": 23.52544965394506,
+        "ik_found": true
+      },
+      "leg_ik": {
+        "q_deg": [
+          3.4124660748093356e-20,
+          2.005320933551234e-20,
+          -124.9462712283224,
+          67.06086340783274,
+          -6.251118001966121e-20,
+          22.885407820486556
+        ],
+        "position_error_mm": 3.822172177920441e-12,
+        "orientation_error_deg": 0.0,
+        "ik_found": true
+      },
+      "from_v21_exact_sample": true,
+      "closure_checks": [
+        {
+          "leg": "left_pose",
+          "position_error_mm": 3.844667369771925e-12,
+          "rotation_matrix_error": 7.650944541922432e-14
+        },
+        {
+          "leg": "right_pose",
+          "position_error_mm": 2.7755575615628914e-14,
+          "rotation_matrix_error": 3.002224531865041e-16
+        }
+      ]
+    }
+  ],
+  "support_points_mm": [
+    [
+      8.990427546018182,
+      32.5,
+      0
+    ],
+    [
+      8.990427546018182,
+      87.5,
+      0
+    ],
+    [
+      108.99042754601818,
+      32.5,
+      0
+    ],
+    [
+      108.99042754601818,
+      87.5,
+      0
+    ],
+    [
+      -84.87753471809503,
+      -132,
+      0
+    ],
+    [
+      -6.0095725560323565,
+      -91.00000005556134,
+      5.793361808059672e-07
+    ]
+  ],
+  "scope": "13 local0.5mm samples, not a full recovery or continuous swept-volume proof"
+}

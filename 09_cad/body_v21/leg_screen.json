@@ -1,0 +1,1096 @@
+{
+  "cases": [
+    {
+      "id": 8,
+      "input": {
+        "id": 8,
+        "h_mm": 90,
+        "beta_deg": 30,
+        "hip_x_mm": -16.05893258175402,
+        "right_pose": {
+          "name": "coupled_contact",
+          "foot_translation_mm": [
+            -146.0034586072711,
+            0.0,
+            135.6787312215736
+          ],
+          "foot_pitch_deg": 174.8759654064836,
+          "q_deg": [
+            0,
+            0,
+            19.875965406483594,
+            90,
+            0,
+            35
+          ]
+        },
+        "left_pose": {
+          "name": "candidate",
+          "q_deg": [
+            -2.1635568151969153e-17,
+            2.839182470750193e-17,
+            -139.45345599376282,
+            132.2435868841218,
+            -2.210542812283774e-17,
+            -22.790130890364985
+          ],
+          "foot_pitch_deg": 0,
+          "foot_translation_mm": [
+            33.94106741824598,
+            0.0,
+            2.0
+          ]
+        },
+        "q_deg": [
+          -2.1635568151969153e-17,
+          2.839182470750193e-17,
+          -139.45345599376282,
+          132.2435868841218,
+          -2.210542812283774e-17,
+          -22.790130890364985
+        ],
+        "position_error_mm": 6.314851183779248e-12,
+        "orientation_error_deg": 0.0,
+        "ik_found": true
+      },
+      "ground_penetrations_mm": {},
+      "left_related_collisions": [
+        {
+          "a": "PelvisPlate",
+          "b": "L_FixedFrame",
+          "volume_mm3": 12.97923521186124
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 37.77041849436864
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "L_CableServiceSpace",
+          "volume_mm3": 113.99871215848172
+        },
+        {
+          "a": "battery",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 454.21517596960075
+        },
+        {
+          "a": "power",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 523.9448121326238
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_ThighRail1",
+          "volume_mm3": 682.7640799307874
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_KneePad",
+          "volume_mm3": 737.4971421094324
+        }
+      ],
+      "constant_body_collisions": [],
+      "leg_and_fixed_body_geometry_pass": false,
+      "arms_checked": false
+    },
+    {
+      "id": 20,
+      "input": {
+        "id": 20,
+        "h_mm": 90,
+        "beta_deg": 45,
+        "hip_x_mm": -16.05893258175402,
+        "right_pose": {
+          "name": "coupled_contact",
+          "foot_translation_mm": [
+            -146.0034586072711,
+            0.0,
+            135.6787312215736
+          ],
+          "foot_pitch_deg": 174.8759654064836,
+          "q_deg": [
+            0,
+            0,
+            4.875965406483594,
+            90,
+            0,
+            35
+          ]
+        },
+        "left_pose": {
+          "name": "candidate",
+          "q_deg": [
+            -4.582136433178043e-16,
+            -1.1844099791744267e-15,
+            -154.45345599295342,
+            132.24358688396552,
+            1.3525143441049491e-15,
+            -22.790130891154536
+          ],
+          "foot_pitch_deg": 0,
+          "foot_translation_mm": [
+            33.94106741824598,
+            0.0,
+            2.0
+          ]
+        },
+        "q_deg": [
+          -4.582136433178043e-16,
+          -1.1844099791744267e-15,
+          -154.45345599295342,
+          132.24358688396552,
+          1.3525143441049491e-15,
+          -22.790130891154536
+        ],
+        "position_error_mm": 9.154446472529987e-10,
+        "orientation_error_deg": 0.0,
+        "ik_found": true
+      },
+      "ground_penetrations_mm": {},
+      "left_related_collisions": [
+        {
+          "a": "PelvisPlate",
+          "b": "L_FixedFrame",
+          "volume_mm3": 120.97573559522023
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 281.1889490238105
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "L_CableServiceSpace",
+          "volume_mm3": 122.16101213845762
+        },
+        {
+          "a": "battery",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 2898.4732814256245
+        },
+        {
+          "a": "power",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 1072.9939249721103
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_KneeMotor",
+          "volume_mm3": 6171.31731955186
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_ThighRail1",
+          "volume_mm3": 2562.827541580274
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_KneePad",
+          "volume_mm3": 950.6709959301163
+        },
+        {
+          "a": "L_FixedFrame",
+          "b": "L_HipYawMotor",
+          "volume_mm3": 712.4782022796735
+        },
+        {
+          "a": "L_HipYawMotor",
+          "b": "L_ShinKneeRailm1",
+          "volume_mm3": 1813.1028821369712
+        },
+        {
+          "a": "L_HipYawMotor",
+          "b": "L_CableServiceSpace",
+          "volume_mm3": 307.8812744892099
+        }
+      ],
+      "constant_body_collisions": [],
+      "leg_and_fixed_body_geometry_pass": false,
+      "arms_checked": false
+    },
+    {
+      "id": 56,
+      "input": {
+        "id": 56,
+        "h_mm": 100,
+        "beta_deg": 30,
+        "hip_x_mm": -25.919922826160338,
+        "right_pose": {
+          "name": "coupled_contact",
+          "foot_translation_mm": [
+            -161.38861775189238,
+            0.0,
+            124.9070075506472
+          ],
+          "foot_pitch_deg": 165.92606330960456,
+          "q_deg": [
+            0,
+            0,
+            10.926063309604551,
+            90,
+            0,
+            35
+          ]
+        },
+        "left_pose": {
+          "name": "candidate",
+          "q_deg": [
+            1.2006361002932665e-19,
+            2.427067947423252e-19,
+            -131.8965733996237,
+            126.91854381712272,
+            -3.0769329867954655e-19,
+            -25.021970417499393
+          ],
+          "foot_pitch_deg": 0,
+          "foot_translation_mm": [
+            24.080077173839662,
+            0.0,
+            2.0
+          ]
+        },
+        "q_deg": [
+          1.2006361002932665e-19,
+          2.427067947423252e-19,
+          -131.8965733996237,
+          126.91854381712272,
+          -3.0769329867954655e-19,
+          -25.021970417499393
+        ],
+        "position_error_mm": 3.577107489939286e-13,
+        "orientation_error_deg": 0.0,
+        "ik_found": true
+      },
+      "ground_penetrations_mm": {},
+      "left_related_collisions": [
+        {
+          "a": "PelvisPlate",
+          "b": "L_CableServiceSpace",
+          "volume_mm3": 0.6788065201413219
+        },
+        {
+          "a": "battery",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 16.178860244899795
+        },
+        {
+          "a": "power",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 190.20240193878408
+        }
+      ],
+      "constant_body_collisions": [],
+      "leg_and_fixed_body_geometry_pass": false,
+      "arms_checked": false
+    },
+    {
+      "id": 68,
+      "input": {
+        "id": 68,
+        "h_mm": 100,
+        "beta_deg": 45,
+        "hip_x_mm": -25.919922826160338,
+        "right_pose": {
+          "name": "coupled_contact",
+          "foot_translation_mm": [
+            -161.38861775189238,
+            0.0,
+            124.9070075506472
+          ],
+          "foot_pitch_deg": 165.92606330960456,
+          "q_deg": [
+            0,
+            0,
+            -4.073936690395449,
+            90,
+            0,
+            35
+          ]
+        },
+        "left_pose": {
+          "name": "candidate",
+          "q_deg": [
+            3.053843835888115e-19,
+            9.329380034620519e-19,
+            -146.89657339962366,
+            126.91854381712272,
+            -1.0814524501941927e-18,
+            -25.021970417499464
+          ],
+          "foot_pitch_deg": 0,
+          "foot_translation_mm": [
+            24.080077173839662,
+            0.0,
+            2.0
+          ]
+        },
+        "q_deg": [
+          3.053843835888115e-19,
+          9.329380034620519e-19,
+          -146.89657339962366,
+          126.91854381712272,
+          -1.0814524501941927e-18,
+          -25.021970417499464
+        ],
+        "position_error_mm": 3.7998364410045386e-13,
+        "orientation_error_deg": 0.0,
+        "ik_found": true
+      },
+      "ground_penetrations_mm": {},
+      "left_related_collisions": [
+        {
+          "a": "PelvisPlate",
+          "b": "L_FixedFrame",
+          "volume_mm3": 106.8875824373371
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 166.68492807975255
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "L_CableServiceSpace",
+          "volume_mm3": 120.33888415367427
+        },
+        {
+          "a": "battery",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 1567.0807840227892
+        },
+        {
+          "a": "power",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 813.0037550977744
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_KneeMotor",
+          "volume_mm3": 3217.8297292736897
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_KneePad",
+          "volume_mm3": 967.0394763609058
+        },
+        {
+          "a": "L_HipYawMotor",
+          "b": "L_ShinKneeRailm1",
+          "volume_mm3": 0.5933421136317336
+        },
+        {
+          "a": "L_HipYawMotor",
+          "b": "L_CableServiceSpace",
+          "volume_mm3": 87.96964689991074
+        }
+      ],
+      "constant_body_collisions": [],
+      "leg_and_fixed_body_geometry_pass": false,
+      "arms_checked": false
+    },
+    {
+      "id": 104,
+      "input": {
+        "id": 104,
+        "h_mm": 110,
+        "beta_deg": 30,
+        "hip_x_mm": -39.977646076807744,
+        "right_pose": {
+          "name": "coupled_contact",
+          "foot_translation_mm": [
+            -177.7098896817501,
+            0.0,
+            108.60164326515847
+          ],
+          "foot_pitch_deg": 154.92643486661424,
+          "q_deg": [
+            0,
+            0,
+            -0.0735651333857561,
+            90,
+            0,
+            35
+          ]
+        },
+        "left_pose": {
+          "name": "candidate",
+          "q_deg": [
+            -1.8474311504040924e-20,
+            -2.271823366879102e-20,
+            -124.96499897602847,
+            121.11305344799976,
+            3.256915165382735e-20,
+            -26.14805447197138
+          ],
+          "foot_pitch_deg": 0,
+          "foot_translation_mm": [
+            10.022353923192256,
+            0.0,
+            2.0
+          ]
+        },
+        "q_deg": [
+          -1.8474311504040924e-20,
+          -2.271823366879102e-20,
+          -124.96499897602847,
+          121.11305344799976,
+          3.256915165382735e-20,
+          -26.14805447197138
+        ],
+        "position_error_mm": 6.862580103091885e-14,
+        "orientation_error_deg": 0.0,
+        "ik_found": true
+      },
+      "ground_penetrations_mm": {
+        "R_RollRod": -2.2222469686028266,
+        "R_RollPin0": -2.458917347226586,
+        "R_ShinKneeRail1": -1.5633296213762264
+      },
+      "left_related_collisions": [
+        {
+          "a": "power",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 18.831026105089734
+        }
+      ],
+      "constant_body_collisions": [],
+      "leg_and_fixed_body_geometry_pass": false,
+      "arms_checked": false
+    },
+    {
+      "id": 116,
+      "input": {
+        "id": 116,
+        "h_mm": 110,
+        "beta_deg": 45,
+        "hip_x_mm": -39.977646076807744,
+        "right_pose": {
+          "name": "coupled_contact",
+          "foot_translation_mm": [
+            -177.7098896817501,
+            0.0,
+            108.60164326515847
+          ],
+          "foot_pitch_deg": 154.92643486661424,
+          "q_deg": [
+            0,
+            0,
+            -15.073565133385756,
+            90,
+            0,
+            35
+          ]
+        },
+        "left_pose": {
+          "name": "candidate",
+          "q_deg": [
+            -1.0676779000573922e-20,
+            -4.5814736073382305e-20,
+            -139.96499897602848,
+            121.11305344799979,
+            5.215388538188402e-20,
+            -26.148054471971367
+          ],
+          "foot_pitch_deg": 0,
+          "foot_translation_mm": [
+            10.022353923192256,
+            0.0,
+            2.0
+          ]
+        },
+        "q_deg": [
+          -1.0676779000573922e-20,
+          -4.5814736073382305e-20,
+          -139.96499897602848,
+          121.11305344799979,
+          5.215388538188402e-20,
+          -26.148054471971367
+        ],
+        "position_error_mm": 8.219368061503245e-14,
+        "orientation_error_deg": 0.0,
+        "ik_found": true
+      },
+      "ground_penetrations_mm": {
+        "R_RollRod": -2.2222469686028266,
+        "R_RollPin0": -2.458917347226586,
+        "R_ShinKneeRail1": -1.5633296213762264
+      },
+      "left_related_collisions": [
+        {
+          "a": "PelvisPlate",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 47.33283802519965
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "L_CableServiceSpace",
+          "volume_mm3": 107.94195374673959
+        },
+        {
+          "a": "battery",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 507.28128970134554
+        },
+        {
+          "a": "power",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 545.2662727387615
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_ThighRail1",
+          "volume_mm3": 783.536837473816
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_KneePad",
+          "volume_mm3": 786.229408591682
+        }
+      ],
+      "constant_body_collisions": [],
+      "leg_and_fixed_body_geometry_pass": false,
+      "arms_checked": false
+    },
+    {
+      "id": 128,
+      "input": {
+        "id": 128,
+        "h_mm": 110,
+        "beta_deg": 60,
+        "hip_x_mm": -39.977646076807744,
+        "right_pose": {
+          "name": "coupled_contact",
+          "foot_translation_mm": [
+            -177.7098896817501,
+            0.0,
+            108.60164326515847
+          ],
+          "foot_pitch_deg": 154.92643486661424,
+          "q_deg": [
+            0,
+            0,
+            -30.073565133385756,
+            90,
+            0,
+            35
+          ]
+        },
+        "left_pose": {
+          "name": "candidate",
+          "q_deg": [
+            -1.4769089577626214e-15,
+            -2.6855906228617825e-15,
+            -154.96499897187263,
+            121.11305344636976,
+            3.365342780756566e-15,
+            -26.148054475159274
+          ],
+          "foot_pitch_deg": 0,
+          "foot_translation_mm": [
+            10.022353923192256,
+            0.0,
+            2.0
+          ]
+        },
+        "q_deg": [
+          -1.4769089577626214e-15,
+          -2.6855906228617825e-15,
+          -154.96499897187263,
+          121.11305344636976,
+          3.365342780756566e-15,
+          -26.148054475159274
+        ],
+        "position_error_mm": 5.4156596940539e-09,
+        "orientation_error_deg": 0.0,
+        "ik_found": true
+      },
+      "ground_penetrations_mm": {
+        "R_RollRod": -2.2222469686028266,
+        "R_RollPin0": -2.458917347226586,
+        "R_ShinKneeRail1": -1.5633296213762264
+      },
+      "left_related_collisions": [
+        {
+          "a": "PelvisPlate",
+          "b": "L_FixedFrame",
+          "volume_mm3": 135.34173538409397
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 288.5315073735991
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "L_CableServiceSpace",
+          "volume_mm3": 136.18312981178295
+        },
+        {
+          "a": "battery",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 2984.257672863103
+        },
+        {
+          "a": "power",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 1089.7792831742518
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_KneeMotor",
+          "volume_mm3": 6321.764989641679
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_ThighRail1",
+          "volume_mm3": 2626.348619178332
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_KneePad",
+          "volume_mm3": 949.2999382219443
+        },
+        {
+          "a": "L_HipYawMotor",
+          "b": "L_ShinKneeRailm1",
+          "volume_mm3": 1458.5042219663092
+        },
+        {
+          "a": "L_HipYawMotor",
+          "b": "L_CableServiceSpace",
+          "volume_mm3": 110.1548900722572
+        }
+      ],
+      "constant_body_collisions": [],
+      "leg_and_fixed_body_geometry_pass": false,
+      "arms_checked": false
+    },
+    {
+      "id": 152,
+      "input": {
+        "id": 152,
+        "h_mm": 120,
+        "beta_deg": 30,
+        "hip_x_mm": -66.00957245398182,
+        "right_pose": {
+          "name": "coupled_contact",
+          "foot_translation_mm": [
+            -196.70209746172986,
+            0.0,
+            76.50758414265522
+          ],
+          "foot_pitch_deg": 137.1014920318235,
+          "q_deg": [
+            0,
+            0,
+            -17.898507968176503,
+            90,
+            0,
+            35
+          ]
+        },
+        "left_pose": {
+          "name": "candidate",
+          "q_deg": [
+            -2.3995272507978573e-21,
+            4.041942626122531e-21,
+            -118.49610023208704,
+            114.86187069317685,
+            -3.6669183671047844e-21,
+            -26.36577046108985
+          ],
+          "foot_pitch_deg": 0,
+          "foot_translation_mm": [
+            -16.009572453981818,
+            0.0,
+            2.0
+          ]
+        },
+        "q_deg": [
+          -2.3995272507978573e-21,
+          4.041942626122531e-21,
+          -118.49610023208704,
+          114.86187069317685,
+          -3.6669183671047844e-21,
+          -26.36577046108985
+        ],
+        "position_error_mm": 5.991705756259509e-14,
+        "orientation_error_deg": 0.0,
+        "ik_found": true
+      },
+      "ground_penetrations_mm": {
+        "R_FixedFrame": -1.5228477987454383,
+        "R_FixedBearings": -0.613829350111903,
+        "R_RollRod": -13.673786163530353,
+        "R_RollCrankTop": -8.994541299798279,
+        "R_RollCrankBottom": -3.124508595407515,
+        "R_RollPin0": -15.000409643615466,
+        "R_RollPin1": -9.1303769392247,
+        "R_RollOutputShaft": -2.705220545093889,
+        "R_RollInputExtension": -8.575253249484648,
+        "R_ShinKneeRail1": -4.8067098532481625
+      },
+      "left_related_collisions": [],
+      "constant_body_collisions": [],
+      "leg_and_fixed_body_geometry_pass": false,
+      "arms_checked": false
+    },
+    {
+      "id": 153,
+      "input": {
+        "id": 153,
+        "h_mm": 120,
+        "beta_deg": 30,
+        "hip_x_mm": -66.00957245398182,
+        "right_pose": {
+          "name": "coupled_contact",
+          "foot_translation_mm": [
+            -196.70209746172986,
+            0.0,
+            76.50758414265522
+          ],
+          "foot_pitch_deg": 137.1014920318235,
+          "q_deg": [
+            0,
+            0,
+            -17.898507968176503,
+            90,
+            0,
+            35
+          ]
+        },
+        "left_pose": {
+          "name": "candidate",
+          "q_deg": [
+            1.1274912492131584,
+            21.501301987462845,
+            -116.71520031260023,
+            113.64156835747227,
+            -21.529444446856534,
+            -27.140448869577305
+          ],
+          "foot_pitch_deg": 0,
+          "foot_translation_mm": [
+            -16.009572453981818,
+            15.0,
+            2.0
+          ]
+        },
+        "q_deg": [
+          1.1274912492131584,
+          21.501301987462845,
+          -116.71520031260023,
+          113.64156835747227,
+          -21.529444446856534,
+          -27.140448869577305
+        ],
+        "position_error_mm": 4.254367128612981e-08,
+        "orientation_error_deg": 0.0,
+        "ik_found": true
+      },
+      "ground_penetrations_mm": {
+        "R_FixedFrame": -1.5228477987454383,
+        "R_FixedBearings": -0.613829350111903,
+        "R_RollRod": -13.673786163530353,
+        "R_RollCrankTop": -8.994541299798279,
+        "R_RollCrankBottom": -3.124508595407515,
+        "R_RollPin0": -15.000409643615466,
+        "R_RollPin1": -9.1303769392247,
+        "R_RollOutputShaft": -2.705220545093889,
+        "R_RollInputExtension": -8.575253249484648,
+        "R_ShinKneeRail1": -4.8067098532481625
+      },
+      "left_related_collisions": [],
+      "constant_body_collisions": [],
+      "leg_and_fixed_body_geometry_pass": false,
+      "arms_checked": false
+    },
+    {
+      "id": 164,
+      "input": {
+        "id": 164,
+        "h_mm": 120,
+        "beta_deg": 45,
+        "hip_x_mm": -66.00957245398182,
+        "right_pose": {
+          "name": "coupled_contact",
+          "foot_translation_mm": [
+            -196.70209746172986,
+            0.0,
+            76.50758414265522
+          ],
+          "foot_pitch_deg": 137.1014920318235,
+          "q_deg": [
+            0,
+            0,
+            -32.8985079681765,
+            90,
+            0,
+            35
+          ]
+        },
+        "left_pose": {
+          "name": "candidate",
+          "q_deg": [
+            1.0515411772833666e-21,
+            -3.906077499798691e-21,
+            -133.4961002320871,
+            114.86187069317688,
+            3.440179415878085e-21,
+            -26.36577046108986
+          ],
+          "foot_pitch_deg": 0,
+          "foot_translation_mm": [
+            -16.009572453981818,
+            0.0,
+            2.0
+          ]
+        },
+        "q_deg": [
+          1.0515411772833666e-21,
+          -3.906077499798691e-21,
+          -133.4961002320871,
+          114.86187069317688,
+          3.440179415878085e-21,
+          -26.36577046108986
+        ],
+        "position_error_mm": 1.0728672184036495e-13,
+        "orientation_error_deg": 0.0,
+        "ik_found": true
+      },
+      "ground_penetrations_mm": {
+        "R_FixedFrame": -1.5228477987454383,
+        "R_FixedBearings": -0.613829350111903,
+        "R_RollRod": -13.673786163530353,
+        "R_RollCrankTop": -8.994541299798279,
+        "R_RollCrankBottom": -3.124508595407515,
+        "R_RollPin0": -15.000409643615466,
+        "R_RollPin1": -9.1303769392247,
+        "R_RollOutputShaft": -2.705220545093889,
+        "R_RollInputExtension": -8.575253249484648,
+        "R_ShinKneeRail1": -4.8067098532481625
+      },
+      "left_related_collisions": [
+        {
+          "a": "PelvisPlate",
+          "b": "L_CableServiceSpace",
+          "volume_mm3": 0.6180125657601764
+        },
+        {
+          "a": "battery",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 58.15379670905879
+        },
+        {
+          "a": "power",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 255.97843490652167
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_KneePad",
+          "volume_mm3": 42.77404301652892
+        }
+      ],
+      "constant_body_collisions": [],
+      "leg_and_fixed_body_geometry_pass": false,
+      "arms_checked": false
+    },
+    {
+      "id": 165,
+      "input": {
+        "id": 165,
+        "h_mm": 120,
+        "beta_deg": 45,
+        "hip_x_mm": -66.00957245398182,
+        "right_pose": {
+          "name": "coupled_contact",
+          "foot_translation_mm": [
+            -196.70209746172986,
+            0.0,
+            76.50758414265522
+          ],
+          "foot_pitch_deg": 137.1014920318235,
+          "q_deg": [
+            0,
+            0,
+            -32.8985079681765,
+            90,
+            0,
+            35
+          ]
+        },
+        "left_pose": {
+          "name": "candidate",
+          "q_deg": [
+            7.135638567554207,
+            20.834283251290515,
+            -132.6544277450215,
+            113.26325201950229,
+            -21.97084945164251,
+            -26.922306575706607
+          ],
+          "foot_pitch_deg": 0,
+          "foot_translation_mm": [
+            -16.009572453981818,
+            15.0,
+            2.0
+          ]
+        },
+        "q_deg": [
+          7.135638567554207,
+          20.834283251290515,
+          -132.6544277450215,
+          113.26325201950229,
+          -21.97084945164251,
+          -26.922306575706607
+        ],
+        "position_error_mm": 1.7792761375039396e-10,
+        "orientation_error_deg": 0.0,
+        "ik_found": true
+      },
+      "ground_penetrations_mm": {
+        "R_FixedFrame": -1.5228477987454383,
+        "R_FixedBearings": -0.613829350111903,
+        "R_RollRod": -13.673786163530353,
+        "R_RollCrankTop": -8.994541299798279,
+        "R_RollCrankBottom": -3.124508595407515,
+        "R_RollPin0": -15.000409643615466,
+        "R_RollPin1": -9.1303769392247,
+        "R_RollOutputShaft": -2.705220545093889,
+        "R_RollInputExtension": -8.575253249484648,
+        "R_ShinKneeRail1": -4.8067098532481625
+      },
+      "left_related_collisions": [
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_KneeMotor",
+          "volume_mm3": 0.5263673022579483
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_KneePad",
+          "volume_mm3": 926.1349139500642
+        }
+      ],
+      "constant_body_collisions": [],
+      "leg_and_fixed_body_geometry_pass": false,
+      "arms_checked": false
+    },
+    {
+      "id": 176,
+      "input": {
+        "id": 176,
+        "h_mm": 120,
+        "beta_deg": 60,
+        "hip_x_mm": -66.00957245398182,
+        "right_pose": {
+          "name": "coupled_contact",
+          "foot_translation_mm": [
+            -196.70209746172986,
+            0.0,
+            76.50758414265522
+          ],
+          "foot_pitch_deg": 137.1014920318235,
+          "q_deg": [
+            0,
+            0,
+            -47.8985079681765,
+            90,
+            0,
+            35
+          ]
+        },
+        "left_pose": {
+          "name": "candidate",
+          "q_deg": [
+            -7.663825510369855e-21,
+            6.270508791493291e-21,
+            -148.49610023208706,
+            114.86187069317688,
+            2.4381767307469987e-21,
+            -26.36577046108988
+          ],
+          "foot_pitch_deg": 0,
+          "foot_translation_mm": [
+            -16.009572453981818,
+            0.0,
+            2.0
+          ]
+        },
+        "q_deg": [
+          -7.663825510369855e-21,
+          6.270508791493291e-21,
+          -148.49610023208706,
+          114.86187069317688,
+          2.4381767307469987e-21,
+          -26.36577046108988
+        ],
+        "position_error_mm": 1.0398216711730701e-13,
+        "orientation_error_deg": 0.0,
+        "ik_found": true
+      },
+      "ground_penetrations_mm": {
+        "R_FixedFrame": -1.5228477987454383,
+        "R_FixedBearings": -0.613829350111903,
+        "R_RollRod": -13.673786163530353,
+        "R_RollCrankTop": -8.994541299798279,
+        "R_RollCrankBottom": -3.124508595407515,
+        "R_RollPin0": -15.000409643615466,
+        "R_RollPin1": -9.1303769392247,
+        "R_RollOutputShaft": -2.705220545093889,
+        "R_RollInputExtension": -8.575253249484648,
+        "R_ShinKneeRail1": -4.8067098532481625
+      },
+      "left_related_collisions": [
+        {
+          "a": "PelvisPlate",
+          "b": "L_FixedFrame",
+          "volume_mm3": 251.11162017602317
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 192.02145167721383
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "L_CableServiceSpace",
+          "volume_mm3": 135.8378908236541
+        },
+        {
+          "a": "battery",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 1858.6312388223314
+        },
+        {
+          "a": "power",
+          "b": "L_ThighRailm1",
+          "volume_mm3": 870.253674460579
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_KneeMotor",
+          "volume_mm3": 3960.751859602146
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_ThighRail1",
+          "volume_mm3": 1864.011151969916
+        },
+        {
+          "a": "L_ShoulderMotor0",
+          "b": "L_KneePad",
+          "volume_mm3": 958.7088427038764
+        }
+      ],
+      "constant_body_collisions": [],
+      "leg_and_fixed_body_geometry_pass": false,
+      "arms_checked": false
+    }
+  ],
+  "expected_cases": 87,
+  "completed": false
+}

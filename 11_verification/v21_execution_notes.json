@@ -1,0 +1,15 @@
+{
+  "stage":"v0.21",
+  "date":"2026-09-06",
+  "scope":"Completed and incomplete research attempts retained separately; no hardware release",
+  "completed":["384-case numerical search and FK checks","4 local-frame regressions and48 rigid-part comparisons","20 support-knee replans","2 intermediate-tilt probes","2 power-module repositioning probes","3 raised-arm alternative probes with bounded right-palm search","13 local fixed-contact samples","Support margin and contact-force range diagnostics"],
+  "incomplete":["Original knee90 CAD search stopped after12 of87 IK survivors; leg_screen.json remains completed=false","Dense dual-palm searches did not produce a completed result before interruption/geometry exceptions; no coverage or pass claimed"],
+  "geometry_error_handling":"Empty/failed common-shape result requires positive exact separation distance to be treated as disjoint; otherwise retained as unresolved, not passed",
+  "serialization_fix":"Converted NumPy boolean to JSON boolean in local-lift output; reran the full13-sample probe successfully",
+  "new_software_or_mcp_installed":false,
+  "new_structural_fem_solved":false,
+  "real_robot_commands_sent":false,
+  "prior_pushed_commit":"afeab1d470892d4100bc5e59e3f47be0e54613bd",
+  "current_round_pushed":false,
+  "unrelated_workspace_changes":"Historical v07/v08 CAD and backup modifications observed after interruption. Preserved without overwriting or validating; included as current workspace state in the full snapshot."
+}

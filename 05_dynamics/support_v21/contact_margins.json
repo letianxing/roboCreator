@@ -1,0 +1,615 @@
+{
+  "cases": [
+    {
+      "scene": "single_palm_544",
+      "h_mm": 120,
+      "support_polygon_margin_mm": 1.3660895691672863,
+      "hull_vertex_indices": [
+        1,
+        4,
+        5,
+        2,
+        3
+      ],
+      "force_ranges": [
+        {
+          "point_index": 0,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 2.523679622544213
+        },
+        {
+          "point_index": 1,
+          "minimum_force_N": 22.287403715365745,
+          "maximum_force_N": 23.99795723683359
+        },
+        {
+          "point_index": 2,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 0.4805525923988992
+        },
+        {
+          "point_index": 3,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 0.5935807059983138
+        },
+        {
+          "point_index": 4,
+          "minimum_force_N": 14.985509926921202,
+          "maximum_force_N": 15.772516516423087
+        },
+        {
+          "point_index": 5,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 0.9677756097584977
+        }
+      ],
+      "right_palm_at_least_1N_feasible": false,
+      "scope": "Flat rigid ground, vertical gravity and unilateral point reactions only. 1N is a diagnostic probe, not a required or commanded hardware load."
+    },
+    {
+      "scene": "local_lift",
+      "h_mm": 110,
+      "geometry_and_static_pass": false,
+      "support_polygon_margin_mm": 17.151407871683734,
+      "hull_vertex_indices": [
+        1,
+        4,
+        5,
+        2,
+        3
+      ],
+      "force_ranges": [
+        {
+          "point_index": 0,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 31.685080920497143
+        },
+        {
+          "point_index": 1,
+          "minimum_force_N": 0.45843251274188146,
+          "maximum_force_N": 21.93462396824039
+        },
+        {
+          "point_index": 2,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 6.0333917351060515
+        },
+        {
+          "point_index": 3,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 7.45247238769626
+        },
+        {
+          "point_index": 4,
+          "minimum_force_N": 5.866087416495945,
+          "maximum_force_N": 15.747043466139159
+        },
+        {
+          "point_index": 5,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 12.150531388776963
+        }
+      ],
+      "right_palm_at_least_1N_feasible": true,
+      "scope": "Flat rigid ground, vertical gravity and unilateral point reactions only. 1N is a diagnostic probe, not a required or commanded hardware load."
+    },
+    {
+      "scene": "local_lift",
+      "h_mm": 111,
+      "geometry_and_static_pass": false,
+      "support_polygon_margin_mm": 16.082246635188728,
+      "hull_vertex_indices": [
+        1,
+        4,
+        5,
+        2,
+        3
+      ],
+      "force_ranges": [
+        {
+          "point_index": 0,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 29.70993925581014
+        },
+        {
+          "point_index": 1,
+          "minimum_force_N": 1.9367690962556758,
+          "maximum_force_N": 22.07420681307874
+        },
+        {
+          "point_index": 2,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 5.657290331884539
+        },
+        {
+          "point_index": 3,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 6.987910256553143
+        },
+        {
+          "point_index": 4,
+          "minimum_force_N": 6.483927942432218,
+          "maximum_force_N": 15.748938335204004
+        },
+        {
+          "point_index": 5,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 11.393108018002337
+        }
+      ],
+      "right_palm_at_least_1N_feasible": true,
+      "scope": "Flat rigid ground, vertical gravity and unilateral point reactions only. 1N is a diagnostic probe, not a required or commanded hardware load."
+    },
+    {
+      "scene": "local_lift",
+      "h_mm": 112,
+      "geometry_and_static_pass": false,
+      "support_polygon_margin_mm": 14.949903494432,
+      "hull_vertex_indices": [
+        1,
+        4,
+        5,
+        2,
+        3
+      ],
+      "force_ranges": [
+        {
+          "point_index": 0,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 27.61807692513809
+        },
+        {
+          "point_index": 1,
+          "minimum_force_N": 3.5025078410604076,
+          "maximum_force_N": 22.222078391163116
+        },
+        {
+          "point_index": 2,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 5.25896327920872
+        },
+        {
+          "point_index": 3,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 6.495894904049797
+        },
+        {
+          "point_index": 4,
+          "minimum_force_N": 7.138239542396957,
+          "maximum_force_N": 15.750905072828976
+        },
+        {
+          "point_index": 5,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 10.590924839943067
+        }
+      ],
+      "right_palm_at_least_1N_feasible": true,
+      "scope": "Flat rigid ground, vertical gravity and unilateral point reactions only. 1N is a diagnostic probe, not a required or commanded hardware load."
+    },
+    {
+      "scene": "local_lift",
+      "h_mm": 113,
+      "geometry_and_static_pass": false,
+      "support_polygon_margin_mm": 13.745390730495224,
+      "hull_vertex_indices": [
+        1,
+        4,
+        5,
+        2,
+        3
+      ],
+      "force_ranges": [
+        {
+          "point_index": 0,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 25.39289024189229
+        },
+        {
+          "point_index": 1,
+          "minimum_force_N": 5.168076256762352,
+          "maximum_force_N": 22.37941221047882
+        },
+        {
+          "point_index": 2,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 4.835248945720044
+        },
+        {
+          "point_index": 3,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 5.9725210690273
+        },
+        {
+          "point_index": 4,
+          "minimum_force_N": 7.834215856924599,
+          "maximum_force_N": 15.752959478977452
+        },
+        {
+          "point_index": 5,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 9.737614706109872
+        }
+      ],
+      "right_palm_at_least_1N_feasible": true,
+      "scope": "Flat rigid ground, vertical gravity and unilateral point reactions only. 1N is a diagnostic probe, not a required or commanded hardware load."
+    },
+    {
+      "scene": "local_lift",
+      "h_mm": 114,
+      "geometry_and_static_pass": false,
+      "support_polygon_margin_mm": 12.4571297133661,
+      "hull_vertex_indices": [
+        1,
+        4,
+        5,
+        2,
+        3
+      ],
+      "force_ranges": [
+        {
+          "point_index": 0,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 23.012989135240385
+        },
+        {
+          "point_index": 1,
+          "minimum_force_N": 6.949488288150249,
+          "maximum_force_N": 22.547723996367093
+        },
+        {
+          "point_index": 2,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 4.38207428906469
+        },
+        {
+          "point_index": 3,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 5.412757711399339
+        },
+        {
+          "point_index": 4,
+          "minimum_force_N": 8.5785437821824,
+          "maximum_force_N": 15.755117980820712
+        },
+        {
+          "point_index": 5,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 8.824974994963798
+        }
+      ],
+      "right_palm_at_least_1N_feasible": true,
+      "scope": "Flat rigid ground, vertical gravity and unilateral point reactions only. 1N is a diagnostic probe, not a required or commanded hardware load."
+    },
+    {
+      "scene": "local_lift",
+      "h_mm": 115,
+      "geometry_and_static_pass": false,
+      "support_polygon_margin_mm": 11.069794328783743,
+      "hull_vertex_indices": [
+        1,
+        4,
+        5,
+        2,
+        3
+      ],
+      "force_ranges": [
+        {
+          "point_index": 0,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 20.450060525925842
+        },
+        {
+          "point_index": 1,
+          "minimum_force_N": 8.867941651406916,
+          "maximum_force_N": 22.72902082092357
+        },
+        {
+          "point_index": 2,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 3.8940480054044193
+        },
+        {
+          "point_index": 3,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 4.80994546861294
+        },
+        {
+          "point_index": 4,
+          "minimum_force_N": 9.38007368902237,
+          "maximum_force_N": 15.757401548007067
+        },
+        {
+          "point_index": 5,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 7.842148263567361
+        }
+      ],
+      "right_palm_at_least_1N_feasible": true,
+      "scope": "Flat rigid ground, vertical gravity and unilateral point reactions only. 1N is a diagnostic probe, not a required or commanded hardware load."
+    },
+    {
+      "scene": "local_lift",
+      "h_mm": 116,
+      "geometry_and_static_pass": false,
+      "support_polygon_margin_mm": 9.562361511203626,
+      "hull_vertex_indices": [
+        1,
+        4,
+        5,
+        2,
+        3
+      ],
+      "force_ranges": [
+        {
+          "point_index": 0,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 17.66526692970487
+        },
+        {
+          "point_index": 1,
+          "minimum_force_N": 10.952513448242025,
+          "maximum_force_N": 22.926055685535577
+        },
+        {
+          "point_index": 2,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 3.3637747607321344
+        },
+        {
+          "point_index": 3,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 4.154949591110078
+        },
+        {
+          "point_index": 4,
+          "minimum_force_N": 10.25094589650757,
+          "maximum_force_N": 15.759839074991316
+        },
+        {
+          "point_index": 5,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 6.774241191470144
+        }
+      ],
+      "right_palm_at_least_1N_feasible": true,
+      "scope": "Flat rigid ground, vertical gravity and unilateral point reactions only. 1N is a diagnostic probe, not a required or commanded hardware load."
+    },
+    {
+      "scene": "local_lift",
+      "h_mm": 117,
+      "geometry_and_static_pass": false,
+      "support_polygon_margin_mm": 7.904606427953517,
+      "hull_vertex_indices": [
+        1,
+        4,
+        5,
+        2,
+        3
+      ],
+      "force_ranges": [
+        {
+          "point_index": 0,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 14.60277174842801
+        },
+        {
+          "point_index": 1,
+          "minimum_force_N": 13.245007053202492,
+          "maximum_force_N": 23.142785841809214
+        },
+        {
+          "point_index": 2,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 2.7806222934280367
+        },
+        {
+          "point_index": 3,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 3.4346370619047564
+        },
+        {
+          "point_index": 4,
+          "minimum_force_N": 11.208615260552115,
+          "maximum_force_N": 15.762472838231503
+        },
+        {
+          "point_index": 5,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 5.599841671151964
+        }
+      ],
+      "right_palm_at_least_1N_feasible": true,
+      "scope": "Flat rigid ground, vertical gravity and unilateral point reactions only. 1N is a diagnostic probe, not a required or commanded hardware load."
+    },
+    {
+      "scene": "local_lift",
+      "h_mm": 118,
+      "geometry_and_static_pass": false,
+      "support_polygon_margin_mm": 6.050194199861529,
+      "hull_vertex_indices": [
+        1,
+        4,
+        5,
+        2,
+        3
+      ],
+      "force_ranges": [
+        {
+          "point_index": 0,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 11.17697708791739
+        },
+        {
+          "point_index": 1,
+          "minimum_force_N": 15.809508093975882,
+          "maximum_force_N": 23.38527854683126
+        },
+        {
+          "point_index": 2,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 2.128291272315691
+        },
+        {
+          "point_index": 3,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 2.628874874412381
+        },
+        {
+          "point_index": 4,
+          "minimum_force_N": 12.279839432519701,
+          "maximum_force_N": 15.765366884720049
+        },
+        {
+          "point_index": 5,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 4.286124794162334
+        }
+      ],
+      "right_palm_at_least_1N_feasible": true,
+      "scope": "Flat rigid ground, vertical gravity and unilateral point reactions only. 1N is a diagnostic probe, not a required or commanded hardware load."
+    },
+    {
+      "scene": "local_lift",
+      "h_mm": 119,
+      "geometry_and_static_pass": false,
+      "support_polygon_margin_mm": 3.921235006557559,
+      "hull_vertex_indices": [
+        1,
+        4,
+        5,
+        2,
+        3
+      ],
+      "force_ranges": [
+        {
+          "point_index": 0,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 7.243991246700228
+        },
+        {
+          "point_index": 1,
+          "minimum_force_N": 18.753741300382703,
+          "maximum_force_N": 23.663728537166076
+        },
+        {
+          "point_index": 2,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 1.3793822091440007
+        },
+        {
+          "point_index": 3,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 1.7038190585091229
+        },
+        {
+          "point_index": 4,
+          "minimum_force_N": 13.509602977609699,
+          "maximum_force_N": 15.768633317858663
+        },
+        {
+          "point_index": 5,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 2.7779112587375114
+        }
+      ],
+      "right_palm_at_least_1N_feasible": true,
+      "scope": "Flat rigid ground, vertical gravity and unilateral point reactions only. 1N is a diagnostic probe, not a required or commanded hardware load."
+    },
+    {
+      "scene": "local_lift",
+      "h_mm": 120,
+      "geometry_and_static_pass": true,
+      "support_polygon_margin_mm": 1.3660895143219172,
+      "hull_vertex_indices": [
+        1,
+        4,
+        5,
+        2,
+        3
+      ],
+      "force_ranges": [
+        {
+          "point_index": 0,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 2.5236795212242455
+        },
+        {
+          "point_index": 1,
+          "minimum_force_N": 22.287403803411692,
+          "maximum_force_N": 23.997957256190503
+        },
+        {
+          "point_index": 2,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 0.4805525731058089
+        },
+        {
+          "point_index": 3,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 0.5935806821674049
+        },
+        {
+          "point_index": 4,
+          "minimum_force_N": 14.985509947653576,
+          "maximum_force_N": 15.772516504309403
+        },
+        {
+          "point_index": 5,
+          "minimum_force_N": 0.0,
+          "maximum_force_N": 0.9677755696692134
+        }
+      ],
+      "right_palm_at_least_1N_feasible": false,
+      "scope": "Flat rigid ground, vertical gravity and unilateral point reactions only. 1N is a diagnostic probe, not a required or commanded hardware load."
+    },
+    {
+      "scene": "local_lift",
+      "h_mm": 121,
+      "geometry_and_static_pass": false,
+      "support_polygon_margin_mm": -2.0474127592614373,
+      "hull_vertex_indices": [
+        1,
+        4,
+        5,
+        2,
+        3
+      ],
+      "force_ranges": [
+        {
+          "point_index": 0,
+          "minimum_force_N": null,
+          "maximum_force_N": null
+        },
+        {
+          "point_index": 1,
+          "minimum_force_N": null,
+          "maximum_force_N": null
+        },
+        {
+          "point_index": 2,
+          "minimum_force_N": null,
+          "maximum_force_N": null
+        },
+        {
+          "point_index": 3,
+          "minimum_force_N": null,
+          "maximum_force_N": null
+        },
+        {
+          "point_index": 4,
+          "minimum_force_N": null,
+          "maximum_force_N": null
+        },
+        {
+          "point_index": 5,
+          "minimum_force_N": null,
+          "maximum_force_N": null
+        }
+      ],
+      "right_palm_at_least_1N_feasible": false,
+      "scope": "Flat rigid ground, vertical gravity and unilateral point reactions only. 1N is a diagnostic probe, not a required or commanded hardware load."
+    }
+  ],
+  "dynamic_stability_verified": false
+}

@@ -1,0 +1,20 @@
+{
+  "stage":"v0.23",
+  "status":"adjustable_reference_carrier_not_manufacturing_release",
+  "battery_delta_from_v22_body_mm":[1,0,2],
+  "battery_center_body_mm":[-3,0,74],
+  "battery_reference_xyz_mm":[80,40,32],
+  "tray_wall_mm":2,
+  "tray_side_clearance_mm":0.4,
+  "tray_floor_z_mm":[54,56],
+  "battery_padding_z_mm":[56,58],
+  "pelvis_plate_x_mm":[-44,25],
+  "pelvis_plate_y_mm":[-50,50],
+  "pelvis_plate_z_mm":[46,50],
+  "carrier_screw_centers_body_xy_mm":[[-18,-14],[-18,14],[18,-14],[18,14]],
+  "screw_reference":{"nominal":"M2.5x10 flat head","head_diameter_mm":5,"head_height_mm":1.5,"thread_geometry_simplified":true,"thread_engagement_nominal_mm":4,"sku_and_thread_strength_released":false},
+  "harness_probe":{"bundle_diameter_mm":4,"centerline_bend_radius_mm":8,"path_body_mm":[[-36,-28,76],[-36,-40,76],[-36,-40,42],[24,-40,42],[24,0,42]],"grommet_center_xy_mm":[-36,-40],"grommet_outer_diameter_mm":8.5,"grommet_inner_diameter_mm":6.6,"current_rating_and_actual_connectors_selected":false},
+  "densities_kg_mm3":{"PETG_reference":0.00000128,"aluminum_assumed":0.0000027,"steel_assumed":0.0000079,"foam_assumed":0.00000015,"strap_and_grommet_assumed":0.00000115},
+  "sources":["https://eu.store.bambulab.com/en-mt/products/petg-hf?variant=49068714557788","https://us.misumi-ec.com/vona2/detail/221000551376/"],
+  "notes":["Module SKUs and PCB holes unconfirmed. Carrier holds reference external envelopes; not a bare-PCB clamp approval","PETG density1.28g/cm3 from Bambu PETG HF is used for mass only, not universal printed strength","Straps,foam,thread shape and connector spaces are research assumptions; preload,temperature,insulation and shock retention unverified","Pelvis plate is an owned design; new flange/slots/bore geometry requires structural validation"]
+}

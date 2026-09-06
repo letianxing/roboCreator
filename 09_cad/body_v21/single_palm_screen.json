@@ -1,0 +1,121 @@
+{
+  "completed": true,
+  "selected": [],
+  "trials": [
+    {
+      "side": "left_free",
+      "q_deg": [
+        -80,
+        0,
+        90,
+        90,
+        0,
+        0
+      ],
+      "collisions": [
+        {
+          "a": "battery",
+          "b": "L_WristMotorEnvelope1",
+          "volume_mm3": 147.85076554269324
+        }
+      ],
+      "ground": []
+    },
+    {
+      "side": "left_free",
+      "q_deg": [
+        -100,
+        0,
+        90,
+        90,
+        0,
+        0
+      ],
+      "collisions": [
+        {
+          "a": "L_FixedFrame",
+          "b": "L_ElbowMotor",
+          "volume_mm3": 822.6970093406339
+        }
+      ],
+      "ground": []
+    },
+    {
+      "side": "left_free",
+      "q_deg": [
+        -60,
+        0,
+        90,
+        60,
+        0,
+        0
+      ],
+      "collisions": [
+        {
+          "a": "L_FixedFrame",
+          "b": "L_ElbowMotor",
+          "volume_mm3": 58.20822841647243
+        }
+      ],
+      "ground": []
+    },
+    {
+      "side": "left_free",
+      "q_deg": [
+        -80,
+        0,
+        -90,
+        90,
+        0,
+        0
+      ],
+      "collisions": [
+        {
+          "a": "L_KneeMotor",
+          "b": "L_UpperArm",
+          "volume_mm3": 2195.5872067247337
+        }
+      ],
+      "ground": []
+    },
+    {
+      "side": "left_free",
+      "q_deg": [
+        -100,
+        0,
+        -90,
+        90,
+        0,
+        0
+      ],
+      "collisions": [
+        {
+          "a": "L_KneeMotor",
+          "b": "L_ForearmLoadFrame",
+          "volume_mm3": 100.78798754111682
+        }
+      ],
+      "ground": []
+    },
+    {
+      "side": "left_free",
+      "q_deg": [
+        -100,
+        0,
+        0,
+        120,
+        0,
+        0
+      ],
+      "collisions": [
+        {
+          "a": "L_FixedFrame",
+          "b": "L_ForearmLoadFrame",
+          "volume_mm3": 74.85997044724517
+        }
+      ],
+      "ground": []
+    }
+  ],
+  "scope": "Bounded alternative contact-mode search; max6 free-arm poses and12 right-palm IK branches, not an exhaustive search. No whole recovery validated."
+}

@@ -1,0 +1,129 @@
+{
+  "cases": [
+    {
+      "id": 544,
+      "h_mm": 120,
+      "beta_deg": 35,
+      "hip_x_mm": -66.00957245398182,
+      "right_pose": {
+        "name": "coupled_contact",
+        "foot_translation_mm": [
+          -159.46665474984204,
+          0.0,
+          126.45697990043024
+        ],
+        "foot_pitch_deg": 167.1014920318235,
+        "q_deg": [
+          0,
+          0,
+          -22.898507968176503,
+          120,
+          0,
+          35
+        ]
+      },
+      "left_pose": {
+        "name": "forward_candidate",
+        "q_deg": [
+          3.4124660748093356e-20,
+          2.005320933551234e-20,
+          -124.9462712283224,
+          67.06086340783274,
+          -6.251118001966121e-20,
+          22.885407820486556
+        ],
+        "foot_pitch_deg": 0,
+        "foot_translation_mm": [
+          58.99042754601818,
+          0.0,
+          2.0
+        ]
+      },
+      "q_deg": [
+        3.4124660748093356e-20,
+        2.005320933551234e-20,
+        -124.9462712283224,
+        67.06086340783274,
+        -6.251118001966121e-20,
+        22.885407820486556
+      ],
+      "position_error_mm": 3.822172177920441e-12,
+      "orientation_error_deg": 0.0,
+      "ik_found": true,
+      "support_knee_replanned_deg": 120,
+      "power_shift_body_mm": [
+        -5,
+        0,
+        0
+      ]
+    },
+    {
+      "id": 545,
+      "h_mm": 120,
+      "beta_deg": 35,
+      "hip_x_mm": -66.00957245398182,
+      "right_pose": {
+        "name": "coupled_contact",
+        "foot_translation_mm": [
+          -159.46665474984204,
+          0.0,
+          126.45697990043024
+        ],
+        "foot_pitch_deg": 167.1014920318235,
+        "q_deg": [
+          0,
+          0,
+          -22.898507968176503,
+          120,
+          0,
+          35
+        ]
+      },
+      "left_pose": {
+        "name": "forward_candidate",
+        "q_deg": [
+          7.181480020986946,
+          4.421758532270639,
+          -124.38778660941809,
+          65.84947292905602,
+          -8.427518454241051,
+          23.26070041133005
+        ],
+        "foot_pitch_deg": 0,
+        "foot_translation_mm": [
+          58.99042754601818,
+          15.0,
+          2.0
+        ]
+      },
+      "q_deg": [
+        7.181480020986946,
+        4.421758532270639,
+        -124.38778660941809,
+        65.84947292905602,
+        -8.427518454241051,
+        23.26070041133005
+      ],
+      "position_error_mm": 3.675682563876408e-12,
+      "orientation_error_deg": 0.0,
+      "ik_found": true,
+      "support_knee_replanned_deg": 120,
+      "power_shift_body_mm": [
+        -5,
+        0,
+        0
+      ]
+    }
+  ],
+  "power_change": {
+    "translation_body_mm": [
+      -5,
+      0,
+      0
+    ],
+    "size_changed": false,
+    "mass_changed": false,
+    "mounting_and_cabling_validated": false
+  },
+  "scope": "Packaging research, no physical or production change"
+}

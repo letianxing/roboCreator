@@ -1,0 +1,111 @@
+{
+  "cad": [
+    {
+      "file": "09_cad\\body_v22\\lift_h114.FCStd",
+      "valid_shapes": 82,
+      "sha256": "cae8595197d3e898f1fcc13fff34dd2ccbfdf01fca6b79220a2c43c1fea863dc"
+    },
+    {
+      "file": "09_cad\\body_v22\\lift_h117.FCStd",
+      "valid_shapes": 82,
+      "sha256": "01588a17c0c4bb884c01d2f170de0c39d0ceca2ebf96bfc79aff35c49baab3ce"
+    },
+    {
+      "file": "09_cad\\body_v22\\lift_h119.FCStd",
+      "valid_shapes": 82,
+      "sha256": "3632d85262fcf74269921cf22302b285695ddacfe98dd3dee504ba326253ab45"
+    },
+    {
+      "file": "09_cad\\body_v22\\stand_candidate.FCStd",
+      "valid_shapes": 82,
+      "sha256": "2a83ce43a124245391fef17fdc7bc5ac6871256859a0361215c26b5eff4c8c4d"
+    }
+  ],
+  "adjacent_joint_samples": [
+    {
+      "interval_mm": [
+        114,
+        114.5
+      ],
+      "max_joint_step_deg": 1.131538043162223
+    },
+    {
+      "interval_mm": [
+        114.5,
+        115
+      ],
+      "max_joint_step_deg": 1.1781592540376238
+    },
+    {
+      "interval_mm": [
+        115,
+        115.5
+      ],
+      "max_joint_step_deg": 1.2302426964602091
+    },
+    {
+      "interval_mm": [
+        115.5,
+        116
+      ],
+      "max_joint_step_deg": 1.288908348573088
+    },
+    {
+      "interval_mm": [
+        116,
+        116.5
+      ],
+      "max_joint_step_deg": 1.3556200224130208
+    },
+    {
+      "interval_mm": [
+        116.5,
+        117
+      ],
+      "max_joint_step_deg": 1.4323328240468527
+    },
+    {
+      "interval_mm": [
+        117,
+        117.5
+      ],
+      "max_joint_step_deg": 1.5217256082264896
+    },
+    {
+      "interval_mm": [
+        117.5,
+        118
+      ],
+      "max_joint_step_deg": 1.6275829077397361
+    },
+    {
+      "interval_mm": [
+        118,
+        118.5
+      ],
+      "max_joint_step_deg": 1.7654189652086174
+    },
+    {
+      "interval_mm": [
+        118.5,
+        119
+      ],
+      "max_joint_step_deg": 1.9548413169711587
+    },
+    {
+      "interval_mm": [
+        119,
+        119.5
+      ],
+      "max_joint_step_deg": 2.1821393269111056
+    },
+    {
+      "interval_mm": [
+        119.5,
+        120
+      ],
+      "max_joint_step_deg": 2.6061638103052935
+    }
+  ],
+  "continuous_sweep_proven": false
+}

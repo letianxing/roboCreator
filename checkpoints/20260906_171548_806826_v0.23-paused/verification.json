@@ -1,0 +1,20 @@
+{
+  "id": "20260906_171548_806826_v0.23-paused",
+  "stage": "v0.23-paused",
+  "verified": true,
+  "file_count": 862,
+  "source_bytes": 1664526898,
+  "archive_bytes": 606352321,
+  "archive_sha256": "a6c55b0a2cc1c84b143ce6b5358ab7b8d843f2fbe643eb5fd66795bf186b993b",
+  "archive": "checkpoints\\20260906_171548_806826_v0.23-paused\\project.zip",
+  "passed_checks": [
+    "20 draft native component shapes generated, saved and reopened as valid; no assembly claim",
+    "User pause and microphone not-yet-arrived status recorded"
+  ],
+  "pending": [
+    "Resume only after user reports microphone arrival or otherwise asks to resume",
+    "Confirm physical microphone SKU,dimensions,holes and connector orientations",
+    "Integrate actual modules,mounts and routing; recheck geometry,mass and support",
+    "Complete recovery,dynamics,structural CAE and approved Wukong appearance remain pending"
+  ]
+}

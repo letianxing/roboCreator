@@ -1,5 +1,7 @@
 # roboCreator 持续协作规则
 
+新终端首先完整读取根目录 `RESUME.md`，再读 `project_state.md` 和最新阶段产物。当前因Sipeed麦克风尚未到货按用户要求暂停，恢复条件和顺序见 `deliverables/pause_record_v23.md`；不得在到货前自行继续未授权的设计推进。
+
 原型阶段最新优先级：用户要求暂不推进PLM/MES，待原型完成后提供完整方案。当前集中机械/电气原型及CAD/CAE；基本设计记录、版本与检查点照常保存。已有PLM/MES材料仅作后续参考，不追加为本阶段交付门槛。
 
 结构CAE优先复用本机FreeCAD FEM＋Gmsh＋CalculiX，已核对FreeCAD1.1.3/CalculiX2.22/Gmsh4.15.0及现有MCP健康状态，见 `tools/freecad_cae_stack_v20.json`。新工具仍先询问；现有工具可用不代表当前结构/运动通过验证。

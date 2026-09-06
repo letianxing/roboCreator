@@ -1,0 +1,15 @@
+{
+  "stage":"v0.22",
+  "status":"motion_packaging_research_not_release",
+  "source_motion":"09_cad/body_v21/local_lift.json",
+  "coarse_heights_mm":[114,117,119],
+  "validation_heights_mm":[114,115,116,117,118,119,120],
+  "body_translation_candidates_mm":{
+    "battery":[[-4,0,0],[-8,0,0],[-12,0,0],[-4,0,2],[-8,0,2],[-12,0,2],[-4,0,4],[-8,0,4],[-12,0,4]],
+    "power":[[-4,0,0],[-8,0,0],[-12,0,0],[-16,0,0]],
+    "computer":[[0,0,0],[-4,0,0],[-8,0,0],[0,0,8],[-4,0,8],[-8,0,8]]
+  },
+  "nominal_electronics_clearance_mm":1.0,
+  "collision_volume_threshold_mm3":0.00001,
+  "notes":["Translations are relative to v21 layout including existing power shift -5mm","All shapes/masses preserved; new mounting mass and cable routing pending","Nominal1mm is a research screening target, not a manufacturing-tolerance release","No new software, MCP configuration, physical commands or purchases"]
+}
