@@ -34,7 +34,7 @@ git status -sb
 - 最新完成验证阶段是v0.22：114–120mm身体参考高度的13个局部姿态和站姿，通过该轮几何、名义2mm器件间隙及竖直静态必要条件检查。完整起身、动态稳定、制造、结构CAE和真机均未通过。
 - v0.23仅完成20个安装结构草案零件的参数化生成和原生CAD重开检查，包括电池托架/防脱、板卡/电源固定、简化紧固件、骨盆板修改、护线圈及线束空间探针；尚未装入整机或做碰撞、载荷、CAE、布线和制造验证。
 - 最新已验证快照：`checkpoints/20260906_171548_806826_v0.23-paused/project.zip`，SHA-256 `a6c55b0a2cc1c84b143ce6b5358ab7b8d843f2fbe643eb5fd66795bf186b993b`。以`checkpoints/index.jsonl`为权威索引。
-- 上一次已推送提交是`afeab1d470892d4100bc5e59e3f47be0e54613bd`；本文件所在提交应以新终端的`git log -1 --oneline`和`git ls-remote origin refs/heads/main`核对，避免把文档中的旧哈希当最新值。
+- v0.21–v0.23工程进度及本续接入口已推送为`808339e1429cd18b94fc9b0e91160468374301fd`；推送回执可能位于其后的提交。新终端始终以`git log -1 --oneline`和`git ls-remote origin refs/heads/main`核对最终最新值。
 - 原型阶段PLM/MES后置；新增开源软件或MCP前必须先询问。现有FreeCAD FEM、Gmsh、CalculiX可继续使用，无需为当前暂停点安装或重启。
 
 ## 麦克风到货后的恢复顺序

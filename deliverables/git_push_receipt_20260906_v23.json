@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-06",
+  "remote": "git@github.com:letianxing/roboCreator.git",
+  "branch": "main",
+  "engineering_commit": "808339e1429cd18b94fc9b0e91160468374301fd",
+  "previous_remote_commit": "afeab1d470892d4100bc5e59e3f47be0e54613bd",
+  "push_result": "success",
+  "lfs_upload": {
+    "objects": 21,
+    "reported_bytes": "1.9 GB",
+    "local_fsck_before_push": "passed"
+  },
+  "staged_secret_scan": "no matches",
+  "stage_checks_rerun": {
+    "v0.21": "passed within recorded scope; engineering/full recovery unvalidated",
+    "v0.22": "passed within recorded scope",
+    "v0.23_pause": "20 native draft shapes valid and pause evidence present"
+  },
+  "handoff": "Read RESUME.md first in a new terminal. Verify the final receipt commit with git log and git ls-remote; this receipt is committed after the engineering commit.",
+  "scope_note": "Git archival success is not a manufacturing, CAE, complete recovery, appearance or hardware validation. Historical v0.7/v0.8 working-tree byte changes were included at explicit user request to archive all current progress and remain unverified."
+}
