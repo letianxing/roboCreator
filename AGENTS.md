@@ -1,5 +1,9 @@
 # roboCreator 持续协作规则
 
+原型阶段最新优先级：用户要求暂不推进PLM/MES，待原型完成后提供完整方案。当前集中机械/电气原型及CAD/CAE；基本设计记录、版本与检查点照常保存。已有PLM/MES材料仅作后续参考，不追加为本阶段交付门槛。
+
+结构CAE优先复用本机FreeCAD FEM＋Gmsh＋CalculiX，已核对FreeCAD1.1.3/CalculiX2.22/Gmsh4.15.0及现有MCP健康状态，见 `tools/freecad_cae_stack_v20.json`。新工具仍先询问；现有工具可用不代表当前结构/运动通过验证。
+
 最新工具授权规则（2026-09-06）：后续若需要引入开源软件或新增/配置MCP，先向用户说明用途、选项和影响并询问，确认后执行。此规则覆盖早期直接安装授权。当前v0.18沿用已有FreeCAD/Python，未新增软件安装或MCP配置。详见 `tools/software_policy.md`。
 
 开始工作先读 `project_state.md` 和当前阶段产物，遵守 `prompts/robot_master_prompt.md` 中的协作流程。

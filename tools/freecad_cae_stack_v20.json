@@ -1,0 +1,13 @@
+{
+  "checked_on":"2026-09-06",
+  "preferred_workflow":"FreeCAD CAD and FEM workbench -> existing Gmsh mesh generator -> existing CalculiX solver -> FreeCAD result inspection",
+  "FreeCAD":{"version":"1.1.3","python":"G:/freeCAD/bin/python.exe","Fem_import_passed":true},
+  "CalculiX":{"version":"2.22","executable":"G:/freeCAD/bin/ccx.exe","version_command_passed":true},
+  "Gmsh":{"version":"4.15.0","executable":"G:/freeCAD/bin/gmsh.exe","version_command_passed":true},
+  "FreeCAD_MCP":{"rpc_server":"running","gui_dispatch":"healthy","configuration_changed":false,"run_fem_tool_available":true,
+    "note":"FEM solver MCP call runs on GUI thread; do not launch parallel GUI RPC operations during the solve."},
+  "new_software_installed":false,
+  "new_engineering_analysis_solved_in_this_check":false,
+  "sources":["https://github.com/FreeCAD/FreeCAD/tree/main/src/Mod/Fem","https://www.calculix.de/"],
+  "scope":"Existing executable/module availability and user toolchain preference; not a structural validation result. Actual analysis still requires geometry, material, load, boundary conditions, convergence and validation scope."
+}

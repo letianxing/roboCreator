@@ -1,0 +1,25 @@
+{
+  "id": "20260906_132133_880889_v0.20",
+  "stage": "v0.20",
+  "verified": true,
+  "file_count": 776,
+  "source_bytes": 1537896911,
+  "archive_bytes": 563975050,
+  "archive_sha256": "447c0e5dc6338bc35119d4b2067539fca8727965543700721553f5be9b8cc60c",
+  "archive": "checkpoints\\20260906_132133_880889_v0.20\\project.zip",
+  "passed_checks": [
+    "11 sampled wrist-to-palm-edge geometries and analytic/CAD height agreement",
+    "Quasi-static nonnegative vertical equilibrium; not verified force transfer",
+    "Four native CAD files reopen with valid shapes; STEP files exist",
+    "Six-axis FK/IK positive control and retained failed search evidence",
+    "Existing FreeCAD FEM, Gmsh, CalculiX and MCP availability only"
+  ],
+  "pending": [
+    "Coupled body pose and foot placement search with full-body collisions",
+    "Replant/unload hand contact with friction and compliance; not just vertical force allocation",
+    "Actual shoulder/elbow mounting, shaft/bearing interfaces and load paths",
+    "FreeCAD FEM/Gmsh/CalculiX structural analysis after geometry/load conditions are defined",
+    "Torque-speed-duration, impact/thermal/material/physical tests and Wukong appearance",
+    "PLM/MES implementation deferred until prototype completion"
+  ]
+}

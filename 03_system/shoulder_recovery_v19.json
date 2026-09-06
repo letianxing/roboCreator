@@ -1,0 +1,26 @@
+{
+  "version":"v0.19", "status":"design_research", "date":"2026-09-06",
+  "metadata":"JSON pointers identify parameters; dimensions mm, angles deg, mass kg. Unspecified values are engineering assumptions with unquantified uncertainty. Geometry/solver outcomes are conditional, never real-machine measurements.",
+  "shoulder_origin_body_mm":[0,75,80],
+  "upper_arm_mm":80,"forearm_mm":85,
+  "shoulder_pitch_offsets_mm":[25,33,40],
+  "shoulder_roll_offsets_mm":[-60,-40,40,60],
+  "shoulder_yaw_offsets_mm":[-60,-40,40,60],
+  "body_clockings_deg":[0,90],
+  "elbow_offset_mm":40,
+  "nominal_gap_mm":2,
+  "stand_arm_candidates_deg":[[-60,0,0,60],[-80,0,0,70],[-90,0,0,90],[-60,15,0,90]],
+  "knee_pad":{"outer_radius_mm":32,"inner_radius_mm":28,"width_mm":8,"local_y_mm":72,"density_kg_mm3":0.0000012,
+    "holder_outer_radius_mm":28,"holder_inner_radius_mm":24,"holder_width_mm":12,"holder_y_mm":68,"holder_density_kg_mm3":0.0000027,
+    "note":"Candidate annular knee pad on an aluminum carrier joined to outer thigh plate; real rubber grade, friction, attachment strength and wear not established."},
+  "contact_phases":[
+    {"name":"cuff_knees","body_height_mm":61.93,"body_pitch_deg":60,"support":"cuff_and_knees"},
+    {"name":"raise_hips_probe","body_height_mm":90,"body_pitch_deg":85,"support":"cuff_and_knees"},
+    {"name":"leg_swing_clearance_probe","body_height_mm":122,"body_pitch_deg":90,"support":"cuff_and_knees"},
+    {"name":"palm_transition_required","body_height_mm":122,"body_pitch_deg":90,"support":"palm_and_knees","status":"requires_new_IK_and_wrist_load_validation"},
+    {"name":"feet_plant_probe","body_height_mm":160,"body_pitch_deg":60,"support":"palm_and_feet","status":"requires_new_IK"},
+    {"name":"stand","body_height_mm":212.26539554,"body_pitch_deg":0,"support":"feet"}
+  ],
+  "contact_assumptions":{"gravity_m_s2":9.81,"flat_cuff_wrist_height_mm":25,"friction_coefficient":null,"surface_stiffness_N_mm":null},
+  "not_authorized_by_this_file":["physical robot commands","manufacturing release","new software or MCP installation"]
+}

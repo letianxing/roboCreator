@@ -1,0 +1,10 @@
+{
+  "version":"v0.19", "status":"assembly_candidate",
+  "source_search":"09_cad/body_v19/shoulder_scan.json",
+  "motor_offsets_mm":[40,60,60], "motor_clock_deg":[90,90,90],
+  "shoulder_origin_body_mm":[0,81,80],
+  "stand_arm_q_deg":[-60,0,0,60,0,0],
+  "elbow_motor_offset_mm":40,
+  "wrist_frame_end_clearance_mm":2,
+  "notes":["Shoulder moved outward 6mm per side to clear the upper arm from hip yaw housing; contact target Y follows to +/-131mm.","Full-arm audit increased pitch motor outboard offset from the motor-only shortlist value 25mm to 40mm to clear the upper arm.","Offsets locate manufacturer motor shaft lines; complete shoulder gimbal/shaft supports and vendor hole interfaces are not released.","Extra support geometry changes mass and package; final assembly checks include them."]
+}

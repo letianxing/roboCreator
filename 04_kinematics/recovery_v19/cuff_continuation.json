@@ -1,0 +1,120 @@
+{
+  "status": "analytic_candidate_family_not_trajectory",
+  "rows": [
+    {
+      "body_height_mm": 61.929986638462964,
+      "roots": [
+        {
+          "body_pitch_deg": 60.0,
+          "squared_length_residual_mm2": -0.0005911736070629559
+        }
+      ],
+      "geometry_only": true
+    },
+    {
+      "body_height_mm": 70,
+      "roots": [
+        {
+          "body_pitch_deg": 66.3453432985015,
+          "squared_length_residual_mm2": 2.7284841053187847e-12
+        }
+      ],
+      "geometry_only": true
+    },
+    {
+      "body_height_mm": 75,
+      "roots": [
+        {
+          "body_pitch_deg": 70.28894061489102,
+          "squared_length_residual_mm2": -9.094947017729282e-13
+        }
+      ],
+      "geometry_only": true
+    },
+    {
+      "body_height_mm": 80,
+      "roots": [
+        {
+          "body_pitch_deg": 74.27872401876594,
+          "squared_length_residual_mm2": 0.0
+        }
+      ],
+      "geometry_only": true
+    },
+    {
+      "body_height_mm": 85,
+      "roots": [
+        {
+          "body_pitch_deg": 78.36485992357446,
+          "squared_length_residual_mm2": 9.094947017729282e-13
+        }
+      ],
+      "geometry_only": true
+    },
+    {
+      "body_height_mm": 90,
+      "roots": [
+        {
+          "body_pitch_deg": 82.62484606710679,
+          "squared_length_residual_mm2": 3.637978807091713e-12
+        }
+      ],
+      "geometry_only": true
+    },
+    {
+      "body_height_mm": 95,
+      "roots": [
+        {
+          "body_pitch_deg": 87.18498552860562,
+          "squared_length_residual_mm2": 1.8189894035458565e-12
+        }
+      ],
+      "geometry_only": true
+    },
+    {
+      "body_height_mm": 100,
+      "roots": [
+        {
+          "body_pitch_deg": 92.2727775831617,
+          "squared_length_residual_mm2": 2.7284841053187847e-12
+        }
+      ],
+      "geometry_only": true
+    },
+    {
+      "body_height_mm": 105,
+      "roots": [
+        {
+          "body_pitch_deg": 98.37491332241576,
+          "squared_length_residual_mm2": 3.637978807091713e-12
+        }
+      ],
+      "geometry_only": true
+    },
+    {
+      "body_height_mm": 110,
+      "roots": [],
+      "geometry_only": true
+    },
+    {
+      "body_height_mm": 118,
+      "roots": [],
+      "geometry_only": true
+    },
+    {
+      "body_height_mm": 122,
+      "roots": [],
+      "geometry_only": true
+    }
+  ],
+  "conditions": [
+    "Knee contact points fixed; radius32mm",
+    "Current arm lengths80/85mm and cuff offset12/25mm",
+    "Cuff normal vertical, elbow/pad plane geometry",
+    "Body pitch limited to60..100deg"
+  ],
+  "limitations": [
+    "Root alone does not guarantee shoulder joint limits, CAD clearance or contact dynamics",
+    "Continuation establishes candidate pitch values for future IK, not a released robot motion"
+  ]
+}

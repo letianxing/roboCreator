@@ -1,0 +1,1350 @@
+{
+  "input_sha256": "15a849cb54b63d5ebf07f732483495c5c70408992d4df54bd4e94e5213a1f1f2",
+  "phase_samples": [
+    {
+      "body_height_mm": 61.929986638462964,
+      "body_pitch_deg": 60,
+      "hip_x_mm": 0.0,
+      "leg_pose": {
+        "name": "coupled_contact",
+        "foot_translation_mm": [
+          -105.40942085400265,
+          0.0,
+          150.59215627824113
+        ],
+        "foot_pitch_deg": 195.5760481060081,
+        "q_deg": [
+          0,
+          0,
+          10.576048106008088,
+          90,
+          0,
+          35
+        ]
+      },
+      "arm": {
+        "q_deg": [
+          -73.63391419482623,
+          8.307223746389942,
+          -149.2190269518711,
+          74.075667060728
+        ],
+        "point_mm": [
+          149.99999698717858,
+          124.9999999999341,
+          -7.297579363713114e-06
+        ],
+        "position_error_mm": 7.89504638470778e-06,
+        "normal_error_deg": 2.699869328381916e-06,
+        "ik_found": true,
+        "contact_type": "cuff"
+      },
+      "knee_contact_x_mm": -84.87753471809503,
+      "cuff_height_upper_bound_mm": 65.0,
+      "wholebody_validated": false
+    },
+    {
+      "body_height_mm": 61.929986638462964,
+      "body_pitch_deg": 60,
+      "hip_x_mm": 0.0,
+      "leg_pose": {
+        "name": "coupled_contact",
+        "foot_translation_mm": [
+          -105.40942085400265,
+          0.0,
+          150.59215627824113
+        ],
+        "foot_pitch_deg": 195.5760481060081,
+        "q_deg": [
+          0,
+          0,
+          10.576048106008088,
+          90,
+          0,
+          35
+        ]
+      },
+      "arm": {
+        "q_deg": [
+          -98.00075870737417,
+          71.05217187962485,
+          100.55597579878518,
+          69.80754252845428,
+          47.905779945636226,
+          88.500443316441
+        ],
+        "point_mm": [
+          149.9999998678335,
+          124.99999996403604,
+          1.3272771076655587e-07
+        ],
+        "position_error_mm": 1.9073025079989556e-07,
+        "normal_error_deg": 0.0,
+        "ik_found": true,
+        "contact_type": "palm"
+      },
+      "knee_contact_x_mm": -84.87753471809503,
+      "cuff_height_upper_bound_mm": 65.0,
+      "wholebody_validated": false
+    },
+    {
+      "body_height_mm": 75,
+      "body_pitch_deg": 75,
+      "hip_x_mm": -5.8142689115271935,
+      "leg_pose": {
+        "name": "coupled_contact",
+        "foot_translation_mm": [
+          -123.93992258463615,
+          0.0,
+          145.84106347528797
+        ],
+        "foot_pitch_deg": 186.45963451512443,
+        "q_deg": [
+          0,
+          0,
+          -13.54036548487555,
+          90,
+          0,
+          35
+        ]
+      },
+      "arm": {
+        "q_deg": [
+          -87.37665837848284,
+          7.770069444090363,
+          -148.36227034265696,
+          77.71962303611018
+        ],
+        "point_mm": [
+          150.82660421228553,
+          125.52623073452357,
+          -3.7669359250507086
+        ],
+        "position_error_mm": 3.8923000363747704,
+        "normal_error_deg": 2.3008617226695485,
+        "ik_found": false,
+        "contact_type": "cuff"
+      },
+      "knee_contact_x_mm": -84.87753471809503,
+      "cuff_height_upper_bound_mm": 84.29447639179834,
+      "wholebody_validated": false
+    },
+    {
+      "body_height_mm": 75,
+      "body_pitch_deg": 75,
+      "hip_x_mm": -5.8142689115271935,
+      "leg_pose": {
+        "name": "coupled_contact",
+        "foot_translation_mm": [
+          -123.93992258463615,
+          0.0,
+          145.84106347528797
+        ],
+        "foot_pitch_deg": 186.45963451512443,
+        "q_deg": [
+          0,
+          0,
+          -13.54036548487555,
+          90,
+          0,
+          35
+        ]
+      },
+      "arm": {
+        "q_deg": [
+          -85.85886170993845,
+          72.69860460660922,
+          136.41310869846876,
+          76.94115937306007,
+          55.17572413916327,
+          80.25399263814117
+        ],
+        "point_mm": [
+          149.99999197484473,
+          124.99999640650181,
+          2.963261001159845e-06
+        ],
+        "position_error_mm": 9.278861030070164e-06,
+        "normal_error_deg": 0.0,
+        "ik_found": true,
+        "contact_type": "palm"
+      },
+      "knee_contact_x_mm": -84.87753471809503,
+      "cuff_height_upper_bound_mm": 84.29447639179834,
+      "wholebody_validated": false
+    },
+    {
+      "body_height_mm": 90,
+      "body_pitch_deg": 85,
+      "hip_x_mm": -16.05893258175402,
+      "leg_pose": {
+        "name": "coupled_contact",
+        "foot_translation_mm": [
+          -146.0034586072711,
+          0.0,
+          135.6787312215736
+        ],
+        "foot_pitch_deg": 174.8759654064836,
+        "q_deg": [
+          0,
+          0,
+          -35.124034593516406,
+          90,
+          0,
+          35
+        ]
+      },
+      "arm": {
+        "q_deg": [
+          -102.24291445588644,
+          9.73790811316703,
+          -151.4112705782586,
+          71.38215288520726
+        ],
+        "point_mm": [
+          150.59282717612697,
+          125.34321735674858,
+          -1.9100533228888563
+        ],
+        "position_error_mm": 2.0291737015364033,
+        "normal_error_deg": 1.111808730480843,
+        "ik_found": false,
+        "contact_type": "cuff"
+      },
+      "knee_contact_x_mm": -84.87753471809503,
+      "cuff_height_upper_bound_mm": 98.02754058018735,
+      "wholebody_validated": false
+    },
+    {
+      "body_height_mm": 90,
+      "body_pitch_deg": 85,
+      "hip_x_mm": -16.05893258175402,
+      "leg_pose": {
+        "name": "coupled_contact",
+        "foot_translation_mm": [
+          -146.0034586072711,
+          0.0,
+          135.6787312215736
+        ],
+        "foot_pitch_deg": 174.8759654064836,
+        "q_deg": [
+          0,
+          0,
+          -35.124034593516406,
+          90,
+          0,
+          35
+        ]
+      },
+      "arm": {
+        "q_deg": [
+          -115.80494020015425,
+          70.10594440304745,
+          115.50199705354522,
+          70.13708749786225,
+          54.509267370909576,
+          84.13880393891034
+        ],
+        "point_mm": [
+          149.99999871988575,
+          124.9999999598375,
+          1.0201387755370828e-06
+        ],
+        "position_error_mm": 1.6373724704455049e-06,
+        "normal_error_deg": 8.537736462515939e-07,
+        "ik_found": true,
+        "contact_type": "palm"
+      },
+      "knee_contact_x_mm": -84.87753471809503,
+      "cuff_height_upper_bound_mm": 98.02754058018735,
+      "wholebody_validated": false
+    },
+    {
+      "body_height_mm": 105,
+      "body_pitch_deg": 95,
+      "hip_x_mm": -32.23724596508761,
+      "leg_pose": {
+        "name": "coupled_contact",
+        "foot_translation_mm": [
+          -169.39053971873915,
+          0.0,
+          117.69253097430224
+        ],
+        "foot_pitch_deg": 160.7953675436876,
+        "q_deg": [
+          0,
+          0,
+          -59.204632456312396,
+          90,
+          0,
+          35
+        ]
+      },
+      "arm": {
+        "q_deg": [
+          -122.6222418818819,
+          12.738937221727046,
+          -157.14960909989355,
+          58.588059078362015
+        ],
+        "point_mm": [
+          148.76466941366655,
+          124.39764357036579,
+          2.360737278526596
+        ],
+        "position_error_mm": 2.731657999105624,
+        "normal_error_deg": 1.2050292786375898,
+        "ik_found": false,
+        "contact_type": "cuff"
+      },
+      "knee_contact_x_mm": -84.87753471809503,
+      "cuff_height_upper_bound_mm": 111.97245941981267,
+      "wholebody_validated": false
+    },
+    {
+      "body_height_mm": 105,
+      "body_pitch_deg": 95,
+      "hip_x_mm": -32.23724596508761,
+      "leg_pose": {
+        "name": "coupled_contact",
+        "foot_translation_mm": [
+          -169.39053971873915,
+          0.0,
+          117.69253097430224
+        ],
+        "foot_pitch_deg": 160.7953675436876,
+        "q_deg": [
+          0,
+          0,
+          -59.204632456312396,
+          90,
+          0,
+          35
+        ]
+      },
+      "arm": {
+        "q_deg": [
+          -133.48572297009727,
+          60.67284091482334,
+          115.09831838291342,
+          57.6711201203197,
+          59.4146708227969,
+          82.26251506760585
+        ],
+        "point_mm": [
+          149.99999999479326,
+          124.99999999807287,
+          3.576281631945122e-09
+        ],
+        "position_error_mm": 6.60406157209873e-09,
+        "normal_error_deg": 0.0,
+        "ik_found": true,
+        "contact_type": "palm"
+      },
+      "knee_contact_x_mm": -84.87753471809503,
+      "cuff_height_upper_bound_mm": 111.97245941981267,
+      "wholebody_validated": false
+    },
+    {
+      "body_height_mm": 118,
+      "body_pitch_deg": 100,
+      "hip_x_mm": -58.34453639525185,
+      "leg_pose": {
+        "name": "coupled_contact",
+        "foot_translation_mm": [
+          -192.35523540120062,
+          0.0,
+          86.16827240085672
+        ],
+        "foot_pitch_deg": 142.14620999889178,
+        "q_deg": [
+          0,
+          0,
+          -82.85379000110822,
+          90,
+          0,
+          35
+        ]
+      },
+      "arm": {
+        "q_deg": [
+          -140.89398343994836,
+          14.113895541262098,
+          -160.0,
+          42.044904525031235
+        ],
+        "point_mm": [
+          136.16489475903632,
+          121.86836963835309,
+          14.009427383601384
+        ],
+        "position_error_mm": 19.93693309832106,
+        "normal_error_deg": 5.938974723787007,
+        "ik_found": false,
+        "contact_type": "cuff"
+      },
+      "knee_contact_x_mm": -84.87753471809503,
+      "cuff_height_upper_bound_mm": 118.89185421335442,
+      "wholebody_validated": false
+    },
+    {
+      "body_height_mm": 118,
+      "body_pitch_deg": 100,
+      "hip_x_mm": -58.34453639525185,
+      "leg_pose": {
+        "name": "coupled_contact",
+        "foot_translation_mm": [
+          -192.35523540120062,
+          0.0,
+          86.16827240085672
+        ],
+        "foot_pitch_deg": 142.14620999889178,
+        "q_deg": [
+          0,
+          0,
+          -82.85379000110822,
+          90,
+          0,
+          35
+        ]
+      },
+      "arm": {
+        "q_deg": [
+          -158.0883426836301,
+          -5.905140481995447,
+          -97.11939666394875,
+          27.70716280697462,
+          -62.51605520525416,
+          73.1516036260506
+        ],
+        "point_mm": [
+          149.999999893715,
+          124.99999995364442,
+          5.844860706538668e-08
+        ],
+        "position_error_mm": 1.2985215851811638e-07,
+        "normal_error_deg": 0.0,
+        "ik_found": true,
+        "contact_type": "palm"
+      },
+      "knee_contact_x_mm": -84.87753471809503,
+      "cuff_height_upper_bound_mm": 118.89185421335442,
+      "wholebody_validated": false
+    },
+    {
+      "body_height_mm": 122,
+      "body_pitch_deg": 100,
+      "hip_x_mm": -84.87753471809503,
+      "leg_pose": {
+        "name": "coupled_contact",
+        "foot_translation_mm": [
+          -203.54785626820973,
+          0.0,
+          52.07517527228661
+        ],
+        "foot_pitch_deg": 125.0,
+        "q_deg": [
+          0,
+          0,
+          -100.0,
+          90,
+          0,
+          35
+        ]
+      },
+      "arm": {
+        "q_deg": [
+          -148.86342850759237,
+          13.345072591834429,
+          -160.0,
+          33.95520257072709
+        ],
+        "point_mm": [
+          118.33208408586385,
+          117.33244558809278,
+          24.425265438173614
+        ],
+        "position_error_mm": 40.72151618898287,
+        "normal_error_deg": 9.019069555668315,
+        "ik_found": false,
+        "contact_type": "cuff"
+      },
+      "knee_contact_x_mm": -84.87753471809503,
+      "cuff_height_upper_bound_mm": 118.89185421335442,
+      "wholebody_validated": false
+    },
+    {
+      "body_height_mm": 122,
+      "body_pitch_deg": 100,
+      "hip_x_mm": -84.87753471809503,
+      "leg_pose": {
+        "name": "coupled_contact",
+        "foot_translation_mm": [
+          -203.54785626820973,
+          0.0,
+          52.07517527228661
+        ],
+        "foot_pitch_deg": 125.0,
+        "q_deg": [
+          0,
+          0,
+          -100.0,
+          90,
+          0,
+          35
+        ]
+      },
+      "arm": {
+        "q_deg": [
+          -140.6948296372647,
+          10.940472347103833,
+          -160.0,
+          32.17861550411488,
+          -3.0116314634415193,
+          16.253236037339875
+        ],
+        "point_mm": [
+          147.57898802038548,
+          129.23841238605564,
+          0.4517115557214693
+        ],
+        "position_error_mm": 4.901987544790301,
+        "normal_error_deg": 4.194199558514387,
+        "ik_found": false,
+        "contact_type": "palm"
+      },
+      "knee_contact_x_mm": -84.87753471809503,
+      "cuff_height_upper_bound_mm": 118.89185421335442,
+      "wholebody_validated": false
+    },
+    {
+      "body_height_mm": 122,
+      "body_pitch_deg": 90,
+      "hip_x_mm": -84.87753471809503,
+      "leg_pose": {
+        "name": "coupled_contact",
+        "foot_translation_mm": [
+          -203.54785626820973,
+          0.0,
+          52.07517527228661
+        ],
+        "foot_pitch_deg": 125.0,
+        "q_deg": [
+          0,
+          0,
+          -90.0,
+          90,
+          0,
+          35
+        ]
+      },
+      "arm": {
+        "q_deg": [
+          -135.55191429907916,
+          12.791258254436134,
+          -160.0,
+          34.85705273088725
+        ],
+        "point_mm": [
+          115.27381982719636,
+          116.21106737982852,
+          32.05666183845034
+        ],
+        "position_error_mm": 48.07059906242788,
+        "normal_error_deg": 10.174609181972249,
+        "ik_found": false,
+        "contact_type": "cuff"
+      },
+      "knee_contact_x_mm": -84.87753471809503,
+      "cuff_height_upper_bound_mm": 105.0,
+      "wholebody_validated": false
+    },
+    {
+      "body_height_mm": 122,
+      "body_pitch_deg": 90,
+      "hip_x_mm": -84.87753471809503,
+      "leg_pose": {
+        "name": "coupled_contact",
+        "foot_translation_mm": [
+          -203.54785626820973,
+          0.0,
+          52.07517527228661
+        ],
+        "foot_pitch_deg": 125.0,
+        "q_deg": [
+          0,
+          0,
+          -90.0,
+          90,
+          0,
+          35
+        ]
+      },
+      "arm": {
+        "q_deg": [
+          -142.80874174452336,
+          14.604830961333585,
+          -160.0,
+          0.0,
+          -3.589530608585824,
+          36.49791523730918
+        ],
+        "point_mm": [
+          148.41042787763723,
+          127.04124841755599,
+          1.1012990909528495
+        ],
+        "position_error_mm": 2.811813351220395,
+        "normal_error_deg": 5.2993017677099346,
+        "ik_found": false,
+        "contact_type": "palm"
+      },
+      "knee_contact_x_mm": -84.87753471809503,
+      "cuff_height_upper_bound_mm": 105.0,
+      "wholebody_validated": false
+    }
+  ],
+  "toe_transfer_probe": [
+    {
+      "s": 0.0,
+      "body_height_mm": 121.99999999999999,
+      "hip_x_mm": -84.87753471809503,
+      "body_pitch_deg": 100.0,
+      "leg_pose": {
+        "name": "toe_transfer",
+        "foot_translation_mm": [
+          -206.0056532701583,
+          0.0,
+          48.00125730712105
+        ],
+        "foot_pitch_deg": 117.20520864279143,
+        "q_deg": [
+          0,
+          0,
+          -100.0,
+          90.0,
+          0,
+          27.205208642791433
+        ]
+      },
+      "shoulder_to_fixed_hand_mm": 196.34757226761835,
+      "absolute_arm_reach_bound_mm": 202.20551034457128,
+      "fixed_hand_reachable_necessary_condition": true,
+      "contact_mode": "palms_and_toes_until_release",
+      "wholebody_validated": false
+    },
+    {
+      "s": 0.041666666666666664,
+      "body_height_mm": 132.05647942906316,
+      "hip_x_mm": -88.61922150832265,
+      "body_pitch_deg": 95.83333333333334,
+      "leg_pose": {
+        "name": "toe_transfer",
+        "foot_translation_mm": [
+          -210.18978056634577,
+          0.0,
+          50.11903006932781
+        ],
+        "foot_pitch_deg": 112.32165828267513,
+        "q_deg": [
+          0,
+          0,
+          -96.25,
+          87.08333333333333,
+          0,
+          25.654991616008456
+        ]
+      },
+      "shoulder_to_fixed_hand_mm": 207.72390511386484,
+      "absolute_arm_reach_bound_mm": 202.20551034457128,
+      "fixed_hand_reachable_necessary_condition": false,
+      "contact_mode": "palms_and_toes_until_release",
+      "wholebody_validated": false
+    },
+    {
+      "s": 0.08333333333333333,
+      "body_height_mm": 141.8231206140232,
+      "hip_x_mm": -93.06506218048108,
+      "body_pitch_deg": 91.66666666666666,
+      "leg_pose": {
+        "name": "toe_transfer",
+        "foot_translation_mm": [
+          -214.53900638762846,
+          0.0,
+          51.87291645633644
+        ],
+        "foot_pitch_deg": 107.43810792255881,
+        "q_deg": [
+          0,
+          0,
+          -92.5,
+          84.16666666666667,
+          0,
+          24.10477458922548
+        ]
+      },
+      "shoulder_to_fixed_hand_mm": 220.36443210614394,
+      "absolute_arm_reach_bound_mm": 202.20551034457128,
+      "fixed_hand_reachable_necessary_condition": false,
+      "contact_mode": "palms_and_toes_until_release",
+      "wholebody_validated": false
+    },
+    {
+      "s": 0.125,
+      "body_height_mm": 151.2491805262588,
+      "hip_x_mm": -98.18926390142332,
+      "body_pitch_deg": 87.5,
+      "leg_pose": {
+        "name": "toe_transfer",
+        "foot_translation_mm": [
+          -219.02175342660757,
+          0.0,
+          53.25018247550993
+        ],
+        "foot_pitch_deg": 102.55455756244251,
+        "q_deg": [
+          0,
+          0,
+          -88.75,
+          81.25,
+          0,
+          22.554557562442504
+        ]
+      },
+      "shoulder_to_fixed_hand_mm": 234.00282465435566,
+      "absolute_arm_reach_bound_mm": 202.20551034457128,
+      "fixed_hand_reachable_necessary_condition": false,
+      "contact_mode": "palms_and_toes_until_release",
+      "wholebody_validated": false
+    },
+    {
+      "s": 0.16666666666666666,
+      "body_height_mm": 160.2862175477309,
+      "hip_x_mm": -103.96228074991366,
+      "body_pitch_deg": 83.33333333333334,
+      "leg_pose": {
+        "name": "toe_transfer",
+        "foot_translation_mm": [
+          -223.60547495265635,
+          0.0,
+          54.24082856503099
+        ],
+        "foot_pitch_deg": 97.6710072023262,
+        "q_deg": [
+          0,
+          0,
+          -85.0,
+          78.33333333333333,
+          0,
+          21.004340535659527
+        ]
+      },
+      "shoulder_to_fixed_hand_mm": 248.40811993182095,
+      "absolute_arm_reach_bound_mm": 202.20551034457128,
+      "fixed_hand_reachable_necessary_condition": false,
+      "contact_mode": "palms_and_toes_until_release",
+      "wholebody_validated": false
+    },
+    {
+      "s": 0.20833333333333331,
+      "body_height_mm": 168.88837523365174,
+      "hip_x_mm": -110.35101803054509,
+      "body_pitch_deg": 79.16666666666667,
+      "leg_pose": {
+        "name": "toe_transfer",
+        "foot_translation_mm": [
+          -228.25689111561155,
+          0.0,
+          54.8376621951535
+        ],
+        "foot_pitch_deg": 92.78745684220989,
+        "q_deg": [
+          0,
+          0,
+          -81.25,
+          75.41666666666667,
+          0,
+          19.454123508876556
+        ]
+      },
+      "shoulder_to_fixed_hand_mm": 263.38384886497323,
+      "absolute_arm_reach_bound_mm": 202.20551034457128,
+      "fixed_hand_reachable_necessary_condition": false,
+      "contact_mode": "palms_and_toes_until_release",
+      "wholebody_validated": false
+    },
+    {
+      "s": 0.25,
+      "body_height_mm": 177.01264800114672,
+      "hip_x_mm": -117.31905841929829,
+      "body_pitch_deg": 75.0,
+      "leg_pose": {
+        "name": "toe_transfer",
+        "foot_translation_mm": [
+          -232.94223057223823,
+          0.0,
+          55.0363500891568
+        ],
+        "foot_pitch_deg": 87.90390648209357,
+        "q_deg": [
+          0,
+          0,
+          -77.5,
+          72.5,
+          0,
+          17.903906482093575
+        ]
+      },
+      "shoulder_to_fixed_hand_mm": 278.76437091026884,
+      "absolute_arm_reach_bound_mm": 202.20551034457128,
+      "fixed_hand_reachable_necessary_condition": false,
+      "contact_mode": "palms_and_toes_until_release",
+      "wholebody_validated": false
+    },
+    {
+      "s": 0.29166666666666663,
+      "body_height_mm": 184.61912704246387,
+      "hip_x_mm": -124.8269083458276,
+      "body_pitch_deg": 70.83333333333334,
+      "leg_pose": {
+        "name": "toe_transfer",
+        "foot_translation_mm": [
+          -237.6274756811517,
+          0.0,
+          54.83544968485554
+        ],
+        "foot_pitch_deg": 83.02035612197727,
+        "q_deg": [
+          0,
+          0,
+          -73.75,
+          69.58333333333333,
+          0,
+          16.3536894553106
+        ]
+      },
+      "shoulder_to_fixed_hand_mm": 294.41029246143773,
+      "absolute_arm_reach_bound_mm": 202.20551034457128,
+      "fixed_hand_reachable_necessary_condition": false,
+      "contact_mode": "palms_and_toes_until_release",
+      "wholebody_validated": false
+    },
+    {
+      "s": 0.3333333333333333,
+      "body_height_mm": 191.6712249017472,
+      "hip_x_mm": -132.8322628837853,
+      "body_pitch_deg": 66.66666666666667,
+      "leg_pose": {
+        "name": "toe_transfer",
+        "foot_translation_mm": [
+          -242.27860948597356,
+          0.0,
+          54.2364196082406
+        ],
+        "foot_pitch_deg": 78.13680576186097,
+        "q_deg": [
+          0,
+          0,
+          -70.0,
+          66.66666666666667,
+          0,
+          14.803472428527627
+        ]
+      },
+      "shoulder_to_fixed_hand_mm": 310.20396534818246,
+      "absolute_arm_reach_bound_mm": 202.20551034457128,
+      "fixed_hand_reachable_necessary_condition": false,
+      "contact_mode": "palms_and_toes_until_release",
+      "wholebody_validated": false
+    },
+    {
+      "s": 0.375,
+      "body_height_mm": 198.13587730542372,
+      "hip_x_mm": -141.29028729906767,
+      "body_pitch_deg": 62.5,
+      "leg_pose": {
+        "name": "toe_transfer",
+        "foot_translation_mm": [
+          -246.8618626935141,
+          0.0,
+          53.24360908320782
+        ],
+        "foot_pitch_deg": 73.25325540174464,
+        "q_deg": [
+          0,
+          0,
+          -66.25,
+          63.75,
+          0,
+          13.253255401744646
+        ]
+      },
+      "shoulder_to_fixed_hand_mm": 326.0455022437911,
+      "absolute_arm_reach_bound_mm": 202.20551034457128,
+      "fixed_hand_reachable_necessary_condition": false,
+      "contact_mode": "palms_and_toes_until_release",
+      "wholebody_validated": false
+    },
+    {
+      "s": 0.41666666666666663,
+      "body_height_mm": 203.98372099678204,
+      "hip_x_mm": -150.15391329762477,
+      "body_pitch_deg": 58.333333333333336,
+      "leg_pose": {
+        "name": "toe_transfer",
+        "foot_translation_mm": [
+          -251.34395885381,
+          0.0,
+          51.8642263542646
+        ],
+        "foot_pitch_deg": 68.36970504162834,
+        "q_deg": [
+          0,
+          0,
+          -62.5,
+          60.83333333333333,
+          0,
+          11.703038374961672
+        ]
+      },
+      "shoulder_to_fixed_hand_mm": 341.84943808883133,
+      "absolute_arm_reach_bound_mm": 202.20551034457128,
+      "fixed_hand_reachable_necessary_condition": false,
+      "contact_mode": "palms_and_toes_until_release",
+      "wholebody_validated": false
+    },
+    {
+      "s": 0.4583333333333333,
+      "body_height_mm": 209.1892464941844,
+      "hip_x_mm": -159.374147920162,
+      "body_pitch_deg": 54.16666666666667,
+      "leg_pose": {
+        "name": "toe_transfer",
+        "foot_translation_mm": [
+          -255.69235596190222,
+          0.0,
+          50.10828635147944
+        ],
+        "foot_pitch_deg": 63.48615468151203,
+        "q_deg": [
+          0,
+          0,
+          -58.75,
+          57.91666666666667,
+          0,
+          10.152821348178694
+        ]
+      },
+      "shoulder_to_fixed_hand_mm": 357.54201829086776,
+      "absolute_arm_reach_bound_mm": 202.20551034457128,
+      "fixed_hand_reachable_necessary_condition": false,
+      "contact_mode": "palms_and_toes_until_release",
+      "wholebody_validated": false
+    },
+    {
+      "s": 0.5,
+      "body_height_mm": 213.7309248683548,
+      "hip_x_mm": -168.90039295131768,
+      "body_pitch_deg": 50.0,
+      "leg_pose": {
+        "name": "toe_transfer",
+        "foot_translation_mm": [
+          -259.8754827272172,
+          0.0,
+          47.98853797765026
+        ],
+        "foot_pitch_deg": 58.60260432139572,
+        "q_deg": [
+          0,
+          0,
+          -55.0,
+          55.0,
+          0,
+          8.602604321395717
+        ]
+      },
+      "shoulder_to_fixed_hand_mm": 373.0590348603453,
+      "absolute_arm_reach_bound_mm": 202.20551034457128,
+      "fixed_hand_reachable_necessary_condition": false,
+      "contact_mode": "palms_and_toes_until_release",
+      "wholebody_validated": false
+    },
+    {
+      "s": 0.5416666666666666,
+      "body_height_mm": 217.59130781605887,
+      "hip_x_mm": -178.68077264626874,
+      "body_pitch_deg": 45.833333333333336,
+      "leg_pose": {
+        "name": "toe_transfer",
+        "foot_translation_mm": [
+          -263.86296779513134,
+          0.0,
+          45.52037154561863
+        ],
+        "foot_pitch_deg": 53.719053961279414,
+        "q_deg": [
+          0,
+          0,
+          -51.24999999999999,
+          52.08333333333333,
+          0,
+          7.052387294612743
+        ]
+      },
+      "shoulder_to_fixed_hand_mm": 388.3441166911324,
+      "absolute_arm_reach_bound_mm": 202.20551034457128,
+      "fixed_hand_reachable_necessary_condition": false,
+      "contact_mode": "palms_and_toes_until_release",
+      "wholebody_validated": false
+    },
+    {
+      "s": 0.5833333333333333,
+      "body_height_mm": 220.7571004939449,
+      "hip_x_mm": -188.66246752862097,
+      "body_pitch_deg": 41.66666666666667,
+      "leg_pose": {
+        "name": "toe_transfer",
+        "foot_translation_mm": [
+          -267.62586025646885,
+          0.0,
+          42.72170703777641
+        ],
+        "foot_pitch_deg": 48.835503601163104,
+        "q_deg": [
+          0,
+          0,
+          -47.50000000000001,
+          49.16666666666667,
+          0,
+          5.502170267829767
+        ]
+      },
+      "shoulder_to_fixed_hand_mm": 403.3473852729883,
+      "absolute_arm_reach_bound_mm": 202.20551034457128,
+      "fixed_hand_reachable_necessary_condition": false,
+      "contact_mode": "palms_and_toes_until_release",
+      "wholebody_validated": false
+    },
+    {
+      "s": 0.625,
+      "body_height_mm": 223.21920676601502,
+      "hip_x_mm": -198.7920519802011,
+      "body_pitch_deg": 37.5,
+      "leg_pose": {
+        "name": "toe_transfer",
+        "foot_translation_mm": [
+          -271.1368398439355,
+          0.0,
+          39.61286399904983
+        ],
+        "foot_pitch_deg": 43.95195324104679,
+        "q_deg": [
+          0,
+          0,
+          -43.75,
+          46.25,
+          0,
+          3.9519532410467875
+        ]
+      },
+      "shoulder_to_fixed_hand_mm": 418.02439957991515,
+      "absolute_arm_reach_bound_mm": 202.20551034457128,
+      "fixed_hand_reachable_necessary_condition": false,
+      "contact_mode": "palms_and_toes_until_release",
+      "wholebody_validated": false
+    },
+    {
+      "s": 0.6666666666666666,
+      "body_height_mm": 224.972746709798,
+      "hip_x_mm": -209.01583332619518,
+      "body_pitch_deg": 33.333333333333336,
+      "leg_pose": {
+        "name": "toe_transfer",
+        "foot_translation_mm": [
+          -274.3704152893701,
+          0.0,
+          36.21641400799615
+        ],
+        "foot_pitch_deg": 39.068402880930485,
+        "q_deg": [
+          0,
+          0,
+          -40.0,
+          43.333333333333336,
+          0,
+          2.4017362142638135
+        ]
+      },
+      "shoulder_to_fixed_hand_mm": 432.335327721507,
+      "absolute_arm_reach_bound_mm": 202.20551034457128,
+      "fixed_hand_reachable_necessary_condition": false,
+      "contact_mode": "palms_and_toes_until_release",
+      "wholebody_validated": false
+    },
+    {
+      "s": 0.7083333333333333,
+      "body_height_mm": 226.01704641843173,
+      "hip_x_mm": -219.28019011804824,
+      "body_pitch_deg": 29.166666666666675,
+      "leg_pose": {
+        "name": "toe_transfer",
+        "foot_translation_mm": [
+          -277.303109401651,
+          0.0,
+          32.55701679713764
+        ],
+        "foot_pitch_deg": 34.184852520814175,
+        "q_deg": [
+          0,
+          0,
+          -36.250000000000014,
+          40.41666666666667,
+          0,
+          0.8515191874808377
+        ]
+      },
+      "shoulder_to_fixed_hand_mm": 446.24429564398815,
+      "absolute_arm_reach_bound_mm": 202.20551034457128,
+      "fixed_hand_reachable_necessary_condition": false,
+      "contact_mode": "palms_and_toes_until_release",
+      "wholebody_validated": false
+    },
+    {
+      "s": 0.75,
+      "body_height_mm": 226.35560032717643,
+      "hip_x_mm": -229.53190733164436,
+      "body_pitch_deg": 25.0,
+      "leg_pose": {
+        "name": "toe_transfer",
+        "foot_translation_mm": [
+          -279.91362952151076,
+          0.0,
+          28.661241212372317
+        ],
+        "foot_pitch_deg": 29.30130216069786,
+        "q_deg": [
+          0,
+          0,
+          -32.5,
+          37.5,
+          0,
+          -0.6986978393021417
+        ]
+      },
+      "shoulder_to_fixed_hand_mm": 459.7188738833238,
+      "absolute_arm_reach_bound_mm": 202.20551034457128,
+      "fixed_hand_reachable_necessary_condition": false,
+      "contact_mode": "palms_and_toes_until_release",
+      "wholebody_validated": false
+    },
+    {
+      "s": 0.7916666666666666,
+      "body_height_mm": 225.99600648200894,
+      "hip_x_mm": -239.71850622936967,
+      "body_pitch_deg": 20.833333333333336,
+      "leg_pose": {
+        "name": "toe_transfer",
+        "foot_translation_mm": [
+          -282.18302211568096,
+          0.0,
+          24.55737231137517
+        ],
+        "foot_pitch_deg": 24.417751800581552,
+        "q_deg": [
+          0,
+          0,
+          -28.750000000000004,
+          34.583333333333336,
+          0,
+          -2.2489148660851166
+        ]
+      },
+      "shoulder_to_fixed_hand_mm": 472.72967202818467,
+      "absolute_arm_reach_bound_mm": 202.20551034457128,
+      "fixed_hand_reachable_necessary_condition": false,
+      "contact_mode": "palms_and_toes_until_release",
+      "wholebody_validated": false
+    },
+    {
+      "s": 0.8333333333333333,
+      "body_height_mm": 224.94987535355938,
+      "hip_x_mm": -249.78856668147512,
+      "body_pitch_deg": 16.666666666666675,
+      "leg_pose": {
+        "name": "toe_transfer",
+        "foot_translation_mm": [
+          -284.09481038794564,
+          0.0,
+          20.27520600154118
+        ],
+        "foot_pitch_deg": 19.534201440465246,
+        "q_deg": [
+          0,
+          0,
+          -25.00000000000001,
+          31.66666666666667,
+          0,
+          -3.7991318928680915
+        ]
+      },
+      "shoulder_to_fixed_hand_mm": 485.2500173729447,
+      "absolute_arm_reach_bound_mm": 202.20551034457128,
+      "fixed_hand_reachable_necessary_condition": false,
+      "contact_mode": "palms_and_toes_until_release",
+      "wholebody_validated": false
+    },
+    {
+      "s": 0.875,
+      "body_height_mm": 223.2327129804297,
+      "hip_x_mm": -259.69203980433315,
+      "body_pitch_deg": 12.5,
+      "leg_pose": {
+        "name": "toe_transfer",
+        "foot_translation_mm": [
+          -285.63511390798567,
+          0.0,
+          15.845832708489619
+        ],
+        "foot_pitch_deg": 14.65065108034893,
+        "q_deg": [
+          0,
+          0,
+          -21.25,
+          28.75,
+          0,
+          -5.349348919651071
+        ]
+      },
+      "shoulder_to_fixed_hand_mm": 497.2556995446618,
+      "absolute_arm_reach_bound_mm": 202.20551034457128,
+      "fixed_hand_reachable_necessary_condition": false,
+      "contact_mode": "palms_and_toes_until_release",
+      "wholebody_validated": false
+    },
+    {
+      "s": 0.9166666666666666,
+      "body_height_mm": 220.86377940060828,
+      "hip_x_mm": -269.3805488502436,
+      "body_pitch_deg": 8.333333333333337,
+      "leg_pose": {
+        "name": "toe_transfer",
+        "foot_translation_mm": [
+          -286.7927493894558,
+          0.0,
+          11.301411645792244
+        ],
+        "foot_pitch_deg": 9.767100720232623,
+        "q_deg": [
+          0,
+          0,
+          -17.500000000000007,
+          25.833333333333336,
+          0,
+          -6.899565946434046
+        ]
+      },
+      "shoulder_to_fixed_hand_mm": 508.7247669807688,
+      "absolute_arm_reach_bound_mm": 202.20551034457128,
+      "fixed_hand_reachable_necessary_condition": false,
+      "contact_mode": "palms_and_toes_until_release",
+      "wholebody_validated": false
+    },
+    {
+      "s": 0.9583333333333333,
+      "body_height_mm": 217.86592349703417,
+      "hip_x_mm": -278.80767637481046,
+      "body_pitch_deg": 4.166666666666674,
+      "leg_pose": {
+        "name": "toe_transfer",
+        "foot_translation_mm": [
+          -287.5593118856009,
+          0.0,
+          6.674937324827093
+        ],
+        "foot_pitch_deg": 4.883550360116319,
+        "q_deg": [
+          0,
+          0,
+          -13.750000000000007,
+          22.91666666666667,
+          0,
+          -8.44978297321702
+        ]
+      },
+      "shoulder_to_fixed_hand_mm": 519.6373642820272,
+      "absolute_arm_reach_bound_mm": 202.20551034457128,
+      "fixed_hand_reachable_necessary_condition": false,
+      "contact_mode": "palms_and_toes_until_release",
+      "wholebody_validated": false
+    },
+    {
+      "s": 1.0,
+      "body_height_mm": 214.26539554219744,
+      "hip_x_mm": -287.929235812895,
+      "body_pitch_deg": 0.0,
+      "leg_pose": {
+        "name": "toe_transfer",
+        "foot_translation_mm": [
+          -287.929235812895,
+          0.0,
+          2.0
+        ],
+        "foot_pitch_deg": 0.0,
+        "q_deg": [
+          0,
+          0,
+          -10.0,
+          20.0,
+          0,
+          -10.0
+        ]
+      },
+      "shoulder_to_fixed_hand_mm": 529.9756018849095,
+      "absolute_arm_reach_bound_mm": 202.20551034457128,
+      "fixed_hand_reachable_necessary_condition": false,
+      "contact_mode": "palms_and_toes_until_release",
+      "wholebody_validated": false
+    }
+  ],
+  "toe_start_pitch_deg": 117.20520864279143,
+  "toe_anchor_mm": [
+    -232.929235812895,
+    0.0,
+    0.0
+  ],
+  "first_fixed_hand_reach_failure": {
+    "s": 0.041666666666666664,
+    "body_height_mm": 132.05647942906316,
+    "hip_x_mm": -88.61922150832265,
+    "body_pitch_deg": 95.83333333333334,
+    "leg_pose": {
+      "name": "toe_transfer",
+      "foot_translation_mm": [
+        -210.18978056634577,
+        0.0,
+        50.11903006932781
+      ],
+      "foot_pitch_deg": 112.32165828267513,
+      "q_deg": [
+        0,
+        0,
+        -96.25,
+        87.08333333333333,
+        0,
+        25.654991616008456
+      ]
+    },
+    "shoulder_to_fixed_hand_mm": 207.72390511386484,
+    "absolute_arm_reach_bound_mm": 202.20551034457128,
+    "fixed_hand_reachable_necessary_condition": false,
+    "contact_mode": "palms_and_toes_until_release",
+    "wholebody_validated": false
+  },
+  "route_status": "not_executable",
+  "next_required_mode": "Replant hands or use asymmetric single-foot placement; fixed-cuff-only rise and this fixed-hand symmetric route are not validated",
+  "limits": [
+    "IK search failure is not a global proof",
+    "Reach-bound failure is conclusive for the specified fixed hand and arm lengths",
+    "No dynamics/contact/friction or collision feasibility implied by interpolation"
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "input_sha256": "15a849cb54b63d5ebf07f732483495c5c70408992d4df54bd4e94e5213a1f1f2",
+  "selected_input_sha256": "96ed47e6cec413326ccfc433b58319d9010f73fc0e519f5e84fd07db61a23d35",
+  "scenes": [
+    {
+      "name": "alternating_handoff_midpoint",
+      "bounds": {
+        "min_mm": [
+          -159.46360907738142,
+          -183.3668913651921,
+          -8.223753365507201e-06
+        ],
+        "max_mm": [
+          220.16045322061646,
+          244.22446945240154,
+          185.8866091706219
+        ],
+        "size_mm": [
+          379.62406229799785,
+          427.5913608175936,
+          185.88661739437526
+        ]
+      },
+      "known_or_allocated_mass_kg": 4.072501811775056,
+      "approx_COM_mm": [
+        -0.14798902657619672,
+        2.593339375473416,
+        86.2960430267584
+      ],
+      "motor_count": 28,
+      "component_minimum_z_mm": {
+        "L_FixedFrame": 27.572675097334326,
+        "L_FixedBearings": 35.727873162049775,
+        "L_RollMotorVendor": 36.617730222455485,
+        "L_RollCarrier": 67.78765921716683,
+        "L_PitchMotorEnvelope": 90.37753471809503,
+        "L_FootStructure": 100.15254588615288,
+        "L_SolePad": 137.1662984174478,
+        "L_RollRod": 33.90134862000315,
+        "L_RollCrankTop": 34.62104193638339,
+        "L_RollCrankBottom": 61.027386070901855,
+        "L_RollPin0": 36.06548896308492,
+        "L_RollPin1": 62.471833097603394,
+        "L_RollOutputShaft": 62.91355350908175,
+        "L_RollInputExtension": 36.507209374563274,
+        "L_RollIdleExtension": 58.123310835675454,
+        "L_KneeMotor": 5.499999999999993,
+        "L_HipPitchMotor": 35.42998663846298,
+        "L_HipRollMotor": 82.59344390658288,
+        "L_HipYawMotor": 77.78912463453426,
+        "L_ShinKneeRailm1": 40.14507727683318,
+        "L_ThighRailm1": 18.796827932740754,
+        "L_ShinKneeRail1": 16.866198780250897,
+        "L_ThighRail1": 3.999999999999993,
+        "L_CableServiceSpace": 44.30455006247918,
+        "R_FixedFrame": 27.572675097334326,
+        "R_FixedBearings": 35.727873162049775,
+        "R_RollMotorVendor": 36.617730222455485,
+        "R_RollCarrier": 67.78765921716683,
+        "R_PitchMotorEnvelope": 90.37753471809503,
+        "R_FootStructure": 100.15254588615288,
+        "R_SolePad": 137.1662984174478,
+        "R_RollRod": 33.90134862000315,
+        "R_RollCrankTop": 34.62104193638339,
+        "R_RollCrankBottom": 61.027386070901855,
+        "R_RollPin0": 36.06548896308492,
+        "R_RollPin1": 62.471833097603394,
+        "R_RollOutputShaft": 62.91355350908175,
+        "R_RollInputExtension": 36.507209374563274,
+        "R_RollIdleExtension": 58.123310835675454,
+        "R_KneeMotor": 5.499999999999993,
+        "R_HipPitchMotor": 35.42998663846298,
+        "R_HipRollMotor": 82.59344390658288,
+        "R_HipYawMotor": 77.78912463453426,
+        "R_ShinKneeRailm1": 40.14507727683318,
+        "R_ThighRailm1": 18.796827932740754,
+        "R_ShinKneeRail1": 16.866198780250897,
+        "R_ThighRail1": 3.999999999999993,
+        "R_CableServiceSpace": 44.30455006247918,
+        "PelvisPlate": 63.279351543852044,
+        "battery": 53.28897048708545,
+        "microphone": 136.73253626931375,
+        "computer": 135.65112980876273,
+        "power": 56.27935154385206,
+        "camera": 90.70403399654658,
+        "NeckMotor0": 107.76973260061862,
+        "NeckMotor1": 124.26973260061865,
+        "WukongHeadShell": 93.18046710637542,
+        "CrownOccupancy": 134.77454207223542,
+        "L_KneePad": -7.105427357601002e-15,
+        "R_KneePad": -7.105427357601002e-15,
+        "L_ShoulderMotor0": 65.27759115506149,
+        "L_ShoulderMotor1": 112.42702424668325,
+        "L_ShoulderMotor2": 116.1776864612346,
+        "L_UpperArm": 54.027282772857276,
+        "L_ElbowMotor": 65.46886636723211,
+        "L_ForearmLoadFrame": 8.746713823343136,
+        "L_GauntletPrimaryPad": 3.0301206563178926,
+        "L_WristMotorEnvelope0": 33.164330536190235,
+        "L_WristMotorEnvelope1": 24.163891735557197,
+        "L_HandAndPalm": 6.66369299076627,
+        "L_GripperMotor": 25.659405312414272,
+        "R_ShoulderMotor0": 65.27759115506147,
+        "R_ShoulderMotor1": 77.90340831216524,
+        "R_ShoulderMotor2": 138.73639644111884,
+        "R_UpperArm": 31.734169202699018,
+        "R_ElbowMotor": 10.820711247576025,
+        "R_ForearmLoadFrame": 1.5139393414058642,
+        "R_GauntletPrimaryPad": -8.223753365507201e-06,
+        "R_WristMotorEnvelope0": 31.999992818428325,
+        "R_WristMotorEnvelope1": 36.99999168767119,
+        "R_HandAndPalm": 0.4999895111211845,
+        "R_GripperMotor": 10.999989288564459
+      },
+      "arm_nodes": [],
+      "manufacturable": false,
+      "task_verified": false,
+      "collisions": [
+        {
+          "a": "microphone",
+          "b": "L_ShoulderMotor2",
+          "volume_mm3": 0.03182554190613866,
+          "group_a": "electronics",
+          "group_b": "L_arm"
+        }
+      ],
+      "knee_contact_points_mm": [
+        [
+          -84.877534718095,
+          132,
+          -7.105427357601002e-15
+        ],
+        [
+          -84.877534718095,
+          -132,
+          -7.105427357601002e-15
+        ]
+      ],
+      "cuff_contact_points_mm": [
+        [
+          136.54832280892185,
+          180.43572905937194,
+          21.72449644312992
+        ],
+        [
+          149.99999698717863,
+          -130.99999999993412,
+          -7.297579394595762e-06
+        ]
+      ],
+      "palm_contact_points_mm": [
+        [
+          99.33428096582145,
+          226.66182369278508,
+          30.457849667841295
+        ],
+        [
+          184.00461859246633,
+          -152.06384844070473,
+          0.4999910478642214
+        ]
+      ],
+      "phase": {
+        "name": "alternating_handoff_midpoint",
+        "pose": {
+          "name": "coupled_contact",
+          "foot_translation_mm": [
+            -105.40942085400265,
+            0.0,
+            150.59215627824113
+          ],
+          "foot_pitch_deg": 195.5760481060081,
+          "q_deg": [
+            0,
+            0,
+            10.576048106008088,
+            90,
+            0,
+            35
+          ]
+        },
+        "q": [
+          -109.95600559198041,
+          22.246790584013564,
+          -71.12180999752306,
+          65.45094391363105,
+          2.7559045962879134,
+          60.022453868885634
+        ],
+        "right_q": [
+          -73.63391419482623,
+          8.307223746389942,
+          -149.2190269518711,
+          74.075667060728,
+          0,
+          0
+        ],
+        "support": "right_cuff_and_knees"
+      },
+      "missing_interfaces": [
+        "shoulder gimbal and supporting shafts",
+        "elbow clevis and axle across reserved 9mm end space",
+        "actual rubber bonding/fasteners and knee carrier strength"
+      ],
+      "ground_penetrations": []
+    }
+  ],
+  "scope": "Exact saved-shape checks in three configurations; motor placement does not yet constitute released bearing/shaft interfaces"
+}

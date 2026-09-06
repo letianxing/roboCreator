@@ -1,0 +1,1502 @@
+{
+  "input_sha256": "9c0f3193cdf2b9c2d6d27853f94fa15d3ff1d9dcdb7b8678acffd59f3b73ed6c",
+  "toe_steps": [
+    {
+      "sample": 0,
+      "fraction": 0.0,
+      "q_deg": [
+        -73.63391419482623,
+        8.307223746389942,
+        -149.2190269518711,
+        74.075667060728,
+        0,
+        -0.0
+      ],
+      "front_edge_predicted_height_mm": 0.5,
+      "CAD_minimum_moving_z_mm": 0.4999895111211844,
+      "toe_center_mm": [
+        206.10762262008907,
+        165.75534992720682,
+        0.49998997240262
+      ],
+      "collisions": [],
+      "retained_cuff_knee_support": {
+        "nonnegative_vertical_balance_exists": true,
+        "forces_N": [
+          12.61234875625069,
+          12.612318401568789,
+          7.363302870208005,
+          7.363272745485816
+        ],
+        "force_residual_N": 0.0,
+        "moment_residual_Nm": [
+          -1.3739009929736312e-15,
+          -7.42483670574702e-16
+        ]
+      },
+      "mass_kg": 4.072501811775056,
+      "COM_mm": [
+        1.7015424508993617,
+        0.00019907156990217612,
+        84.13214590201878
+      ],
+      "sampled_geometry_pass": true
+    },
+    {
+      "sample": 1,
+      "fraction": 0.1,
+      "q_deg": [
+        -73.63391419482623,
+        8.307223746389942,
+        -149.2190269518711,
+        74.075667060728,
+        0,
+        -0.05316431754003936
+      ],
+      "front_edge_predicted_height_mm": 0.44990436542170187,
+      "CAD_minimum_moving_z_mm": 0.4498938774841883,
+      "toe_center_mm": [
+        206.08827687261785,
+        165.74336638431146,
+        0.44989433876562046
+      ],
+      "collisions": [],
+      "retained_cuff_knee_support": {
+        "nonnegative_vertical_balance_exists": true,
+        "forces_N": [
+          12.612352755713758,
+          12.61233238932852,
+          7.363288920282735,
+          7.363268708188296
+        ],
+        "force_residual_N": 7.105427357601002e-15,
+        "moment_residual_Nm": [
+          -1.5126788710517758e-15,
+          -4.182487757281757e-16
+        ]
+      },
+      "mass_kg": 4.072501811775056,
+      "COM_mm": [
+        1.7014367021366552,
+        0.00013356648886808653,
+        84.13173783158628
+      ],
+      "sampled_geometry_pass": true
+    },
+    {
+      "sample": 2,
+      "fraction": 0.2,
+      "q_deg": [
+        -73.63391419482623,
+        8.307223746389942,
+        -149.2190269518711,
+        74.075667060728,
+        0,
+        -0.10632863508007873
+      ],
+      "front_edge_predicted_height_mm": 0.3998298680882826,
+      "CAD_minimum_moving_z_mm": 0.39981938109399145,
+      "toe_center_mm": [
+        206.06889161725667,
+        165.73135836861832,
+        0.3998198423754289
+      ],
+      "collisions": [],
+      "retained_cuff_knee_support": {
+        "nonnegative_vertical_balance_exists": true,
+        "forces_N": [
+          12.612356767349198,
+          12.612346419660058,
+          7.363274927900804,
+          7.3632646586032475
+        ],
+        "force_residual_N": 7.105427357601002e-15,
+        "moment_residual_Nm": [
+          -4.718447854656915e-16,
+          -9.770910446569355e-16
+        ]
+      },
+      "mass_kg": 4.072501811775056,
+      "COM_mm": [
+        1.7013306315271417,
+        6.786204280284647e-05,
+        84.1313298767531
+      ],
+      "sampled_geometry_pass": true
+    },
+    {
+      "sample": 3,
+      "fraction": 0.30000000000000004,
+      "q_deg": [
+        -73.63391419482623,
+        8.307223746389942,
+        -149.2190269518711,
+        74.075667060728,
+        0,
+        -0.15949295262011812
+      ],
+      "front_edge_predicted_height_mm": 0.3497765511130986,
+      "CAD_minimum_moving_z_mm": 0.34976606506395413,
+      "toe_center_mm": [
+        206.0494668706959,
+        165.71932589046608,
+        0.34976652634539107
+      ],
+      "collisions": [],
+      "retained_cuff_knee_support": {
+        "nonnegative_vertical_balance_exists": true,
+        "forces_N": [
+          12.61236079115357,
+          12.612360492551325,
+          7.363260893074259,
+          7.363260596734155
+        ],
+        "force_residual_N": 1.4210854715202004e-14,
+        "moment_residual_Nm": [
+          -8.049116928532385e-16,
+          -1.938150349660748e-16
+        ]
+      },
+      "mass_kg": 4.072501811775056,
+      "COM_mm": [
+        1.7012242391621455,
+        1.958288274539477e-06,
+        84.1309220378705
+      ],
+      "sampled_geometry_pass": true
+    },
+    {
+      "sample": 4,
+      "fraction": 0.4,
+      "q_deg": [
+        -73.63391419482623,
+        8.307223746389942,
+        -149.2190269518711,
+        74.075667060728,
+        0,
+        -0.21265727016015745
+      ],
+      "front_edge_predicted_height_mm": 0.2997444575912631,
+      "CAD_minimum_moving_z_mm": 0.29973397248918565,
+      "toe_center_mm": [
+        206.03000264966,
+        165.70726896021452,
+        0.2997344337706167
+      ],
+      "collisions": [],
+      "retained_cuff_knee_support": {
+        "nonnegative_vertical_balance_exists": true,
+        "forces_N": [
+          12.6123648271234,
+          12.612374607990207,
+          7.363246815815188,
+          7.363256522584519
+        ],
+        "force_residual_N": 1.4210854715202004e-14,
+        "moment_residual_Nm": [
+          -4.3021142204224816e-16,
+          -7.195443242971611e-16
+        ]
+      },
+      "mass_kg": 4.072501811775056,
+      "COM_mm": [
+        1.7011175251332697,
+        -6.41447179711152e-05,
+        84.13051431528963
+      ],
+      "sampled_geometry_pass": true
+    },
+    {
+      "sample": 5,
+      "fraction": 0.5,
+      "q_deg": [
+        -73.63391419482623,
+        8.307223746389942,
+        -149.2190269518711,
+        74.075667060728,
+        0,
+        -0.2658215877001968
+      ],
+      "front_edge_predicted_height_mm": 0.2497336305996214,
+      "CAD_minimum_moving_z_mm": 0.2497231464465297,
+      "toe_center_mm": [
+        206.01049897090726,
+        165.6951875882445,
+        0.2497236077279652
+      ],
+      "collisions": [],
+      "retained_cuff_knee_support": {
+        "nonnegative_vertical_balance_exists": true,
+        "forces_N": [
+          12.612368875255214,
+          12.612388765964544,
+          7.363232696135703,
+          7.363252436157841
+        ],
+        "force_residual_N": 7.105427357601002e-15,
+        "moment_residual_Nm": [
+          -9.298117831235686e-16,
+          -6.321982867762976e-16
+        ]
+      },
+      "mass_kg": 4.072501811775056,
+      "COM_mm": [
+        1.701010489532393,
+        -0.00013044691902497352,
+        84.13010670936153
+      ],
+      "sampled_geometry_pass": true
+    },
+    {
+      "sample": 6,
+      "fraction": 0.6000000000000001,
+      "q_deg": [
+        -73.63391419482623,
+        8.307223746389942,
+        -149.2190269518711,
+        74.075667060728,
+        0,
+        -0.31898590524023623
+      ],
+      "front_edge_predicted_height_mm": 0.19974411319670082,
+      "CAD_minimum_moving_z_mm": 0.19973362999451588,
+      "toe_center_mm": [
+        205.99095585123013,
+        165.6830817849578,
+        0.19973409127594977
+      ],
+      "collisions": [],
+      "retained_cuff_knee_support": {
+        "nonnegative_vertical_balance_exists": true,
+        "forces_N": [
+          12.61237293554553,
+          12.612402966462152,
+          7.3632185340479674,
+          7.3632483374576445
+        ],
+        "force_residual_N": 0.0,
+        "moment_residual_Nm": [
+          -1.582067810090848e-15,
+          -7.365391933508714e-16
+        ]
+      },
+      "mass_kg": 4.072501811775056,
+      "COM_mm": [
+        1.7009031324516743,
+        -0.00019694825779847935,
+        84.12969922043712
+      ],
+      "sampled_geometry_pass": true
+    },
+    {
+      "sample": 7,
+      "fraction": 0.7000000000000001,
+      "q_deg": [
+        -73.63391419482623,
+        8.307223746389942,
+        -149.2190269518711,
+        74.075667060728,
+        0,
+        -0.3721502227802756
+      ],
+      "front_edge_predicted_height_mm": 0.14977594842269326,
+      "CAD_minimum_moving_z_mm": 0.1497654661733332,
+      "toe_center_mm": [
+        205.97137330745488,
+        165.67095156077744,
+        0.14976592745476935
+      ],
+      "collisions": [],
+      "retained_cuff_knee_support": {
+        "nonnegative_vertical_balance_exists": true,
+        "forces_N": [
+          12.612377007990862,
+          12.61241720947081,
+          7.36320432956418,
+          7.363244226487465
+        ],
+        "force_residual_N": 1.4210854715202004e-14,
+        "moment_residual_Nm": [
+          -1.3461454173580023e-15,
+          -5.14680935674236e-16
+        ]
+      },
+      "mass_kg": 4.072501811775056,
+      "COM_mm": [
+        1.700795453983543,
+        -0.00026364867703609907,
+        84.12929184886727
+      ],
+      "sampled_geometry_pass": true
+    },
+    {
+      "sample": 8,
+      "fraction": 0.8,
+      "q_deg": [
+        -73.63391419482623,
+        8.307223746389942,
+        -149.2190269518711,
+        74.075667060728,
+        0,
+        -0.4253145403203149
+      ],
+      "front_edge_predicted_height_mm": 0.09982917929939106,
+      "CAD_minimum_moving_z_mm": 0.09981869800477816,
+      "toe_center_mm": [
+        205.95175135644178,
+        165.6587969261473,
+        0.09981915928620921
+      ],
+      "collisions": [],
+      "retained_cuff_knee_support": {
+        "nonnegative_vertical_balance_exists": true,
+        "forces_N": [
+          12.612381092587679,
+          12.612431494978237,
+          7.363190082696557,
+          7.363240103250826
+        ],
+        "force_residual_N": -7.105427357601002e-15,
+        "moment_residual_Nm": [
+          -1.8457457784393227e-15,
+          -4.4387914567914355e-17
+        ]
+      },
+      "mass_kg": 4.072501811775056,
+      "COM_mm": [
+        1.700687454220707,
+        -0.00033054811931176875,
+        84.12888459500273
+      ],
+      "sampled_geometry_pass": true
+    },
+    {
+      "sample": 9,
+      "fraction": 0.9,
+      "q_deg": [
+        -73.63391419482623,
+        8.307223746389942,
+        -149.2190269518711,
+        74.075667060728,
+        0,
+        -0.47847885786035427
+      ],
+      "front_edge_predicted_height_mm": 0.04990384883019061,
+      "CAD_minimum_moving_z_mm": 0.04989336849223075,
+      "toe_center_mm": [
+        205.932090015085,
+        165.6466178915323,
+        0.04989382977366219
+      ],
+      "collisions": [],
+      "retained_cuff_knee_support": {
+        "nonnegative_vertical_balance_exists": true,
+        "forces_N": [
+          12.612385189332478,
+          12.612445822972152,
+          7.363175793457375,
+          7.363235967751292
+        ],
+        "force_residual_N": 0.0,
+        "moment_residual_Nm": [
+          -1.096345236817342e-15,
+          -7.270287074191001e-16
+        ]
+      },
+      "mass_kg": 4.072501811775056,
+      "COM_mm": [
+        1.7005791332561553,
+        -0.0003976465270217888,
+        84.1284774591941
+      ],
+      "sampled_geometry_pass": true
+    },
+    {
+      "sample": 10,
+      "fraction": 1.0,
+      "q_deg": [
+        -73.63391419482623,
+        8.307223746389942,
+        -149.2190269518711,
+        74.075667060728,
+        0,
+        -0.5316431754003936
+      ],
+      "front_edge_predicted_height_mm": 0.0,
+      "CAD_minimum_moving_z_mm": -1.0479379385752718e-05,
+      "toe_center_mm": [
+        205.9123893003127,
+        165.63441446741842,
+        -1.0018097952979588e-05
+      ],
+      "collisions": [],
+      "retained_cuff_knee_support": {
+        "nonnegative_vertical_balance_exists": true,
+        "forces_N": [
+          12.61238929822174,
+          12.612460193440207,
+          7.363161461858933,
+          7.363231819992416
+        ],
+        "force_residual_N": -7.105427357601002e-15,
+        "moment_residual_Nm": [
+          -1.1796119636642288e-15,
+          2.3611212811303073e-16
+        ]
+      },
+      "mass_kg": 4.072501811775056,
+      "COM_mm": [
+        1.7004704911831516,
+        -0.0004649438424008112,
+        84.12807044179193
+      ],
+      "sampled_geometry_pass": true
+    }
+  ],
+  "toe_exports": [
+    {
+      "name": "toe_engage_00",
+      "bounds": {
+        "min_mm": [
+          -159.46360907738142,
+          -183.3668913651921,
+          -8.223753365510511e-06
+        ],
+        "max_mm": [
+          220.16045322061646,
+          183.366891365192,
+          185.8866091706219
+        ],
+        "size_mm": [
+          379.62406229799785,
+          366.73378273038406,
+          185.88661739437526
+        ]
+      },
+      "known_or_allocated_mass_kg": 4.072501811775056,
+      "approx_COM_mm": [
+        1.7015424508993617,
+        0.00019907156990217612,
+        84.13214590201878
+      ],
+      "motor_count": 28,
+      "component_minimum_z_mm": {
+        "L_FixedFrame": 27.572675097334326,
+        "L_FixedBearings": 35.727873162049775,
+        "L_RollMotorVendor": 36.617730222455485,
+        "L_RollCarrier": 67.78765921716683,
+        "L_PitchMotorEnvelope": 90.37753471809503,
+        "L_FootStructure": 100.15254588615288,
+        "L_SolePad": 137.1662984174478,
+        "L_RollRod": 33.90134862000315,
+        "L_RollCrankTop": 34.62104193638339,
+        "L_RollCrankBottom": 61.027386070901855,
+        "L_RollPin0": 36.06548896308492,
+        "L_RollPin1": 62.471833097603394,
+        "L_RollOutputShaft": 62.91355350908175,
+        "L_RollInputExtension": 36.507209374563274,
+        "L_RollIdleExtension": 58.123310835675454,
+        "L_KneeMotor": 5.499999999999993,
+        "L_HipPitchMotor": 35.42998663846298,
+        "L_HipRollMotor": 82.59344390658288,
+        "L_HipYawMotor": 77.78912463453426,
+        "L_ShinKneeRailm1": 40.14507727683318,
+        "L_ThighRailm1": 18.796827932740754,
+        "L_ShinKneeRail1": 16.866198780250897,
+        "L_ThighRail1": 3.999999999999993,
+        "L_CableServiceSpace": 44.30455006247918,
+        "R_FixedFrame": 27.572675097334326,
+        "R_FixedBearings": 35.727873162049775,
+        "R_RollMotorVendor": 36.617730222455485,
+        "R_RollCarrier": 67.78765921716683,
+        "R_PitchMotorEnvelope": 90.37753471809503,
+        "R_FootStructure": 100.15254588615288,
+        "R_SolePad": 137.1662984174478,
+        "R_RollRod": 33.90134862000315,
+        "R_RollCrankTop": 34.62104193638339,
+        "R_RollCrankBottom": 61.027386070901855,
+        "R_RollPin0": 36.06548896308492,
+        "R_RollPin1": 62.471833097603394,
+        "R_RollOutputShaft": 62.91355350908175,
+        "R_RollInputExtension": 36.507209374563274,
+        "R_RollIdleExtension": 58.123310835675454,
+        "R_KneeMotor": 5.499999999999993,
+        "R_HipPitchMotor": 35.42998663846298,
+        "R_HipRollMotor": 82.59344390658288,
+        "R_HipYawMotor": 77.78912463453426,
+        "R_ShinKneeRailm1": 40.14507727683318,
+        "R_ThighRailm1": 18.796827932740754,
+        "R_ShinKneeRail1": 16.866198780250897,
+        "R_ThighRail1": 3.999999999999993,
+        "R_CableServiceSpace": 44.30455006247918,
+        "PelvisPlate": 63.279351543852044,
+        "battery": 53.28897048708545,
+        "microphone": 134.05753626931374,
+        "computer": 135.65112980876273,
+        "power": 56.27935154385206,
+        "camera": 90.70403399654658,
+        "NeckMotor0": 107.76973260061862,
+        "NeckMotor1": 124.26973260061865,
+        "WukongHeadShell": 93.18046710637542,
+        "CrownOccupancy": 134.77454207223542,
+        "L_KneePad": -7.105427357601002e-15,
+        "R_KneePad": -7.105427357601002e-15,
+        "L_ShoulderMotor0": 65.27759115506149,
+        "L_ShoulderMotor1": 77.90340831216524,
+        "L_ShoulderMotor2": 138.73639644111884,
+        "L_UpperArm": 31.734169202699018,
+        "L_ElbowMotor": 10.820711247576025,
+        "L_ForearmLoadFrame": 1.5139393414058637,
+        "L_GauntletPrimaryPad": -8.223753365507201e-06,
+        "L_WristMotorEnvelope0": 31.999992818428314,
+        "L_WristMotorEnvelope1": 36.999991687671184,
+        "L_HandAndPalm": 0.4999895111211845,
+        "L_GripperMotor": 10.999989288564459,
+        "R_ShoulderMotor0": 65.27759115506147,
+        "R_ShoulderMotor1": 77.90340831216524,
+        "R_ShoulderMotor2": 138.73639644111884,
+        "R_UpperArm": 31.734169202699018,
+        "R_ElbowMotor": 10.820711247576025,
+        "R_ForearmLoadFrame": 1.5139393414058642,
+        "R_GauntletPrimaryPad": -8.223753365507201e-06,
+        "R_WristMotorEnvelope0": 31.999992818428325,
+        "R_WristMotorEnvelope1": 36.99999168767119,
+        "R_HandAndPalm": 0.4999895111211845,
+        "R_GripperMotor": 10.999989288564459
+      },
+      "arm_nodes": [],
+      "manufacturable": false,
+      "task_verified": false,
+      "step": {
+        "sample": 0,
+        "fraction": 0.0,
+        "q_deg": [
+          -73.63391419482623,
+          8.307223746389942,
+          -149.2190269518711,
+          74.075667060728,
+          0,
+          -0.0
+        ],
+        "front_edge_predicted_height_mm": 0.5,
+        "CAD_minimum_moving_z_mm": 0.4999895111211844,
+        "toe_center_mm": [
+          206.10762262008907,
+          165.75534992720682,
+          0.49998997240262
+        ],
+        "collisions": [],
+        "retained_cuff_knee_support": {
+          "nonnegative_vertical_balance_exists": true,
+          "forces_N": [
+            12.61234875625069,
+            12.612318401568789,
+            7.363302870208005,
+            7.363272745485816
+          ],
+          "force_residual_N": 0.0,
+          "moment_residual_Nm": [
+            -1.3739009929736312e-15,
+            -7.42483670574702e-16
+          ]
+        },
+        "mass_kg": 4.072501811775056,
+        "COM_mm": [
+          1.7015424508993617,
+          0.00019907156990217612,
+          84.13214590201878
+        ],
+        "sampled_geometry_pass": true
+      }
+    },
+    {
+      "name": "toe_engage_05",
+      "bounds": {
+        "min_mm": [
+          -159.46360907738142,
+          -183.3668913651921,
+          -8.223753365510511e-06
+        ],
+        "max_mm": [
+          220.2072330303368,
+          183.39586869411107,
+          185.8866091706219
+        ],
+        "size_mm": [
+          379.6708421077182,
+          366.76276005930316,
+          185.88661739437526
+        ]
+      },
+      "known_or_allocated_mass_kg": 4.072501811775056,
+      "approx_COM_mm": [
+        1.701010489532393,
+        -0.00013044691902497352,
+        84.13010670936153
+      ],
+      "motor_count": 28,
+      "component_minimum_z_mm": {
+        "L_FixedFrame": 27.572675097334326,
+        "L_FixedBearings": 35.727873162049775,
+        "L_RollMotorVendor": 36.617730222455485,
+        "L_RollCarrier": 67.78765921716683,
+        "L_PitchMotorEnvelope": 90.37753471809503,
+        "L_FootStructure": 100.15254588615288,
+        "L_SolePad": 137.1662984174478,
+        "L_RollRod": 33.90134862000315,
+        "L_RollCrankTop": 34.62104193638339,
+        "L_RollCrankBottom": 61.027386070901855,
+        "L_RollPin0": 36.06548896308492,
+        "L_RollPin1": 62.471833097603394,
+        "L_RollOutputShaft": 62.91355350908175,
+        "L_RollInputExtension": 36.507209374563274,
+        "L_RollIdleExtension": 58.123310835675454,
+        "L_KneeMotor": 5.499999999999993,
+        "L_HipPitchMotor": 35.42998663846298,
+        "L_HipRollMotor": 82.59344390658288,
+        "L_HipYawMotor": 77.78912463453426,
+        "L_ShinKneeRailm1": 40.14507727683318,
+        "L_ThighRailm1": 18.796827932740754,
+        "L_ShinKneeRail1": 16.866198780250897,
+        "L_ThighRail1": 3.999999999999993,
+        "L_CableServiceSpace": 44.30455006247918,
+        "R_FixedFrame": 27.572675097334326,
+        "R_FixedBearings": 35.727873162049775,
+        "R_RollMotorVendor": 36.617730222455485,
+        "R_RollCarrier": 67.78765921716683,
+        "R_PitchMotorEnvelope": 90.37753471809503,
+        "R_FootStructure": 100.15254588615288,
+        "R_SolePad": 137.1662984174478,
+        "R_RollRod": 33.90134862000315,
+        "R_RollCrankTop": 34.62104193638339,
+        "R_RollCrankBottom": 61.027386070901855,
+        "R_RollPin0": 36.06548896308492,
+        "R_RollPin1": 62.471833097603394,
+        "R_RollOutputShaft": 62.91355350908175,
+        "R_RollInputExtension": 36.507209374563274,
+        "R_RollIdleExtension": 58.123310835675454,
+        "R_KneeMotor": 5.499999999999993,
+        "R_HipPitchMotor": 35.42998663846298,
+        "R_HipRollMotor": 82.59344390658288,
+        "R_HipYawMotor": 77.78912463453426,
+        "R_ShinKneeRailm1": 40.14507727683318,
+        "R_ThighRailm1": 18.796827932740754,
+        "R_ShinKneeRail1": 16.866198780250897,
+        "R_ThighRail1": 3.999999999999993,
+        "R_CableServiceSpace": 44.30455006247918,
+        "PelvisPlate": 63.279351543852044,
+        "battery": 53.28897048708545,
+        "microphone": 134.05753626931374,
+        "computer": 135.65112980876273,
+        "power": 56.27935154385206,
+        "camera": 90.70403399654658,
+        "NeckMotor0": 107.76973260061862,
+        "NeckMotor1": 124.26973260061865,
+        "WukongHeadShell": 93.18046710637542,
+        "CrownOccupancy": 134.77454207223542,
+        "L_KneePad": -7.105427357601002e-15,
+        "R_KneePad": -7.105427357601002e-15,
+        "L_ShoulderMotor0": 65.27759115506149,
+        "L_ShoulderMotor1": 77.90340831216524,
+        "L_ShoulderMotor2": 138.73639644111884,
+        "L_UpperArm": 31.734169202699018,
+        "L_ElbowMotor": 10.820711247576025,
+        "L_ForearmLoadFrame": 1.5139393414058637,
+        "L_GauntletPrimaryPad": -8.223753365507201e-06,
+        "L_WristMotorEnvelope0": 31.999992818428314,
+        "L_WristMotorEnvelope1": 36.999991687671184,
+        "L_HandAndPalm": 0.2497231464465296,
+        "L_GripperMotor": 10.721773246186505,
+        "R_ShoulderMotor0": 65.27759115506147,
+        "R_ShoulderMotor1": 77.90340831216524,
+        "R_ShoulderMotor2": 138.73639644111884,
+        "R_UpperArm": 31.734169202699018,
+        "R_ElbowMotor": 10.820711247576025,
+        "R_ForearmLoadFrame": 1.5139393414058642,
+        "R_GauntletPrimaryPad": -8.223753365507201e-06,
+        "R_WristMotorEnvelope0": 31.999992818428325,
+        "R_WristMotorEnvelope1": 36.99999168767119,
+        "R_HandAndPalm": 0.4999895111211845,
+        "R_GripperMotor": 10.999989288564459
+      },
+      "arm_nodes": [],
+      "manufacturable": false,
+      "task_verified": false,
+      "step": {
+        "sample": 5,
+        "fraction": 0.5,
+        "q_deg": [
+          -73.63391419482623,
+          8.307223746389942,
+          -149.2190269518711,
+          74.075667060728,
+          0,
+          -0.2658215877001968
+        ],
+        "front_edge_predicted_height_mm": 0.2497336305996214,
+        "CAD_minimum_moving_z_mm": 0.2497231464465297,
+        "toe_center_mm": [
+          206.01049897090726,
+          165.6951875882445,
+          0.2497236077279652
+        ],
+        "collisions": [],
+        "retained_cuff_knee_support": {
+          "nonnegative_vertical_balance_exists": true,
+          "forces_N": [
+            12.612368875255214,
+            12.612388765964544,
+            7.363232696135703,
+            7.363252436157841
+          ],
+          "force_residual_N": 7.105427357601002e-15,
+          "moment_residual_Nm": [
+            -9.298117831235686e-16,
+            -6.321982867762976e-16
+          ]
+        },
+        "mass_kg": 4.072501811775056,
+        "COM_mm": [
+          1.701010489532393,
+          -0.00013044691902497352,
+          84.13010670936153
+        ],
+        "sampled_geometry_pass": true
+      }
+    },
+    {
+      "name": "toe_engage_10",
+      "bounds": {
+        "min_mm": [
+          -159.46360907738142,
+          -183.3668913651921,
+          -1.0479379386585386e-05
+        ],
+        "max_mm": [
+          220.25291393092613,
+          183.42416531403066,
+          185.8866091706219
+        ],
+        "size_mm": [
+          379.71652300830755,
+          366.7910566792227,
+          185.8866196500013
+        ]
+      },
+      "known_or_allocated_mass_kg": 4.072501811775056,
+      "approx_COM_mm": [
+        1.7004704911831516,
+        -0.0004649438424008112,
+        84.12807044179193
+      ],
+      "motor_count": 28,
+      "component_minimum_z_mm": {
+        "L_FixedFrame": 27.572675097334326,
+        "L_FixedBearings": 35.727873162049775,
+        "L_RollMotorVendor": 36.617730222455485,
+        "L_RollCarrier": 67.78765921716683,
+        "L_PitchMotorEnvelope": 90.37753471809503,
+        "L_FootStructure": 100.15254588615288,
+        "L_SolePad": 137.1662984174478,
+        "L_RollRod": 33.90134862000315,
+        "L_RollCrankTop": 34.62104193638339,
+        "L_RollCrankBottom": 61.027386070901855,
+        "L_RollPin0": 36.06548896308492,
+        "L_RollPin1": 62.471833097603394,
+        "L_RollOutputShaft": 62.91355350908175,
+        "L_RollInputExtension": 36.507209374563274,
+        "L_RollIdleExtension": 58.123310835675454,
+        "L_KneeMotor": 5.499999999999993,
+        "L_HipPitchMotor": 35.42998663846298,
+        "L_HipRollMotor": 82.59344390658288,
+        "L_HipYawMotor": 77.78912463453426,
+        "L_ShinKneeRailm1": 40.14507727683318,
+        "L_ThighRailm1": 18.796827932740754,
+        "L_ShinKneeRail1": 16.866198780250897,
+        "L_ThighRail1": 3.999999999999993,
+        "L_CableServiceSpace": 44.30455006247918,
+        "R_FixedFrame": 27.572675097334326,
+        "R_FixedBearings": 35.727873162049775,
+        "R_RollMotorVendor": 36.617730222455485,
+        "R_RollCarrier": 67.78765921716683,
+        "R_PitchMotorEnvelope": 90.37753471809503,
+        "R_FootStructure": 100.15254588615288,
+        "R_SolePad": 137.1662984174478,
+        "R_RollRod": 33.90134862000315,
+        "R_RollCrankTop": 34.62104193638339,
+        "R_RollCrankBottom": 61.027386070901855,
+        "R_RollPin0": 36.06548896308492,
+        "R_RollPin1": 62.471833097603394,
+        "R_RollOutputShaft": 62.91355350908175,
+        "R_RollInputExtension": 36.507209374563274,
+        "R_RollIdleExtension": 58.123310835675454,
+        "R_KneeMotor": 5.499999999999993,
+        "R_HipPitchMotor": 35.42998663846298,
+        "R_HipRollMotor": 82.59344390658288,
+        "R_HipYawMotor": 77.78912463453426,
+        "R_ShinKneeRailm1": 40.14507727683318,
+        "R_ThighRailm1": 18.796827932740754,
+        "R_ShinKneeRail1": 16.866198780250897,
+        "R_ThighRail1": 3.999999999999993,
+        "R_CableServiceSpace": 44.30455006247918,
+        "PelvisPlate": 63.279351543852044,
+        "battery": 53.28897048708545,
+        "microphone": 134.05753626931374,
+        "computer": 135.65112980876273,
+        "power": 56.27935154385206,
+        "camera": 90.70403399654658,
+        "NeckMotor0": 107.76973260061862,
+        "NeckMotor1": 124.26973260061865,
+        "WukongHeadShell": 93.18046710637542,
+        "CrownOccupancy": 134.77454207223542,
+        "L_KneePad": -7.105427357601002e-15,
+        "R_KneePad": -7.105427357601002e-15,
+        "L_ShoulderMotor0": 65.27759115506149,
+        "L_ShoulderMotor1": 77.90340831216524,
+        "L_ShoulderMotor2": 138.73639644111884,
+        "L_UpperArm": 31.734169202699018,
+        "L_ElbowMotor": 10.820711247576025,
+        "L_ForearmLoadFrame": 1.5139393414058637,
+        "L_GauntletPrimaryPad": -8.223753365507201e-06,
+        "L_WristMotorEnvelope0": 31.999992818428314,
+        "L_WristMotorEnvelope1": 36.999991687671184,
+        "L_HandAndPalm": -1.0479379386529875e-05,
+        "L_GripperMotor": 10.443864536299444,
+        "R_ShoulderMotor0": 65.27759115506147,
+        "R_ShoulderMotor1": 77.90340831216524,
+        "R_ShoulderMotor2": 138.73639644111884,
+        "R_UpperArm": 31.734169202699018,
+        "R_ElbowMotor": 10.820711247576025,
+        "R_ForearmLoadFrame": 1.5139393414058642,
+        "R_GauntletPrimaryPad": -8.223753365507201e-06,
+        "R_WristMotorEnvelope0": 31.999992818428325,
+        "R_WristMotorEnvelope1": 36.99999168767119,
+        "R_HandAndPalm": 0.4999895111211845,
+        "R_GripperMotor": 10.999989288564459
+      },
+      "arm_nodes": [],
+      "manufacturable": false,
+      "task_verified": false,
+      "step": {
+        "sample": 10,
+        "fraction": 1.0,
+        "q_deg": [
+          -73.63391419482623,
+          8.307223746389942,
+          -149.2190269518711,
+          74.075667060728,
+          0,
+          -0.5316431754003936
+        ],
+        "front_edge_predicted_height_mm": 0.0,
+        "CAD_minimum_moving_z_mm": -1.0479379385752718e-05,
+        "toe_center_mm": [
+          205.9123893003127,
+          165.63441446741842,
+          -1.0018097952979588e-05
+        ],
+        "collisions": [],
+        "retained_cuff_knee_support": {
+          "nonnegative_vertical_balance_exists": true,
+          "forces_N": [
+            12.61238929822174,
+            12.612460193440207,
+            7.363161461858933,
+            7.363231819992416
+          ],
+          "force_residual_N": -7.105427357601002e-15,
+          "moment_residual_Nm": [
+            -1.1796119636642288e-15,
+            2.3611212811303073e-16
+          ]
+        },
+        "mass_kg": 4.072501811775056,
+        "COM_mm": [
+          1.7004704911831516,
+          -0.0004649438424008112,
+          84.12807044179193
+        ],
+        "sampled_geometry_pass": true
+      }
+    }
+  ],
+  "left_cuff_unload_vertical_balance": {
+    "nonnegative_vertical_balance_exists": true,
+    "forces_N": [
+      13.281405207494373,
+      13.350977711520443,
+      7.406074449827978,
+      5.912785404670488
+    ],
+    "force_residual_N": -2.1316282072803006e-14,
+    "moment_residual_Nm": [
+      -6.938893903907228e-17,
+      -5.4104398912457885e-16
+    ]
+  },
+  "asymmetric_endpoint": {
+    "name": "asymmetric_foot_candidate",
+    "bounds": {
+      "min_mm": [
+        -200.7836614554937,
+        -163.09430975258843,
+        0.0
+      ],
+      "max_mm": [
+        156.0108498138847,
+        163.09430975258843,
+        230.07296512495796
+      ],
+      "size_mm": [
+        356.7945112693784,
+        326.18861950517686,
+        230.07296512495796
+      ]
+    },
+    "known_or_allocated_mass_kg": 4.072501811775056,
+    "approx_COM_mm": [
+      10.005910097419909,
+      -6.960093611224627e-05,
+      102.0957252586637
+    ],
+    "motor_count": 28,
+    "component_minimum_z_mm": {
+      "R_FixedFrame": 14.917209078785902,
+      "R_FixedBearings": 21.154624847975526,
+      "R_RollMotorVendor": 29.52222192184035,
+      "R_RollCarrier": 53.52041217928162,
+      "R_PitchMotorEnvelope": 74.31860213634098,
+      "R_FootStructure": 89.17520560941598,
+      "R_SolePad": 131.21312566560775,
+      "R_RollRod": 14.42635603029801,
+      "R_RollCrankTop": 16.883927117672002,
+      "R_RollCrankBottom": 38.29415889342255,
+      "R_RollPin0": 15.431420545953827,
+      "R_RollPin1": 36.8416523217044,
+      "R_RollOutputShaft": 39.823461163119035,
+      "R_RollInputExtension": 18.413229387368474,
+      "R_RollIdleExtension": 60.3021182762574,
+      "R_KneeMotor": 5.500000000000014,
+      "R_HipPitchMotor": 63.50000000000006,
+      "R_HipRollMotor": 109.90505589040139,
+      "R_HipYawMotor": 119.80455082701232,
+      "R_ShinKneeRailm1": 50.97271326212203,
+      "R_ThighRailm1": 21.29488411212474,
+      "R_ShinKneeRail1": 5.861602151010885,
+      "R_ThighRail1": 4.000000000000014,
+      "R_CableServiceSpace": 55.84444444444452,
+      "PelvisPlate": 104.84924240491759,
+      "battery": 98.48528137423864,
+      "microphone": 160.42783540618018,
+      "computer": 170.96372644585978,
+      "power": 94.9497474683059,
+      "camera": 150.10407640085666,
+      "NeckMotor0": 160.0035713374683,
+      "NeckMotor1": 183.33809511662437,
+      "WukongHeadShell": 149.37131254764904,
+      "CrownOccupancy": 202.0764248180679,
+      "R_KneePad": 1.4210854715202004e-14,
+      "L_ShoulderMotor0": 112.98097038856284,
+      "L_ShoulderMotor1": 105.81442606722527,
+      "L_ShoulderMotor2": 186.03110950543254,
+      "L_UpperArm": 75.22447307014207,
+      "L_ElbowMotor": 54.92803825962855,
+      "L_ForearmLoadFrame": 11.249025248603129,
+      "L_GauntletPrimaryPad": 3.5395952627283678,
+      "L_WristMotorEnvelope0": 40.89972251154152,
+      "L_WristMotorEnvelope1": 33.637581883300626,
+      "L_HandAndPalm": 1.6106107336710807e-07,
+      "L_GripperMotor": 10.500000155626255,
+      "R_ShoulderMotor0": 112.98097038856282,
+      "R_ShoulderMotor1": 105.81442606722528,
+      "R_ShoulderMotor2": 186.0311095054325,
+      "R_UpperArm": 75.22447307014207,
+      "R_ElbowMotor": 54.92803825962855,
+      "R_ForearmLoadFrame": 11.249025248603118,
+      "R_GauntletPrimaryPad": 3.5395952627283833,
+      "R_WristMotorEnvelope0": 40.89972251154151,
+      "R_WristMotorEnvelope1": 33.63758188330062,
+      "R_HandAndPalm": 1.6106107331159691e-07,
+      "R_GripperMotor": 10.500000155626255,
+      "L_FixedFrame": 36.2564729622361,
+      "L_FixedBearings": 39.53308113939208,
+      "L_RollMotorVendor": 69.05059740423897,
+      "L_RollCarrier": 8.002253518051724,
+      "L_PitchMotorEnvelope": 10.499999999999996,
+      "L_FootStructure": 2.0,
+      "L_SolePad": 0.0,
+      "L_RollRod": 33.960467163344404,
+      "L_RollCrankTop": 58.945454540902425,
+      "L_RollCrankBottom": 36.00919730081065,
+      "L_RollPin0": 58.20702766360107,
+      "L_RollPin1": 35.27077042350928,
+      "L_RollOutputShaft": 37.64750138938863,
+      "L_RollInputExtension": 60.58375862948041,
+      "L_RollIdleExtension": 97.86622699229841,
+      "L_KneeMotor": 84.22368398600928,
+      "L_HipPitchMotor": 63.49999999999997,
+      "L_HipRollMotor": 109.90505589040127,
+      "L_HipYawMotor": 119.80455082701219,
+      "L_ShinKneeRailm1": 123.91764207557088,
+      "L_ThighRailm1": 76.37620242604957,
+      "L_ShinKneeRail1": 83.76729153099765,
+      "L_ThighRail1": 76.37620242604957,
+      "L_CableServiceSpace": 96.72247422657136,
+      "L_KneePad": 78.72368398600928
+    },
+    "arm_nodes": [],
+    "manufacturable": false,
+    "task_verified": false,
+    "collisions": [
+      {
+        "a": "PelvisPlate",
+        "b": "L_FixedFrame",
+        "volume_mm3": 113.72778053120305,
+        "group_a": "body",
+        "group_b": "L_leg"
+      },
+      {
+        "a": "PelvisPlate",
+        "b": "L_ThighRailm1",
+        "volume_mm3": 189.14870417209457,
+        "group_a": "body",
+        "group_b": "L_leg"
+      },
+      {
+        "a": "PelvisPlate",
+        "b": "L_CableServiceSpace",
+        "volume_mm3": 114.84204422985403,
+        "group_a": "body",
+        "group_b": "L_leg"
+      },
+      {
+        "a": "battery",
+        "b": "L_ThighRailm1",
+        "volume_mm3": 1825.169705753293,
+        "group_a": "electronics",
+        "group_b": "L_leg"
+      },
+      {
+        "a": "power",
+        "b": "L_ThighRailm1",
+        "volume_mm3": 863.7547540935494,
+        "group_a": "electronics",
+        "group_b": "L_leg"
+      },
+      {
+        "a": "L_ShoulderMotor0",
+        "b": "L_KneeMotor",
+        "volume_mm3": 3875.9834057110347,
+        "group_a": "L_arm",
+        "group_b": "L_leg"
+      },
+      {
+        "a": "L_ShoulderMotor0",
+        "b": "L_ThighRail1",
+        "volume_mm3": 1843.8325535525432,
+        "group_a": "L_arm",
+        "group_b": "L_leg"
+      },
+      {
+        "a": "L_ShoulderMotor0",
+        "b": "L_KneePad",
+        "volume_mm3": 959.4958030785394,
+        "group_a": "L_arm",
+        "group_b": "L_leg"
+      },
+      {
+        "a": "L_ShoulderMotor1",
+        "b": "L_KneeMotor",
+        "volume_mm3": 6344.297266912385,
+        "group_a": "L_arm",
+        "group_b": "L_leg"
+      },
+      {
+        "a": "L_UpperArm",
+        "b": "L_FixedFrame",
+        "volume_mm3": 223.1966359686794,
+        "group_a": "L_arm",
+        "group_b": "L_leg"
+      },
+      {
+        "a": "L_UpperArm",
+        "b": "L_RollMotorVendor",
+        "volume_mm3": 7.714004180112398,
+        "group_a": "L_arm",
+        "group_b": "L_leg"
+      },
+      {
+        "a": "L_ElbowMotor",
+        "b": "L_FixedFrame",
+        "volume_mm3": 0.2055846193198713,
+        "group_a": "L_arm",
+        "group_b": "L_leg"
+      },
+      {
+        "a": "L_ElbowMotor",
+        "b": "L_RollMotorVendor",
+        "volume_mm3": 259.9881069845321,
+        "group_a": "L_arm",
+        "group_b": "L_leg"
+      },
+      {
+        "a": "L_ElbowMotor",
+        "b": "L_RollCarrier",
+        "volume_mm3": 6.193882741755415,
+        "group_a": "L_arm",
+        "group_b": "L_leg"
+      },
+      {
+        "a": "L_ElbowMotor",
+        "b": "L_PitchMotorEnvelope",
+        "volume_mm3": 0.29020093049353113,
+        "group_a": "L_arm",
+        "group_b": "L_leg"
+      },
+      {
+        "a": "L_ElbowMotor",
+        "b": "L_RollOutputShaft",
+        "volume_mm3": 391.31256191107303,
+        "group_a": "L_arm",
+        "group_b": "L_leg"
+      },
+      {
+        "a": "L_ForearmLoadFrame",
+        "b": "L_FixedFrame",
+        "volume_mm3": 0.06946128300321963,
+        "group_a": "L_arm",
+        "group_b": "L_leg"
+      },
+      {
+        "a": "L_ForearmLoadFrame",
+        "b": "L_RollCarrier",
+        "volume_mm3": 234.31414961810924,
+        "group_a": "L_arm",
+        "group_b": "L_leg"
+      },
+      {
+        "a": "L_ForearmLoadFrame",
+        "b": "L_PitchMotorEnvelope",
+        "volume_mm3": 0.09952096585947905,
+        "group_a": "L_arm",
+        "group_b": "L_leg"
+      },
+      {
+        "a": "L_ForearmLoadFrame",
+        "b": "L_RollOutputShaft",
+        "volume_mm3": 9.877333635757243,
+        "group_a": "L_arm",
+        "group_b": "L_leg"
+      },
+      {
+        "a": "L_FixedFrame",
+        "b": "L_HipPitchMotor",
+        "volume_mm3": 1.3261386119024292,
+        "group_a": "L_leg",
+        "group_b": "L_leg"
+      },
+      {
+        "a": "L_FixedFrame",
+        "b": "L_HipYawMotor",
+        "volume_mm3": 141.45531915096296,
+        "group_a": "L_leg",
+        "group_b": "L_leg"
+      },
+      {
+        "a": "L_HipYawMotor",
+        "b": "L_ShinKneeRailm1",
+        "volume_mm3": 5.905618064166004,
+        "group_a": "L_leg",
+        "group_b": "L_leg"
+      },
+      {
+        "a": "L_HipYawMotor",
+        "b": "L_CableServiceSpace",
+        "volume_mm3": 329.4165033658787,
+        "group_a": "L_leg",
+        "group_b": "L_leg"
+      }
+    ],
+    "ground_penetrations": [],
+    "left_joints": [
+      {
+        "name": "hip_yaw",
+        "origin_mm": [
+          17.882192915200285,
+          0.0,
+          123.94112549695427
+        ],
+        "axis": [
+          0.7071067811865475,
+          0.0,
+          0.7071067811865478
+        ],
+        "q_deg": 0
+      },
+      {
+        "name": "hip_roll",
+        "origin_mm": [
+          0.9116301667231461,
+          0.0,
+          106.97056274847712
+        ],
+        "axis": [
+          0.7071067811865478,
+          0.0,
+          -0.7071067811865475
+        ],
+        "q_deg": 0
+      },
+      {
+        "name": "hip_pitch",
+        "origin_mm": [
+          -16.058932581753993,
+          0.0,
+          89.99999999999997
+        ],
+        "axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "q_deg": -148.31256529526706
+      },
+      {
+        "name": "knee_pitch",
+        "origin_mm": [
+          71.52262325078429,
+          0.0,
+          110.72368398600928
+        ],
+        "axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "q_deg": 138.31256529526706
+      },
+      {
+        "name": "ankle_roll",
+        "origin_mm": [
+          41.12307212417885,
+          0.0,
+          67.3086256386927
+        ],
+        "axis": [
+          0.8191520442889919,
+          0.0,
+          -0.573576436351046
+        ],
+        "q_deg": 0
+      },
+      {
+        "name": "ankle_pitch",
+        "origin_mm": [
+          19.90074397919014,
+          0.0,
+          37.0
+        ],
+        "axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "q_deg": -35
+      }
+    ],
+    "right_joints": [
+      {
+        "name": "hip_yaw",
+        "origin_mm": [
+          17.882192915200307,
+          0.0,
+          123.94112549695438
+        ],
+        "axis": [
+          0.7071067811865472,
+          0.0,
+          0.7071067811865481
+        ],
+        "q_deg": 0
+      },
+      {
+        "name": "hip_roll",
+        "origin_mm": [
+          0.911630166723171,
+          0.0,
+          106.97056274847722
+        ],
+        "axis": [
+          0.7071067811865481,
+          0.0,
+          -0.7071067811865472
+        ],
+        "q_deg": 0
+      },
+      {
+        "name": "hip_pitch",
+        "origin_mm": [
+          -16.058932581753965,
+          0.0,
+          90.00000000000006
+        ],
+        "axis": [
+          0.0,
+          1.0000000000000002,
+          0.0
+        ],
+        "q_deg": 4.875965406483594
+      },
+      {
+        "name": "knee_pitch",
+        "origin_mm": [
+          -84.87753471809498,
+          0.0,
+          32.000000000000014
+        ],
+        "axis": [
+          0.0,
+          1.0000000000000002,
+          0.0
+        ],
+        "q_deg": 90
+      },
+      {
+        "name": "ankle_roll",
+        "origin_mm": [
+          -119.03309027365054,
+          0.0,
+          72.52651014695638
+        ],
+        "axis": [
+          -0.7646511348482333,
+          0.0,
+          -0.6444444444444448
+        ],
+        "q_deg": 0
+      },
+      {
+        "name": "ankle_pitch",
+        "origin_mm": [
+          -142.877534718095,
+          0.0,
+          100.81860213634101
+        ],
+        "axis": [
+          0.0,
+          1.0,
+          -0.0
+        ],
+        "q_deg": 35
+      }
+    ],
+    "support_points_mm": [
+      [
+        -30.09925602080986,
+        32.5,
+        0
+      ],
+      [
+        -30.09925602080986,
+        87.5,
+        0
+      ],
+      [
+        69.90074397919014,
+        32.5,
+        0
+      ],
+      [
+        69.90074397919014,
+        87.5,
+        0
+      ],
+      [
+        -84.87753471809498,
+        -132,
+        1.4210854715202004e-14
+      ],
+      [
+        119.99999991383999,
+        130.9999999441755,
+        1.8615804098232047e-07
+      ],
+      [
+        119.99999991383999,
+        -130.9999999441755,
+        1.8615804098232047e-07
+      ]
+    ],
+    "static_balance": {
+      "nonnegative_vertical_balance_exists": true,
+      "forces_N": [
+        7.025524007328299,
+        6.7456550095424275,
+        4.8173835705945445,
+        4.537514572808673,
+        9.072168059531142,
+        3.2099017096845373,
+        4.543095844023652
+      ],
+      "force_residual_N": -2.1316282072803006e-14,
+      "moment_residual_Nm": [
+        -7.216449660063518e-16,
+        -5.875617680383641e-16
+      ]
+    },
+    "left_leg_pose": {
+      "name": "left_foot_planted",
+      "foot_translation_mm": [
+        19.90074397919014,
+        0,
+        2
+      ],
+      "foot_pitch_deg": 0,
+      "q_deg": [
+        0,
+        0,
+        -148.31256529526706,
+        138.31256529526706,
+        0,
+        -35
+      ]
+    },
+    "right_leg_pose": {
+      "name": "coupled_contact",
+      "foot_translation_mm": [
+        -146.0034586072711,
+        0.0,
+        135.6787312215736
+      ],
+      "foot_pitch_deg": 174.8759654064836,
+      "q_deg": [
+        0,
+        0,
+        4.875965406483594,
+        90,
+        0,
+        35
+      ]
+    },
+    "palm_points_mm": [
+      [
+        119.99999991383999,
+        130.9999999441755,
+        1.8615804098232047e-07
+      ],
+      [
+        119.99999991383999,
+        -130.9999999441755,
+        1.8615804098232047e-07
+      ]
+    ]
+  },
+  "whole_recovery_validated": false,
+  "limitations": [
+    "Incremental checks only omit invariant pairs after full baseline check",
+    "Toe contact is a geometrical edge, no pressure/friction/compliance model",
+    "Vertical force allocation is a necessary quasi-static condition, not verified force control",
+    "Asymmetric endpoint is not a connecting motion",
+    "Shoulder/elbow mounting interfaces and real material/thermal limits remain unfinished"
+  ]
+}

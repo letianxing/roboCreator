@@ -1,0 +1,10 @@
+{
+  "version":"v0.20","status":"prototype_contact_research","date":"2026-09-06",
+  "metadata":"JSON pointers identify parameters; mm/deg/kg unless stated. Unspecified source_type=assumed; uncertainty=not_quantified. No physical actuator commands.",
+  "toe_engagement":{"native_palm_front_x_mm":54,"native_palm_bottom_z_mm":0.5,"native_wrist_z_mm":25,"samples":11},
+  "asymmetric_foot":{"body_height_mm":90,"body_pitch_deg":45,"swing_ankle_pitch_deg":-35,"swing_knee_limit_deg":[0,150],"hip_limit_deg":[-160,160],"palm_target_mm":[120,131,0]},
+  "foot_ground_origin_z_mm":2,
+  "ground_penetration_tolerance_mm":0.5,
+  "contact_position_tolerance_mm":0.5,
+  "note":"Toe engagement preserves existing cuff/knee contact points. A feasible asymmetric endpoint does not establish a connecting trajectory. PLM/MES deferred until prototype completion."
+}

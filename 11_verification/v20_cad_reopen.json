@@ -1,0 +1,22 @@
+[
+  {
+    "file": "09_cad\\body_v20\\toe_engage_00.FCStd",
+    "valid_shape_count": 82,
+    "sha256": "fe815986a0e76949cc4190bca157942bc931af298d6a520325b86bffcbcbf282"
+  },
+  {
+    "file": "09_cad\\body_v20\\toe_engage_05.FCStd",
+    "valid_shape_count": 82,
+    "sha256": "6a0f138e0203f56aaf17f7636fd420e4e3ef79eb6fe014d984e2f2146fa27fd9"
+  },
+  {
+    "file": "09_cad\\body_v20\\toe_engage_10.FCStd",
+    "valid_shape_count": 82,
+    "sha256": "dd6e1413057775ff4b1247f8cb2aae905f2ab74389dfacd30e0d65839ba9058c"
+  },
+  {
+    "file": "09_cad\\body_v20\\asymmetric_foot_candidate.FCStd",
+    "valid_shape_count": 82,
+    "sha256": "50d93494f595435b15d27d5662bc2f0f86bafeced616b3254316fb2d2fc1beeb"
+  }
+]

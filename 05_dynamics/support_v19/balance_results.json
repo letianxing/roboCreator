@@ -1,0 +1,833 @@
+{
+  "input_sha256": "15a849cb54b63d5ebf07f732483495c5c70408992d4df54bd4e94e5213a1f1f2",
+  "balances": [
+    {
+      "nonnegative_vertical_balance_exists": true,
+      "forces_N": [
+        4.142183990259168,
+        4.142192735407722,
+        4.142203070583285,
+        4.142211815731839,
+        5.845598877646484,
+        5.845607622795038,
+        5.845617957970601,
+        5.845626703119154
+      ],
+      "force_residual_N": -7.105427357601002e-15,
+      "moment_residual_Nm": [
+        5.551115123125783e-17,
+        -2.875634504280987e-16
+      ],
+      "scene": "stand_candidate",
+      "points_mm": [
+        [
+          -50,
+          -87.5,
+          0
+        ],
+        [
+          -50,
+          -32.5,
+          0
+        ],
+        [
+          -50,
+          32.5,
+          0
+        ],
+        [
+          -50,
+          87.5,
+          0
+        ],
+        [
+          50,
+          -87.5,
+          0
+        ],
+        [
+          50,
+          -32.5,
+          0
+        ],
+        [
+          50,
+          32.5,
+          0
+        ],
+        [
+          50,
+          87.5,
+          0
+        ]
+      ],
+      "assumed_mass_kg": 4.072501811775056,
+      "COM_mm": [
+        8.527468830164342,
+        0.00013870016911543548,
+        192.08261778028654
+      ],
+      "geometry_has_collisions": false,
+      "dynamic_stability_verified": false
+    },
+    {
+      "nonnegative_vertical_balance_exists": true,
+      "forces_N": [
+        12.61234875625069,
+        12.612318401568789,
+        7.363302870208005,
+        7.363272745485816
+      ],
+      "force_residual_N": 0.0,
+      "moment_residual_Nm": [
+        -1.3739009929736312e-15,
+        -7.42483670574702e-16
+      ],
+      "scene": "cuff_knee_candidate",
+      "points_mm": [
+        [
+          -84.877534718095,
+          132,
+          -7.105427357601002e-15
+        ],
+        [
+          -84.877534718095,
+          -132,
+          -7.105427357601002e-15
+        ],
+        [
+          149.99999698717863,
+          130.99999999993412,
+          -7.297579394595762e-06
+        ],
+        [
+          149.99999698717863,
+          -130.99999999993412,
+          -7.297579394595762e-06
+        ]
+      ],
+      "assumed_mass_kg": 4.072501811775056,
+      "COM_mm": [
+        1.7015424508993617,
+        0.00019907156990217612,
+        84.13214590201878
+      ],
+      "geometry_has_collisions": false,
+      "dynamic_stability_verified": false
+    },
+    {
+      "nonnegative_vertical_balance_exists": true,
+      "forces_N": [
+        14.066307272491251,
+        14.066276917809413,
+        5.90934435396733,
+        5.909314229245303
+      ],
+      "force_residual_N": -7.105427357601002e-15,
+      "moment_residual_Nm": [
+        -7.771561172376096e-16,
+        -1.0251470354029346e-16
+      ],
+      "scene": "palm_transition_probe",
+      "points_mm": [
+        [
+          -84.87753471809498,
+          132,
+          1.4210854715202004e-14
+        ],
+        [
+          -84.87753471809498,
+          -132,
+          1.4210854715202004e-14
+        ],
+        [
+          149.99999945769326,
+          130.9999995598444,
+          1.0520281358283867e-06
+        ],
+        [
+          149.99999945769326,
+          -130.9999995598444,
+          1.0520281358283867e-06
+        ]
+      ],
+      "assumed_mass_kg": 4.072501811775056,
+      "COM_mm": [
+        -15.39440496847732,
+        0.00019907156881904253,
+        95.3005432506254
+      ],
+      "geometry_has_collisions": false,
+      "dynamic_stability_verified": false,
+      "left_wrist_external_moment_magnitude_Nm": 0.16546164097428948,
+      "wrist_limit_note": "External ground-force moment only; distal weight/inertia/friction and actuator thermal limits still needed."
+    }
+  ],
+  "direct_symmetric_handoff": [
+    {
+      "s": 0.0,
+      "cuff_min_z_mm": -8.223753331093597e-06,
+      "palm_min_z_mm": 0.49998951112123147,
+      "penetrates_over_0_5mm": false,
+      "both_hand_supports_clear_ground_over_0_5mm": false
+    },
+    {
+      "s": 0.025,
+      "cuff_min_z_mm": 1.7795710132463005,
+      "palm_min_z_mm": 3.0928344091958984,
+      "penetrates_over_0_5mm": false,
+      "both_hand_supports_clear_ground_over_0_5mm": true
+    },
+    {
+      "s": 0.05,
+      "cuff_min_z_mm": 3.4313050963804548,
+      "palm_min_z_mm": 5.6270179814044665,
+      "penetrates_over_0_5mm": false,
+      "both_hand_supports_clear_ground_over_0_5mm": true
+    },
+    {
+      "s": 0.07500000000000001,
+      "cuff_min_z_mm": 4.937737412102725,
+      "palm_min_z_mm": 8.05989802231594,
+      "penetrates_over_0_5mm": false,
+      "both_hand_supports_clear_ground_over_0_5mm": true
+    },
+    {
+      "s": 0.1,
+      "cuff_min_z_mm": 6.284651983239364,
+      "palm_min_z_mm": 10.349812642290821,
+      "penetrates_over_0_5mm": false,
+      "both_hand_supports_clear_ground_over_0_5mm": true
+    },
+    {
+      "s": 0.125,
+      "cuff_min_z_mm": 7.461265102783086,
+      "palm_min_z_mm": 12.45670905486114,
+      "penetrates_over_0_5mm": false,
+      "both_hand_supports_clear_ground_over_0_5mm": true
+    },
+    {
+      "s": 0.15000000000000002,
+      "cuff_min_z_mm": 8.460372319040875,
+      "palm_min_z_mm": 14.34278008509391,
+      "penetrates_over_0_5mm": false,
+      "both_hand_supports_clear_ground_over_0_5mm": true
+    },
+    {
+      "s": 0.17500000000000002,
+      "cuff_min_z_mm": 9.278450394546507,
+      "palm_min_z_mm": 15.973101569071943,
+      "penetrates_over_0_5mm": false,
+      "both_hand_supports_clear_ground_over_0_5mm": true
+    },
+    {
+      "s": 0.2,
+      "cuff_min_z_mm": 9.915712557901413,
+      "palm_min_z_mm": 17.316260103732933,
+      "penetrates_over_0_5mm": false,
+      "both_hand_supports_clear_ground_over_0_5mm": true
+    },
+    {
+      "s": 0.225,
+      "cuff_min_z_mm": 10.37611594374696,
+      "palm_min_z_mm": 18.34496013996392,
+      "penetrates_over_0_5mm": false,
+      "both_hand_supports_clear_ground_over_0_5mm": true
+    },
+    {
+      "s": 0.25,
+      "cuff_min_z_mm": 10.667320711854611,
+      "palm_min_z_mm": 19.036599135108244,
+      "penetrates_over_0_5mm": false,
+      "both_hand_supports_clear_ground_over_0_5mm": true
+    },
+    {
+      "s": 0.275,
+      "cuff_min_z_mm": 10.800600944319429,
+      "palm_min_z_mm": 19.37379940925438,
+      "penetrates_over_0_5mm": false,
+      "both_hand_supports_clear_ground_over_0_5mm": true
+    },
+    {
+      "s": 0.30000000000000004,
+      "cuff_min_z_mm": 10.790708032302074,
+      "palm_min_z_mm": 19.34488549454074,
+      "penetrates_over_0_5mm": false,
+      "both_hand_supports_clear_ground_over_0_5mm": true
+    },
+    {
+      "s": 0.325,
+      "cuff_min_z_mm": 10.655687872796436,
+      "palm_min_z_mm": 18.944296135887445,
+      "penetrates_over_0_5mm": false,
+      "both_hand_supports_clear_ground_over_0_5mm": true
+    },
+    {
+      "s": 0.35000000000000003,
+      "cuff_min_z_mm": 10.274587367543976,
+      "palm_min_z_mm": 18.172920698361068,
+      "penetrates_over_0_5mm": false,
+      "both_hand_supports_clear_ground_over_0_5mm": true
+    },
+    {
+      "s": 0.375,
+      "cuff_min_z_mm": 9.275974122265447,
+      "palm_min_z_mm": 17.038350559482012,
+      "penetrates_over_0_5mm": false,
+      "both_hand_supports_clear_ground_over_0_5mm": true
+    },
+    {
+      "s": 0.4,
+      "cuff_min_z_mm": 8.143947856687344,
+      "palm_min_z_mm": 15.555037108148321,
+      "penetrates_over_0_5mm": false,
+      "both_hand_supports_clear_ground_over_0_5mm": true
+    },
+    {
+      "s": 0.42500000000000004,
+      "cuff_min_z_mm": 6.913942359822292,
+      "palm_min_z_mm": 13.744349224624717,
+      "penetrates_over_0_5mm": false,
+      "both_hand_supports_clear_ground_over_0_5mm": true
+    },
+    {
+      "s": 0.45,
+      "cuff_min_z_mm": 5.624235191949472,
+      "palm_min_z_mm": 11.634524562613484,
+      "penetrates_over_0_5mm": false,
+      "both_hand_supports_clear_ground_over_0_5mm": true
+    },
+    {
+      "s": 0.47500000000000003,
+      "cuff_min_z_mm": 4.315466044800438,
+      "palm_min_z_mm": 9.26051057458838,
+      "penetrates_over_0_5mm": false,
+      "both_hand_supports_clear_ground_over_0_5mm": true
+    },
+    {
+      "s": 0.5,
+      "cuff_min_z_mm": 3.0301206563178966,
+      "palm_min_z_mm": 6.663692990766225,
+      "penetrates_over_0_5mm": false,
+      "both_hand_supports_clear_ground_over_0_5mm": true
+    },
+    {
+      "s": 0.525,
+      "cuff_min_z_mm": 1.8119864523668434,
+      "palm_min_z_mm": 3.8915113517655717,
+      "penetrates_over_0_5mm": false,
+      "both_hand_supports_clear_ground_over_0_5mm": true
+    },
+    {
+      "s": 0.55,
+      "cuff_min_z_mm": 0.7055864906965158,
+      "palm_min_z_mm": 0.9969631730674007,
+      "penetrates_over_0_5mm": false,
+      "both_hand_supports_clear_ground_over_0_5mm": true
+    },
+    {
+      "s": 0.5750000000000001,
+      "cuff_min_z_mm": -0.24440139498665275,
+      "palm_min_z_mm": -1.961999649251079,
+      "penetrates_over_0_5mm": true,
+      "both_hand_supports_clear_ground_over_0_5mm": false
+    },
+    {
+      "s": 0.6000000000000001,
+      "cuff_min_z_mm": -0.9937331154990237,
+      "palm_min_z_mm": -4.923176534865993,
+      "penetrates_over_0_5mm": true,
+      "both_hand_supports_clear_ground_over_0_5mm": false
+    },
+    {
+      "s": 0.625,
+      "cuff_min_z_mm": -1.4991872271371518,
+      "palm_min_z_mm": -7.820918337167853,
+      "penetrates_over_0_5mm": true,
+      "both_hand_supports_clear_ground_over_0_5mm": false
+    },
+    {
+      "s": 0.65,
+      "cuff_min_z_mm": -1.7191468715752194,
+      "palm_min_z_mm": -10.587012241991472,
+      "penetrates_over_0_5mm": true,
+      "both_hand_supports_clear_ground_over_0_5mm": false
+    },
+    {
+      "s": 0.675,
+      "cuff_min_z_mm": -1.614167448336208,
+      "palm_min_z_mm": -13.151639949599753,
+      "penetrates_over_0_5mm": true,
+      "both_hand_supports_clear_ground_over_0_5mm": false
+    },
+    {
+      "s": 0.7000000000000001,
+      "cuff_min_z_mm": -1.1475228414559342,
+      "palm_min_z_mm": -15.44439592902045,
+      "penetrates_over_0_5mm": true,
+      "both_hand_supports_clear_ground_over_0_5mm": false
+    },
+    {
+      "s": 0.7250000000000001,
+      "cuff_min_z_mm": -0.28572324172253594,
+      "palm_min_z_mm": -18.605238271509357,
+      "penetrates_over_0_5mm": true,
+      "both_hand_supports_clear_ground_over_0_5mm": false
+    },
+    {
+      "s": 0.75,
+      "cuff_min_z_mm": 1.0010020848005963,
+      "palm_min_z_mm": -21.41185303138278,
+      "penetrates_over_0_5mm": true,
+      "both_hand_supports_clear_ground_over_0_5mm": false
+    },
+    {
+      "s": 0.775,
+      "cuff_min_z_mm": 2.738263335781301,
+      "palm_min_z_mm": -23.45106002399021,
+      "penetrates_over_0_5mm": true,
+      "both_hand_supports_clear_ground_over_0_5mm": false
+    },
+    {
+      "s": 0.8,
+      "cuff_min_z_mm": 4.947115795862024,
+      "palm_min_z_mm": -24.650678502263325,
+      "penetrates_over_0_5mm": true,
+      "both_hand_supports_clear_ground_over_0_5mm": false
+    },
+    {
+      "s": 0.8250000000000001,
+      "cuff_min_z_mm": 7.643717767743118,
+      "palm_min_z_mm": -24.95137240881406,
+      "penetrates_over_0_5mm": true,
+      "both_hand_supports_clear_ground_over_0_5mm": false
+    },
+    {
+      "s": 0.8500000000000001,
+      "cuff_min_z_mm": 10.839045412238393,
+      "palm_min_z_mm": -24.307769892113612,
+      "penetrates_over_0_5mm": true,
+      "both_hand_supports_clear_ground_over_0_5mm": false
+    },
+    {
+      "s": 0.875,
+      "cuff_min_z_mm": 14.538668414175362,
+      "palm_min_z_mm": -22.689341679744498,
+      "penetrates_over_0_5mm": true,
+      "both_hand_supports_clear_ground_over_0_5mm": false
+    },
+    {
+      "s": 0.9,
+      "cuff_min_z_mm": 18.74258965337897,
+      "palm_min_z_mm": -20.08101978082015,
+      "penetrates_over_0_5mm": true,
+      "both_hand_supports_clear_ground_over_0_5mm": false
+    },
+    {
+      "s": 0.925,
+      "cuff_min_z_mm": 23.44515127812189,
+      "palm_min_z_mm": -16.483542781072032,
+      "penetrates_over_0_5mm": true,
+      "both_hand_supports_clear_ground_over_0_5mm": false
+    },
+    {
+      "s": 0.9500000000000001,
+      "cuff_min_z_mm": 28.635008762126226,
+      "palm_min_z_mm": -11.913519119472658,
+      "penetrates_over_0_5mm": true,
+      "both_hand_supports_clear_ground_over_0_5mm": false
+    },
+    {
+      "s": 0.9750000000000001,
+      "cuff_min_z_mm": 34.29517368572595,
+      "palm_min_z_mm": -6.40320509558967,
+      "penetrates_over_0_5mm": true,
+      "both_hand_supports_clear_ground_over_0_5mm": false
+    },
+    {
+      "s": 1.0,
+      "cuff_min_z_mm": 37.07733066964964,
+      "palm_min_z_mm": 1.5196550615104165e-07,
+      "penetrates_over_0_5mm": false,
+      "both_hand_supports_clear_ground_over_0_5mm": false
+    }
+  ],
+  "alternating_one_hand_support": [
+    {
+      "held_hand_index": 2,
+      "support_points_mm": [
+        [
+          -84.877534718095,
+          132,
+          -7.105427357601002e-15
+        ],
+        [
+          -84.877534718095,
+          -132,
+          -7.105427357601002e-15
+        ],
+        [
+          149.99999698717863,
+          130.99999999993412,
+          -7.297579394595762e-06
+        ]
+      ],
+      "assumed_COM_perturbation_results": [
+        {
+          "COM_offset_mm": [
+            -20,
+            -10
+          ],
+          "nonnegative_vertical_balance_exists": true,
+          "forces_N": [
+            7.1805464543444595,
+            21.44599933217625,
+            11.324696986992585
+          ],
+          "force_residual_N": -7.105427357601002e-15,
+          "moment_residual_Nm": [
+            -2.220446049250313e-15,
+            7.216449660063518e-16
+          ]
+        },
+        {
+          "COM_offset_mm": [
+            -20,
+            0
+          ],
+          "nonnegative_vertical_balance_exists": true,
+          "forces_N": [
+            8.693851104856307,
+            19.93269468166438,
+            11.324696986992585
+          ],
+          "force_residual_N": -2.842170943040401e-14,
+          "moment_residual_Nm": [
+            0.0,
+            -1.8145241440035292e-15
+          ]
+        },
+        {
+          "COM_offset_mm": [
+            -20,
+            10
+          ],
+          "nonnegative_vertical_balance_exists": true,
+          "forces_N": [
+            10.207155755368175,
+            18.41939003115251,
+            11.324696986992587
+          ],
+          "force_residual_N": -2.842170943040401e-14,
+          "moment_residual_Nm": [
+            2.220446049250313e-16,
+            -9.43689570931383e-16
+          ]
+        },
+        {
+          "COM_offset_mm": [
+            0,
+            -10
+          ],
+          "nonnegative_vertical_balance_exists": true,
+          "forces_N": [
+            3.7915537295406545,
+            21.43311342827881,
+            14.726575615693822
+          ],
+          "force_residual_N": -1.4210854715202004e-14,
+          "moment_residual_Nm": [
+            1.6653345369377348e-16,
+            -1.5543122344752192e-15
+          ]
+        },
+        {
+          "COM_offset_mm": [
+            0,
+            0
+          ],
+          "nonnegative_vertical_balance_exists": true,
+          "forces_N": [
+            5.304858380052524,
+            19.91980877776693,
+            14.726575615693818
+          ],
+          "force_residual_N": -2.842170943040401e-14,
+          "moment_residual_Nm": [
+            8.326672684688674e-17,
+            -5.3950747135825955e-16
+          ]
+        },
+        {
+          "COM_offset_mm": [
+            0,
+            10
+          ],
+          "nonnegative_vertical_balance_exists": true,
+          "forces_N": [
+            6.818163030564387,
+            18.40650412725507,
+            14.726575615693827
+          ],
+          "force_residual_N": -2.1316282072803006e-14,
+          "moment_residual_Nm": [
+            1.4155343563970746e-15,
+            -2.7755575615628914e-16
+          ]
+        },
+        {
+          "COM_offset_mm": [
+            20,
+            -10
+          ],
+          "nonnegative_vertical_balance_exists": true,
+          "forces_N": [
+            0.4025610047368821,
+            21.420227524381364,
+            18.128454244395048
+          ],
+          "force_residual_N": -7.105427357601002e-15,
+          "moment_residual_Nm": [
+            -1.6653345369377348e-15,
+            -3.3306690738754696e-16
+          ]
+        },
+        {
+          "COM_offset_mm": [
+            20,
+            0
+          ],
+          "nonnegative_vertical_balance_exists": true,
+          "forces_N": [
+            1.9158656552487434,
+            19.90692287386949,
+            18.128454244395048
+          ],
+          "force_residual_N": -1.4210854715202004e-14,
+          "moment_residual_Nm": [
+            -5.551115123125783e-16,
+            -6.180748594137794e-16
+          ]
+        },
+        {
+          "COM_offset_mm": [
+            20,
+            10
+          ],
+          "nonnegative_vertical_balance_exists": true,
+          "forces_N": [
+            3.4291703057606235,
+            18.393618223357624,
+            18.128454244395048
+          ],
+          "force_residual_N": 0.0,
+          "moment_residual_Nm": [
+            -1.6653345369377348e-15,
+            1.3322676295501878e-15
+          ]
+        }
+      ],
+      "all_perturbations_have_vertical_balance": true
+    },
+    {
+      "held_hand_index": 3,
+      "support_points_mm": [
+        [
+          -84.877534718095,
+          132,
+          -7.105427357601002e-15
+        ],
+        [
+          -84.877534718095,
+          -132,
+          -7.105427357601002e-15
+        ],
+        [
+          149.99999698717863,
+          -130.99999999993412,
+          -7.297579394595762e-06
+        ]
+      ],
+      "assumed_COM_perturbation_results": [
+        {
+          "COM_offset_mm": [
+            -20,
+            -10
+          ],
+          "nonnegative_vertical_balance_exists": true,
+          "forces_N": [
+            18.41945028233902,
+            10.207095504181675,
+            11.324696986992597
+          ],
+          "force_residual_N": -7.105427357601002e-15,
+          "moment_residual_Nm": [
+            9.992007221626409e-16,
+            1.1102230246251565e-16
+          ]
+        },
+        {
+          "COM_offset_mm": [
+            -20,
+            0
+          ],
+          "nonnegative_vertical_balance_exists": true,
+          "forces_N": [
+            19.932754932850877,
+            8.693790853669803,
+            11.324696986992588
+          ],
+          "force_residual_N": -2.842170943040401e-14,
+          "moment_residual_Nm": [
+            9.992007221626409e-16,
+            3.082403717035234e-16
+          ]
+        },
+        {
+          "COM_offset_mm": [
+            -20,
+            10
+          ],
+          "nonnegative_vertical_balance_exists": true,
+          "forces_N": [
+            21.446059583362754,
+            7.180486203157935,
+            11.324696986992597
+          ],
+          "force_residual_N": -1.4210854715202004e-14,
+          "moment_residual_Nm": [
+            1.4432899320127035e-15,
+            6.661338147750939e-16
+          ]
+        },
+        {
+          "COM_offset_mm": [
+            0,
+            -10
+          ],
+          "nonnegative_vertical_balance_exists": true,
+          "forces_N": [
+            18.406564378441576,
+            6.818102779377886,
+            14.726575615693823
+          ],
+          "force_residual_N": -1.4210854715202004e-14,
+          "moment_residual_Nm": [
+            4.440892098500626e-16,
+            1.1102230246251565e-15
+          ]
+        },
+        {
+          "COM_offset_mm": [
+            0,
+            0
+          ],
+          "nonnegative_vertical_balance_exists": true,
+          "forces_N": [
+            19.919869028953443,
+            5.304798128866025,
+            14.726575615693829
+          ],
+          "force_residual_N": 0.0,
+          "moment_residual_Nm": [
+            7.91033905045424e-16,
+            -5.653199533928871e-16
+          ]
+        },
+        {
+          "COM_offset_mm": [
+            0,
+            10
+          ],
+          "nonnegative_vertical_balance_exists": true,
+          "forces_N": [
+            21.433173679465305,
+            3.791493478354152,
+            14.726575615693832
+          ],
+          "force_residual_N": -1.4210854715202004e-14,
+          "moment_residual_Nm": [
+            2.220446049250313e-15,
+            -8.326672684688674e-16
+          ]
+        },
+        {
+          "COM_offset_mm": [
+            20,
+            -10
+          ],
+          "nonnegative_vertical_balance_exists": true,
+          "forces_N": [
+            18.393678474544128,
+            3.429110054574105,
+            18.12845424439506
+          ],
+          "force_residual_N": -7.105427357601002e-15,
+          "moment_residual_Nm": [
+            1.1102230246251565e-15,
+            -3.885780586188048e-16
+          ]
+        },
+        {
+          "COM_offset_mm": [
+            20,
+            0
+          ],
+          "nonnegative_vertical_balance_exists": true,
+          "forces_N": [
+            19.906983125055994,
+            1.9158054040622385,
+            18.12845424439506
+          ],
+          "force_residual_N": -7.105427357601002e-15,
+          "moment_residual_Nm": [
+            1.1102230246251565e-15,
+            -9.308417751874298e-16
+          ]
+        },
+        {
+          "COM_offset_mm": [
+            20,
+            10
+          ],
+          "nonnegative_vertical_balance_exists": true,
+          "forces_N": [
+            21.420287775567868,
+            0.40250075355036863,
+            18.12845424439507
+          ],
+          "force_residual_N": 0.0,
+          "moment_residual_Nm": [
+            2.4424906541753444e-15,
+            -1.27675647831893e-15
+          ]
+        }
+      ],
+      "all_perturbations_have_vertical_balance": true
+    }
+  ],
+  "actual_midpoint_static_balance": {
+    "scene": "alternating_handoff_midpoint",
+    "nonnegative_vertical_balance_exists": true,
+    "forces_N": [
+      20.313481801329843,
+      5.225779436806343,
+      14.411981535377105
+    ],
+    "force_residual_N": -1.4210854715202004e-14,
+    "moment_residual_Nm": [
+      -6.912873051767576e-16,
+      9.159339953157541e-16
+    ]
+  },
+  "handoff_geometry_violations": 39,
+  "status": "conditional_static_balance_and_rejected_path_diagnostics",
+  "whole_recovery_verified": false,
+  "limitations": [
+    "No friction or elastic pad model",
+    "Mass/COM are estimates with missing hardware",
+    "Zero contact residual does not establish dynamic or real-machine stability",
+    "No shoulder/knee strength or allowable pressure established",
+    "Direct joint interpolation is a tested proposal, not a control trajectory"
+  ]
+}

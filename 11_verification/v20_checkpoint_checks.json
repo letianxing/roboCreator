@@ -1,0 +1,71 @@
+{
+  "stage": "v0.20",
+  "checks": [
+    {
+      "name": "11 sampled wrist-to-palm-edge geometries and analytic/CAD height agreement",
+      "status": "passed",
+      "evidence": [
+        "09_cad/body_v20/contact_validation.json"
+      ]
+    },
+    {
+      "name": "Quasi-static nonnegative vertical equilibrium; not verified force transfer",
+      "status": "passed",
+      "evidence": [
+        "09_cad/body_v20/contact_validation.json"
+      ]
+    },
+    {
+      "name": "Four native CAD files reopen with valid shapes; STEP files exist",
+      "status": "passed",
+      "evidence": [
+        "11_verification/v20_cad_reopen.json"
+      ]
+    },
+    {
+      "name": "Six-axis FK/IK positive control and retained failed search evidence",
+      "status": "passed",
+      "evidence": [
+        "04_kinematics/recovery_v20/ik_audit.json",
+        "04_kinematics/recovery_v20/asymmetric_ik_search.json"
+      ]
+    },
+    {
+      "name": "Existing FreeCAD FEM, Gmsh, CalculiX and MCP availability only",
+      "status": "passed",
+      "evidence": [
+        "tools/freecad_cae_stack_v20.json"
+      ]
+    },
+    {
+      "name": "Asymmetric planted-foot candidate collision check",
+      "status": "failed",
+      "evidence": [
+        "09_cad/body_v20/contact_validation.json"
+      ]
+    },
+    {
+      "name": "Complete continuous recovery trajectory",
+      "status": "failed",
+      "evidence": [
+        "09_cad/body_v20/contact_validation.json",
+        "04_kinematics/recovery_v19/phase_results.json"
+      ]
+    },
+    {
+      "name": "New v20 structural FEM, dynamic contact, hardware and Wukong appearance approval",
+      "status": "not_run",
+      "evidence": [
+        "deliverables/contact_review_v20.md"
+      ]
+    }
+  ],
+  "pending": [
+    "Coupled body pose and foot placement search with full-body collisions",
+    "Replant/unload hand contact with friction and compliance; not just vertical force allocation",
+    "Actual shoulder/elbow mounting, shaft/bearing interfaces and load paths",
+    "FreeCAD FEM/Gmsh/CalculiX structural analysis after geometry/load conditions are defined",
+    "Torque-speed-duration, impact/thermal/material/physical tests and Wukong appearance",
+    "PLM/MES implementation deferred until prototype completion"
+  ]
+}

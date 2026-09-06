@@ -19,7 +19,7 @@
 - `tools/`：本项目工具、依赖和 MCP 安装记录。
 - `deliverables/`：经过检查的阶段交付包和发布版本。
 
-当前已推进到整机包装与流程v0.18。最新报告：[整机与接触评审](deliverables/body_review_v18.md)。电子器件重排已消除该立姿候选的所建电子相关重叠，肩臂/腿部仍有冲突。CAE/PLM/MES已纳入主流程；[新增软件/MCP先询问](tools/software_policy.md)。工程验证、设计发布和实际生产均未通过，历史证据保留，最新状态见 `project_state.md`。
+当前已推进到接触/落脚检查v0.20。最新报告：[掌前缘接触与不对称落脚检查](deliverables/contact_review_v20.md)。掌前缘先接地的11个采样通过有限几何检查，单脚踏地候选仍有24对重叠，完整起身未通过；制造接口、结构CAE及真机验证待完成。优先复用现有FreeCAD FEM＋Gmsh＋CalculiX。PLM/MES实施后置到原型完成后；[新增软件/MCP先询问](tools/software_policy.md)。历史证据保留，最新状态见 `project_state.md`。
 
 检查点规则见 [CHECKPOINT_POLICY.md](CHECKPOINT_POLICY.md)，已验证全项目快照索引位于 `checkpoints/index.jsonl`。
 

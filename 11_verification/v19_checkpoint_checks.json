@@ -1,0 +1,58 @@
+{
+  "stage": "v0.19",
+  "checks": [
+    {
+      "name": "384 shoulder layout comparisons and exact shortlisted motor checks",
+      "status": "passed",
+      "evidence": [
+        "09_cad/body_v19/shoulder_scan.json"
+      ]
+    },
+    {
+      "name": "Four candidates saved/reopened with 28 drives; three static endpoints have no modeled common-volume/ground penetration",
+      "status": "passed",
+      "evidence": [
+        "09_cad/body_v19/assembly_results.json",
+        "09_cad/assemble_recovery_v19.py"
+      ]
+    },
+    {
+      "name": "Estimated mass consistency and nonnegative quasi-static vertical force/moment balance",
+      "status": "passed",
+      "evidence": [
+        "05_dynamics/support_v19/balance_results.json"
+      ]
+    },
+    {
+      "name": "Toe anchor consistency and retained negative controls for simultaneous handoff/fixed-hand transfer",
+      "status": "passed",
+      "evidence": [
+        "04_kinematics/recovery_v19/phase_results.json",
+        "05_dynamics/support_v19/balance_results.json"
+      ]
+    },
+    {
+      "name": "Complete continuous recovery trajectory",
+      "status": "failed",
+      "evidence": [
+        "04_kinematics/recovery_v19/phase_results.json",
+        "05_dynamics/support_v19/balance_results.json"
+      ]
+    },
+    {
+      "name": "Manufacturable shoulder/elbow interfaces, structural/thermal/impact CAE and real robot",
+      "status": "not_run",
+      "evidence": [
+        "07_mechanics/knee_pad_v19.md"
+      ]
+    }
+  ],
+  "pending": [
+    "Use continuous body-pitch family and collision-aware alternating hand placement; replan foot transfer",
+    "Full shoulder gimbal/shaft/bearing and elbow clevis design",
+    "Actual knee pad material, fastening and load validation",
+    "Continuous collision/dynamics, torque-speed-duration and real measurements",
+    "Wukong appearance and remaining user tasks",
+    "PLM/MES implementation deferred by user until prototype completion"
+  ]
+}
