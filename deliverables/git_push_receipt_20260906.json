@@ -1,0 +1,27 @@
+{
+  "status":"content_push_verified",
+  "verified_at":"2026-09-06T12:14:47.3881559+08:00",
+  "repository":"git@github.com:letianxing/roboCreator.git",
+  "web_url":"https://github.com/letianxing/roboCreator",
+  "branch":"main",
+  "upstream":"origin/main",
+  "ssh_identity_confirmed_as":"letianxing",
+  "content_commit":"7dcfe7bcf639c111351cd9849e0f26b0df8a349b",
+  "remote_main_at_content_verification":"7dcfe7bcf639c111351cd9849e0f26b0df8a349b",
+  "content_files_tracked":736,
+  "lfs_tracked_paths":296,
+  "unique_lfs_objects":288,
+  "unique_lfs_object_bytes":4950633740,
+  "largest_ordinary_git_blob_bytes":2809870,
+  "missing_project_artifacts_in_initial_index":0,
+  "local_git_lfs_fsck":"passed",
+  "local_git_fsck_full":"passed",
+  "content_snapshot":"checkpoints/20260906_115801_367091_v0.18_git_archive/project.zip",
+  "content_snapshot_sha256":"ef94a6c8f527f7aaf4b46013e0ff1455f541a18f1b7a8977c7ebb445928d737d",
+  "attempts":[
+    {"attempt":1,"lfs_upload":"all 288 objects uploaded, about 5.0 GB","branch_push":"failed after SSH connection closed by remote"},
+    {"attempt":2,"lfs_upload":"existing remote objects reused","branch_push":"main created and upstream configured; remote SHA matched"}
+  ],
+  "excluded_from_git":["Git internal metadata .git/","rebuildable Python __pycache__/ and .pyc/.pyo files"],
+  "note":"This receipt records the verified first content commit. The receipt and human-readable completion records are committed afterward; their commit is checked against the remote at task completion. No private key is included; no repository visibility or billing settings were changed."
+}

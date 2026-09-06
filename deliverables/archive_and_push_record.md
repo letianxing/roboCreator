@@ -1,5 +1,9 @@
 # roboCreator 全项目归档与 Git 推送记录
 
+完成状态：2026-09-06已将全部归档内容推送至目标仓库main。首次内容提交 `7dcfe7bcf639c111351cd9849e0f26b0df8a349b` 已与远端main逐字核对一致，736个项目文件全部纳入，296个LFS路径对应288个唯一大文件对象（约4.95GB）。本记录及机器可读回执随后单独提交。
+
+回执：`deliverables/git_push_receipt_20260906.json`。首次上传期间GitHub关闭了Git的SSH连接，但LFS对象上传全部完成；添加本仓库SSH保活设置后重试，复用远端对象并成功创建main及upstream。`git lfs fsck`、`git fsck --full`均通过。
+
 日期：2026-09-06。用户明确要求保存、记录当前全部项目内容，并推送到 `git@github.com:letianxing/roboCreator.git` 的 `main` 分支。
 
 ## 保存范围
@@ -28,7 +32,7 @@ GitHub普通Git拒绝超过100MiB的文件；这些历史ZIP约347–488MB，需
 
 Git只在本项目 `.git/ssh_config` 与 `core.sshCommand` 中选择正确的已有身份；私钥位于项目外，不读取或输出其内容，也不随仓库上传。未修改全局SSH配置。G盘不记录文件所有者，Git已针对本项目绝对路径增加safe.directory例外，没有放开其他目录。
 
-本地归档和提交继续进行。本准备记录生成时远程推送尚未完成；后续结果由Git推送响应及远端main的commit核对确认，并补充推送回执。未新建仓库、未修改仓库可见性。
+准备阶段记录：最初远程推送尚未完成；现在已由推送响应和远端main的commit核对确认成功，详见顶部与回执。未新建仓库、未修改仓库可见性。
 
 归档前检查覆盖719个项目文件和4335个ZIP成员，8份历史快照的SHA-256与其已验证索引一致。已配置的已知私钥/令牌特征未命中；此扫描不保证覆盖所有可能的凭据格式。完整清单在 `11_verification/git_archive_inventory.json`，清单之后新增的本次快照、占位文件及推送回执同样会纳入Git提交。
 

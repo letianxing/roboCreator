@@ -2,9 +2,11 @@
 
 ## Git 全量归档（2026-09-06）
 
+- 已成功推送至目标仓库main，首次全量内容提交 `7dcfe7b` 与远端一致；包含736文件及全部历史快照，288个唯一LFS对象约4.95GB。推送回执见 `deliverables/git_push_receipt_20260906.json`，回执本身随后单独提交。
+
 - 用户要求将全部项目内容推送到 `git@github.com:letianxing/roboCreator.git`，分支 `main`。已初始化仓库并配置本地Git LFS，历史ZIP、CAD、求解大文件均纳入。
 - 已找到当前机器上对应 `letianxing` 的已有SSH身份，仓库可访问；本地身份选择不随项目上传。未新增软件安装或MCP配置。
-- 保存范围和诊断过程见 `deliverables/archive_and_push_record.md`；预提交盘点和历史快照校验见 `11_verification/git_archive_inventory.json`。本条是归档准备记录，远程成功状态以推送回执/远端main核对为准。
+- 保存范围和诊断过程见 `deliverables/archive_and_push_record.md`；预提交盘点和历史快照校验见 `11_verification/git_archive_inventory.json`。远程成功状态已由推送回执与远端main核对确认。
 - 工程状态仍为v0.18研究，Git提交不代表CAE/制造通过。下一个设计步骤仍是肩臂空间与膝接触结构。
 
 ## 最新整机包装/流程 v0.18（优先于历史下一步）
