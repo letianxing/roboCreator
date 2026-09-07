@@ -1,0 +1,3367 @@
+{
+  "complete": true,
+  "cases": [
+    {
+      "yaw_deg": 0,
+      "pitch_deg": 0,
+      "collisions": [],
+      "pass": true,
+      "cable": {
+        "centerline_length_mm": 37.99999999999999,
+        "bend_radius_mm": 27.27324250846209,
+        "angle_rad": 1.3933070110094063,
+        "chord_mm": 35.0,
+        "midpoint_world_mm": [
+          12.5,
+          -11.354835376814053,
+          341.76539554219744
+        ]
+      },
+      "cable_collisions": [],
+      "combined_geometry_pass": true,
+      "visibility_probes": {
+        "bottle_base_center": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 124.5,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": false
+        },
+        "bottle_grip_center": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 124.5,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": false
+        },
+        "bottle_top_center": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 124.5,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": false
+        },
+        "side_bottle_L": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 94.5,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": false
+        },
+        "side_bottle_R": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 94.5,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": false
+        },
+        "small_parts": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 144.5,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": false
+        },
+        "near_table_edge": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 64.5,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": false
+        },
+        "ground_ahead": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 344.5,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_near": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 544.5,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_far": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 1444.5,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "seated_person_face": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 944.5,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        }
+      },
+      "assembly_envelope_xyz_mm": [
+        172.94116990509423,
+        289.40000000000003,
+        394.26539554219744
+      ],
+      "highest_world_Z_mm": 394.26539554219744,
+      "modeled_mass_kg_unchanged_allowances": 4.145233340327384,
+      "COM_mm": [
+        8.153173575591957,
+        -0.09217399769335802,
+        194.29317322464385
+      ],
+      "head_pitch_gravity_torque_Nm": 0.018515249547511936
+    },
+    {
+      "yaw_deg": 0,
+      "pitch_deg": 5,
+      "collisions": [],
+      "pass": true,
+      "cable": {
+        "centerline_length_mm": 38.0,
+        "bend_radius_mm": 24.66001162782661,
+        "angle_rad": 1.5409562888088995,
+        "chord_mm": 34.35033206913071,
+        "midpoint_world_mm": [
+          12.442152246470217,
+          -11.964536353913896,
+          341.4404641578478
+        ]
+      },
+      "cable_collisions": [],
+      "combined_geometry_pass": true,
+      "visibility_probes": {
+        "bottle_base_center": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 155.23327030081455,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": true
+        },
+        "bottle_grip_center": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 145.64613859857215,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": false
+        },
+        "bottle_top_center": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 136.05900689632975,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": false
+        },
+        "side_bottle_L": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 115.76029765581978,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": false
+        },
+        "side_bottle_R": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 115.76029765581978,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": false
+        },
+        "small_parts": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 174.72138554891117,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": true
+        },
+        "near_table_edge": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 95.46158841530982,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": false
+        },
+        "ground_ahead": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 374.39610388099857,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_near": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 551.8461078124333,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_far": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 1439.7057618202384,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "seated_person_face": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 915.4616899500683,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        }
+      },
+      "assembly_envelope_xyz_mm": [
+        172.94116990509423,
+        289.40000000000003,
+        396.09701948913914
+      ],
+      "highest_world_Z_mm": 396.09701948913914,
+      "modeled_mass_kg_unchanged_allowances": 4.145233340327384,
+      "COM_mm": [
+        8.160589964035049,
+        -0.0921739976933588,
+        194.25309048830937
+      ],
+      "head_pitch_gravity_torque_Nm": 0.01881683504838178
+    },
+    {
+      "yaw_deg": 0,
+      "pitch_deg": 10,
+      "collisions": [],
+      "pass": true,
+      "cable": {
+        "centerline_length_mm": 38.000000000000014,
+        "bend_radius_mm": 22.69502203579208,
+        "angle_rad": 1.6743759904736204,
+        "chord_mm": 33.71405754717326,
+        "midpoint_world_mm": [
+          12.356204984962314,
+          -12.499476434150775,
+          341.12181099944036
+        ]
+      },
+      "cable_collisions": [],
+      "combined_geometry_pass": true,
+      "visibility_probes": {
+        "bottle_base_center": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 184.40078618949482,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": true
+        },
+        "bottle_grip_center": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 165.2994866461325,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": true
+        },
+        "bottle_top_center": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 146.19818710277016,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": false
+        },
+        "side_bottle_L": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 135.75525405576624,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": false
+        },
+        "side_bottle_R": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 135.75525405576624,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": false
+        },
+        "small_parts": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 203.22870036140435,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "near_table_edge": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 125.31232100876234,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": false
+        },
+        "ground_ahead": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 401.0584918521806,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_near": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 554.6079980378896,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_far": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 1423.570157982184,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "seated_person_face": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 879.0718281760007,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        }
+      },
+      "assembly_envelope_xyz_mm": [
+        175.24330914106523,
+        289.40000000000003,
+        402.54302641523896
+      ],
+      "highest_world_Z_mm": 402.54302641523896,
+      "modeled_mass_kg_unchanged_allowances": 4.145233340327384,
+      "COM_mm": [
+        8.16448469022446,
+        -0.09217399769335904,
+        194.21251389804473
+      ],
+      "head_pitch_gravity_torque_Nm": 0.018975213072617802
+    },
+    {
+      "yaw_deg": 0,
+      "pitch_deg": 15,
+      "collisions": [],
+      "pass": true,
+      "cable": {
+        "centerline_length_mm": 38.00000000000001,
+        "bend_radius_mm": 21.16293910994362,
+        "angle_rad": 1.7955918033211806,
+        "chord_mm": 33.09692865464774,
+        "midpoint_world_mm": [
+          12.242812326032745,
+          -12.971338745375624,
+          340.81186120991845
+        ]
+      },
+      "cable_collisions": [],
+      "combined_geometry_pass": true,
+      "visibility_probes": {
+        "bottle_base_center": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 211.78056525830044,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "bottle_grip_center": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 183.31047029702313,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": true
+        },
+        "bottle_top_center": {
+          "depth_nominal": false,
+          "rgb_nominal": true,
+          "axial_Z_mm": 154.84037533574588,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": true
+        },
+        "side_bottle_L": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 154.3326955083511,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": true
+        },
+        "side_bottle_R": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 154.3326955083511,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": true
+        },
+        "small_parts": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 229.8049865585692,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "near_table_edge": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 153.82501568095634,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": true
+        },
+        "ground_ahead": {
+          "depth_nominal": false,
+          "rgb_nominal": true,
+          "axial_Z_mm": 424.2842470418954,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_near": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 552.7646510240788,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_far": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 1396.2159901739883,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "seated_person_face": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 835.6073634986977,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        }
+      },
+      "assembly_envelope_xyz_mm": [
+        177.75466769940994,
+        289.40000000000003,
+        408.7239490676796
+      ],
+      "highest_world_Z_mm": 408.7239490676796,
+      "modeled_mass_kg_unchanged_allowances": 4.145233340327384,
+      "COM_mm": [
+        8.164828112942185,
+        -0.09217399769335832,
+        194.17175226620256
+      ],
+      "head_pitch_gravity_torque_Nm": 0.01898917826782439
+    },
+    {
+      "yaw_deg": 0,
+      "pitch_deg": 20,
+      "collisions": [],
+      "pass": true,
+      "cable": {
+        "centerline_length_mm": 38.0,
+        "bend_radius_mm": 19.939379747362498,
+        "angle_rad": 1.9057764324402564,
+        "chord_mm": 32.50486327027122,
+        "midpoint_world_mm": [
+          12.102837256284335,
+          -13.387872025217613,
+          340.51297369433325
+        ]
+      },
+      "cable_collisions": [],
+      "combined_geometry_pass": true,
+      "visibility_probes": {
+        "bottle_base_center": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 237.1642308561551,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "bottle_grip_center": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 199.54201509033152,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "bottle_top_center": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 161.91979932450795,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": true
+        },
+        "side_bottle_L": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 171.35123646675424,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": true
+        },
+        "side_bottle_R": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 171.35123646675424,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": true
+        },
+        "small_parts": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 254.2479825552449,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "near_table_edge": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 180.78267360900057,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": true
+        },
+        "ground_ahead": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 443.89660742905494,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_near": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 546.3300957548195,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_far": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 1357.8514401295704,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "seated_person_face": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 785.3990867389153,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        }
+      },
+      "assembly_envelope_xyz_mm": [
+        179.59269608114823,
+        289.40000000000003,
+        414.53607286771665
+      ],
+      "highest_world_Z_mm": 414.53607286771665,
+      "modeled_mass_kg_unchanged_allowances": 4.145233340327384,
+      "COM_mm": [
+        8.161617618533977,
+        -0.09217399769335781,
+        194.13111581341383
+      ],
+      "head_pitch_gravity_torque_Nm": 0.018858624350433395
+    },
+    {
+      "yaw_deg": 0,
+      "pitch_deg": 25,
+      "collisions": [],
+      "pass": true,
+      "cable": {
+        "centerline_length_mm": 37.999999999999986,
+        "bend_radius_mm": 18.947055568631544,
+        "angle_rad": 2.005588671144883,
+        "chord_mm": 31.943882448410555,
+        "midpoint_world_mm": [
+          11.937345070517082,
+          -13.75450886766698,
+          340.2274231671515
+        ]
+      },
+      "cable_collisions": [
+        {
+          "a": "NeckMotor1",
+          "b": "NeckCable_PROBE",
+          "volume_mm3": 0.006719147003676026
+        }
+      ],
+      "combined_geometry_pass": false,
+      "visibility_probes": {
+        "bottle_base_center": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 260.3585979607828,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "bottle_grip_center": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 213.87058916930584,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "bottle_top_center": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 167.3825803778289,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": true
+        },
+        "side_bottle_L": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 186.68135555820635,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": true
+        },
+        "side_bottle_R": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 186.68135555820635,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": true
+        },
+        "small_parts": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 276.37166239281225,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "near_table_edge": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 205.98013073858377,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "ground_ahead": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 459.7463111088458,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_near": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 535.3533030810008,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_far": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 1308.768485239916,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "seated_person_face": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 728.8291131993811,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        }
+      },
+      "assembly_envelope_xyz_mm": [
+        180.74340578046326,
+        289.40000000000003,
+        419.93516404377556
+      ],
+      "highest_world_Z_mm": 419.93516404377556,
+      "modeled_mass_kg_unchanged_allowances": 4.145233340327384,
+      "COM_mm": [
+        8.154877640800828,
+        -0.09217399769335982,
+        194.09091380762115
+      ],
+      "head_pitch_gravity_torque_Nm": 0.018584544914586637
+    },
+    {
+      "yaw_deg": 0,
+      "pitch_deg": 30,
+      "collisions": [],
+      "pass": true,
+      "cable": {
+        "centerline_length_mm": 37.99999999999999,
+        "bend_radius_mm": 18.135321649226654,
+        "angle_rad": 2.095358479711356,
+        "chord_mm": 31.420030442406834,
+        "midpoint_world_mm": [
+          11.747595264191645,
+          -14.07522710940722,
+          339.95738284030523
+        ]
+      },
+      "cable_collisions": [
+        {
+          "a": "NeckMotor0",
+          "b": "NeckCable_PROBE",
+          "volume_mm3": 0.02893028749757644
+        },
+        {
+          "a": "NeckMotor1",
+          "b": "NeckCable_PROBE",
+          "volume_mm3": 0.009640814352444755
+        }
+      ],
+      "combined_geometry_pass": false,
+      "visibility_probes": {
+        "bottle_base_center": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 281.18714343337547,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "bottle_grip_center": {
+          "depth_nominal": false,
+          "rgb_nominal": true,
+          "axial_Z_mm": 226.18714343337547,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "bottle_top_center": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 171.18714343337547,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": true
+        },
+        "side_bottle_L": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 200.2063813198423,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "side_bottle_R": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 200.2063813198423,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "small_parts": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 296.0076515090642,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "near_table_edge": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 229.22561920630915,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "ground_ahead": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 471.71273226595196,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_near": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 519.9178130228397,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_far": {
+          "depth_nominal": false,
+          "rgb_nominal": true,
+          "axial_Z_mm": 1249.3406764288345,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "seated_person_face": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 666.3279745366153,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        }
+      },
+      "assembly_envelope_xyz_mm": [
+        181.1980392017257,
+        289.40000000000003,
+        424.8801322519462
+      ],
+      "highest_world_Z_mm": 424.8801322519462,
+      "modeled_mass_kg_unchanged_allowances": 4.145233340327384,
+      "COM_mm": [
+        8.144659475043017,
+        -0.09217399769335873,
+        194.05145221036327
+      ],
+      "head_pitch_gravity_torque_Nm": 0.018169025870285297
+    },
+    {
+      "yaw_deg": 0,
+      "pitch_deg": 35,
+      "collisions": [],
+      "pass": true,
+      "cable": {
+        "centerline_length_mm": 38.00000000000002,
+        "bend_radius_mm": 17.469669843544352,
+        "angle_rad": 2.1751985206544884,
+        "chord_mm": 30.939276312551048,
+        "midpoint_world_mm": [
+          11.535031947908195,
+          -14.353041248102318,
+          339.7049078837365
+        ]
+      },
+      "cable_collisions": [
+        {
+          "a": "NeckMotor0",
+          "b": "NeckCable_PROBE",
+          "volume_mm3": 0.5324952662607735
+        },
+        {
+          "a": "NeckMotor1",
+          "b": "NeckCable_PROBE",
+          "volume_mm3": 0.001259442182513486
+        }
+      ],
+      "combined_geometry_pass": false,
+      "visibility_probes": {
+        "bottle_base_center": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 299.49134946626725,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "bottle_grip_center": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 236.39794146765217,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "bottle_top_center": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 173.3045334690371,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": true
+        },
+        "side_bottle_L": {
+          "depth_nominal": false,
+          "rgb_nominal": true,
+          "axial_Z_mm": 211.82338013898243,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "side_bottle_R": {
+          "depth_nominal": false,
+          "rgb_nominal": true,
+          "axial_Z_mm": 211.82338013898243,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "small_parts": {
+          "depth_nominal": false,
+          "rgb_nominal": true,
+          "axial_Z_mm": 313.00650817029185,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "near_table_edge": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 250.34222680892773,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "ground_ahead": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 479.70479920984553,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_near": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 500.1410989798824,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_far": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 1180.0202952048703,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "seated_person_face": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 598.3713421550607,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        }
+      },
+      "assembly_envelope_xyz_mm": [
+        180.95313631008457,
+        289.40000000000003,
+        429.33334329831087
+      ],
+      "highest_world_Z_mm": 429.33334329831087,
+      "modeled_mass_kg_unchanged_allowances": 4.145233340327384,
+      "COM_mm": [
+        8.131040887671837,
+        -0.09217399769335859,
+        194.01303134822288
+      ],
+      "head_pitch_gravity_torque_Nm": 0.017615229568353208
+    },
+    {
+      "yaw_deg": 0,
+      "pitch_deg": 40,
+      "collisions": [],
+      "pass": true,
+      "cable": {
+        "centerline_length_mm": 37.99999999999998,
+        "bend_radius_mm": 16.925916893618353,
+        "angle_rad": 2.2450777844907943,
+        "chord_mm": 30.507397548121265,
+        "midpoint_world_mm": [
+          11.301272856852904,
+          -14.590295829257391,
+          339.4719197843134
+        ]
+      },
+      "cable_collisions": [
+        {
+          "a": "NeckMotor0",
+          "b": "NeckCable_PROBE",
+          "volume_mm3": 1.8394358522826995
+        }
+      ],
+      "combined_geometry_pass": false,
+      "visibility_probes": {
+        "bottle_base_center": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 315.1319099991659,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "bottle_grip_center": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 244.42527293364657,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "bottle_top_center": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 173.71863586812722,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": true
+        },
+        "side_bottle_L": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 221.4439396400772,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "side_bottle_R": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 221.4439396400772,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "small_parts": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 327.23886081311275,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "near_table_edge": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 269.1692434120272,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "ground_ahead": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 483.6616874853411,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_near": {
+          "depth_nominal": false,
+          "rgb_nominal": true,
+          "axial_Z_mm": 476.17367368750183,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_far": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 1101.3349115259282,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "seated_person_face": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 525.4764070604774,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        }
+      },
+      "assembly_envelope_xyz_mm": [
+        180.0105609644217,
+        289.40000000000003,
+        433.26090555788437
+      ],
+      "highest_world_Z_mm": 433.26090555788437,
+      "modeled_mass_kg_unchanged_allowances": 4.145233340327384,
+      "COM_mm": [
+        8.114125524360322,
+        -0.09217399769335856,
+        193.97594362716
+      ],
+      "head_pitch_gravity_torque_Nm": 0.016927370733039758
+    },
+    {
+      "yaw_deg": 0,
+      "pitch_deg": 45,
+      "collisions": [],
+      "pass": true,
+      "cable": {
+        "centerline_length_mm": 37.999999999999964,
+        "bend_radius_mm": 16.486798061270175,
+        "angle_rad": 2.3048744734289786,
+        "chord_mm": 30.12984797087674,
+        "midpoint_world_mm": [
+          11.048097038856277,
+          -14.788844969013878,
+          339.2601917221546
+        ]
+      },
+      "cable_collisions": [
+        {
+          "a": "NeckMotor0",
+          "b": "NeckCable_PROBE",
+          "volume_mm3": 4.036935215145865
+        }
+      ],
+      "combined_geometry_pass": false,
+      "visibility_probes": {
+        "bottle_base_center": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 327.98979092238744,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "bottle_grip_center": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 250.2080449918672,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "bottle_top_center": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 172.42629906134698,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": true
+        },
+        "side_bottle_L": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 228.99484155627079,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "side_bottle_R": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 228.99484155627079,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "small_parts": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 338.5963926401856,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "near_table_edge": {
+          "depth_nominal": false,
+          "rgb_nominal": true,
+          "axial_Z_mm": 285.5633840511946,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "ground_ahead": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 483.55328278342785,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_near": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 448.19794372410047,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_far": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 1013.8833686733385,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "seated_person_face": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 448.19794372410036,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        }
+      },
+      "assembly_envelope_xyz_mm": [
+        178.37748673226002,
+        289.40000000000003,
+        436.6329279103445
+      ],
+      "highest_world_Z_mm": 436.6329279103445,
+      "modeled_mass_kg_unchanged_allowances": 4.145233340327384,
+      "COM_mm": [
+        8.094042121237033,
+        -0.09217399769335818,
+        193.94047130712616
+      ],
+      "head_pitch_gravity_torque_Nm": 0.016110684385421438
+    },
+    {
+      "yaw_deg": 0,
+      "pitch_deg": 50,
+      "collisions": [],
+      "pass": true,
+      "cable": {
+        "centerline_length_mm": 38.0,
+        "bend_radius_mm": 16.139878112650244,
+        "angle_rad": 2.354416788948118,
+        "chord_mm": 29.81161440404343,
+        "midpoint_world_mm": [
+          10.777431314765039,
+          -14.950162679178042,
+          339.071335075658
+        ]
+      },
+      "cable_collisions": [
+        {
+          "a": "NeckMotor0",
+          "b": "NeckCable_PROBE",
+          "volume_mm3": 7.120392542104909
+        }
+      ],
+      "combined_geometry_pass": false,
+      "visibility_probes": {
+        "bottle_base_center": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 337.9671359983053,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "bottle_grip_center": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 253.70224725521774,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "bottle_top_center": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 169.43735851213017,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": true
+        },
+        "side_bottle_L": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 234.4186189646216,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "side_bottle_R": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 234.4186189646216,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "small_parts": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 346.99266597644123,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "near_table_edge": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 299.39987941711297,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "ground_ahead": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 479.380410129344,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_near": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 416.42682128690734,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_far": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 918.3312256928948,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "seated_person_face": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 367.1240879139318,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        }
+      },
+      "assembly_envelope_xyz_mm": [
+        176.06634229458365,
+        289.40000000000003,
+        439.4237472295064
+      ],
+      "highest_world_Z_mm": 439.4237472295064,
+      "modeled_mass_kg_unchanged_allowances": 4.145233340327384,
+      "COM_mm": [
+        8.07094352512644,
+        -0.09217399769335913,
+        193.90688435389555
+      ],
+      "head_pitch_gravity_torque_Nm": 0.015171386001732887
+    },
+    {
+      "yaw_deg": -30,
+      "pitch_deg": 0,
+      "collisions": [],
+      "pass": true,
+      "cable": {
+        "centerline_length_mm": 38.0,
+        "bend_radius_mm": 31.14910641538651,
+        "angle_rad": 1.2199386875903895,
+        "chord_mm": 35.68705355066654,
+        "midpoint_world_mm": [
+          10.516685623994354,
+          -13.338225582949706,
+          340.8932478272002
+        ]
+      },
+      "cable_collisions": [
+        {
+          "a": "NeckMotor0",
+          "b": "NeckCable_PROBE",
+          "volume_mm3": 6.351155784454536
+        }
+      ],
+      "combined_geometry_pass": false,
+      "visibility_probes": {
+        "bottle_base_center": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 100.38457268119892,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": false
+        },
+        "bottle_grip_center": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 100.38457268119892,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": false
+        },
+        "bottle_top_center": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 100.38457268119892,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": false
+        },
+        "side_bottle_L": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": -0.5961894323343131,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": false
+        },
+        "side_bottle_R": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 149.40381056766583,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": false
+        },
+        "small_parts": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 117.7050807568877,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": false
+        },
+        "near_table_edge": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 48.4230484541326,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": false
+        },
+        "ground_ahead": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 290.9101615137754,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_near": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 464.11524227066303,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_far": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 1243.5381056766576,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "seated_person_face": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 810.5254037844384,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        }
+      },
+      "assembly_envelope_xyz_mm": [
+        172.94116990509423,
+        289.40000000000003,
+        394.26539554219744
+      ],
+      "highest_world_Z_mm": 394.26539554219744,
+      "modeled_mass_kg_unchanged_allowances": 4.145233340327384,
+      "COM_mm": [
+        8.025143701725103,
+        -0.4383049977659805,
+        194.29317322464385
+      ],
+      "head_pitch_gravity_torque_Nm": 0.018515249547511922
+    },
+    {
+      "yaw_deg": -30,
+      "pitch_deg": 30,
+      "collisions": [
+        {
+          "a": "camera",
+          "b": "R_ShoulderMotor1",
+          "volume_mm3": 0.6451579376549049
+        }
+      ],
+      "pass": false,
+      "cable": {
+        "centerline_length_mm": 37.99999999999999,
+        "bend_radius_mm": 19.421579563784032,
+        "angle_rad": 1.9565864802706199,
+        "chord_mm": 32.22216621294209,
+        "midpoint_world_mm": [
+          9.981985218283306,
+          -15.892868830874662,
+          338.6916388988214
+        ]
+      },
+      "cable_collisions": [
+        {
+          "a": "NeckMotor0",
+          "b": "NeckCable_PROBE",
+          "volume_mm3": 14.116567082880108
+        }
+      ],
+      "combined_geometry_pass": false,
+      "visibility_probes": {
+        "bottle_base_center": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 260.30257075217645,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "bottle_grip_center": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 205.30257075217645,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "bottle_top_center": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 150.30257075217645,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": true
+        },
+        "side_bottle_L": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 117.8506654683435,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": false
+        },
+        "side_bottle_R": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 247.7544760360094,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "small_parts": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 272.80257075217645,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "near_table_edge": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 215.30257075217645,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "ground_ahead": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 425.3025707521764,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_near": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 450.3025707521764,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_far": {
+          "depth_nominal": false,
+          "rgb_nominal": true,
+          "axial_Z_mm": 1075.3025707521763,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "seated_person_face": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 550.3025707521765,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        }
+      },
+      "assembly_envelope_xyz_mm": [
+        172.94116990509423,
+        289.40000000000003,
+        424.8801322519462
+      ],
+      "highest_world_Z_mm": 424.8801322519462,
+      "modeled_mass_kg_unchanged_allowances": 4.145233340327384,
+      "COM_mm": [
+        8.017770274359346,
+        -0.43404794749151093,
+        194.05145221036327
+      ],
+      "head_pitch_gravity_torque_Nm": 0.01816902587028536
+    },
+    {
+      "yaw_deg": -30,
+      "pitch_deg": 45,
+      "collisions": [
+        {
+          "a": "camera",
+          "b": "NeckMotor0",
+          "volume_mm3": 17.34480033155577
+        },
+        {
+          "a": "camera",
+          "b": "UACCassette",
+          "volume_mm3": 147.1753251838016
+        },
+        {
+          "a": "camera",
+          "b": "InsulationSheet_PROVISIONAL",
+          "volume_mm3": 0.5173926194830946
+        },
+        {
+          "a": "camera",
+          "b": "RemainingBoardSpace_PROBE",
+          "volume_mm3": 8.329782467499978
+        }
+      ],
+      "pass": false,
+      "cable": {
+        "centerline_length_mm": 37.99999999999999,
+        "bend_radius_mm": 17.553614274414038,
+        "angle_rad": 2.1647963437016156,
+        "chord_mm": 31.0026878486294,
+        "midpoint_world_mm": [
+          9.425375774579594,
+          -16.29839069637238,
+          338.04929370391744
+        ]
+      },
+      "cable_collisions": [
+        {
+          "a": "camera",
+          "b": "NeckCable_PROBE",
+          "volume_mm3": 5.345691134686087
+        },
+        {
+          "a": "NeckMotor0",
+          "b": "NeckCable_PROBE",
+          "volume_mm3": 33.51262335632901
+        }
+      ],
+      "combined_geometry_pass": false,
+      "visibility_probes": {
+        "bottle_base_center": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 310.9376087340519,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "bottle_grip_center": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 233.15586280353165,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "bottle_top_center": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 155.37411687301142,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": true
+        },
+        "side_bottle_L": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 161.7516811436667,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": true
+        },
+        "side_bottle_R": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 267.8176983216489,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "small_parts": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 319.649523542035,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "near_table_edge": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 274.1952625923042,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "ground_ahead": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 445.65954458712656,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_near": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 391.3573364296485,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_far": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 871.7818504372085,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "seated_person_face": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 353.46359823334717,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        }
+      },
+      "assembly_envelope_xyz_mm": [
+        172.94116990509423,
+        289.40000000000003,
+        436.63292791034456
+      ],
+      "highest_world_Z_mm": 436.63292791034456,
+      "modeled_mass_kg_unchanged_allowances": 4.145233340327384,
+      "COM_mm": [
+        7.973934360091011,
+        -0.4087392705885207,
+        193.9404713071262
+      ],
+      "head_pitch_gravity_torque_Nm": 0.016110684385421153
+    },
+    {
+      "yaw_deg": -30,
+      "pitch_deg": 50,
+      "collisions": [
+        {
+          "a": "camera",
+          "b": "NeckMotor0",
+          "volume_mm3": 111.34311940454091
+        },
+        {
+          "a": "camera",
+          "b": "UACCassette",
+          "volume_mm3": 308.1775482081873
+        },
+        {
+          "a": "camera",
+          "b": "InsulationSheet_PROVISIONAL",
+          "volume_mm3": 10.068784666126163
+        },
+        {
+          "a": "camera",
+          "b": "RemainingBoardSpace_PROBE",
+          "volume_mm3": 103.17550640911388
+        }
+      ],
+      "pass": false,
+      "cable": {
+        "centerline_length_mm": 37.99999999999999,
+        "bend_radius_mm": 17.172693816399807,
+        "angle_rad": 2.2128153221779483,
+        "chord_mm": 30.708057723551388,
+        "midpoint_world_mm": [
+          9.200732604014428,
+          -16.33512208645724,
+          337.91361755062604
+        ]
+      },
+      "cable_collisions": [
+        {
+          "a": "camera",
+          "b": "NeckCable_PROBE",
+          "volume_mm3": 41.73952916120225
+        },
+        {
+          "a": "NeckMotor0",
+          "b": "NeckCable_PROBE",
+          "volume_mm3": 38.93217354145441
+        }
+      ],
+      "combined_geometry_pass": false,
+      "visibility_probes": {
+        "bottle_base_center": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 322.4660381154838,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "bottle_grip_center": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 238.20114937239615,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "bottle_top_center": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 153.93626062930855,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": true
+        },
+        "side_bottle_L": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 173.29196666911307,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": true
+        },
+        "side_bottle_R": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 269.7101081220941,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "small_parts": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 329.7692238844173,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "near_table_edge": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 289.06581416189863,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "ground_ahead": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 444.93352594529597,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_near": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 364.7564950108353,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_far": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 789.1554100027147,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "seated_person_face": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 281.0068774538116,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        }
+      },
+      "assembly_envelope_xyz_mm": [
+        172.94116990509423,
+        289.40000000000003,
+        439.4237472295064
+      ],
+      "highest_world_Z_mm": 439.4237472295064,
+      "modeled_mass_kg_unchanged_allowances": 4.145233340327384,
+      "COM_mm": [
+        7.953930389067497,
+        -0.39718997253322386,
+        193.90688435389552
+      ],
+      "head_pitch_gravity_torque_Nm": 0.015171386001733247
+    },
+    {
+      "yaw_deg": -15,
+      "pitch_deg": 0,
+      "collisions": [],
+      "pass": true,
+      "cable": {
+        "centerline_length_mm": 38.00000000000001,
+        "bend_radius_mm": 28.130845761273388,
+        "angle_rad": 1.3508303419839969,
+        "chord_mm": 35.17601296295833,
+        "midpoint_world_mm": [
+          11.666402462269664,
+          -12.685144564352331,
+          341.2279152588932
+        ]
+      },
+      "cable_collisions": [
+        {
+          "a": "NeckMotor0",
+          "b": "NeckCable_PROBE",
+          "volume_mm3": 0.04604103910835499
+        }
+      ],
+      "combined_geometry_pass": false,
+      "visibility_probes": {
+        "bottle_base_center": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 118.36664873203229,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": false
+        },
+        "bottle_grip_center": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 118.36664873203229,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": false
+        },
+        "bottle_top_center": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 118.36664873203229,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": false
+        },
+        "side_bottle_L": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 50.566017177982125,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": false
+        },
+        "side_bottle_R": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 128.21173070873834,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": false
+        },
+        "small_parts": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 137.68516525781365,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": false
+        },
+        "near_table_edge": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 60.41109915468819,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": false
+        },
+        "ground_ahead": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 330.8703305156273,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_near": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 524.055495773441,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_far": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 1393.3887394336023,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "seated_person_face": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 910.4258262890683,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        }
+      },
+      "assembly_envelope_xyz_mm": [
+        172.94116990509423,
+        289.40000000000003,
+        394.26539554219744
+      ],
+      "highest_world_Z_mm": 394.26539554219744,
+      "modeled_mass_kg_unchanged_allowances": 4.145233340327384,
+      "COM_mm": [
+        8.111943143984522,
+        -0.2736672240598538,
+        194.29317322464385
+      ],
+      "head_pitch_gravity_torque_Nm": 0.018515249547511915
+    },
+    {
+      "yaw_deg": -15,
+      "pitch_deg": 30,
+      "collisions": [],
+      "pass": true,
+      "cable": {
+        "centerline_length_mm": 38.0,
+        "bend_radius_mm": 18.490732119437016,
+        "angle_rad": 2.055083582118163,
+        "chord_mm": 31.65727492999978,
+        "midpoint_world_mm": [
+          10.989168933366278,
+          -15.238157306648585,
+          339.2063239265733
+        ]
+      },
+      "cable_collisions": [
+        {
+          "a": "NeckMotor0",
+          "b": "NeckCable_PROBE",
+          "volume_mm3": 4.74360320525527
+        }
+      ],
+      "combined_geometry_pass": false,
+      "visibility_probes": {
+        "bottle_base_center": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 275.87550542498195,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "bottle_grip_center": {
+          "depth_nominal": false,
+          "rgb_nominal": true,
+          "axial_Z_mm": 220.87550542498195,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "bottle_top_center": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 165.87550542498195,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": true
+        },
+        "side_bottle_L": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 162.15843610654574,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": true
+        },
+        "side_bottle_R": {
+          "depth_nominal": false,
+          "rgb_nominal": true,
+          "axial_Z_mm": 229.40159651914973,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "small_parts": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 290.10583149973814,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "near_table_edge": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 225.6845272007135,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "ground_ahead": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 459.9090922472998,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_near": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 502.21235299486136,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_far": {
+          "depth_nominal": false,
+          "rgb_nominal": true,
+          "axial_Z_mm": 1205.0770263588886,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "seated_person_face": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 636.8188744899846,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        }
+      },
+      "assembly_envelope_xyz_mm": [
+        178.23644808438965,
+        289.40000000000003,
+        424.8801322519462
+      ],
+      "highest_world_Z_mm": 424.8801322519462,
+      "modeled_mass_kg_unchanged_allowances": 4.145233340327384,
+      "COM_mm": [
+        8.10371915437668,
+        -0.27146361268587094,
+        194.05145221036327
+      ],
+      "head_pitch_gravity_torque_Nm": 0.01816902587028537
+    },
+    {
+      "yaw_deg": -15,
+      "pitch_deg": 45,
+      "collisions": [
+        {
+          "a": "camera",
+          "b": "UACCassette",
+          "volume_mm3": 88.04415857640429
+        },
+        {
+          "a": "camera",
+          "b": "InsulationSheet_PROVISIONAL",
+          "volume_mm3": 0.9995036533198342
+        },
+        {
+          "a": "camera",
+          "b": "RemainingBoardSpace_PROBE",
+          "volume_mm3": 1.3254325896323336
+        }
+      ],
+      "pass": false,
+      "cable": {
+        "centerline_length_mm": 38.00000000000001,
+        "bend_radius_mm": 16.81802717102463,
+        "angle_rad": 2.2594802359143094,
+        "chord_mm": 30.417126915482687,
+        "midpoint_world_mm": [
+          10.346921957226254,
+          -15.767236633573432,
+          338.53536124817435
+        ]
+      },
+      "cable_collisions": [
+        {
+          "a": "NeckMotor0",
+          "b": "NeckCable_PROBE",
+          "volume_mm3": 14.258508224162423
+        }
+      ],
+      "combined_geometry_pass": false,
+      "visibility_probes": {
+        "bottle_base_center": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 323.6528566494084,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "bottle_grip_center": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 245.87111071888813,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "bottle_top_center": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 168.0893647883679,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": true
+        },
+        "side_bottle_L": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 197.92882437828865,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "side_bottle_R": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 252.83263494595445,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "small_parts": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 333.77757678132,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "near_table_edge": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 282.67209453587526,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "ground_ahead": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 473.9156510656967,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_near": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 433.7414961475036,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_far": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 977.7422497318462,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "seated_person_face": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 424.10386442977233,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        }
+      },
+      "assembly_envelope_xyz_mm": [
+        175.51200360972933,
+        289.40000000000003,
+        436.63292791034456
+      ],
+      "highest_world_Z_mm": 436.63292791034456,
+      "modeled_mass_kg_unchanged_allowances": 4.145233340327384,
+      "COM_mm": [
+        8.054826545077061,
+        -0.2583628775081921,
+        193.94047130712616
+      ],
+      "head_pitch_gravity_torque_Nm": 0.016110684385421174
+    },
+    {
+      "yaw_deg": -15,
+      "pitch_deg": 50,
+      "collisions": [
+        {
+          "a": "camera",
+          "b": "NeckMotor0",
+          "volume_mm3": 1.1819287283152429
+        },
+        {
+          "a": "camera",
+          "b": "ElectronicsCarrier",
+          "volume_mm3": 9.950289454304801
+        },
+        {
+          "a": "camera",
+          "b": "UACCassette",
+          "volume_mm3": 93.80636987857568
+        },
+        {
+          "a": "camera",
+          "b": "InsulationSheet_PROVISIONAL",
+          "volume_mm3": 0.7478863093438672
+        },
+        {
+          "a": "camera",
+          "b": "RemainingBoardSpace_PROBE",
+          "volume_mm3": 0.17151708142076852
+        }
+      ],
+      "pass": false,
+      "cable": {
+        "centerline_length_mm": 37.99999999999999,
+        "bend_radius_mm": 16.47300110213329,
+        "angle_rad": 2.30680492063337,
+        "chord_mm": 30.11753903890252,
+        "midpoint_world_mm": [
+          10.094885144500731,
+          -15.856251716246987,
+          338.37459157871484
+        ]
+      },
+      "cable_collisions": [
+        {
+          "a": "camera",
+          "b": "NeckCable_PROBE",
+          "volume_mm3": 4.645195345237813
+        },
+        {
+          "a": "NeckMotor0",
+          "b": "NeckCable_PROBE",
+          "volume_mm3": 18.89014270557772
+        }
+      ],
+      "combined_geometry_pass": false,
+      "visibility_probes": {
+        "bottle_base_center": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 334.02469379740046,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "bottle_grip_center": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 249.7598050543129,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "bottle_top_center": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 165.49491631122532,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": true
+        },
+        "side_bottle_L": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 206.17839916244725,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "side_bottle_R": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 256.08810176528783,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "small_parts": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 342.6121746421025,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "near_table_edge": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 296.77158461650976,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "ground_ahead": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 470.61942746066654,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_near": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 403.2853472838911,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_far": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 885.4775406853545,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "seated_person_face": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 345.22163124223823,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        }
+      },
+      "assembly_envelope_xyz_mm": [
+        173.27960950909335,
+        289.40000000000003,
+        439.4237472295063
+      ],
+      "highest_world_Z_mm": 439.4237472295063,
+      "modeled_mass_kg_unchanged_allowances": 4.145233340327384,
+      "COM_mm": [
+        8.032515014542833,
+        -0.2523845209196374,
+        193.90688435389555
+      ],
+      "head_pitch_gravity_torque_Nm": 0.015171386001733136
+    },
+    {
+      "yaw_deg": 15,
+      "pitch_deg": 0,
+      "collisions": [],
+      "pass": true,
+      "cable": {
+        "centerline_length_mm": 38.0,
+        "bend_radius_mm": 28.130845761273388,
+        "angle_rad": 1.3508303419839969,
+        "chord_mm": 35.17601296295833,
+        "midpoint_world_mm": [
+          12.948911653679799,
+          -9.444380518379276,
+          342.36316797706456
+        ]
+      },
+      "cable_collisions": [
+        {
+          "a": "NeckMotor1",
+          "b": "NeckCable_PROBE",
+          "volume_mm3": 0.5076880973058491
+        }
+      ],
+      "combined_geometry_pass": false,
+      "visibility_probes": {
+        "bottle_base_center": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 118.36664873203229,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": false
+        },
+        "bottle_grip_center": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 118.36664873203229,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": false
+        },
+        "bottle_top_center": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 118.36664873203229,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": false
+        },
+        "side_bottle_L": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 128.21173070873834,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": false
+        },
+        "side_bottle_R": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 50.566017177982125,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": false
+        },
+        "small_parts": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 137.68516525781365,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": false
+        },
+        "near_table_edge": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 60.41109915468819,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": false
+        },
+        "ground_ahead": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 330.8703305156273,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_near": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 524.055495773441,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_far": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 1393.3887394336023,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "seated_person_face": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 910.4258262890683,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        }
+      },
+      "assembly_envelope_xyz_mm": [
+        172.94116990509423,
+        289.40000000000003,
+        394.26539554219744
+      ],
+      "highest_world_Z_mm": 394.26539554219744,
+      "modeled_mass_kg_unchanged_allowances": 4.145233340327384,
+      "COM_mm": [
+        8.14602521076987,
+        0.09380621788836901,
+        194.29317322464385
+      ],
+      "head_pitch_gravity_torque_Nm": 0.018515249547511936
+    },
+    {
+      "yaw_deg": 15,
+      "pitch_deg": 30,
+      "collisions": [],
+      "pass": true,
+      "cable": {
+        "centerline_length_mm": 37.99999999999999,
+        "bend_radius_mm": 18.3036773320713,
+        "angle_rad": 2.076085548854013,
+        "chord_mm": 31.53400686534287,
+        "midpoint_world_mm": [
+          12.191251100538667,
+          -12.457745115897488,
+          340.81873655097183
+        ]
+      },
+      "cable_collisions": [
+        {
+          "a": "NeckMotor1",
+          "b": "NeckCable_PROBE",
+          "volume_mm3": 1.2052753547671298
+        }
+      ],
+      "combined_geometry_pass": false,
+      "visibility_probes": {
+        "bottle_base_center": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 275.87550542498195,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "bottle_grip_center": {
+          "depth_nominal": false,
+          "rgb_nominal": true,
+          "axial_Z_mm": 220.87550542498195,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "bottle_top_center": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 165.87550542498195,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": true
+        },
+        "side_bottle_L": {
+          "depth_nominal": false,
+          "rgb_nominal": true,
+          "axial_Z_mm": 229.40159651914973,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "side_bottle_R": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 162.15843610654574,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": true
+        },
+        "small_parts": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 290.10583149973814,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "near_table_edge": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 225.6845272007135,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "ground_ahead": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 459.9090922472998,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_near": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 502.21235299486136,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_far": {
+          "depth_nominal": false,
+          "rgb_nominal": true,
+          "axial_Z_mm": 1205.0770263588886,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "seated_person_face": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 636.8188744899846,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        }
+      },
+      "assembly_envelope_xyz_mm": [
+        178.23644808438965,
+        289.40000000000003,
+        424.8801322519462
+      ],
+      "highest_world_Z_mm": 424.8801322519462,
+      "modeled_mass_kg_unchanged_allowances": 4.145233340327384,
+      "COM_mm": [
+        8.137801221162029,
+        0.09160260651438543,
+        194.05145221036327
+      ],
+      "head_pitch_gravity_torque_Nm": 0.018169025870285342
+    },
+    {
+      "yaw_deg": 15,
+      "pitch_deg": 45,
+      "collisions": [
+        {
+          "a": "camera",
+          "b": "UACCassette",
+          "volume_mm3": 88.04415857640446
+        },
+        {
+          "a": "camera",
+          "b": "InsulationSheet_PROVISIONAL",
+          "volume_mm3": 0.9995036533198205
+        },
+        {
+          "a": "camera",
+          "b": "RemainingBoardSpace_PROBE",
+          "volume_mm3": 1.3254325896323271
+        }
+      ],
+      "pass": false,
+      "cable": {
+        "centerline_length_mm": 38.00000000000002,
+        "bend_radius_mm": 16.530927882768218,
+        "angle_rad": 2.2987215399814955,
+        "chord_mm": 30.169030549110982,
+        "midpoint_world_mm": [
+          11.476271704484441,
+          -13.403709336581873,
+          340.1177753410911
+        ]
+      },
+      "cable_collisions": [
+        {
+          "a": "NeckMotor0",
+          "b": "NeckCable_PROBE",
+          "volume_mm3": 0.649981253429142
+        },
+        {
+          "a": "NeckMotor1",
+          "b": "NeckCable_PROBE",
+          "volume_mm3": 1.1647494866647015
+        }
+      ],
+      "combined_geometry_pass": false,
+      "visibility_probes": {
+        "bottle_base_center": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 323.6528566494084,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "bottle_grip_center": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 245.87111071888813,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "bottle_top_center": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 168.0893647883679,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": true
+        },
+        "side_bottle_L": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 252.83263494595445,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "side_bottle_R": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 197.92882437828865,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "small_parts": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 333.77757678132,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "near_table_edge": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 282.67209453587526,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "ground_ahead": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 473.9156510656967,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_near": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 433.7414961475036,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_far": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 977.7422497318462,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "seated_person_face": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 424.10386442977233,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        }
+      },
+      "assembly_envelope_xyz_mm": [
+        175.51200360972933,
+        289.40000000000003,
+        436.63292791034456
+      ],
+      "highest_world_Z_mm": 436.63292791034456,
+      "modeled_mass_kg_unchanged_allowances": 4.145233340327384,
+      "COM_mm": [
+        8.088908611862411,
+        0.07850187133670261,
+        193.94047130712616
+      ],
+      "head_pitch_gravity_torque_Nm": 0.01611068438542123
+    },
+    {
+      "yaw_deg": 15,
+      "pitch_deg": 50,
+      "collisions": [
+        {
+          "a": "camera",
+          "b": "ElectronicsCarrier",
+          "volume_mm3": 9.95028945430493
+        },
+        {
+          "a": "camera",
+          "b": "UACCassette",
+          "volume_mm3": 93.80636987857541
+        },
+        {
+          "a": "camera",
+          "b": "InsulationSheet_PROVISIONAL",
+          "volume_mm3": 0.7478863093439028
+        },
+        {
+          "a": "camera",
+          "b": "RemainingBoardSpace_PROBE",
+          "volume_mm3": 0.17151708142077385
+        }
+      ],
+      "pass": false,
+      "cable": {
+        "centerline_length_mm": 38.000000000000014,
+        "bend_radius_mm": 16.148773763071077,
+        "angle_rad": 2.353119844114615,
+        "chord_mm": 29.820006949536022,
+        "midpoint_world_mm": [
+          11.200804484842632,
+          -13.653599141182472,
+          339.90694184078455
+        ]
+      },
+      "cable_collisions": [
+        {
+          "a": "NeckMotor0",
+          "b": "NeckCable_PROBE",
+          "volume_mm3": 2.2628683555984543
+        },
+        {
+          "a": "NeckMotor1",
+          "b": "NeckCable_PROBE",
+          "volume_mm3": 1.089328010066239
+        }
+      ],
+      "combined_geometry_pass": false,
+      "visibility_probes": {
+        "bottle_base_center": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 334.02469379740046,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "bottle_grip_center": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 249.7598050543129,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "bottle_top_center": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 165.49491631122532,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": true
+        },
+        "side_bottle_L": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 256.08810176528783,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "side_bottle_R": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 206.17839916244725,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "small_parts": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 342.6121746421025,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "near_table_edge": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 296.77158461650976,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "ground_ahead": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 470.61942746066654,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_near": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 403.2853472838911,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_far": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 885.4775406853545,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "seated_person_face": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 345.22163124223823,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        }
+      },
+      "assembly_envelope_xyz_mm": [
+        173.27960950909335,
+        289.40000000000003,
+        439.4237472295063
+      ],
+      "highest_world_Z_mm": 439.4237472295063,
+      "modeled_mass_kg_unchanged_allowances": 4.145233340327384,
+      "COM_mm": [
+        8.066597081328176,
+        0.07252351474815429,
+        193.90688435389555
+      ],
+      "head_pitch_gravity_torque_Nm": 0.015171386001732998
+    },
+    {
+      "yaw_deg": 30,
+      "pitch_deg": 0,
+      "collisions": [],
+      "pass": true,
+      "cable": {
+        "centerline_length_mm": 38.0,
+        "bend_radius_mm": 31.149106415386477,
+        "angle_rad": 1.2199386875903908,
+        "chord_mm": 35.68705355066653,
+        "midpoint_world_mm": [
+          12.938335755671865,
+          -7.050706577168549,
+          342.85430292530515
+        ]
+      },
+      "cable_collisions": [
+        {
+          "a": "NeckMotor1",
+          "b": "NeckCable_PROBE",
+          "volume_mm3": 2.240205055636426
+        }
+      ],
+      "combined_geometry_pass": false,
+      "visibility_probes": {
+        "bottle_base_center": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 100.38457268119896,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": false
+        },
+        "bottle_grip_center": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 100.38457268119896,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": false
+        },
+        "bottle_top_center": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 100.38457268119896,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": false
+        },
+        "side_bottle_L": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 149.4038105676658,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": false
+        },
+        "side_bottle_R": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": -0.5961894323341852,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": false
+        },
+        "small_parts": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 117.70508075688772,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": false
+        },
+        "near_table_edge": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 48.42304845413264,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": false
+        },
+        "ground_ahead": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 290.91016151377545,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_near": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 464.1152422706632,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_far": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 1243.538105676658,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "seated_person_face": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 810.5254037844387,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        }
+      },
+      "assembly_envelope_xyz_mm": [
+        172.94116990509423,
+        289.40000000000003,
+        394.26539554219744
+      ],
+      "highest_world_Z_mm": 394.26539554219744,
+      "modeled_mass_kg_unchanged_allowances": 4.145233340327384,
+      "COM_mm": [
+        8.090985198767658,
+        0.27159917834027175,
+        194.29317322464385
+      ],
+      "head_pitch_gravity_torque_Nm": 0.018515249547511922
+    },
+    {
+      "yaw_deg": 30,
+      "pitch_deg": 30,
+      "collisions": [
+        {
+          "a": "camera",
+          "b": "L_ShoulderMotor1",
+          "volume_mm3": 0.645157937654799
+        }
+      ],
+      "pass": false,
+      "cable": {
+        "centerline_length_mm": 38.0,
+        "bend_radius_mm": 19.019803771342517,
+        "angle_rad": 1.9979175630221429,
+        "chord_mm": 31.987808626698698,
+        "midpoint_world_mm": [
+          12.23543956837411,
+          -10.479225649903402,
+          341.63975548055885
+        ]
+      },
+      "cable_collisions": [
+        {
+          "a": "NeckMotor1",
+          "b": "NeckCable_PROBE",
+          "volume_mm3": 5.761077649002017
+        }
+      ],
+      "combined_geometry_pass": false,
+      "visibility_probes": {
+        "bottle_base_center": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 260.30257075217656,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "bottle_grip_center": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 205.30257075217656,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "bottle_top_center": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 150.30257075217656,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": true
+        },
+        "side_bottle_L": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 247.75447603600946,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "side_bottle_R": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 117.85066546834366,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": false
+        },
+        "small_parts": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 272.80257075217656,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "near_table_edge": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 215.30257075217656,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "ground_ahead": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 425.3025707521766,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_near": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 450.3025707521767,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_far": {
+          "depth_nominal": false,
+          "rgb_nominal": true,
+          "axial_Z_mm": 1075.3025707521767,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "seated_person_face": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 550.3025707521767,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        }
+      },
+      "assembly_envelope_xyz_mm": [
+        172.94116990509423,
+        289.40000000000003,
+        424.8801322519462
+      ],
+      "highest_world_Z_mm": 424.8801322519462,
+      "modeled_mass_kg_unchanged_allowances": 4.145233340327384,
+      "COM_mm": [
+        8.083611771401905,
+        0.26734212806580154,
+        194.05145221036327
+      ],
+      "head_pitch_gravity_torque_Nm": 0.018169025870285488
+    },
+    {
+      "yaw_deg": 30,
+      "pitch_deg": 45,
+      "collisions": [
+        {
+          "a": "camera",
+          "b": "UACCassette",
+          "volume_mm3": 147.17532518379832
+        },
+        {
+          "a": "camera",
+          "b": "InsulationSheet_PROVISIONAL",
+          "volume_mm3": 0.5173926194830544
+        },
+        {
+          "a": "camera",
+          "b": "ArrayCable_PROBE",
+          "volume_mm3": 21.797032123282122
+        },
+        {
+          "a": "camera",
+          "b": "RemainingBoardSpace_PROBE",
+          "volume_mm3": 8.329782467499259
+        }
+      ],
+      "pass": false,
+      "cable": {
+        "centerline_length_mm": 38.0,
+        "bend_radius_mm": 16.954174690889456,
+        "angle_rad": 2.241335877022654,
+        "chord_mm": 30.530781100664267,
+        "midpoint_world_mm": [
+          11.558793718331849,
+          -11.68888981053933,
+          340.97281914671
+        ]
+      },
+      "cable_collisions": [
+        {
+          "a": "NeckMotor0",
+          "b": "NeckCable_PROBE",
+          "volume_mm3": 0.23242215771036354
+        },
+        {
+          "a": "NeckMotor1",
+          "b": "NeckCable_PROBE",
+          "volume_mm3": 3.92124616856628
+        }
+      ],
+      "combined_geometry_pass": false,
+      "visibility_probes": {
+        "bottle_base_center": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 310.9376087340519,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "bottle_grip_center": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 233.15586280353168,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "bottle_top_center": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 155.37411687301145,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": true
+        },
+        "side_bottle_L": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 267.8176983216489,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "side_bottle_R": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 161.75168114366681,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": true
+        },
+        "small_parts": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 319.64952354203507,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "near_table_edge": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 274.19526259230423,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "ground_ahead": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 445.6595445871267,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_near": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 391.35733642964874,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_far": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 871.7818504372091,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "seated_person_face": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 353.4635982333475,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        }
+      },
+      "assembly_envelope_xyz_mm": [
+        172.94116990509423,
+        289.40000000000003,
+        436.6329279103445
+      ],
+      "highest_world_Z_mm": 436.6329279103445,
+      "modeled_mass_kg_unchanged_allowances": 4.145233340327384,
+      "COM_mm": [
+        8.039775857133575,
+        0.24203345116280672,
+        193.9404713071262
+      ],
+      "head_pitch_gravity_torque_Nm": 0.016110684385421417
+    },
+    {
+      "yaw_deg": 30,
+      "pitch_deg": 50,
+      "collisions": [
+        {
+          "a": "camera",
+          "b": "UACCassette",
+          "volume_mm3": 308.177548208176
+        },
+        {
+          "a": "camera",
+          "b": "InsulationSheet_PROVISIONAL",
+          "volume_mm3": 10.068784666125469
+        },
+        {
+          "a": "camera",
+          "b": "ArrayCable_PROBE",
+          "volume_mm3": 40.16694247493037
+        },
+        {
+          "a": "camera",
+          "b": "RemainingBoardSpace_PROBE",
+          "volume_mm3": 103.17550640910657
+        }
+      ],
+      "pass": false,
+      "cable": {
+        "centerline_length_mm": 38.0,
+        "bend_radius_mm": 16.500324536495455,
+        "angle_rad": 2.302985005898006,
+        "chord_mm": 30.141888385571743,
+        "midpoint_world_mm": [
+          11.298253544037681,
+          -12.037459957591954,
+          340.753672340299
+        ]
+      },
+      "cable_collisions": [
+        {
+          "a": "NeckMotor0",
+          "b": "NeckCable_PROBE",
+          "volume_mm3": 1.2527733238194942
+        },
+        {
+          "a": "NeckMotor1",
+          "b": "NeckCable_PROBE",
+          "volume_mm3": 3.0411596565706196
+        }
+      ],
+      "combined_geometry_pass": false,
+      "visibility_probes": {
+        "bottle_base_center": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 322.4660381154837,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "bottle_grip_center": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 238.20114937239615,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "bottle_top_center": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 153.93626062930855,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": true
+        },
+        "side_bottle_L": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 269.710108122094,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "side_bottle_R": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 173.29196666911312,
+          "inferred_848_MinZ_pass": false,
+          "inferred_640_MinZ_pass": true
+        },
+        "small_parts": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 329.7692238844172,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "near_table_edge": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 289.0658141618986,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "ground_ahead": {
+          "depth_nominal": true,
+          "rgb_nominal": true,
+          "axial_Z_mm": 444.93352594529597,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_near": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 364.7564950108353,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "opponent_far": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 789.1554100027149,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        },
+        "seated_person_face": {
+          "depth_nominal": false,
+          "rgb_nominal": false,
+          "axial_Z_mm": 281.00687745381185,
+          "inferred_848_MinZ_pass": true,
+          "inferred_640_MinZ_pass": true
+        }
+      },
+      "assembly_envelope_xyz_mm": [
+        172.94116990509423,
+        289.40000000000003,
+        439.42374722950626
+      ],
+      "highest_world_Z_mm": 439.42374722950626,
+      "modeled_mass_kg_unchanged_allowances": 4.145233340327384,
+      "COM_mm": [
+        8.01977188611005,
+        0.23048415310751433,
+        193.90688435389555
+      ],
+      "head_pitch_gravity_torque_Nm": 0.015171386001733136
+    }
+  ],
+  "cable_length_mm": 38,
+  "bundle_radius_mm": 2,
+  "anchor_fixed_body_mm": [
+    12.5,
+    -5,
+    110
+  ],
+  "anchor_head_neutral_body_mm": [
+    12.5,
+    -5,
+    145
+  ],
+  "scope": "Only neck flex segment with free end tangents; actual USB leads/connectors/clamps/torsion/material radius unknown. Mass allowances retained, even after shell opening; extra brackets,idler,cable mass still missing. Point FOV is nominal, not stereo/occlusion/hardware validation."
+}

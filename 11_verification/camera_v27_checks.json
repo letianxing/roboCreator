@@ -1,0 +1,96 @@
+{
+  "stage": "v0.27-camera-study",
+  "checks": [
+    {
+      "name": "Manufacturer PDF/page evidence archived; mode-dependent MinZ kept separate and D436 inference flagged",
+      "status": "passed",
+      "evidence": [
+        "09_cad/camera_v27/study.json",
+        "08_electrical/camera_candidates_v27.json",
+        "08_electrical/camera_decision_v27.json",
+        "00_inputs\\sensors\\camera_v27\\realsense_d400.pdf",
+        "00_inputs\\sensors\\camera_v27\\gemini330_v1_4.pdf"
+      ]
+    },
+    {
+      "name": "48 conservative catalogue-envelope cases,1056 nominal point/FOV cases,128 mass scenarios computed",
+      "status": "passed",
+      "evidence": [
+        "09_cad/camera_v27/study.json",
+        "08_electrical/camera_candidates_v27.json",
+        "08_electrical/camera_decision_v27.json"
+      ]
+    },
+    {
+      "name": "Four research CAD files reopen; original v26 CAD unchanged",
+      "status": "passed",
+      "evidence": [
+        "09_cad\\camera_v27\\D436_x25_p0.FCStd",
+        "09_cad\\camera_v27\\D436_x40_p45.FCStd",
+        "09_cad\\camera_v27\\Gemini335_x25_p0.FCStd",
+        "09_cad\\camera_v27\\Gemini335_x40_p45.FCStd"
+      ]
+    },
+    {
+      "name": "Pinhole orientation/axial-Z tests and mass replacement arithmetic",
+      "status": "passed",
+      "evidence": [
+        "09_cad/camera_v27/study.json",
+        "08_electrical/camera_candidates_v27.json",
+        "08_electrical/camera_decision_v27.json"
+      ]
+    },
+    {
+      "name": "All camera placements meet existing shell/neck geometry",
+      "status": "failed",
+      "evidence": [
+        "09_cad/camera_v27/study.json",
+        "08_electrical/camera_candidates_v27.json",
+        "08_electrical/camera_decision_v27.json"
+      ]
+    },
+    {
+      "name": "Actual camera fit,stereo visibility,continuous neck motion,M4/Windows device testing and procurement approval",
+      "status": "not_run",
+      "evidence": [
+        "08_electrical/camera_acceptance_v27.md"
+      ]
+    }
+  ],
+  "study_CAD_sha256": {
+    "09_cad\\camera_v27\\D436_x25_p0.FCStd": "b1861f6d1449e55437c432a3b7a46876f245e6c462718137bd25257aeed0ad5d",
+    "09_cad\\camera_v27\\D436_x40_p45.FCStd": "48368b5ee937f68929afe18f95f5953408c7387821eb6d8a2d4f6fd7b032bd75",
+    "09_cad\\camera_v27\\Gemini335_x25_p0.FCStd": "c73b93eca03d8fedc7bb76995fb9a5448ead1c054544f7b1c71302d5e266eb7d",
+    "09_cad\\camera_v27\\Gemini335_x40_p45.FCStd": "916510d3334095750e54cf929434ffac792a27b5cb354d0ad950f86e934b01cc"
+  },
+  "source_archives_sha256": {
+    "00_inputs\\sensors\\camera_v27\\realsense_d400.pdf": "30a66384f2830ed42822914a71969c07b1f58a1ef1729944201e0f368abc91d3",
+    "00_inputs\\sensors\\camera_v27\\gemini330_v1_4.pdf": "250dacb1ae573d82ca911c94e87fe84ada45f3487acb6b334d64cef7bd082db3",
+    "00_inputs\\sensors\\camera_v27\\realsense_d400.txt": "a6cfa9b679736bdef3d20d606ae458480a203627e9346e1f0c8b4d06b9cdf566",
+    "00_inputs\\sensors\\camera_v27\\gemini330_v1_4.txt": "b316178ba8a24b66df0565b9368687d885bd8aa993c37ec5dd2c81137f07db30",
+    "00_inputs\\sensors\\camera_v27\\realsense_macos_v2_58_4.md": "b170c87be14cb8648ae607261e62fa96360464c6a73e287711b29a60835fa36b",
+    "00_inputs\\sensors\\camera_v27\\orbbec_sdk_readme.md": "6b917c9684038c113a0c446fab1dbca10d1e80e1fc337c9cea58520324fdc87b",
+    "00_inputs\\sensors\\camera_v27\\rs_mechanical_p69.png": "0aa66129aeda9897a586e1eb8efed628be45266762af7af0a5b622d420f777ae",
+    "00_inputs\\sensors\\camera_v27\\rs_minz_p85.png": "f0e5df20dc0ad1b8bef441f008ef84c3cc1eb490b4b2669778304cef77018695",
+    "00_inputs\\sensors\\camera_v27\\orbbec_minz_p37.png": "6370159245c27c2922e580bec1700063dcb3d707745fcb6af5377b2f4ddf4c85",
+    "00_inputs\\sensors\\camera_v27\\orbbec_mechanical_p65.png": "c6e47c1e7bd0384f9e64ffc241c620758e1a209c55d65e9c8fd722a263095d23",
+    "00_inputs\\sensors\\camera_v27\\rs_D435_drawing.png": "cc78a62673f4f1c8eaf6d16d9a3b858cb65f05ee56a8b88f037c96521d45f5ef",
+    "00_inputs\\sensors\\camera_v27\\rs_D405_drawing.png": "570020d0161bdb05a9d0723f1ff51a232d6f2d367b968a7093c7ef5a06ac50de",
+    "00_inputs\\sensors\\camera_v27\\D436_store.html": "53d7058c9242c15380d170ff441ca92c6477bb547fc816f2a097b5929f233476",
+    "00_inputs\\sensors\\camera_v27\\Gemini335_store.html": "2319db0de0d4f33fd4d7f5027a3107a68b87d5bac2890e922b0d364cb7144d71"
+  },
+  "code_input_sha256": {
+    "08_electrical\\camera_candidates_v27.json": "65571f4095a37ff506eb0387795da7cda2778e455cdc8a657f5067355cd87f90",
+    "03_system\\camera_study_v27.json": "30b19c2897d574d7580e3936888b152c28869b640b65c05ba3b03ed2797f9840",
+    "09_cad\\camera_study_v27.py": "cd086a17a5416da6b8d30b3d17c3d474193b6197ac35979d91af8122e65554d3",
+    "09_cad\\render_camera_v27.py": "21adbe73894d123dd1975a889be6c86873e7db6818846cf72f08ef95465132cc",
+    "11_verification\\check_camera_v27.py": "f748e012730bb25a632dabf75e8066ec07679ab7691392f0074c333aaebe197a"
+  },
+  "pending": [
+    "D436 stock/China supplier,own drawing,mass/power and mode evidence",
+    "Define actual two-axis neck/head/camera coupling and optical centers; full moving-shell path",
+    "Rectified stereo overlap/invalid band,whole bottle/hands and target material performance",
+    "Windows and M4 SDK/capture latency tests; no SDK installation authorized",
+    "UAC mounting/wiring,full robot CAE/recovery and final Wukong appearance still pending"
+  ]
+}

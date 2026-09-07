@@ -1,0 +1,117 @@
+{
+  "stage": "v0.28-neck-study",
+  "checks": [
+    {
+      "name": "Manufacturer reference geometry and explicit yaw-pitch-camera frame composition",
+      "status": "passed",
+      "evidence": [
+        "03_system/neck_interfaces_v28.json",
+        "00_inputs/actuators/XC330/manufacturer_drawing.pdf"
+      ]
+    },
+    {
+      "name": "11 zero-yaw pitch samples 0..50deg without modeled housing/head collisions",
+      "status": "passed",
+      "evidence": [
+        "09_cad/neck_hardware_v28_final/study.json"
+      ]
+    },
+    {
+      "name": "Nominal motor-box containment bound for proposed head-local clearance opening",
+      "status": "passed",
+      "evidence": [
+        "09_cad/neck_hardware_v28_final/study.json"
+      ]
+    },
+    {
+      "name": "54 constant-length free-end arc cases and refined height arithmetic",
+      "status": "passed",
+      "evidence": [
+        "09_cad/neck_hardware_v28_final/cable_and_loads.json",
+        "09_cad/neck_hardware_v28_final/cable_and_loads_compact.json",
+        "09_cad/neck_hardware_v28_final/height_refined.json"
+      ]
+    },
+    {
+      "name": "12 native research CAD files reopen; v26 source unchanged",
+      "status": "passed",
+      "evidence": [
+        "09_cad\\neck_hardware_v28_final\\y0_p0.FCStd",
+        "09_cad\\neck_hardware_v28_final\\y0_p45.FCStd",
+        "09_cad\\neck_hardware_v28_final\\y0_p50.FCStd",
+        "09_cad\\neck_hardware_v28_final\\y30_p45.FCStd",
+        "09_cad\\neck_hardware_v28_final\\cable_y0_p0.FCStd",
+        "09_cad\\neck_hardware_v28_final\\cable_y0_p45.FCStd",
+        "09_cad\\neck_hardware_v28_final\\cable_y0_p50.FCStd",
+        "09_cad\\neck_hardware_v28_final\\cable_y30_p45.FCStd",
+        "09_cad\\neck_hardware_v28_final\\compact_cable_y0_p0.FCStd",
+        "09_cad\\neck_hardware_v28_final\\compact_cable_y0_p45.FCStd",
+        "09_cad\\neck_hardware_v28_final\\compact_cable_y0_p50.FCStd",
+        "09_cad\\neck_hardware_v28_final\\compact_cable_y30_p45.FCStd"
+      ]
+    },
+    {
+      "name": "All combined yaw/pitch configurations clear",
+      "status": "failed",
+      "evidence": [
+        "09_cad/neck_hardware_v28_final/study.json"
+      ]
+    },
+    {
+      "name": "Candidate cable routes cover intended neck motion",
+      "status": "failed",
+      "evidence": [
+        "09_cad/neck_hardware_v28_final/cable_and_loads_compact.json"
+      ]
+    },
+    {
+      "name": "Crown placeholder stays below400mm throughout pitch0..50",
+      "status": "failed",
+      "evidence": [
+        "09_cad/neck_hardware_v28_final/height_refined.json"
+      ]
+    },
+    {
+      "name": "Actual neck brackets/rotor fasteners,real USB cable,actuator thermal/strength,continuous whole-robot motion and manufacturing",
+      "status": "not_run",
+      "evidence": [
+        "03_system/neck_interfaces_v28.json"
+      ]
+    }
+  ],
+  "hardware_geometry_pass_count": 17,
+  "hardware_cases": 27,
+  "compact_combined_pass_count": 5,
+  "artifacts_sha256": {
+    "09_cad\\neck_hardware_v28_final\\y0_p0.FCStd": "ec9f704b89875a2bbadae7ebed07888becd3331e6c71acee66a8ff8e5d19c4e0",
+    "09_cad\\neck_hardware_v28_final\\y0_p45.FCStd": "09867508510362a97734b5760e5a5fba0b373ac4642fc0940df29f5d6beaf32e",
+    "09_cad\\neck_hardware_v28_final\\y0_p50.FCStd": "b5f48d4a6960f80125612e40208a5d310241e328cf768dde376114658614f536",
+    "09_cad\\neck_hardware_v28_final\\y30_p45.FCStd": "533aa05b50c9d0749026e6a70a7aa58a1f2bab0ba54b6052e1fd47428a215ea5",
+    "09_cad\\neck_hardware_v28_final\\cable_y0_p0.FCStd": "93c050bcbf45c7a82f75d9a17e8ae2475d8420c196fd255e6838aec73329273f",
+    "09_cad\\neck_hardware_v28_final\\cable_y0_p45.FCStd": "298c37ecd7e9aa2a7a56673368acc95847848b2abdec9d09195ac4ed1d6ae50a",
+    "09_cad\\neck_hardware_v28_final\\cable_y0_p50.FCStd": "aa6d2fe34e9b8d097a9fd0ddd186d18529ff3464fb0021540a34a3aa785812b0",
+    "09_cad\\neck_hardware_v28_final\\cable_y30_p45.FCStd": "f67c18f3096da7217901494a6e97764c7e552c8e62262f86ba38599237a98842",
+    "09_cad\\neck_hardware_v28_final\\compact_cable_y0_p0.FCStd": "381196f3aca81453454d4b022d5090bba10becd5d70df49f68bc67583aa8aa34",
+    "09_cad\\neck_hardware_v28_final\\compact_cable_y0_p45.FCStd": "84c9b83fc23f1963cb22dd5cd352a05231593ed571a90c6c493d2815a273248c",
+    "09_cad\\neck_hardware_v28_final\\compact_cable_y0_p50.FCStd": "d6e5b3f7cd6ebf19fab84c9566ef5ca2af39d13a3f77eb93f929d2084b21aa66",
+    "09_cad\\neck_hardware_v28_final\\compact_cable_y30_p45.FCStd": "98451419db22964f5d1f489fd708b65c0d3269ddc0ca7bfde954081e90ade608"
+  },
+  "code_source_sha256": {
+    "03_system/neck_v28.json": "6d0fbf1542197c4a82d4961a79944210e8f38dc65d21d40ad36c2c361987f6b6",
+    "03_system/neck_interfaces_v28.json": "69b4a3f84cd1d5fbb1995c6014db91d87cc5df6cd1e004231f2ff5a49553b9b7",
+    "09_cad/neck_chain_v28.py": "cdb2a4c6266840726549f9da4409c588a766100318bf54f08f906933f7a01439",
+    "09_cad/neck_hardware_v28.py": "51d54df534f705b1dbe51373156724035eab506a4521834066ccff7509ab8bd5",
+    "09_cad/neck_cable_v28.py": "f7005750018e3a0db83fe25b63201cc22af3de362cd2cb261d47506aba212afe",
+    "11_verification/neck_height_v28.py": "7a082af9a7d4bffd0468031b854e79f643fdd7be9785598c9523b333fec52c77",
+    "11_verification/check_neck_v28.py": "269936c768f48b15e64bf12f3f7854035bebd1276cb033ef8d2a74af8ca826e7",
+    "00_inputs/actuators/XC330/manufacturer_drawing.pdf": "948b707cb26a64501c03fc45b1a9557b69a554dd5d6934f02e8e6f86cf2b46c2",
+    "00_inputs/actuators/XC330/manufacturer.stp": "e2f7b060801a1d6a21f23bca2554f29a402f7d73b8498cb201c9e6adf3139eb6"
+  },
+  "pending": [
+    "Split and reroute yaw/pitch flex segments with actual cable and fixed exit tangents",
+    "Body/yaw/pitch/head brackets,rotor mounting phases and mechanical load path",
+    "Reduce/reshape crown allowance if400mm applies across all neck poses; appearance still unapproved",
+    "Joint-coupled safe motion sequence needs full continuous and dynamic verification",
+    "D436 purchase/mode/M4 gates,real microphone interfaces and full robot CAE/recovery remain open"
+  ]
+}

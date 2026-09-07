@@ -1,0 +1,12 @@
+{
+  "stage":"v0.26-STEP-repair",
+  "source_directory":"09_cad/uac_mount_v25_service",
+  "scenes":["stand","lift_h114","lift_h117","lift_h120"],
+  "target_objects":["L_RollRod","R_RollRod"],
+  "eye_phase_deg":45,
+  "stem_phase_deg":0,
+  "geometry_definition":{"eye_outer_radius_mm":5,"eye_width_mm":4,"eye_hole_radius_mm":2,"stem_radius_mm":2,"eye_center_spacing_mm":28},
+  "numerical_acceptance":{"max_bbox_delta_mm":0.001,"max_center_delta_mm":0.001,"max_volume_delta_mm3":0.01,"max_topology_tolerance_mm":0.0001,"max_boundary_sample_distance_mm":0.001,"surface_tessellation_deflection_mm":0.05},
+  "notes":["Numerical equivalence probes, not manufacturing tolerances or exact Hausdorff bounds","Original files retained; no global FreeCAD import/export preferences changed","Build solid eyes and stem first, drill both holes once; do not replace cylinder by different section"],
+  "manufacturing_release":false
+}

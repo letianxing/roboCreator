@@ -1,0 +1,13 @@
+{
+    "observed_at":  "2026-09-07T22:13:42.3869457+08:00",
+    "detection_basis":  "Manufacturer documented VID_359F\u0026PID_3400 and MicArray/MA-USB8/Maix-Audio names",
+    "matching_device_count":  0,
+    "matching_devices":  [
+
+                         ],
+    "matching_device_present":  false,
+    "audio_stream_tested":  false,
+    "serial_stream_tested":  false,
+    "firmware_modified":  false,
+    "note":  "No match means no documented identity was observed at this time; it does not establish a hardware fault."
+}

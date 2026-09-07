@@ -1,0 +1,20 @@
+{
+  "id": "20260907_221510_635864_v0.23-uac-identified",
+  "stage": "v0.23-uac-identified",
+  "verified": true,
+  "file_count": 930,
+  "source_bytes": 1990816563,
+  "archive_bytes": 717213242,
+  "archive_sha256": "3760bdcba212d55b770bd2d26f99d47a3fbfab9af2d34927ad3961750ed1569e",
+  "archive": "checkpoints\\20260907_221510_635864_v0.23-uac-identified\\project.zip",
+  "passed_checks": [
+    "MA-USB8 model and visible interface labels confirmed from user front/back photos; archives hashed",
+    "Read-only host identity inspection executed and observation recorded; no matching device observed"
+  ],
+  "pending": [
+    "User connects MA-USB8 to host using a USB data cable; inspect actual audio/CDC enumeration",
+    "Obtain authoritative or later measured board/connector dimensions without requiring a ruler now",
+    "Verify array wiring and actual firmware before channel/beamforming tests",
+    "Add separate UAC board,real wires and mass to robot CAD when dimensions are known"
+  ]
+}

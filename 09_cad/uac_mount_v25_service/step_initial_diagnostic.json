@@ -1,0 +1,20 @@
+[
+  {
+    "path": "09_cad\\uac_mount_v25_service\\stand.step",
+    "valid": false,
+    "solids": 362,
+    "invalid_solid_indices": [
+      27,
+      105
+    ]
+  },
+  {
+    "path": "09_cad\\body_v23_fit\\stand.step",
+    "valid": false,
+    "solids": 345,
+    "invalid_solid_indices": [
+      27,
+      105
+    ]
+  }
+]

@@ -29,7 +29,7 @@ def rounded_path(points,radius,tube_radius):
     assert solid.isValid() and solid.Volume>0
     return solid,arcs,wire.Length
 
-def native():
+def native(countersink_clearance=.15):
     parts={};meta={}
     def put(n,s,material,role='structure'):
         assert s.isValid() and s.Volume>0,n
@@ -43,8 +43,8 @@ def native():
     carrier=unite([floor,spine,tongue]+wall+gussets+posts)
     for x,y in cfg['carrier_screw_centers_body_xy_mm']:
         carrier=carrier.cut(Part.makeCylinder(1.4,8,V(x,y,49)))
-        carrier=carrier.cut(Part.makeCone(1.4,2.65,1.25,V(x,y,54.5)))
-        carrier=carrier.cut(Part.makeCylinder(2.65,.5,V(x,y,55.75)))
+        carrier=carrier.cut(Part.makeCone(1.25+countersink_clearance,2.5+countersink_clearance,1.25,V(x,y,54.5)))
+        carrier=carrier.cut(Part.makeCylinder(2.5+countersink_clearance,.5,V(x,y,55.75)))
     put('ElectronicsCarrier',carrier.removeSplitter(),'PETG_reference')
     put('BatteryPadding',box((-42,-19,56),(36,19,58)),'foam_assumed','pad')
     for i,x in enumerate((-28,28)):put('BatteryRetainer'+str(i),band_yz(x,54,90,22.4),'strap_and_grommet_assumed','retainer')

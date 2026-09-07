@@ -1,0 +1,32 @@
+{
+  "date":"2026-09-07",
+  "model":"Sipeed Maix-Audio MA-USB8",
+  "model_confirmed_from_user_photos":true,
+  "visible_model_text":["Maix-Audio","MA-USB 8"],
+  "auxiliary_silkscreen":{"reading":"v3981","meaning":"unconfirmed; not treated as firmware or PCB revision"},
+  "photos":[
+    {"view":"front","file":"00_inputs/sensors/sipeed_arrival_20260907/uac_front.jpg","sha256":"b621f9ca7c6165b00195e8a1ae4d90ce6fca44cadc8c79265945e050ac1323cf"},
+    {"view":"back","file":"00_inputs/sensors/sipeed_arrival_20260907/uac_back.jpg","sha256":"8dcbe4f9379c2caeb65c7889d1bad92c86990ae0283a391fbbb6d680ae8d92de"}
+  ],
+  "observed_features":{
+    "mounting_hole_count":4,
+    "usb_connector":"USB-C, one short edge",
+    "opposite_edge_white_header_labels":["3V3","BOOT","RST","RX0","TX0","GND"],
+    "rear_signal_label_rows":[["RX1","TX1"],["5V","GND"],["WS","BCK"],["D0","D1"],["D2","D3"],["G14","G15"],["G16","G17"]],
+    "other_marks":["RST","BOOT","SPK","M0S"],
+    "note":"Label transcription only, not connector pin numbering or a verified wiring diagram. Front and back photographs use different physical orientations."
+  },
+  "mechanical_parameters":{"pcb_length_mm":null,"pcb_width_mm":null,"populated_thickness_mm":null,"mount_hole_diameter_mm":null,"hole_pitch_xy_mm":null,"mass_kg":null},
+  "user_has_ruler":false,
+  "documentation_review":{
+    "guide":"https://wiki.sipeed.com/hardware/zh/modules/micarray_usbboard_bl616.html",
+    "guide_source_blob":"https://api.github.com/repos/sipeed/sipeed_wiki/git/blobs/c889c3b305474235004d55de5a59ffce8de7ef72",
+    "vendor_render":"https://raw.githubusercontent.com/sipeed/sipeed_wiki/main/docs/hardware/assets/modules/micarray_usbboard_bl616/product-front.png",
+    "vendor_render_local":"00_inputs/sensors/sipeed_arrival_20260907/vendor_uac_front.png",
+    "appearance_correspondence":"Main layout and connector placement are consistent; photo does not verify the exact PCB revision or dimensions",
+    "dimensioned_mechanical_drawing_found_in_reviewed_sources":false,
+    "not_used":"Reseller package dimensions, unrelated USB8 products, hand size or USB-C image scale"
+  },
+  "installed_in_robot_cad":false,
+  "next_step":"USB-only inspection completed: composite/COM7 enumerate normally but Windows audio initialization fails; see08_electrical/mausb8_usb_diagnosis.md. Array is not connected; dimensions remain pending."
+}

@@ -1,0 +1,23 @@
+{
+  "id": "20260908_002845_626937_v0.27-camera-study",
+  "stage": "v0.27-camera-study",
+  "verified": true,
+  "file_count": 1176,
+  "source_bytes": 2833221372,
+  "archive_bytes": 1013614364,
+  "archive_sha256": "ae145f01a78f5d4cb090bef20c71b75cdcac44f1121253518ab0fdacd72b45c0",
+  "archive": "checkpoints\\20260908_002845_626937_v0.27-camera-study\\project.zip",
+  "passed_checks": [
+    "Manufacturer PDF/page evidence archived; mode-dependent MinZ kept separate and D436 inference flagged",
+    "48 conservative catalogue-envelope cases,1056 nominal point/FOV cases,128 mass scenarios computed",
+    "Four research CAD files reopen; original v26 CAD unchanged",
+    "Pinhole orientation/axial-Z tests and mass replacement arithmetic"
+  ],
+  "pending": [
+    "D436 stock/China supplier,own drawing,mass/power and mode evidence",
+    "Define actual two-axis neck/head/camera coupling and optical centers; full moving-shell path",
+    "Rectified stereo overlap/invalid band,whole bottle/hands and target material performance",
+    "Windows and M4 SDK/capture latency tests; no SDK installation authorized",
+    "UAC mounting/wiring,full robot CAE/recovery and final Wukong appearance still pending"
+  ]
+}

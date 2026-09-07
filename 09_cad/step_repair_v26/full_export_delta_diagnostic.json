@@ -1,0 +1,26 @@
+[
+  {
+    "name": "L_RollRod",
+    "differences": [
+      {
+        "volume_delta_mm3": 0.0023720030837921513,
+        "area_delta_mm2": 0.0014703486621101547,
+        "center_displacement_mm": 1.9310427656960263e-05,
+        "max_bbox_delta_mm": 2.434162318820654e-06,
+        "faces_delta": -3
+      }
+    ]
+  },
+  {
+    "name": "R_RollRod",
+    "differences": [
+      {
+        "volume_delta_mm3": 0.0023720008850887098,
+        "area_delta_mm2": 0.0014703490468264135,
+        "center_displacement_mm": 1.932920739879047e-05,
+        "max_bbox_delta_mm": 2.4341623330315088e-06,
+        "faces_delta": -3
+      }
+    ]
+  }
+]

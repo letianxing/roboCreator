@@ -1,0 +1,287 @@
+{
+  "complete": true,
+  "trials": [
+    {
+      "eye_phase_deg": 0,
+      "stem_phase_deg": 0,
+      "native": {
+        "valid": true,
+        "volume_mm3": 756.5480693057493,
+        "area_mm2": 821.4662823341835,
+        "center_mm": [
+          57.11163474184574,
+          75.00000094193766,
+          78.71643135553012
+        ],
+        "bbox_mm": [
+          51.842706076915604,
+          62.38056784094273,
+          70.0,
+          80.0,
+          59.657791035377215,
+          97.77507836050884
+        ],
+        "faces": 10,
+        "edges": 24,
+        "vertices": 12,
+        "solids": 1,
+        "max_topology_tolerance_mm": 5.129089636410871e-05
+      },
+      "native_delta": {
+        "volume_delta_mm3": -0.0002538208281066545,
+        "area_delta_mm2": -0.00013313611452758778,
+        "center_displacement_mm": 6.1347557200364305e-06,
+        "max_bbox_delta_mm": 6.350333592308743e-10,
+        "faces_delta": -3
+      },
+      "roundtrip_valid": true,
+      "roundtrip_check": {
+        "return": "None",
+        "error": null
+      },
+      "roundtrip_solids": 1,
+      "roundtrip_delta": {
+        "volume_delta_mm3": 0.0023720030660570046,
+        "area_delta_mm2": 0.0014703486532425813,
+        "center_displacement_mm": 1.931042779111225e-05,
+        "max_bbox_delta_mm": 2.4341628588331332e-06,
+        "faces_delta": -3
+      }
+    },
+    {
+      "eye_phase_deg": 45,
+      "stem_phase_deg": 0,
+      "native": {
+        "valid": true,
+        "volume_mm3": 756.5499742505065,
+        "area_mm2": 821.4670566456745,
+        "center_mm": [
+          57.11163227358472,
+          74.99999972312833,
+          78.71640919287688
+        ],
+        "bbox_mm": [
+          51.842706076915604,
+          62.38056784094273,
+          70.0,
+          80.0,
+          59.65779103526525,
+          97.77507836050884
+        ],
+        "faces": 11,
+        "edges": 27,
+        "vertices": 14,
+        "solids": 1,
+        "max_topology_tolerance_mm": 5.129101429343724e-05
+      },
+      "native_delta": {
+        "volume_delta_mm3": 0.0016511239290366575,
+        "area_delta_mm2": 0.0006411753764723471,
+        "center_displacement_mm": 2.8083270470301502e-05,
+        "max_bbox_delta_mm": 6.350333592308743e-10,
+        "faces_delta": -2
+      },
+      "roundtrip_valid": true,
+      "roundtrip_check": {
+        "return": "None",
+        "error": null
+      },
+      "roundtrip_solids": 1,
+      "roundtrip_delta": {
+        "volume_delta_mm3": 0.001997664756800077,
+        "area_delta_mm2": 0.0012189373594537756,
+        "center_displacement_mm": 2.464346156945695e-05,
+        "max_bbox_delta_mm": 2.4388876624925615e-06,
+        "faces_delta": -2
+      }
+    },
+    {
+      "eye_phase_deg": 90,
+      "stem_phase_deg": 0,
+      "native": {
+        "valid": true,
+        "volume_mm3": 756.5500792552477,
+        "area_mm2": 821.4669987564378,
+        "center_mm": [
+          57.11163196183431,
+          74.99999921018775,
+          78.71641037264253
+        ],
+        "bbox_mm": [
+          51.842706076915604,
+          62.38056784094273,
+          70.0,
+          80.0,
+          59.65779103526525,
+          97.77507836050883
+        ],
+        "faces": 11,
+        "edges": 27,
+        "vertices": 14,
+        "solids": 1,
+        "max_topology_tolerance_mm": 5.129108321277858e-05
+      },
+      "native_delta": {
+        "volume_delta_mm3": 0.0017561286703084988,
+        "area_delta_mm2": 0.000583286139772099,
+        "center_displacement_mm": 2.699216611971222e-05,
+        "max_bbox_delta_mm": 6.350333592308743e-10,
+        "faces_delta": -2
+      },
+      "roundtrip_valid": true,
+      "roundtrip_check": {
+        "return": "None",
+        "error": null
+      },
+      "roundtrip_solids": 1,
+      "roundtrip_delta": {
+        "volume_delta_mm3": 0.0017116365044103077,
+        "area_delta_mm2": 0.0010453049370653389,
+        "center_displacement_mm": 2.9684938239923775e-05,
+        "max_bbox_delta_mm": 2.4388877264414077e-06,
+        "faces_delta": -2
+      }
+    },
+    {
+      "eye_phase_deg": 0,
+      "stem_phase_deg": 45,
+      "native": {
+        "valid": false,
+        "volume_mm3": -430.7149955239123,
+        "area_mm2": 997.3961458773357,
+        "center_mm": [
+          52.55988875779809,
+          74.99566356822079,
+          52.922188654773095
+        ],
+        "bbox_mm": [
+          44.48518858581873,
+          64.87593635673062,
+          70.0,
+          80.0,
+          59.657791035377215,
+          97.77507875894844
+        ],
+        "faces": 12,
+        "edges": 33,
+        "vertices": 18,
+        "solids": 1,
+        "max_topology_tolerance_mm": 5.129094549430196e-05
+      },
+      "native_delta": {
+        "volume_delta_mm3": -1187.2633186504897,
+        "area_delta_mm2": 175.9297304070377,
+        "center_displacement_mm": 26.19277900688408,
+        "max_bbox_delta_mm": 7.3575174910968,
+        "faces_delta": -1
+      },
+      "roundtrip_valid": false,
+      "roundtrip_check": {
+        "error": "Self-intersecting wire\nUnorientable shape\nNo error\nNo error\n",
+        "exception": "ValueError"
+      },
+      "roundtrip_solids": 1,
+      "roundtrip_delta": {
+        "volume_delta_mm3": -1188.996652406936,
+        "area_delta_mm2": 175.929767780647,
+        "center_displacement_mm": 26.06312214509169,
+        "max_bbox_delta_mm": 7.357517491097738,
+        "faces_delta": -1
+      }
+    },
+    {
+      "eye_phase_deg": 45,
+      "stem_phase_deg": 45,
+      "native": {
+        "valid": true,
+        "volume_mm3": 756.5489020555812,
+        "area_mm2": 821.4670139947939,
+        "center_mm": [
+          57.111637088557764,
+          74.99999909692106,
+          78.71643382538892
+        ],
+        "bbox_mm": [
+          51.84270607624046,
+          62.38056784094273,
+          70.0,
+          80.0,
+          59.65779103526525,
+          97.77507836062789
+        ],
+        "faces": 11,
+        "edges": 29,
+        "vertices": 16,
+        "solids": 1,
+        "max_topology_tolerance_mm": 5.129103737838452e-05
+      },
+      "native_delta": {
+        "volume_delta_mm3": 0.0005789290037228056,
+        "area_delta_mm2": 0.0005985244958992553,
+        "center_displacement_mm": 3.104730353813215e-06,
+        "max_bbox_delta_mm": 6.75072442390956e-10,
+        "faces_delta": -2
+      },
+      "roundtrip_valid": true,
+      "roundtrip_check": {
+        "return": "None",
+        "error": null
+      },
+      "roundtrip_solids": 1,
+      "roundtrip_delta": {
+        "volume_delta_mm3": 0.00037221371769646794,
+        "area_delta_mm2": 0.0005998029805596161,
+        "center_displacement_mm": 1.1646809274416457e-06,
+        "max_bbox_delta_mm": 2.733686400802071e-06,
+        "faces_delta": -2
+      }
+    },
+    {
+      "eye_phase_deg": 90,
+      "stem_phase_deg": 45,
+      "native": {
+        "valid": true,
+        "volume_mm3": 756.548699155628,
+        "area_mm2": 821.4669456768769,
+        "center_mm": [
+          57.111636551905704,
+          74.99999998036841,
+          78.7164306977269
+        ],
+        "bbox_mm": [
+          51.84270607624045,
+          62.38056784094273,
+          70.0,
+          80.0,
+          59.657791035265234,
+          97.77507836062787
+        ],
+        "faces": 11,
+        "edges": 29,
+        "vertices": 16,
+        "solids": 1,
+        "max_topology_tolerance_mm": 5.129108824169808e-05
+      },
+      "native_delta": {
+        "volume_delta_mm3": 0.00037602905058520264,
+        "area_delta_mm2": 0.0005302065789010157,
+        "center_displacement_mm": 6.168522947288524e-06,
+        "max_bbox_delta_mm": 6.750866532456712e-10,
+        "faces_delta": -2
+      },
+      "roundtrip_valid": true,
+      "roundtrip_check": {
+        "return": "None",
+        "error": null
+      },
+      "roundtrip_solids": 1,
+      "roundtrip_delta": {
+        "volume_delta_mm3": 0.00011319579743940267,
+        "area_delta_mm2": 0.0005276309140072044,
+        "center_displacement_mm": 3.1718020148106446e-06,
+        "max_bbox_delta_mm": 2.7336867631788664e-06,
+        "faces_delta": -2
+      }
+    }
+  ]
+}

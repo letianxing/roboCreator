@@ -1,0 +1,171 @@
+{
+  "stage": "v0.24-space-study",
+  "source_sha256": {
+    "03_system/uac_space_v24.json": "c9e4a6a6eb92f154f93050e0c379ec09fccb24af4b9d0e7dc874763bce3879f0",
+    "09_cad/uac_space_v24.py": "3b864d89b99fab2a244e1fc67078925c4a23a494fa047135a39da3d7ef5b3ebb",
+    "09_cad/uac_route_v24.py": "121a5e4cf6c1c0f7b3753cf0389c1b7863202f1334e6d4d428f01bbd0c3bc4d7",
+    "09_cad/render_uac_space_v24.py": "b888304fb3bbd771631c553150fed9eba3866bdd6ce2c4ea9a7045e3076d9ce2",
+    "11_verification/check_uac_space_v24.py": "67598877cc691d11482217aa2b9806efac42a56185c977596c84094d9d776088",
+    "deliverables/uac_packaging_review_v24.md": "d1330b24efbdcbccab6f91268b9e3ada3bbb16a7025785f2269b8d18fc59bad5",
+    "09_cad/uac_space_v24/space_review.png": "310005e02f7be164a09a72cb797601bec736bb5bfc8c0a9f1b884537195bd1cb"
+  },
+  "checks": [
+    {
+      "name": "Four-pose bay and upper-route reservation clearance; source hashes and negative tests",
+      "status": "passed",
+      "evidence": [
+        "09_cad\\uac_space_v24\\search.json",
+        "09_cad\\uac_space_v24\\routing_upper.json"
+      ]
+    },
+    {
+      "name": "Retained lower-route failures",
+      "status": "passed",
+      "evidence": [
+        "09_cad/uac_space_v24/routing.json"
+      ]
+    },
+    {
+      "name": "Eight native CAD files reopen; retained volume/area/solid-count/bounds match; STEP exports exist",
+      "status": "passed",
+      "evidence": [
+        "09_cad\\uac_space_v24\\stand.FCStd",
+        "09_cad\\uac_space_v24\\stand.step",
+        "09_cad\\uac_space_v24\\routed_stand.FCStd",
+        "09_cad\\uac_space_v24\\routed_stand.step",
+        "09_cad\\uac_space_v24\\lift_h114.FCStd",
+        "09_cad\\uac_space_v24\\lift_h114.step",
+        "09_cad\\uac_space_v24\\routed_lift_h114.FCStd",
+        "09_cad\\uac_space_v24\\routed_lift_h114.step",
+        "09_cad\\uac_space_v24\\lift_h117.FCStd",
+        "09_cad\\uac_space_v24\\lift_h117.step",
+        "09_cad\\uac_space_v24\\routed_lift_h117.FCStd",
+        "09_cad\\uac_space_v24\\routed_lift_h117.step",
+        "09_cad\\uac_space_v24\\lift_h120.FCStd",
+        "09_cad\\uac_space_v24\\lift_h120.step",
+        "09_cad\\uac_space_v24\\routed_lift_h120.FCStd",
+        "09_cad\\uac_space_v24\\routed_lift_h120.step"
+      ]
+    },
+    {
+      "name": "56 conditional mass and COM arithmetic cases",
+      "status": "passed",
+      "evidence": [
+        "09_cad\\uac_space_v24\\search.json"
+      ]
+    },
+    {
+      "name": "Received board fits mount and actual cable route",
+      "status": "not_run",
+      "evidence": [
+        "03_system/uac_space_v24.json"
+      ]
+    },
+    {
+      "name": "Full recovery, actuator/structural CAE and manufacturing release",
+      "status": "not_run",
+      "evidence": [
+        "09_cad\\uac_space_v24\\search.json"
+      ]
+    }
+  ],
+  "artifacts_sha256": {
+    "09_cad\\uac_space_v24\\stand.FCStd": "7a0dffc3d5641b442157ec3dea2e411739d65aab6b64b19a77298bbfe3244205",
+    "09_cad\\uac_space_v24\\stand.step": "cb7f286798bc7f858b8bcd7946655fe87838a9cbc78375547fc91e384af39261",
+    "09_cad\\uac_space_v24\\routed_stand.FCStd": "3b55fda6adf2eb7ad160b4018d95bd6dbec982f75bb05b9d070a5a7729aa9aba",
+    "09_cad\\uac_space_v24\\routed_stand.step": "074539be10b269cf657f5ea7da5fd653336a2fdff43fe1e6b8e2da069c90ef02",
+    "09_cad\\uac_space_v24\\lift_h114.FCStd": "83bc0edbd60f92fd89b0cbb8fd73e60b08f6a30459b1c12d9ca6de17a4dd5600",
+    "09_cad\\uac_space_v24\\lift_h114.step": "5f85c97e24e074b3eb2e92d99550294c35a4d7f91fbd6654d527e256f4e3ad73",
+    "09_cad\\uac_space_v24\\routed_lift_h114.FCStd": "c8dbe8a8f1679de2ff29da897346aee025bd0b467d96fd9f23bbf7faaab15bb7",
+    "09_cad\\uac_space_v24\\routed_lift_h114.step": "b37db4cd9a57b5fef52902074f62c72f4c3494e8bcc3cb52b999479b7e9a52cf",
+    "09_cad\\uac_space_v24\\lift_h117.FCStd": "07a7cfe1b091c7019b17bc00abbab9c841449f568e26a1e4c81c780b6de724f8",
+    "09_cad\\uac_space_v24\\lift_h117.step": "3d058ff0a37ce3b84fc701ed7498ffe5100cdf61eab37a844702f4195285de20",
+    "09_cad\\uac_space_v24\\routed_lift_h117.FCStd": "2daf16d22727d2b356f27365487905f3af7dba85e707f1284219247617f28d38",
+    "09_cad\\uac_space_v24\\routed_lift_h117.step": "1c60e1ceb5b6aecb23a581554a577599e45f885c1a626efa4392e3462a837e0f",
+    "09_cad\\uac_space_v24\\lift_h120.FCStd": "fd01965ba28b631984f35f0b49e4aee0173f029cda7258ae7bf1f40863fbd679",
+    "09_cad\\uac_space_v24\\lift_h120.step": "8afce2e1745f960618e493ace0215c6a2221191f5788060c90085c5ac110473f",
+    "09_cad\\uac_space_v24\\routed_lift_h120.FCStd": "36b26c02a387eb0e3bc30787da20adc42b594b90fd059640cb8949cd98ec46cd",
+    "09_cad\\uac_space_v24\\routed_lift_h120.step": "930be4c28dfe9206390eb0070adcd1ace590c77b7aadf1b9209b6532b682eef3"
+  },
+  "envelopes": [
+    {
+      "scene": "stand",
+      "variant": "bay_only",
+      "xyz_mm": [
+        168.28203230275506,
+        289.40000000000003,
+        394.26539554219744
+      ]
+    },
+    {
+      "scene": "stand",
+      "variant": "routed_",
+      "xyz_mm": [
+        172.28203230275508,
+        289.40000000000003,
+        394.26539554219744
+      ]
+    },
+    {
+      "scene": "lift_h114",
+      "variant": "bay_only",
+      "xyz_mm": [
+        421.08349156278774,
+        289.40000000000003,
+        299.796264040551
+      ]
+    },
+    {
+      "scene": "lift_h114",
+      "variant": "routed_",
+      "xyz_mm": [
+        421.08349156278774,
+        289.40000000000003,
+        299.796264040551
+      ]
+    },
+    {
+      "scene": "lift_h117",
+      "variant": "bay_only",
+      "xyz_mm": [
+        413.569416496303,
+        289.40000000000003,
+        302.7962640405511
+      ]
+    },
+    {
+      "scene": "lift_h117",
+      "variant": "routed_",
+      "xyz_mm": [
+        413.569416496303,
+        289.40000000000003,
+        302.7962640405511
+      ]
+    },
+    {
+      "scene": "lift_h120",
+      "variant": "bay_only",
+      "xyz_mm": [
+        402.8569798449181,
+        289.40000000000003,
+        305.796264040551
+      ]
+    },
+    {
+      "scene": "lift_h120",
+      "variant": "routed_",
+      "xyz_mm": [
+        402.8569798449181,
+        289.40000000000003,
+        305.796264040551
+      ]
+    }
+  ],
+  "pending": [
+    "Actual PCB dimensions/holes/mass and mounting design",
+    "Actual array revision, sockets, wires, bend radius, signal integrity and strain relief",
+    "Only four geometries checked; no new 13-pose or continuous swept-volume claim",
+    "High recovery margin remains small; full task, CAE and final Wukong appearance unvalidated",
+    "Windows UAC error remains; no device operations/firmware/software changes"
+  ]
+}

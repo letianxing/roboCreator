@@ -1,0 +1,126 @@
+{
+  "head_at_pitch50_raw_bound_Z_mm": 439.42374722950626,
+  "head_at_pitch50_refined_surface_upper_Z_mm": 395.73921791235404,
+  "surface_bounds": [
+    {
+      "kind": "positive-weight rational BSpline control-hull after knot insertion",
+      "upper_Z_mm": 395.73921791235404,
+      "geometry_sample_error_mm": 5.90221124448794e-14
+    },
+    {
+      "kind": "Plane",
+      "upper_Z_mm": 390.84562336759893
+    },
+    {
+      "kind": "Plane",
+      "upper_Z_mm": 384.00336753301855
+    },
+    {
+      "kind": "Plane",
+      "upper_Z_mm": 353.32193865694006
+    },
+    {
+      "kind": "Plane",
+      "upper_Z_mm": 358.6233015437891
+    },
+    {
+      "kind": "Plane",
+      "upper_Z_mm": 358.6233015437892
+    },
+    {
+      "kind": "Plane",
+      "upper_Z_mm": 342.1316847085775
+    },
+    {
+      "kind": "Plane",
+      "upper_Z_mm": 339.339673253193
+    },
+    {
+      "kind": "Plane",
+      "upper_Z_mm": 372.4883767406378
+    },
+    {
+      "kind": "Plane",
+      "upper_Z_mm": 372.4883767406378
+    },
+    {
+      "kind": "Plane",
+      "upper_Z_mm": 358.9375511540068
+    },
+    {
+      "kind": "Plane",
+      "upper_Z_mm": 339.339673253193
+    },
+    {
+      "kind": "Plane",
+      "upper_Z_mm": 342.13168470857744
+    },
+    {
+      "kind": "Plane",
+      "upper_Z_mm": 358.6233015437892
+    },
+    {
+      "kind": "Plane",
+      "upper_Z_mm": 358.6233015437891
+    },
+    {
+      "kind": "Plane",
+      "upper_Z_mm": 360.98769347945694
+    },
+    {
+      "kind": "Plane",
+      "upper_Z_mm": 360.98769347945694
+    },
+    {
+      "kind": "Plane",
+      "upper_Z_mm": 360.98769347945694
+    },
+    {
+      "kind": "positive-weight rational BSpline control-hull after knot insertion",
+      "upper_Z_mm": 373.9578076083866,
+      "geometry_sample_error_mm": 6.365209823104904e-14
+    },
+    {
+      "kind": "positive-weight rational BSpline control-hull after knot insertion",
+      "upper_Z_mm": 373.9578076083866,
+      "geometry_sample_error_mm": 5.695433295429594e-14
+    },
+    {
+      "kind": "Plane",
+      "upper_Z_mm": 390.84562336759893
+    },
+    {
+      "kind": "positive-weight rational BSpline control-hull after knot insertion",
+      "upper_Z_mm": 393.7386428290117,
+      "geometry_sample_error_mm": 1.1374233532693354e-13
+    },
+    {
+      "kind": "Plane",
+      "upper_Z_mm": 358.6233015437892
+    },
+    {
+      "kind": "Plane",
+      "upper_Z_mm": 358.6233015437892
+    },
+    {
+      "kind": "positive-weight rational BSpline control-hull after knot insertion",
+      "upper_Z_mm": 373.9578076083866,
+      "geometry_sample_error_mm": 6.365209823104904e-14
+    },
+    {
+      "kind": "positive-weight rational BSpline control-hull after knot insertion",
+      "upper_Z_mm": 373.9578076083866,
+      "geometry_sample_error_mm": 5.695433295429594e-14
+    }
+  ],
+  "crown_exact_max_over_pitch0_to50": {
+    "pitch_deg": 33.49518467374118,
+    "world_Z_mm": 401.0360958059898,
+    "neutral_vertex_body_mm": [
+      -17.499999999999996,
+      -17.5,
+      180.0
+    ]
+  },
+  "scope": "Refinement is on geometry copies only. Positive NURBS weights give a conservative full-surface bound including trimmed-away portions. Crown is the existing rectangular occupancy, not final costume."
+}

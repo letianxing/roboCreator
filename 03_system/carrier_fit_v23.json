@@ -1,0 +1,13 @@
+{
+  "stage":"v0.23-fit-revision",
+  "date":"2026-09-07",
+  "prior_geometry":"03_system/carrier_revision_v23.json",
+  "countersink_radial_clearance_mm":0.0,
+  "countersink_scope":"Nominal CAD seating contact only; screw SKU,thread/preload/tolerance not released",
+  "grommet_outer_radius_mm":5.0,
+  "grommet_inner_radius_mm":4.1,
+  "grommet_flange_radius_mm":6.0,
+  "reason":"First collision-free revision still left only0.054mm cable/grommet clearance and a0.106mm screw-seat gap; improve nominal fit and include the larger plate bore in the audit",
+  "mic_array_reference_unchanged":true,
+  "uac_board_included":false
+}

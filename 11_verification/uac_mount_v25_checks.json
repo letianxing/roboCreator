@@ -1,0 +1,210 @@
+{
+  "stage": "v0.25-reference-mount",
+  "checks": [
+    {
+      "name": "Four sampled poses: changed structure, ports, cable proxy, ground and positive-volume intersection checks",
+      "status": "passed",
+      "evidence": [
+        "09_cad\\uac_mount_v25_service\\integration.json"
+      ]
+    },
+    {
+      "name": "Four shaft-access probes and sixteen stationary cassette-withdrawal samples",
+      "status": "passed",
+      "evidence": [
+        "07_mechanics\\uac_service_v25_final.json"
+      ]
+    },
+    {
+      "name": "Five native CAD reloaded; net CAD mass and 56 scenario totals checked",
+      "status": "passed",
+      "evidence": [
+        "09_cad\\uac_mount_v25_service\\mount_native.FCStd",
+        "09_cad\\uac_mount_v25_service\\stand.FCStd",
+        "09_cad\\uac_mount_v25_service\\lift_h114.FCStd",
+        "09_cad\\uac_mount_v25_service\\lift_h117.FCStd",
+        "09_cad\\uac_mount_v25_service\\lift_h120.FCStd"
+      ]
+    },
+    {
+      "name": "New mount-only STEP reloaded with valid solids",
+      "status": "passed",
+      "evidence": [
+        "09_cad/uac_mount_v25_service/mount_native.step"
+      ]
+    },
+    {
+      "name": "Full-robot STEP topology on reimport",
+      "status": "failed",
+      "evidence": [
+        "09_cad\\uac_mount_v25_service\\mount_native.step",
+        "09_cad\\uac_mount_v25_service\\stand.step",
+        "09_cad\\uac_mount_v25_service\\lift_h114.step",
+        "09_cad\\uac_mount_v25_service\\lift_h117.step",
+        "09_cad\\uac_mount_v25_service\\lift_h120.step"
+      ]
+    },
+    {
+      "name": "Previous head/port/tool-access failures retained",
+      "status": "passed",
+      "evidence": [
+        "09_cad/uac_mount_v25/integration.json",
+        "09_cad/uac_mount_v25_revision/port_audit.json",
+        "07_mechanics/uac_service_v25.json"
+      ]
+    },
+    {
+      "name": "Camera task/FOV/mechanical/platform selection requirements saved",
+      "status": "passed",
+      "evidence": [
+        "08_electrical/camera_selection_requirements.md"
+      ]
+    },
+    {
+      "name": "Real PCB fixation, actual cable/USB retention, material strength/preload, CAE and full robot tasks",
+      "status": "not_run",
+      "evidence": [
+        "09_cad\\uac_mount_v25_service\\integration.json"
+      ]
+    }
+  ],
+  "source_sha256": {
+    "03_system/uac_mount_v25.json": "a985acafbe336e486584bbe05c79b685e0a51f39c987c6edc436fabb269043cb",
+    "09_cad/uac_mount_v25.py": "1aea71732b17ef5a001ff60d04d7a1035919d3a578a9a910969cb46088339ae2",
+    "07_mechanics/check_uac_service_v25.py": "17cd01069453b01ad52eef912a5dac29337711cdfa443e31e0b6eb77b61733a4",
+    "11_verification/check_uac_mount_v25.py": "6a85141d90ce66c640cd4b864e2695b5cf46ec355e92fd7337f1a357a81cda61",
+    "09_cad/render_uac_mount_v25.py": "6665553fa7da8af42000d474905514bb9e0c36d9e03c1a8a2fa21a19fa9e4894",
+    "08_electrical/camera_selection_requirements.md": "e7416c410f5f84f288f72d3c44ab5d55420cea3973579b700c539705d9ebec13",
+    "deliverables/uac_mount_review_v25.md": "919d823c1041f01b1c31fccfc289ff97872ef9f45fcdd54fd82f4e50c5ef91ed",
+    "09_cad/uac_mount_v25_service/mount_review.png": "300fd7f6c2b831cdeec07d73e187788a11afa49b667c5d3da2fe43dacd8d5b35"
+  },
+  "artifacts_sha256": {
+    "09_cad\\uac_mount_v25_service\\mount_native.FCStd": "252a7c0f9e905de34b1b3c7baaf909e683fe69ad479cb6513e668da401f29e6c",
+    "09_cad\\uac_mount_v25_service\\mount_native.step": "732b9fede1f7a856fdc4942d6ee5e22d4b9b03e3a25307b5673b82b237be051f",
+    "09_cad\\uac_mount_v25_service\\stand.FCStd": "9f8b45cf5028fd71c1a0dc17e7597339bdc2582216939f31b7c06b30994bd813",
+    "09_cad\\uac_mount_v25_service\\stand.step": "136388ef04976b20a9d5140be385b54203b220bdd67f973b393c187e6e37d7a5",
+    "09_cad\\uac_mount_v25_service\\lift_h114.FCStd": "e6df1814b03d3913bd68bdfe0b6ddff18f75853134591b67a3c119f553cf9d00",
+    "09_cad\\uac_mount_v25_service\\lift_h114.step": "c97b2b059d406b44da2f40ed0ce57c7674c678fbfe9077fa9644293dc251f270",
+    "09_cad\\uac_mount_v25_service\\lift_h117.FCStd": "6d1d80614861ff071771b61b9001f35a0818dc284bc8dddf4b4c5b4d6e05e482",
+    "09_cad\\uac_mount_v25_service\\lift_h117.step": "4fb1b3b389da2d2b7197f223de58a5293a83f29107105c2ee9e1889937e6d3b4",
+    "09_cad\\uac_mount_v25_service\\lift_h120.FCStd": "b13856d19bcbf885b2a78784ef24d7cb7149aa791e4fde62e6b8e020d0984d5f",
+    "09_cad\\uac_mount_v25_service\\lift_h120.step": "37a6c68f1ea28421930608fd122c35b396efc9497a1ef7ef14f8d582f0fe1311"
+  },
+  "STEP_checks": [
+    {
+      "file": "09_cad\\uac_mount_v25_service\\mount_native.step",
+      "valid": true,
+      "solid_count": 18,
+      "invalid_solid_indices": []
+    },
+    {
+      "file": "09_cad\\uac_mount_v25_service\\stand.step",
+      "valid": false,
+      "solid_count": 362,
+      "invalid_solid_indices": [
+        27,
+        105
+      ],
+      "baseline_step": "09_cad\\body_v23_fit\\stand.step",
+      "baseline_sha256": "55ce59e33c2751bc54365aae47780076b1a418f4d6267ab3ce89a7307d75be48",
+      "baseline_invalid_solid_indices": [
+        27,
+        105
+      ],
+      "baseline_matches": [
+        {
+          "index": 27,
+          "matches_baseline_volume_and_bounds": true
+        },
+        {
+          "index": 105,
+          "matches_baseline_volume_and_bounds": true
+        }
+      ]
+    },
+    {
+      "file": "09_cad\\uac_mount_v25_service\\lift_h114.step",
+      "valid": false,
+      "solid_count": 362,
+      "invalid_solid_indices": [
+        73,
+        152
+      ],
+      "baseline_step": "09_cad\\body_v23_fit\\lift_h114.step",
+      "baseline_sha256": "6c8fc852562fe5e2b774e551eaddf4b8947be57d18a1d46aa7435c5d15e8c3e1",
+      "baseline_invalid_solid_indices": [
+        73,
+        152
+      ],
+      "baseline_matches": [
+        {
+          "index": 73,
+          "matches_baseline_volume_and_bounds": true
+        },
+        {
+          "index": 152,
+          "matches_baseline_volume_and_bounds": true
+        }
+      ]
+    },
+    {
+      "file": "09_cad\\uac_mount_v25_service\\lift_h117.step",
+      "valid": false,
+      "solid_count": 363,
+      "invalid_solid_indices": [
+        73,
+        153
+      ],
+      "baseline_step": "09_cad\\body_v23_fit\\lift_h117.step",
+      "baseline_sha256": "19378998abec9f3da71146d84d25cce9992f85d4332f8f53fad3ad2d7a3bed69",
+      "baseline_invalid_solid_indices": [
+        73,
+        153
+      ],
+      "baseline_matches": [
+        {
+          "index": 73,
+          "matches_baseline_volume_and_bounds": true
+        },
+        {
+          "index": 153,
+          "matches_baseline_volume_and_bounds": true
+        }
+      ]
+    },
+    {
+      "file": "09_cad\\uac_mount_v25_service\\lift_h120.step",
+      "valid": false,
+      "solid_count": 362,
+      "invalid_solid_indices": [
+        73,
+        152
+      ],
+      "baseline_step": "09_cad\\body_v23_fit\\lift_h120.step",
+      "baseline_sha256": "d98837f30294e8eb1a087ac754fc981797af1da486a0e3961e6d505e4eb008d5",
+      "baseline_invalid_solid_indices": [
+        73,
+        152
+      ],
+      "baseline_matches": [
+        {
+          "index": 73,
+          "matches_baseline_volume_and_bounds": true
+        },
+        {
+          "index": 152,
+          "matches_baseline_volume_and_bounds": true
+        }
+      ]
+    }
+  ],
+  "pending": [
+    "Actual board data, mounting interface and insulation/thermal clearance",
+    "Actual wire bend radius/type, signal integrity, USB strain relief and pull retention",
+    "Fastener SKU, thread/preload, nut capture, print tolerance and material/impact strength",
+    "Continuous motion/removal and full recovery/CAE/final Wukong verification",
+    "Full-robot STEP reimport errors require separate topology/export investigation; do not release affected STEP files",
+    "Camera remains a placeholder; future FOV/task/mechanical/platform selection required",
+    "Windows audio Code10 unchanged; no device operations or software/MCP installs"
+  ]
+}

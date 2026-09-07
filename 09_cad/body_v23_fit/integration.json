@@ -1,0 +1,6478 @@
+{
+  "completed": true,
+  "source_motion_sha256": "6b14b9eeb48a07a8bcb62aa1ce21b48e60c93a41d72cd1f687d343115af95dae",
+  "source_geometry_evidence_sha256": "ea66f33306d1a827730eb4b57cd31a8eb4da0f6555e9f18890b357121e0badd5",
+  "carrier_input_sha256": "87377296b71171526c0f34a816a12152d0ceddd6905976aed1058ed03da3abb5",
+  "revision_input_sha256": "086d85385c546ad2fab5de4021ac8ffe592fe68c7e8134ce5dc3fba2fa00369b",
+  "fit_input_sha256": "29ed49a4c8cfa118f7c659285c911bc25f5c894f63eeecbde965a75e8260e3f3",
+  "unchanged_pair_evidence": "09_cad\\body_v23_revision\\integration.json",
+  "changed_pair_names": [
+    "ElectronicsCarrier",
+    "HarnessGrommet",
+    "PelvisPlate"
+  ],
+  "native_solid_counts": {
+    "ElectronicsCarrier": 1,
+    "BatteryPadding": 1,
+    "BatteryRetainer0": 1,
+    "BatteryRetainer1": 1,
+    "ComputerCushion0": 1,
+    "ComputerCushion1": 1,
+    "ComputerCushion2": 1,
+    "ComputerCushion3": 1,
+    "ComputerRetainer0": 1,
+    "ComputerRetainer1": 1,
+    "PowerPadding": 1,
+    "PowerRetainer0": 1,
+    "PowerRetainer1": 1,
+    "CarrierScrew0": 1,
+    "CarrierScrew1": 1,
+    "CarrierScrew2": 1,
+    "CarrierScrew3": 1,
+    "PelvisPlate": 1,
+    "HarnessGrommet": 1,
+    "PowerHarnessKeepout": 1
+  },
+  "harness": {
+    "bend_arcs": [
+      {
+        "radius_mm": 8,
+        "tangent_before_mm": [
+          -36.0,
+          -32.0,
+          76.0
+        ],
+        "tangent_after_mm": [
+          -36.0,
+          -40.0,
+          68.0
+        ]
+      },
+      {
+        "radius_mm": 8,
+        "tangent_before_mm": [
+          -36.0,
+          -40.0,
+          50.0
+        ],
+        "tangent_after_mm": [
+          -28.0,
+          -40.0,
+          42.0
+        ]
+      },
+      {
+        "radius_mm": 8,
+        "tangent_before_mm": [
+          16.0,
+          -40.0,
+          42.0
+        ],
+        "tangent_after_mm": [
+          24.0,
+          -32.0,
+          42.0
+        ]
+      }
+    ],
+    "centerline_length_mm": 135.6991118430775,
+    "connector_locations_unconfirmed": true,
+    "revision": {
+      "chamfer_mm": 1.5,
+      "grommet_inner_diameter_mm": 8.2,
+      "grommet_plate_bore_mm": 10.0,
+      "nominal_screw_seating": true
+    }
+  },
+  "scenes": [
+    {
+      "scene": "lift_h114",
+      "h_mm": 114,
+      "changed_pair_failures": [],
+      "changed_near_pairs": [
+        {
+          "a": "PelvisPlate",
+          "b": "battery",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "power",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "R_HipRollMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "R_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "L_HipRollMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "L_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "L_ThighRailm1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "R_UpperArm",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "BatteryPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "BatteryRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew2",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew3",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerHarnessKeepout",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "battery",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "microphone",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "computer",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "power",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "camera",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "NeckMotor0",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "NeckMotor1",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_HipRollMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_HipRollMotor",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_HipYawMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "L_HipRollMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "L_HipYawMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "L_ThighRailm1",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_ElbowMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion2",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion3",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew2",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew3",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerHarnessKeepout",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "HarnessGrommet",
+          "b": "PowerHarnessKeepout",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        }
+      ],
+      "ground_penetrations_mm": {},
+      "component_count": 101,
+      "motor_count": 28,
+      "old_mass_kg": 4.072501811775055,
+      "removed_plate_mass_kg": 0.054,
+      "added_native_mass_kg": 0.10673368663213413,
+      "new_mass_kg": 4.12523549840719,
+      "COM_mm": [
+        -14.818614803760674,
+        0.9326880646616837,
+        126.78299272361487
+      ],
+      "vertical_balance": {
+        "nonnegative_vertical_balance_exists": true,
+        "forces_N": [
+          10.647816679898703,
+          14.977124346253504,
+          0.0,
+          0.9864160522102843,
+          10.832043805190354,
+          3.0251593558216863
+        ],
+        "force_residual_N": -7.105427357601002e-15,
+        "moment_residual_Nm": [
+          -5.551115123125783e-16,
+          7.632783294297951e-17
+        ]
+      },
+      "geometry_pass": true,
+      "manufacturing_release": false,
+      "support_margin": {
+        "support_polygon_margin_mm": 12.146889116797444,
+        "hull_vertex_indices": [
+          1,
+          4,
+          5,
+          2,
+          3
+        ],
+        "force_ranges": [
+          {
+            "point_index": 0,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 22.73042588386369
+          },
+          {
+            "point_index": 1,
+            "minimum_force_N": 7.473528186018993,
+            "maximum_force_N": 22.880242133690878
+          },
+          {
+            "point_index": 2,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 4.328269320417822
+          },
+          {
+            "point_index": 3,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 5.3462975740890935
+          },
+          {
+            "point_index": 4,
+            "minimum_force_N": 8.871699889442068,
+            "maximum_force_N": 15.960157074332415
+          },
+          {
+            "point_index": 5,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 8.71661821624159
+          }
+        ],
+        "right_palm_at_least_1N_feasible": true,
+        "scope": "Flat rigid ground, vertical gravity and unilateral point reactions only. 1N is a diagnostic probe, not a required or commanded hardware load."
+      },
+      "saved_valid_shapes": 101
+    },
+    {
+      "scene": "lift_h114.5",
+      "h_mm": 114.5,
+      "changed_pair_failures": [],
+      "changed_near_pairs": [
+        {
+          "a": "PelvisPlate",
+          "b": "battery",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "power",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "R_HipRollMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "R_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "L_HipRollMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "L_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "L_ThighRailm1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "R_UpperArm",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "BatteryPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "BatteryRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew2",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew3",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerHarnessKeepout",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "battery",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "microphone",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "computer",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "power",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "camera",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "NeckMotor0",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "NeckMotor1",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_HipRollMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_HipRollMotor",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_HipYawMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "L_HipRollMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "L_HipYawMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "L_ThighRailm1",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_ElbowMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion2",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion3",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew2",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew3",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerHarnessKeepout",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "HarnessGrommet",
+          "b": "PowerHarnessKeepout",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        }
+      ],
+      "ground_penetrations_mm": {},
+      "component_count": 101,
+      "motor_count": 28,
+      "old_mass_kg": 4.072501811775055,
+      "removed_plate_mass_kg": 0.054,
+      "added_native_mass_kg": 0.10673368663213413,
+      "new_mass_kg": 4.12523549840719,
+      "COM_mm": [
+        -15.564876704303945,
+        0.9249056971894355,
+        127.05893744147758
+      ],
+      "vertical_balance": {
+        "nonnegative_vertical_balance_exists": true,
+        "forces_N": [
+          10.721656176891855,
+          15.176801233965783,
+          0.0,
+          0.7569292943388248,
+          10.932362275193222,
+          2.880811258984834
+        ],
+        "force_residual_N": -2.1316282072803006e-14,
+        "moment_residual_Nm": [
+          -1.1102230246251565e-16,
+          -6.938893903907228e-18
+        ]
+      },
+      "geometry_pass": true,
+      "manufacturing_release": false,
+      "support_margin": {
+        "support_polygon_margin_mm": 11.463796143046212,
+        "hull_vertex_indices": [
+          1,
+          4,
+          5,
+          2,
+          3
+        ],
+        "force_ranges": [
+          {
+            "point_index": 0,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 21.452156685689424
+          },
+          {
+            "point_index": 1,
+            "minimum_force_N": 8.430067329038643,
+            "maximum_force_N": 22.970368654922755
+          },
+          {
+            "point_index": 2,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 4.084864582558493
+          },
+          {
+            "point_index": 3,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 5.04564295599488
+          },
+          {
+            "point_index": 4,
+            "minimum_force_N": 9.271761481490387,
+            "maximum_force_N": 15.961591886208751
+          },
+          {
+            "point_index": 5,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 8.226430102961395
+          }
+        ],
+        "right_palm_at_least_1N_feasible": true,
+        "scope": "Flat rigid ground, vertical gravity and unilateral point reactions only. 1N is a diagnostic probe, not a required or commanded hardware load."
+      }
+    },
+    {
+      "scene": "lift_h115",
+      "h_mm": 115,
+      "changed_pair_failures": [],
+      "changed_near_pairs": [
+        {
+          "a": "PelvisPlate",
+          "b": "battery",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "power",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "R_HipRollMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "R_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "L_HipRollMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "L_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "L_ThighRailm1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "R_UpperArm",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "BatteryPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "BatteryRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew2",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew3",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerHarnessKeepout",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "battery",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "microphone",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "computer",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "power",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "camera",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "NeckMotor0",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "NeckMotor1",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_HipRollMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_HipRollMotor",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_HipYawMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "L_HipRollMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "L_HipYawMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "L_ThighRailm1",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_ElbowMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion2",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion3",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew2",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew3",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerHarnessKeepout",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "HarnessGrommet",
+          "b": "PowerHarnessKeepout",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        }
+      ],
+      "ground_penetrations_mm": {},
+      "component_count": 101,
+      "motor_count": 28,
+      "old_mass_kg": 4.072501811775056,
+      "removed_plate_mass_kg": 0.054,
+      "added_native_mass_kg": 0.10673368663213413,
+      "new_mass_kg": 4.12523549840719,
+      "COM_mm": [
+        -16.342831294029757,
+        0.9203020792340171,
+        127.32951429887432
+      ],
+      "vertical_balance": {
+        "nonnegative_vertical_balance_exists": true,
+        "forces_N": [
+          10.798939269331697,
+          15.385771031804815,
+          0.0,
+          0.5174239967938252,
+          11.036756836601793,
+          2.7296691048423822
+        ],
+        "force_residual_N": -3.552713678800501e-14,
+        "moment_residual_Nm": [
+          -6.661338147750939e-16,
+          6.938893903907228e-18
+        ]
+      },
+      "geometry_pass": true,
+      "manufacturing_release": false,
+      "support_margin": {
+        "support_polygon_margin_mm": 10.750313338927512,
+        "hull_vertex_indices": [
+          1,
+          4,
+          5,
+          2,
+          3
+        ],
+        "force_ranges": [
+          {
+            "point_index": 0,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 20.117019117338323
+          },
+          {
+            "point_index": 1,
+            "minimum_force_N": 9.429811421080592,
+            "maximum_force_N": 23.065154665603885
+          },
+          {
+            "point_index": 2,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 3.8306311156997075
+          },
+          {
+            "point_index": 3,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 4.73161264353083
+          },
+          {
+            "point_index": 4,
+            "minimum_force_N": 9.688971352845913,
+            "maximum_force_N": 15.962440641518766
+          },
+          {
+            "point_index": 5,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 7.7144342209247405
+          }
+        ],
+        "right_palm_at_least_1N_feasible": true,
+        "scope": "Flat rigid ground, vertical gravity and unilateral point reactions only. 1N is a diagnostic probe, not a required or commanded hardware load."
+      }
+    },
+    {
+      "scene": "lift_h115.5",
+      "h_mm": 115.5,
+      "changed_pair_failures": [],
+      "changed_near_pairs": [
+        {
+          "a": "PelvisPlate",
+          "b": "battery",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "power",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "R_HipRollMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "R_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "L_HipRollMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "L_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "R_UpperArm",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "BatteryPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "BatteryRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew2",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew3",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerHarnessKeepout",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "battery",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "microphone",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "computer",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "power",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "camera",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "NeckMotor0",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "NeckMotor1",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_HipRollMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_HipRollMotor",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_HipYawMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "L_HipRollMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "L_HipYawMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "L_ThighRailm1",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_ElbowMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion2",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion3",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew2",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew3",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerHarnessKeepout",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "HarnessGrommet",
+          "b": "PowerHarnessKeepout",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        }
+      ],
+      "ground_penetrations_mm": {},
+      "component_count": 101,
+      "motor_count": 28,
+      "old_mass_kg": 4.072501811775055,
+      "removed_plate_mass_kg": 0.054,
+      "added_native_mass_kg": 0.10673368663213413,
+      "new_mass_kg": 4.12523549840719,
+      "COM_mm": [
+        -17.151633515679165,
+        0.9121146927989395,
+        127.60097136662806
+      ],
+      "vertical_balance": {
+        "nonnegative_vertical_balance_exists": true,
+        "forces_N": [
+          10.878988545744289,
+          15.602239058055709,
+          0.0,
+          0.26868595127395345,
+          11.1454694938527,
+          2.573177190447879
+        ],
+        "force_residual_N": -7.105427357601002e-15,
+        "moment_residual_Nm": [
+          -5.551115123125783e-16,
+          -3.191891195797325e-16
+        ]
+      },
+      "geometry_pass": true,
+      "manufacturing_release": false,
+      "support_margin": {
+        "support_polygon_margin_mm": 10.009876711411806,
+        "hull_vertex_indices": [
+          1,
+          4,
+          5,
+          2,
+          3
+        ],
+        "force_ranges": [
+          {
+            "point_index": 0,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 18.73144296515549
+          },
+          {
+            "point_index": 1,
+            "minimum_force_N": 10.466694998724897,
+            "maximum_force_N": 23.162892820348254
+          },
+          {
+            "point_index": 2,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 3.5667932632442936
+          },
+          {
+            "point_index": 3,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 4.405718951130213
+          },
+          {
+            "point_index": 4,
+            "minimum_force_N": 10.12257116729818,
+            "maximum_force_N": 15.96395012553312
+          },
+          {
+            "point_index": 5,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 7.1830962517281005
+          }
+        ],
+        "right_palm_at_least_1N_feasible": true,
+        "scope": "Flat rigid ground, vertical gravity and unilateral point reactions only. 1N is a diagnostic probe, not a required or commanded hardware load."
+      }
+    },
+    {
+      "scene": "lift_h116",
+      "h_mm": 116,
+      "changed_pair_failures": [],
+      "changed_near_pairs": [
+        {
+          "a": "PelvisPlate",
+          "b": "battery",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "power",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "R_HipRollMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "R_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "L_HipRollMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "L_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "R_UpperArm",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "BatteryPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "BatteryRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew2",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew3",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerHarnessKeepout",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "battery",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "microphone",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "computer",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "power",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "camera",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "NeckMotor0",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "NeckMotor1",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_HipRollMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_HipRollMotor",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_HipYawMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "L_HipRollMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "L_HipYawMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "L_ThighRailm1",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_UpperArm",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_ElbowMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion2",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion3",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew2",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew3",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerHarnessKeepout",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "HarnessGrommet",
+          "b": "PowerHarnessKeepout",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        }
+      ],
+      "ground_penetrations_mm": {},
+      "component_count": 101,
+      "motor_count": 28,
+      "old_mass_kg": 4.072501811775055,
+      "removed_plate_mass_kg": 0.054,
+      "added_native_mass_kg": 0.10673368663213413,
+      "new_mass_kg": 4.12523549840719,
+      "COM_mm": [
+        -17.998825593749217,
+        0.9070810214578507,
+        127.86660512287938
+      ],
+      "vertical_balance": {
+        "nonnegative_vertical_balance_exists": true,
+        "forces_N": [
+          10.963148003547563,
+          15.829802331230889,
+          0.0,
+          0.007866406326545672,
+          11.259156176008812,
+          2.408587322260698
+        ],
+        "force_residual_N": -2.842170943040401e-14,
+        "moment_residual_Nm": [
+          -8.881784197001252e-16,
+          -4.371503159461554e-16
+        ]
+      },
+      "geometry_pass": true,
+      "manufacturing_release": false,
+      "support_margin": {
+        "support_polygon_margin_mm": 9.2329023642837,
+        "hull_vertex_indices": [
+          1,
+          4,
+          5,
+          2,
+          3
+        ],
+        "force_ranges": [
+          {
+            "point_index": 0,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 17.27749392180445
+          },
+          {
+            "point_index": 1,
+            "minimum_force_N": 11.555400749063637,
+            "maximum_force_N": 23.266109908052535
+          },
+          {
+            "point_index": 2,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 3.2899360204482164
+          },
+          {
+            "point_index": 3,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 4.063743649698005
+          },
+          {
+            "point_index": 4,
+            "minimum_force_N": 10.576911548227063,
+            "maximum_force_N": 15.964878168503017
+          },
+          {
+            "point_index": 5,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 6.625538783094943
+          }
+        ],
+        "right_palm_at_least_1N_feasible": true,
+        "scope": "Flat rigid ground, vertical gravity and unilateral point reactions only. 1N is a diagnostic probe, not a required or commanded hardware load."
+      }
+    },
+    {
+      "scene": "lift_h116.5",
+      "h_mm": 116.5,
+      "changed_pair_failures": [],
+      "changed_near_pairs": [
+        {
+          "a": "PelvisPlate",
+          "b": "battery",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "power",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "R_HipRollMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "R_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "L_HipRollMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "L_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "R_UpperArm",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "BatteryPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "BatteryRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew2",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew3",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerHarnessKeepout",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "battery",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "microphone",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "computer",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "power",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "camera",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "NeckMotor0",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "NeckMotor1",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_HipRollMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_HipRollMotor",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_HipYawMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "L_HipRollMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "L_HipYawMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "L_ThighRailm1",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_UpperArm",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_ElbowMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion2",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion3",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew2",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew3",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerHarnessKeepout",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "HarnessGrommet",
+          "b": "PowerHarnessKeepout",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        }
+      ],
+      "ground_penetrations_mm": {},
+      "component_count": 101,
+      "motor_count": 28,
+      "old_mass_kg": 4.072501811775055,
+      "removed_plate_mass_kg": 0.054,
+      "added_native_mass_kg": 0.10673368663213413,
+      "new_mass_kg": 4.12523549840719,
+      "COM_mm": [
+        -18.885197090378114,
+        0.8984786741159132,
+        128.13212422984182
+      ],
+      "vertical_balance": {
+        "nonnegative_vertical_balance_exists": true,
+        "forces_N": [
+          10.85724200343617,
+          16.01425597892116,
+          0.0,
+          0.0,
+          11.717438034805454,
+          1.8796242222117492
+        ],
+        "force_residual_N": -1.4210854715202004e-14,
+        "moment_residual_Nm": [
+          3.3306690738754696e-16,
+          -4.163336342344337e-17
+        ]
+      },
+      "geometry_pass": true,
+      "manufacturing_release": false,
+      "support_margin": {
+        "support_polygon_margin_mm": 8.421307570392763,
+        "hull_vertex_indices": [
+          1,
+          4,
+          5,
+          2,
+          3
+        ],
+        "force_ranges": [
+          {
+            "point_index": 0,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 15.758759772436388
+          },
+          {
+            "point_index": 1,
+            "minimum_force_N": 12.692000489197767,
+            "maximum_force_N": 23.373309551530948
+          },
+          {
+            "point_index": 2,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 3.00074256414579
+          },
+          {
+            "point_index": 3,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 3.706530602307772
+          },
+          {
+            "point_index": 4,
+            "minimum_force_N": 11.05211303615057,
+            "maximum_force_N": 15.966464157621957
+          },
+          {
+            "point_index": 5,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 6.043137651693013
+          }
+        ],
+        "right_palm_at_least_1N_feasible": true,
+        "scope": "Flat rigid ground, vertical gravity and unilateral point reactions only. 1N is a diagnostic probe, not a required or commanded hardware load."
+      }
+    },
+    {
+      "scene": "lift_h117",
+      "h_mm": 117,
+      "changed_pair_failures": [],
+      "changed_near_pairs": [
+        {
+          "a": "PelvisPlate",
+          "b": "battery",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "power",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "R_HipRollMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "R_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "L_HipRollMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "L_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "R_UpperArm",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "BatteryPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "BatteryRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew2",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew3",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerHarnessKeepout",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "battery",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "microphone",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "computer",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "power",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "camera",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "NeckMotor0",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "NeckMotor1",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_HipRollMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_HipRollMotor",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_HipYawMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "L_HipRollMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "L_HipYawMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "L_ThighRailm1",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_UpperArm",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_ElbowMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion2",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion3",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew2",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew3",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerHarnessKeepout",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "HarnessGrommet",
+          "b": "PowerHarnessKeepout",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        }
+      ],
+      "ground_penetrations_mm": {},
+      "component_count": 101,
+      "motor_count": 28,
+      "old_mass_kg": 4.072501811775055,
+      "removed_plate_mass_kg": 0.054,
+      "added_native_mass_kg": 0.10673368663213413,
+      "new_mass_kg": 4.12523549840719,
+      "COM_mm": [
+        -19.819771541284485,
+        0.8927955853612449,
+        128.39123672186983
+      ],
+      "vertical_balance": {
+        "nonnegative_vertical_balance_exists": true,
+        "forces_N": [
+          10.739614094714355,
+          16.207816725742898,
+          0.0,
+          0.0,
+          12.21142664533752,
+          1.3097027735797724
+        ],
+        "force_residual_N": 7.105427357601002e-15,
+        "moment_residual_Nm": [
+          0.0,
+          -6.245004513516506e-17
+        ]
+      },
+      "geometry_pass": true,
+      "manufacturing_release": false,
+      "support_margin": {
+        "support_polygon_margin_mm": 7.564244559425632,
+        "hull_vertex_indices": [
+          1,
+          4,
+          5,
+          2,
+          3
+        ],
+        "force_ranges": [
+          {
+            "point_index": 0,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 14.154941127080573
+          },
+          {
+            "point_index": 1,
+            "minimum_force_N": 13.892903362734975,
+            "maximum_force_N": 23.487141939931277
+          },
+          {
+            "point_index": 2,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 2.695347536631784
+          },
+          {
+            "point_index": 3,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 3.3293053018776684
+          },
+          {
+            "point_index": 4,
+            "minimum_force_N": 11.553309811351648,
+            "maximum_force_N": 15.967511931743205
+          },
+          {
+            "point_index": 5,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 5.428108488091609
+          }
+        ],
+        "right_palm_at_least_1N_feasible": true,
+        "scope": "Flat rigid ground, vertical gravity and unilateral point reactions only. 1N is a diagnostic probe, not a required or commanded hardware load."
+      },
+      "saved_valid_shapes": 101
+    },
+    {
+      "scene": "lift_h117.5",
+      "h_mm": 117.5,
+      "changed_pair_failures": [],
+      "changed_near_pairs": [
+        {
+          "a": "PelvisPlate",
+          "b": "battery",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "power",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "R_HipRollMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "R_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "L_HipRollMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "L_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "R_UpperArm",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "BatteryPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "BatteryRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew2",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew3",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerHarnessKeepout",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "battery",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "microphone",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "computer",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "power",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "camera",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "NeckMotor0",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "NeckMotor1",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_HipRollMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_HipRollMotor",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_HipYawMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "L_HipRollMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "L_HipYawMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "L_ThighRailm1",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_UpperArm",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_ElbowMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion2",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion3",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew2",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew3",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerHarnessKeepout",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "HarnessGrommet",
+          "b": "PowerHarnessKeepout",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        }
+      ],
+      "ground_penetrations_mm": {},
+      "component_count": 101,
+      "motor_count": 28,
+      "old_mass_kg": 4.072501811775055,
+      "removed_plate_mass_kg": 0.054,
+      "added_native_mass_kg": 0.10673368663213413,
+      "new_mass_kg": 4.12523549840719,
+      "COM_mm": [
+        -20.80633793792556,
+        0.8839040098613032,
+        128.64849433501067
+      ],
+      "vertical_balance": {
+        "nonnegative_vertical_balance_exists": true,
+        "forces_N": [
+          10.615353036082276,
+          16.411520430235953,
+          0.0,
+          0.0,
+          12.732760786875811,
+          0.7089259861805157
+        ],
+        "force_residual_N": 1.4210854715202004e-14,
+        "moment_residual_Nm": [
+          3.3306690738754696e-16,
+          1.5959455978986625e-16
+        ]
+      },
+      "geometry_pass": true,
+      "manufacturing_release": false,
+      "support_margin": {
+        "support_polygon_margin_mm": 6.660638954736751,
+        "hull_vertex_indices": [
+          1,
+          4,
+          5,
+          2,
+          3
+        ],
+        "force_ranges": [
+          {
+            "point_index": 0,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 12.464027508940967
+          },
+          {
+            "point_index": 1,
+            "minimum_force_N": 15.15848632822573,
+            "maximum_force_N": 23.606621327864627
+          },
+          {
+            "point_index": 2,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 2.3733681080780107
+          },
+          {
+            "point_index": 3,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 2.931594875296021
+          },
+          {
+            "point_index": 4,
+            "minimum_force_N": 12.082258592836357,
+            "maximum_force_N": 15.969151244994876
+          },
+          {
+            "point_index": 5,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 4.779680318673547
+          }
+        ],
+        "right_palm_at_least_1N_feasible": true,
+        "scope": "Flat rigid ground, vertical gravity and unilateral point reactions only. 1N is a diagnostic probe, not a required or commanded hardware load."
+      }
+    },
+    {
+      "scene": "lift_h118",
+      "h_mm": 118,
+      "changed_pair_failures": [],
+      "changed_near_pairs": [
+        {
+          "a": "PelvisPlate",
+          "b": "battery",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "power",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "R_HipRollMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "R_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "L_HipRollMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "L_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "R_UpperArm",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "BatteryPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "BatteryRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew2",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew3",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerHarnessKeepout",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "battery",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "microphone",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "computer",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "power",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "camera",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "NeckMotor0",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "NeckMotor1",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_HipRollMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_HipRollMotor",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_HipYawMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "L_HipRollMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "L_HipYawMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "L_ThighRailm1",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_UpperArm",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_ElbowMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion2",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion3",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew2",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew3",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerHarnessKeepout",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "HarnessGrommet",
+          "b": "PowerHarnessKeepout",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        }
+      ],
+      "ground_penetrations_mm": {},
+      "component_count": 101,
+      "motor_count": 28,
+      "old_mass_kg": 4.072501811775055,
+      "removed_plate_mass_kg": 0.054,
+      "added_native_mass_kg": 0.10673368663213413,
+      "new_mass_kg": 4.12523549840719,
+      "COM_mm": [
+        -21.856521800258992,
+        0.8770983823849148,
+        128.89862975091395
+      ],
+      "vertical_balance": {
+        "nonnegative_vertical_balance_exists": true,
+        "forces_N": [
+          10.483161279396267,
+          16.628934493202884,
+          0.0,
+          0.0,
+          13.287837427606219,
+          0.06862703916917745
+        ],
+        "force_residual_N": 7.105427357601002e-15,
+        "moment_residual_Nm": [
+          1.1102230246251565e-16,
+          1.1102230246251565e-16
+        ]
+      },
+      "geometry_pass": true,
+      "manufacturing_release": false,
+      "support_margin": {
+        "support_polygon_margin_mm": 5.697719866025615,
+        "hull_vertex_indices": [
+          1,
+          4,
+          5,
+          2,
+          3
+        ],
+        "force_ranges": [
+          {
+            "point_index": 0,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 10.662120801170117
+          },
+          {
+            "point_index": 1,
+            "minimum_force_N": 16.50763548304491,
+            "maximum_force_N": 23.73443563621599
+          },
+          {
+            "point_index": 2,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 2.030253660449632
+          },
+          {
+            "point_index": 3,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 2.507778378864735
+          },
+          {
+            "point_index": 4,
+            "minimum_force_N": 12.645435861729188,
+            "maximum_force_N": 15.970405978231756
+          },
+          {
+            "point_index": 5,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 4.088688741429353
+          }
+        ],
+        "right_palm_at_least_1N_feasible": true,
+        "scope": "Flat rigid ground, vertical gravity and unilateral point reactions only. 1N is a diagnostic probe, not a required or commanded hardware load."
+      }
+    },
+    {
+      "scene": "lift_h118.5",
+      "h_mm": 118.5,
+      "changed_pair_failures": [],
+      "changed_near_pairs": [
+        {
+          "a": "PelvisPlate",
+          "b": "battery",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "power",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "R_HipRollMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "R_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "L_HipRollMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "L_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "R_UpperArm",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "BatteryPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "BatteryRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew2",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew3",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerHarnessKeepout",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "battery",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "microphone",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "computer",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "power",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "camera",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "NeckMotor0",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "NeckMotor1",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_HipRollMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_HipRollMotor",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_HipYawMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "L_HipRollMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "L_HipYawMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_UpperArm",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_ElbowMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion2",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion3",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew2",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew3",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerHarnessKeepout",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "HarnessGrommet",
+          "b": "PowerHarnessKeepout",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        }
+      ],
+      "ground_penetrations_mm": {},
+      "component_count": 101,
+      "motor_count": 28,
+      "old_mass_kg": 4.072501811775055,
+      "removed_plate_mass_kg": 0.054,
+      "added_native_mass_kg": 0.10673368663213413,
+      "new_mass_kg": 4.12523549840719,
+      "COM_mm": [
+        -22.980249184594893,
+        0.8684039360144776,
+        129.14360467374237
+      ],
+      "vertical_balance": {
+        "nonnegative_vertical_balance_exists": true,
+        "forces_N": [
+          8.7350671365827,
+          17.950225351372673,
+          0.0,
+          0.0,
+          13.7832677514192,
+          0.0
+        ],
+        "force_residual_N": 2.842170943040401e-14,
+        "moment_residual_Nm": [
+          -6.661338147750939e-16,
+          5.412337245047638e-16
+        ]
+      },
+      "geometry_pass": true,
+      "manufacturing_release": false,
+      "support_margin": {
+        "support_polygon_margin_mm": 4.667923622635438,
+        "hull_vertex_indices": [
+          1,
+          4,
+          5,
+          2,
+          3
+        ],
+        "force_ranges": [
+          {
+            "point_index": 0,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 8.735067136582687
+          },
+          {
+            "point_index": 1,
+            "minimum_force_N": 17.950225351372673,
+            "maximum_force_N": 23.870865878507527
+          },
+          {
+            "point_index": 2,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 1.6633090507072492
+          },
+          {
+            "point_index": 3,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 2.0545267598778185
+          },
+          {
+            "point_index": 4,
+            "minimum_force_N": 13.247988301163044,
+            "maximum_force_N": 15.97200894737385
+          },
+          {
+            "point_index": 5,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 3.34970605970396
+          }
+        ],
+        "right_palm_at_least_1N_feasible": true,
+        "scope": "Flat rigid ground, vertical gravity and unilateral point reactions only. 1N is a diagnostic probe, not a required or commanded hardware load."
+      }
+    },
+    {
+      "scene": "lift_h119",
+      "h_mm": 119,
+      "changed_pair_failures": [],
+      "changed_near_pairs": [
+        {
+          "a": "PelvisPlate",
+          "b": "battery",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "power",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "R_HipRollMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "R_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "L_HipRollMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "L_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "R_UpperArm",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "BatteryPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "BatteryRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew2",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew3",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerHarnessKeepout",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "battery",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "microphone",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "computer",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "power",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "camera",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "NeckMotor0",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "NeckMotor1",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_HipRollMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_HipRollMotor",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_HipYawMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "L_HipRollMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "L_HipYawMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_UpperArm",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_ElbowMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion2",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion3",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew2",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew3",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerHarnessKeepout",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "HarnessGrommet",
+          "b": "PowerHarnessKeepout",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        }
+      ],
+      "ground_penetrations_mm": {},
+      "component_count": 101,
+      "motor_count": 28,
+      "old_mass_kg": 4.072501811775055,
+      "removed_plate_mass_kg": 0.054,
+      "added_native_mass_kg": 0.10673368663213413,
+      "new_mass_kg": 4.12523549840719,
+      "COM_mm": [
+        -24.19456904848649,
+        0.8593813677522304,
+        129.38049255683111
+      ],
+      "vertical_balance": {
+        "nonnegative_vertical_balance_exists": true,
+        "forces_N": [
+          6.652384251873063,
+          19.509388012819134,
+          0.0,
+          0.0,
+          14.306787974682358,
+          0.0
+        ],
+        "force_residual_N": 1.4210854715202004e-14,
+        "moment_residual_Nm": [
+          -9.992007221626409e-16,
+          -6.938893903907228e-18
+        ]
+      },
+      "geometry_pass": true,
+      "manufacturing_release": false,
+      "support_margin": {
+        "support_polygon_margin_mm": 3.554960838951807,
+        "hull_vertex_indices": [
+          1,
+          4,
+          5,
+          2,
+          3
+        ],
+        "force_ranges": [
+          {
+            "point_index": 0,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 6.652384251873087
+          },
+          {
+            "point_index": 1,
+            "minimum_force_N": 19.509388012819123,
+            "maximum_force_N": 24.018383214328484
+          },
+          {
+            "point_index": 2,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 1.266729924556904
+          },
+          {
+            "point_index": 3,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 1.5646704540166816
+          },
+          {
+            "point_index": 4,
+            "minimum_force_N": 13.899134028861807,
+            "maximum_force_N": 15.973672411370368
+          },
+          {
+            "point_index": 5,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 2.5510429961842487
+          }
+        ],
+        "right_palm_at_least_1N_feasible": true,
+        "scope": "Flat rigid ground, vertical gravity and unilateral point reactions only. 1N is a diagnostic probe, not a required or commanded hardware load."
+      }
+    },
+    {
+      "scene": "lift_h119.5",
+      "h_mm": 119.5,
+      "changed_pair_failures": [],
+      "changed_near_pairs": [
+        {
+          "a": "PelvisPlate",
+          "b": "battery",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "power",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "R_HipRollMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "R_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "L_HipRollMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "L_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "R_UpperArm",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "BatteryPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "BatteryRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew2",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew3",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerHarnessKeepout",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "battery",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "microphone",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "computer",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "power",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "camera",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "NeckMotor0",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "NeckMotor1",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_HipRollMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_HipRollMotor",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_HipYawMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "L_HipRollMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "L_HipYawMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_UpperArm",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_ElbowMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion2",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion3",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew2",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew3",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerHarnessKeepout",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "HarnessGrommet",
+          "b": "PowerHarnessKeepout",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        }
+      ],
+      "ground_penetrations_mm": {},
+      "component_count": 101,
+      "motor_count": 28,
+      "old_mass_kg": 4.072501811775055,
+      "removed_plate_mass_kg": 0.054,
+      "added_native_mass_kg": 0.10673368663213413,
+      "new_mass_kg": 4.12523549840719,
+      "COM_mm": [
+        -25.524005979121387,
+        0.8527136644523439,
+        129.60517894651684
+      ],
+      "vertical_balance": {
+        "nonnegative_vertical_balance_exists": true,
+        "forces_N": [
+          4.369901772126498,
+          21.218720748881385,
+          0.0,
+          0.0,
+          14.879937718366698,
+          0.0
+        ],
+        "force_residual_N": 4.263256414560601e-14,
+        "moment_residual_Nm": [
+          -8.881784197001252e-16,
+          3.95516952522712e-16
+        ]
+      },
+      "geometry_pass": true,
+      "manufacturing_release": false,
+      "support_margin": {
+        "support_polygon_margin_mm": 2.3352273533510512,
+        "hull_vertex_indices": [
+          1,
+          4,
+          5,
+          2,
+          3
+        ],
+        "force_ranges": [
+          {
+            "point_index": 0,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 4.369901772126498
+          },
+          {
+            "point_index": 1,
+            "minimum_force_N": 21.218720748881374,
+            "maximum_force_N": 24.180646184267587
+          },
+          {
+            "point_index": 2,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 0.8321054726458816
+          },
+          {
+            "point_index": 3,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 1.0278203920460933
+          },
+          {
+            "point_index": 4,
+            "minimum_force_N": 14.61215287118893,
+            "maximum_force_N": 15.974901715938246
+          },
+          {
+            "point_index": 5,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 1.6757611839180173
+          }
+        ],
+        "right_palm_at_least_1N_feasible": true,
+        "scope": "Flat rigid ground, vertical gravity and unilateral point reactions only. 1N is a diagnostic probe, not a required or commanded hardware load."
+      }
+    },
+    {
+      "scene": "lift_h120",
+      "h_mm": 120,
+      "changed_pair_failures": [],
+      "changed_near_pairs": [
+        {
+          "a": "PelvisPlate",
+          "b": "battery",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "power",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "WukongHeadShell",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "R_HipRollMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "R_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "L_HipRollMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "L_HipYawMotor",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "R_UpperArm",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "BatteryPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "BatteryRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew2",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew3",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerHarnessKeepout",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "battery",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "microphone",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "computer",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "power",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "camera",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "NeckMotor0",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "NeckMotor1",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_HipRollMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_HipRollMotor",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_HipYawMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "L_HipRollMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "L_HipYawMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_UpperArm",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_ElbowMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion2",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion3",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew2",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew3",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerHarnessKeepout",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "HarnessGrommet",
+          "b": "PowerHarnessKeepout",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        }
+      ],
+      "ground_penetrations_mm": {},
+      "component_count": 101,
+      "motor_count": 28,
+      "old_mass_kg": 4.072501811775055,
+      "removed_plate_mass_kg": 0.054,
+      "added_native_mass_kg": 0.10673368663213413,
+      "new_mass_kg": 4.12523549840719,
+      "COM_mm": [
+        -27.000411161398482,
+        0.8383191055690462,
+        129.82005096016738
+      ],
+      "vertical_balance": {
+        "nonnegative_vertical_balance_exists": true,
+        "forces_N": [
+          1.8402355721300858,
+          23.111875932599474,
+          0.0,
+          0.0,
+          15.516448734645012,
+          0.0
+        ],
+        "force_residual_N": 3.552713678800501e-14,
+        "moment_residual_Nm": [
+          -6.661338147750939e-16,
+          5.898059818321144e-16
+        ]
+      },
+      "geometry_pass": true,
+      "manufacturing_release": false,
+      "support_margin": {
+        "support_polygon_margin_mm": 0.9834016114638224,
+        "hull_vertex_indices": [
+          1,
+          4,
+          5,
+          2,
+          3
+        ],
+        "force_ranges": [
+          {
+            "point_index": 0,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 1.8402355721300907
+          },
+          {
+            "point_index": 1,
+            "minimum_force_N": 23.111875932599464,
+            "maximum_force_N": 24.359190136081473
+          },
+          {
+            "point_index": 2,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 0.35041293154329145
+          },
+          {
+            "point_index": 3,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 0.43283161632338035
+          },
+          {
+            "point_index": 4,
+            "minimum_force_N": 15.403680249870995,
+            "maximum_force_N": 15.977555597821105
+          },
+          {
+            "point_index": 5,
+            "minimum_force_N": 0.0,
+            "maximum_force_N": 0.7056898534220705
+          }
+        ],
+        "right_palm_at_least_1N_feasible": false,
+        "scope": "Flat rigid ground, vertical gravity and unilateral point reactions only. 1N is a diagnostic probe, not a required or commanded hardware load."
+      },
+      "saved_valid_shapes": 101
+    },
+    {
+      "scene": "stand",
+      "h_mm": null,
+      "changed_pair_failures": [],
+      "changed_near_pairs": [
+        {
+          "a": "L_HipYawMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "R_HipYawMotor",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew2",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "CarrierScrew3",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "PowerHarnessKeepout",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "battery",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "NeckMotor0",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "ElectronicsCarrier",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryPadding",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion2",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion3",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerRetainer0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerRetainer1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew0",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew1",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew2",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew3",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "HarnessGrommet",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerHarnessKeepout",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        },
+        {
+          "a": "HarnessGrommet",
+          "b": "PowerHarnessKeepout",
+          "pass": true,
+          "volume_mm3": 0.0,
+          "distance_mm": null
+        }
+      ],
+      "ground_penetrations_mm": {},
+      "component_count": 101,
+      "motor_count": 28,
+      "old_mass_kg": 4.072501811775055,
+      "removed_plate_mass_kg": 0.054,
+      "added_native_mass_kg": 0.10673368663213413,
+      "new_mass_kg": 4.12523549840719,
+      "COM_mm": [
+        7.700458806540861,
+        0.006541830980299262,
+        193.45485520517514
+      ],
+      "vertical_balance": {
+        "nonnegative_vertical_balance_exists": true,
+        "forces_N": [
+          4.278839132318353,
+          4.279256940538168,
+          4.27975071388886,
+          4.280168522108676,
+          5.836971537734957,
+          5.837389345954773,
+          5.837883119305466,
+          5.838300927525282
+        ],
+        "force_residual_N": -7.105427357601002e-15,
+        "moment_residual_Nm": [
+          -5.551115123125783e-17,
+          -4.0218479588349787e-16
+        ]
+      },
+      "geometry_pass": true,
+      "manufacturing_release": false,
+      "saved_valid_shapes": 101
+    }
+  ],
+  "scope": "Modified pairs audited; unchanged pairs retain the referenced existing evidence. Reference microphone envelope retained; arrived UAC board is not dimensioned/included. No full recovery, material strength,preload or hardware approval."
+}

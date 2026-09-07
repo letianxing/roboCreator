@@ -1,0 +1,438 @@
+{
+  "complete": true,
+  "FreeCAD_version": [
+    "1",
+    "1",
+    "3",
+    "20260725 (Git shallow)",
+    "Unknown",
+    "2026/07/25 04:52:02",
+    "grafted,grafted",
+    "145529fe741292ff0b3977a01195bf0247425794"
+  ],
+  "OCC_version": "7.8.1",
+  "source_sha256": {
+    "stand.FCStd": "9f8b45cf5028fd71c1a0dc17e7597339bdc2582216939f31b7c06b30994bd813",
+    "stand.step": "136388ef04976b20a9d5140be385b54203b220bdd67f973b393c187e6e37d7a5"
+  },
+  "rows": [
+    {
+      "STEP_solid_index": 27,
+      "STEP": {
+        "valid": false,
+        "volume_mm3": 756.5501598538374,
+        "area_mm2": 821.467553474127,
+        "center_mm": [
+          57.11163232922291,
+          75.00000000557048,
+          78.71640746720455
+        ],
+        "bbox_mm": [
+          51.84270410965193,
+          62.38056784686518,
+          70.0,
+          80.0,
+          59.65779068849542,
+          97.77507870739018
+        ],
+        "faces": 13,
+        "edges": 32,
+        "vertices": 18,
+        "solids": 1,
+        "max_topology_tolerance_mm": 1e-07
+      },
+      "check": {
+        "error": "Self-intersecting wire\nUnorientable shape\nNo error\nNo error\n",
+        "exception": "ValueError"
+      },
+      "matches": [
+        {
+          "object": "L_RollRod",
+          "native_solid_index": 0,
+          "native": {
+            "valid": true,
+            "volume_mm3": 756.5483231265774,
+            "area_mm2": 821.466415470298,
+            "center_mm": [
+              57.11163733503406,
+              74.99999989468078,
+              78.71643681573663
+            ],
+            "bbox_mm": [
+              51.84270607691553,
+              62.3805678403077,
+              70.0,
+              80.0,
+              59.657791035377215,
+              97.77507836050886
+            ],
+            "faces": 13,
+            "edges": 32,
+            "vertices": 16,
+            "solids": 1,
+            "max_topology_tolerance_mm": 1e-05
+          },
+          "native_to_STEP": {
+            "volume_delta_mm3": 0.0018367272599562057,
+            "area_delta_mm2": 0.0011380038290553784,
+            "center_displacement_mm": 2.9772584320930595e-05,
+            "max_bbox_delta_mm": 1.9672636000223065e-06,
+            "faces_delta": 0
+          }
+        }
+      ],
+      "trials": [
+        {
+          "cap_mm": 1e-07,
+          "fix_return": false,
+          "fixed": {
+            "valid": false,
+            "volume_mm3": 756.5501598538374,
+            "area_mm2": 821.467553474127,
+            "center_mm": [
+              57.11163232922291,
+              75.00000000557048,
+              78.71640746720455
+            ],
+            "bbox_mm": [
+              51.84270410965193,
+              62.38056784686518,
+              70.0,
+              80.0,
+              59.65779068849542,
+              97.77507870739018
+            ],
+            "faces": 13,
+            "edges": 32,
+            "vertices": 18,
+            "solids": 1,
+            "max_topology_tolerance_mm": 1e-07
+          },
+          "delta": {
+            "volume_delta_mm3": 0.0,
+            "area_delta_mm2": 0.0,
+            "center_displacement_mm": 0.0,
+            "max_bbox_delta_mm": 0.0,
+            "faces_delta": 0
+          },
+          "check": {
+            "error": "Self-intersecting wire\nUnorientable shape\nNo error\nNo error\n",
+            "exception": "ValueError"
+          },
+          "roundtrip_valid": false,
+          "roundtrip_solid_count": 1,
+          "roundtrip_delta": {
+            "volume_delta_mm3": -2.595276555439341e-06,
+            "area_delta_mm2": -1.6542055618629092e-06,
+            "center_displacement_mm": 5.386124928589492e-08,
+            "max_bbox_delta_mm": 6.556881260166847e-09,
+            "faces_delta": 0
+          }
+        },
+        {
+          "cap_mm": 1e-06,
+          "fix_return": false,
+          "fixed": {
+            "valid": false,
+            "volume_mm3": 756.5501598538374,
+            "area_mm2": 821.467553474127,
+            "center_mm": [
+              57.11163232922291,
+              75.00000000557048,
+              78.71640746720455
+            ],
+            "bbox_mm": [
+              51.84270410965193,
+              62.38056784686518,
+              70.0,
+              80.0,
+              59.65779068849542,
+              97.77507870739018
+            ],
+            "faces": 13,
+            "edges": 32,
+            "vertices": 18,
+            "solids": 1,
+            "max_topology_tolerance_mm": 1e-07
+          },
+          "delta": {
+            "volume_delta_mm3": 0.0,
+            "area_delta_mm2": 0.0,
+            "center_displacement_mm": 0.0,
+            "max_bbox_delta_mm": 0.0,
+            "faces_delta": 0
+          },
+          "check": {
+            "error": "Self-intersecting wire\nUnorientable shape\nNo error\nNo error\n",
+            "exception": "ValueError"
+          },
+          "roundtrip_valid": false,
+          "roundtrip_solid_count": 1,
+          "roundtrip_delta": {
+            "volume_delta_mm3": -2.595276555439341e-06,
+            "area_delta_mm2": -1.6542055618629092e-06,
+            "center_displacement_mm": 5.386124928589492e-08,
+            "max_bbox_delta_mm": 6.556881260166847e-09,
+            "faces_delta": 0
+          }
+        },
+        {
+          "cap_mm": 1e-05,
+          "fix_return": false,
+          "fixed": {
+            "valid": false,
+            "volume_mm3": 756.5501598538374,
+            "area_mm2": 821.467553474127,
+            "center_mm": [
+              57.11163232922291,
+              75.00000000557048,
+              78.71640746720455
+            ],
+            "bbox_mm": [
+              51.84270410965193,
+              62.38056784686518,
+              70.0,
+              80.0,
+              59.65779068849542,
+              97.77507870739018
+            ],
+            "faces": 13,
+            "edges": 32,
+            "vertices": 18,
+            "solids": 1,
+            "max_topology_tolerance_mm": 1e-07
+          },
+          "delta": {
+            "volume_delta_mm3": 0.0,
+            "area_delta_mm2": 0.0,
+            "center_displacement_mm": 0.0,
+            "max_bbox_delta_mm": 0.0,
+            "faces_delta": 0
+          },
+          "check": {
+            "error": "Self-intersecting wire\nUnorientable shape\nNo error\nNo error\n",
+            "exception": "ValueError"
+          },
+          "roundtrip_valid": false,
+          "roundtrip_solid_count": 1,
+          "roundtrip_delta": {
+            "volume_delta_mm3": -2.595276555439341e-06,
+            "area_delta_mm2": -1.6542055618629092e-06,
+            "center_displacement_mm": 5.386124928589492e-08,
+            "max_bbox_delta_mm": 6.556881260166847e-09,
+            "faces_delta": 0
+          }
+        }
+      ]
+    },
+    {
+      "STEP_solid_index": 105,
+      "STEP": {
+        "valid": false,
+        "volume_mm3": 756.5501193086839,
+        "area_mm2": 821.4674958519263,
+        "center_mm": [
+          57.111632306224955,
+          -75.00000000621203,
+          78.71640734918347
+        ],
+        "bbox_mm": [
+          51.84270410965193,
+          62.38056784686518,
+          -80.0,
+          -70.0,
+          59.65779068849542,
+          97.77507870739018
+        ],
+        "faces": 13,
+        "edges": 32,
+        "vertices": 18,
+        "solids": 1,
+        "max_topology_tolerance_mm": 1e-07
+      },
+      "check": {
+        "error": "Self-intersecting wire\nUnorientable shape\nNo error\nNo error\n",
+        "exception": "ValueError"
+      },
+      "matches": [
+        {
+          "object": "R_RollRod",
+          "native_solid_index": 0,
+          "native": {
+            "valid": true,
+            "volume_mm3": 756.5483231265778,
+            "area_mm2": 821.466415470298,
+            "center_mm": [
+              57.11163733503407,
+              -74.99999989468078,
+              78.71643681573666
+            ],
+            "bbox_mm": [
+              51.84270607691554,
+              62.38056784030771,
+              -80.0,
+              -70.0,
+              59.65779103537723,
+              97.77507836050889
+            ],
+            "faces": 13,
+            "edges": 32,
+            "vertices": 16,
+            "solids": 1,
+            "max_topology_tolerance_mm": 1e-05
+          },
+          "native_to_STEP": {
+            "volume_delta_mm3": 0.0017961821060907823,
+            "area_delta_mm2": 0.00108038162829871,
+            "center_displacement_mm": 2.989279373071332e-05,
+            "max_bbox_delta_mm": 1.967263607127734e-06,
+            "faces_delta": 0
+          }
+        }
+      ],
+      "trials": [
+        {
+          "cap_mm": 1e-07,
+          "fix_return": false,
+          "fixed": {
+            "valid": false,
+            "volume_mm3": 756.5501193086839,
+            "area_mm2": 821.4674958519263,
+            "center_mm": [
+              57.111632306224955,
+              -75.00000000621203,
+              78.71640734918347
+            ],
+            "bbox_mm": [
+              51.84270410965193,
+              62.38056784686518,
+              -80.0,
+              -70.0,
+              59.65779068849542,
+              97.77507870739018
+            ],
+            "faces": 13,
+            "edges": 32,
+            "vertices": 18,
+            "solids": 1,
+            "max_topology_tolerance_mm": 1e-07
+          },
+          "delta": {
+            "volume_delta_mm3": 0.0,
+            "area_delta_mm2": 0.0,
+            "center_displacement_mm": 0.0,
+            "max_bbox_delta_mm": 0.0,
+            "faces_delta": 0
+          },
+          "check": {
+            "error": "Self-intersecting wire\nUnorientable shape\nNo error\nNo error\n",
+            "exception": "ValueError"
+          },
+          "roundtrip_valid": false,
+          "roundtrip_solid_count": 1,
+          "roundtrip_delta": {
+            "volume_delta_mm3": 2.7557836119740386e-06,
+            "area_delta_mm2": 1.5564273780910298e-06,
+            "center_displacement_mm": 5.550296486971554e-08,
+            "max_bbox_delta_mm": 6.556881260166847e-09,
+            "faces_delta": 0
+          }
+        },
+        {
+          "cap_mm": 1e-06,
+          "fix_return": false,
+          "fixed": {
+            "valid": false,
+            "volume_mm3": 756.5501193086839,
+            "area_mm2": 821.4674958519263,
+            "center_mm": [
+              57.111632306224955,
+              -75.00000000621203,
+              78.71640734918347
+            ],
+            "bbox_mm": [
+              51.84270410965193,
+              62.38056784686518,
+              -80.0,
+              -70.0,
+              59.65779068849542,
+              97.77507870739018
+            ],
+            "faces": 13,
+            "edges": 32,
+            "vertices": 18,
+            "solids": 1,
+            "max_topology_tolerance_mm": 1e-07
+          },
+          "delta": {
+            "volume_delta_mm3": 0.0,
+            "area_delta_mm2": 0.0,
+            "center_displacement_mm": 0.0,
+            "max_bbox_delta_mm": 0.0,
+            "faces_delta": 0
+          },
+          "check": {
+            "error": "Self-intersecting wire\nUnorientable shape\nNo error\nNo error\n",
+            "exception": "ValueError"
+          },
+          "roundtrip_valid": false,
+          "roundtrip_solid_count": 1,
+          "roundtrip_delta": {
+            "volume_delta_mm3": 2.7557836119740386e-06,
+            "area_delta_mm2": 1.5564273780910298e-06,
+            "center_displacement_mm": 5.550296486971554e-08,
+            "max_bbox_delta_mm": 6.556881260166847e-09,
+            "faces_delta": 0
+          }
+        },
+        {
+          "cap_mm": 1e-05,
+          "fix_return": false,
+          "fixed": {
+            "valid": false,
+            "volume_mm3": 756.5501193086839,
+            "area_mm2": 821.4674958519263,
+            "center_mm": [
+              57.111632306224955,
+              -75.00000000621203,
+              78.71640734918347
+            ],
+            "bbox_mm": [
+              51.84270410965193,
+              62.38056784686518,
+              -80.0,
+              -70.0,
+              59.65779068849542,
+              97.77507870739018
+            ],
+            "faces": 13,
+            "edges": 32,
+            "vertices": 18,
+            "solids": 1,
+            "max_topology_tolerance_mm": 1e-07
+          },
+          "delta": {
+            "volume_delta_mm3": 0.0,
+            "area_delta_mm2": 0.0,
+            "center_displacement_mm": 0.0,
+            "max_bbox_delta_mm": 0.0,
+            "faces_delta": 0
+          },
+          "check": {
+            "error": "Self-intersecting wire\nUnorientable shape\nNo error\nNo error\n",
+            "exception": "ValueError"
+          },
+          "roundtrip_valid": false,
+          "roundtrip_solid_count": 1,
+          "roundtrip_delta": {
+            "volume_delta_mm3": 2.7557836119740386e-06,
+            "area_delta_mm2": 1.5564273780910298e-06,
+            "center_displacement_mm": 5.550296486971554e-08,
+            "max_bbox_delta_mm": 6.556881260166847e-09,
+            "faces_delta": 0
+          }
+        }
+      ]
+    }
+  ]
+}

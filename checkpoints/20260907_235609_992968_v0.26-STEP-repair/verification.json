@@ -1,0 +1,23 @@
+{
+  "id": "20260907_235609_992968_v0.26-STEP-repair",
+  "stage": "v0.26-STEP-repair",
+  "verified": true,
+  "file_count": 1147,
+  "source_bytes": 2809786902,
+  "archive_bytes": 994460610,
+  "archive_sha256": "680da0c3bedb4ef2f99310e011ac68a9a224d82ac07cce52910ef9cff6958694",
+  "archive": "checkpoints\\20260907_235609_992968_v0.26-STEP-repair\\project.zip",
+  "passed_checks": [
+    "Four repaired native assemblies and full STEP files fresh-loaded with valid solids",
+    "Eight rods preserve eye centers/axes/widths; bounded shape and mass/COM changes",
+    "116 unrelated objects per scene verified; original native/STEP source hashes unchanged",
+    "Rebuilt rods detailed BOP checks"
+  ],
+  "pending": [
+    "STEP exchange success is not CAE or manufacturing approval",
+    "Future CAD regeneration must rerun this postprocessor and gates; legacy exports remain preserved and invalid",
+    "Actual UAC board dimensions/holes/wiring, USB strain relief and mechanical verification still missing",
+    "Camera FOV/task/appearance/host-platform selection remains unfrozen",
+    "Full recovery stability, final Wukong appearance and Windows audio compatibility remain unresolved"
+  ]
+}

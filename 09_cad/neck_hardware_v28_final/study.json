@@ -1,0 +1,385 @@
+{
+  "complete": true,
+  "yaw_origin_body_mm": [
+    0,
+    0,
+    125
+  ],
+  "pitch_origin_yaw_neutral_body_mm": [
+    5,
+    0,
+    146
+  ],
+  "pitch_front_horn_neutral_body_mm": [
+    5,
+    -10,
+    146
+  ],
+  "source_motor_sha256": "e2f7b060801a1d6a21f23bca2554f29a402f7d73b8498cb201c9e6adf3139eb6",
+  "neck_opening_radius_mm": null,
+  "neck_opening_z_body_mm": null,
+  "original_head_volume_mm3": 48766.52497380175,
+  "modified_head_volume_mm3": 39056.69112204281,
+  "cases": [
+    {
+      "yaw_deg": 0,
+      "pitch_deg": 0,
+      "collisions": [],
+      "pass": true
+    },
+    {
+      "yaw_deg": 0,
+      "pitch_deg": 5,
+      "collisions": [],
+      "pass": true
+    },
+    {
+      "yaw_deg": 0,
+      "pitch_deg": 10,
+      "collisions": [],
+      "pass": true
+    },
+    {
+      "yaw_deg": 0,
+      "pitch_deg": 15,
+      "collisions": [],
+      "pass": true
+    },
+    {
+      "yaw_deg": 0,
+      "pitch_deg": 20,
+      "collisions": [],
+      "pass": true
+    },
+    {
+      "yaw_deg": 0,
+      "pitch_deg": 25,
+      "collisions": [],
+      "pass": true
+    },
+    {
+      "yaw_deg": 0,
+      "pitch_deg": 30,
+      "collisions": [],
+      "pass": true
+    },
+    {
+      "yaw_deg": 0,
+      "pitch_deg": 35,
+      "collisions": [],
+      "pass": true
+    },
+    {
+      "yaw_deg": 0,
+      "pitch_deg": 40,
+      "collisions": [],
+      "pass": true
+    },
+    {
+      "yaw_deg": 0,
+      "pitch_deg": 45,
+      "collisions": [],
+      "pass": true
+    },
+    {
+      "yaw_deg": 0,
+      "pitch_deg": 50,
+      "collisions": [],
+      "pass": true
+    },
+    {
+      "yaw_deg": -30,
+      "pitch_deg": 0,
+      "collisions": [],
+      "pass": true
+    },
+    {
+      "yaw_deg": -30,
+      "pitch_deg": 30,
+      "collisions": [
+        {
+          "a": "camera",
+          "b": "R_ShoulderMotor1",
+          "volume_mm3": 0.6451579376549049
+        }
+      ],
+      "pass": false
+    },
+    {
+      "yaw_deg": -30,
+      "pitch_deg": 45,
+      "collisions": [
+        {
+          "a": "camera",
+          "b": "NeckMotor0",
+          "volume_mm3": 17.34480033155577
+        },
+        {
+          "a": "camera",
+          "b": "UACCassette",
+          "volume_mm3": 147.1753251838016
+        },
+        {
+          "a": "camera",
+          "b": "InsulationSheet_PROVISIONAL",
+          "volume_mm3": 0.5173926194830946
+        },
+        {
+          "a": "camera",
+          "b": "RemainingBoardSpace_PROBE",
+          "volume_mm3": 8.329782467499978
+        }
+      ],
+      "pass": false
+    },
+    {
+      "yaw_deg": -30,
+      "pitch_deg": 50,
+      "collisions": [
+        {
+          "a": "camera",
+          "b": "NeckMotor0",
+          "volume_mm3": 111.34311940454091
+        },
+        {
+          "a": "camera",
+          "b": "UACCassette",
+          "volume_mm3": 308.1775482081873
+        },
+        {
+          "a": "camera",
+          "b": "InsulationSheet_PROVISIONAL",
+          "volume_mm3": 10.068784666126163
+        },
+        {
+          "a": "camera",
+          "b": "RemainingBoardSpace_PROBE",
+          "volume_mm3": 103.17550640911388
+        }
+      ],
+      "pass": false
+    },
+    {
+      "yaw_deg": -15,
+      "pitch_deg": 0,
+      "collisions": [],
+      "pass": true
+    },
+    {
+      "yaw_deg": -15,
+      "pitch_deg": 30,
+      "collisions": [],
+      "pass": true
+    },
+    {
+      "yaw_deg": -15,
+      "pitch_deg": 45,
+      "collisions": [
+        {
+          "a": "camera",
+          "b": "UACCassette",
+          "volume_mm3": 88.04415857640429
+        },
+        {
+          "a": "camera",
+          "b": "InsulationSheet_PROVISIONAL",
+          "volume_mm3": 0.9995036533198342
+        },
+        {
+          "a": "camera",
+          "b": "RemainingBoardSpace_PROBE",
+          "volume_mm3": 1.3254325896323336
+        }
+      ],
+      "pass": false
+    },
+    {
+      "yaw_deg": -15,
+      "pitch_deg": 50,
+      "collisions": [
+        {
+          "a": "camera",
+          "b": "NeckMotor0",
+          "volume_mm3": 1.1819287283152429
+        },
+        {
+          "a": "camera",
+          "b": "ElectronicsCarrier",
+          "volume_mm3": 9.950289454304801
+        },
+        {
+          "a": "camera",
+          "b": "UACCassette",
+          "volume_mm3": 93.80636987857568
+        },
+        {
+          "a": "camera",
+          "b": "InsulationSheet_PROVISIONAL",
+          "volume_mm3": 0.7478863093438672
+        },
+        {
+          "a": "camera",
+          "b": "RemainingBoardSpace_PROBE",
+          "volume_mm3": 0.17151708142076852
+        }
+      ],
+      "pass": false
+    },
+    {
+      "yaw_deg": 15,
+      "pitch_deg": 0,
+      "collisions": [],
+      "pass": true
+    },
+    {
+      "yaw_deg": 15,
+      "pitch_deg": 30,
+      "collisions": [],
+      "pass": true
+    },
+    {
+      "yaw_deg": 15,
+      "pitch_deg": 45,
+      "collisions": [
+        {
+          "a": "camera",
+          "b": "UACCassette",
+          "volume_mm3": 88.04415857640446
+        },
+        {
+          "a": "camera",
+          "b": "InsulationSheet_PROVISIONAL",
+          "volume_mm3": 0.9995036533198205
+        },
+        {
+          "a": "camera",
+          "b": "RemainingBoardSpace_PROBE",
+          "volume_mm3": 1.3254325896323271
+        }
+      ],
+      "pass": false
+    },
+    {
+      "yaw_deg": 15,
+      "pitch_deg": 50,
+      "collisions": [
+        {
+          "a": "camera",
+          "b": "ElectronicsCarrier",
+          "volume_mm3": 9.95028945430493
+        },
+        {
+          "a": "camera",
+          "b": "UACCassette",
+          "volume_mm3": 93.80636987857541
+        },
+        {
+          "a": "camera",
+          "b": "InsulationSheet_PROVISIONAL",
+          "volume_mm3": 0.7478863093439028
+        },
+        {
+          "a": "camera",
+          "b": "RemainingBoardSpace_PROBE",
+          "volume_mm3": 0.17151708142077385
+        }
+      ],
+      "pass": false
+    },
+    {
+      "yaw_deg": 30,
+      "pitch_deg": 0,
+      "collisions": [],
+      "pass": true
+    },
+    {
+      "yaw_deg": 30,
+      "pitch_deg": 30,
+      "collisions": [
+        {
+          "a": "camera",
+          "b": "L_ShoulderMotor1",
+          "volume_mm3": 0.645157937654799
+        }
+      ],
+      "pass": false
+    },
+    {
+      "yaw_deg": 30,
+      "pitch_deg": 45,
+      "collisions": [
+        {
+          "a": "camera",
+          "b": "UACCassette",
+          "volume_mm3": 147.17532518379832
+        },
+        {
+          "a": "camera",
+          "b": "InsulationSheet_PROVISIONAL",
+          "volume_mm3": 0.5173926194830544
+        },
+        {
+          "a": "camera",
+          "b": "ArrayCable_PROBE",
+          "volume_mm3": 21.797032123282122
+        },
+        {
+          "a": "camera",
+          "b": "RemainingBoardSpace_PROBE",
+          "volume_mm3": 8.329782467499259
+        }
+      ],
+      "pass": false
+    },
+    {
+      "yaw_deg": 30,
+      "pitch_deg": 50,
+      "collisions": [
+        {
+          "a": "camera",
+          "b": "UACCassette",
+          "volume_mm3": 308.177548208176
+        },
+        {
+          "a": "camera",
+          "b": "InsulationSheet_PROVISIONAL",
+          "volume_mm3": 10.068784666125469
+        },
+        {
+          "a": "camera",
+          "b": "ArrayCable_PROBE",
+          "volume_mm3": 40.16694247493037
+        },
+        {
+          "a": "camera",
+          "b": "RemainingBoardSpace_PROBE",
+          "volume_mm3": 103.17550640910657
+        }
+      ],
+      "pass": false
+    }
+  ],
+  "swept_motor_opening": {
+    "lo_body_mm": [
+      -22.492777395240523,
+      -40.00000000000002,
+      88.6720360308769
+    ],
+    "hi_body_mm": [
+      54.54984836069049,
+      14.239035486171531,
+      160.80977282762618
+    ],
+    "grid_deg": 1,
+    "padding_mm": 1.0,
+    "between_grid_motion_bound_mm": 0.8739361403699276,
+    "scope": "Conservative continuous containment of nominal motor BOXES in the proposed head-local opening for yaw+-30/pitch0..50 only; not whole-robot continuous clearance."
+  },
+  "actual_brackets_and_load_path_verified": false,
+  "manufacturer_geometry_includes_idler": true,
+  "camera_center_neutral_body_mm": [
+    43,
+    0,
+    150
+  ]
+}

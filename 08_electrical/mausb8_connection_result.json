@@ -1,0 +1,37 @@
+{
+  "date":"2026-09-07",
+  "user_confirmed_connection":"MA-USB8 driver board connected by USB; microphone array not connected",
+  "microphone_array_connected":false,
+  "vid_pid":"359F:3400",
+  "usb_root_status":"OK",
+  "cdc_port":"COM7",
+  "cdc_enumeration_status":"OK",
+  "audio_status":"Error",
+  "audio_problem_code":10,
+  "audio_problem_status":"0xC0440025",
+  "audio_driver":"Microsoft usbaudio2.sys / usbaudio2.inf",
+  "audio_driver_version":"10.0.26100.9168",
+  "audio_driver_event_id":37,
+  "event_message":"The driver could not find a feedback endpoint for an asynchronous data OUT endpoint on device \\Device\\000000df.",
+  "event_association":"Time-correlated with target Kernel-PnP411 start failure; PDO and audio FDO names differ",
+  "device_snapshot":"08_electrical/usb_checks/20260907_225326_759/connection.json",
+  "descriptor_summary":"08_electrical/usb_checks/descriptors_20260907_225112_230/summary.json",
+  "descriptor_files":[
+    {"file":"08_electrical/usb_checks/descriptors_20260907_225112_230/device.bin","bytes":18,"sha256":"a1c7d32c02c2219b27f0747661964ae8003e8ef709a2a52d41c6501a905b3fe4"},
+    {"file":"08_electrical/usb_checks/descriptors_20260907_225112_230/configuration.bin","bytes":337,"sha256":"b28d9f67dc6c6d81cc4bd3936832c3c4d5c0688aa9e91bff6b839a5b1a017ad1"}
+  ],
+  "usb_audio_configuration_observed":{
+    "capture":{"interface":1,"alternate":1,"endpoint":"0x82","attributes":"0x25","usage":"implicit-feedback data endpoint"},
+    "playback":{"interface":2,"alternate":1,"endpoint":"0x04","attributes":"0x05","declared_endpoint_count":1,"explicit_feedback_endpoint_present":false}
+  },
+  "conclusion":"Captured USB configuration lacks the explicit feedback endpoint required by Windows for its asynchronous OUT interface, consistent with the audio-driver failure. This is not a microphone-array recording test.",
+  "firmware_version_confirmed":false,
+  "usb_bcd_device":"0x0101",
+  "reference":"https://learn.microsoft.com/en-us/windows-hardware/drivers/audio/usb-2-0-audio-drivers",
+  "audio_recorded":false,
+  "serial_stream_read":false,
+  "firmware_modified":false,
+  "driver_or_registry_modified":false,
+  "new_software_installed":false,
+  "pending":"Review manufacturer-supported Windows-compatible USB audio firmware/interface options and array revision before considering a firmware change; array wiring and recording remain untested."
+}

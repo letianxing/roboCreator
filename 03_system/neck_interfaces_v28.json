@@ -1,0 +1,22 @@
+{
+  "version":"v0.28-final-study",
+  "units":"mm, degrees; body FLU (forward,left,up)",
+  "chain":[
+    {"joint":"neck_yaw","parent":"body","child":"neck_yaw_carriage","origin_parent_mm":[0,0,125],"axis_parent":[0,0,1]},
+    {"joint":"neck_pitch","parent":"neck_yaw_carriage","child":"head","origin_parent_mm":[5,0,21],"axis_parent":[0,1,0]}
+  ],
+  "head_geometry_neutral_body_origin_mm":[5,0,146],
+  "camera_center_in_head_mm":[38,0,4],
+  "camera_model":"D436 nominal enclosure; actual optical offsets/mass still unconfirmed",
+  "camera_optical_frame":{"assumed_origin_in_camera_FLU_mm":[12.5,0,0],"rotation_columns_optical_to_FLU":[[0,-1,0],[0,0,-1],[1,0,0]],"measured":false},
+  "yaw_motor":{"candidate":"XC330-M288-T with shared XL/XC330 reference CAD","native_front_horn_point_mm":[0,0,6.5],"native_to_body_translation_mm":[0,0,118.5],"native_axes_in_body":[[1,0,0],[0,1,0],[0,0,1]]},
+  "pitch_motor":{"candidate":"XC330-M288-T with shared XL/XC330 reference CAD","native_front_horn_point_mm":[0,0,6.5],"neutral_native_to_body_translation_mm":[5,-16.5,146],"native_axes_in_body":[[0,0,1],[1,0,0],[0,1,0]],"front_horn_on_pitch_axis_body_mm":[5,-10,146]},
+  "manufacturer_reference":{"body_dimensions_mm":[20,34,23],"depth_with_front_horn_mm":26,"depth_with_idler_mm":29,"horn_OD_mm":16,"horn_hole_PCD_mm":12,"horn_pilot_hole_diameter_mm":1.6,"fastener_note":"Manufacturer drawing specifies M2 tapping screws, max3mm hole depth; not a generic M2 machine-thread approval","motor_mass_reference_kg":0.023,"idler_and_mount_mass_unconfirmed":true},
+  "zero":"design neutral only, not encoder calibration",
+  "mechanical_joint_limits_deg":null,
+  "software_limits_deg":null,
+  "brackets_required":["Body-to-yaw stator fixture","Yaw output plate and pitch stator carriage","Pitch output/idler-supported head cradle","Camera-specific fasteners and optical opening","Neck-flex anchors and USB strain relief"],
+  "brackets_and_fasteners_completed":false,
+  "rotor_animation_note":"Manufacturer motor CAD retained as reference whole motor objects; internal output/idler solids not independently animated. Axis frames are explicit, mounting-hole-phase/rotor attachments remain unverified.",
+  "manufacturing_release":false
+}

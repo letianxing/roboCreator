@@ -1,0 +1,19 @@
+{
+  "version": "v0.24-space-study",
+  "source_type": "assumed_design_reservation",
+  "purpose": "Available-space probes, NOT dimensions of the received MA-USB8",
+  "actual_board_dimensions_mm": null,
+  "actual_mount_holes_mm": null,
+  "actual_board_mass_kg": null,
+  "clearance_probe_mm": 2.0,
+  "vertical_bay_xyz_mm": [14, 32, 70],
+  "horizontal_bay_xyz_mm": [14, 70, 32],
+  "centers_body_mm": [[49,0,91],[59,0,91],[49,0,105],[59,0,105],[-83,0,85],[-93,0,85],[0,55,95],[0,-55,95]],
+  "usb_plug_and_exit_reservation_mm": 25,
+  "array_connector_exit_reservation_mm": 12,
+  "accessory_mass_probes_kg": [0.02,0.04,0.06],
+  "mass_probe_scope": "Added board + mount + cables as one lump at bay center; sensitivity only, not measured or a guaranteed upper bound",
+  "source_geometry": "09_cad/body_v23_fit/integration.json",
+  "scenes": ["stand","lift_h114","lift_h117","lift_h120"],
+  "manufacturing_release": false
+}

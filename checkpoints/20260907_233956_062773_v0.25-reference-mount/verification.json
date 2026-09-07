@@ -1,0 +1,27 @@
+{
+  "id": "20260907_233956_062773_v0.25-reference-mount",
+  "stage": "v0.25-reference-mount",
+  "verified": true,
+  "file_count": 1051,
+  "source_bytes": 2669875843,
+  "archive_bytes": 944491178,
+  "archive_sha256": "bb8436162f22a9b83c3bcf017f8f976bfd87b636e1fc95cce4c406a1582b7be6",
+  "archive": "checkpoints\\20260907_233956_062773_v0.25-reference-mount\\project.zip",
+  "passed_checks": [
+    "Four sampled poses: changed structure, ports, cable proxy, ground and positive-volume intersection checks",
+    "Four shaft-access probes and sixteen stationary cassette-withdrawal samples",
+    "Five native CAD reloaded; net CAD mass and 56 scenario totals checked",
+    "New mount-only STEP reloaded with valid solids",
+    "Previous head/port/tool-access failures retained",
+    "Camera task/FOV/mechanical/platform selection requirements saved"
+  ],
+  "pending": [
+    "Actual board data, mounting interface and insulation/thermal clearance",
+    "Actual wire bend radius/type, signal integrity, USB strain relief and pull retention",
+    "Fastener SKU, thread/preload, nut capture, print tolerance and material/impact strength",
+    "Continuous motion/removal and full recovery/CAE/final Wukong verification",
+    "Full-robot STEP reimport errors require separate topology/export investigation; do not release affected STEP files",
+    "Camera remains a placeholder; future FOV/task/mechanical/platform selection required",
+    "Windows audio Code10 unchanged; no device operations or software/MCP installs"
+  ]
+}

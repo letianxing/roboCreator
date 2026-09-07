@@ -1,0 +1,22 @@
+{
+  "version":"v0.28-neck-chain-study",
+  "status":"owned_joint_frame_proposal_not_real_hardware_release",
+  "source_CAD":"09_cad/step_repair_v26/repaired/stand.FCStd",
+  "body_origin_world_mm":[0,0,214.26539554219744],
+  "yaw_origin_body_mm":[0,0,135],
+  "yaw_axis_parent":[0,0,1],
+  "pitch_axis_parent":[0,1,0],
+  "pitch_origin_candidates_body_mm":[[0,0,130],[0,0,140],[0,0,150],[10,0,130],[10,0,140],[10,0,150],[20,0,130],[20,0,140],[20,0,150]],
+  "pitch_motor_center_offset_mm":[0,-34,0],
+  "camera_center_neutral_body_mm":[40,0,135],
+  "pitch_scan_deg":[0,5,10,15,20,25,30,35,40,45,50,55,60],
+  "yaw_probe_deg":[-30,-15,0,15,30],
+  "head_rigid_group":["WukongHeadShell","CrownOccupancy","camera"],
+  "yaw_carriage_group":["NeckMotor1"],
+  "fixed_neck_group":["NeckMotor0"],
+  "joint_zero":"current neutral head/crown, camera shifted15mm forward; not encoder calibration",
+  "actual_motor_SKU_and_horn_origin_confirmed":false,
+  "actual_camera_mount_and_optical_centers_confirmed":false,
+  "source_mass_allowances_kg":{"WukongHeadShell":0.11,"CrownOccupancy":0.02,"camera":0.09,"NeckMotor0":0.023,"NeckMotor1":0.023},
+  "manufacturing_release":false
+}

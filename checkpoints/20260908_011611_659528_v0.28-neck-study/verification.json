@@ -1,0 +1,24 @@
+{
+  "id": "20260908_011611_659528_v0.28-neck-study",
+  "stage": "v0.28-neck-study",
+  "verified": true,
+  "file_count": 1228,
+  "source_bytes": 2960688295,
+  "archive_bytes": 1097678042,
+  "archive_sha256": "556ca4b5a56b48f1fe0e72ba81bb742d3e7923f67a8eeb9c3b5a4c5207e05c6d",
+  "archive": "checkpoints\\20260908_011611_659528_v0.28-neck-study\\project.zip",
+  "passed_checks": [
+    "Manufacturer reference geometry and explicit yaw-pitch-camera frame composition",
+    "11 zero-yaw pitch samples 0..50deg without modeled housing/head collisions",
+    "Nominal motor-box containment bound for proposed head-local clearance opening",
+    "54 constant-length free-end arc cases and refined height arithmetic",
+    "12 native research CAD files reopen; v26 source unchanged"
+  ],
+  "pending": [
+    "Split and reroute yaw/pitch flex segments with actual cable and fixed exit tangents",
+    "Body/yaw/pitch/head brackets,rotor mounting phases and mechanical load path",
+    "Reduce/reshape crown allowance if400mm applies across all neck poses; appearance still unapproved",
+    "Joint-coupled safe motion sequence needs full continuous and dynamic verification",
+    "D436 purchase/mode/M4 gates,real microphone interfaces and full robot CAE/recovery remain open"
+  ]
+}

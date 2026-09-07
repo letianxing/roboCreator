@@ -1,0 +1,23 @@
+{
+  "version":"v0.27-camera-study",
+  "source_type":"assumed_task_probes_except_existing_CAD",
+  "reference_camera_center_body_mm":[25,0,135],
+  "body_origin_height_stand_mm":214.26539554219744,
+  "old_camera_mass_allowance_kg":0.09,
+  "candidate_center_x_mm":[25,40],
+  "camera_down_pitch_deg":[0,30,45,60],
+  "optical_origin":"ASSUMED center of front housing face; real stereo/RGB extrinsics not known",
+  "task_probe_points_mm":{
+    "bottle_base_center":[180,0,0],"bottle_grip_center":[180,0,110],"bottle_top_center":[180,0,220],
+    "side_bottle_L":[150,150,110],"side_bottle_R":[150,-150,110],
+    "small_parts":[200,0,5],"near_table_edge":[120,0,0],"ground_ahead":[400,0,0],
+    "opponent_near":[600,0,250],"opponent_far":[1500,0,350],"seated_person_face":[1000,0,650]
+  },
+  "bottle_proxy":{"diameter_mm":64,"height_mm":220,"measured":false},
+  "probe_positions_note":"Scenario probes, not confirmed reachability/table dimensions/actual bottle or human position. Wholebody current CAD is standing only for optical rays.",
+  "camera_mount_pivot":"ASSUMED camera center, not implemented neck joint",
+  "accessory_mass_assumptions_kg":[0.02,0.04],
+  "D436_body_mass_probes_kg":[0.075,0.09,0.11],
+  "mounting_release":false,
+  "camera_neck_motion_linkage_verified":false
+}

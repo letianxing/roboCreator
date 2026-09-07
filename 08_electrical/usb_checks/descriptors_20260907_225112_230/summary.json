@@ -1,0 +1,137 @@
+{
+    "read_succeeded":  true,
+    "instance_id":  "USB\\VID_359F\u0026PID_3400\\2026081110",
+    "port_index":  4,
+    "configuration_bytes":  337,
+    "bcd_device":  "0x0101",
+    "interfaces":  [
+                       {
+                           "number":  0,
+                           "alternate":  0,
+                           "declared_endpoints":  0,
+                           "class":  1,
+                           "subclass":  1,
+                           "protocol":  32,
+                           "endpoints":  [
+
+                                         ]
+                       },
+                       {
+                           "number":  1,
+                           "alternate":  0,
+                           "declared_endpoints":  0,
+                           "class":  1,
+                           "subclass":  2,
+                           "protocol":  32,
+                           "endpoints":  [
+
+                                         ]
+                       },
+                       {
+                           "number":  1,
+                           "alternate":  1,
+                           "declared_endpoints":  1,
+                           "class":  1,
+                           "subclass":  2,
+                           "protocol":  32,
+                           "endpoints":  [
+                                             {
+                                                 "address":  "0x82",
+                                                 "direction":  "IN",
+                                                 "transfer_type":  1,
+                                                 "sync_type":  1,
+                                                 "usage_type":  2,
+                                                 "max_packet_size":  512,
+                                                 "interval":  3
+                                             }
+                                         ]
+                       },
+                       {
+                           "number":  2,
+                           "alternate":  0,
+                           "declared_endpoints":  0,
+                           "class":  1,
+                           "subclass":  2,
+                           "protocol":  32,
+                           "endpoints":  [
+
+                                         ]
+                       },
+                       {
+                           "number":  2,
+                           "alternate":  1,
+                           "declared_endpoints":  1,
+                           "class":  1,
+                           "subclass":  2,
+                           "protocol":  32,
+                           "endpoints":  [
+                                             {
+                                                 "address":  "0x04",
+                                                 "direction":  "OUT",
+                                                 "transfer_type":  1,
+                                                 "sync_type":  1,
+                                                 "usage_type":  0,
+                                                 "max_packet_size":  100,
+                                                 "interval":  3
+                                             }
+                                         ]
+                       },
+                       {
+                           "number":  3,
+                           "alternate":  0,
+                           "declared_endpoints":  1,
+                           "class":  2,
+                           "subclass":  2,
+                           "protocol":  0,
+                           "endpoints":  [
+                                             {
+                                                 "address":  "0x85",
+                                                 "direction":  "IN",
+                                                 "transfer_type":  3,
+                                                 "sync_type":  0,
+                                                 "usage_type":  0,
+                                                 "max_packet_size":  8,
+                                                 "interval":  10
+                                             }
+                                         ]
+                       },
+                       {
+                           "number":  4,
+                           "alternate":  0,
+                           "declared_endpoints":  2,
+                           "class":  10,
+                           "subclass":  0,
+                           "protocol":  0,
+                           "endpoints":  [
+                                             {
+                                                 "address":  "0x03",
+                                                 "direction":  "OUT",
+                                                 "transfer_type":  2,
+                                                 "sync_type":  0,
+                                                 "usage_type":  0,
+                                                 "max_packet_size":  512,
+                                                 "interval":  0
+                                             },
+                                             {
+                                                 "address":  "0x81",
+                                                 "direction":  "IN",
+                                                 "transfer_type":  2,
+                                                 "sync_type":  0,
+                                                 "usage_type":  0,
+                                                 "max_packet_size":  512,
+                                                 "interval":  0
+                                             }
+                                         ]
+                       }
+                   ],
+    "async_out_without_explicit_feedback":  [
+                                                {
+                                                    "interface":  2,
+                                                    "alternate":  1,
+                                                    "async_out_addresses":  [
+                                                                                "0x04"
+                                                                            ]
+                                                }
+                                            ],
+    "scope":  "Standard GET_DESCRIPTOR only; no audio/serial stream,device configuration or firmware modified"
+}

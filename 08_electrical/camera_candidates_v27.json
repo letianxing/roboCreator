@@ -1,0 +1,28 @@
+{
+  "date":"2026-09-08",
+  "status":"conditional_shortlist_not_purchase_release",
+  "units":{"dimensions":"mm (depth X, width Y, height Z)","mass":"kg","FOV":"degrees","depth":"mm"},
+  "sources":{
+    "rs_pdf":{"path":"00_inputs/sensors/camera_v27/realsense_d400.pdf","url":"https://www.realsenseai.com/download/21345/?tmstv=1770190765","revision":"337029-017, August2025","pages":[69,82,85,139,141,145]},
+    "orbbec_pdf":{"path":"00_inputs/sensors/camera_v27/gemini330_v1_4.pdf","url":"https://orbbec.com/wp-content/uploads/2024/04/Gemini-330-series-Datasheet-V1.4_20250124.pdf","revision":"1.4,2025-01-24","pages":[10,11,31,37,65]},
+    "D405":"https://www.realsenseai.com/products/stereo-depth-camera-d405/",
+    "D435i":"https://www.realsenseai.com/products/depth-camera-d435i/",
+    "D436":"https://store.realsenseai.com/buy-realsense-depth-camera-d436.html",
+    "D455":"https://www.realsenseai.com/products/real-sense-depth-camera-d455f/",
+    "Gemini335":"https://store.orbbec.com/products/gemini-335",
+    "orbbec_sdk":"https://github.com/orbbec/OrbbecSDK_v2",
+    "rs_macos":"https://github.com/realsenseai/librealsense/blob/v2.58.4/doc/installation_osx.md",
+    "rs_release":"https://github.com/realsenseai/librealsense/releases/tag/v2.58.4"
+  },
+  "candidates":[
+    {"id":"D405","xyz_mm":[23,42,42],"mass_kg":0.058,"mass_note":"datasheet nominal +/-10%; product page says60g; cable/mount excluded","depth_fov_deg":[87,58],"rgb_fov_deg":[87,58],"baseline_mm":18,"ideal_depth_mm":[70,500],"depth_shutter":"global","rgb_shutter":"global","power_W":{"streaming_depth_IR":1.55},"modes":[{"resolution":[1280,720],"min_z_mm":100,"source":"rs_pdf p85"},{"resolution":[848,480],"min_z_mm":70,"source":"rs_pdf p85"}],"min_z_confirmed":true,"depth_rgb_optical_origins_confirmed":false,"source_ids":["rs_pdf","D405"]},
+    {"id":"D435i","xyz_mm":[25,90,25],"mass_kg":0.075,"mass_note":"datasheet nominal +/-10%; cable/mount excluded","depth_fov_deg":[87,58],"rgb_fov_deg":[69,42],"baseline_mm":50,"ideal_depth_mm":[300,3000],"depth_shutter":"global","rgb_shutter":"rolling","power_W":null,"modes":[{"resolution":[1280,720],"min_z_mm":280,"source":"rs_pdf p85"},{"resolution":[848,480],"min_z_mm":195,"source":"rs_pdf p85"}],"min_z_confirmed":true,"depth_rgb_optical_origins_confirmed":false,"source_ids":["rs_pdf","D435i"]},
+    {"id":"D436","xyz_mm":[25,90,25],"mass_kg":null,"mass_note":"D436-specific mass not confirmed; do not copy D435i weight","depth_fov_deg":[87,58],"rgb_fov_deg":[90,65],"baseline_mm":50,"baseline_note":"D430 module inheritance; actual optical transforms pending","ideal_depth_mm":[300,3000],"depth_shutter":"global","rgb_shutter":"global","power_W":null,"modes":[{"resolution":[1280,720],"min_z_mm":280,"source":"official D436 store"},{"resolution":[848,480],"min_z_mm":195,"source":"INFERRED from shared D430; needs D436-specific mode verification","inferred":true}],"min_z_confirmed":false,"depth_rgb_optical_origins_confirmed":false,"observed_store":{"price_USD":354,"availability":"Backorder / Out of Stock","not_China_quote":true},"source_ids":["D436","rs_pdf"]},
+    {"id":"D455","xyz_mm":[26,124,29],"mass_kg":0.116,"mass_note":"datasheet nominal +/-10%; cable/mount excluded","depth_fov_deg":[87,58],"rgb_fov_deg":[90,65],"baseline_mm":95,"ideal_depth_mm":[600,6000],"depth_shutter":"global","rgb_shutter":"global","power_W":null,"modes":[{"resolution":[1280,720],"min_z_mm":520,"source":"rs_pdf p85"},{"resolution":[848,480],"min_z_mm":350,"source":"rs_pdf p85"}],"min_z_confirmed":true,"depth_rgb_optical_origins_confirmed":false,"source_ids":["rs_pdf","D455"]},
+    {"id":"Gemini335","xyz_mm":[30,90,25],"mass_kg":0.097,"depth_fov_deg":[90,65],"rgb_fov_deg":[86,55],"baseline_mm":50,"ideal_depth_mm":[300,3000],"ideal_range_note":"datasheet0.3m vs product page0.26m; retain conservative datasheet interval","depth_shutter":"global","rgb_shutter":"rolling","power_W":{"average_upper":3,"peak_upper":6.5},"modes":[{"resolution":[1280,800],"min_z_mm":260,"source":"orbbec_pdf p37","depth_fov_deg":[90,65]},{"resolution":[848,480],"min_z_mm":180,"source":"orbbec_pdf p37","depth_fov_deg":[90,60]}],"min_z_confirmed":true,"depth_rgb_optical_origins_confirmed":false,"source_ids":["orbbec_pdf","Gemini335","orbbec_sdk"]},
+    {"id":"Gemini335L","xyz_mm":[27,124,29],"mass_kg":0.133,"depth_fov_deg":[90,65],"rgb_fov_deg":[94,68],"baseline_mm":95,"ideal_depth_mm":[250,6000],"depth_shutter":"global","rgb_shutter":"global","power_W":{"average_upper":3,"peak_upper":6},"modes":[{"resolution":[1280,800],"min_z_mm":250,"disparity_search":256,"source":"orbbec_pdf p37"},{"resolution":[848,480],"min_z_mm":340,"disparity_search":128,"source":"orbbec_pdf p37","depth_fov_deg":[90,60]}],"min_z_confirmed":true,"depth_rgb_optical_origins_confirmed":false,"source_ids":["orbbec_pdf","orbbec_sdk"]}
+  ],
+  "all_modes_note":"Catalogue modes are alternatives; do not combine maximum resolution/FPS/FOV or assume all RGB/depth rates simultaneous. MinZ is axial Z, not Euclidean range. Ideal range is not a guarantee.",
+  "windows_and_M4_acceptance":"No device/platform test performed. RealSense macOS current docs incomplete, Viewer unsupported and IMU disabled; Orbbec states M2/macOS13.2 tested, not our M4.",
+  "manufacturer_hole_patterns_frozen":false
+}

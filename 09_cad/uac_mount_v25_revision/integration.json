@@ -1,0 +1,3646 @@
+{
+  "completed": true,
+  "scenes": [
+    {
+      "failed_pairs": [],
+      "near_pairs": [
+        {
+          "a": "L_HipYawMotor",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 2.349999999999998,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "L_HipYawMotor",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 6.7920418561333165,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "R_HipYawMotor",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 2.3500000000000014,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "battery",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 0.3999999999999915,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "battery",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 25.096486241799482,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "microphone",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 5.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "computer",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 1.4999999999999858,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "computer",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 15.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "NeckMotor0",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 33.346664001066124,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "NeckMotor0",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 36.209946349085605,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 11.978610932556048,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "UACNut1",
+          "distance_mm": 18.63687027239921,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "UACScrew1",
+          "distance_mm": 20.095000707422724,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "UACNut3",
+          "distance_mm": 18.636870272399207,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "UACScrew3",
+          "distance_mm": 20.095000707422745,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "ArrayLinerLower",
+          "distance_mm": 30.674018090735895,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "ArrayLinerUpper",
+          "distance_mm": 30.103154952388262,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "ArrayTie_PROVISIONAL",
+          "distance_mm": 27.44474554200393,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 12.249685847355174,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryPadding",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryRetainer0",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryRetainer1",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion0",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion1",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion2",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion3",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerRetainer0",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerRetainer1",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerRetainer0",
+          "distance_mm": 3.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerRetainer1",
+          "distance_mm": 3.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew0",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew1",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew2",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew3",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "HarnessGrommet",
+          "distance_mm": 4.969994660859543,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerHarnessKeepout",
+          "distance_mm": 2.5,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "UACNut0",
+          "distance_mm": 0.04999999999999716,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "UACScrew0",
+          "distance_mm": 0.14999999999994845,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "UACNut1",
+          "distance_mm": 0.04999999999999716,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "UACScrew1",
+          "distance_mm": 0.14999999999994845,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "UACNut2",
+          "distance_mm": 0.04999999999999716,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "UACScrew2",
+          "distance_mm": 0.14999999999994845,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "UACNut3",
+          "distance_mm": 0.04999999999999716,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "UACScrew3",
+          "distance_mm": 0.14999999999994845,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "UACCassette",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 2.0,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ArrayLinerLower",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ArrayLinerUpper",
+          "distance_mm": 3.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ArrayTie_PROVISIONAL",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 1.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "BatteryRetainer0",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 32.56240732356473,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "BatteryRetainer1",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 24.681166909204276,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ComputerCushion2",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 25.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ComputerCushion3",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 22.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ComputerRetainer0",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 14.03121954188139,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ComputerRetainer1",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 15.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "PowerHarnessKeepout",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 36.94262846579095,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACNut0",
+          "b": "UACScrew0",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACNut0",
+          "b": "UACCassette",
+          "distance_mm": 2.0,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACScrew0",
+          "b": "UACCassette",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACScrew0",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 1.75,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACScrew0",
+          "b": "RemainingBoardSpace_PROBE",
+          "distance_mm": 1.75,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACNut1",
+          "b": "UACScrew1",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACNut1",
+          "b": "UACCassette",
+          "distance_mm": 2.0,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACScrew1",
+          "b": "UACCassette",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACScrew1",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 1.75,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACScrew1",
+          "b": "RemainingBoardSpace_PROBE",
+          "distance_mm": 1.75,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACNut2",
+          "b": "UACScrew2",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACNut2",
+          "b": "UACCassette",
+          "distance_mm": 2.0,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACNut2",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 12.012427791813792,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACScrew2",
+          "b": "UACCassette",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACScrew2",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 1.75,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACScrew2",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 9.837068365496755,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACScrew2",
+          "b": "RemainingBoardSpace_PROBE",
+          "distance_mm": 1.75,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACNut3",
+          "b": "UACScrew3",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACNut3",
+          "b": "UACCassette",
+          "distance_mm": 2.0,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACNut3",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 11.600000000000001,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACScrew3",
+          "b": "UACCassette",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACScrew3",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 1.75,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACScrew3",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 9.837068365496732,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACScrew3",
+          "b": "RemainingBoardSpace_PROBE",
+          "distance_mm": 1.75,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACCassette",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACCassette",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 3.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACCassette",
+          "b": "RemainingBoardSpace_PROBE",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "InsulationSheet_PROVISIONAL",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 8.381527307120106,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "InsulationSheet_PROVISIONAL",
+          "b": "RemainingBoardSpace_PROBE",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ArrayLinerLower",
+          "b": "ArrayLinerUpper",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ArrayLinerLower",
+          "b": "ArrayTie_PROVISIONAL",
+          "distance_mm": 2.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ArrayLinerLower",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ArrayLinerUpper",
+          "b": "ArrayTie_PROVISIONAL",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ArrayLinerUpper",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ArrayTie_PROVISIONAL",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 1.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ArrayCable_PROBE",
+          "b": "RemainingBoardSpace_PROBE",
+          "distance_mm": 8.0,
+          "overlap_mm3": 0.0
+        }
+      ],
+      "changed_pairs_considered": 1720,
+      "pass": true,
+      "scene": "stand",
+      "source_sha256": "202f773fe3689e18a7f6a3c291c521892d1e34d0d0fdb429b92ca0b7cb12b8ab",
+      "ground_penetrations_mm": {},
+      "envelope_xyz_mm": [
+        172.94116990509423,
+        289.40000000000003,
+        394.26539554219744
+      ],
+      "component_count": 116
+    },
+    {
+      "failed_pairs": [],
+      "near_pairs": [
+        {
+          "a": "PelvisPlate",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 1.9984014443252818e-15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 43.967379738244816,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "battery",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 0.39999999999985864,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "battery",
+          "b": "UACCassette",
+          "distance_mm": 5.000000000000122,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "battery",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 7.000000000000127,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "battery",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 25.09648624179948,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "battery",
+          "b": "RemainingBoardSpace_PROBE",
+          "distance_mm": 7.500000000000112,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "microphone",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 13.50000000000006,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "microphone",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 4.999999999999917,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "computer",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 1.5000000000000557,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "computer",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 14.999999999999917,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "power",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 5.999999999999975,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "power",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 49.73973328110601,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "camera",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 15.50806241927089,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "camera",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 18.155644370746376,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "NeckMotor0",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 33.34666400106619,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "NeckMotor0",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 36.2099463490856,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "NeckMotor1",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 42.57346591481594,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "NeckMotor1",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 51.03772242470446,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 11.978610932555853,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "UACNut1",
+          "distance_mm": 18.636870272399346,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "UACScrew1",
+          "distance_mm": 20.09500070742285,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "UACNut3",
+          "distance_mm": 18.63687027239931,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "UACScrew3",
+          "distance_mm": 20.095000707422848,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "UACCassette",
+          "distance_mm": 14.281752030787372,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 17.06519826526755,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "ArrayLinerLower",
+          "distance_mm": 30.67401809073576,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "ArrayLinerUpper",
+          "distance_mm": 30.103154952388124,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "ArrayTie_PROVISIONAL",
+          "distance_mm": 27.444745542003787,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 12.249685847355174,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "RemainingBoardSpace_PROBE",
+          "distance_mm": 17.475352269367182,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "R_HipRollMotor",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 15.113957976542567,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "R_HipYawMotor",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 2.350000000000005,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "L_HipRollMotor",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 15.11395797654033,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "L_HipRollMotor",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 48.9698195013461,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "L_HipYawMotor",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 2.3500000000000263,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "L_HipYawMotor",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 6.792041856130879,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "L_ThighRailm1",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 0.5413270239211163,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "R_UpperArm",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 19.254036308853316,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "R_ElbowMotor",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 6.432196124667916,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "R_ElbowMotor",
+          "b": "UACCassette",
+          "distance_mm": 8.831291165748098,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "R_ElbowMotor",
+          "b": "RemainingBoardSpace_PROBE",
+          "distance_mm": 16.812326111204275,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryPadding",
+          "distance_mm": 1.9984014443252818e-15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryRetainer0",
+          "distance_mm": 3.552713678800501e-15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryRetainer1",
+          "distance_mm": 3.972054645195637e-15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion0",
+          "distance_mm": 7.105427357601002e-15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion1",
+          "distance_mm": 7.105427357601002e-15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion2",
+          "distance_mm": 7.105427357601002e-15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion3",
+          "distance_mm": 7.105427357601002e-15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerRetainer0",
+          "distance_mm": 7.105427357601002e-15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerRetainer1",
+          "distance_mm": 7.105427357601002e-15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerPadding",
+          "distance_mm": 3.999999999999991,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerRetainer0",
+          "distance_mm": 3.0000000000000013,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerRetainer1",
+          "distance_mm": 3.000000000000002,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew0",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew1",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew2",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew3",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "HarnessGrommet",
+          "distance_mm": 4.969994660859543,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerHarnessKeepout",
+          "distance_mm": 2.4999999999999614,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "UACNut0",
+          "distance_mm": 0.049999999999991496,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "UACScrew0",
+          "distance_mm": 0.14999999999997643,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "UACNut1",
+          "distance_mm": 0.049999999999991496,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "UACScrew1",
+          "distance_mm": 0.1499999999999666,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "UACNut2",
+          "distance_mm": 0.049999999999991496,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "UACScrew2",
+          "distance_mm": 0.14999999999997643,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "UACNut3",
+          "distance_mm": 0.049999999999991496,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "UACScrew3",
+          "distance_mm": 0.1499999999999666,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "UACCassette",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 2.0000000000000053,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ArrayLinerLower",
+          "distance_mm": 3.552713678800501e-15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ArrayLinerUpper",
+          "distance_mm": 3.0000000000000036,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ArrayTie_PROVISIONAL",
+          "distance_mm": 3.552713678800501e-15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 0.9999999999999866,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "RemainingBoardSpace_PROBE",
+          "distance_mm": 2.5000000000000124,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "BatteryPadding",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 40.2018956920184,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "BatteryRetainer0",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 32.56240732356471,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "BatteryRetainer1",
+          "b": "UACCassette",
+          "distance_mm": 10.000000000000002,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "BatteryRetainer1",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 12.000000000000005,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "BatteryRetainer1",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 24.68116690920428,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ComputerCushion2",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 24.999999999999964,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ComputerCushion3",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 21.999999999999993,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ComputerRetainer0",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 14.031219541881374,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ComputerRetainer1",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 14.999999999999993,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "PowerPadding",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 51.03772242470448,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "PowerRetainer0",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 51.600373133029585,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "PowerRetainer1",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 63.1539239352881,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "CarrierScrew1",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 59.71912183432293,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "PowerHarnessKeepout",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 36.942628465790925,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACNut0",
+          "b": "UACScrew0",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACNut0",
+          "b": "UACCassette",
+          "distance_mm": 1.999999999999994,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACScrew0",
+          "b": "UACCassette",
+          "distance_mm": 7.105427357601002e-15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACScrew0",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 1.75,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACScrew0",
+          "b": "RemainingBoardSpace_PROBE",
+          "distance_mm": 1.75,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACNut1",
+          "b": "UACScrew1",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACNut1",
+          "b": "UACCassette",
+          "distance_mm": 1.999999999999994,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACNut1",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 4.308131845707598,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACNut1",
+          "b": "RemainingBoardSpace_PROBE",
+          "distance_mm": 4.775981574503812,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACScrew1",
+          "b": "UACCassette",
+          "distance_mm": 7.105427357601002e-15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACScrew1",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 1.75,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACScrew1",
+          "b": "RemainingBoardSpace_PROBE",
+          "distance_mm": 1.75,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACNut2",
+          "b": "UACScrew2",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACNut2",
+          "b": "UACCassette",
+          "distance_mm": 1.999999999999994,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACNut2",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 12.01242779181378,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACScrew2",
+          "b": "UACCassette",
+          "distance_mm": 7.105427357601002e-15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACScrew2",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 1.75,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACScrew2",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 9.83706836549671,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACScrew2",
+          "b": "RemainingBoardSpace_PROBE",
+          "distance_mm": 1.75,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACNut3",
+          "b": "UACScrew3",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACNut3",
+          "b": "UACCassette",
+          "distance_mm": 1.999999999999994,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACNut3",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 4.308131845707598,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACNut3",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 11.600000000000001,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACNut3",
+          "b": "RemainingBoardSpace_PROBE",
+          "distance_mm": 4.775981574503812,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACScrew3",
+          "b": "UACCassette",
+          "distance_mm": 7.105427357601002e-15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACScrew3",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 1.75,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACScrew3",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 9.83706836549672,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACScrew3",
+          "b": "RemainingBoardSpace_PROBE",
+          "distance_mm": 1.75,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACCassette",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACCassette",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 3.0000000000000138,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACCassette",
+          "b": "RemainingBoardSpace_PROBE",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "InsulationSheet_PROVISIONAL",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 8.381527307120109,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "InsulationSheet_PROVISIONAL",
+          "b": "RemainingBoardSpace_PROBE",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ArrayLinerLower",
+          "b": "ArrayLinerUpper",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ArrayLinerLower",
+          "b": "ArrayTie_PROVISIONAL",
+          "distance_mm": 1.9999999999999707,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ArrayLinerLower",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 2.1316282072803006e-14,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ArrayLinerUpper",
+          "b": "ArrayTie_PROVISIONAL",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ArrayLinerUpper",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 1.4210854715202004e-14,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ArrayTie_PROVISIONAL",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 0.999999999999987,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ArrayCable_PROBE",
+          "b": "RemainingBoardSpace_PROBE",
+          "distance_mm": 8.0,
+          "overlap_mm3": 0.0
+        }
+      ],
+      "changed_pairs_considered": 1720,
+      "pass": true,
+      "scene": "lift_h114",
+      "source_sha256": "0055a50d158368204fb3ae155f81021e7fe617259f35743c6e83c9c702203800",
+      "ground_penetrations_mm": {},
+      "envelope_xyz_mm": [
+        421.08349156278774,
+        289.4000000000001,
+        299.796264040551
+      ],
+      "component_count": 116
+    },
+    {
+      "failed_pairs": [],
+      "near_pairs": [
+        {
+          "a": "PelvisPlate",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 43.967379738244816,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "battery",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 0.39999999999985864,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "battery",
+          "b": "UACCassette",
+          "distance_mm": 5.0000000000001155,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "battery",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 7.000000000000122,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "battery",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 25.096486241799475,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "battery",
+          "b": "RemainingBoardSpace_PROBE",
+          "distance_mm": 7.500000000000112,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "microphone",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 13.50000000000006,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "microphone",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 4.999999999999924,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "computer",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 1.5000000000000557,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "computer",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 14.99999999999993,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "power",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 5.999999999999971,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "power",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 49.73973328110601,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "camera",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 15.50806241927089,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "camera",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 18.155644370746376,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "NeckMotor0",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 33.346664001066166,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "NeckMotor0",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 36.2099463490856,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "NeckMotor1",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 42.57346591481594,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "NeckMotor1",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 51.03772242470444,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 11.978610932555853,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "UACNut1",
+          "distance_mm": 18.636870272399342,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "UACScrew1",
+          "distance_mm": 20.09500070742285,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "UACNut3",
+          "distance_mm": 18.636870272399342,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "UACScrew3",
+          "distance_mm": 20.095000707422848,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "UACCassette",
+          "distance_mm": 14.281752030787375,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 17.06519826526755,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "ArrayLinerLower",
+          "distance_mm": 30.674018090735757,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "ArrayLinerUpper",
+          "distance_mm": 30.103154952388127,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "ArrayTie_PROVISIONAL",
+          "distance_mm": 27.44474554200378,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 12.249685847355147,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "RemainingBoardSpace_PROBE",
+          "distance_mm": 17.475352269367185,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "R_HipRollMotor",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 15.113957976542592,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "R_HipYawMotor",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 2.350000000000005,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "L_HipRollMotor",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 15.113957974873083,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "L_HipRollMotor",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 48.969819499789615,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "L_HipYawMotor",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 2.350000000000005,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "L_HipYawMotor",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 6.792041854313137,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "L_ThighRailm1",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 3.8921382264302715,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "R_ElbowMotor",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 8.812298768959707,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "R_ElbowMotor",
+          "b": "UACCassette",
+          "distance_mm": 10.24335794240763,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "R_ElbowMotor",
+          "b": "RemainingBoardSpace_PROBE",
+          "distance_mm": 18.32648172099015,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryPadding",
+          "distance_mm": 1.7763568394002505e-15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryRetainer0",
+          "distance_mm": 3.552713678800501e-15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryRetainer1",
+          "distance_mm": 3.66205343881779e-15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion0",
+          "distance_mm": 7.105427357601002e-15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion1",
+          "distance_mm": 7.105427357601002e-15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion2",
+          "distance_mm": 7.105427357601002e-15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion3",
+          "distance_mm": 7.105427357601002e-15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerRetainer0",
+          "distance_mm": 7.105427357601002e-15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerRetainer1",
+          "distance_mm": 7.105427357601002e-15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerPadding",
+          "distance_mm": 3.999999999999991,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerRetainer0",
+          "distance_mm": 3.0000000000000013,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerRetainer1",
+          "distance_mm": 3.0000000000000013,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew0",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew1",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew2",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew3",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "HarnessGrommet",
+          "distance_mm": 4.969994660859543,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerHarnessKeepout",
+          "distance_mm": 2.4999999999999614,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "UACNut0",
+          "distance_mm": 0.049999999999991496,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "UACScrew0",
+          "distance_mm": 0.14999999999997643,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "UACNut1",
+          "distance_mm": 0.049999999999991496,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "UACScrew1",
+          "distance_mm": 0.1499999999999666,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "UACNut2",
+          "distance_mm": 0.049999999999991496,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "UACScrew2",
+          "distance_mm": 0.14999999999997643,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "UACNut3",
+          "distance_mm": 0.049999999999991496,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "UACScrew3",
+          "distance_mm": 0.1499999999999666,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "UACCassette",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 2.0000000000000053,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ArrayLinerLower",
+          "distance_mm": 7.105427357601002e-15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ArrayLinerUpper",
+          "distance_mm": 3.0000000000000053,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ArrayTie_PROVISIONAL",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 0.9999999999999866,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "RemainingBoardSpace_PROBE",
+          "distance_mm": 2.5000000000000124,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "BatteryPadding",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 40.2018956920184,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "BatteryRetainer0",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 32.56240732356471,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "BatteryRetainer1",
+          "b": "UACCassette",
+          "distance_mm": 10.000000000000002,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "BatteryRetainer1",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 12.000000000000005,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "BatteryRetainer1",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 24.68116690920428,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ComputerCushion2",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 24.999999999999964,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ComputerCushion3",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 21.999999999999993,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ComputerRetainer0",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 14.031219541881384,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ComputerRetainer1",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 14.999999999999993,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "PowerPadding",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 51.037722424704484,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "PowerRetainer0",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 51.600373133029585,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "PowerRetainer1",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 63.1539239352881,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "CarrierScrew1",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 59.719121834322934,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "PowerHarnessKeepout",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 36.94262846579093,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACNut0",
+          "b": "UACScrew0",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACNut0",
+          "b": "UACCassette",
+          "distance_mm": 1.999999999999994,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACScrew0",
+          "b": "UACCassette",
+          "distance_mm": 3.552713678800501e-15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACScrew0",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 1.75,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACScrew0",
+          "b": "RemainingBoardSpace_PROBE",
+          "distance_mm": 1.75,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACNut1",
+          "b": "UACScrew1",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACNut1",
+          "b": "UACCassette",
+          "distance_mm": 1.999999999999994,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACNut1",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 4.308131845707598,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACNut1",
+          "b": "RemainingBoardSpace_PROBE",
+          "distance_mm": 4.775981574503812,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACScrew1",
+          "b": "UACCassette",
+          "distance_mm": 7.105427357601002e-15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACScrew1",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 1.75,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACScrew1",
+          "b": "RemainingBoardSpace_PROBE",
+          "distance_mm": 1.75,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACNut2",
+          "b": "UACScrew2",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACNut2",
+          "b": "UACCassette",
+          "distance_mm": 1.999999999999994,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACNut2",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 12.01242779181378,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACScrew2",
+          "b": "UACCassette",
+          "distance_mm": 3.552713678800501e-15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACScrew2",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 1.75,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACScrew2",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 9.83706836549671,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACScrew2",
+          "b": "RemainingBoardSpace_PROBE",
+          "distance_mm": 1.75,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACNut3",
+          "b": "UACScrew3",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACNut3",
+          "b": "UACCassette",
+          "distance_mm": 1.999999999999994,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACNut3",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 4.308131845707598,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACNut3",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 11.600000000000001,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACNut3",
+          "b": "RemainingBoardSpace_PROBE",
+          "distance_mm": 4.775981574503812,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACScrew3",
+          "b": "UACCassette",
+          "distance_mm": 7.105427357601002e-15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACScrew3",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 1.75,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACScrew3",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 9.83706836549672,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACScrew3",
+          "b": "RemainingBoardSpace_PROBE",
+          "distance_mm": 1.75,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACCassette",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACCassette",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 3.0000000000000138,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACCassette",
+          "b": "RemainingBoardSpace_PROBE",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "InsulationSheet_PROVISIONAL",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 8.381527307120109,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "InsulationSheet_PROVISIONAL",
+          "b": "RemainingBoardSpace_PROBE",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ArrayLinerLower",
+          "b": "ArrayLinerUpper",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ArrayLinerLower",
+          "b": "ArrayTie_PROVISIONAL",
+          "distance_mm": 1.9999999999999707,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ArrayLinerLower",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 2.1316282072803006e-14,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ArrayLinerUpper",
+          "b": "ArrayTie_PROVISIONAL",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ArrayLinerUpper",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 1.4210854715202004e-14,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ArrayTie_PROVISIONAL",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 0.999999999999987,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ArrayCable_PROBE",
+          "b": "RemainingBoardSpace_PROBE",
+          "distance_mm": 8.0,
+          "overlap_mm3": 0.0
+        }
+      ],
+      "changed_pairs_considered": 1720,
+      "pass": true,
+      "scene": "lift_h117",
+      "source_sha256": "22f15174af95aaad7ece13b16753429eed6aa384467db74e6d93d82d84863feb",
+      "ground_penetrations_mm": {},
+      "envelope_xyz_mm": [
+        413.569416496303,
+        289.4000000000001,
+        302.7962640405511
+      ],
+      "component_count": 116
+    },
+    {
+      "failed_pairs": [],
+      "near_pairs": [
+        {
+          "a": "PelvisPlate",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "PelvisPlate",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 43.967379738244816,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "battery",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 0.3999999999998644,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "battery",
+          "b": "UACCassette",
+          "distance_mm": 5.0000000000001155,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "battery",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 7.000000000000122,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "battery",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 25.096486241799475,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "battery",
+          "b": "RemainingBoardSpace_PROBE",
+          "distance_mm": 7.500000000000112,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "microphone",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 13.50000000000006,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "microphone",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 4.999999999999912,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "computer",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 1.500000000000078,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "computer",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 14.999999999999913,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "power",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 5.999999999999971,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "power",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 49.73973328110601,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "camera",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 15.508062419270887,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "camera",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 18.155644370746376,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "NeckMotor0",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 33.34666400106619,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "NeckMotor0",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 36.2099463490856,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "NeckMotor1",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 42.57346591481591,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "NeckMotor1",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 51.037722424704434,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 11.978610932555853,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "UACNut1",
+          "distance_mm": 18.636870272399346,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "UACScrew1",
+          "distance_mm": 20.09500070742285,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "UACNut3",
+          "distance_mm": 18.63687027239931,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "UACScrew3",
+          "distance_mm": 20.095000707422848,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "UACCassette",
+          "distance_mm": 14.281752030787372,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 17.065198265267547,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "ArrayLinerLower",
+          "distance_mm": 30.67401809073576,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "ArrayLinerUpper",
+          "distance_mm": 30.103154952388124,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "ArrayTie_PROVISIONAL",
+          "distance_mm": 27.444745542003787,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 12.249685847355154,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "WukongHeadShell",
+          "b": "RemainingBoardSpace_PROBE",
+          "distance_mm": 17.475352269367182,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "R_HipRollMotor",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 15.113957976542594,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "R_HipYawMotor",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 2.3499999999999943,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "L_HipRollMotor",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 15.113957976533243,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "L_HipRollMotor",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 48.96981950133941,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "L_HipYawMotor",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 2.350000000000005,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "L_HipYawMotor",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 6.7920418561231255,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "R_ElbowMotor",
+          "b": "ElectronicsCarrier",
+          "distance_mm": 12.313919039606374,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "R_ElbowMotor",
+          "b": "UACCassette",
+          "distance_mm": 12.442545571552165,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryPadding",
+          "distance_mm": 3.552713678800501e-15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryRetainer0",
+          "distance_mm": 3.552713678800501e-15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "BatteryRetainer1",
+          "distance_mm": 3.66205343881779e-15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion0",
+          "distance_mm": 7.105427357601002e-15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion1",
+          "distance_mm": 7.105427357601002e-15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion2",
+          "distance_mm": 7.105427357601002e-15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerCushion3",
+          "distance_mm": 7.105427357601002e-15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerRetainer0",
+          "distance_mm": 7.105427357601002e-15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ComputerRetainer1",
+          "distance_mm": 1.0048591735576161e-14,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerPadding",
+          "distance_mm": 3.999999999999991,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerRetainer0",
+          "distance_mm": 3.0000000000000013,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerRetainer1",
+          "distance_mm": 3.0000000000000013,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew0",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew1",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew2",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew3",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "HarnessGrommet",
+          "distance_mm": 4.9699946608595384,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PowerHarnessKeepout",
+          "distance_mm": 2.499999999999967,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "UACNut0",
+          "distance_mm": 0.04999999999999004,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "UACScrew0",
+          "distance_mm": 0.14999999999997643,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "UACNut1",
+          "distance_mm": 0.049999999999991496,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "UACScrew1",
+          "distance_mm": 0.1499999999999666,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "UACNut2",
+          "distance_mm": 0.04999999999999004,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "UACScrew2",
+          "distance_mm": 0.14999999999997643,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "UACNut3",
+          "distance_mm": 0.049999999999991496,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "UACScrew3",
+          "distance_mm": 0.1499999999999666,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "UACCassette",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 2.000000000000007,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ArrayLinerLower",
+          "distance_mm": 7.105427357601002e-15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ArrayLinerUpper",
+          "distance_mm": 3.0000000000000053,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ArrayTie_PROVISIONAL",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 0.9999999999999866,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "RemainingBoardSpace_PROBE",
+          "distance_mm": 2.5000000000000124,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "BatteryPadding",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 40.2018956920184,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "BatteryRetainer0",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 32.56240732356471,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "BatteryRetainer1",
+          "b": "UACCassette",
+          "distance_mm": 10.000000000000002,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "BatteryRetainer1",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 12.000000000000005,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "BatteryRetainer1",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 24.681166909204276,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ComputerCushion2",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 24.999999999999964,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ComputerCushion3",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 21.999999999999993,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ComputerRetainer0",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 14.031219541881384,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ComputerRetainer1",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 14.999999999999993,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "PowerPadding",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 51.03772242470448,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "PowerRetainer0",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 51.600373133029585,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "PowerRetainer1",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 63.1539239352881,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "CarrierScrew1",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 59.719121834322934,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "PowerHarnessKeepout",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 36.94262846579093,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACNut0",
+          "b": "UACScrew0",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACNut0",
+          "b": "UACCassette",
+          "distance_mm": 1.999999999999994,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACScrew0",
+          "b": "UACCassette",
+          "distance_mm": 5.329070518200751e-15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACScrew0",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 1.75,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACScrew0",
+          "b": "RemainingBoardSpace_PROBE",
+          "distance_mm": 1.75,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACNut1",
+          "b": "UACScrew1",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACNut1",
+          "b": "UACCassette",
+          "distance_mm": 1.999999999999994,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACNut1",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 4.308131845707598,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACNut1",
+          "b": "RemainingBoardSpace_PROBE",
+          "distance_mm": 4.775981574503812,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACScrew1",
+          "b": "UACCassette",
+          "distance_mm": 3.552713678800501e-15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACScrew1",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 1.75,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACScrew1",
+          "b": "RemainingBoardSpace_PROBE",
+          "distance_mm": 1.75,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACNut2",
+          "b": "UACScrew2",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACNut2",
+          "b": "UACCassette",
+          "distance_mm": 1.999999999999994,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACNut2",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 12.012427791813783,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACScrew2",
+          "b": "UACCassette",
+          "distance_mm": 5.329070518200751e-15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACScrew2",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 1.75,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACScrew2",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 9.83706836549671,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACScrew2",
+          "b": "RemainingBoardSpace_PROBE",
+          "distance_mm": 1.75,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACNut3",
+          "b": "UACScrew3",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACNut3",
+          "b": "UACCassette",
+          "distance_mm": 1.999999999999994,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACNut3",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 4.308131845707598,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACNut3",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 11.600000000000001,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACNut3",
+          "b": "RemainingBoardSpace_PROBE",
+          "distance_mm": 4.775981574503812,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACScrew3",
+          "b": "UACCassette",
+          "distance_mm": 3.552713678800501e-15,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACScrew3",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 1.75,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACScrew3",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 9.83706836549672,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACScrew3",
+          "b": "RemainingBoardSpace_PROBE",
+          "distance_mm": 1.75,
+          "overlap_mm3": 0
+        },
+        {
+          "a": "UACCassette",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACCassette",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 3.0000000000000075,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "UACCassette",
+          "b": "RemainingBoardSpace_PROBE",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "InsulationSheet_PROVISIONAL",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 8.381527307120109,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "InsulationSheet_PROVISIONAL",
+          "b": "RemainingBoardSpace_PROBE",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ArrayLinerLower",
+          "b": "ArrayLinerUpper",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ArrayLinerLower",
+          "b": "ArrayTie_PROVISIONAL",
+          "distance_mm": 1.9999999999999707,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ArrayLinerLower",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 2.1316282072803006e-14,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ArrayLinerUpper",
+          "b": "ArrayTie_PROVISIONAL",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ArrayLinerUpper",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 1.4210854715202004e-14,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ArrayTie_PROVISIONAL",
+          "b": "ArrayCable_PROBE",
+          "distance_mm": 0.999999999999987,
+          "overlap_mm3": 0.0
+        },
+        {
+          "a": "ArrayCable_PROBE",
+          "b": "RemainingBoardSpace_PROBE",
+          "distance_mm": 8.0,
+          "overlap_mm3": 0.0
+        }
+      ],
+      "changed_pairs_considered": 1720,
+      "pass": true,
+      "scene": "lift_h120",
+      "source_sha256": "3af584a760ad0da72ac6065a8e9e0ca09e7088643f595107f8ebf32e6925445b",
+      "ground_penetrations_mm": {},
+      "envelope_xyz_mm": [
+        402.8569798449181,
+        289.4000000000001,
+        305.796264040551
+      ],
+      "component_count": 116
+    }
+  ],
+  "mount_meta": {
+    "UACNut0": {
+      "material_assumption": "steel_assumed",
+      "mass_kg": 0.0002864739313645026,
+      "volume_mm3": 36.26252295753197
+    },
+    "UACScrew0": {
+      "material_assumption": "steel_assumed",
+      "mass_kg": 0.0004839623482855075,
+      "volume_mm3": 61.26105674500094
+    },
+    "UACNut1": {
+      "material_assumption": "steel_assumed",
+      "mass_kg": 0.0002864739313645026,
+      "volume_mm3": 36.26252295753197
+    },
+    "UACScrew1": {
+      "material_assumption": "steel_assumed",
+      "mass_kg": 0.0004839623482855075,
+      "volume_mm3": 61.26105674500094
+    },
+    "UACNut2": {
+      "material_assumption": "steel_assumed",
+      "mass_kg": 0.0002864739313645026,
+      "volume_mm3": 36.26252295753197
+    },
+    "UACScrew2": {
+      "material_assumption": "steel_assumed",
+      "mass_kg": 0.0004839623482855075,
+      "volume_mm3": 61.26105674500094
+    },
+    "UACNut3": {
+      "material_assumption": "steel_assumed",
+      "mass_kg": 0.0002864739313645026,
+      "volume_mm3": 36.26252295753197
+    },
+    "UACScrew3": {
+      "material_assumption": "steel_assumed",
+      "mass_kg": 0.0004839623482855075,
+      "volume_mm3": 61.26105674500094
+    },
+    "ElectronicsCarrier": {
+      "material_assumption": "PETG_reference",
+      "mass_kg": 0.027089627939169962,
+      "volume_mm3": 21163.771827476532
+    },
+    "UACCassette": {
+      "material_assumption": "PETG_reference",
+      "mass_kg": 0.012189810329992855,
+      "volume_mm3": 9523.289320306918
+    },
+    "InsulationSheet_PROVISIONAL": {
+      "material_assumption": "soft_liner_assumed",
+      "mass_kg": 0.001127,
+      "volume_mm3": 980.0
+    },
+    "ArrayLinerLower": {
+      "material_assumption": "soft_liner_assumed",
+      "mass_kg": 3.6128315516282647e-05,
+      "volume_mm3": 31.415926535897956
+    },
+    "ArrayLinerUpper": {
+      "material_assumption": "soft_liner_assumed",
+      "mass_kg": 3.6128315516282647e-05,
+      "volume_mm3": 31.415926535897952
+    },
+    "ArrayTie_PROVISIONAL": {
+      "material_assumption": "strap_assumed",
+      "mass_kg": 0.00014425599999999948,
+      "volume_mm3": 125.43999999999954
+    },
+    "ArrayCable_PROBE": {
+      "material_assumption": null,
+      "mass_kg": null,
+      "volume_mm3": 2735.687721836942
+    },
+    "RemainingBoardSpace_PROBE": {
+      "material_assumption": null,
+      "mass_kg": null,
+      "volume_mm3": 22540.0
+    }
+  },
+  "path": {
+    "centerline_length_mm": 217.69911184307753,
+    "bend_count": 4,
+    "centerline_radius_mm": 6,
+    "tube_radius_mm": 2,
+    "actual_cable_spec_verified": false
+  },
+  "added_CAD_mass_kg": 0.02096594594396073,
+  "seat_relief_radius_mm": 2.5,
+  "input_sha256": "a985acafbe336e486584bbe05c79b685e0a51f39c987c6edc436fabb269043cb",
+  "baseline_sha256": "2465a2fad53e5463b4c66eb1425ccec40e3e3e33c64d2b63305178ac620ef7e9",
+  "mass_sensitivity": [
+    {
+      "scene": "lift_h114",
+      "extra_board_wire_assumption_kg": 0,
+      "mass_with_CAD_mount_kg": 4.146201444351151,
+      "COM_mm": [
+        -14.552509509514973,
+        0.9337820865565188,
+        126.96543170826408
+      ],
+      "margin_mm": 12.391130348836544
+    },
+    {
+      "scene": "lift_h114",
+      "extra_board_wire_assumption_kg": 0.02,
+      "mass_with_CAD_mount_kg": 4.166201444351151,
+      "COM_mm": [
+        -14.263866266935358,
+        0.9292994320376281,
+        127.1226741692104
+      ],
+      "margin_mm": 12.658286917021735
+    },
+    {
+      "scene": "lift_h114",
+      "extra_board_wire_assumption_kg": 0.04,
+      "mass_with_CAD_mount_kg": 4.186201444351151,
+      "COM_mm": [
+        -13.977981068816014,
+        0.9248596101877186,
+        127.27841414669493
+      ],
+      "margin_mm": 12.922890750258679
+    },
+    {
+      "scene": "lift_h114",
+      "extra_board_wire_assumption_kg": 0.06,
+      "mass_with_CAD_mount_kg": 4.206201444351151,
+      "COM_mm": [
+        -13.69481457261242,
+        0.9204620100136719,
+        127.43267307312145
+      ],
+      "margin_mm": 13.184978262423149
+    },
+    {
+      "scene": "lift_h114.5",
+      "extra_board_wire_assumption_kg": 0,
+      "mass_with_CAD_mount_kg": 4.146201444351151,
+      "COM_mm": [
+        -15.300690290800048,
+        0.9260390718986308,
+        127.2425093983175
+      ],
+      "margin_mm": 11.706257580293254
+    },
+    {
+      "scene": "lift_h114.5",
+      "extra_board_wire_assumption_kg": 0.02,
+      "mass_with_CAD_mount_kg": 4.166201444351151,
+      "COM_mm": [
+        -15.01385952311343,
+        0.9215935880003224,
+        127.40082200583704
+      ],
+      "margin_mm": 11.971733046935752
+    },
+    {
+      "scene": "lift_h114.5",
+      "extra_board_wire_assumption_kg": 0.04,
+      "mass_with_CAD_mount_kg": 4.186201444351151,
+      "COM_mm": [
+        -14.729769481323537,
+        0.9171905815982108,
+        127.55762190442817
+      ],
+      "margin_mm": 12.234671841894661
+    },
+    {
+      "scene": "lift_h114.5",
+      "extra_board_wire_assumption_kg": 0.06,
+      "mass_with_CAD_mount_kg": 4.206201444351151,
+      "COM_mm": [
+        -14.448381069929136,
+        0.9128294467655937,
+        127.7129306723575
+      ],
+      "margin_mm": 12.49511014990887
+    },
+    {
+      "scene": "lift_h115",
+      "extra_board_wire_assumption_kg": 0,
+      "mass_with_CAD_mount_kg": 4.146201444351151,
+      "COM_mm": [
+        -16.080623838961632,
+        0.9214587328905802,
+        127.51424637136955
+      ],
+      "margin_mm": 10.990946062977027
+    },
+    {
+      "scene": "lift_h115",
+      "extra_board_wire_assumption_kg": 0.02,
+      "mass_with_CAD_mount_kg": 4.166201444351151,
+      "COM_mm": [
+        -15.795662292431379,
+        0.9170352370745536,
+        127.6736547637665
+      ],
+      "margin_mm": 11.254694222296665
+    },
+    {
+      "scene": "lift_h115",
+      "extra_board_wire_assumption_kg": 0.04,
+      "mass_with_CAD_mount_kg": 4.186201444351151,
+      "COM_mm": [
+        -15.513423611012305,
+        0.9126540086541582,
+        127.8315399767893
+      ],
+      "margin_mm": 11.515922214702927
+    },
+    {
+      "scene": "lift_h115",
+      "extra_board_wire_assumption_kg": 0.06,
+      "mass_with_CAD_mount_kg": 4.206201444351151,
+      "COM_mm": [
+        -15.233868953981066,
+        0.9083144446997032,
+        127.98792373806181
+      ],
+      "margin_mm": 11.774665989499905
+    },
+    {
+      "scene": "lift_h115.5",
+      "extra_board_wire_assumption_kg": 0,
+      "mass_with_CAD_mount_kg": 4.146201444351151,
+      "COM_mm": [
+        -16.891492384480436,
+        0.9133127473145116,
+        127.78685910385117
+      ],
+      "margin_mm": 10.248593268304342
+    },
+    {
+      "scene": "lift_h115.5",
+      "extra_board_wire_assumption_kg": 0.02,
+      "mass_with_CAD_mount_kg": 4.166201444351151,
+      "COM_mm": [
+        -16.60848257994878,
+        0.9089283565954654,
+        127.94735907701086
+      ],
+      "margin_mm": 10.510531515842
+    },
+    {
+      "scene": "lift_h115.5",
+      "extra_board_wire_assumption_kg": 0.04,
+      "mass_with_CAD_mount_kg": 4.186201444351151,
+      "COM_mm": [
+        -16.328176991239445,
+        0.9045858596149535,
+        128.10632544052183
+      ],
+      "margin_mm": 10.769966890538788
+    },
+    {
+      "scene": "lift_h115.5",
+      "extra_board_wire_assumption_kg": 0.06,
+      "mass_with_CAD_mount_kg": 4.206201444351151,
+      "COM_mm": [
+        -16.05053704365471,
+        0.9002846587733734,
+        128.26378007079214
+      ],
+      "margin_mm": 11.026935095004855
+    },
+    {
+      "scene": "lift_h116",
+      "extra_board_wire_assumption_kg": 0,
+      "mass_with_CAD_mount_kg": 4.146201444351151,
+      "COM_mm": [
+        -17.74082751855439,
+        0.9083045295560944,
+        128.05367797135744
+      ],
+      "margin_mm": 9.469638472857543
+    },
+    {
+      "scene": "lift_h116",
+      "extra_board_wire_assumption_kg": 0.02,
+      "mass_with_CAD_mount_kg": 4.166201444351151,
+      "COM_mm": [
+        -17.459841933202554,
+        0.9039441809666732,
+        128.21529733893726
+      ],
+      "margin_mm": 9.729706091972961
+    },
+    {
+      "scene": "lift_h116",
+      "extra_board_wire_assumption_kg": 0.04,
+      "mass_with_CAD_mount_kg": 4.186201444351151,
+      "COM_mm": [
+        -17.181541221850093,
+        0.8996254963883833,
+        128.37537240082867
+      ],
+      "margin_mm": 9.98728871247976
+    },
+    {
+      "scene": "lift_h116",
+      "extra_board_wire_assumption_kg": 0.06,
+      "mass_with_CAD_mount_kg": 4.206201444351151,
+      "COM_mm": [
+        -16.90588708570364,
+        0.8953478814986041,
+        128.53392518601495
+      ],
+      "margin_mm": 10.2424217820184
+    },
+    {
+      "scene": "lift_h116.5",
+      "extra_board_wire_assumption_kg": 0,
+      "mass_with_CAD_mount_kg": 4.146201444351151,
+      "COM_mm": [
+        -18.629448144300422,
+        0.8997456813908812,
+        128.32038276931797
+      ],
+      "margin_mm": 8.655958605858043
+    },
+    {
+      "scene": "lift_h116.5",
+      "extra_board_wire_assumption_kg": 0.02,
+      "mass_with_CAD_mount_kg": 4.166201444351151,
+      "COM_mm": [
+        -18.35058696927129,
+        0.8954264198601609,
+        128.48312207891286
+      ],
+      "margin_mm": 8.91405677341923
+    },
+    {
+      "scene": "lift_h116.5",
+      "extra_board_wire_assumption_kg": 0.04,
+      "mass_with_CAD_mount_kg": 4.186201444351151,
+      "COM_mm": [
+        -18.074390369071974,
+        0.8911484297454306,
+        128.64430638154727
+      ],
+      "margin_mm": 9.169688760879033
+    },
+    {
+      "scene": "lift_h116.5",
+      "extra_board_wire_assumption_kg": 0.06,
+      "mass_with_CAD_mount_kg": 4.206201444351151,
+      "COM_mm": [
+        -17.8008203344697,
+        0.8869111223243027,
+        128.80395785885443
+      ],
+      "margin_mm": 9.422889747438461
+    },
+    {
+      "scene": "lift_h117",
+      "extra_board_wire_assumption_kg": 0,
+      "mass_with_CAD_mount_kg": 4.146201444351151,
+      "COM_mm": [
+        -19.56637322969597,
+        0.8940913301042844,
+        128.58071334844055
+      ],
+      "margin_mm": 7.796722996620552
+    },
+    {
+      "scene": "lift_h117",
+      "extra_board_wire_assumption_kg": 0.02,
+      "mass_with_CAD_mount_kg": 4.166201444351151,
+      "COM_mm": [
+        -19.289732341681777,
+        0.8897992124904492,
+        128.74460319971746
+      ],
+      "margin_mm": 8.052769040914349
+    },
+    {
+      "scene": "lift_h117",
+      "extra_board_wire_assumption_kg": 0.04,
+      "mass_with_CAD_mount_kg": 4.186201444351151,
+      "COM_mm": [
+        -19.01573481320669,
+        0.8855481069269978,
+        128.90692705037586
+      ],
+      "margin_mm": 8.306368513558915
+    },
+    {
+      "scene": "lift_h117",
+      "extra_board_wire_assumption_kg": 0.06,
+      "mass_with_CAD_mount_kg": 4.206201444351151,
+      "COM_mm": [
+        -18.74434293766669,
+        0.8813374283913027,
+        129.06770723886967
+      ],
+      "margin_mm": 8.557556314047488
+    },
+    {
+      "scene": "lift_h117.5",
+      "extra_board_wire_assumption_kg": 0,
+      "mass_with_CAD_mount_kg": 4.146201444351151,
+      "COM_mm": [
+        -20.555424175149668,
+        0.8852447163105672,
+        128.8391984281744
+      ],
+      "margin_mm": 6.89081528633341
+    },
+    {
+      "scene": "lift_h117.5",
+      "extra_board_wire_assumption_kg": 0.02,
+      "mass_with_CAD_mount_kg": 4.166201444351151,
+      "COM_mm": [
+        -20.281130062651645,
+        0.880995067184691,
+        129.00424768051963
+      ],
+      "margin_mm": 7.144686881477245
+    },
+    {
+      "scene": "lift_h117.5",
+      "extra_board_wire_assumption_kg": 0.04,
+      "mass_with_CAD_mount_kg": 4.186201444351151,
+      "COM_mm": [
+        -20.009456885778857,
+        0.8767860243142218,
+        129.167719853935
+      ],
+      "margin_mm": 7.396132682272501
+    },
+    {
+      "scene": "lift_h117.5",
+      "extra_board_wire_assumption_kg": 0.06,
+      "mass_with_CAD_mount_kg": 4.206201444351151,
+      "COM_mm": [
+        -19.740367257796603,
+        0.872617008465056,
+        129.32963744490277
+      ],
+      "margin_mm": 7.645187291831462
+    },
+    {
+      "scene": "lift_h118",
+      "extra_board_wire_assumption_kg": 0,
+      "mass_with_CAD_mount_kg": 4.146201444351151,
+      "COM_mm": [
+        -21.608234007430504,
+        0.87847350260295,
+        129.09059732522647
+      ],
+      "margin_mm": 5.9254682093297895
+    },
+    {
+      "scene": "lift_h118",
+      "extra_board_wire_assumption_kg": 0.02,
+      "mass_with_CAD_mount_kg": 4.166201444351151,
+      "COM_mm": [
+        -21.336420249493198,
+        0.8742563589322134,
+        129.25683999611502
+      ],
+      "margin_mm": 6.177046453081477
+    },
+    {
+      "scene": "lift_h118",
+      "extra_board_wire_assumption_kg": 0.04,
+      "mass_with_CAD_mount_kg": 4.186201444351151,
+      "COM_mm": [
+        -21.067203726892515,
+        0.8700795109206972,
+        129.4214941847186
+      ],
+      "margin_mm": 6.426220815920164
+    },
+    {
+      "scene": "lift_h118",
+      "extra_board_wire_assumption_kg": 0.06,
+      "mass_with_CAD_mount_kg": 4.206201444351151,
+      "COM_mm": [
+        -20.800547390970124,
+        0.8659423837648441,
+        129.58458255018434
+      ],
+      "margin_mm": 6.673025588370599
+    },
+    {
+      "scene": "lift_h118.5",
+      "extra_board_wire_assumption_kg": 0,
+      "mass_with_CAD_mount_kg": 4.146201444351151,
+      "COM_mm": [
+        -22.73476629219853,
+        0.8698230211230426,
+        129.33686182408096
+      ],
+      "margin_mm": 4.8930757039231985
+    },
+    {
+      "scene": "lift_h118.5",
+      "extra_board_wire_assumption_kg": 0.02,
+      "mass_with_CAD_mount_kg": 4.166201444351151,
+      "COM_mm": [
+        -22.465601897246543,
+        0.8656474044000326,
+        129.50432256137623
+      ],
+      "margin_mm": 5.1422016536798125
+    },
+    {
+      "scene": "lift_h118.5",
+      "extra_board_wire_assumption_kg": 0.04,
+      "mass_with_CAD_mount_kg": 4.186201444351151,
+      "COM_mm": [
+        -22.19900942243294,
+        0.8615116865378731,
+        129.67018317751607
+      ],
+      "margin_mm": 5.388947154687671
+    },
+    {
+      "scene": "lift_h118.5",
+      "extra_board_wire_assumption_kg": 0.06,
+      "mass_with_CAD_mount_kg": 4.206201444351151,
+      "COM_mm": [
+        -21.934952180211894,
+        0.8574152983931976,
+        129.83446649767205
+      ],
+      "margin_mm": 5.633346163219855
+    },
+    {
+      "scene": "lift_h119",
+      "extra_board_wire_assumption_kg": 0,
+      "mass_with_CAD_mount_kg": 4.146201444351151,
+      "COM_mm": [
+        -23.95210407373829,
+        0.8608460769533535,
+        129.57508017663545
+      ],
+      "margin_mm": 3.777320146436441
+    },
+    {
+      "scene": "lift_h119",
+      "extra_board_wire_assumption_kg": 0.02,
+      "mass_with_CAD_mount_kg": 4.166201444351151,
+      "COM_mm": [
+        -23.685790246748798,
+        0.8567135543739639,
+        129.74379760615236
+      ],
+      "margin_mm": 4.023808187390436
+    },
+    {
+      "scene": "lift_h119",
+      "extra_board_wire_assumption_kg": 0.04,
+      "mass_with_CAD_mount_kg": 4.186201444351151,
+      "COM_mm": [
+        -23.422021102145273,
+        0.8526205188821815,
+        129.91090290656595
+      ],
+      "margin_mm": 4.267940985346879
+    },
+    {
+      "scene": "lift_h119",
+      "extra_board_wire_assumption_kg": 0.06,
+      "mass_with_CAD_mount_kg": 4.206201444351151,
+      "COM_mm": [
+        -23.160760340918948,
+        0.8485664072084422,
+        130.07641907433697
+      ],
+      "margin_mm": 4.509752137027586
+    },
+    {
+      "scene": "lift_h119.5",
+      "extra_board_wire_assumption_kg": 0,
+      "mass_with_CAD_mount_kg": 4.146201444351151,
+      "COM_mm": [
+        -25.284820887254195,
+        0.8542120899860746,
+        129.80115873463456
+      ],
+      "margin_mm": 2.554557704346287
+    },
+    {
+      "scene": "lift_h119.5",
+      "extra_board_wire_assumption_kg": 0.02,
+      "mass_with_CAD_mount_kg": 4.166201444351151,
+      "COM_mm": [
+        -25.02160506695386,
+        0.850111414099918,
+        129.97119113389383
+      ],
+      "margin_mm": 2.7981847506227915
+    },
+    {
+      "scene": "lift_h119.5",
+      "extra_board_wire_assumption_kg": 0.04,
+      "mass_with_CAD_mount_kg": 4.186201444351151,
+      "COM_mm": [
+        -24.76090432696009,
+        0.846049920999785,
+        130.13959883924844
+      ],
+      "margin_mm": 3.039483891283531
+    },
+    {
+      "scene": "lift_h119.5",
+      "extra_board_wire_assumption_kg": 0.06,
+      "mass_with_CAD_mount_kg": 4.206201444351151,
+      "COM_mm": [
+        -24.50268279052747,
+        0.8420270517568677,
+        130.30640502639156
+      ],
+      "margin_mm": 3.2784883330920813
+    },
+    {
+      "scene": "lift_h120",
+      "extra_board_wire_assumption_kg": 0,
+      "mass_with_CAD_mount_kg": 4.146201444351151,
+      "COM_mm": [
+        -26.76487195931936,
+        0.8398903195447966,
+        130.01747254459642
+      ],
+      "margin_mm": 1.1993511165781925
+    },
+    {
+      "scene": "lift_h120",
+      "extra_board_wire_assumption_kg": 0.02,
+      "mass_with_CAD_mount_kg": 4.166201444351151,
+      "COM_mm": [
+        -26.505099856786128,
+        0.8358583958331693,
+        130.18886678962252
+      ],
+      "margin_mm": 1.4397847917698492
+    },
+    {
+      "scene": "lift_h120",
+      "extra_board_wire_assumption_kg": 0.04,
+      "mass_with_CAD_mount_kg": 4.186201444351151,
+      "COM_mm": [
+        -26.247809929140903,
+        0.8318649979666568,
+        130.3586233280327
+      ],
+      "margin_mm": 1.6779210746512057
+    },
+    {
+      "scene": "lift_h120",
+      "extra_board_wire_assumption_kg": 0.06,
+      "mass_with_CAD_mount_kg": 4.206201444351151,
+      "COM_mm": [
+        -25.99296676902263,
+        0.8279095763874843,
+        130.52676552114195
+      ],
+      "margin_mm": 1.9137927367241367
+    },
+    {
+      "scene": "stand",
+      "extra_board_wire_assumption_kg": 0,
+      "mass_with_CAD_mount_kg": 4.146201444351151,
+      "COM_mm": [
+        7.874327141576728,
+        0.012319062828191842,
+        194.01072303215815
+      ],
+      "margin_mm": 42.12567285842327
+    },
+    {
+      "scene": "stand",
+      "extra_board_wire_assumption_kg": 0.02,
+      "mass_with_CAD_mount_kg": 4.166201444351151,
+      "COM_mm": [
+        8.077753084486329,
+        0.012259924723648698,
+        194.54480509226062
+      ],
+      "margin_mm": 41.92224691551367
+    },
+    {
+      "scene": "stand",
+      "extra_board_wire_assumption_kg": 0.04,
+      "mass_with_CAD_mount_kg": 4.186201444351151,
+      "COM_mm": [
+        8.279235251439475,
+        0.01220135169563452,
+        195.07378389044692
+      ],
+      "margin_mm": 41.720764748560526
+    },
+    {
+      "scene": "stand",
+      "extra_board_wire_assumption_kg": 0.06,
+      "mass_with_CAD_mount_kg": 4.206201444351151,
+      "COM_mm": [
+        8.478801369723833,
+        0.012143335683529247,
+        195.59773222297264
+      ],
+      "margin_mm": 41.52119863027617
+    }
+  ],
+  "actual_board_fit_verified": false,
+  "preload_verified": false,
+  "CAE_verified": false,
+  "manufacturing_release": false
+}

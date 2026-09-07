@@ -1,6 +1,18 @@
 # roboCreator 持续协作规则
 
-新终端首先完整读取根目录 `RESUME.md`，再读 `project_state.md` 和最新阶段产物。当前因Sipeed麦克风尚未到货按用户要求暂停，恢复条件和顺序见 `deliverables/pause_record_v23.md`；不得在到货前自行继续未授权的设计推进。
+最新v28优先：读`deliverables/neck_review_v28.md`与最新状态。明确yaw→pitch→头甲/相机链和厂家X330参考几何，但承力支架/转子安装相位未完成。裸几何17/27通过，中央0–50°11采样通过；两条线缆方案失败，不能作为安全路径。粗B-spline包围盒439mm不代表真实高度，精查顶部占位峰值401.036mm；必须区分二者。用户本轮授权git add/commit/push全部当前进度，完成与否以实际回执为准。
+
+最新研究v27：读`deliverables/camera_review_v27.md`。D436优先候选/Gemini335紧凑备选，未冻结/采购；48壳体预筛、名义视锥与质量情景不是实物/双目有效ROI/颈部运动验证。下一步真实两轴颈—头甲—相机—线缆联动，尤其不能由0°/45°端点通过忽略30°干涉。D436低分辨率MinZ有推断、质量未知，M4兼容未实测；不能默认新增采集PC或让未选板卡承担USB3采集。完整整机基线仍v26，v27候选CAD不替代它。
+
+最新v26优先：`deliverables/step_repair_review_v26.md`及`09_cad/step_repair_v26/repaired/`是当前整机FCStd/STEP入口。已仅重建两根原尺寸RollRod，4套完整STEP回读及8杆BOP通过，旧v25失败文件保留。不能把交换格式门通过当CAE/制造/真实动作通过。上游CAD再生成后须执行`09_cad/repair_step_v26.py`及对应检查；相机综合选型/真实UAC接口等原要求不变。
+
+最新阶段优先v25：读`deliverables/uac_mount_review_v25.md`与`project_state.md`顶部。当前`09_cad/uac_mount_v25_service/`有可拆托盘/改托架/绑带软衬参考实体；4姿态及离散工具/拆卸检查不等于实物固定、预紧、CAE或制造通过。真实PCB尺寸仍未知；净增19.998g是CAD×假设密度，不是实测。用户新增要求：相机选型必须联合FOV、任务、机械/头甲/颈部、接口/算力与双平台，遵守`08_electrical/camera_selection_requirements.md`，现有相机包络不能视为定型。无需插USB；不安装/刷写。
+
+v25导出门：原生FCStd/新安装件独立STEP与整机STEP分开检查；整机STEP回读发现继承旧版的拓扑错误，按汇总检查明确标记失败，不能制造放行。不得删改旧STEP来掩盖问题。
+
+最新机械阶段v24：先读`deliverables/uac_packaging_review_v24.md`。胸前板卡及上方绕线仅是4姿态的空间预留研究，未知实物尺寸/孔位/质量不能被预留值替代；109对象包含8个空间探针，不是增加8个实际零件。用户同意驱动板可拔掉、不接主机继续机械，无需再要求插板。下一步实际接口资料/可拆支架/真实线束与支撑研究；不得刷固件或把几何通过写成制造通过。
+
+新终端首先完整读取根目录 `RESUME.md`，再读 `project_state.md` 和最新阶段产物。MA-USB8已单板连接USB，阵列未接；COM7正常、音频Code10的描述符诊断已保存。用户没有尺子，尺寸仍待核实，不重复询问到货、型号、照片或要求再次插USB。当前未改动固件/驱动，兼容修复方案须先核对硬件适配和用户授权。历史暂停记录见 `deliverables/pause_record_v23.md`。
 
 原型阶段最新优先级：用户要求暂不推进PLM/MES，待原型完成后提供完整方案。当前集中机械/电气原型及CAD/CAE；基本设计记录、版本与检查点照常保存。已有PLM/MES材料仅作后续参考，不追加为本阶段交付门槛。
 

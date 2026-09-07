@@ -1,0 +1,23 @@
+{
+  "id": "20260907_231810_388185_v0.24-space-study",
+  "stage": "v0.24-space-study",
+  "verified": true,
+  "file_count": 974,
+  "source_bytes": 2187715427,
+  "archive_bytes": 782652586,
+  "archive_sha256": "aab68fed5bf787b8440c0fc1acfd6eba1b99c07dda06ba23f4d5bd8f35f9add0",
+  "archive": "checkpoints\\20260907_231810_388185_v0.24-space-study\\project.zip",
+  "passed_checks": [
+    "Four-pose bay and upper-route reservation clearance; source hashes and negative tests",
+    "Retained lower-route failures",
+    "Eight native CAD files reopen; retained volume/area/solid-count/bounds match; STEP exports exist",
+    "56 conditional mass and COM arithmetic cases"
+  ],
+  "pending": [
+    "Actual PCB dimensions/holes/mass and mounting design",
+    "Actual array revision, sockets, wires, bend radius, signal integrity and strain relief",
+    "Only four geometries checked; no new 13-pose or continuous swept-volume claim",
+    "High recovery margin remains small; full task, CAE and final Wukong appearance unvalidated",
+    "Windows UAC error remains; no device operations/firmware/software changes"
+  ]
+}

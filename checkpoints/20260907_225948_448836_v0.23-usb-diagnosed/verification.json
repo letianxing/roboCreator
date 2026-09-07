@@ -1,0 +1,20 @@
+{
+  "id": "20260907_225948_448836_v0.23-usb-diagnosed",
+  "stage": "v0.23-usb-diagnosed",
+  "verified": true,
+  "file_count": 942,
+  "source_bytes": 1990870924,
+  "archive_bytes": 717234592,
+  "archive_sha256": "4b18536c58e4d0cacc4c1e1fecf2d787f980d25c3ec025021ba1345339e283ad",
+  "archive": "checkpoints\\20260907_225948_448836_v0.23-usb-diagnosed\\project.zip",
+  "passed_checks": [
+    "Driver-board-only condition recorded; composite device and COM7 enumerated normally",
+    "Device and337-byte configuration descriptors read without configuration writes; raw bytes and decoded endpoints retained"
+  ],
+  "pending": [
+    "Manufacturer-compatible explicit-feedback or other supported Windows audio firmware/interface option",
+    "Confirm actual array revision and wiring before audio/DOA testing",
+    "Do not infer firmware version from USB serial string or treat USB enumeration as recording success",
+    "Mechanical dimensions/UAC integration and existing robot engineering checks remain pending"
+  ]
+}

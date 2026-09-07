@@ -1,0 +1,24 @@
+{
+  "id": "20260907_215534_910412_v0.23-integrated",
+  "stage": "v0.23-integrated",
+  "verified": true,
+  "file_count": 922,
+  "source_bytes": 1990115230,
+  "archive_bytes": 716578239,
+  "archive_sha256": "576d91393762f567d9fe47c6713ea31fad4d2fe92842d9842b961f4e71a87382",
+  "archive": "checkpoints\\20260907_215534_910412_v0.23-integrated\\project.zip",
+  "passed_checks": [
+    "Original failed assemblies retained and two revised evidence chains checked",
+    "13 reference local poses and standing: changed-pair geometry,ground and vertical balance",
+    "101 CAD objects,28 drives,mass replacement and four saved valid CAD/STEP assemblies",
+    "Nominal seat/support contacts and limited cable/thigh/reference-microphone clearances measured",
+    "Arrival photos and manufacturer PDF files archived with verified hashes"
+  ],
+  "pending": [
+    "UAC bare-board identity,dimensions,connectors and mass; match actual array to drawings",
+    "Include UAC and actual FPC/USB wiring; revise mounting using measured interfaces",
+    "Resolve small clearances and high-end support margin before release",
+    "Thread/preload,material/thermal/impact and structural CAE",
+    "Full recovery and dressed Wukong validation; PLM/MES deferred"
+  ]
+}

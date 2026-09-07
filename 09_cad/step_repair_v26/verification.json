@@ -1,0 +1,269 @@
+{
+  "stage": "v0.26-STEP-repair",
+  "checks": [
+    {
+      "name": "Four repaired native assemblies and full STEP files fresh-loaded with valid solids",
+      "status": "passed",
+      "evidence": [
+        "09_cad\\step_repair_v26\\repaired\\stand.FCStd",
+        "09_cad\\step_repair_v26\\repaired\\stand.step",
+        "09_cad\\step_repair_v26\\repaired\\lift_h114.FCStd",
+        "09_cad\\step_repair_v26\\repaired\\lift_h114.step",
+        "09_cad\\step_repair_v26\\repaired\\lift_h117.FCStd",
+        "09_cad\\step_repair_v26\\repaired\\lift_h117.step",
+        "09_cad\\step_repair_v26\\repaired\\lift_h120.FCStd",
+        "09_cad\\step_repair_v26\\repaired\\lift_h120.step"
+      ]
+    },
+    {
+      "name": "Eight rods preserve eye centers/axes/widths; bounded shape and mass/COM changes",
+      "status": "passed",
+      "evidence": [
+        "09_cad/step_repair_v26/repair_results.json"
+      ]
+    },
+    {
+      "name": "116 unrelated objects per scene verified; original native/STEP source hashes unchanged",
+      "status": "passed",
+      "evidence": [
+        "09_cad/step_repair_v26/repair_results.json"
+      ]
+    },
+    {
+      "name": "Rebuilt rods detailed BOP checks",
+      "status": "passed",
+      "evidence": [
+        "09_cad/step_repair_v26/verification.json"
+      ]
+    },
+    {
+      "name": "Physical fits, material strength/CAE, full recovery and manufacturing approval",
+      "status": "not_run",
+      "evidence": [
+        "03_system/step_repair_v26.json"
+      ]
+    }
+  ],
+  "fresh_load_results": [
+    {
+      "scene": "stand",
+      "STEP_valid": true,
+      "STEP_solids": 362,
+      "interfaces": [
+        {
+          "object": "L_RollRod",
+          "eyes": [
+            {
+              "world_eye_center_error_mm": 2.428351918216984e-13,
+              "axis_dot_error": 2.220446049250313e-16
+            },
+            {
+              "world_eye_center_error_mm": 1.9958537088183645e-13,
+              "axis_dot_error": 2.220446049250313e-16
+            }
+          ],
+          "native_BOP_check": {
+            "return": "None",
+            "error": null
+          }
+        },
+        {
+          "object": "R_RollRod",
+          "eyes": [
+            {
+              "world_eye_center_error_mm": 2.457286493863447e-13,
+              "axis_dot_error": 2.220446049250313e-16
+            },
+            {
+              "world_eye_center_error_mm": 1.8866214258184404e-13,
+              "axis_dot_error": 2.220446049250313e-16
+            }
+          ],
+          "native_BOP_check": {
+            "return": "None",
+            "error": null
+          }
+        }
+      ],
+      "modeled_mass_kg_after": 4.145233340327384,
+      "modeled_mass_delta_kg": 2.5922671120781615e-08,
+      "modeled_COM_mm_after": [
+        7.865655623924348,
+        0.012321939106209845,
+        193.98473841606318
+      ],
+      "modeled_COM_shift_mm": 8.521213442235435e-07
+    },
+    {
+      "scene": "lift_h114",
+      "STEP_valid": true,
+      "STEP_solids": 362,
+      "interfaces": [
+        {
+          "object": "R_RollRod",
+          "eyes": [
+            {
+              "world_eye_center_error_mm": 6.665481691674458e-14,
+              "axis_dot_error": 2.220446049250313e-16
+            },
+            {
+              "world_eye_center_error_mm": 4.263256414560601e-14,
+              "axis_dot_error": 2.220446049250313e-16
+            }
+          ],
+          "native_BOP_check": {
+            "return": "None",
+            "error": null
+          }
+        },
+        {
+          "object": "L_RollRod",
+          "eyes": [
+            {
+              "world_eye_center_error_mm": 2.5776155819154743e-13,
+              "axis_dot_error": 2.220446049250313e-16
+            },
+            {
+              "world_eye_center_error_mm": 1.9171491151200885e-13,
+              "axis_dot_error": 2.220446049250313e-16
+            }
+          ],
+          "native_BOP_check": {
+            "return": "None",
+            "error": null
+          }
+        }
+      ],
+      "modeled_mass_kg_after": 4.1452333403274055,
+      "modeled_mass_delta_kg": 2.5922692437063688e-08,
+      "modeled_COM_mm_after": [
+        -14.565548907091761,
+        0.9340001671398819,
+        126.95707850359845
+      ],
+      "modeled_COM_shift_mm": 4.4468088359511874e-07
+    },
+    {
+      "scene": "lift_h117",
+      "STEP_valid": true,
+      "STEP_solids": 362,
+      "interfaces": [
+        {
+          "object": "R_RollRod",
+          "eyes": [
+            {
+              "world_eye_center_error_mm": 6.665481691674458e-14,
+              "axis_dot_error": 2.220446049250313e-16
+            },
+            {
+              "world_eye_center_error_mm": 4.263256414560601e-14,
+              "axis_dot_error": 2.220446049250313e-16
+            }
+          ],
+          "native_BOP_check": {
+            "return": "None",
+            "error": null
+          }
+        },
+        {
+          "object": "L_RollRod",
+          "eyes": [
+            {
+              "world_eye_center_error_mm": 9.099386826154683e-14,
+              "axis_dot_error": 0.0
+            },
+            {
+              "world_eye_center_error_mm": 6.355287432313019e-14,
+              "axis_dot_error": 0.0
+            }
+          ],
+          "native_BOP_check": {
+            "return": "None",
+            "error": null
+          }
+        }
+      ],
+      "modeled_mass_kg_after": 4.145233340327303,
+      "modeled_mass_delta_kg": 2.5922590296545422e-08,
+      "modeled_COM_mm_after": [
+        -19.578828677317578,
+        0.8943001410555085,
+        128.5720367388572
+      ],
+      "modeled_COM_shift_mm": 4.4174585024178167e-07
+    },
+    {
+      "scene": "lift_h120",
+      "STEP_valid": true,
+      "STEP_solids": 362,
+      "interfaces": [
+        {
+          "object": "R_RollRod",
+          "eyes": [
+            {
+              "world_eye_center_error_mm": 6.665481691674458e-14,
+              "axis_dot_error": 2.220446049250313e-16
+            },
+            {
+              "world_eye_center_error_mm": 4.263256414560601e-14,
+              "axis_dot_error": 2.220446049250313e-16
+            }
+          ],
+          "native_BOP_check": {
+            "return": "None",
+            "error": null
+          }
+        },
+        {
+          "object": "L_RollRod",
+          "eyes": [
+            {
+              "world_eye_center_error_mm": 1.180442248897588e-13,
+              "axis_dot_error": 4.440892098500626e-16
+            },
+            {
+              "world_eye_center_error_mm": 9.099386826154683e-14,
+              "axis_dot_error": 4.440892098500626e-16
+            }
+          ],
+          "native_BOP_check": {
+            "return": "None",
+            "error": null
+          }
+        }
+      ],
+      "modeled_mass_kg_after": 4.145233340327436,
+      "modeled_mass_delta_kg": 2.5922722635129958e-08,
+      "modeled_COM_mm_after": [
+        -26.776506692769633,
+        0.84008647205133,
+        130.00843084002466
+      ],
+      "modeled_COM_shift_mm": 4.3475150384533957e-07
+    }
+  ],
+  "artifacts_sha256": {
+    "09_cad\\step_repair_v26\\repaired\\stand.FCStd": "235081a80cd6c1b5ac915b6319fc66a557fe088372acc216afef05cf7ea905a7",
+    "09_cad\\step_repair_v26\\repaired\\stand.step": "759ce78e14fa65032dad08e4791240ece6eb7052bf69f8b80d390ac7d89d0134",
+    "09_cad\\step_repair_v26\\repaired\\lift_h114.FCStd": "15efa2f5011c6f22efc26ff8b0223e1f9a7d0d06b15cbb835dbd44da5b0ae4e8",
+    "09_cad\\step_repair_v26\\repaired\\lift_h114.step": "5e11b97b38d1b35b3d0d24f3871def65e07d9ee0416490b35d4eeb9484f5d368",
+    "09_cad\\step_repair_v26\\repaired\\lift_h117.FCStd": "95754f40076deba8e0c408fcea02382c1e03c6567b9fcaa45ea2d9dbd82c26ab",
+    "09_cad\\step_repair_v26\\repaired\\lift_h117.step": "79ec55cf29f347769c155f16ce8a154674f988eba4531ec2955cbdac93ce91af",
+    "09_cad\\step_repair_v26\\repaired\\lift_h120.FCStd": "976102f6d6872b8956adc6d53ff29826ef905333ea0f67220a7dd613f9be2f84",
+    "09_cad\\step_repair_v26\\repaired\\lift_h120.step": "9ae48c7ad4e5de6fac436ecc894c5ab9683d704f770603fec0e60f02d60919d3"
+  },
+  "source_sha256": {
+    "03_system/step_repair_v26.json": "461594aa3d430a105b41c0f604f2234747e473e25670a6c4ab1bbf412c47e50a",
+    "09_cad/diagnose_step_v26.py": "16a72a96b0694e739249afec6fa81802cd3659765200e9d24b189dd8339c6dd6",
+    "09_cad/rebuild_rollrod_v26.py": "422cbc26497ebb7b029eb40a41ffa83dd21fa226971d2b38d9e4b8eb8b54b26b",
+    "09_cad/repair_step_v26.py": "1d63760d392315fbe7804d87cb75ed9eb95f6c0f73f4026f3450ec56da746d9b",
+    "11_verification/check_step_repair_v26.py": "9cad3f0d9ee6843985d4776672746bbb92371dfe0307f93d76019f6ebaa34c1d"
+  },
+  "pending": [
+    "STEP exchange success is not CAE or manufacturing approval",
+    "Future CAD regeneration must rerun this postprocessor and gates; legacy exports remain preserved and invalid",
+    "Actual UAC board dimensions/holes/wiring, USB strain relief and mechanical verification still missing",
+    "Camera FOV/task/appearance/host-platform selection remains unfrozen",
+    "Full recovery stability, final Wukong appearance and Windows audio compatibility remain unresolved"
+  ]
+}

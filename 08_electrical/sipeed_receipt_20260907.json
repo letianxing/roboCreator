@@ -1,0 +1,17 @@
+{
+  "date":"2026-09-07",
+  "user_reported_arrived":true,
+  "array_photo":{"file":"00_inputs/sensors/sipeed_arrival_20260907/array_front.jpg","sha256":"0219346df266b9c72a293b5b61568edaa4f9dd94c7e3e9e5ff4f1f3cf2940bdb","visible_label":"SIPEED Mic Array 6+1","measured_dimensions_mm":null},
+  "driver_package_photo":{"file":"00_inputs/sensors/sipeed_arrival_20260907/uac_driver_package.jpg","sha256":"df06cf4fbac218b37ad1070f2d5644b2dfe2a9078b552d3c9e717179f503dd7e","visible_label":"MaixAudio R6+1 Mic Array UAC Driver","printed_documentation_link":"wiki.sipeed.com/mausb8","candidate_family":"MA-USB8","bare_pcb_revision_confirmed":false,"measured_dimensions_mm":null},
+  "manufacturer_reference":{"wiki_envelope_mm":[78.1,88.8],"old_dimension_drawing_mm":[77.93,88.86],"old_drawing_hole_grid_mm":[40,40],"old_drawing_hole_radius_mm":1.6,"old_pdf_conflicting_table_mm":[53.3,25.4,13.0],"applies_to_received_revision":null,"note":"Old drawing has a six-corner outline; photo and drawing revision match is unconfirmed. Do not use these hole values as measurements of the received hardware."},
+  "sources":["https://wiki.sipeed.com/hardware/zh/modules/micarray.html","https://wiki.sipeed.com/hardware/zh/modules/micarray_usbboard_bl616.html"],
+  "downloaded_pdf":[{"file":"00_inputs/sensors/sipeed_arrival_20260907/vendor_spec_v1.pdf","sha256":"d9ff6916a17c711225108b4cc516fe47d92a7f85f125125239cfd506b88f7706"},{"file":"00_inputs/sensors/sipeed_arrival_20260907/vendor_assembly.pdf","sha256":"cfcf81ed720ecce6721a8aa4946ab2bad443059643aba04a7711becb0e927527"}],
+  "host_read_only_observation":{"method":"Get-PnpDevice -PresentOnly filtered for MicArray,MA-USB8 or VID_359F&PID_3400","matching_devices":[],"interpretation":"No matching connected device observed at check time; not evidence of device failure"},
+  "uac_board_in_current_cad":false,
+  "latest_connection_record":"08_electrical/mausb8_connection_result.json",
+  "bare_driver_board_identification":{"model_confirmed":true,"model":"Maix-Audio MA-USB8","record":"08_electrical/mausb8_board_identification.json","mechanical_dimensions_verified":false},
+  "firmware_flashed":false,
+  "audio_recorded":false,
+  "new_software_installed":false,
+  "next_required":"USB-only check now finds COM7 but audio Code10; see latest_connection_record. Array not connected. Review compatible audio interface/firmware and obtain mechanical dimensions before release. User has no ruler."
+}

@@ -1,0 +1,64 @@
+{
+  "stage": "v0.23-integrated",
+  "checks": [
+    {
+      "name": "Original failed assemblies retained and two revised evidence chains checked",
+      "status": "passed",
+      "evidence": [
+        "09_cad/body_v23_integration/integration.json",
+        "09_cad/body_v23_revision/integration.json",
+        "09_cad/body_v23_fit/integration.json"
+      ]
+    },
+    {
+      "name": "13 reference local poses and standing: changed-pair geometry,ground and vertical balance",
+      "status": "passed",
+      "evidence": [
+        "09_cad/body_v23_fit/integration.json"
+      ]
+    },
+    {
+      "name": "101 CAD objects,28 drives,mass replacement and four saved valid CAD/STEP assemblies",
+      "status": "passed",
+      "evidence": [
+        "07_mechanics/carrier_interfaces_v23.json",
+        "09_cad/body_v23_fit/integration.json"
+      ]
+    },
+    {
+      "name": "Nominal seat/support contacts and limited cable/thigh/reference-microphone clearances measured",
+      "status": "passed",
+      "evidence": [
+        "07_mechanics/carrier_interfaces_v23.json"
+      ]
+    },
+    {
+      "name": "Arrival photos and manufacturer PDF files archived with verified hashes",
+      "status": "passed",
+      "evidence": [
+        "08_electrical/sipeed_receipt_20260907.json"
+      ]
+    },
+    {
+      "name": "Actual UAC board installation and measured array interfaces",
+      "status": "not_run",
+      "evidence": [
+        "08_electrical/sipeed_arrival_review.md"
+      ]
+    },
+    {
+      "name": "Manufacturing,tolerance/preload/strength,full recovery,dynamics and final Wukong appearance",
+      "status": "not_run",
+      "evidence": [
+        "deliverables/carrier_review_v23.md"
+      ]
+    }
+  ],
+  "pending": [
+    "UAC bare-board identity,dimensions,connectors and mass; match actual array to drawings",
+    "Include UAC and actual FPC/USB wiring; revise mounting using measured interfaces",
+    "Resolve small clearances and high-end support margin before release",
+    "Thread/preload,material/thermal/impact and structural CAE",
+    "Full recovery and dressed Wukong validation; PLM/MES deferred"
+  ]
+}

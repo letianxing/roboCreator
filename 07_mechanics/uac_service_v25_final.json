@@ -1,0 +1,714 @@
+{
+  "completed": true,
+  "integration_sha256": "a72ce6a48be1a5e4a1ddc74fdf61e13d54fe8a79504c046bcb36c371cb762f00",
+  "tool_access": [
+    {
+      "screw": 0,
+      "shaft_diameter_mm": 4,
+      "insertion_axis_world": [
+        1,
+        0,
+        0
+      ],
+      "failed_pairs": [],
+      "near_pairs": [
+        {
+          "a": "UACCassette",
+          "b": "ToolProbe",
+          "distance_mm": 0.49999999999998784,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        },
+        {
+          "a": "RemainingBoardSpace_PROBE",
+          "b": "ToolProbe",
+          "distance_mm": 2.0,
+          "overlap_mm3": 0,
+          "intentional_reservation_union": false
+        }
+      ],
+      "changed_pairs_considered": 117,
+      "pass": true
+    },
+    {
+      "screw": 1,
+      "shaft_diameter_mm": 4,
+      "insertion_axis_world": [
+        1,
+        0,
+        0
+      ],
+      "failed_pairs": [],
+      "near_pairs": [
+        {
+          "a": "UACCassette",
+          "b": "ToolProbe",
+          "distance_mm": 0.49999999999995465,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        },
+        {
+          "a": "RemainingBoardSpace_PROBE",
+          "b": "ToolProbe",
+          "distance_mm": 2.0,
+          "overlap_mm3": 0,
+          "intentional_reservation_union": false
+        }
+      ],
+      "changed_pairs_considered": 117,
+      "pass": true
+    },
+    {
+      "screw": 2,
+      "shaft_diameter_mm": 4,
+      "insertion_axis_world": [
+        1,
+        0,
+        0
+      ],
+      "failed_pairs": [],
+      "near_pairs": [
+        {
+          "a": "UACCassette",
+          "b": "ToolProbe",
+          "distance_mm": 0.49999999999998784,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        },
+        {
+          "a": "ArrayCable_PROBE",
+          "b": "ToolProbe",
+          "distance_mm": 9.704699910719626,
+          "overlap_mm3": 0,
+          "intentional_reservation_union": false
+        },
+        {
+          "a": "RemainingBoardSpace_PROBE",
+          "b": "ToolProbe",
+          "distance_mm": 2.0,
+          "overlap_mm3": 0,
+          "intentional_reservation_union": false
+        }
+      ],
+      "changed_pairs_considered": 117,
+      "pass": true
+    },
+    {
+      "screw": 3,
+      "shaft_diameter_mm": 4,
+      "insertion_axis_world": [
+        1,
+        0,
+        0
+      ],
+      "failed_pairs": [],
+      "near_pairs": [
+        {
+          "a": "UACCassette",
+          "b": "ToolProbe",
+          "distance_mm": 0.499999999999977,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        },
+        {
+          "a": "ArrayCable_PROBE",
+          "b": "ToolProbe",
+          "distance_mm": 9.704699910719626,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        },
+        {
+          "a": "RemainingBoardSpace_PROBE",
+          "b": "ToolProbe",
+          "distance_mm": 2.0,
+          "overlap_mm3": 0,
+          "intentional_reservation_union": false
+        }
+      ],
+      "changed_pairs_considered": 117,
+      "pass": true
+    }
+  ],
+  "withdrawal_samples": [
+    {
+      "withdrawal_x_mm": 0,
+      "failed_pairs": [],
+      "near_pairs": [
+        {
+          "a": "ElectronicsCarrier",
+          "b": "UACCassette",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 2.0,
+          "overlap_mm3": 0,
+          "intentional_reservation_union": false
+        },
+        {
+          "a": "UACNut0",
+          "b": "UACCassette",
+          "distance_mm": 2.0,
+          "overlap_mm3": 0,
+          "intentional_reservation_union": false
+        },
+        {
+          "a": "UACNut1",
+          "b": "UACCassette",
+          "distance_mm": 2.0,
+          "overlap_mm3": 0,
+          "intentional_reservation_union": false
+        },
+        {
+          "a": "UACNut2",
+          "b": "UACCassette",
+          "distance_mm": 2.0,
+          "overlap_mm3": 0,
+          "intentional_reservation_union": false
+        },
+        {
+          "a": "UACNut3",
+          "b": "UACCassette",
+          "distance_mm": 2.0,
+          "overlap_mm3": 0,
+          "intentional_reservation_union": false
+        },
+        {
+          "a": "RemainingBoardSpace_PROBE",
+          "b": "UACCassette",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        },
+        {
+          "a": "RemainingBoardSpace_PROBE",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        },
+        {
+          "a": "UACCassette",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        }
+      ],
+      "changed_pairs_considered": 327,
+      "pass": true
+    },
+    {
+      "withdrawal_x_mm": 2,
+      "failed_pairs": [],
+      "near_pairs": [
+        {
+          "a": "ElectronicsCarrier",
+          "b": "UACCassette",
+          "distance_mm": 2.0,
+          "overlap_mm3": 0,
+          "intentional_reservation_union": false
+        },
+        {
+          "a": "RemainingBoardSpace_PROBE",
+          "b": "UACCassette",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        },
+        {
+          "a": "RemainingBoardSpace_PROBE",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        },
+        {
+          "a": "UACCassette",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        }
+      ],
+      "changed_pairs_considered": 327,
+      "pass": true
+    },
+    {
+      "withdrawal_x_mm": 4,
+      "failed_pairs": [],
+      "near_pairs": [
+        {
+          "a": "RemainingBoardSpace_PROBE",
+          "b": "UACCassette",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        },
+        {
+          "a": "RemainingBoardSpace_PROBE",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        },
+        {
+          "a": "UACCassette",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        }
+      ],
+      "changed_pairs_considered": 327,
+      "pass": true
+    },
+    {
+      "withdrawal_x_mm": 6,
+      "failed_pairs": [],
+      "near_pairs": [
+        {
+          "a": "RemainingBoardSpace_PROBE",
+          "b": "UACCassette",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        },
+        {
+          "a": "RemainingBoardSpace_PROBE",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        },
+        {
+          "a": "UACCassette",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        }
+      ],
+      "changed_pairs_considered": 327,
+      "pass": true
+    },
+    {
+      "withdrawal_x_mm": 8,
+      "failed_pairs": [],
+      "near_pairs": [
+        {
+          "a": "RemainingBoardSpace_PROBE",
+          "b": "UACCassette",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        },
+        {
+          "a": "RemainingBoardSpace_PROBE",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        },
+        {
+          "a": "UACCassette",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        }
+      ],
+      "changed_pairs_considered": 327,
+      "pass": true
+    },
+    {
+      "withdrawal_x_mm": 10,
+      "failed_pairs": [],
+      "near_pairs": [
+        {
+          "a": "RemainingBoardSpace_PROBE",
+          "b": "UACCassette",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        },
+        {
+          "a": "RemainingBoardSpace_PROBE",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        },
+        {
+          "a": "UACCassette",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        }
+      ],
+      "changed_pairs_considered": 327,
+      "pass": true
+    },
+    {
+      "withdrawal_x_mm": 12,
+      "failed_pairs": [],
+      "near_pairs": [
+        {
+          "a": "RemainingBoardSpace_PROBE",
+          "b": "UACCassette",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        },
+        {
+          "a": "RemainingBoardSpace_PROBE",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        },
+        {
+          "a": "UACCassette",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        }
+      ],
+      "changed_pairs_considered": 327,
+      "pass": true
+    },
+    {
+      "withdrawal_x_mm": 14,
+      "failed_pairs": [],
+      "near_pairs": [
+        {
+          "a": "RemainingBoardSpace_PROBE",
+          "b": "UACCassette",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        },
+        {
+          "a": "RemainingBoardSpace_PROBE",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        },
+        {
+          "a": "UACCassette",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        }
+      ],
+      "changed_pairs_considered": 327,
+      "pass": true
+    },
+    {
+      "withdrawal_x_mm": 16,
+      "failed_pairs": [],
+      "near_pairs": [
+        {
+          "a": "RemainingBoardSpace_PROBE",
+          "b": "UACCassette",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        },
+        {
+          "a": "RemainingBoardSpace_PROBE",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        },
+        {
+          "a": "UACCassette",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        }
+      ],
+      "changed_pairs_considered": 327,
+      "pass": true
+    },
+    {
+      "withdrawal_x_mm": 18,
+      "failed_pairs": [],
+      "near_pairs": [
+        {
+          "a": "RemainingBoardSpace_PROBE",
+          "b": "UACCassette",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        },
+        {
+          "a": "RemainingBoardSpace_PROBE",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        },
+        {
+          "a": "UACCassette",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        }
+      ],
+      "changed_pairs_considered": 327,
+      "pass": true
+    },
+    {
+      "withdrawal_x_mm": 20,
+      "failed_pairs": [],
+      "near_pairs": [
+        {
+          "a": "RemainingBoardSpace_PROBE",
+          "b": "UACCassette",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        },
+        {
+          "a": "RemainingBoardSpace_PROBE",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        },
+        {
+          "a": "UACCassette",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        }
+      ],
+      "changed_pairs_considered": 327,
+      "pass": true
+    },
+    {
+      "withdrawal_x_mm": 22,
+      "failed_pairs": [],
+      "near_pairs": [
+        {
+          "a": "RemainingBoardSpace_PROBE",
+          "b": "UACCassette",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        },
+        {
+          "a": "RemainingBoardSpace_PROBE",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        },
+        {
+          "a": "UACCassette",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        }
+      ],
+      "changed_pairs_considered": 327,
+      "pass": true
+    },
+    {
+      "withdrawal_x_mm": 24,
+      "failed_pairs": [],
+      "near_pairs": [
+        {
+          "a": "RemainingBoardSpace_PROBE",
+          "b": "UACCassette",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        },
+        {
+          "a": "RemainingBoardSpace_PROBE",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        },
+        {
+          "a": "UACCassette",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        }
+      ],
+      "changed_pairs_considered": 327,
+      "pass": true
+    },
+    {
+      "withdrawal_x_mm": 26,
+      "failed_pairs": [],
+      "near_pairs": [
+        {
+          "a": "RemainingBoardSpace_PROBE",
+          "b": "UACCassette",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        },
+        {
+          "a": "RemainingBoardSpace_PROBE",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        },
+        {
+          "a": "UACCassette",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        }
+      ],
+      "changed_pairs_considered": 327,
+      "pass": true
+    },
+    {
+      "withdrawal_x_mm": 28,
+      "failed_pairs": [],
+      "near_pairs": [
+        {
+          "a": "RemainingBoardSpace_PROBE",
+          "b": "UACCassette",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        },
+        {
+          "a": "RemainingBoardSpace_PROBE",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        },
+        {
+          "a": "UACCassette",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        }
+      ],
+      "changed_pairs_considered": 327,
+      "pass": true
+    },
+    {
+      "withdrawal_x_mm": 30,
+      "failed_pairs": [],
+      "near_pairs": [
+        {
+          "a": "RemainingBoardSpace_PROBE",
+          "b": "UACCassette",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        },
+        {
+          "a": "RemainingBoardSpace_PROBE",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        },
+        {
+          "a": "UACCassette",
+          "b": "InsulationSheet_PROVISIONAL",
+          "distance_mm": 0.0,
+          "overlap_mm3": 0.0,
+          "intentional_reservation_union": false
+        }
+      ],
+      "changed_pairs_considered": 327,
+      "pass": true
+    }
+  ],
+  "sampled_service_geometry_pass": true,
+  "inertial_force_probes": [
+    {
+      "unmeasured_board_wire_mass_g": 20,
+      "assumed_acceleration_g": 1,
+      "inertial_force_N": 0.1962,
+      "actual_impact_verified": false
+    },
+    {
+      "unmeasured_board_wire_mass_g": 20,
+      "assumed_acceleration_g": 5,
+      "inertial_force_N": 0.9810000000000001,
+      "actual_impact_verified": false
+    },
+    {
+      "unmeasured_board_wire_mass_g": 20,
+      "assumed_acceleration_g": 10,
+      "inertial_force_N": 1.9620000000000002,
+      "actual_impact_verified": false
+    },
+    {
+      "unmeasured_board_wire_mass_g": 40,
+      "assumed_acceleration_g": 1,
+      "inertial_force_N": 0.3924,
+      "actual_impact_verified": false
+    },
+    {
+      "unmeasured_board_wire_mass_g": 40,
+      "assumed_acceleration_g": 5,
+      "inertial_force_N": 1.9620000000000002,
+      "actual_impact_verified": false
+    },
+    {
+      "unmeasured_board_wire_mass_g": 40,
+      "assumed_acceleration_g": 10,
+      "inertial_force_N": 3.9240000000000004,
+      "actual_impact_verified": false
+    },
+    {
+      "unmeasured_board_wire_mass_g": 60,
+      "assumed_acceleration_g": 1,
+      "inertial_force_N": 0.5886,
+      "actual_impact_verified": false
+    },
+    {
+      "unmeasured_board_wire_mass_g": 60,
+      "assumed_acceleration_g": 5,
+      "inertial_force_N": 2.943,
+      "actual_impact_verified": false
+    },
+    {
+      "unmeasured_board_wire_mass_g": 60,
+      "assumed_acceleration_g": 10,
+      "inertial_force_N": 5.886,
+      "actual_impact_verified": false
+    }
+  ],
+  "USB_pull_test_force_probes_N": [
+    1,
+    5,
+    10
+  ],
+  "actual_tool_or_hand_envelope_verified": false,
+  "actual_wire_disconnection_verified": false,
+  "continuous_sweep_verified": false,
+  "physical_retention_verified": false,
+  "scope": "Standing pose only. 4 mm straight tool shaft and 16 translations at 2 mm spacing. Not operating posture, wrench capacity, physical retention or manufacturing approval."
+}

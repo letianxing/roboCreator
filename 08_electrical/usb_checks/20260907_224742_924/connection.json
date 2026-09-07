@@ -1,0 +1,94 @@
+{
+    "observed_at":  "2026-09-07T22:47:42.9244547+08:00",
+    "matching_device_count":  3,
+    "matching_device_present":  true,
+    "devices":  [
+                    {
+                        "name":  "USB Composite Device",
+                        "class":  "USB",
+                        "status":  "OK",
+                        "instance_id":  "USB\\VID_359F\u0026PID_3400\\2026081110",
+                        "problem_code":  0,
+                        "problem_status_hex":  null,
+                        "driver_provider":  "Microsoft",
+                        "driver_version":  "10.0.26100.8972",
+                        "driver_inf":  "usb.inf",
+                        "service":  "usbccgp",
+                        "bus_description":  "SipeedUSB MicArray",
+                        "parent":  "USB\\VID_05E3\u0026PID_0610\\6\u00265f51c88\u00260\u00263",
+                        "pdo_name":  "\\Device\\USBPDO-11",
+                        "container_id":  "{0BA1F342-B595-5863-9C5B-CABA5FB97835}"
+                    },
+                    {
+                        "name":  "USB 串行设备 (COM7)",
+                        "class":  "Ports",
+                        "status":  "OK",
+                        "instance_id":  "USB\\VID_359F\u0026PID_3400\u0026MI_03\\8\u002630C7C19\u00260\u00260003",
+                        "problem_code":  0,
+                        "problem_status_hex":  null,
+                        "driver_provider":  "Microsoft",
+                        "driver_version":  "10.0.26100.8972",
+                        "driver_inf":  "usbser.inf",
+                        "service":  "usbser",
+                        "bus_description":  "AudioLoc",
+                        "parent":  "USB\\VID_359F\u0026PID_3400\\2026081110",
+                        "pdo_name":  "\\Device\\000000de",
+                        "container_id":  "{0BA1F342-B595-5863-9C5B-CABA5FB97835}"
+                    },
+                    {
+                        "name":  "MicArray",
+                        "class":  "MEDIA",
+                        "status":  "Error",
+                        "instance_id":  "USB\\VID_359F\u0026PID_3400\u0026MI_00\\8\u002630C7C19\u00260\u00260000",
+                        "problem_code":  10,
+                        "problem_status_hex":  "0xC0440025",
+                        "driver_provider":  "Microsoft",
+                        "driver_version":  "10.0.26100.9168",
+                        "driver_inf":  "usbaudio2.inf",
+                        "service":  "usbaudio2",
+                        "bus_description":  "MicArray",
+                        "parent":  "USB\\VID_359F\u0026PID_3400\\2026081110",
+                        "pdo_name":  "\\Device\\000000dd",
+                        "container_id":  "{0BA1F342-B595-5863-9C5B-CABA5FB97835}"
+                    }
+                ],
+    "matching_audio_endpoints":  [
+
+                                 ],
+    "audio_driver_events":  [
+
+                            ],
+    "pnp_events":  [
+                       {
+                           "TimeCreated":  "\/Date(1788792162181)\/",
+                           "Id":  411,
+                           "Message":  "设备 USB\\VID_359F\u0026PID_3400\u0026MI_00\\8\u002630c7c19\u00260\u00260000 在启动时出现问题。\r\n\r\n驱动程序名称: usbaudio2.inf\r\n类 GUID: {4d36e96c-e325-11ce-bfc1-08002be10318}\r\n服务: usbaudio2\r\n低层筛选程序: \r\n高层筛选程序: \r\n问题: 0xA\r\n问题状态: 0xC0440025"
+                       },
+                       {
+                           "TimeCreated":  "\/Date(1788792162179)\/",
+                           "Id":  430,
+                           "Message":  "设备 USB\\VID_359F\u0026PID_3400\u0026MI_03\\8\u002630c7c19\u00260\u00260003 需要进一步安装。"
+                       },
+                       {
+                           "TimeCreated":  "\/Date(1788792162167)\/",
+                           "Id":  400,
+                           "Message":  "已配置设备USB\\VID_359F\u0026PID_3400\u0026MI_00\\8\u002630c7c19\u00260\u00260000。\r\n\r\n驱动程序名称： usbaudio2.inf\r\n驱动程序包 ID： usbaudio2.inf_amd64_f239bb5929b27f30\r\n类 GUID： {4d36e96c-e325-11ce-bfc1-08002be10318}\r\n驱动程序日期： 08/08/2026\r\n驱动程序版本： 10.0.26100.9168\r\n驱动程序提供程序： Microsoft\r\n驱动程序部分： usbaudio2_Device.NT\r\n驱动程序级别： 0xFF2003\r\n匹配设备 ID： USB\\Class_01\u0026SubClass_00\u0026Prot_20\r\n超限驱动程序： usbmidi2.inf:USB\\Class_01:00FF3105 wdma_usb.inf:USB\\Class_01:00FFFFFF:USB\\Class_01\u0026SubClass_00\u0026Prot_20\r\n设备已更新： false\r\n父设备： USB\\VID_359F\u0026PID_3400\\2026081110"
+                       },
+                       {
+                           "TimeCreated":  "\/Date(1788792162160)\/",
+                           "Id":  410,
+                           "Message":  "已启动设备 USB\\VID_359F\u0026PID_3400\\2026081110。\r\n\r\n驱动程序名称: usb.inf\r\n类 GUID: {36fc9e60-c465-11cf-8056-444553540000}\r\n服务: usbccgp\r\n低层筛选程序: \r\n高层筛选程序: "
+                       },
+                       {
+                           "TimeCreated":  "\/Date(1788792162155)\/",
+                           "Id":  400,
+                           "Message":  "已配置设备USB\\VID_359F\u0026PID_3400\\2026081110。\r\n\r\n驱动程序名称： usb.inf\r\n驱动程序包 ID： usb.inf_amd64_b7f053fde5381cd8\r\n类 GUID： {36fc9e60-c465-11cf-8056-444553540000}\r\n驱动程序日期： 06/21/2006\r\n驱动程序版本： 10.0.26100.8972\r\n驱动程序提供程序： Microsoft\r\n驱动程序部分： Composite.Dev.NT\r\n驱动程序级别： 0xFF2006\r\n匹配设备 ID： USB\\COMPOSITE\r\n超限驱动程序： \r\n设备已更新： false\r\n父设备： USB\\VID_05E3\u0026PID_0610\\6\u00265f51c88\u00260\u00263"
+                       }
+                   ],
+    "audio_stream_tested":  false,
+    "serial_stream_tested":  false,
+    "raw_usb_descriptors_dumped":  false,
+    "firmware_modified":  false,
+    "driver_or_registry_modified":  false,
+    "distinction":  "USB/COM enumeration and audio driver initialization are separate outcomes. USB serial string is not a verified firmware version."
+}

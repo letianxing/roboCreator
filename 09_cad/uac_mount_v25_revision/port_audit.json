@@ -1,0 +1,85 @@
+{
+  "failed_pairs": [
+    {
+      "a": "UACCassette",
+      "b": "USBExit_PROBE",
+      "distance_mm": 0.0,
+      "overlap_mm3": 256.0000000000023,
+      "intentional_reservation_union": false
+    },
+    {
+      "a": "UACCassette",
+      "b": "ArrayExit_PROBE",
+      "distance_mm": 0.0,
+      "overlap_mm3": 256.00000000000216,
+      "intentional_reservation_union": false
+    }
+  ],
+  "near_pairs": [
+    {
+      "a": "ElectronicsCarrier",
+      "b": "USBExit_PROBE",
+      "distance_mm": 0.0,
+      "overlap_mm3": 0.0,
+      "intentional_reservation_union": false
+    },
+    {
+      "a": "ElectronicsCarrier",
+      "b": "ArrayExit_PROBE",
+      "distance_mm": 0.0,
+      "overlap_mm3": 0.0,
+      "intentional_reservation_union": false
+    },
+    {
+      "a": "UACCassette",
+      "b": "USBExit_PROBE",
+      "distance_mm": 0.0,
+      "overlap_mm3": 256.0000000000023,
+      "intentional_reservation_union": false
+    },
+    {
+      "a": "UACCassette",
+      "b": "ArrayExit_PROBE",
+      "distance_mm": 0.0,
+      "overlap_mm3": 256.00000000000216,
+      "intentional_reservation_union": false
+    },
+    {
+      "a": "InsulationSheet_PROVISIONAL",
+      "b": "USBExit_PROBE",
+      "distance_mm": 0.0,
+      "overlap_mm3": 0.0,
+      "intentional_reservation_union": false
+    },
+    {
+      "a": "InsulationSheet_PROVISIONAL",
+      "b": "ArrayExit_PROBE",
+      "distance_mm": 0.0,
+      "overlap_mm3": 0.0,
+      "intentional_reservation_union": false
+    },
+    {
+      "a": "ArrayCable_PROBE",
+      "b": "ArrayExit_PROBE",
+      "distance_mm": 0.0,
+      "overlap_mm3": 50.26548245743651,
+      "intentional_reservation_union": true
+    },
+    {
+      "a": "RemainingBoardSpace_PROBE",
+      "b": "USBExit_PROBE",
+      "distance_mm": 0.0,
+      "overlap_mm3": 0.0,
+      "intentional_reservation_union": false
+    },
+    {
+      "a": "RemainingBoardSpace_PROBE",
+      "b": "ArrayExit_PROBE",
+      "distance_mm": 0.0,
+      "overlap_mm3": 0.0,
+      "intentional_reservation_union": false
+    }
+  ],
+  "changed_pairs_considered": 233,
+  "pass": false
+}

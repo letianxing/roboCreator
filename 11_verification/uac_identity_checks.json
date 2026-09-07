@@ -1,0 +1,9 @@
+{
+  "stage":"v0.23-uac-identified",
+  "checks":[
+    {"name":"MA-USB8 model and visible interface labels confirmed from user front/back photos; archives hashed","status":"passed","evidence":["08_electrical/mausb8_board_identification.json","00_inputs/sensors/sipeed_arrival_20260907/uac_front.jpg","00_inputs/sensors/sipeed_arrival_20260907/uac_back.jpg"]},
+    {"name":"Initial read-only host identity observation retained; no matching device was observed at that earlier time","status":"passed","evidence":["08_electrical/inspect_mausb8.ps1","08_electrical/usb_checks/20260907_224742_924/previous_snapshot.json"]},
+    {"name":"Physical dimensions,mounting,audio capture,serial protocol and actual firmware","status":"not_run","evidence":["08_electrical/mausb8_interface_plan.md"]}
+  ],
+  "pending":["User connects MA-USB8 to host using a USB data cable; inspect actual audio/CDC enumeration","Obtain authoritative or later measured board/connector dimensions without requiring a ruler now","Verify array wiring and actual firmware before channel/beamforming tests","Add separate UAC board,real wires and mass to robot CAD when dimensions are known"]
+}

@@ -1,0 +1,82 @@
+{
+  "complete": false,
+  "yaw_origin_body_mm": [
+    0,
+    0,
+    125
+  ],
+  "pitch_origin_yaw_neutral_body_mm": [
+    15,
+    0,
+    136
+  ],
+  "pitch_front_horn_neutral_body_mm": [
+    15,
+    -10,
+    136
+  ],
+  "source_motor_sha256": "e2f7b060801a1d6a21f23bca2554f29a402f7d73b8498cb201c9e6adf3139eb6",
+  "neck_opening_radius_mm": 30,
+  "neck_opening_z_body_mm": [
+    95,
+    128
+  ],
+  "original_head_volume_mm3": 48766.52497380175,
+  "modified_head_volume_mm3": 42042.20833322162,
+  "cases": [
+    {
+      "yaw_deg": 0,
+      "pitch_deg": 0,
+      "collisions": [],
+      "pass": true
+    },
+    {
+      "yaw_deg": 0,
+      "pitch_deg": 5,
+      "collisions": [],
+      "pass": true
+    },
+    {
+      "yaw_deg": 0,
+      "pitch_deg": 10,
+      "collisions": [],
+      "pass": true
+    },
+    {
+      "yaw_deg": 0,
+      "pitch_deg": 15,
+      "collisions": [],
+      "pass": true
+    },
+    {
+      "yaw_deg": 0,
+      "pitch_deg": 20,
+      "collisions": [],
+      "pass": true
+    },
+    {
+      "yaw_deg": 0,
+      "pitch_deg": 25,
+      "collisions": [],
+      "pass": true
+    }
+  ],
+  "swept_motor_opening": {
+    "lo_body_mm": [
+      -21.9424762554756,
+      -40.00000000000002,
+      81.22399605003898
+    ],
+    "hi_body_mm": [
+      50.46152783263531,
+      14.239035486171531,
+      150.8097728276262
+    ],
+    "grid_deg": 1,
+    "padding_mm": 1.0,
+    "between_grid_motion_bound_mm": 0.8478788246493654,
+    "scope": "Conservative continuous containment of nominal motor BOXES in the proposed head-local opening for yaw+-30/pitch0..50 only; not whole-robot continuous clearance."
+  },
+  "actual_brackets_and_load_path_verified": false,
+  "manufacturer_geometry_includes_idler": true
+}

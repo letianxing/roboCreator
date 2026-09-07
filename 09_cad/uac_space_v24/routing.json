@@ -1,0 +1,1065 @@
+{
+  "completed": true,
+  "search_sha256": "f34cabe7e918b196291d9ef686d632c093bda70fa223d5977388744af6cef4c8",
+  "routes": [
+    {
+      "id": 0,
+      "waypoints_body_mm": [
+        [
+          49,
+          47,
+          91
+        ],
+        [
+          49,
+          49,
+          91
+        ],
+        [
+          49,
+          49,
+          55
+        ],
+        [
+          -76,
+          49,
+          55
+        ],
+        [
+          -76,
+          49,
+          83
+        ],
+        [
+          -76,
+          0,
+          83
+        ]
+      ],
+      "square_cross_section_mm": 4,
+      "polyline_length_mm": 240.0,
+      "scenes": [
+        {
+          "pass": false,
+          "failed_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 0.0
+            }
+          ],
+          "exact_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 0.0
+            }
+          ],
+          "aabb_certified_pairs": 514,
+          "tested_pairs": 515,
+          "scene": "stand",
+          "ground_clearance_mm": 267.26539554219744
+        },
+        {
+          "pass": false,
+          "failed_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 0.0
+            }
+          ],
+          "exact_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "PelvisPlate",
+              "distance_mm": 2.999999999999976
+            },
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "WukongHeadShell",
+              "distance_mm": 50.96635123871814
+            },
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipRollMotor",
+              "distance_mm": 14.749999999996211
+            },
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 0.0
+            },
+            {
+              "reservation": "ArrayRouteZone4",
+              "part": "microphone",
+              "distance_mm": 4.999999999999928
+            }
+          ],
+          "aabb_certified_pairs": 510,
+          "tested_pairs": 515,
+          "scene": "lift_h114",
+          "ground_clearance_mm": 128.16266009341322
+        },
+        {
+          "pass": false,
+          "failed_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 0.0
+            }
+          ],
+          "exact_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "PelvisPlate",
+              "distance_mm": 2.999999999999974
+            },
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "WukongHeadShell",
+              "distance_mm": 50.96635123871813
+            },
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipRollMotor",
+              "distance_mm": 14.749999997546485
+            },
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 0.0
+            },
+            {
+              "reservation": "ArrayRouteZone4",
+              "part": "microphone",
+              "distance_mm": 4.999999999999928
+            }
+          ],
+          "aabb_certified_pairs": 510,
+          "tested_pairs": 515,
+          "scene": "lift_h117",
+          "ground_clearance_mm": 131.16266009341322
+        },
+        {
+          "pass": false,
+          "failed_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 0.0
+            }
+          ],
+          "exact_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "PelvisPlate",
+              "distance_mm": 2.9999999999999902
+            },
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "WukongHeadShell",
+              "distance_mm": 50.96635123871814
+            },
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipRollMotor",
+              "distance_mm": 14.749999999986072
+            },
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 0.0
+            },
+            {
+              "reservation": "ArrayRouteZone4",
+              "part": "microphone",
+              "distance_mm": 4.999999999999934
+            }
+          ],
+          "aabb_certified_pairs": 510,
+          "tested_pairs": 515,
+          "scene": "lift_h120",
+          "ground_clearance_mm": 134.16266009341322
+        }
+      ],
+      "pass": false
+    },
+    {
+      "id": 1,
+      "waypoints_body_mm": [
+        [
+          49,
+          47,
+          91
+        ],
+        [
+          49,
+          49,
+          91
+        ],
+        [
+          49,
+          49,
+          59
+        ],
+        [
+          -76,
+          49,
+          59
+        ],
+        [
+          -76,
+          49,
+          83
+        ],
+        [
+          -76,
+          0,
+          83
+        ]
+      ],
+      "square_cross_section_mm": 4,
+      "polyline_length_mm": 232.0,
+      "scenes": [
+        {
+          "pass": false,
+          "failed_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 0.0
+            }
+          ],
+          "exact_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 0.0
+            }
+          ],
+          "aabb_certified_pairs": 514,
+          "tested_pairs": 515,
+          "scene": "stand",
+          "ground_clearance_mm": 271.26539554219744
+        },
+        {
+          "pass": false,
+          "failed_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 0.0
+            }
+          ],
+          "exact_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "PelvisPlate",
+              "distance_mm": 6.99999999999999
+            },
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "WukongHeadShell",
+              "distance_mm": 47.26980533621925
+            },
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipRollMotor",
+              "distance_mm": 18.749999999996213
+            },
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 0.0
+            },
+            {
+              "reservation": "ArrayRouteZone4",
+              "part": "microphone",
+              "distance_mm": 4.999999999999928
+            }
+          ],
+          "aabb_certified_pairs": 510,
+          "tested_pairs": 515,
+          "scene": "lift_h114",
+          "ground_clearance_mm": 131.4392682705692
+        },
+        {
+          "pass": false,
+          "failed_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 0.0
+            }
+          ],
+          "exact_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "PelvisPlate",
+              "distance_mm": 6.99999999999999
+            },
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "WukongHeadShell",
+              "distance_mm": 47.26980533621926
+            },
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipRollMotor",
+              "distance_mm": 18.749999997546492
+            },
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 0.0
+            },
+            {
+              "reservation": "ArrayRouteZone4",
+              "part": "microphone",
+              "distance_mm": 4.999999999999928
+            }
+          ],
+          "aabb_certified_pairs": 510,
+          "tested_pairs": 515,
+          "scene": "lift_h117",
+          "ground_clearance_mm": 134.4392682705692
+        },
+        {
+          "pass": false,
+          "failed_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 0.0
+            }
+          ],
+          "exact_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "PelvisPlate",
+              "distance_mm": 6.99999999999999
+            },
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "WukongHeadShell",
+              "distance_mm": 47.26980533621925
+            },
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipRollMotor",
+              "distance_mm": 18.74999999998607
+            },
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 0.0
+            },
+            {
+              "reservation": "ArrayRouteZone4",
+              "part": "microphone",
+              "distance_mm": 4.999999999999934
+            }
+          ],
+          "aabb_certified_pairs": 510,
+          "tested_pairs": 515,
+          "scene": "lift_h120",
+          "ground_clearance_mm": 137.4392682705692
+        }
+      ],
+      "pass": false
+    },
+    {
+      "id": 2,
+      "waypoints_body_mm": [
+        [
+          49,
+          47,
+          91
+        ],
+        [
+          49,
+          55,
+          91
+        ],
+        [
+          49,
+          55,
+          55
+        ],
+        [
+          -76,
+          55,
+          55
+        ],
+        [
+          -76,
+          55,
+          83
+        ],
+        [
+          -76,
+          0,
+          83
+        ]
+      ],
+      "square_cross_section_mm": 4,
+      "polyline_length_mm": 252.0,
+      "scenes": [
+        {
+          "pass": false,
+          "failed_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 0.0
+            }
+          ],
+          "exact_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 0.0
+            }
+          ],
+          "aabb_certified_pairs": 514,
+          "tested_pairs": 515,
+          "scene": "stand",
+          "ground_clearance_mm": 267.26539554219744
+        },
+        {
+          "pass": false,
+          "failed_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 0.0
+            }
+          ],
+          "exact_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "WukongHeadShell",
+              "distance_mm": 53.3542391321682
+            },
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipRollMotor",
+              "distance_mm": 14.749999999996698
+            },
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 0.0
+            },
+            {
+              "reservation": "ArrayRouteZone4",
+              "part": "microphone",
+              "distance_mm": 4.999999999999928
+            }
+          ],
+          "aabb_certified_pairs": 511,
+          "tested_pairs": 515,
+          "scene": "lift_h114",
+          "ground_clearance_mm": 128.16266009341322
+        },
+        {
+          "pass": false,
+          "failed_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 0.0
+            }
+          ],
+          "exact_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "WukongHeadShell",
+              "distance_mm": 53.3542391321682
+            },
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipRollMotor",
+              "distance_mm": 14.749999997545459
+            },
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 0.0
+            },
+            {
+              "reservation": "ArrayRouteZone4",
+              "part": "microphone",
+              "distance_mm": 4.999999999999928
+            }
+          ],
+          "aabb_certified_pairs": 511,
+          "tested_pairs": 515,
+          "scene": "lift_h117",
+          "ground_clearance_mm": 131.16266009341322
+        },
+        {
+          "pass": false,
+          "failed_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 0.0
+            }
+          ],
+          "exact_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "WukongHeadShell",
+              "distance_mm": 53.3542391321682
+            },
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipRollMotor",
+              "distance_mm": 14.74999999998642
+            },
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 0.0
+            },
+            {
+              "reservation": "ArrayRouteZone4",
+              "part": "microphone",
+              "distance_mm": 4.999999999999934
+            }
+          ],
+          "aabb_certified_pairs": 511,
+          "tested_pairs": 515,
+          "scene": "lift_h120",
+          "ground_clearance_mm": 134.16266009341322
+        }
+      ],
+      "pass": false
+    },
+    {
+      "id": 3,
+      "waypoints_body_mm": [
+        [
+          49,
+          47,
+          91
+        ],
+        [
+          49,
+          55,
+          91
+        ],
+        [
+          49,
+          55,
+          59
+        ],
+        [
+          -76,
+          55,
+          59
+        ],
+        [
+          -76,
+          55,
+          83
+        ],
+        [
+          -76,
+          0,
+          83
+        ]
+      ],
+      "square_cross_section_mm": 4,
+      "polyline_length_mm": 244.0,
+      "scenes": [
+        {
+          "pass": false,
+          "failed_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 1.7763568394002505e-15
+            }
+          ],
+          "exact_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 1.7763568394002505e-15
+            }
+          ],
+          "aabb_certified_pairs": 514,
+          "tested_pairs": 515,
+          "scene": "stand",
+          "ground_clearance_mm": 271.26539554219744
+        },
+        {
+          "pass": false,
+          "failed_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 0.0
+            }
+          ],
+          "exact_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "WukongHeadShell",
+              "distance_mm": 49.73662065013217
+            },
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipRollMotor",
+              "distance_mm": 18.749999999996692
+            },
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 0.0
+            },
+            {
+              "reservation": "ArrayRouteZone4",
+              "part": "microphone",
+              "distance_mm": 4.999999999999928
+            }
+          ],
+          "aabb_certified_pairs": 511,
+          "tested_pairs": 515,
+          "scene": "lift_h114",
+          "ground_clearance_mm": 131.4392682705692
+        },
+        {
+          "pass": false,
+          "failed_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 0.0
+            }
+          ],
+          "exact_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "WukongHeadShell",
+              "distance_mm": 49.73662065013217
+            },
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipRollMotor",
+              "distance_mm": 18.74999999754546
+            },
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 0.0
+            },
+            {
+              "reservation": "ArrayRouteZone4",
+              "part": "microphone",
+              "distance_mm": 4.999999999999928
+            }
+          ],
+          "aabb_certified_pairs": 511,
+          "tested_pairs": 515,
+          "scene": "lift_h117",
+          "ground_clearance_mm": 134.4392682705692
+        },
+        {
+          "pass": false,
+          "failed_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 0.0
+            }
+          ],
+          "exact_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "WukongHeadShell",
+              "distance_mm": 49.73662065013217
+            },
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipRollMotor",
+              "distance_mm": 18.749999999986418
+            },
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 0.0
+            },
+            {
+              "reservation": "ArrayRouteZone4",
+              "part": "microphone",
+              "distance_mm": 4.999999999999934
+            }
+          ],
+          "aabb_certified_pairs": 511,
+          "tested_pairs": 515,
+          "scene": "lift_h120",
+          "ground_clearance_mm": 137.4392682705692
+        }
+      ],
+      "pass": false
+    },
+    {
+      "id": 4,
+      "waypoints_body_mm": [
+        [
+          49,
+          47,
+          91
+        ],
+        [
+          49,
+          61,
+          91
+        ],
+        [
+          49,
+          61,
+          55
+        ],
+        [
+          -76,
+          61,
+          55
+        ],
+        [
+          -76,
+          61,
+          83
+        ],
+        [
+          -76,
+          0,
+          83
+        ]
+      ],
+      "square_cross_section_mm": 4,
+      "polyline_length_mm": 264.0,
+      "scenes": [
+        {
+          "pass": false,
+          "failed_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 0.0
+            }
+          ],
+          "exact_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 0.0
+            }
+          ],
+          "aabb_certified_pairs": 514,
+          "tested_pairs": 515,
+          "scene": "stand",
+          "ground_clearance_mm": 267.26539554219744
+        },
+        {
+          "pass": false,
+          "failed_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 0.0
+            }
+          ],
+          "exact_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "WukongHeadShell",
+              "distance_mm": 56.001109673545194
+            },
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipRollMotor",
+              "distance_mm": 14.749999999996795
+            },
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 0.0
+            },
+            {
+              "reservation": "ArrayRouteZone4",
+              "part": "microphone",
+              "distance_mm": 4.999999999999928
+            }
+          ],
+          "aabb_certified_pairs": 511,
+          "tested_pairs": 515,
+          "scene": "lift_h114",
+          "ground_clearance_mm": 128.16266009341322
+        },
+        {
+          "pass": false,
+          "failed_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 0.0
+            }
+          ],
+          "exact_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "WukongHeadShell",
+              "distance_mm": 56.001109673545194
+            },
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipRollMotor",
+              "distance_mm": 14.7499999975455
+            },
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 0.0
+            },
+            {
+              "reservation": "ArrayRouteZone4",
+              "part": "microphone",
+              "distance_mm": 4.999999999999928
+            }
+          ],
+          "aabb_certified_pairs": 511,
+          "tested_pairs": 515,
+          "scene": "lift_h117",
+          "ground_clearance_mm": 131.16266009341322
+        },
+        {
+          "pass": false,
+          "failed_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 0.0
+            }
+          ],
+          "exact_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "WukongHeadShell",
+              "distance_mm": 56.001109673545194
+            },
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipRollMotor",
+              "distance_mm": 14.74999999998649
+            },
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 0.0
+            },
+            {
+              "reservation": "ArrayRouteZone4",
+              "part": "microphone",
+              "distance_mm": 4.999999999999934
+            }
+          ],
+          "aabb_certified_pairs": 511,
+          "tested_pairs": 515,
+          "scene": "lift_h120",
+          "ground_clearance_mm": 134.16266009341322
+        }
+      ],
+      "pass": false
+    },
+    {
+      "id": 5,
+      "waypoints_body_mm": [
+        [
+          49,
+          47,
+          91
+        ],
+        [
+          49,
+          61,
+          91
+        ],
+        [
+          49,
+          61,
+          59
+        ],
+        [
+          -76,
+          61,
+          59
+        ],
+        [
+          -76,
+          61,
+          83
+        ],
+        [
+          -76,
+          0,
+          83
+        ]
+      ],
+      "square_cross_section_mm": 4,
+      "polyline_length_mm": 256.0,
+      "scenes": [
+        {
+          "pass": false,
+          "failed_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 1.7763568394002505e-15
+            }
+          ],
+          "exact_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 1.7763568394002505e-15
+            }
+          ],
+          "aabb_certified_pairs": 514,
+          "tested_pairs": 515,
+          "scene": "stand",
+          "ground_clearance_mm": 271.26539554219744
+        },
+        {
+          "pass": false,
+          "failed_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 0.0
+            }
+          ],
+          "exact_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "WukongHeadShell",
+              "distance_mm": 52.4693860913956
+            },
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipRollMotor",
+              "distance_mm": 18.749999999996792
+            },
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 0.0
+            },
+            {
+              "reservation": "ArrayRouteZone4",
+              "part": "microphone",
+              "distance_mm": 4.999999999999928
+            }
+          ],
+          "aabb_certified_pairs": 511,
+          "tested_pairs": 515,
+          "scene": "lift_h114",
+          "ground_clearance_mm": 131.4392682705692
+        },
+        {
+          "pass": false,
+          "failed_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 0.0
+            }
+          ],
+          "exact_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "WukongHeadShell",
+              "distance_mm": 52.4693860913956
+            },
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipRollMotor",
+              "distance_mm": 18.74999999754548
+            },
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 0.0
+            },
+            {
+              "reservation": "ArrayRouteZone4",
+              "part": "microphone",
+              "distance_mm": 4.999999999999928
+            }
+          ],
+          "aabb_certified_pairs": 511,
+          "tested_pairs": 515,
+          "scene": "lift_h117",
+          "ground_clearance_mm": 134.4392682705692
+        },
+        {
+          "pass": false,
+          "failed_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 0.0
+            }
+          ],
+          "exact_pairs": [
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "WukongHeadShell",
+              "distance_mm": 52.4693860913956
+            },
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipRollMotor",
+              "distance_mm": 18.74999999998649
+            },
+            {
+              "reservation": "ArrayRouteZone2",
+              "part": "L_HipYawMotor",
+              "distance_mm": 0.0
+            },
+            {
+              "reservation": "ArrayRouteZone4",
+              "part": "microphone",
+              "distance_mm": 4.999999999999934
+            }
+          ],
+          "aabb_certified_pairs": 511,
+          "tested_pairs": 515,
+          "scene": "lift_h120",
+          "ground_clearance_mm": 137.4392682705692
+        }
+      ],
+      "pass": false
+    }
+  ],
+  "selected_route": null,
+  "assumptions": {
+    "corridor_section_mm": [
+      4,
+      4
+    ],
+    "external_clearance_mm": 2,
+    "end_socket_unknown": true
+  },
+  "actual_cable_length_mm": null,
+  "actual_bend_radius_mm": null,
+  "electrical_length_limit_verified": false,
+  "strain_relief_verified": false,
+  "actual_cable_routing_verified": false,
+  "manufacturing_release": false
+}

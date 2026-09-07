@@ -1,0 +1,20 @@
+{
+  "deflection_mm": 0.1,
+  "rows": [
+    {
+      "name": "WukongHeadShell",
+      "bound_max_Z_mm": 439.42374722950626,
+      "sampled_max_Z_mm": 395.71082533467825
+    },
+    {
+      "name": "CrownOccupancy",
+      "bound_max_Z_mm": 399.3561742417167,
+      "sampled_max_Z_mm": 399.35617424171664
+    },
+    {
+      "name": "camera",
+      "bound_max_Z_mm": 351.3372578024913,
+      "sampled_max_Z_mm": 351.3372578024913
+    }
+  ]
+}

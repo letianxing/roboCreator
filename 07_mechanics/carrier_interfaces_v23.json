@@ -1,0 +1,261 @@
+{
+  "scenes": [
+    {
+      "scene": "lift_h114",
+      "valid_shape_count": 101,
+      "part_count": 101,
+      "file_sha256": "0055a50d158368204fb3ae155f81021e7fe617259f35743c6e83c9c702203800",
+      "checks": [
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PelvisPlate",
+          "distance_mm": 1.9984014443252818e-15,
+          "scope": "nominal support contact"
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew0",
+          "distance_mm": 0.0,
+          "scope": "nominal countersink seat"
+        },
+        {
+          "a": "CarrierScrew0",
+          "b": "PelvisPlate",
+          "distance_mm": 0.049999999999990115,
+          "scope": "thread omitted; radial envelope gap is not a bolted-joint validation"
+        },
+        {
+          "a": "BatteryPadding",
+          "b": "battery",
+          "distance_mm": 1.7763568394002505e-15,
+          "scope": "nominal padding contact"
+        },
+        {
+          "a": "ComputerRetainer0",
+          "b": "computer",
+          "distance_mm": 5.123796534383003e-14,
+          "scope": "nominal strap contact"
+        },
+        {
+          "a": "PowerRetainer0",
+          "b": "power",
+          "distance_mm": 8.526512829121202e-14,
+          "scope": "nominal strap contact"
+        },
+        {
+          "a": "HarnessGrommet",
+          "b": "PowerHarnessKeepout",
+          "distance_mm": 0.4134089106146327,
+          "scope": "unconfirmed cable/grommet clearance"
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "L_ThighRailm1",
+          "distance_mm": 0.5413270239211163,
+          "scope": "moving thigh clearance"
+        },
+        {
+          "a": "ComputerRetainer0",
+          "b": "microphone",
+          "distance_mm": 1.000000000000037,
+          "scope": "reference microphone clearance"
+        }
+      ]
+    },
+    {
+      "scene": "lift_h117",
+      "valid_shape_count": 101,
+      "part_count": 101,
+      "file_sha256": "22f15174af95aaad7ece13b16753429eed6aa384467db74e6d93d82d84863feb",
+      "checks": [
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PelvisPlate",
+          "distance_mm": 0.0,
+          "scope": "nominal support contact"
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew0",
+          "distance_mm": 0.0,
+          "scope": "nominal countersink seat"
+        },
+        {
+          "a": "CarrierScrew0",
+          "b": "PelvisPlate",
+          "distance_mm": 0.049999999999990115,
+          "scope": "thread omitted; radial envelope gap is not a bolted-joint validation"
+        },
+        {
+          "a": "BatteryPadding",
+          "b": "battery",
+          "distance_mm": 2.6645352591003757e-15,
+          "scope": "nominal padding contact"
+        },
+        {
+          "a": "ComputerRetainer0",
+          "b": "computer",
+          "distance_mm": 5.123796534383003e-14,
+          "scope": "nominal strap contact"
+        },
+        {
+          "a": "PowerRetainer0",
+          "b": "power",
+          "distance_mm": 8.526512829121202e-14,
+          "scope": "nominal strap contact"
+        },
+        {
+          "a": "HarnessGrommet",
+          "b": "PowerHarnessKeepout",
+          "distance_mm": 0.4134089106146327,
+          "scope": "unconfirmed cable/grommet clearance"
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "L_ThighRailm1",
+          "distance_mm": 3.8921382264302715,
+          "scope": "moving thigh clearance"
+        },
+        {
+          "a": "ComputerRetainer0",
+          "b": "microphone",
+          "distance_mm": 1.000000000000037,
+          "scope": "reference microphone clearance"
+        }
+      ]
+    },
+    {
+      "scene": "lift_h120",
+      "valid_shape_count": 101,
+      "part_count": 101,
+      "file_sha256": "3af584a760ad0da72ac6065a8e9e0ca09e7088643f595107f8ebf32e6925445b",
+      "checks": [
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PelvisPlate",
+          "distance_mm": 0.0,
+          "scope": "nominal support contact"
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew0",
+          "distance_mm": 0.0,
+          "scope": "nominal countersink seat"
+        },
+        {
+          "a": "CarrierScrew0",
+          "b": "PelvisPlate",
+          "distance_mm": 0.049999999999990115,
+          "scope": "thread omitted; radial envelope gap is not a bolted-joint validation"
+        },
+        {
+          "a": "BatteryPadding",
+          "b": "battery",
+          "distance_mm": 2.220446049250313e-15,
+          "scope": "nominal padding contact"
+        },
+        {
+          "a": "ComputerRetainer0",
+          "b": "computer",
+          "distance_mm": 6.355287432313019e-14,
+          "scope": "nominal strap contact"
+        },
+        {
+          "a": "PowerRetainer0",
+          "b": "power",
+          "distance_mm": 8.526512829121202e-14,
+          "scope": "nominal strap contact"
+        },
+        {
+          "a": "HarnessGrommet",
+          "b": "PowerHarnessKeepout",
+          "distance_mm": 0.4134089106146327,
+          "scope": "unconfirmed cable/grommet clearance"
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "L_ThighRailm1",
+          "distance_mm": 8.553811488303875,
+          "scope": "moving thigh clearance"
+        },
+        {
+          "a": "ComputerRetainer0",
+          "b": "microphone",
+          "distance_mm": 1.000000000000037,
+          "scope": "reference microphone clearance"
+        }
+      ]
+    },
+    {
+      "scene": "stand",
+      "valid_shape_count": 101,
+      "part_count": 101,
+      "file_sha256": "202f773fe3689e18a7f6a3c291c521892d1e34d0d0fdb429b92ca0b7cb12b8ab",
+      "checks": [
+        {
+          "a": "ElectronicsCarrier",
+          "b": "PelvisPlate",
+          "distance_mm": 0.0,
+          "scope": "nominal support contact"
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "CarrierScrew0",
+          "distance_mm": 0.0,
+          "scope": "nominal countersink seat"
+        },
+        {
+          "a": "CarrierScrew0",
+          "b": "PelvisPlate",
+          "distance_mm": 0.0499999999999972,
+          "scope": "thread omitted; radial envelope gap is not a bolted-joint validation"
+        },
+        {
+          "a": "BatteryPadding",
+          "b": "battery",
+          "distance_mm": 0.0,
+          "scope": "nominal padding contact"
+        },
+        {
+          "a": "ComputerRetainer0",
+          "b": "computer",
+          "distance_mm": 0.0,
+          "scope": "nominal strap contact"
+        },
+        {
+          "a": "PowerRetainer0",
+          "b": "power",
+          "distance_mm": 7.105427357601002e-15,
+          "scope": "nominal strap contact"
+        },
+        {
+          "a": "HarnessGrommet",
+          "b": "PowerHarnessKeepout",
+          "distance_mm": 0.4134089106146078,
+          "scope": "unconfirmed cable/grommet clearance"
+        },
+        {
+          "a": "ElectronicsCarrier",
+          "b": "L_ThighRailm1",
+          "distance_mm": 47.57866590471252,
+          "scope": "moving thigh clearance"
+        },
+        {
+          "a": "ComputerRetainer0",
+          "b": "microphone",
+          "distance_mm": 1.0,
+          "scope": "reference microphone clearance"
+        }
+      ],
+      "bounds_mm": {
+        "size": [
+          168.28203230275506,
+          289.40000000000003,
+          394.26539554219744
+        ],
+        "zmax": 394.26539554219744
+      }
+    }
+  ],
+  "preload_thread_strength_actual_module_fit_verified": false
+}

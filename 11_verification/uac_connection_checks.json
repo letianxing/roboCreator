@@ -1,0 +1,10 @@
+{
+  "stage":"v0.23-usb-diagnosed",
+  "checks":[
+    {"name":"Driver-board-only condition recorded; composite device and COM7 enumerated normally","status":"passed","evidence":["08_electrical/mausb8_connection_result.json","08_electrical/usb_checks/20260907_225326_759/connection.json"]},
+    {"name":"Device and337-byte configuration descriptors read without configuration writes; raw bytes and decoded endpoints retained","status":"passed","evidence":["08_electrical/usb_checks/descriptors_20260907_225112_230/device.bin","08_electrical/usb_checks/descriptors_20260907_225112_230/configuration.bin","08_electrical/usb_checks/descriptors_20260907_225112_230/summary.json"]},
+    {"name":"Windows audio driver starts successfully","status":"failed","evidence":["08_electrical/mausb8_connection_result.json","08_electrical/mausb8_usb_diagnosis.md"]},
+    {"name":"Array recording,serial data,localization and firmware repair","status":"not_run","evidence":["08_electrical/mausb8_usb_diagnosis.md"]}
+  ],
+  "pending":["Manufacturer-compatible explicit-feedback or other supported Windows audio firmware/interface option","Confirm actual array revision and wiring before audio/DOA testing","Do not infer firmware version from USB serial string or treat USB enumeration as recording success","Mechanical dimensions/UAC integration and existing robot engineering checks remain pending"]
+}

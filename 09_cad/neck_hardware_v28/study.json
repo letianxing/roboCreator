@@ -1,0 +1,604 @@
+{
+  "complete": false,
+  "yaw_origin_body_mm": [
+    0,
+    0,
+    125
+  ],
+  "pitch_origin_yaw_neutral_body_mm": [
+    15,
+    0,
+    136
+  ],
+  "pitch_front_horn_neutral_body_mm": [
+    15,
+    -10,
+    136
+  ],
+  "source_motor_sha256": "e2f7b060801a1d6a21f23bca2554f29a402f7d73b8498cb201c9e6adf3139eb6",
+  "neck_opening_radius_mm": 30,
+  "neck_opening_z_body_mm": [
+    95,
+    128
+  ],
+  "original_head_volume_mm3": 48766.52497380175,
+  "modified_head_volume_mm3": 42236.53060499059,
+  "cases": [
+    {
+      "yaw_deg": 0,
+      "pitch_deg": 0,
+      "collisions": [],
+      "pass": true
+    },
+    {
+      "yaw_deg": 0,
+      "pitch_deg": 5,
+      "collisions": [],
+      "pass": true
+    },
+    {
+      "yaw_deg": 0,
+      "pitch_deg": 10,
+      "collisions": [],
+      "pass": true
+    },
+    {
+      "yaw_deg": 0,
+      "pitch_deg": 15,
+      "collisions": [],
+      "pass": true
+    },
+    {
+      "yaw_deg": 0,
+      "pitch_deg": 20,
+      "collisions": [
+        {
+          "a": "NeckMotor0",
+          "b": "WukongHeadShell",
+          "volume_mm3": 1.9222262432198152
+        }
+      ],
+      "pass": false
+    },
+    {
+      "yaw_deg": 0,
+      "pitch_deg": 25,
+      "collisions": [
+        {
+          "a": "NeckMotor0",
+          "b": "WukongHeadShell",
+          "volume_mm3": 11.917580772085204
+        }
+      ],
+      "pass": false
+    },
+    {
+      "yaw_deg": 0,
+      "pitch_deg": 30,
+      "collisions": [
+        {
+          "a": "camera",
+          "b": "NeckMotor1",
+          "volume_mm3": 3.1941980803952186
+        },
+        {
+          "a": "camera",
+          "b": "ElectronicsCarrier",
+          "volume_mm3": 34.56369323984587
+        },
+        {
+          "a": "camera",
+          "b": "UACNut1",
+          "volume_mm3": 0.7410322759091769
+        },
+        {
+          "a": "camera",
+          "b": "UACNut3",
+          "volume_mm3": 0.741032275909177
+        },
+        {
+          "a": "NeckMotor0",
+          "b": "WukongHeadShell",
+          "volume_mm3": 28.558117436983867
+        }
+      ],
+      "pass": false
+    },
+    {
+      "yaw_deg": 0,
+      "pitch_deg": 35,
+      "collisions": [
+        {
+          "a": "camera",
+          "b": "NeckMotor1",
+          "volume_mm3": 13.702468896572746
+        },
+        {
+          "a": "camera",
+          "b": "ElectronicsCarrier",
+          "volume_mm3": 34.31320017342215
+        },
+        {
+          "a": "camera",
+          "b": "UACNut1",
+          "volume_mm3": 12.366021415761049
+        },
+        {
+          "a": "camera",
+          "b": "UACScrew1",
+          "volume_mm3": 2.069524254310455
+        },
+        {
+          "a": "camera",
+          "b": "UACNut3",
+          "volume_mm3": 12.366021415761045
+        },
+        {
+          "a": "camera",
+          "b": "UACScrew3",
+          "volume_mm3": 2.069524254310455
+        },
+        {
+          "a": "NeckMotor0",
+          "b": "WukongHeadShell",
+          "volume_mm3": 57.54750265009617
+        }
+      ],
+      "pass": false
+    },
+    {
+      "yaw_deg": 0,
+      "pitch_deg": 40,
+      "collisions": [
+        {
+          "a": "camera",
+          "b": "NeckMotor1",
+          "volume_mm3": 4.760897218890221
+        },
+        {
+          "a": "camera",
+          "b": "ElectronicsCarrier",
+          "volume_mm3": 14.78175241514492
+        },
+        {
+          "a": "camera",
+          "b": "UACNut1",
+          "volume_mm3": 3.5491052176489664
+        },
+        {
+          "a": "camera",
+          "b": "UACScrew1",
+          "volume_mm3": 0.009484250810102148
+        },
+        {
+          "a": "camera",
+          "b": "UACNut3",
+          "volume_mm3": 3.5491052176489064
+        },
+        {
+          "a": "camera",
+          "b": "UACScrew3",
+          "volume_mm3": 0.009484250810102148
+        },
+        {
+          "a": "NeckMotor0",
+          "b": "WukongHeadShell",
+          "volume_mm3": 98.24457956729138
+        }
+      ],
+      "pass": false
+    },
+    {
+      "yaw_deg": 0,
+      "pitch_deg": 45,
+      "collisions": [
+        {
+          "a": "camera",
+          "b": "NeckMotor1",
+          "volume_mm3": 26.422519902689917
+        },
+        {
+          "a": "camera",
+          "b": "ElectronicsCarrier",
+          "volume_mm3": 6.453214616005145
+        },
+        {
+          "a": "camera",
+          "b": "UACNut1",
+          "volume_mm3": 0.44999145153614106
+        },
+        {
+          "a": "camera",
+          "b": "UACNut3",
+          "volume_mm3": 0.44999145153614106
+        },
+        {
+          "a": "NeckMotor0",
+          "b": "WukongHeadShell",
+          "volume_mm3": 3.750722364130844
+        }
+      ],
+      "pass": false
+    },
+    {
+      "yaw_deg": 0,
+      "pitch_deg": 50,
+      "collisions": [
+        {
+          "a": "camera",
+          "b": "NeckMotor1",
+          "volume_mm3": 25.721763079535723
+        },
+        {
+          "a": "camera",
+          "b": "ElectronicsCarrier",
+          "volume_mm3": 3.6732136766784005
+        },
+        {
+          "a": "camera",
+          "b": "UACNut1",
+          "volume_mm3": 0.008181073166281473
+        },
+        {
+          "a": "camera",
+          "b": "UACNut3",
+          "volume_mm3": 0.008181073166281473
+        },
+        {
+          "a": "NeckMotor0",
+          "b": "WukongHeadShell",
+          "volume_mm3": 3.796657239555957
+        },
+        {
+          "a": "NeckMotor1",
+          "b": "WukongHeadShell",
+          "volume_mm3": 0.0003535405933872417
+        }
+      ],
+      "pass": false
+    },
+    {
+      "yaw_deg": -30,
+      "pitch_deg": 0,
+      "collisions": [],
+      "pass": true
+    },
+    {
+      "yaw_deg": -30,
+      "pitch_deg": 30,
+      "collisions": [
+        {
+          "a": "camera",
+          "b": "NeckMotor0",
+          "volume_mm3": 3.754951331862525
+        },
+        {
+          "a": "camera",
+          "b": "NeckMotor1",
+          "volume_mm3": 3.194198080395264
+        },
+        {
+          "a": "camera",
+          "b": "UACCassette",
+          "volume_mm3": 67.15245156204476
+        },
+        {
+          "a": "NeckMotor0",
+          "b": "WukongHeadShell",
+          "volume_mm3": 158.36420642453692
+        }
+      ],
+      "pass": false
+    },
+    {
+      "yaw_deg": -30,
+      "pitch_deg": 45,
+      "collisions": [
+        {
+          "a": "camera",
+          "b": "NeckMotor0",
+          "volume_mm3": 191.92251490664032
+        },
+        {
+          "a": "camera",
+          "b": "NeckMotor1",
+          "volume_mm3": 26.422519902688688
+        },
+        {
+          "a": "camera",
+          "b": "UACCassette",
+          "volume_mm3": 499.5824462062136
+        },
+        {
+          "a": "camera",
+          "b": "InsulationSheet_PROVISIONAL",
+          "volume_mm3": 25.628357888136993
+        },
+        {
+          "a": "camera",
+          "b": "RemainingBoardSpace_PROBE",
+          "volume_mm3": 291.51331983056843
+        },
+        {
+          "a": "NeckMotor0",
+          "b": "WukongHeadShell",
+          "volume_mm3": 2.8351863135620103
+        }
+      ],
+      "pass": false
+    },
+    {
+      "yaw_deg": -30,
+      "pitch_deg": 50,
+      "collisions": [
+        {
+          "a": "camera",
+          "b": "NeckMotor0",
+          "volume_mm3": 385.2865393252871
+        },
+        {
+          "a": "camera",
+          "b": "NeckMotor1",
+          "volume_mm3": 25.721763079533922
+        },
+        {
+          "a": "camera",
+          "b": "UACCassette",
+          "volume_mm3": 559.538441598923
+        },
+        {
+          "a": "camera",
+          "b": "InsulationSheet_PROVISIONAL",
+          "volume_mm3": 39.85678596121575
+        },
+        {
+          "a": "camera",
+          "b": "RemainingBoardSpace_PROBE",
+          "volume_mm3": 299.46104338407577
+        },
+        {
+          "a": "NeckMotor0",
+          "b": "WukongHeadShell",
+          "volume_mm3": 3.300851808674671
+        },
+        {
+          "a": "NeckMotor1",
+          "b": "WukongHeadShell",
+          "volume_mm3": 0.0003535405933862251
+        }
+      ],
+      "pass": false
+    },
+    {
+      "yaw_deg": -15,
+      "pitch_deg": 0,
+      "collisions": [],
+      "pass": true
+    },
+    {
+      "yaw_deg": -15,
+      "pitch_deg": 30,
+      "collisions": [
+        {
+          "a": "camera",
+          "b": "NeckMotor1",
+          "volume_mm3": 3.1941980803945222
+        },
+        {
+          "a": "camera",
+          "b": "UACCassette",
+          "volume_mm3": 78.31145170084065
+        },
+        {
+          "a": "NeckMotor0",
+          "b": "WukongHeadShell",
+          "volume_mm3": 79.79868152496613
+        }
+      ],
+      "pass": false
+    },
+    {
+      "yaw_deg": -15,
+      "pitch_deg": 45,
+      "collisions": [
+        {
+          "a": "camera",
+          "b": "NeckMotor1",
+          "volume_mm3": 26.422519902688066
+        },
+        {
+          "a": "camera",
+          "b": "ElectronicsCarrier",
+          "volume_mm3": 14.421046747544155
+        },
+        {
+          "a": "camera",
+          "b": "UACCassette",
+          "volume_mm3": 246.2679457305194
+        },
+        {
+          "a": "camera",
+          "b": "InsulationSheet_PROVISIONAL",
+          "volume_mm3": 10.41180862190693
+        },
+        {
+          "a": "camera",
+          "b": "RemainingBoardSpace_PROBE",
+          "volume_mm3": 17.148227670763873
+        },
+        {
+          "a": "NeckMotor0",
+          "b": "WukongHeadShell",
+          "volume_mm3": 3.4651633976678577
+        }
+      ],
+      "pass": false
+    },
+    {
+      "yaw_deg": -15,
+      "pitch_deg": 50,
+      "collisions": [
+        {
+          "a": "camera",
+          "b": "NeckMotor0",
+          "volume_mm3": 41.74135513383795
+        },
+        {
+          "a": "camera",
+          "b": "NeckMotor1",
+          "volume_mm3": 25.72176307953649
+        },
+        {
+          "a": "camera",
+          "b": "ElectronicsCarrier",
+          "volume_mm3": 26.164724452425432
+        },
+        {
+          "a": "camera",
+          "b": "UACCassette",
+          "volume_mm3": 194.91381842218783
+        },
+        {
+          "a": "camera",
+          "b": "InsulationSheet_PROVISIONAL",
+          "volume_mm3": 5.6756829772434205
+        },
+        {
+          "a": "camera",
+          "b": "RemainingBoardSpace_PROBE",
+          "volume_mm3": 7.064711824330543
+        },
+        {
+          "a": "NeckMotor0",
+          "b": "WukongHeadShell",
+          "volume_mm3": 3.1816910041530946
+        },
+        {
+          "a": "NeckMotor1",
+          "b": "WukongHeadShell",
+          "volume_mm3": 0.0003535405933872593
+        }
+      ],
+      "pass": false
+    },
+    {
+      "yaw_deg": 15,
+      "pitch_deg": 0,
+      "collisions": [],
+      "pass": true
+    },
+    {
+      "yaw_deg": 15,
+      "pitch_deg": 30,
+      "collisions": [
+        {
+          "a": "camera",
+          "b": "NeckMotor1",
+          "volume_mm3": 3.1941980803950196
+        },
+        {
+          "a": "camera",
+          "b": "UACCassette",
+          "volume_mm3": 78.31145170083991
+        },
+        {
+          "a": "camera",
+          "b": "ArrayCable_PROBE",
+          "volume_mm3": 0.5893443868771835
+        },
+        {
+          "a": "NeckMotor0",
+          "b": "WukongHeadShell",
+          "volume_mm3": 2.6680027597364298
+        }
+      ],
+      "pass": false
+    },
+    {
+      "yaw_deg": 15,
+      "pitch_deg": 45,
+      "collisions": [
+        {
+          "a": "camera",
+          "b": "NeckMotor1",
+          "volume_mm3": 26.422519902687792
+        },
+        {
+          "a": "camera",
+          "b": "ElectronicsCarrier",
+          "volume_mm3": 14.421046747544036
+        },
+        {
+          "a": "camera",
+          "b": "UACCassette",
+          "volume_mm3": 246.2679457305199
+        },
+        {
+          "a": "camera",
+          "b": "InsulationSheet_PROVISIONAL",
+          "volume_mm3": 10.411808621906907
+        },
+        {
+          "a": "camera",
+          "b": "ArrayCable_PROBE",
+          "volume_mm3": 0.019080242998747166
+        },
+        {
+          "a": "camera",
+          "b": "RemainingBoardSpace_PROBE",
+          "volume_mm3": 17.148227670763994
+        },
+        {
+          "a": "NeckMotor0",
+          "b": "WukongHeadShell",
+          "volume_mm3": 56.56940183101605
+        }
+      ],
+      "pass": false
+    },
+    {
+      "yaw_deg": 15,
+      "pitch_deg": 50,
+      "collisions": [
+        {
+          "a": "camera",
+          "b": "NeckMotor1",
+          "volume_mm3": 25.72176307953666
+        },
+        {
+          "a": "camera",
+          "b": "ElectronicsCarrier",
+          "volume_mm3": 26.164724452425432
+        },
+        {
+          "a": "camera",
+          "b": "UACCassette",
+          "volume_mm3": 194.91381842218783
+        },
+        {
+          "a": "camera",
+          "b": "InsulationSheet_PROVISIONAL",
+          "volume_mm3": 5.675682977243403
+        },
+        {
+          "a": "camera",
+          "b": "RemainingBoardSpace_PROBE",
+          "volume_mm3": 7.0647118243306934
+        },
+        {
+          "a": "NeckMotor0",
+          "b": "WukongHeadShell",
+          "volume_mm3": 126.73479611926521
+        },
+        {
+          "a": "NeckMotor1",
+          "b": "WukongHeadShell",
+          "volume_mm3": 0.00035354059338735564
+        }
+      ],
+      "pass": false
+    }
+  ],
+  "actual_brackets_and_load_path_verified": false,
+  "manufacturer_geometry_includes_idler": true
+}

@@ -1,0 +1,9 @@
+{
+  "stage":"v0.23-integration-revision",
+  "updated_on":"2026-09-07",
+  "source":"03_system/electronics_carrier_v23.json",
+  "front_lower_edge_chamfer_mm":1.5,
+  "grommet_inner_radius_mm":3.6,
+  "reasons":["Original tray front lower edge overlapped left inner thigh rail by0.873983mm3 at body height114mm","Original6.6mm grommet bore overlapped bent harness probe by0.035458mm3"],
+  "limits":["Reference modules retained; real microphone interface and electronic SKUs still unconfirmed","Chamfer and bore changes require strength,preload and actual fit validation; geometry pass is not manufacturing release"]
+}

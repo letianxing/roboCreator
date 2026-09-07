@@ -1,0 +1,405 @@
+{
+  "complete": true,
+  "rows": [
+    {
+      "scene": "stand",
+      "object": "L_RollRod",
+      "construction_inset_mm": 3,
+      "native_valid": true,
+      "STEP_valid": true,
+      "native_delta": {
+        "volume_delta_mm3": -0.0002516503120659763,
+        "area_delta_mm2": -0.00013318030278242077,
+        "center_displacement_mm": 6.038296246522417e-06,
+        "max_bbox_delta_mm": 6.350333592308743e-10,
+        "faces_delta": -3
+      },
+      "STEP_delta": {
+        "volume_delta_mm3": 0.002369739526216108,
+        "area_delta_mm2": 0.0014703373129805186,
+        "center_displacement_mm": 1.888922571363013e-05,
+        "max_bbox_delta_mm": 2.434162318820654e-06,
+        "faces_delta": -3
+      },
+      "STEP_check": {
+        "return": "None",
+        "error": null
+      }
+    },
+    {
+      "scene": "stand",
+      "object": "L_RollRod",
+      "construction_inset_mm": 4,
+      "native_valid": true,
+      "STEP_valid": true,
+      "native_delta": {
+        "volume_delta_mm3": -0.0003522755409903766,
+        "area_delta_mm2": -2.1901464606344234e-05,
+        "center_displacement_mm": 7.840556667973955e-06,
+        "max_bbox_delta_mm": 3.9253933437066735e-10,
+        "faces_delta": -3
+      },
+      "STEP_delta": {
+        "volume_delta_mm3": 0.0021762992383855817,
+        "area_delta_mm2": 0.001372636808241623,
+        "center_displacement_mm": 1.7306623143545204e-05,
+        "max_bbox_delta_mm": 2.4573751957746026e-06,
+        "faces_delta": -3
+      },
+      "STEP_check": {
+        "return": "None",
+        "error": null
+      }
+    },
+    {
+      "scene": "stand",
+      "object": "R_RollRod",
+      "construction_inset_mm": 3,
+      "native_valid": true,
+      "STEP_valid": true,
+      "native_delta": {
+        "volume_delta_mm3": -0.0002516548047424294,
+        "area_delta_mm2": -0.00013317787272626447,
+        "center_displacement_mm": 6.005245694695833e-06,
+        "max_bbox_delta_mm": 6.350191483761591e-10,
+        "faces_delta": -3
+      },
+      "STEP_delta": {
+        "volume_delta_mm3": 0.002369738985521508,
+        "area_delta_mm2": 0.0014703376432407822,
+        "center_displacement_mm": 1.8908446658371435e-05,
+        "max_bbox_delta_mm": 2.4341628659385606e-06,
+        "faces_delta": -3
+      },
+      "STEP_check": {
+        "return": "None",
+        "error": null
+      }
+    },
+    {
+      "scene": "stand",
+      "object": "R_RollRod",
+      "construction_inset_mm": 4,
+      "native_valid": true,
+      "STEP_valid": true,
+      "native_delta": {
+        "volume_delta_mm3": -0.0003523261098052899,
+        "area_delta_mm2": -2.1924787233729148e-05,
+        "center_displacement_mm": 7.835914677414953e-06,
+        "max_bbox_delta_mm": 3.9252512351595215e-10,
+        "faces_delta": -3
+      },
+      "STEP_delta": {
+        "volume_delta_mm3": 0.0021762855782299084,
+        "area_delta_mm2": 0.0013726306738135463,
+        "center_displacement_mm": 1.732631774974763e-05,
+        "max_bbox_delta_mm": 2.4573752099854573e-06,
+        "faces_delta": -3
+      },
+      "STEP_check": {
+        "return": "None",
+        "error": null
+      }
+    },
+    {
+      "scene": "lift_h114",
+      "object": "L_RollRod",
+      "construction_inset_mm": 3,
+      "native_valid": true,
+      "STEP_valid": false,
+      "native_delta": {
+        "volume_delta_mm3": -0.000251643205047003,
+        "area_delta_mm2": -0.0001331794701400213,
+        "center_displacement_mm": 6.034902414993875e-06,
+        "max_bbox_delta_mm": 1.2522605175036006e-10,
+        "faces_delta": -3
+      },
+      "STEP_delta": {
+        "volume_delta_mm3": 0.0023697488313700887,
+        "area_delta_mm2": 0.0014703412261951598,
+        "center_displacement_mm": 1.8888465781151556e-05,
+        "max_bbox_delta_mm": 1.9627272678235386e-06,
+        "faces_delta": -3
+      },
+      "STEP_check": {
+        "error": "Self-intersecting wire\nUnorientable shape\nNo error\nNo error\n",
+        "exception": "ValueError"
+      }
+    },
+    {
+      "scene": "lift_h114",
+      "object": "L_RollRod",
+      "construction_inset_mm": 4,
+      "native_valid": true,
+      "STEP_valid": false,
+      "native_delta": {
+        "volume_delta_mm3": -0.0003523584468894114,
+        "area_delta_mm2": -2.1941574004813447e-05,
+        "center_displacement_mm": 7.842169910120144e-06,
+        "max_bbox_delta_mm": 7.737810392427491e-11,
+        "faces_delta": -3
+      },
+      "STEP_delta": {
+        "volume_delta_mm3": 0.002176286443045683,
+        "area_delta_mm2": 0.0013726306310672953,
+        "center_displacement_mm": 1.730637912917501e-05,
+        "max_bbox_delta_mm": 1.3175752116012518e-06,
+        "faces_delta": -3
+      },
+      "STEP_check": {
+        "error": "Self-intersecting wire\nUnorientable shape\nNo error\nNo error\n",
+        "exception": "ValueError"
+      }
+    },
+    {
+      "scene": "lift_h114",
+      "object": "R_RollRod",
+      "construction_inset_mm": 3,
+      "native_valid": true,
+      "STEP_valid": false,
+      "native_delta": {
+        "volume_delta_mm3": -0.00025154734203169937,
+        "area_delta_mm2": -0.00013313605529674533,
+        "center_displacement_mm": 6.00357041440168e-06,
+        "max_bbox_delta_mm": 4.784315166261877e-10,
+        "faces_delta": -3
+      },
+      "STEP_delta": {
+        "volume_delta_mm3": 0.0023697653061844903,
+        "area_delta_mm2": 0.001470348258294507,
+        "center_displacement_mm": 1.890797034969491e-05,
+        "max_bbox_delta_mm": 1.8339142018319876e-06,
+        "faces_delta": -3
+      },
+      "STEP_check": {
+        "error": "Self-intersecting wire\nUnorientable shape\nNo error\nNo error\n",
+        "exception": "ValueError"
+      }
+    },
+    {
+      "scene": "lift_h114",
+      "object": "R_RollRod",
+      "construction_inset_mm": 4,
+      "native_valid": true,
+      "STEP_valid": false,
+      "native_delta": {
+        "volume_delta_mm3": -0.0003523591987004693,
+        "area_delta_mm2": -2.1943645492683572e-05,
+        "center_displacement_mm": 7.835025979605035e-06,
+        "max_bbox_delta_mm": 2.956834777023687e-10,
+        "faces_delta": -3
+      },
+      "STEP_delta": {
+        "volume_delta_mm3": 0.0021762783071608283,
+        "area_delta_mm2": 0.0013726262624231822,
+        "center_displacement_mm": 1.7326438269375625e-05,
+        "max_bbox_delta_mm": 1.8513945887477234e-06,
+        "faces_delta": -3
+      },
+      "STEP_check": {
+        "error": "Self-intersecting wire\nUnorientable shape\nNo error\nNo error\n",
+        "exception": "ValueError"
+      }
+    },
+    {
+      "scene": "lift_h117",
+      "object": "L_RollRod",
+      "construction_inset_mm": 3,
+      "native_valid": true,
+      "STEP_valid": false,
+      "native_delta": {
+        "volume_delta_mm3": -0.00025159867846014095,
+        "area_delta_mm2": -0.00013315704518390703,
+        "center_displacement_mm": 6.037334334748271e-06,
+        "max_bbox_delta_mm": 1.7568879684404237e-10,
+        "faces_delta": -3
+      },
+      "STEP_delta": {
+        "volume_delta_mm3": 0.0023697558995081636,
+        "area_delta_mm2": 0.001470344656013367,
+        "center_displacement_mm": 1.8888916429906394e-05,
+        "max_bbox_delta_mm": 1.9251021683430736e-06,
+        "faces_delta": -3
+      },
+      "STEP_check": {
+        "error": "Self-intersecting wire\nUnorientable shape\nNo error\nNo error\n",
+        "exception": "ValueError"
+      }
+    },
+    {
+      "scene": "lift_h117",
+      "object": "L_RollRod",
+      "construction_inset_mm": 4,
+      "native_valid": true,
+      "STEP_valid": false,
+      "native_delta": {
+        "volume_delta_mm3": -0.00035245339131506626,
+        "area_delta_mm2": -2.1981064264764427e-05,
+        "center_displacement_mm": 7.840415689192648e-06,
+        "max_bbox_delta_mm": 1.085567191694281e-10,
+        "faces_delta": -3
+      },
+      "STEP_delta": {
+        "volume_delta_mm3": 0.0021762645695844185,
+        "area_delta_mm2": 0.0013726209548394763,
+        "center_displacement_mm": 1.7306790408571496e-05,
+        "max_bbox_delta_mm": 1.2923185579438723e-06,
+        "faces_delta": -3
+      },
+      "STEP_check": {
+        "error": "Self-intersecting wire\nUnorientable shape\nNo error\nNo error\n",
+        "exception": "ValueError"
+      }
+    },
+    {
+      "scene": "lift_h117",
+      "object": "R_RollRod",
+      "construction_inset_mm": 3,
+      "native_valid": true,
+      "STEP_valid": false,
+      "native_delta": {
+        "volume_delta_mm3": -0.00025154734203169937,
+        "area_delta_mm2": -0.00013313605529674533,
+        "center_displacement_mm": 6.00357041440168e-06,
+        "max_bbox_delta_mm": 4.784315166261877e-10,
+        "faces_delta": -3
+      },
+      "STEP_delta": {
+        "volume_delta_mm3": 0.0023697653061844903,
+        "area_delta_mm2": 0.001470348258294507,
+        "center_displacement_mm": 1.890797034969491e-05,
+        "max_bbox_delta_mm": 1.8339142018319876e-06,
+        "faces_delta": -3
+      },
+      "STEP_check": {
+        "error": "Self-intersecting wire\nUnorientable shape\nNo error\nNo error\n",
+        "exception": "ValueError"
+      }
+    },
+    {
+      "scene": "lift_h117",
+      "object": "R_RollRod",
+      "construction_inset_mm": 4,
+      "native_valid": true,
+      "STEP_valid": false,
+      "native_delta": {
+        "volume_delta_mm3": -0.0003523591987004693,
+        "area_delta_mm2": -2.1943645492683572e-05,
+        "center_displacement_mm": 7.835025979605035e-06,
+        "max_bbox_delta_mm": 2.956834777023687e-10,
+        "faces_delta": -3
+      },
+      "STEP_delta": {
+        "volume_delta_mm3": 0.0021762783071608283,
+        "area_delta_mm2": 0.0013726262624231822,
+        "center_displacement_mm": 1.7326438269375625e-05,
+        "max_bbox_delta_mm": 1.8513945887477234e-06,
+        "faces_delta": -3
+      },
+      "STEP_check": {
+        "error": "Self-intersecting wire\nUnorientable shape\nNo error\nNo error\n",
+        "exception": "ValueError"
+      }
+    },
+    {
+      "scene": "lift_h120",
+      "object": "L_RollRod",
+      "construction_inset_mm": 3,
+      "native_valid": true,
+      "STEP_valid": false,
+      "native_delta": {
+        "volume_delta_mm3": -0.0002516381508712584,
+        "area_delta_mm2": -0.0001331824412318383,
+        "center_displacement_mm": 6.0383891425065006e-06,
+        "max_bbox_delta_mm": 2.5072210974030895e-10,
+        "faces_delta": -3
+      },
+      "STEP_delta": {
+        "volume_delta_mm3": 0.002369741696611527,
+        "area_delta_mm2": 0.0014703369462267801,
+        "center_displacement_mm": 1.888924195841594e-05,
+        "max_bbox_delta_mm": 1.8433493664815614e-06,
+        "faces_delta": -3
+      },
+      "STEP_check": {
+        "error": "Self-intersecting wire\nUnorientable shape\nNo error\nNo error\n",
+        "exception": "ValueError"
+      }
+    },
+    {
+      "scene": "lift_h120",
+      "object": "L_RollRod",
+      "construction_inset_mm": 4,
+      "native_valid": true,
+      "STEP_valid": false,
+      "native_delta": {
+        "volume_delta_mm3": -0.0003523190224541395,
+        "area_delta_mm2": -2.1925101691522286e-05,
+        "center_displacement_mm": 7.839472370840264e-06,
+        "max_bbox_delta_mm": 1.5494094895984745e-10,
+        "faces_delta": -3
+      },
+      "STEP_delta": {
+        "volume_delta_mm3": 0.0021762867110055595,
+        "area_delta_mm2": 0.001372630506580208,
+        "center_displacement_mm": 1.7306907019731383e-05,
+        "max_bbox_delta_mm": 1.2374370044199168e-06,
+        "faces_delta": -3
+      },
+      "STEP_check": {
+        "error": "Self-intersecting wire\nUnorientable shape\nNo error\nNo error\n",
+        "exception": "ValueError"
+      }
+    },
+    {
+      "scene": "lift_h120",
+      "object": "R_RollRod",
+      "construction_inset_mm": 3,
+      "native_valid": true,
+      "STEP_valid": false,
+      "native_delta": {
+        "volume_delta_mm3": -0.00025154734203169937,
+        "area_delta_mm2": -0.00013313605529674533,
+        "center_displacement_mm": 6.00357041440168e-06,
+        "max_bbox_delta_mm": 4.784315166261877e-10,
+        "faces_delta": -3
+      },
+      "STEP_delta": {
+        "volume_delta_mm3": 0.0023697653061844903,
+        "area_delta_mm2": 0.001470348258294507,
+        "center_displacement_mm": 1.890797034969491e-05,
+        "max_bbox_delta_mm": 1.8339142018319876e-06,
+        "faces_delta": -3
+      },
+      "STEP_check": {
+        "error": "Self-intersecting wire\nUnorientable shape\nNo error\nNo error\n",
+        "exception": "ValueError"
+      }
+    },
+    {
+      "scene": "lift_h120",
+      "object": "R_RollRod",
+      "construction_inset_mm": 4,
+      "native_valid": true,
+      "STEP_valid": false,
+      "native_delta": {
+        "volume_delta_mm3": -0.0003523591987004693,
+        "area_delta_mm2": -2.1943645492683572e-05,
+        "center_displacement_mm": 7.835025979605035e-06,
+        "max_bbox_delta_mm": 2.956834777023687e-10,
+        "faces_delta": -3
+      },
+      "STEP_delta": {
+        "volume_delta_mm3": 0.0021762783071608283,
+        "area_delta_mm2": 0.0013726262624231822,
+        "center_displacement_mm": 1.7326438269375625e-05,
+        "max_bbox_delta_mm": 1.8513945887477234e-06,
+        "faces_delta": -3
+      },
+      "STEP_check": {
+        "error": "Self-intersecting wire\nUnorientable shape\nNo error\nNo error\n",
+        "exception": "ValueError"
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "date":"2026-09-08",
+  "primary_engineering_candidate":"D436",
+  "procurement_frozen":false,
+  "reasons":["User preference for RealSense; nominal90x25x25 housing fits the existing neutral envelope","Global depth and global RGB with wider RGB FOV than D435i","Official range similar to D435 class, unlike the larger-minZ D455"],
+  "primary_blockers":["Official store observed backorder; Chinese supply/quote unverified","D436-specific mass/power, mechanical drawing and848x480 mode MinZ unconfirmed","M4 direct USB SDK functionality and application latency not tested","True neck/head-camera linkage and continuous optical coverage not implemented"],
+  "alternatives":[
+    {"id":"Gemini335","role":"compact cross-platform evaluation backup","tradeoff":"Vendor documents M2 testing, not our M4; RGB rolling shutter; 5mm deeper housing and modified tilt packaging"},
+    {"id":"Gemini335L","role":"global-RGB larger alternative","tradeoff":"124mm width/133g and disparity-dependent near limit; requires more mechanical changes"},
+    {"id":"D405","role":"optional close-operation second camera, not automatically added","tradeoff":"Short ideal range and42mm vertical envelope; cannot replace all environment/opponent perception"},
+    {"id":"D435i","role":"same-size fallback with RGB motion/FOV compromises","tradeoff":"RGB rolling shutter and69x42deg RGB FOV"},
+    {"id":"D455","role":"longer-range alternative, not first choice for this tabletop task","tradeoff":"124mm body and520/350mm MinZ in the evaluated modes"}
+  ],
+  "before_adding_second_camera":"First test a real D436 near mode such as640x360. D430 table says150mm, but D436 mode behavior must be verified; do not inherit untested firmware behavior as fact.",
+  "next_mechanical_gate":"Define the actual two-axis neck frames and head-camera rigid attachment, optical axes and cable path. Test neutral-to-downward continuous motion with moving head shell, not sensor-only center rotation.",
+  "SDK_installation_authorized":false,
+  "hardware_test_executed":false
+}

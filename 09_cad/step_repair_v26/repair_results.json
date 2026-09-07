@@ -1,0 +1,1600 @@
+{
+  "complete": true,
+  "input_sha256": "461594aa3d430a105b41c0f604f2234747e473e25670a6c4ab1bbf412c47e50a",
+  "FreeCAD_version": [
+    "1",
+    "1",
+    "3",
+    "20260725 (Git shallow)",
+    "Unknown",
+    "2026/07/25 04:52:02",
+    "grafted,grafted",
+    "145529fe741292ff0b3977a01195bf0247425794"
+  ],
+  "OCC_version": "7.8.1",
+  "scenes": [
+    {
+      "scene": "stand",
+      "source_native_sha256": "9f8b45cf5028fd71c1a0dc17e7597339bdc2582216939f31b7c06b30994bd813",
+      "source_STEP_sha256": "136388ef04976b20a9d5140be385b54203b220bdd67f973b393c187e6e37d7a5",
+      "targets": [
+        {
+          "object": "L_RollRod",
+          "before": {
+            "valid": true,
+            "volume_mm3": 756.5483231265774,
+            "area_mm2": 821.466415470298,
+            "center_mm": [
+              57.11163733503406,
+              74.99999989468078,
+              78.71643681573663
+            ],
+            "bbox_mm": [
+              51.84270607691553,
+              62.3805678403077,
+              70.0,
+              80.0,
+              59.657791035377215,
+              97.77507836050886
+            ],
+            "faces": 13,
+            "edges": 32,
+            "vertices": 16,
+            "solids": 1,
+            "max_topology_tolerance_mm": 1e-05
+          },
+          "after": {
+            "valid": true,
+            "volume_mm3": 756.5499742505065,
+            "area_mm2": 821.4670566456745,
+            "center_mm": [
+              57.11163227358472,
+              74.99999972312833,
+              78.71640919287688
+            ],
+            "bbox_mm": [
+              51.842706076915604,
+              62.38056784094273,
+              70.0,
+              80.0,
+              59.65779103526525,
+              97.77507836050884
+            ],
+            "faces": 11,
+            "edges": 27,
+            "vertices": 14,
+            "solids": 1,
+            "max_topology_tolerance_mm": 5.129101429343724e-05
+          },
+          "difference": {
+            "volume_delta_mm3": 0.0016511239290366575,
+            "area_delta_mm2": 0.0006411753764723471,
+            "center_displacement_mm": 2.8083270470301502e-05,
+            "max_bbox_delta_mm": 6.350333592308743e-10,
+            "faces_delta": -2
+          },
+          "boundary_samples": [
+            {
+              "sample_count": 1700,
+              "max_sample_distance_mm": 5.555555534218615e-08
+            },
+            {
+              "sample_count": 1398,
+              "max_sample_distance_mm": 5.7659509770985476e-08
+            }
+          ],
+          "eye_centers_local_mm": [
+            [
+              49.000000000000085,
+              15.0,
+              100.0
+            ],
+            [
+              49.00000000000008,
+              15.0,
+              72.0
+            ]
+          ],
+          "eye_widths_mm": [
+            4.0,
+            4.000000000000014
+          ],
+          "native_check": {
+            "return": "None",
+            "error": null
+          },
+          "mass_delta_kg_at_inherited_steel_density": 1.296132284293776e-08,
+          "STEP_solid_index": 27,
+          "STEP_vs_original": {
+            "volume_delta_mm3": 0.001997664787722897,
+            "area_delta_mm2": 0.001218937376620488,
+            "center_displacement_mm": 2.4643461852688853e-05,
+            "max_bbox_delta_mm": 2.4388871437963644e-06,
+            "faces_delta": -2
+          },
+          "STEP_boundary_samples": [
+            {
+              "sample_count": 1700,
+              "max_sample_distance_mm": 5.5555627950574885e-08
+            },
+            {
+              "sample_count": 1398,
+              "max_sample_distance_mm": 5.7659590042075716e-08
+            }
+          ],
+          "STEP_check": {
+            "return": "None",
+            "error": null
+          }
+        },
+        {
+          "object": "R_RollRod",
+          "before": {
+            "valid": true,
+            "volume_mm3": 756.5483231265778,
+            "area_mm2": 821.466415470298,
+            "center_mm": [
+              57.11163733503407,
+              -74.99999989468078,
+              78.71643681573666
+            ],
+            "bbox_mm": [
+              51.84270607691554,
+              62.38056784030771,
+              -80.0,
+              -70.0,
+              59.65779103537723,
+              97.77507836050889
+            ],
+            "faces": 13,
+            "edges": 32,
+            "vertices": 16,
+            "solids": 1,
+            "max_topology_tolerance_mm": 1e-05
+          },
+          "after": {
+            "valid": true,
+            "volume_mm3": 756.5499742537321,
+            "area_mm2": 821.4670566447384,
+            "center_mm": [
+              57.11163227363765,
+              -75.00000027690898,
+              78.71640919307612
+            ],
+            "bbox_mm": [
+              51.842706076915604,
+              62.38056784094273,
+              -80.0,
+              -70.0,
+              59.65779103526528,
+              97.77507836050886
+            ],
+            "faces": 11,
+            "edges": 27,
+            "vertices": 14,
+            "solids": 1,
+            "max_topology_tolerance_mm": 5.1291012492140346e-05
+          },
+          "difference": {
+            "volume_delta_mm3": 0.0016511271543322437,
+            "area_delta_mm2": 0.0006411744403749253,
+            "center_displacement_mm": 2.8085142109894297e-05,
+            "max_bbox_delta_mm": 6.350191483761591e-10,
+            "faces_delta": -2
+          },
+          "boundary_samples": [
+            {
+              "sample_count": 1700,
+              "max_sample_distance_mm": 5.230827812587896e-08
+            },
+            {
+              "sample_count": 1398,
+              "max_sample_distance_mm": 5.221682820636836e-08
+            }
+          ],
+          "eye_centers_local_mm": [
+            [
+              49.00000000000008,
+              -15.0,
+              100.00000000000003
+            ],
+            [
+              49.00000000000008,
+              -15.0,
+              72.00000000000001
+            ]
+          ],
+          "eye_widths_mm": [
+            4.000000000000014,
+            4.000000000000014
+          ],
+          "native_check": {
+            "return": "None",
+            "error": null
+          },
+          "mass_delta_kg_at_inherited_steel_density": 1.2961348161508111e-08,
+          "STEP_solid_index": 105,
+          "STEP_vs_original": {
+            "volume_delta_mm3": 0.001997655397985909,
+            "area_delta_mm2": 0.0012189355745704233,
+            "center_displacement_mm": 2.4655256459518532e-05,
+            "max_bbox_delta_mm": 2.438887115374655e-06,
+            "faces_delta": -2
+          },
+          "STEP_boundary_samples": [
+            {
+              "sample_count": 1700,
+              "max_sample_distance_mm": 5.2309688009356766e-08
+            },
+            {
+              "sample_count": 1398,
+              "max_sample_distance_mm": 5.221825384985513e-08
+            }
+          ],
+          "STEP_check": {
+            "return": "None",
+            "error": null
+          }
+        }
+      ],
+      "unchanged_in_memory_shape_hash_count": 116,
+      "reopened_unrelated_numeric_normalization": {
+        "L_RollMotorVendor": {
+          "different_numeric_tokens": 23,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "L_HipRollMotor": {
+          "different_numeric_tokens": 23,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "L_HipYawMotor": {
+          "different_numeric_tokens": 23,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "R_RollMotorVendor": {
+          "different_numeric_tokens": 64,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "R_HipRollMotor": {
+          "different_numeric_tokens": 23,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "R_HipYawMotor": {
+          "different_numeric_tokens": 23,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "L_ShoulderMotor0": {
+          "different_numeric_tokens": 23,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "L_ShoulderMotor1": {
+          "different_numeric_tokens": 23,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "L_ShoulderMotor2": {
+          "different_numeric_tokens": 23,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "L_ElbowMotor": {
+          "different_numeric_tokens": 23,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "R_ShoulderMotor0": {
+          "different_numeric_tokens": 23,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "R_ShoulderMotor1": {
+          "different_numeric_tokens": 2,
+          "max_numeric_token_delta": 6.938893903907228e-18
+        },
+        "R_ShoulderMotor2": {
+          "different_numeric_tokens": 23,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "R_ElbowMotor": {
+          "different_numeric_tokens": 23,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        }
+      },
+      "component_count": 118,
+      "reimported_STEP_valid": true,
+      "reimported_STEP_solid_count": 362,
+      "source_native_solid_count": 362,
+      "changed_pair_audit": {
+        "failed_pairs": [],
+        "near_pairs": [
+          {
+            "a": "L_RollRod",
+            "b": "L_RollCrankTop",
+            "distance_mm": 0.9999999999997543,
+            "overlap_mm3": 0.0,
+            "intentional_reservation_union": false
+          },
+          {
+            "a": "L_RollRod",
+            "b": "L_RollCrankBottom",
+            "distance_mm": 0.9999999999998181,
+            "overlap_mm3": 0.0,
+            "intentional_reservation_union": false
+          },
+          {
+            "a": "L_RollRod",
+            "b": "L_RollPin0",
+            "distance_mm": 1.1457157353758233e-13,
+            "overlap_mm3": 0.0,
+            "intentional_reservation_union": false
+          },
+          {
+            "a": "L_RollRod",
+            "b": "L_RollPin1",
+            "distance_mm": 1.296618818777138e-13,
+            "overlap_mm3": 0.0,
+            "intentional_reservation_union": false
+          },
+          {
+            "a": "R_RollRod",
+            "b": "R_RollCrankTop",
+            "distance_mm": 0.9999999999997564,
+            "overlap_mm3": 0.0,
+            "intentional_reservation_union": false
+          },
+          {
+            "a": "R_RollRod",
+            "b": "R_RollCrankBottom",
+            "distance_mm": 0.9999999999998251,
+            "overlap_mm3": 0.0,
+            "intentional_reservation_union": false
+          },
+          {
+            "a": "R_RollRod",
+            "b": "R_RollPin0",
+            "distance_mm": 1.0048591735576161e-13,
+            "overlap_mm3": 0.0,
+            "intentional_reservation_union": false
+          },
+          {
+            "a": "R_RollRod",
+            "b": "R_RollPin1",
+            "distance_mm": 1.296618818777138e-13,
+            "overlap_mm3": 0.0,
+            "intentional_reservation_union": false
+          }
+        ],
+        "changed_pairs_considered": 233,
+        "pass": true
+      },
+      "assembly_bbox_max_delta_mm": 0.0,
+      "CAD_mass_delta_kg": 2.5922671004445872e-08,
+      "manufacturing_release": false,
+      "output_sha256": {
+        "09_cad\\step_repair_v26\\repaired\\stand.FCStd": "235081a80cd6c1b5ac915b6319fc66a557fe088372acc216afef05cf7ea905a7",
+        "09_cad\\step_repair_v26\\repaired\\stand.step": "759ce78e14fa65032dad08e4791240ece6eb7052bf69f8b80d390ac7d89d0134"
+      }
+    },
+    {
+      "scene": "lift_h114",
+      "source_native_sha256": "e6df1814b03d3913bd68bdfe0b6ddff18f75853134591b67a3c119f553cf9d00",
+      "source_STEP_sha256": "c97b2b059d406b44da2f40ed0ce57c7674c678fbfe9077fa9644293dc251f270",
+      "targets": [
+        {
+          "object": "L_RollRod",
+          "before": {
+            "valid": true,
+            "volume_mm3": 756.5483231265785,
+            "area_mm2": 821.4664154702982,
+            "center_mm": [
+              97.14941677196401,
+              74.99999989468077,
+              96.54739088275792
+            ],
+            "bbox_mm": [
+              91.49648383538381,
+              102.80235053847332,
+              69.99999999999999,
+              79.99999999999999,
+              77.52082615078074,
+              115.57395139357504
+            ],
+            "faces": 13,
+            "edges": 32,
+            "vertices": 16,
+            "solids": 1,
+            "max_topology_tolerance_mm": 1e-05
+          },
+          "after": {
+            "valid": true,
+            "volume_mm3": 756.549974252549,
+            "area_mm2": 821.4670566643347,
+            "center_mm": [
+              97.14942204293618,
+              74.99999972305062,
+              96.54736329964165
+            ],
+            "bbox_mm": [
+              91.49648383538378,
+              102.80235053910575,
+              69.99999999999997,
+              79.99999999999997,
+              77.52082615078072,
+              115.57395139370027
+            ],
+            "faces": 11,
+            "edges": 27,
+            "vertices": 14,
+            "solids": 1,
+            "max_topology_tolerance_mm": 5.129098488242139e-05
+          },
+          "difference": {
+            "volume_delta_mm3": 0.0016511259705112025,
+            "area_delta_mm2": 0.0006411940364614566,
+            "center_displacement_mm": 2.808275107800231e-05,
+            "max_bbox_delta_mm": 6.324256673906348e-10,
+            "faces_delta": -2
+          },
+          "boundary_samples": [
+            {
+              "sample_count": 1700,
+              "max_sample_distance_mm": 5.5555494113387975e-08
+            },
+            {
+              "sample_count": 1398,
+              "max_sample_distance_mm": 5.765944799936656e-08
+            }
+          ],
+          "eye_centers_local_mm": [
+            [
+              48.999999999999986,
+              15.0,
+              100.0
+            ],
+            [
+              48.99999999999999,
+              15.0,
+              72.0
+            ]
+          ],
+          "eye_widths_mm": [
+            4.000000000000028,
+            4.000000000000014
+          ],
+          "native_check": {
+            "return": "None",
+            "error": null
+          },
+          "mass_delta_kg_at_inherited_steel_density": 1.2961338868512938e-08,
+          "STEP_solid_index": 152,
+          "STEP_vs_original": {
+            "volume_delta_mm3": 0.001997636535975289,
+            "area_delta_mm2": 0.0012189306899017538,
+            "center_displacement_mm": 2.464271815509251e-05,
+            "max_bbox_delta_mm": 2.429328020525645e-06,
+            "faces_delta": -2
+          },
+          "STEP_boundary_samples": [
+            {
+              "sample_count": 1700,
+              "max_sample_distance_mm": 5.555117122499075e-08
+            },
+            {
+              "sample_count": 1398,
+              "max_sample_distance_mm": 5.765485830680438e-08
+            }
+          ],
+          "STEP_check": {
+            "return": "None",
+            "error": null
+          }
+        },
+        {
+          "object": "R_RollRod",
+          "before": {
+            "valid": true,
+            "volume_mm3": 756.5483231265778,
+            "area_mm2": 821.4664154702976,
+            "center_mm": [
+              -146.6657611121117,
+              -74.99999989468077,
+              21.791429502897373
+            ],
+            "bbox_mm": [
+              -162.1038638493536,
+              -131.22766156279266,
+              -80.0,
+              -70.0,
+              7.569041314641027,
+              36.01382057977311
+            ],
+            "faces": 13,
+            "edges": 32,
+            "vertices": 16,
+            "solids": 1,
+            "max_topology_tolerance_mm": 1e-05
+          },
+          "after": {
+            "valid": true,
+            "volume_mm3": 756.5499742543919,
+            "area_mm2": 821.467056637937,
+            "center_mm": [
+              -146.66578182191014,
+              -75.000000276885,
+              21.791448469830797
+            ],
+            "bbox_mm": [
+              -162.10386384978585,
+              -131.2276615627927,
+              -80.0,
+              -70.0,
+              7.569041314162592,
+              36.01382057977307
+            ],
+            "faces": 11,
+            "edges": 27,
+            "vertices": 14,
+            "solids": 1,
+            "max_topology_tolerance_mm": 5.12910161718813e-05
+          },
+          "difference": {
+            "volume_delta_mm3": 0.0016511278141706498,
+            "area_delta_mm2": 0.0006411676394009191,
+            "center_displacement_mm": 2.808534127989067e-05,
+            "max_bbox_delta_mm": 4.784350693398665e-10,
+            "faces_delta": -2
+          },
+          "boundary_samples": [
+            {
+              "sample_count": 1700,
+              "max_sample_distance_mm": 5.230832699746999e-08
+            },
+            {
+              "sample_count": 1398,
+              "max_sample_distance_mm": 5.221688641699159e-08
+            }
+          ],
+          "eye_centers_local_mm": [
+            [
+              49.00000000000004,
+              -15.0,
+              100.00000000000003
+            ],
+            [
+              49.00000000000002,
+              -15.0,
+              72.00000000000001
+            ]
+          ],
+          "eye_widths_mm": [
+            4.000000000000028,
+            4.000000000000014
+          ],
+          "native_check": {
+            "return": "None",
+            "error": null
+          },
+          "mass_delta_kg_at_inherited_steel_density": 1.29613533412396e-08,
+          "STEP_solid_index": 73,
+          "STEP_vs_original": {
+            "volume_delta_mm3": 0.0019976371731900144,
+            "area_delta_mm2": 0.00121892755475983,
+            "center_displacement_mm": 2.4654883258279082e-05,
+            "max_bbox_delta_mm": 1.8374637500429003e-06,
+            "faces_delta": -2
+          },
+          "STEP_boundary_samples": [
+            {
+              "sample_count": 1700,
+              "max_sample_distance_mm": 5.2366452017909776e-08
+            },
+            {
+              "sample_count": 1398,
+              "max_sample_distance_mm": 5.2275034585958435e-08
+            }
+          ],
+          "STEP_check": {
+            "return": "None",
+            "error": null
+          }
+        }
+      ],
+      "unchanged_in_memory_shape_hash_count": 116,
+      "reopened_unrelated_numeric_normalization": {
+        "L_ShoulderMotor0": {
+          "different_numeric_tokens": 23,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "R_ShoulderMotor0": {
+          "different_numeric_tokens": 33,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "R_RollMotorVendor": {
+          "different_numeric_tokens": 64,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "R_HipRollMotor": {
+          "different_numeric_tokens": 64,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "R_HipYawMotor": {
+          "different_numeric_tokens": 23,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "L_RollMotorVendor": {
+          "different_numeric_tokens": 23,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "L_HipRollMotor": {
+          "different_numeric_tokens": 23,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "L_HipYawMotor": {
+          "different_numeric_tokens": 23,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "L_ShoulderMotor1": {
+          "different_numeric_tokens": 23,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "L_ShoulderMotor2": {
+          "different_numeric_tokens": 23,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "L_ElbowMotor": {
+          "different_numeric_tokens": 23,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "R_ShoulderMotor1": {
+          "different_numeric_tokens": 37,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "R_ShoulderMotor2": {
+          "different_numeric_tokens": 304,
+          "max_numeric_token_delta": 2.220446049250313e-16
+        },
+        "R_ElbowMotor": {
+          "different_numeric_tokens": 3852,
+          "max_numeric_token_delta": 9.947598300641403e-13
+        },
+        "R_ForearmLoadFrame": {
+          "different_numeric_tokens": 217,
+          "max_numeric_token_delta": 1.0658141036401503e-13
+        },
+        "R_GauntletPrimaryPad": {
+          "different_numeric_tokens": 55,
+          "max_numeric_token_delta": 9.947598300641403e-14
+        },
+        "R_WristMotorEnvelope0": {
+          "different_numeric_tokens": 26,
+          "max_numeric_token_delta": 9.947598300641403e-14
+        },
+        "R_WristMotorEnvelope1": {
+          "different_numeric_tokens": 26,
+          "max_numeric_token_delta": 9.947598300641403e-14
+        }
+      },
+      "component_count": 118,
+      "reimported_STEP_valid": true,
+      "reimported_STEP_solid_count": 362,
+      "source_native_solid_count": 362,
+      "changed_pair_audit": {
+        "failed_pairs": [],
+        "near_pairs": [
+          {
+            "a": "R_FixedFrame",
+            "b": "R_RollRod",
+            "distance_mm": 10.000000000000034,
+            "overlap_mm3": 0.0,
+            "intentional_reservation_union": false
+          },
+          {
+            "a": "R_FixedBearings",
+            "b": "R_RollRod",
+            "distance_mm": 10.198039027185596,
+            "overlap_mm3": 0,
+            "intentional_reservation_union": false
+          },
+          {
+            "a": "R_RollRod",
+            "b": "R_RollCrankTop",
+            "distance_mm": 1.0000000000000058,
+            "overlap_mm3": 0.0,
+            "intentional_reservation_union": false
+          },
+          {
+            "a": "R_RollRod",
+            "b": "R_RollCrankBottom",
+            "distance_mm": 1.0000000000000258,
+            "overlap_mm3": 0.0,
+            "intentional_reservation_union": false
+          },
+          {
+            "a": "R_RollRod",
+            "b": "R_RollPin0",
+            "distance_mm": 8.881784197001252e-15,
+            "overlap_mm3": 0.0,
+            "intentional_reservation_union": false
+          },
+          {
+            "a": "R_RollRod",
+            "b": "R_RollPin1",
+            "distance_mm": 7.105427357601002e-15,
+            "overlap_mm3": 0.0,
+            "intentional_reservation_union": false
+          },
+          {
+            "a": "L_FixedFrame",
+            "b": "L_RollRod",
+            "distance_mm": 9.999999999999766,
+            "overlap_mm3": 0,
+            "intentional_reservation_union": false
+          },
+          {
+            "a": "L_RollRod",
+            "b": "L_RollCrankTop",
+            "distance_mm": 0.9999999999997751,
+            "overlap_mm3": 0.0,
+            "intentional_reservation_union": false
+          },
+          {
+            "a": "L_RollRod",
+            "b": "L_RollCrankBottom",
+            "distance_mm": 0.9999999999998196,
+            "overlap_mm3": 0.0,
+            "intentional_reservation_union": false
+          },
+          {
+            "a": "L_RollRod",
+            "b": "L_RollPin0",
+            "distance_mm": 5.859285502108464e-14,
+            "overlap_mm3": 0.0,
+            "intentional_reservation_union": false
+          },
+          {
+            "a": "L_RollRod",
+            "b": "L_RollPin1",
+            "distance_mm": 8.644125458514252e-14,
+            "overlap_mm3": 0.0,
+            "intentional_reservation_union": false
+          }
+        ],
+        "changed_pairs_considered": 233,
+        "pass": true
+      },
+      "assembly_bbox_max_delta_mm": 0.0,
+      "CAD_mass_delta_kg": 2.5922692209752537e-08,
+      "manufacturing_release": false,
+      "output_sha256": {
+        "09_cad\\step_repair_v26\\repaired\\lift_h114.FCStd": "15efa2f5011c6f22efc26ff8b0223e1f9a7d0d06b15cbb835dbd44da5b0ae4e8",
+        "09_cad\\step_repair_v26\\repaired\\lift_h114.step": "5e11b97b38d1b35b3d0d24f3871def65e07d9ee0416490b35d4eeb9484f5d368"
+      }
+    },
+    {
+      "scene": "lift_h117",
+      "source_native_sha256": "6d1d80614861ff071771b61b9001f35a0818dc284bc8dddf4b4c5b4d6e05e482",
+      "source_STEP_sha256": "4fb1b3b389da2d2b7197f223de58a5293a83f29107105c2ee9e1889937e6d3b4",
+      "targets": [
+        {
+          "object": "L_RollRod",
+          "before": {
+            "valid": true,
+            "volume_mm3": 756.5483231265782,
+            "area_mm2": 821.4664154702982,
+            "center_mm": [
+              92.23541772074304,
+              74.99999989468078,
+              99.42412072245995
+            ],
+            "bbox_mm": [
+              85.13271386246839,
+              99.33812274583077,
+              70.0,
+              80.0,
+              80.59832258247341,
+              118.2499147217314
+            ],
+            "faces": 13,
+            "edges": 32,
+            "vertices": 16,
+            "solids": 1,
+            "max_topology_tolerance_mm": 1e-05
+          },
+          "after": {
+            "valid": true,
+            "volume_mm3": 756.5499742394736,
+            "area_mm2": 821.4670566386927,
+            "center_mm": [
+              92.23542519365611,
+              74.99999972312436,
+              99.42409365246387
+            ],
+            "bbox_mm": [
+              85.13271386246838,
+              99.33812274645108,
+              70.0,
+              80.0,
+              80.5983225824734,
+              118.2499147219071
+            ],
+            "faces": 11,
+            "edges": 27,
+            "vertices": 14,
+            "solids": 1,
+            "max_topology_tolerance_mm": 5.129062292759966e-05
+          },
+          "difference": {
+            "volume_delta_mm3": 0.001651112895387996,
+            "area_delta_mm2": 0.0006411683945088953,
+            "center_displacement_mm": 2.808306516527875e-05,
+            "max_bbox_delta_mm": 6.203038083185675e-10,
+            "faces_delta": -2
+          },
+          "boundary_samples": [
+            {
+              "sample_count": 1700,
+              "max_sample_distance_mm": 5.555548854463444e-08
+            },
+            {
+              "sample_count": 1398,
+              "max_sample_distance_mm": 5.765941975782028e-08
+            }
+          ],
+          "eye_centers_local_mm": [
+            [
+              48.99999999999998,
+              15.0,
+              100.0
+            ],
+            [
+              48.99999999999996,
+              15.0,
+              72.0
+            ]
+          ],
+          "eye_widths_mm": [
+            4.000000000000014,
+            4.0
+          ],
+          "native_check": {
+            "return": "None",
+            "error": null
+          },
+          "mass_delta_kg_at_inherited_steel_density": 1.2961236228795769e-08,
+          "STEP_solid_index": 152,
+          "STEP_vs_original": {
+            "volume_delta_mm3": 0.0019976521693934046,
+            "area_delta_mm2": 0.0012189313049475459,
+            "center_displacement_mm": 2.4643240847006575e-05,
+            "max_bbox_delta_mm": 2.3811667375639445e-06,
+            "faces_delta": -2
+          },
+          "STEP_boundary_samples": [
+            {
+              "sample_count": 1700,
+              "max_sample_distance_mm": 5.555535699297982e-08
+            },
+            {
+              "sample_count": 1398,
+              "max_sample_distance_mm": 5.7659336944667386e-08
+            }
+          ],
+          "STEP_check": {
+            "return": "None",
+            "error": null
+          }
+        },
+        {
+          "object": "R_RollRod",
+          "before": {
+            "valid": true,
+            "volume_mm3": 756.5483231265778,
+            "area_mm2": 821.4664154702976,
+            "center_mm": [
+              -146.6657611121117,
+              -74.99999989468077,
+              21.791429502897373
+            ],
+            "bbox_mm": [
+              -162.1038638493536,
+              -131.22766156279266,
+              -80.0,
+              -70.0,
+              7.569041314641027,
+              36.01382057977311
+            ],
+            "faces": 13,
+            "edges": 32,
+            "vertices": 16,
+            "solids": 1,
+            "max_topology_tolerance_mm": 1e-05
+          },
+          "after": {
+            "valid": true,
+            "volume_mm3": 756.5499742543919,
+            "area_mm2": 821.467056637937,
+            "center_mm": [
+              -146.66578182191014,
+              -75.000000276885,
+              21.791448469830797
+            ],
+            "bbox_mm": [
+              -162.10386384978585,
+              -131.2276615627927,
+              -80.0,
+              -70.0,
+              7.569041314162592,
+              36.01382057977307
+            ],
+            "faces": 11,
+            "edges": 27,
+            "vertices": 14,
+            "solids": 1,
+            "max_topology_tolerance_mm": 5.129101149819764e-05
+          },
+          "difference": {
+            "volume_delta_mm3": 0.0016511278141706498,
+            "area_delta_mm2": 0.0006411676394009191,
+            "center_displacement_mm": 2.808534127989067e-05,
+            "max_bbox_delta_mm": 4.784350693398665e-10,
+            "faces_delta": -2
+          },
+          "boundary_samples": [
+            {
+              "sample_count": 1700,
+              "max_sample_distance_mm": 5.230832699746999e-08
+            },
+            {
+              "sample_count": 1398,
+              "max_sample_distance_mm": 5.221688641699159e-08
+            }
+          ],
+          "eye_centers_local_mm": [
+            [
+              49.00000000000004,
+              -15.0,
+              100.00000000000003
+            ],
+            [
+              49.00000000000002,
+              -15.0,
+              72.00000000000001
+            ]
+          ],
+          "eye_widths_mm": [
+            4.000000000000028,
+            4.000000000000014
+          ],
+          "native_check": {
+            "return": "None",
+            "error": null
+          },
+          "mass_delta_kg_at_inherited_steel_density": 1.29613533412396e-08,
+          "STEP_solid_index": 73,
+          "STEP_vs_original": {
+            "volume_delta_mm3": 0.0019976371731900144,
+            "area_delta_mm2": 0.00121892755475983,
+            "center_displacement_mm": 2.4654883258279082e-05,
+            "max_bbox_delta_mm": 1.8374637500429003e-06,
+            "faces_delta": -2
+          },
+          "STEP_boundary_samples": [
+            {
+              "sample_count": 1700,
+              "max_sample_distance_mm": 5.2366452017909776e-08
+            },
+            {
+              "sample_count": 1398,
+              "max_sample_distance_mm": 5.2275034585958435e-08
+            }
+          ],
+          "STEP_check": {
+            "return": "None",
+            "error": null
+          }
+        }
+      ],
+      "unchanged_in_memory_shape_hash_count": 116,
+      "reopened_unrelated_numeric_normalization": {
+        "L_ShoulderMotor0": {
+          "different_numeric_tokens": 23,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "R_ShoulderMotor0": {
+          "different_numeric_tokens": 33,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "R_RollMotorVendor": {
+          "different_numeric_tokens": 64,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "R_HipRollMotor": {
+          "different_numeric_tokens": 23,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "R_HipYawMotor": {
+          "different_numeric_tokens": 23,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "L_RollMotorVendor": {
+          "different_numeric_tokens": 23,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "L_HipRollMotor": {
+          "different_numeric_tokens": 23,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "L_HipYawMotor": {
+          "different_numeric_tokens": 23,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "L_ShoulderMotor1": {
+          "different_numeric_tokens": 23,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "L_ShoulderMotor2": {
+          "different_numeric_tokens": 23,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "L_ElbowMotor": {
+          "different_numeric_tokens": 23,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "R_ShoulderMotor1": {
+          "different_numeric_tokens": 5,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "R_ShoulderMotor2": {
+          "different_numeric_tokens": 746,
+          "max_numeric_token_delta": 1.0231815394945443e-12
+        },
+        "R_UpperArm": {
+          "different_numeric_tokens": 10,
+          "max_numeric_token_delta": 9.947598300641403e-14
+        },
+        "R_ElbowMotor": {
+          "different_numeric_tokens": 610,
+          "max_numeric_token_delta": 2.220446049250313e-16
+        },
+        "R_ForearmLoadFrame": {
+          "different_numeric_tokens": 116,
+          "max_numeric_token_delta": 2.220446049250313e-16
+        },
+        "R_GauntletPrimaryPad": {
+          "different_numeric_tokens": 32,
+          "max_numeric_token_delta": 2.220446049250313e-16
+        },
+        "R_WristMotorEnvelope0": {
+          "different_numeric_tokens": 20,
+          "max_numeric_token_delta": 2.220446049250313e-16
+        },
+        "R_WristMotorEnvelope1": {
+          "different_numeric_tokens": 20,
+          "max_numeric_token_delta": 2.220446049250313e-16
+        }
+      },
+      "component_count": 118,
+      "reimported_STEP_valid": true,
+      "reimported_STEP_solid_count": 362,
+      "source_native_solid_count": 362,
+      "changed_pair_audit": {
+        "failed_pairs": [],
+        "near_pairs": [
+          {
+            "a": "R_FixedFrame",
+            "b": "R_RollRod",
+            "distance_mm": 10.000000000000034,
+            "overlap_mm3": 0.0,
+            "intentional_reservation_union": false
+          },
+          {
+            "a": "R_FixedBearings",
+            "b": "R_RollRod",
+            "distance_mm": 10.198039027185596,
+            "overlap_mm3": 0,
+            "intentional_reservation_union": false
+          },
+          {
+            "a": "R_RollRod",
+            "b": "R_RollCrankTop",
+            "distance_mm": 1.0000000000000058,
+            "overlap_mm3": 0.0,
+            "intentional_reservation_union": false
+          },
+          {
+            "a": "R_RollRod",
+            "b": "R_RollCrankBottom",
+            "distance_mm": 1.0000000000000258,
+            "overlap_mm3": 0.0,
+            "intentional_reservation_union": false
+          },
+          {
+            "a": "R_RollRod",
+            "b": "R_RollPin0",
+            "distance_mm": 8.881784197001252e-15,
+            "overlap_mm3": 0.0,
+            "intentional_reservation_union": false
+          },
+          {
+            "a": "R_RollRod",
+            "b": "R_RollPin1",
+            "distance_mm": 7.105427357601002e-15,
+            "overlap_mm3": 0.0,
+            "intentional_reservation_union": false
+          },
+          {
+            "a": "L_FixedFrame",
+            "b": "L_RollRod",
+            "distance_mm": 10.000000000000004,
+            "overlap_mm3": 0.0,
+            "intentional_reservation_union": false
+          },
+          {
+            "a": "L_FixedBearings",
+            "b": "L_RollRod",
+            "distance_mm": 10.198039027185589,
+            "overlap_mm3": 0,
+            "intentional_reservation_union": false
+          },
+          {
+            "a": "L_RollCarrier",
+            "b": "L_RollRod",
+            "distance_mm": 21.49788391290522,
+            "overlap_mm3": 0,
+            "intentional_reservation_union": false
+          },
+          {
+            "a": "L_RollRod",
+            "b": "L_RollCrankTop",
+            "distance_mm": 1.0000000000000433,
+            "overlap_mm3": 0.0,
+            "intentional_reservation_union": false
+          },
+          {
+            "a": "L_RollRod",
+            "b": "L_RollCrankBottom",
+            "distance_mm": 1.0000000000000122,
+            "overlap_mm3": 0.0,
+            "intentional_reservation_union": false
+          },
+          {
+            "a": "L_RollRod",
+            "b": "L_RollPin0",
+            "distance_mm": 4.4938668397781776e-14,
+            "overlap_mm3": 0.0,
+            "intentional_reservation_union": false
+          },
+          {
+            "a": "L_RollRod",
+            "b": "L_RollPin1",
+            "distance_mm": 5.859285502108464e-14,
+            "overlap_mm3": 0.0,
+            "intentional_reservation_union": false
+          }
+        ],
+        "changed_pairs_considered": 233,
+        "pass": true
+      },
+      "assembly_bbox_max_delta_mm": 0.0,
+      "CAD_mass_delta_kg": 2.592258957003537e-08,
+      "manufacturing_release": false,
+      "output_sha256": {
+        "09_cad\\step_repair_v26\\repaired\\lift_h117.FCStd": "95754f40076deba8e0c408fcea02382c1e03c6567b9fcaa45ea2d9dbd82c26ab",
+        "09_cad\\step_repair_v26\\repaired\\lift_h117.step": "79ec55cf29f347769c155f16ce8a154674f988eba4531ec2955cbdac93ce91af"
+      }
+    },
+    {
+      "scene": "lift_h120",
+      "source_native_sha256": "b13856d19bcbf885b2a78784ef24d7cb7149aa791e4fde62e6b8e020d0984d5f",
+      "source_STEP_sha256": "37a6c68f1ea28421930608fd122c35b396efc9497a1ef7ef14f8d582f0fe1311",
+      "targets": [
+        {
+          "object": "L_RollRod",
+          "before": {
+            "valid": true,
+            "volume_mm3": 756.5483231265777,
+            "area_mm2": 821.466415470298,
+            "center_mm": [
+              84.30001039629344,
+              74.99999989468078,
+              103.04108748071052
+            ],
+            "bbox_mm": [
+              75.06854503044464,
+              93.53147742969155,
+              70.0,
+              80.0,
+              84.75890175132618,
+              121.3232692444608
+            ],
+            "faces": 13,
+            "edges": 32,
+            "vertices": 16,
+            "solids": 1,
+            "max_topology_tolerance_mm": 1e-05
+          },
+          "after": {
+            "valid": true,
+            "volume_mm3": 756.5499742563322,
+            "area_mm2": 821.4670566556772,
+            "center_mm": [
+              84.3000211439038,
+              74.99999972306304,
+              103.04106153634591
+            ],
+            "bbox_mm": [
+              75.06854503044467,
+              93.53147743028556,
+              70.0,
+              80.0,
+              84.75890175132619,
+              121.32326924471154
+            ],
+            "faces": 11,
+            "edges": 27,
+            "vertices": 14,
+            "solids": 1,
+            "max_topology_tolerance_mm": 5.12912063199386e-05
+          },
+          "difference": {
+            "volume_delta_mm3": 0.001651129754577596,
+            "area_delta_mm2": 0.0006411853792087641,
+            "center_displacement_mm": 2.808292427908585e-05,
+            "max_bbox_delta_mm": 5.940137270954438e-10,
+            "faces_delta": -2
+          },
+          "boundary_samples": [
+            {
+              "sample_count": 1700,
+              "max_sample_distance_mm": 5.555553113798203e-08
+            },
+            {
+              "sample_count": 1398,
+              "max_sample_distance_mm": 5.765947787459962e-08
+            }
+          ],
+          "eye_centers_local_mm": [
+            [
+              49.00000000000001,
+              15.0,
+              100.0
+            ],
+            [
+              49.00000000000004,
+              15.0,
+              72.0
+            ]
+          ],
+          "eye_widths_mm": [
+            4.000000000000014,
+            4.000000000000028
+          ],
+          "native_check": {
+            "return": "None",
+            "error": null
+          },
+          "mass_delta_kg_at_inherited_steel_density": 1.2961368573434128e-08,
+          "STEP_solid_index": 152,
+          "STEP_vs_original": {
+            "volume_delta_mm3": 0.001997633537598631,
+            "area_delta_mm2": 0.001218927130821612,
+            "center_displacement_mm": 2.464282436217946e-05,
+            "max_bbox_delta_mm": 2.281573074469634e-06,
+            "faces_delta": -2
+          },
+          "STEP_boundary_samples": [
+            {
+              "sample_count": 1700,
+              "max_sample_distance_mm": 5.555555185803585e-08
+            },
+            {
+              "sample_count": 1398,
+              "max_sample_distance_mm": 5.765952375495356e-08
+            }
+          ],
+          "STEP_check": {
+            "return": "None",
+            "error": null
+          }
+        },
+        {
+          "object": "R_RollRod",
+          "before": {
+            "valid": true,
+            "volume_mm3": 756.5483231265778,
+            "area_mm2": 821.4664154702976,
+            "center_mm": [
+              -146.6657611121117,
+              -74.99999989468077,
+              21.791429502897373
+            ],
+            "bbox_mm": [
+              -162.1038638493536,
+              -131.22766156279266,
+              -80.0,
+              -70.0,
+              7.569041314641027,
+              36.01382057977311
+            ],
+            "faces": 13,
+            "edges": 32,
+            "vertices": 16,
+            "solids": 1,
+            "max_topology_tolerance_mm": 1e-05
+          },
+          "after": {
+            "valid": true,
+            "volume_mm3": 756.5499742543919,
+            "area_mm2": 821.467056637937,
+            "center_mm": [
+              -146.66578182191014,
+              -75.000000276885,
+              21.791448469830797
+            ],
+            "bbox_mm": [
+              -162.10386384978585,
+              -131.2276615627927,
+              -80.0,
+              -70.0,
+              7.569041314162592,
+              36.01382057977307
+            ],
+            "faces": 11,
+            "edges": 27,
+            "vertices": 14,
+            "solids": 1,
+            "max_topology_tolerance_mm": 5.129101149819764e-05
+          },
+          "difference": {
+            "volume_delta_mm3": 0.0016511278141706498,
+            "area_delta_mm2": 0.0006411676394009191,
+            "center_displacement_mm": 2.808534127989067e-05,
+            "max_bbox_delta_mm": 4.784350693398665e-10,
+            "faces_delta": -2
+          },
+          "boundary_samples": [
+            {
+              "sample_count": 1700,
+              "max_sample_distance_mm": 5.230832699746999e-08
+            },
+            {
+              "sample_count": 1398,
+              "max_sample_distance_mm": 5.221688641699159e-08
+            }
+          ],
+          "eye_centers_local_mm": [
+            [
+              49.00000000000004,
+              -15.0,
+              100.00000000000003
+            ],
+            [
+              49.00000000000002,
+              -15.0,
+              72.00000000000001
+            ]
+          ],
+          "eye_widths_mm": [
+            4.000000000000028,
+            4.000000000000014
+          ],
+          "native_check": {
+            "return": "None",
+            "error": null
+          },
+          "mass_delta_kg_at_inherited_steel_density": 1.29613533412396e-08,
+          "STEP_solid_index": 73,
+          "STEP_vs_original": {
+            "volume_delta_mm3": 0.0019976371731900144,
+            "area_delta_mm2": 0.00121892755475983,
+            "center_displacement_mm": 2.4654883258279082e-05,
+            "max_bbox_delta_mm": 1.8374637500429003e-06,
+            "faces_delta": -2
+          },
+          "STEP_boundary_samples": [
+            {
+              "sample_count": 1700,
+              "max_sample_distance_mm": 5.2366452017909776e-08
+            },
+            {
+              "sample_count": 1398,
+              "max_sample_distance_mm": 5.2275034585958435e-08
+            }
+          ],
+          "STEP_check": {
+            "return": "None",
+            "error": null
+          }
+        }
+      ],
+      "unchanged_in_memory_shape_hash_count": 116,
+      "reopened_unrelated_numeric_normalization": {
+        "L_ShoulderMotor0": {
+          "different_numeric_tokens": 23,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "R_ShoulderMotor0": {
+          "different_numeric_tokens": 33,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "R_RollMotorVendor": {
+          "different_numeric_tokens": 64,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "R_HipRollMotor": {
+          "different_numeric_tokens": 64,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "R_HipYawMotor": {
+          "different_numeric_tokens": 64,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "L_RollMotorVendor": {
+          "different_numeric_tokens": 23,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "L_HipRollMotor": {
+          "different_numeric_tokens": 23,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "L_HipYawMotor": {
+          "different_numeric_tokens": 23,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "L_ShoulderMotor1": {
+          "different_numeric_tokens": 23,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "L_ShoulderMotor2": {
+          "different_numeric_tokens": 23,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "L_ElbowMotor": {
+          "different_numeric_tokens": 23,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "R_ShoulderMotor1": {
+          "different_numeric_tokens": 23,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "R_ShoulderMotor2": {
+          "different_numeric_tokens": 1114,
+          "max_numeric_token_delta": 1.0231815394945443e-12
+        },
+        "R_UpperArm": {
+          "different_numeric_tokens": 27,
+          "max_numeric_token_delta": 9.947598300641403e-14
+        },
+        "R_ElbowMotor": {
+          "different_numeric_tokens": 3891,
+          "max_numeric_token_delta": 2.220446049250313e-16
+        },
+        "R_ForearmLoadFrame": {
+          "different_numeric_tokens": 48,
+          "max_numeric_token_delta": 1.0658141036401503e-14
+        },
+        "R_GauntletPrimaryPad": {
+          "different_numeric_tokens": 12,
+          "max_numeric_token_delta": 1.1102230246251565e-16
+        },
+        "R_WristMotorEnvelope0": {
+          "different_numeric_tokens": 7,
+          "max_numeric_token_delta": 1.9984014443252818e-15
+        },
+        "R_WristMotorEnvelope1": {
+          "different_numeric_tokens": 6,
+          "max_numeric_token_delta": 1.3877787807814457e-17
+        }
+      },
+      "component_count": 118,
+      "reimported_STEP_valid": true,
+      "reimported_STEP_solid_count": 362,
+      "source_native_solid_count": 362,
+      "changed_pair_audit": {
+        "failed_pairs": [],
+        "near_pairs": [
+          {
+            "a": "R_FixedFrame",
+            "b": "R_RollRod",
+            "distance_mm": 10.000000000000034,
+            "overlap_mm3": 0.0,
+            "intentional_reservation_union": false
+          },
+          {
+            "a": "R_FixedBearings",
+            "b": "R_RollRod",
+            "distance_mm": 10.198039027185596,
+            "overlap_mm3": 0,
+            "intentional_reservation_union": false
+          },
+          {
+            "a": "R_RollRod",
+            "b": "R_RollCrankTop",
+            "distance_mm": 1.0000000000000058,
+            "overlap_mm3": 0.0,
+            "intentional_reservation_union": false
+          },
+          {
+            "a": "R_RollRod",
+            "b": "R_RollCrankBottom",
+            "distance_mm": 1.0000000000000258,
+            "overlap_mm3": 0.0,
+            "intentional_reservation_union": false
+          },
+          {
+            "a": "R_RollRod",
+            "b": "R_RollPin0",
+            "distance_mm": 8.881784197001252e-15,
+            "overlap_mm3": 0.0,
+            "intentional_reservation_union": false
+          },
+          {
+            "a": "R_RollRod",
+            "b": "R_RollPin1",
+            "distance_mm": 7.105427357601002e-15,
+            "overlap_mm3": 0.0,
+            "intentional_reservation_union": false
+          },
+          {
+            "a": "L_FixedFrame",
+            "b": "L_RollRod",
+            "distance_mm": 10.000000000000076,
+            "overlap_mm3": 0.0,
+            "intentional_reservation_union": false
+          },
+          {
+            "a": "L_FixedBearings",
+            "b": "L_RollRod",
+            "distance_mm": 10.198039027185638,
+            "overlap_mm3": 0,
+            "intentional_reservation_union": false
+          },
+          {
+            "a": "L_RollCarrier",
+            "b": "L_RollRod",
+            "distance_mm": 21.497883912905277,
+            "overlap_mm3": 0,
+            "intentional_reservation_union": false
+          },
+          {
+            "a": "L_RollRod",
+            "b": "L_RollCrankTop",
+            "distance_mm": 1.0000000000000493,
+            "overlap_mm3": 0.0,
+            "intentional_reservation_union": false
+          },
+          {
+            "a": "L_RollRod",
+            "b": "L_RollCrankBottom",
+            "distance_mm": 1.0000000000000548,
+            "overlap_mm3": 0.0,
+            "intentional_reservation_union": false
+          },
+          {
+            "a": "L_RollRod",
+            "b": "L_RollPin0",
+            "distance_mm": 1.4210854715202004e-14,
+            "overlap_mm3": 0.0,
+            "intentional_reservation_union": false
+          },
+          {
+            "a": "L_RollRod",
+            "b": "L_RollPin1",
+            "distance_mm": 3.1776437161565096e-14,
+            "overlap_mm3": 0.0,
+            "intentional_reservation_union": false
+          }
+        ],
+        "changed_pairs_considered": 233,
+        "pass": true
+      },
+      "assembly_bbox_max_delta_mm": 0.0,
+      "CAD_mass_delta_kg": 2.592272191467373e-08,
+      "manufacturing_release": false,
+      "output_sha256": {
+        "09_cad\\step_repair_v26\\repaired\\lift_h120.FCStd": "976102f6d6872b8956adc6d53ff29826ef905333ea0f67220a7dd613f9be2f84",
+        "09_cad\\step_repair_v26\\repaired\\lift_h120.step": "9ae48c7ad4e5de6fac436ecc894c5ab9683d704f770603fec0e60f02d60919d3"
+      }
+    }
+  ],
+  "method": "Rebuild source-owned two-eye cylinder rods; solid union first, each hole drilled once; same Placement and dimensions",
+  "scope": "Native and STEP exchange validation only. No actual hardware, full dynamics/CAE or manufacturing release.",
+  "global_import_export_preferences_changed": false,
+  "source_files_changed": false
+}
