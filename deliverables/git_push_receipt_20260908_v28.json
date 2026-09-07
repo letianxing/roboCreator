@@ -1,0 +1,21 @@
+{
+  "date":"2026-09-08",
+  "status":"engineering_push_verified",
+  "verified_at_local":"2026-09-08T01:38:48+08:00",
+  "remote":"git@github.com:letianxing/roboCreator.git",
+  "branch":"main",
+  "engineering_commit":"af665c73225fa888676404e10983ed03a2d699cd",
+  "previous_remote_commit":"9f0af22c30edbf641734c05e82d07831fc9ddda2",
+  "verified_remote_engineering_commit":"af665c73225fa888676404e10983ed03a2d699cd",
+  "engineering_commit_changed_files":399,
+  "planned_LFS_objects":211,
+  "planned_LFS_bytes":8008508185,
+  "LFS_client_completion":"Uploading LFS objects:100% (211/211),8.0 GB,done",
+  "push_exit_code":0,
+  "checkpoint_id":"20260908_011611_659528_v0.28-neck-study",
+  "checkpoint_sha256":"556ca4b5a56b48f1fe0e72ba81bb742d3e7923f67a8eeb9c3b5a4c5207e05c6d",
+  "checkpoint_file_count":1228,
+  "receipt_created_after_engineering_checkpoint":true,
+  "resume":"Engineering commit and remote main matched after upload. This receipt and root handoff notes are committed separately afterward; use git log and ls-remote for the latest receipt commit. Do not redo finished CAD research.",
+  "engineering_release":"Research only; cable routes, joint combinations and crown envelope include explicit failures. No manufacturing release."
+}

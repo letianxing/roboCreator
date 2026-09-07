@@ -2,6 +2,8 @@
 
 最后更新：2026-09-08。项目根目录：`G:\Golands\roboCreator`。当前分支：`main`，远端：`git@github.com:letianxing/roboCreator.git`。
 
+Git续接：工程提交`af665c73225fa888676404e10983ed03a2d699cd`已成功推送，远端main已核对一致；211个LFS对象约8GB完成上传。回执`deliverables/git_push_receipt_20260908_v28.json`及本页随后单独提交，最新回执提交号以`git log`/`git ls-remote`为准。新终端继续v28未通过项，不重做已完成研究。
+
 最新v28：先读`deliverables/neck_review_v28.md`、`03_system/neck_interfaces_v28.json`和`11_verification/neck_v28_checks.json`。厂家X330几何和两轴链已建立，27裸几何姿态17通过、中央低头0–50°采样通过；两条恒长线缆均失败，顶部占位全区间峰值401.036mm。不能把文件夹`neck_hardware_v28_final`当制造定型。下一步承力支架/真实装配相位、分段线缆、顶部尺寸与耦合安全路径。用户已要求本轮保存后提交推送全部进度，实际结果查推送回执/Git远端。
 
 最新研究v27：先读`deliverables/camera_review_v27.md`。D436仅为优先工程候选，Gemini335为紧凑备选，未采购/冻结。48站姿名义壳体场景15通过/33碰撞；当前相机俯视需要真实颈轴与头甲联动，不能将绕相机中心的试探旋转当关节ROM。D436质量/功耗/图纸/近距模式和M4支持仍待证。下一步颈部—头甲—相机—线缆联合设计，采购暂缓。研究CAD在`09_cad/camera_v27/`；完整整机基线仍是下方v26。

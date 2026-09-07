@@ -2,7 +2,7 @@
 
 用于保存机器人从需求、设计、制造到标定、仿真、训练和真机迭代的提示词与项目产物。
 
-最新研究：[v0.28颈部轴系与线缆报告](deliverables/neck_review_v28.md) · [预览](09_cad/neck_hardware_v28_final/neck_review.png)。厂家几何与联动已建立，但线缆、组合姿态、顶部尺寸及实际支架仍未闭合，不是制造定型。用户已要求提交/推送本轮及此前未提交进度，实际结果以Git回执为准。
+最新研究：[v0.28颈部轴系与线缆报告](deliverables/neck_review_v28.md) · [预览](09_cad/neck_hardware_v28_final/neck_review.png)。厂家几何与联动已建立，但线缆、组合姿态、顶部尺寸及实际支架仍未闭合，不是制造定型。工程提交`af665c7`及约8GB LFS已成功推送；见[Git回执](deliverables/git_push_receipt_20260908_v28.json)，后续回执提交以Git日志为准。
 
 最新研究：[v0.27摄像头预选与视野/安装检查](deliverables/camera_review_v27.md) · [视野示意](09_cad/camera_v27/fov_comparison.png)。D436仅为优先工程候选，仍缺近距模式/实物/双平台和真实颈部联动验证，暂不采购；完整整机基线仍为v26。
 
